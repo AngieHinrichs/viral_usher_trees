@@ -30,11 +30,12 @@ jobs:
     - name: Build
       run: |
         mkdir -p trees/${{ matrix.species }}
-        viral_usher build --config trees/${{ matrix.species }}/config.toml
+        sed -e "s@^workdir = '\.@workdir = '"$(pwd)"@" trees/${{ matrix.species }}/config.toml > trees/${{ matrix.species }}/local.toml
+        viral_usher build --config trees/${{ matrix.species }}/local.toml
 
     - name: Cleanup
       run: |
-        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*}
+        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml}
         rm -f trees/${{ matrix.species }}/{mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
         df -h
 
@@ -61,11 +62,12 @@ jobs:
     - name: Build
       run: |
         mkdir -p trees/${{ matrix.species }}
-        viral_usher build --config trees/${{ matrix.species }}/config.toml
+        sed -e "s@^workdir = '\.@workdir = '"$(pwd)"@" trees/${{ matrix.species }}/config.toml > trees/${{ matrix.species }}/local.toml
+        viral_usher build --config trees/${{ matrix.species }}/local.toml
 
     - name: Cleanup
       run: |
-        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*}
+        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml}
         rm -f trees/${{ matrix.species }}/{mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
         df -h
 
