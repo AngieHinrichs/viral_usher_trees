@@ -1,0 +1,30 @@
+viral_usher monthly build
+==========================
+
+Build Date: 2025-08-19
+Python Version: Python 3.12.3
+Viral Usher Version: 
+
+Files Generated:
+trees/measles/metadata.tsv.gz
+trees/measles/optimized.pb.gz
+trees/measles/tree.jsonl.gz
+trees/measles/viz.pb.gz
+trees/mumps/metadata.tsv.gz
+trees/mumps/optimized.pb.gz
+trees/mumps/tree.jsonl.gz
+trees/mumps/viz.pb.gz
+
+File Sizes:
+78K trees/mumps/viz.pb.gz
+249K trees/mumps/metadata.tsv.gz
+154K trees/mumps/tree.jsonl.gz
+385 trees/mumps/config.toml
+70K trees/mumps/optimized.pb.gz
+0 trees/build_report.txt
+97K trees/measles/viz.pb.gz
+451K trees/measles/metadata.tsv.gz
+461K trees/measles/tree.jsonl.gz
+420 trees/measles/config.toml
+89K trees/measles/optimized.pb.gz
+423 trees/rsv/config.toml
