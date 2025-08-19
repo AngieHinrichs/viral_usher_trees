@@ -89,7 +89,6 @@ jobs:
         echo "timestamp=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_OUTPUT
         echo "version=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
         echo "trees=\"$(ls trees | grep -v build_report.txt | tr '\n' ' ' | sed 's/ $//')\"" >> $GITHUB_OUTPUT
-        echo "EOF" >> $GITHUB_OUTPUT
         echo "short_sha=${GITHUB_SHA:0:7}" >> $GITHUB_OUTPUT
     
     - name: Create summary
