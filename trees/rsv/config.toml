@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_038235.1, taxonomy ID 11250
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_038235.1'
+refseq_assembly = 'GCF_002815475.1'
+taxonomy_id = '11250'
+nextclade_dataset = 'nextstrain/rsv/a/EPI_ISL_412866'
+nextclade_clade_columns = 'clade,G_clade'
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/rsv'

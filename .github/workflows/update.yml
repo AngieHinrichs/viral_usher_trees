@@ -1,0 +1,194 @@
+name: viral_usher monthly tree update
+
+on:
+  schedule:
+    # Runs first day of every month at 2:00 AM UTC
+    - cron: '0 2 1 * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  # Parallel tree-building jobs: create jobs in order of longest-running first
+  medium:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        species: [rsv]
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install viral_usher
+      run: |
+        pip install --upgrade pip
+        pip install viral_usher
+    
+    - name: Build
+      run: |
+        mkdir -p trees/${{ matrix.species }}
+        viral_usher build --config trees/${{ matrix.species }}/config.toml
+
+    - name: Cleanup
+      run: |
+        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*}
+        rm -f trees/${{ matrix.species }}/{mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
+        df -h
+
+
+  small-fry:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        species: [measles, mumps]
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install viral_usher
+      run: |
+        pip install --upgrade pip
+        pip install viral_usher
+    
+    - name: Build
+      run: |
+        mkdir -p trees/${{ matrix.species }}
+        viral_usher build --config trees/${{ matrix.species }}/config.toml
+
+    - name: Cleanup
+      run: |
+        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*}
+        rm -f trees/${{ matrix.species }}/{mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
+        df -h
+
+
+  # Final job that waits for parallel builds to complete
+  upload-release:
+    runs-on: ubuntu-latest
+    needs: [small-fry, medium]
+    
+    permissions:
+      contents: write
+      packages: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install viral_usher
+      run: |
+        pip install --upgrade pip
+        pip install viral_usher
+    
+    - name: Create output directories
+      run: |
+        mkdir -p output/trees
+        mkdir -p output/reports
+        mkdir -p output/data
+    
+    - name: Generate timestamp and version
+      id: timestamp
+      run: |
+        echo "timestamp=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_OUTPUT
+        echo "version=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
+        echo "trees=$(ls trees)"          >> $GITHUB_OUTPUT
+        echo "short_sha=${GITHUB_SHA:0:7}" >> $GITHUB_OUTPUT
+    
+    - name: Create summary
+      run: |
+        cat > trees/build_report.txt << EOF
+        viral_usher monthly build
+        ==========================
+        
+        Build Date: $(date +%F)
+        Python Version: $(python --version)
+        Viral Usher Version: $(pip show viral_usher | grep Version | cut -d' ' -f2)
+        
+        Files Generated:
+        $(find trees -type f -name "*.pb.gz" -o -name "*.jsonl.gz" -o -name "*.tsv.gz" | sort)
+        
+        File Sizes:
+        $(find trees -type f -exec ls -lh {} \; | awk '{print $5, $9}')
+        EOF
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: viral-usher-analysis-${{ steps.timestamp.outputs.timestamp }}
+        path: |
+          trees/**/*.pb.gz
+          trees/**/*.tsv.gz
+          trees/**/*.jsonl.gz
+        retention-days: 15
+    
+    - name: Commit updated files
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add all output files
+        git add output/
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Monthly update - ${{ steps.timestamp.outputs.timestamp }}
+
+          Trees: ${{ steps.timestamp.outputs.trees }}
+          Version: ${{ steps.timestamp.outputs.version }}
+          Run: ${{ github.run_number }}
+          SHA: ${{ steps.timestamp.outputs.short_sha }}"
+          
+          git push
+        fi
+    
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ steps.timestamp.outputs.version }}
+        release_name: Monthly update ${{ steps.timestamp.outputs.version }}
+        body: |
+          ## viral_usher monthly update - ${{ steps.timestamp.outputs.version }}
+          
+          This release contains the monthly update of trees generated by viral_usher.
+          
+          ### Generated Files:
+          - trees/ subdirectories: ${{ steps.timestamp.outputs.trees }}
+          - Phylogenetic trees (Protobuf, Taxonium formats)
+          - Metadata (TSV)
+          
+          ### Workflow Details:
+          - **Commit**: ${{ steps.timestamp.outputs.short_sha }}
+          - **Date**: ${{ steps.timestamp.outputs.timestamp }}
+        draft: false
+        prerelease: false
+    
+    - name: Upload release assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: trees/build_report.txt
+        asset_name: build_report.txt
+        asset_content_type: text/plain
+    
