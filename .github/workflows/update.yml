@@ -41,7 +41,7 @@ jobs:
     - name: Upload tree files
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ matrix.species }}-results
+        name: ${{ matrix.species }}
         path: |
           trees/${{ matrix.species }}/optimized.pb.gz
           trees/${{ matrix.species }}/viz.pb.gz
@@ -68,7 +68,7 @@ jobs:
     - name: Download all species artifacts
       uses: actions/download-artifact@v4
       with:
-        pattern: "*-results"
+        pattern: "*"
         path: trees/
         merge-multiple: false
     
