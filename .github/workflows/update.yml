@@ -29,7 +29,6 @@ jobs:
     
     - name: Build
       run: |
-        mkdir -p trees/${{ matrix.species }}
         sed -e "s@^workdir = '\.@workdir = '"$(pwd)"@" trees/${{ matrix.species }}/config.toml > trees/${{ matrix.species }}/local.toml
         viral_usher build --config trees/${{ matrix.species }}/local.toml
 
@@ -61,7 +60,6 @@ jobs:
     
     - name: Build
       run: |
-        mkdir -p trees/${{ matrix.species }}
         sed -e "s@^workdir = '\.@workdir = '"$(pwd)"@" trees/${{ matrix.species }}/config.toml > trees/${{ matrix.species }}/local.toml
         viral_usher build --config trees/${{ matrix.species }}/local.toml
 
@@ -96,12 +94,6 @@ jobs:
       run: |
         pip install --upgrade pip
         pip install viral_usher
-    
-    - name: Create output directories
-      run: |
-        mkdir -p output/trees
-        mkdir -p output/reports
-        mkdir -p output/data
     
     - name: Generate timestamp and version
       id: timestamp
@@ -144,8 +136,8 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # Add all output files
-        git add output/
+        # Add all updated files
+        git add trees/
         
         # Check if there are changes to commit
         if git diff --staged --quiet; then
