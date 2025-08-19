@@ -7,39 +7,8 @@ on:
   workflow_dispatch: # Allow manual triggering
 
 jobs:
-  # Parallel tree-building jobs: create jobs in order of longest-running first
-  medium:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        species: [rsv]
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-    
-    - name: Install viral_usher
-      run: |
-        pip install --upgrade pip
-        pip install viral_usher
-    
-    - name: Build
-      run: |
-        sed -e "s@^workdir = '\.@workdir = '"$(pwd)"@" trees/${{ matrix.species }}/config.toml > trees/${{ matrix.species }}/local.toml
-        viral_usher build --config trees/${{ matrix.species }}/local.toml
-
-    - name: Cleanup
-      run: |
-        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml}
-        rm -f trees/${{ matrix.species }}/{mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
-        df -h
-
-
-  small-fry:
+  # Create build jobs in order of longest-running first, for more efficient use of parallel runners
+  build-trees:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -69,11 +38,21 @@ jobs:
         rm -f trees/${{ matrix.species }}/{mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
         df -h
 
+    - name: Upload tree files
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.species }}-results
+        path: |
+          trees/${{ matrix.species }}/optimized.pb.gz
+          trees/${{ matrix.species }}/viz.pb.gz
+          trees/${{ matrix.species }}/metadata.tsv.gz
+          trees/${{ matrix.species }}/tree.jsonl.gz
+
 
   # Final job that waits for parallel builds to complete
   upload-release:
     runs-on: ubuntu-latest
-    needs: [small-fry, medium]
+    needs: build-trees
     
     permissions:
       contents: write
@@ -83,24 +62,26 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
+        # Fetch the whole history plus tags & branches
         fetch-depth: 0
-    
-    - name: Set up Python
-      uses: actions/setup-python@v5
+
+    - name: Download all species artifacts
+      uses: actions/download-artifact@v4
       with:
-        python-version: '3.11'
-    
-    - name: Install viral_usher
-      run: |
-        pip install --upgrade pip
-        pip install viral_usher
+        pattern: "*-results"
+        path: trees/
+        merge-multiple: false
     
     - name: Generate timestamp and version
       id: timestamp
       run: |
+        ls -R
+        if [[ ! -s trees/mumps/tree.jsonl.gz ]]; then echo "no trees/mumps/tree.jsonl.gz, exiting"; exit 1; fi
         echo "timestamp=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_OUTPUT
         echo "version=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
-        echo "trees=$(ls trees)"          >> $GITHUB_OUTPUT
+        echo "trees<<EOF" >> $GITHUB_OUTPUT
+        ls trees >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
         echo "short_sha=${GITHUB_SHA:0:7}" >> $GITHUB_OUTPUT
     
     - name: Create summary
@@ -124,10 +105,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: viral-usher-analysis-${{ steps.timestamp.outputs.timestamp }}
-        path: |
-          trees/**/*.pb.gz
-          trees/**/*.tsv.gz
-          trees/**/*.jsonl.gz
+        path: trees/
         retention-days: 15
     
     - name: Commit updated files
