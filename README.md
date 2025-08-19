@@ -10,3 +10,5 @@ Each subdirectory contains the following files:
 - viz.pb.gz: tree in UShER protobuf format; tip names include isolate, accession, collection date
 - metadata.tsv.gz: metadata file describing input sequences in TSV format
 - tree.jsonl.gz: Taxonium tree file, viewable using https://taxonium.org/
+
+Each pathogen subdirectory of `trees` also has a file `config.toml` that contains configuration parameters for the viral_usher build.
