@@ -6,6 +6,7 @@ automatically updated on a monthly basis.
 
 All tree files are in the `trees` directory, with a subdirectory per pathogen.
 Each subdirectory contains the following files:
-- optimized.pb.gz: tree in UShER protobuf format
+- optimized.pb.gz: tree in UShER protobuf format; tip names are GenBank accessions
+- viz.pb.gz: tree in UShER protobuf format; tip names include isolate, accession, collection date
 - metadata.tsv.gz: metadata file describing input sequences in TSV format
 - tree.jsonl.gz: Taxonium tree file, viewable using https://taxonium.org/
