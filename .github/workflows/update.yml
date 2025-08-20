@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        species: [rsv, measles, mumps]
+        species: [rsv, polio, hantavirus_L, hantavirus_M, hantavirus_S, measles, mumps]
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
