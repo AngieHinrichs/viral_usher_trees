@@ -6,6 +6,34 @@ Python Version: Python 3.11.13
 Viral Usher Version: 0.7.0
 
 Files Generated:
+trees/dengue_1/metadata.tsv.gz
+trees/dengue_1/optimized.pb.gz
+trees/dengue_1/tree.jsonl.gz
+trees/dengue_1/viz.pb.gz
+trees/dengue_2/metadata.tsv.gz
+trees/dengue_2/optimized.pb.gz
+trees/dengue_2/tree.jsonl.gz
+trees/dengue_2/viz.pb.gz
+trees/dengue_3/metadata.tsv.gz
+trees/dengue_3/optimized.pb.gz
+trees/dengue_3/tree.jsonl.gz
+trees/dengue_3/viz.pb.gz
+trees/dengue_4/metadata.tsv.gz
+trees/dengue_4/optimized.pb.gz
+trees/dengue_4/tree.jsonl.gz
+trees/dengue_4/viz.pb.gz
+trees/enterovirus_D68/metadata.tsv.gz
+trees/enterovirus_D68/optimized.pb.gz
+trees/enterovirus_D68/tree.jsonl.gz
+trees/enterovirus_D68/viz.pb.gz
+trees/hantavirus_M/metadata.tsv.gz
+trees/hantavirus_M/optimized.pb.gz
+trees/hantavirus_M/tree.jsonl.gz
+trees/hantavirus_M/viz.pb.gz
+trees/hantavirus_S/metadata.tsv.gz
+trees/hantavirus_S/optimized.pb.gz
+trees/hantavirus_S/tree.jsonl.gz
+trees/hantavirus_S/viz.pb.gz
 trees/measles/metadata.tsv.gz
 trees/measles/optimized.pb.gz
 trees/measles/tree.jsonl.gz
@@ -14,21 +42,50 @@ trees/mumps/metadata.tsv.gz
 trees/mumps/optimized.pb.gz
 trees/mumps/tree.jsonl.gz
 trees/mumps/viz.pb.gz
+trees/polio/metadata.tsv.gz
+trees/polio/optimized.pb.gz
+trees/polio/tree.jsonl.gz
+trees/polio/viz.pb.gz
 trees/rsv/metadata.tsv.gz
 trees/rsv/optimized.pb.gz
 trees/rsv/tree.jsonl.gz
 trees/rsv/viz.pb.gz
 
 File Sizes:
-79K trees/mumps/viz.pb.gz
+470K trees/dengue_1/viz.pb.gz
+365K trees/dengue_1/metadata.tsv.gz
+1.1M trees/dengue_1/tree.jsonl.gz
+421 trees/dengue_1/config.toml
+421K trees/dengue_1/optimized.pb.gz
+167K trees/dengue_4/viz.pb.gz
+99K trees/dengue_4/metadata.tsv.gz
+480K trees/dengue_4/tree.jsonl.gz
+421 trees/dengue_4/config.toml
+158K trees/dengue_4/optimized.pb.gz
+491K trees/dengue_2/viz.pb.gz
+330K trees/dengue_2/metadata.tsv.gz
+1.1M trees/dengue_2/tree.jsonl.gz
+421 trees/dengue_2/config.toml
+447K trees/dengue_2/optimized.pb.gz
+240K trees/dengue_3/viz.pb.gz
+182K trees/dengue_3/metadata.tsv.gz
+614K trees/dengue_3/tree.jsonl.gz
+421 trees/dengue_3/config.toml
+219K trees/dengue_3/optimized.pb.gz
+78K trees/mumps/viz.pb.gz
 249K trees/mumps/metadata.tsv.gz
 154K trees/mumps/tree.jsonl.gz
 385 trees/mumps/config.toml
 70K trees/mumps/optimized.pb.gz
 0 trees/build_report.txt
+151 trees/hantavirus_S/viz.pb.gz
+448 trees/hantavirus_S/metadata.tsv.gz
+651 trees/hantavirus_S/tree.jsonl.gz
+388 trees/hantavirus_S/config.toml
+178 trees/hantavirus_S/optimized.pb.gz
 97K trees/measles/viz.pb.gz
 451K trees/measles/metadata.tsv.gz
-461K trees/measles/tree.jsonl.gz
+462K trees/measles/tree.jsonl.gz
 420 trees/measles/config.toml
 89K trees/measles/optimized.pb.gz
 1.3M trees/rsv/viz.pb.gz
@@ -36,3 +93,18 @@ File Sizes:
 2.7M trees/rsv/tree.jsonl.gz
 423 trees/rsv/config.toml
 1.2M trees/rsv/optimized.pb.gz
+169K trees/enterovirus_D68/viz.pb.gz
+130K trees/enterovirus_D68/metadata.tsv.gz
+390K trees/enterovirus_D68/tree.jsonl.gz
+391 trees/enterovirus_D68/config.toml
+157K trees/enterovirus_D68/optimized.pb.gz
+155 trees/hantavirus_M/viz.pb.gz
+448 trees/hantavirus_M/metadata.tsv.gz
+657 trees/hantavirus_M/tree.jsonl.gz
+388 trees/hantavirus_M/config.toml
+183 trees/hantavirus_M/optimized.pb.gz
+999K trees/polio/viz.pb.gz
+264K trees/polio/metadata.tsv.gz
+1.2M trees/polio/tree.jsonl.gz
+383 trees/polio/config.toml
+987K trees/polio/optimized.pb.gz
