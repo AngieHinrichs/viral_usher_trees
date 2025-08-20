@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_076948.1, taxonomy ID 11041
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_076948.1'
+refseq_assembly = 'GCF_024749945.1'
+taxonomy_id = '11041'
+nextclade_dataset = 'nextstrain/rubella/E1'
+nextclade_clade_columns = 'clade'
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/rubella'

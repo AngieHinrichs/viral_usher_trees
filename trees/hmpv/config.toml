@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_039199.1, taxonomy ID 162145
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_039199.1'
+refseq_assembly = 'GCF_002815375.1'
+taxonomy_id = '162145'
+nextclade_dataset = 'nextstrain/hmpv/all-clades/NC_039199'
+nextclade_clade_columns = 'clade,legacy_clade'
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/hmpv'
