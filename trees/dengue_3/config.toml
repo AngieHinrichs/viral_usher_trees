@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_001475.2, taxonomy ID 11069
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_001475.2'
+refseq_assembly = 'GCF_000866625.1'
+taxonomy_id = '11069'
+nextclade_dataset = 'community/v-gen-lab/dengue/denv3'
+nextclade_clade_columns = 'clade'
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/dengue_3'

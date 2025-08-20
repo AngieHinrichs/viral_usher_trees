@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        species: [rsv, polio, hantavirus_L, hantavirus_M, hantavirus_S, measles, mumps]
+        species: [rsv, dengue_1, dengue_2, dengue_3, dengue_4, polio, enterovirus_D68, hantavirus_M, hantavirus_S, measles, mumps]
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -28,15 +28,7 @@ jobs:
         pip install viral_usher
     
     - name: Build
-      run: |
-        sed -e "s@^workdir = '\.@workdir = '"$(pwd)"@" trees/${{ matrix.species }}/config.toml > trees/${{ matrix.species }}/local.toml
-        viral_usher build --config trees/${{ matrix.species }}/local.toml
-
-    - name: Cleanup
-      run: |
-        rm -f trees/${{ matrix.species }}/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml}
-        rm -f trees/${{ matrix.species }}/{mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
-        df -h
+      run: bash scripts/build_one.sh ${{ matrix.species }}
 
     - name: Upload tree files
       uses: actions/upload-artifact@v4

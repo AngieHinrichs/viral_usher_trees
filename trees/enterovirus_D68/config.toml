@@ -1,9 +1,9 @@
-# viral_usher config for RefSeq NC_006435.1, taxonomy ID 93830
+# viral_usher config for RefSeq NC_038308.1, taxonomy ID 42789
 
 viral_usher_version = '0.7.0'
-refseq_acc = 'NC_006435.1'
-refseq_assembly = 'GCF_000855785.1'
-taxonomy_id = '93830'
+refseq_acc = 'NC_038308.1'
+refseq_assembly = 'GCF_002816725.1'
+taxonomy_id = '42789'
 nextclade_dataset = ''
 nextclade_clade_columns = ''
 min_length_proportion = '0.8'
@@ -11,4 +11,4 @@ max_N_proportion = '0.25'
 max_parsimony = '1000'
 max_branch_length = '10000'
 extra_fasta = ''
-workdir = './trees/hantavirus_L'
+workdir = './trees/enterovirus_D68'
