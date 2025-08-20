@@ -1,7 +1,7 @@
 viral_usher monthly build
 ==========================
 
-Build Date: 2025-08-19
+Build Date: 2025-08-20
 Python Version: Python 3.11.13
 Viral Usher Version: 0.7.0
 
@@ -14,11 +14,15 @@ trees/mumps/metadata.tsv.gz
 trees/mumps/optimized.pb.gz
 trees/mumps/tree.jsonl.gz
 trees/mumps/viz.pb.gz
+trees/rsv/metadata.tsv.gz
+trees/rsv/optimized.pb.gz
+trees/rsv/tree.jsonl.gz
+trees/rsv/viz.pb.gz
 
 File Sizes:
 79K trees/mumps/viz.pb.gz
 249K trees/mumps/metadata.tsv.gz
-153K trees/mumps/tree.jsonl.gz
+154K trees/mumps/tree.jsonl.gz
 385 trees/mumps/config.toml
 70K trees/mumps/optimized.pb.gz
 0 trees/build_report.txt
@@ -27,4 +31,8 @@ File Sizes:
 461K trees/measles/tree.jsonl.gz
 420 trees/measles/config.toml
 89K trees/measles/optimized.pb.gz
+1.3M trees/rsv/viz.pb.gz
+1013K trees/rsv/metadata.tsv.gz
+2.7M trees/rsv/tree.jsonl.gz
 423 trees/rsv/config.toml
+1.2M trees/rsv/optimized.pb.gz
