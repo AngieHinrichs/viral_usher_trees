@@ -13,6 +13,7 @@ jobs:
     strategy:
       matrix:
         species: [rsv, dengue_1, dengue_2, dengue_3, dengue_4, polio, enterovirus_D68, measles, mumps, rubella, chikungunya, wnv, hmpv, hpv, yfv, zika, eeev, veev, weev, jev, slev, powassan, varicella, cev_L, cev_M, cev_S, jcv_L, jcv_M, jcv_S, lacv_L, lacv_M, lacv_S, sshv_L, sshv_M, sshv_S, cchfv_L, cchfv_M, cchfv_S, hantavirus_M, hantavirus_S]
+        max-parallel: 5
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
