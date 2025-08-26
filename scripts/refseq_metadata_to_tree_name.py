@@ -13,6 +13,7 @@ from typing import NamedTuple
 
 metadata_required_columns = ["accession", "organism", "assembly", "isolate", "strain", "serotype", "segment"]
 
+
 class Sequence(NamedTuple):
     accession: str
     segment: str
@@ -59,10 +60,10 @@ def read_metadata_tsv(input_file: str) -> defaultdict[str, defaultdict[str, Asse
 
 
 def sanitize_name(name):
-    """Replace characters with special meaning in Newick or symbols with _"""
+    """Replace characters with special meaning in Newick or filesystems/directories with _"""
     for char in " ()[]{}-.:;/'"'"':
         name = name.replace(char, '_')
-    name = re.sub(r'__+', '_', name);
+    name = re.sub(r'__+', '_', name)
     name = re.sub(r'^_', '', name)
     name = re.sub(r'_$', '', name)
     return name
@@ -126,6 +127,7 @@ def main():
             for acc in dups:
                 refseq_to_candidate[acc] += "_" + acc
             # By this point all should be resolved uniquely, add to refseq_to_name
+            writer.writerow(["accession", "tree_name"])
             for acc, candidate in refseq_to_candidate.items():
                 writer.writerow([acc, candidate])
 
