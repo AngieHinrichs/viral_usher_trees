@@ -1,1 +1,9 @@
 *~
+job_list.*
+logs
+__pycache__
+built_trees.*.txt
+failed_trees.*.txt
+config_failures.txt
+local.toml
+old
