@@ -45,7 +45,7 @@ def partition_jobs(input_tsv, job_count):
             tree = row["tree_name"]
             asm = row["assembly"]
             taxid = row["Taxonomy_ID"]
-            subdir_path = viral_usher_trees.tree_dir + "/" + tree
+            subdir_path = viral_usher_trees.trees_dir + "/" + tree
             if not os.path.isdir(subdir_path):
                 os.mkdir(subdir_path)
             config_path = subdir_path + "/" + viral_usher_trees.config_name
