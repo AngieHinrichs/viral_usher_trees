@@ -54,7 +54,7 @@ jobs:
         echo "start_timestamp=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_OUTPUT
         echo "build_version=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
         echo "viral_usher_version=$(pip show viral_usher | grep Version | cut -d' ' -f2)" >> $GITHUB_OUTPUT
-        ls trees
+        ls -R trees
 
           
   # Run concurrent jobs, each one driven by a config file from partition_trees
@@ -90,6 +90,25 @@ jobs:
 
     - name: Build
       run: bash scripts/build_job.sh ${{ matrix.job_index }}
+
+    - name: Upload logs and summaries
+      uses: actions/upload-artifact@v4
+      with:
+        name: job-${{ matrix.job_index }}-logs
+        path: |
+          logs/
+          built_trees.${{ matrix.job_index }}.txt
+          failed_trees.${{ matrix.job_index }}.txt
+        retention-days: 31
+
+    - name: Upload just the tiny summary files for summarize job
+      uses: actions/upload-artifact@v4
+      with:
+        name: job-${{ matrix.job_index }}-tree-lists
+        path: |
+          built_trees.${{ matrix.job_index }}.txt
+          failed_trees.${{ matrix.job_index }}.txt
+        retention-days: 7
 
     - name: Commit
       run: |
@@ -133,25 +152,6 @@ jobs:
             fi
           done
         fi
-
-    - name: Upload logs and summaries
-      uses: actions/upload-artifact@v4
-      with:
-        name: job-${{ matrix.job_index }}-logs
-        path: |
-          logs/
-          built_trees.${{ matrix.job_index }}.txt
-          failed_trees.${{ matrix.job_index }}.txt
-        retention-days: 31
-
-    - name: Upload just the tiny summary files for summarize job
-      uses: actions/upload-artifact@v4
-      with:
-        name: job-${{ matrix.job_index }}-tree-lists
-        path: |
-          built_trees.${{ matrix.job_index }}.txt
-          failed_trees.${{ matrix.job_index }}.txt
-        retention-days: 7
 
 
   summarize:
