@@ -145,7 +145,6 @@ def main():
             writer.writerow([refseq_acc, taxonomy_id, genbank_count])
 
     # Print summary
-    successful_queries = sum(1 for _, _, count in results if count >= 0)
     unique_taxa = len(unique_taxonomy_ids)
 
     print("\nSummary:")
