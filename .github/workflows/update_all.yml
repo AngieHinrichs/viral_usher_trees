@@ -105,13 +105,13 @@ jobs:
         else
           end_timestamp=$(date +'%Y-%m-%d_%H-%M-%S')
           commit_message=$(cat <<'EOF'
-          Automated update: ${{ needs.partition_trees.outputs.build_version }} batch ${{ matrix.job_index }}
-          
-          Build started at:    ${{ needs.partition_trees.outputs.start_timestamp }}
-          Batch completed at:  $end_timestamp
-          viral_usher version: ${{ needs.partition_trees.outputs.viral_usher_version }}
-          EOF
-          )
+        Automated update: ${{ needs.partition_trees.outputs.build_version }} batch ${{ matrix.job_index }}
+        
+        Build started at:    ${{ needs.partition_trees.outputs.start_timestamp }}
+        Batch completed at:  $end_timestamp
+        viral_usher version: ${{ needs.partition_trees.outputs.viral_usher_version }}
+        EOF
+        )
           
           # Retry loop for the git operations that can fail due to conflicts
           max_attempts=5
