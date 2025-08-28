@@ -54,6 +54,7 @@ jobs:
         echo "start_timestamp=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_OUTPUT
         echo "build_version=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
         echo "viral_usher_version=$(pip show viral_usher | grep Version | cut -d' ' -f2)" >> $GITHUB_OUTPUT
+        ls trees
 
           
   # Run concurrent jobs, each one driven by a config file from partition_trees
@@ -117,7 +118,7 @@ jobs:
           max_attempts=5
           attempt=1
           while [ $attempt -le $max_attempts ]; do
-            if git pull --rebase && git commit -m "$commit_message" && git push; then
+            if git pull && git commit -m "$commit_message" && git push; then
               echo "Successfully pushed on attempt $attempt"
               break
             elif [ $attempt -eq $max_attempts ]; then
