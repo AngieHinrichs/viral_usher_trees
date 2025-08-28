@@ -52,3 +52,4 @@ viral_usher build --config trees/$subdir/local.toml $update
 # Clean up the mess
 rm -f trees/$subdir/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml,changed_nodes,rename.tsv}
 rm -f trees/$subdir/{nextclade.clade.tsv,mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
+rm -f trees/$subdir/{ncbi_virus_metadata.csv,tree_samples.txt}
