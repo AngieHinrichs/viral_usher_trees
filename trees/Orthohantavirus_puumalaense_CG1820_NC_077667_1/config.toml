@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_077667.1, taxonomy ID 3052493
+
+viral_usher_version = '0.8.0'
+refseq_acc = 'NC_077667.1'
+refseq_assembly = 'GCF_002829765.1'
+taxonomy_id = '3052493'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Orthohantavirus_puumalaense_CG1820_NC_077667_1'

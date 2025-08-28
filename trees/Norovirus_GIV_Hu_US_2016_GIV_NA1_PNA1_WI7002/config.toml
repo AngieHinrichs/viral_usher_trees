@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_044855.1, taxonomy ID 3431196
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_044855.1'
+refseq_assembly = 'GCF_008704005.1'
+taxonomy_id = '3431196'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Norovirus_GIV_Hu_US_2016_GIV_NA1_PNA1_WI7002'

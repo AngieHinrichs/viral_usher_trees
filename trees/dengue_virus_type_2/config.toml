@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_001474.2, taxonomy ID 3052464
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_001474.2'
+refseq_assembly = 'GCF_000871845.1'
+taxonomy_id = '3052464'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/dengue_virus_type_2'

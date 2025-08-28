@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_006312.2, taxonomy ID 2955935
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_006312.2'
+refseq_assembly = 'GCF_000856665.10'
+taxonomy_id = '2955935'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Influenza_C_virus_C_Ann_Arbor_1_50_6'
