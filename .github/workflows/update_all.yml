@@ -19,6 +19,8 @@ jobs:
       start_timestamp: ${{ steps.timestamp.outputs.start_timestamp }}
       build_version: ${{ steps.timestamp.outputs.build_version }}
       viral_usher_version: ${{ steps.timestamp.outputs.viral_usher_version }}
+    permissions:
+      contents: write
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -85,6 +87,8 @@ jobs:
         job_index: [0, 1, 2]
       # Don't stop this job if some other job has a problem, build as many trees as we can.
       fail-fast: false
+    permissions:
+      contents: write
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -175,6 +179,8 @@ jobs:
   summarize:
     runs-on: ubuntu-latest
     needs: [partition_trees, build_trees]
+    permissions:
+      contents: write
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
