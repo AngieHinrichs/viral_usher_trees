@@ -59,9 +59,6 @@ while read tree_name; do
             rm -f trees/$tree_name/{nextclade.clade.tsv,mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
             rm -f trees/$tree_name/{ncbi_virus_metadata.csv,tree_samples.txt}
         fi
-        # Remove all stopped containers
-        docker container prune -f
-        df -h
     else
         echo "$tree_name doesn't have config_file, it should not be in $job_list"
     fi
