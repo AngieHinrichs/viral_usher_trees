@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_002019.1, taxonomy ID 2955291
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_002019.1'
+refseq_assembly = 'GCF_000865725.1'
+taxonomy_id = '2955291'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Influenza_A_virus_A_Puerto_Rico_8_1934_H1N1_5'

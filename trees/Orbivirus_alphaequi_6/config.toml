@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_006018.1, taxonomy ID 40050
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_006018.1'
+refseq_assembly = 'GCF_000856125.1'
+taxonomy_id = '40050'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Orbivirus_alphaequi_6'

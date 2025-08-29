@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_001526.4, taxonomy ID 337041
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_001526.4'
+refseq_assembly = 'GCF_000863945.3'
+taxonomy_id = '337041'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Human_papillomavirus_16'
