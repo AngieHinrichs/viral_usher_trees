@@ -5,11 +5,104 @@ NC_038308.1	enterovirus_D68	enterovirus D68	GCF_002816725.1		Fermon			7367		3428
 NC_043450.1	Severe_fever_with_thrombocytopenia_syndrome_virus_L	Severe fever with thrombocytopenia syndrome virus	GCF_003087855.1		HNXH		L	6255	Homo sapiens	2748958	9485
 NC_043451.1	Severe_fever_with_thrombocytopenia_syndrome_virus_M	Severe fever with thrombocytopenia syndrome virus	GCF_003087855.1		HNXH		M	3336	Homo sapiens	2748958	9485
 NC_043452.1	Severe_fever_with_thrombocytopenia_syndrome_virus_S	Severe fever with thrombocytopenia syndrome virus	GCF_003087855.1		HNXH		S	1681	Homo sapiens	2748958	9485
+NC_001498.1	Measles_morbillivirus	Measles morbillivirus	GCF_000854845.1		Ichinose-B95a			15894		3052345	24784
+NC_076320.1	Genomoviridae_sp_cted72	Genomoviridae sp.	GCF_018584585.1	cted72				2205		2202565	1352
+NC_076321.1	Genomoviridae_sp_cthi275	Genomoviridae sp.	GCF_018584595.1	cthi275				2170		2202565	1352
+NC_076322.1	Genomoviridae_sp_ctjg823	Genomoviridae sp.	GCF_018584605.1	ctjg823				2183		2202565	1352
+NC_076323.1	Genomoviridae_sp_ctdb80	Genomoviridae sp.	GCF_018584615.1	ctdb80				2153		2202565	1352
+NC_076324.1	Genomoviridae_sp_ctbi78	Genomoviridae sp.	GCF_018584625.1	ctbi78				2244	Oncorhynchus mykiss	2202565	1352
+NC_076325.1	Genomoviridae_sp_ctcj747	Genomoviridae sp.	GCF_018584635.1	ctcj747				2359		2202565	1352
+NC_076326.1	Genomoviridae_sp_ctcg277	Genomoviridae sp.	GCF_018584645.1	ctcg277				2160		2202565	1352
+NC_076327.1	Genomoviridae_sp_ctce205	Genomoviridae sp.	GCF_018584655.1	ctce205				2194	Melanogrammus aeglefinus	2202565	1352
+NC_076328.1	Genomoviridae_sp_ctci83	Genomoviridae sp.	GCF_018584665.1	ctci83				2133		2202565	1352
+NC_076329.1	Genomoviridae_sp_ctbf8	Genomoviridae sp.	GCF_018584675.1	ctbf8				2181		2202565	1352
+NC_076330.1	Genomoviridae_sp_ctji71	Genomoviridae sp.	GCF_018584685.1	ctji71				2209		2202565	1352
+NC_076331.1	Genomoviridae_sp_ctjh74	Genomoviridae sp.	GCF_018584705.1	ctjh74				2185		2202565	1352
+NC_076332.1	Genomoviridae_sp_ctbb31	Genomoviridae sp.	GCF_018584715.1	ctbb31				2237		2202565	1352
+NC_076333.1	Genomoviridae_sp_ctba76	Genomoviridae sp.	GCF_018584725.1	ctba76				2176		2202565	1352
+NC_076334.1	Genomoviridae_sp_ctgi38	Genomoviridae sp.	GCF_018584735.1	ctgi38				2189		2202565	1352
+NC_076335.1	Genomoviridae_sp_ctbi86	Genomoviridae sp.	GCF_018584745.1	ctbi86				2173		2202565	1352
+NC_076480.1	Genomoviridae_sp_bif24cir1	Genomoviridae sp.	GCF_018591135.1	bif24cir1				2178	Anser albifrons	2202565	1352
+NC_076493.1	Genomoviridae_sp_6434_414	Genomoviridae sp.	GCF_018591265.1	6434_414				2175	unidentified	2202565	1352
+NC_005831.2	Human_coronavirus_NL63	Human coronavirus NL63	GCF_000853865.1		Amsterdam I			27553		3433809	1324
+NC_003461.1	Human_respirovirus_1	Human respirovirus 1	GCF_000848705.1		Washington 1964			15600		3049952	1289
+NC_075105.1	Shrimp_white_spot_syndrome_virus	Shrimp white spot syndrome virus	GCF_003024735.1		WSSV-CN			305119		342409	1280
+NC_003225.3	White_spot_syndrome_virus	White spot syndrome virus	GCF_000848085.2		CN01			309286	Penaeus japonicus	342409	1280
+NC_001575.2	Rice_yellow_mottle_virus	Rice yellow mottle virus	GCF_000863085.1	CI4				4449		3432506	1275
+NC_014070.1	Torque_teno_sus_virus_1a	Torque teno sus virus 1a	GCF_000888195.1	Sd-TTV31				2878	Sus scrofa	3048408	1265
+NC_027059.1	Torque_teno_sus_virus_1b	Torque teno sus virus 1b	GCF_001008435.1	1p				2872	Sus scrofa	3048408	1265
+NC_002024.2	Alfamovirus_AMV_RNA_2	Alfamovirus AMV	GCF_000847525.1				RNA 2	2593		12321	1226
+NC_002025.1	Alfamovirus_AMV_RNA_3	Alfamovirus AMV	GCF_000847525.1		425 Madison		RNA 3	2037		12321	1226
+NC_001495.1	Alfamovirus_AMV_RNA_1	Alfamovirus AMV	GCF_000847525.1		425 Leiden		RNA 1	3644		12321	1226
+NC_001492.1	Cryphonectria_hypovirus_1	Cryphonectria hypovirus 1	GCF_000849145.1					12734	Cryphonectria parasitica	2955284	1225
+NC_001749.2	Capillovirus_mali	Capillovirus mali	GCF_000859505.1					6495		28347	1218
+NC_001468.1	Begomovirus_manihotis_DNA_B	Begomovirus manihotis	GCF_000857205.1	West Kenyan 844			DNA B	2724	Manihot esculenta	10817	1217
+NC_001467.1	Begomovirus_manihotis_DNA_A	Begomovirus manihotis	GCF_000857205.1	West Kenyan 844			DNA A	2779	Manihot esculenta	10817	1217
+NC_003615.1	Grapevine_fanleaf_virus_RNA_1	Grapevine fanleaf virus	GCF_000860305.1		F13		RNA 1	7342		3047852	1214
+NC_003623.1	Grapevine_fanleaf_virus_NC_003623_1	Grapevine fanleaf virus	GCF_000860305.1		F13			3774		3047852	1214
+NC_075369.1	Anelloviridae_sp_ctbg056	Anelloviridae sp.	GCF_004285195.1	ctbg056				2381	Homo sapiens	2055263	1180
+NC_075370.1	Anelloviridae_sp_ctbc019	Anelloviridae sp.	GCF_004285675.1	ctbc019				2668	Homo sapiens	2055263	1180
+NC_075371.1	Anelloviridae_sp_ctbf050	Anelloviridae sp.	GCF_004285795.1	ctbf050				2536	Homo sapiens	2055263	1180
+NC_075372.1	Anelloviridae_sp_ctbi042	Anelloviridae sp.	GCF_004286375.1	ctbi042				1744	Homo sapiens	2055263	1180
+NC_075373.1	Anelloviridae_sp_ctbb016	Anelloviridae sp.	GCF_004286455.1	ctbb016				2810	Homo sapiens	2055263	1180
+NC_075374.1	Anelloviridae_sp_ctga035	Anelloviridae sp.	GCF_004286675.1	ctga035				2854	Homo sapiens	2055263	1180
+NC_075375.1	Anelloviridae_sp_ctbd020	Anelloviridae sp.	GCF_004286695.1	ctbd020				2368	Homo sapiens	2055263	1180
+NC_075376.1	Anelloviridae_sp_ctbf014	Anelloviridae sp.	GCF_004286755.1	ctbf014				2691	Homo sapiens	2055263	1180
+NC_075377.1	Anelloviridae_sp_ctei055	Anelloviridae sp.	GCF_004286855.1	ctei055				2407	Homo sapiens	2055263	1180
+NC_075378.1	Anelloviridae_sp_ctea38	Anelloviridae sp.	GCF_004287275.1	ctea38				2679	Homo sapiens	2055263	1180
+NC_075379.1	Anelloviridae_sp_ctcd026	Anelloviridae sp.	GCF_004287315.1	ctcd026				1871	Homo sapiens	2055263	1180
+NC_075380.1	Anelloviridae_sp_ctcf040	Anelloviridae sp.	GCF_004287355.1	ctcf040				2550	Homo sapiens	2055263	1180
+NC_075381.1	Anelloviridae_sp_ctcf007	Anelloviridae sp.	GCF_004289775.1	ctcf007				1835		2055263	1180
+NC_075382.1	Anelloviridae_sp_ctcf003_NC_075382_1	Anelloviridae sp.	GCF_004289975.1	ctcf003				2218		2055263	1180
+NC_075383.1	Anelloviridae_sp_ctdc005	Anelloviridae sp.	GCF_004290255.1	ctdc005				1973		2055263	1180
+NC_075384.1	Anelloviridae_sp_ctbb005	Anelloviridae sp.	GCF_004290555.1	ctbb005				1921		2055263	1180
+NC_075385.1	Anelloviridae_sp_ctbb008	Anelloviridae sp.	GCF_004290615.1	ctbb008				1833		2055263	1180
+NC_075386.1	Anelloviridae_sp_ctbd010	Anelloviridae sp.	GCF_004290675.1	ctbd010				1774		2055263	1180
+NC_075388.1	Anelloviridae_sp_ctcf003_NC_075388_1	Anelloviridae sp.	GCF_004290875.1	ctcf003				1996		2055263	1180
+NC_075389.1	Anelloviridae_sp_ctdb009	Anelloviridae sp.	GCF_004290895.1	ctdb009				1801		2055263	1180
+NC_075390.1	Anelloviridae_sp_cthe000	Anelloviridae sp.	GCF_004290995.1	cthe000				2733		2055263	1180
+NC_075447.1	Anelloviridae_sp_vzttmv5	Anelloviridae sp.	GCF_006370125.1		vzttmv5			2919	Homo sapiens	2055263	1180
+NC_002361.1	Columbid_circovirus	Columbid circovirus	GCF_000843885.1					2037	Columbidae	3050342	1166
+NC_003737.1	Rice_black_streaked_dwarf_virus_6	Rice black streaked dwarf virus	GCF_000852945.1				6	2645	Oryza sativa	3428768	1149
+NC_003729.1	Rice_black_streaked_dwarf_virus_1	Rice black streaked dwarf virus	GCF_000852945.1				1	4501	Oryza sativa	3428768	1149
+NC_003728.1	Rice_black_streaked_dwarf_virus_3	Rice black streaked dwarf virus	GCF_000852945.1				3	3572	Oryza sativa	3428768	1149
+NC_003730.1	Rice_black_streaked_dwarf_virus_7	Rice black streaked dwarf virus	GCF_000852945.1				7	2193	Oryza sativa	3428768	1149
+NC_003734.1	Rice_black_streaked_dwarf_virus_2	Rice black streaked dwarf virus	GCF_000852945.1				2	3812	Oryza sativa	3428768	1149
+NC_003736.1	Rice_black_streaked_dwarf_virus_5	Rice black streaked dwarf virus	GCF_000852945.1				5	3164	Oryza sativa	3428768	1149
+NC_003732.1	Rice_black_streaked_dwarf_virus_8	Rice black streaked dwarf virus	GCF_000852945.1				8	1936	Oryza sativa	3428768	1149
+NC_003733.1	Rice_black_streaked_dwarf_virus_10	Rice black streaked dwarf virus	GCF_000852945.1				10	1801	Oryza sativa	3428768	1149
+NC_003735.1	Rice_black_streaked_dwarf_virus_4	Rice black streaked dwarf virus	GCF_000852945.1				4	3617	Oryza sativa	3428768	1149
+NC_003731.1	Rice_black_streaked_dwarf_virus_9	Rice black streaked dwarf virus	GCF_000852945.1				9	1900	Oryza sativa	3428768	1149
+NC_001346.2	Maize_streak_virus_A_Ama	Maize streak virus - A[Ama]	GCF_000847105.2	MSV-Ama	MSV-A			2689		3430734	1142
+NC_075135.1	Maize_streak_virus_A_South_Africa	Maize streak virus - A[South Africa]	GCF_003048235.1		South African			2690		3430734	1142
+NC_001409.1	Trichovirus_mali	Trichovirus mali	GCF_000848285.1					7555		12175	1138
+NC_020474.2	Elephantid_betaherpesvirus_1	Elephantid betaherpesvirus 1	GCF_000905835.1		Raman			180421	Elephas maximus	3050273	1128
+NC_028752.1	Camel_alphacoronavirus	Camel alphacoronavirus	GCF_001500975.1	camel/Riyadh/Ry141/2015				27395	Camelus	3433756	1079
+NC_002645.1	Human_coronavirus_229E	Human coronavirus 229E	GCF_000853505.1					27317		3433756	1079
+NC_001652.1	Infectious_hematopoietic_necrosis_virus	Infectious hematopoietic necrosis virus	GCF_000850065.1		WRAC			11131	Oncorhynchus tshawytscha	1980917	1050
+NC_001574.1	Cacao_swollen_shoot_virus	Cacao swollen shoot virus	GCF_000844305.1					7161		3047713	1037
+NC_002532.2	Equine_arteritis_virus	Equine arteritis virus	GCF_000860865.1		Bucyrus			12704		2499620	1032
+NC_003462.2	Foveavirus_mali	Foveavirus mali	GCF_000850465.1	PA66	ASPV			9332		35350	1029
+NC_001488.1	Human_T_lymphotropic_virus_2	Human T-lymphotropic virus 2	GCF_000847505.1					8952		3428213	1022
+NC_001815.1	Simian_T_lymphotropic_virus_2	Simian T-lymphotropic virus 2	GCF_000860005.1	STLV-2PP1664	PP1664			8855	Pan paniscus	3428213	1022
+NC_014037.1	Sugarcane_streak_mosaic_virus	Sugarcane streak mosaic virus	GCF_000887195.1	PAK				9782	Saccharum sp.	3431714	1022
+NC_038815.1	Cardamom_bushy_dwarf_virus_M	Cardamom bushy dwarf virus	GCF_002867695.1				M	1083	Elettaria cardamomum	3426587	1012
+NC_038813.1	Cardamom_bushy_dwarf_virus_DNA_U3	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U3	1088	Elettaria cardamomum	3426587	1012
+NC_038809.1	Cardamom_bushy_dwarf_virus_NC_038809_1	Cardamom bushy dwarf virus	GCF_002867695.1					1028	Elettaria cardamomum	3426587	1012
+NC_038810.1	Cardamom_bushy_dwarf_virus_NC_038810_1	Cardamom bushy dwarf virus	GCF_002867695.1					1086	Elettaria cardamomum	3426587	1012
+NC_038811.1	Cardamom_bushy_dwarf_virus_DNA_U2	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U2	1079	Elettaria cardamomum	3426587	1012
+NC_038812.1	Cardamom_bushy_dwarf_virus_DNA_U4	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U4	1106	Elettaria cardamomum	3426587	1012
+NC_038814.1	Cardamom_bushy_dwarf_virus_DNA_U1	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U1	1080	Elettaria cardamomum	3426587	1012
+NC_038816.1	Cardamom_bushy_dwarf_virus_NC_038816_1	Cardamom bushy dwarf virus	GCF_002867695.1					1102	Elettaria cardamomum	3426587	1012
+NC_038808.1	Cardamom_bushy_dwarf_virus_NC_038808_1	Cardamom bushy dwarf virus	GCF_002867695.1					1097	Elettaria cardamomum	3426587	1012
 NC_024113.1	Mogiana_tick_virus_SY84_1	Mogiana tick virus	GCF_000919875.1	SY84			1	3114	Rhipicephalus microplus	1172985	1012
 NC_024114.1	Mogiana_tick_virus_SY84_3	Mogiana tick virus	GCF_000919875.1	SY84			3	2824	Rhipicephalus microplus	1172985	1012
 NC_024111.1	Mogiana_tick_virus_SY84_4	Mogiana tick virus	GCF_000919875.1	SY84			4	2794	Rhipicephalus microplus	1172985	1012
 NC_024112.1	Mogiana_tick_virus_SY84_2	Mogiana tick virus	GCF_000919875.1	SY84			2	2847	Rhipicephalus microplus	1172985	1012
-NC_001498.1	Measles_morbillivirus	Measles morbillivirus	GCF_000854845.1		Ichinose-B95a			15894		3052345	24784
-NC_038811.1	Cardamom_bushy_dwarf_virus_DNA_U2	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U2	1079	Elettaria cardamomum	3426587	1012
-NC_003461.1	Human_respirovirus_1	Human respirovirus 1	GCF_000848705.1		Washington 1964			15600		3049952	1289
-NC_005831.2	Human_coronavirus_NL63	Human coronavirus NL63	GCF_000853865.1		Amsterdam I			27553		3433809	1324
+NC_034224.1	Mogiana_tick_virus_MGTV_V4_11_4	Mogiana tick virus	GCF_002037735.1	MGTV/V4/11			4	2728	Rhipicephalus microplus	1172985	1012
+NC_034222.1	Mogiana_tick_virus_MGTV_V4_11_1	Mogiana tick virus	GCF_002037735.1	MGTV/V4/11			1	2963	Rhipicephalus microplus	1172985	1012
+NC_034223.1	Mogiana_tick_virus_MGTV_V4_11_3	Mogiana tick virus	GCF_002037735.1	MGTV/V4/11			3	2705	Rhipicephalus microplus	1172985	1012
+NC_034225.1	Mogiana_tick_virus_MGTV_V4_11_2	Mogiana tick virus	GCF_002037735.1	MGTV/V4/11			2	2629	Rhipicephalus microplus	1172985	1012
+NC_017825.1	Chimpanzee_adenovirus_Y25	Chimpanzee adenovirus Y25	GCF_000897015.1					36711	Pan troglodytes	3241425	1005
+NC_003266.2	Human_mastadenovirus_E	Human mastadenovirus E	GCF_000859665.1	vaccine (CL 68578)	vaccine (CL 68578)	human adenovirus 4		35994		3241425	1005
+AC_000011.1	Simian_adenovirus_25	Simian adenovirus 25	GCF_000848905.1			Simian adenovirus 25		36519		3241425	1005
