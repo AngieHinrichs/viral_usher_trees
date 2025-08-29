@@ -33,6 +33,8 @@ jobs:
       run: |
         pip install --upgrade pip
         pip install viral_usher
+        ls -R trees
+        git branch
     
     - name: Partition trees
       # The number of jobs here (-j) must correspond to the job_index values below
@@ -54,7 +56,23 @@ jobs:
         echo "start_timestamp=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_OUTPUT
         echo "build_version=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
         echo "viral_usher_version=$(pip show viral_usher | grep Version | cut -d' ' -f2)" >> $GITHUB_OUTPUT
-        ls -R trees
+
+    - name: Commit any newly created config files
+      run: |
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        # Add all updated tree files
+        git add trees/
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Config files for new trees added ${{ steps.timestamp.outputs.build_version }}"
+        fi
+        git push
 
           
   # Run concurrent jobs, each one driven by a config file from partition_trees
