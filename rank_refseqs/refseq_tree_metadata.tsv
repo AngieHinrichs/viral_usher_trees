@@ -157,11 +157,6 @@ NC_044958.1	African_swine_fever_virus_E75	African swine fever virus E75	GCF_0030
 NC_044957.1	African_swine_fever_virus_OURT_88_3	African swine fever virus OURT 88/3	GCF_003047695.1	OURT 88/3				171719		3426474	16067
 NC_002058.3	Enterovirus_C	Enterovirus C	GCF_000861165.1	Human poliovirus 1 Mahoney	Human poliovirus 1 Mahoney			7440		3428505	15938
 NC_002200.1	Mumps_orthorubulavirus	Mumps orthorubulavirus	GCF_000856685.1		Miyahara			15384		3052560	14594
-NC_134822.1	Bacteriophage_sp_NC_134822_1	Bacteriophage sp.		3055_109949				30554	Homo sapiens	38018	13640
-NC_134823.1	Bacteriophage_sp_NC_134823_1	Bacteriophage sp.		2815_119144				30409	Homo sapiens	38018	13640
-NC_134744.1	Bacteriophage_sp_NC_134744_1	Bacteriophage sp.		0049_62566				30101	Homo sapiens	38018	13640
-NC_134824.1	Bacteriophage_sp_NC_134824_1	Bacteriophage sp.		3013_110685				30281	Homo sapiens	38018	13640
-NC_134821.1	Bacteriophage_sp_NC_134821_1	Bacteriophage sp.		4225_94495				30023	Homo sapiens	38018	13640
 NC_039199.1	Human_metapneumovirus	Human metapneumovirus	GCF_002815375.1	00-1				13350		3048148	13063
 NC_006023.1	Bluetongue_virus_1	Bluetongue virus	GCF_000854445.3			10	1	3944		3431240	12842
 NC_006014.1	Bluetongue_virus_3	Bluetongue virus	GCF_000854445.3				3	2772		3431240	12842
@@ -290,7 +285,6 @@ NC_005301.3	Orthonairovirus_haemorrhagiae_L	Orthonairovirus haemorrhagiae	GCF_00
 NC_005302.1	Orthonairovirus_haemorrhagiae_S	Orthonairovirus haemorrhagiae	GCF_000854165.1		10200		S	1672		3052518	5079
 NC_005300.2	Orthonairovirus_haemorrhagiae_M	Orthonairovirus haemorrhagiae	GCF_000854165.1		IbAr10200		M	5366	Hyalomma excavatum	3052518	5079
 NC_009333.1	Human_gammaherpesvirus_8	Human gammaherpesvirus 8	GCF_000838265.1		GK18			137969	Homo sapiens	3050300	5041
-NC_003045.1	Bovine_coronavirus	Bovine coronavirus	GCF_000862505.1	BCoV-ENT				31028		3433757	4975
 NC_006213.1	Human_coronavirus_OC43	Human coronavirus OC43	GCF_003972325.1		ATCC VR-759	OC43		30741		3433757	4975
 NC_001616.1	Potato_virus_Y	Potato virus Y	GCF_000862905.1					9704		3240642	4658
 NC_040671.1	Adeno_associated_virus	Adeno-associated virus	GCF_004129875.1	MHH-05-2015				4857	Cairina moschata	272636	4601
@@ -327,9 +321,6 @@ NC_075446.1	Human_respirovirus_3_Guangzhou	Human respirovirus 3	GCF_006298365.1	
 NC_038270.1	Simian_Agent_10	Simian Agent 10	GCF_002815255.1					15462	Cercopithecus mitis	3049953	3890
 NC_002549.1	Zaire_ebolavirus	Zaire ebolavirus	GCF_000848505.1	Ebola virus/H.sapiens-tc/COD/1976/Yambuku-Mayinga				18959		3052462	3884
 NC_001921.1	canine_distemper_virus	canine distemper virus	GCF_000854065.1	Onderstpoort				15690		3052342	3865
-NC_005223.1	Orthohantavirus_puumalaense_Sotkamo_M	Orthohantavirus puumalaense	GCF_000854405.1		Sotkamo		M	3682		3052493	3759
-NC_005225.1	Orthohantavirus_puumalaense_Sotkamo_L	Orthohantavirus puumalaense	GCF_000854405.1		Sotkamo		L	6550		3052493	3759
-NC_005224.1	Orthohantavirus_puumalaense_Sotkamo_S	Orthohantavirus puumalaense	GCF_000854405.1		Sotkamo		S	1830		3052493	3759
 NC_077666.1	Orthohantavirus_puumalaense_CG1820_NC_077666_1	Orthohantavirus puumalaense	GCF_002829765.1		CG1820			3682		3052493	3759
 NC_077667.1	Orthohantavirus_puumalaense_CG1820_NC_077667_1	Orthohantavirus puumalaense	GCF_002829765.1		CG1820			6550		3052493	3759
 NC_077668.1	Orthohantavirus_puumalaense_CG1820_NC_077668_1	Orthohantavirus puumalaense	GCF_002829765.1		CG1820			1784		3052493	3759
@@ -352,7 +343,6 @@ NC_006019.1	Orbivirus_alphaequi_NC_006019_1	Orbivirus alphaequi	GCF_000856125.1	
 NC_006018.1	Orbivirus_alphaequi_6	Orbivirus alphaequi	GCF_000856125.1				6	1566		40050	3236
 NC_004005.1	Tomato_yellow_leaf_curl_virus	Tomato yellow leaf curl virus	GCF_000858205.1	Almeria				2781	Capsicum annuum	3426741	3149
 NC_012959.1	Human_adenovirus_54	Human adenovirus 54	GCF_000885675.1	Kobe-H	Kobe-H			34920		3241420	3136
-NC_010956.1	Human_mastadenovirus_D_Human_adenovirus_9	Human mastadenovirus D	GCF_000845985.1	Hicks; NIAID V-209-003-014	Hicks; NIAID V-209-003-014	Human adenovirus 9		35083	Homo sapiens	3241420	3136
 AC_000006.1	Human_mastadenovirus_D_Human_adenovirus_type_17	Human mastadenovirus D	GCF_000858625.1			Human adenovirus type 17		35100		3241420	3136
 NC_003475.1	Banana_bunchy_top_virus_DNA_U3	Banana bunchy top virus	GCF_000847305.1				DNA U3	1060		3158386	3126
 NC_003474.1	Banana_bunchy_top_virus_DNA_M	Banana bunchy top virus	GCF_000847305.1				DNA M	1043		3158386	3126
@@ -542,7 +532,6 @@ NC_003899.1	Eastern_equine_encephalitis_virus	Eastern equine encephalitis virus	
 NC_075280.1	Picornaviridae_sp	Picornaviridae sp.	GCF_003389975.1	yc-1				7443	Grus japonensis	1530251	1372
 NC_001846.1	Murine_hepatitis_virus_MHV_A59	Murine hepatitis virus	GCF_000862345.1		MHV-A59			31357		3433759	1355
 NC_048217.1	Murine_hepatitis_virus_A59	Murine hepatitis virus	GCF_003971785.1		A59			31335		3433759	1355
-AC_000192.1	Murine_hepatitis_virus_strain_JHM	Murine hepatitis virus strain JHM	set:AC_000192					31526		3433759	1355
 NC_012936.1	Rat_coronavirus_Parker	Rat coronavirus Parker	GCF_000886515.1		Parker			31250	Rattus	3433759	1355
 NC_075288.1	Genomoviridae_sp_ctcj270	Genomoviridae sp.	GCF_003656345.1	ctcj270				2180		2202565	1352
 NC_075305.1	Genomoviridae_sp_ctcg63	Genomoviridae sp.	GCF_003846465.1	ctcg63				2177		2202565	1352
@@ -571,24 +560,13 @@ NC_076316.1	Genomoviridae_sp_ctda_5	Genomoviridae sp.	GCF_018584545.1	ctda_5				
 NC_076317.1	Genomoviridae_sp_ctbd78	Genomoviridae sp.	GCF_018584555.1	ctbd78				2165		2202565	1352
 NC_076318.1	Genomoviridae_sp_ctcd252	Genomoviridae sp.	GCF_018584565.1	ctcd252				2223		2202565	1352
 NC_076319.1	Genomoviridae_sp_ctij207	Genomoviridae sp.	GCF_018584575.1	ctij207				2179	Melanogrammus aeglefinus	2202565	1352
-NC_076320.1	Genomoviridae_sp_cted72	Genomoviridae sp.	GCF_018584585.1	cted72				2205		2202565	1352
-NC_076321.1	Genomoviridae_sp_cthi275	Genomoviridae sp.	GCF_018584595.1	cthi275				2170		2202565	1352
-NC_076322.1	Genomoviridae_sp_ctjg823	Genomoviridae sp.	GCF_018584605.1	ctjg823				2183		2202565	1352
-NC_076323.1	Genomoviridae_sp_ctdb80	Genomoviridae sp.	GCF_018584615.1	ctdb80				2153		2202565	1352
 NC_076324.1	Genomoviridae_sp_ctbi78	Genomoviridae sp.	GCF_018584625.1	ctbi78				2244	Oncorhynchus mykiss	2202565	1352
 NC_076325.1	Genomoviridae_sp_ctcj747	Genomoviridae sp.	GCF_018584635.1	ctcj747				2359		2202565	1352
-NC_076326.1	Genomoviridae_sp_ctcg277	Genomoviridae sp.	GCF_018584645.1	ctcg277				2160		2202565	1352
 NC_076327.1	Genomoviridae_sp_ctce205	Genomoviridae sp.	GCF_018584655.1	ctce205				2194	Melanogrammus aeglefinus	2202565	1352
-NC_076328.1	Genomoviridae_sp_ctci83	Genomoviridae sp.	GCF_018584665.1	ctci83				2133		2202565	1352
 NC_076329.1	Genomoviridae_sp_ctbf8	Genomoviridae sp.	GCF_018584675.1	ctbf8				2181		2202565	1352
-NC_076330.1	Genomoviridae_sp_ctji71	Genomoviridae sp.	GCF_018584685.1	ctji71				2209		2202565	1352
-NC_076331.1	Genomoviridae_sp_ctjh74	Genomoviridae sp.	GCF_018584705.1	ctjh74				2185		2202565	1352
-NC_076332.1	Genomoviridae_sp_ctbb31	Genomoviridae sp.	GCF_018584715.1	ctbb31				2237		2202565	1352
 NC_076333.1	Genomoviridae_sp_ctba76	Genomoviridae sp.	GCF_018584725.1	ctba76				2176		2202565	1352
-NC_076334.1	Genomoviridae_sp_ctgi38	Genomoviridae sp.	GCF_018584735.1	ctgi38				2189		2202565	1352
 NC_076335.1	Genomoviridae_sp_ctbi86	Genomoviridae sp.	GCF_018584745.1	ctbi86				2173		2202565	1352
 NC_076480.1	Genomoviridae_sp_bif24cir1	Genomoviridae sp.	GCF_018591135.1	bif24cir1				2178	Anser albifrons	2202565	1352
-NC_076493.1	Genomoviridae_sp_6434_414	Genomoviridae sp.	GCF_018591265.1	6434_414				2175	unidentified	2202565	1352
 NC_005831.2	Human_coronavirus_NL63	Human coronavirus NL63	GCF_000853865.1		Amsterdam I			27553		3433809	1324
 NC_003461.1	Human_respirovirus_1	Human respirovirus 1	GCF_000848705.1		Washington 1964			15600		3049952	1289
 NC_075105.1	Shrimp_white_spot_syndrome_virus	Shrimp white spot syndrome virus	GCF_003024735.1		WSSV-CN			305119		342409	1280
@@ -605,27 +583,9 @@ NC_001468.1	Begomovirus_manihotis_DNA_B	Begomovirus manihotis	GCF_000857205.1	We
 NC_001467.1	Begomovirus_manihotis_DNA_A	Begomovirus manihotis	GCF_000857205.1	West Kenyan 844			DNA A	2779	Manihot esculenta	10817	1217
 NC_003615.1	Grapevine_fanleaf_virus_RNA_1	Grapevine fanleaf virus	GCF_000860305.1		F13		RNA 1	7342		3047852	1214
 NC_003623.1	Grapevine_fanleaf_virus_NC_003623_1	Grapevine fanleaf virus	GCF_000860305.1		F13			3774		3047852	1214
-NC_075369.1	Anelloviridae_sp_ctbg056	Anelloviridae sp.	GCF_004285195.1	ctbg056				2381	Homo sapiens	2055263	1180
-NC_075370.1	Anelloviridae_sp_ctbc019	Anelloviridae sp.	GCF_004285675.1	ctbc019				2668	Homo sapiens	2055263	1180
-NC_075371.1	Anelloviridae_sp_ctbf050	Anelloviridae sp.	GCF_004285795.1	ctbf050				2536	Homo sapiens	2055263	1180
-NC_075372.1	Anelloviridae_sp_ctbi042	Anelloviridae sp.	GCF_004286375.1	ctbi042				1744	Homo sapiens	2055263	1180
 NC_075373.1	Anelloviridae_sp_ctbb016	Anelloviridae sp.	GCF_004286455.1	ctbb016				2810	Homo sapiens	2055263	1180
-NC_075374.1	Anelloviridae_sp_ctga035	Anelloviridae sp.	GCF_004286675.1	ctga035				2854	Homo sapiens	2055263	1180
-NC_075375.1	Anelloviridae_sp_ctbd020	Anelloviridae sp.	GCF_004286695.1	ctbd020				2368	Homo sapiens	2055263	1180
-NC_075376.1	Anelloviridae_sp_ctbf014	Anelloviridae sp.	GCF_004286755.1	ctbf014				2691	Homo sapiens	2055263	1180
-NC_075377.1	Anelloviridae_sp_ctei055	Anelloviridae sp.	GCF_004286855.1	ctei055				2407	Homo sapiens	2055263	1180
-NC_075378.1	Anelloviridae_sp_ctea38	Anelloviridae sp.	GCF_004287275.1	ctea38				2679	Homo sapiens	2055263	1180
-NC_075379.1	Anelloviridae_sp_ctcd026	Anelloviridae sp.	GCF_004287315.1	ctcd026				1871	Homo sapiens	2055263	1180
-NC_075380.1	Anelloviridae_sp_ctcf040	Anelloviridae sp.	GCF_004287355.1	ctcf040				2550	Homo sapiens	2055263	1180
-NC_075381.1	Anelloviridae_sp_ctcf007	Anelloviridae sp.	GCF_004289775.1	ctcf007				1835		2055263	1180
-NC_075382.1	Anelloviridae_sp_ctcf003_NC_075382_1	Anelloviridae sp.	GCF_004289975.1	ctcf003				2218		2055263	1180
-NC_075383.1	Anelloviridae_sp_ctdc005	Anelloviridae sp.	GCF_004290255.1	ctdc005				1973		2055263	1180
-NC_075384.1	Anelloviridae_sp_ctbb005	Anelloviridae sp.	GCF_004290555.1	ctbb005				1921		2055263	1180
 NC_075385.1	Anelloviridae_sp_ctbb008	Anelloviridae sp.	GCF_004290615.1	ctbb008				1833		2055263	1180
-NC_075386.1	Anelloviridae_sp_ctbd010	Anelloviridae sp.	GCF_004290675.1	ctbd010				1774		2055263	1180
-NC_075388.1	Anelloviridae_sp_ctcf003_NC_075388_1	Anelloviridae sp.	GCF_004290875.1	ctcf003				1996		2055263	1180
 NC_075389.1	Anelloviridae_sp_ctdb009	Anelloviridae sp.	GCF_004290895.1	ctdb009				1801		2055263	1180
-NC_075390.1	Anelloviridae_sp_cthe000	Anelloviridae sp.	GCF_004290995.1	cthe000				2733		2055263	1180
 NC_075447.1	Anelloviridae_sp_vzttmv5	Anelloviridae sp.	GCF_006370125.1		vzttmv5			2919	Homo sapiens	2055263	1180
 NC_002361.1	Columbid_circovirus	Columbid circovirus	GCF_000843885.1					2037	Columbidae	3050342	1166
 NC_003737.1	Rice_black_streaked_dwarf_virus_6	Rice black streaked dwarf virus	GCF_000852945.1				6	2645	Oryza sativa	3428768	1149
@@ -641,7 +601,6 @@ NC_003731.1	Rice_black_streaked_dwarf_virus_9	Rice black streaked dwarf virus	GC
 NC_001346.2	Maize_streak_virus_A_Ama	Maize streak virus - A[Ama]	GCF_000847105.2	MSV-Ama	MSV-A			2689		3430734	1142
 NC_075135.1	Maize_streak_virus_A_South_Africa	Maize streak virus - A[South Africa]	GCF_003048235.1		South African			2690		3430734	1142
 NC_001409.1	Trichovirus_mali	Trichovirus mali	GCF_000848285.1					7555		12175	1138
-NC_020474.2	Elephantid_betaherpesvirus_1	Elephantid betaherpesvirus 1	GCF_000905835.1		Raman			180421	Elephas maximus	3050273	1128
 NC_028752.1	Camel_alphacoronavirus	Camel alphacoronavirus	GCF_001500975.1	camel/Riyadh/Ry141/2015				27395	Camelus	3433756	1079
 NC_002645.1	Human_coronavirus_229E	Human coronavirus 229E	GCF_000853505.1					27317		3433756	1079
 NC_001652.1	Infectious_hematopoietic_necrosis_virus	Infectious hematopoietic necrosis virus	GCF_000850065.1		WRAC			11131	Oncorhynchus tshawytscha	1980917	1050
@@ -656,7 +615,6 @@ NC_038813.1	Cardamom_bushy_dwarf_virus_DNA_U3	Cardamom bushy dwarf virus	GCF_002
 NC_038809.1	Cardamom_bushy_dwarf_virus_NC_038809_1	Cardamom bushy dwarf virus	GCF_002867695.1					1028	Elettaria cardamomum	3426587	1012
 NC_038810.1	Cardamom_bushy_dwarf_virus_NC_038810_1	Cardamom bushy dwarf virus	GCF_002867695.1					1086	Elettaria cardamomum	3426587	1012
 NC_038811.1	Cardamom_bushy_dwarf_virus_DNA_U2	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U2	1079	Elettaria cardamomum	3426587	1012
-NC_038812.1	Cardamom_bushy_dwarf_virus_DNA_U4	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U4	1106	Elettaria cardamomum	3426587	1012
 NC_038814.1	Cardamom_bushy_dwarf_virus_DNA_U1	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U1	1080	Elettaria cardamomum	3426587	1012
 NC_038816.1	Cardamom_bushy_dwarf_virus_NC_038816_1	Cardamom bushy dwarf virus	GCF_002867695.1					1102	Elettaria cardamomum	3426587	1012
 NC_038808.1	Cardamom_bushy_dwarf_virus_NC_038808_1	Cardamom bushy dwarf virus	GCF_002867695.1					1097	Elettaria cardamomum	3426587	1012
