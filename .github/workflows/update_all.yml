@@ -219,6 +219,8 @@ jobs:
 
     - name: Make summary metadata for interactive tree selection
       run: |
+        # git pull because jobs start up too quickly to get the previous job's commit
+        git pull
         scripts/summarize_trees.py -i rank_refseqs/refseq_tree_metadata.tsv -o tree_metadata.tsv
 
     - name: Commit tree_metadata.tsv with summary message
@@ -226,9 +228,6 @@ jobs:
         # Configure git
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-
-        # git pull because jobs start up too quickly to get the previous job's commit
-        git pull
 
         # Add all updated files
         git add tree_metadata.tsv built_trees.txt failed_trees.txt
