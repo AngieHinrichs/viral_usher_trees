@@ -33,8 +33,6 @@ jobs:
       run: |
         pip install --upgrade pip
         pip install viral_usher
-        ls -R trees
-        git branch
     
     - name: Partition trees
       # The number of jobs here (-j) must correspond to the job_index values below
@@ -72,7 +70,8 @@ jobs:
         else
           git commit -m "Config files for new trees added ${{ steps.timestamp.outputs.build_version }}"
         fi
-        git push
+        #***TODO remove " origin more_trees" when ready to merge
+        git push origin more_trees
 
           
   # Run concurrent jobs, each one driven by a config file from partition_trees
@@ -155,7 +154,8 @@ jobs:
           max_attempts=5
           attempt=1
           while [ $attempt -le $max_attempts ]; do
-            if git pull && git commit -m "$commit_message" && git push; then
+            #***TODO remove " origin more_trees" when ready to merge
+            if git pull && git commit -m "$commit_message" && git push origin more_trees; then
               echo "Successfully pushed on attempt $attempt"
               break
             elif [ $attempt -eq $max_attempts ]; then
@@ -226,5 +226,6 @@ jobs:
           git add tree_metadata.tsv
           git commit -m "Automated update: ${{ needs.partition_trees.outputs.build_version }} metadata (${{ steps.concat.outputs.built_count }} trees updated)
           $fail_message"
-          git push
+          #***TODO remove " origin more_trees" when ready to merge
+          git push origin more_trees
         fi
