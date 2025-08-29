@@ -57,7 +57,6 @@ NC_014397.1	Rift_Valley_fever_virus_L	Rift Valley fever virus	GCF_000847345.1		Z
 NC_014396.1	Rift_Valley_fever_virus_M	Rift Valley fever virus	GCF_000847345.1		ZH-548		M	3885	Homo sapiens	3052676	1936
 NC_014395.1	Rift_Valley_fever_virus_S	Rift Valley fever virus	GCF_000847345.1		ZH-548		S	1690	Homo sapiens	3052676	1936
 NC_001662.1	Aleutian_mink_disease_virus	Aleutian mink disease virus	GCF_000838725.1		ADV-G			4801		3051624	1915
-NC_029802.1	Porcine_picobirnavirus_S	Porcine picobirnavirus	GCF_001611625.1	221/04-16/ITA/2004	221/04-16/ITA/2004		S	1730	Sus scrofa	442302	1821
 NC_029801.1	Porcine_picobirnavirus_L	Porcine picobirnavirus	GCF_001611625.1	221/04-16/ITA/2004	221/04-16/ITA/2004		L	2666	Sus scrofa	442302	1821
 NC_036620.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_6	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		6	1219	Sus scrofa	2955744	1802
 NC_036617.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_5	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		5	1775	Sus scrofa	2955744	1802
@@ -110,33 +109,20 @@ NC_075280.1	Picornaviridae_sp	Picornaviridae sp.	GCF_003389975.1	yc-1				7443	Gr
 NC_001846.1	Murine_hepatitis_virus_MHV_A59	Murine hepatitis virus	GCF_000862345.1		MHV-A59			31357		3433759	1355
 NC_048217.1	Murine_hepatitis_virus_A59	Murine hepatitis virus	GCF_003971785.1		A59			31335		3433759	1355
 NC_012936.1	Rat_coronavirus_Parker	Rat coronavirus Parker	GCF_000886515.1		Parker			31250	Rattus	3433759	1355
-NC_075288.1	Genomoviridae_sp_ctcj270	Genomoviridae sp.	GCF_003656345.1	ctcj270				2180		2202565	1352
 NC_075305.1	Genomoviridae_sp_ctcg63	Genomoviridae sp.	GCF_003846465.1	ctcg63				2177		2202565	1352
 NC_075306.1	Genomoviridae_sp_cthd64	Genomoviridae sp.	GCF_003846485.1	cthd64				2174		2202565	1352
-NC_076296.1	Genomoviridae_sp_ctbb79	Genomoviridae sp.	GCF_018584275.1	ctbb79				2209		2202565	1352
 NC_076297.1	Genomoviridae_sp_ctce776	Genomoviridae sp.	GCF_018584285.1	ctce776				2281		2202565	1352
-NC_076298.1	Genomoviridae_sp_ctbh39	Genomoviridae sp.	GCF_018584295.1	ctbh39				2161		2202565	1352
-NC_076299.1	Genomoviridae_sp_ctba85	Genomoviridae sp.	GCF_018584305.1	ctba85				2088		2202565	1352
 NC_076300.1	Genomoviridae_sp_ctbh29	Genomoviridae sp.	GCF_018584315.1	ctbh29				2265		2202565	1352
-NC_076301.1	Genomoviridae_sp_ctbf84	Genomoviridae sp.	GCF_018584325.1	ctbf84				2116		2202565	1352
-NC_076302.1	Genomoviridae_sp_ctcf212	Genomoviridae sp.	GCF_018584335.1	ctcf212				2151	Melanogrammus aeglefinus	2202565	1352
-NC_076303.1	Genomoviridae_sp_ctjb817	Genomoviridae sp.	GCF_018584415.1	ctjb817				2197		2202565	1352
 NC_076304.1	Genomoviridae_sp_ctcg218	Genomoviridae sp.	GCF_018584425.1	ctcg218				2360		2202565	1352
 NC_076305.1	Genomoviridae_sp_ctbh806	Genomoviridae sp.	GCF_018584435.1	ctbh806				2214		2202565	1352
-NC_076306.1	Genomoviridae_sp_ctca70	Genomoviridae sp.	GCF_018584445.1	ctca70				2231		2202565	1352
 NC_076307.1	Genomoviridae_sp_ctgb66	Genomoviridae sp.	GCF_018584455.1	ctgb66				2284		2202565	1352
-NC_076308.1	Genomoviridae_sp_ctea93	Genomoviridae sp.	GCF_018584465.1	ctea93				2138		2202565	1352
 NC_076309.1	Genomoviridae_sp_ctbe80	Genomoviridae sp.	GCF_018584475.1	ctbe80				2208		2202565	1352
-NC_076310.1	Genomoviridae_sp_ctjj82	Genomoviridae sp.	GCF_018584485.1	ctjj82				2136		2202565	1352
 NC_076311.1	Genomoviridae_sp_ctda73	Genomoviridae sp.	GCF_018584495.1	ctda73				2195		2202565	1352
 NC_076312.1	Genomoviridae_sp_ctdb7	Genomoviridae sp.	GCF_018584505.1	ctdb7				2206		2202565	1352
 NC_076313.1	Genomoviridae_sp_ctbi89	Genomoviridae sp.	GCF_018584515.1	ctbi89				2161		2202565	1352
 NC_076314.1	Genomoviridae_sp_cthh214	Genomoviridae sp.	GCF_018584525.1	cthh214				2148	Melanogrammus aeglefinus	2202565	1352
 NC_076315.1	Genomoviridae_sp_ctdb242	Genomoviridae sp.	GCF_018584535.1	ctdb242				2251		2202565	1352
-NC_076316.1	Genomoviridae_sp_ctda_5	Genomoviridae sp.	GCF_018584545.1	ctda_5				2087	Metazoa	2202565	1352
-NC_076317.1	Genomoviridae_sp_ctbd78	Genomoviridae sp.	GCF_018584555.1	ctbd78				2165		2202565	1352
 NC_076318.1	Genomoviridae_sp_ctcd252	Genomoviridae sp.	GCF_018584565.1	ctcd252				2223		2202565	1352
-NC_076319.1	Genomoviridae_sp_ctij207	Genomoviridae sp.	GCF_018584575.1	ctij207				2179	Melanogrammus aeglefinus	2202565	1352
 NC_076324.1	Genomoviridae_sp_ctbi78	Genomoviridae sp.	GCF_018584625.1	ctbi78				2244	Oncorhynchus mykiss	2202565	1352
 NC_076325.1	Genomoviridae_sp_ctcj747	Genomoviridae sp.	GCF_018584635.1	ctcj747				2359		2202565	1352
 NC_076327.1	Genomoviridae_sp_ctce205	Genomoviridae sp.	GCF_018584655.1	ctce205				2194	Melanogrammus aeglefinus	2202565	1352
@@ -162,7 +148,6 @@ NC_003615.1	Grapevine_fanleaf_virus_RNA_1	Grapevine fanleaf virus	GCF_000860305.
 NC_003623.1	Grapevine_fanleaf_virus_NC_003623_1	Grapevine fanleaf virus	GCF_000860305.1		F13			3774		3047852	1214
 NC_075373.1	Anelloviridae_sp_ctbb016	Anelloviridae sp.	GCF_004286455.1	ctbb016				2810	Homo sapiens	2055263	1180
 NC_075385.1	Anelloviridae_sp_ctbb008	Anelloviridae sp.	GCF_004290615.1	ctbb008				1833		2055263	1180
-NC_075389.1	Anelloviridae_sp_ctdb009	Anelloviridae sp.	GCF_004290895.1	ctdb009				1801		2055263	1180
 NC_075447.1	Anelloviridae_sp_vzttmv5	Anelloviridae sp.	GCF_006370125.1		vzttmv5			2919	Homo sapiens	2055263	1180
 NC_002361.1	Columbid_circovirus	Columbid circovirus	GCF_000843885.1					2037	Columbidae	3050342	1166
 NC_003737.1	Rice_black_streaked_dwarf_virus_6	Rice black streaked dwarf virus	GCF_000852945.1				6	2645	Oryza sativa	3428768	1149
