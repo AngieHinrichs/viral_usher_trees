@@ -147,6 +147,9 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
+        # git pull to get other concurrent jobs' commits before adding
+        git pull
+
         # Add all updated tree files
         git add trees/*/{metadata.tsv.gz,optimized.pb.gz,output_stats.tsv,tree.jsonl.gz,viz.nwk.gz,viz.pb.gz}
         
@@ -164,7 +167,7 @@ jobs:
         EOF
         )
           
-          # Retry loop for the git operations that can fail due to conflicts
+          # Retry loop for the git operations that might fail due to conflicts between jobs
           max_attempts=5
           attempt=1
           while [ $attempt -le $max_attempts ]; do
@@ -225,6 +228,9 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
+        # git pull because jobs start up too quickly to get the previous job's commit
+        git pull
+
         # Add all updated files
         git add tree_metadata.tsv built_trees.txt failed_trees.txt
 
@@ -239,7 +245,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git add tree_metadata.tsv
           git commit -m "Automated update: ${{ needs.partition_trees.outputs.build_version }} metadata (${{ steps.concat.outputs.built_count }} trees updated)
           $fail_message"
           #***TODO remove " origin more_trees" when ready to merge
