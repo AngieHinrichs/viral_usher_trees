@@ -46,7 +46,7 @@ while read tree_name; do
     echo ""
     if [[ -d trees/$tree_name && -s trees/$tree_name/config.toml ]]; then
         echo "Building $tree_name at $(date)"
-        if ./scripts/build_one.sh $tree_name >& logs/$tree_name.log.txt; then
+        if timeout 60m ./scripts/build_one.sh $tree_name >& logs/$tree_name.log.txt; then
             echo $tree_name >> $pass_file
             echo "$tree_name built successfully."
         else
