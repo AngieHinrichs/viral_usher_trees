@@ -110,7 +110,17 @@ jobs:
         path: ./
 
     - name: Build
-      run: bash scripts/build_job.sh ${{ matrix.job_index }}
+      run: |
+        # actions/checkout@v4 doesn't pick up partition_trees' commit, so git pull before running
+        git pull
+        bash scripts/build_job.sh ${{ matrix.job_index }}
+        # Just in case any failed jobs left a big mess, prevent that from being committed to the repo
+        for subdir in $(cat failed_trees.${{ matrix.job_index }}.txt); do
+          rm -f trees/$subdir/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml,changed_nodes,rename.tsv}
+          rm -f trees/$subdir/{nextclade.clade.tsv,mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
+          rm -f trees/$subdir/{ncbi_virus_metadata.csv,tree_samples.txt}
+        done
+
 
     - name: Upload logs and summaries
       uses: actions/upload-artifact@v4
@@ -138,14 +148,14 @@ jobs:
         git config --local user.name "GitHub Action"
 
         # Add all updated tree files
-        git add trees/
+        git add trees/*/{metadata.tsv.gz,optimized.pb.gz,output_stats.tsv,tree.jsonl.gz,viz.nwk.gz,viz.pb.gz}
         
         # Check if there are changes to commit
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
           end_timestamp=$(date +'%Y-%m-%d_%H-%M-%S')
-          commit_message=$(cat <<'EOF'
+          commit_message=$(cat <<"EOF"
         Automated update: ${{ needs.partition_trees.outputs.build_version }} batch ${{ matrix.job_index }}
         
         Build started at:    ${{ needs.partition_trees.outputs.start_timestamp }}
@@ -216,7 +226,7 @@ jobs:
         git config --local user.name "GitHub Action"
 
         # Add all updated files
-        git add trees/
+        git add tree_metadata.tsv built_trees.txt failed_trees.txt
 
         # Describe failures only if there were failures
         if (( ${{ steps.concat.outputs.failed_count }} > 0 )); then
