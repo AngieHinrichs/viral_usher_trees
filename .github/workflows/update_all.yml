@@ -108,17 +108,25 @@ jobs:
         name: job_lists
         path: ./
 
+    - name: Free Disk Space
+      uses: jlumbroso/free-disk-space@main
+      with:
+        tool-cache: false
+        android: true
+        dotnet: true
+        haskell: true
+        large-packages: true
+        swap-storage: true
+
     - name: Build
       run: |
+        # Remove unused containers, networks, images, and build cache
+        docker system prune -af
+        # Remove unused images
+        docker image prune -af
         # actions/checkout@v4 doesn't pick up partition_trees' commit, so git pull before running
         git pull
         bash scripts/build_job.sh ${{ matrix.job_index }}
-        # Just in case any failed jobs left a big mess, prevent that from being committed to the repo
-        for subdir in $(cat failed_trees.${{ matrix.job_index }}.txt); do
-          rm -f trees/$subdir/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml,changed_nodes,rename.tsv}
-          rm -f trees/$subdir/{nextclade.clade.tsv,mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
-          rm -f trees/$subdir/{ncbi_virus_metadata.csv,tree_samples.txt}
-        done
 
 
     - name: Upload logs and summaries

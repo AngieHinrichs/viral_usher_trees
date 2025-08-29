@@ -52,7 +52,16 @@ while read tree_name; do
         else
             echo $tree_name >> $fail_file
             echo "$tree_name failed, added to $fail_file"
+            # In the context of a long run on a GitHub runner with little disk space,
+            # remove all of the files generated for failed runs too, because they won't
+            # be available after this job exits anyway.
+            rm -f trees/$tree_name/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml,changed_nodes,rename.tsv}
+            rm -f trees/$tree_name/{nextclade.clade.tsv,mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
+            rm -f trees/$tree_name/{ncbi_virus_metadata.csv,tree_samples.txt}
         fi
+        # Remove all stopped containers
+        docker container prune -f
+        df -h
     else
         echo "$tree_name doesn't have config_file, it should not be in $job_list"
     fi
