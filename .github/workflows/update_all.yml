@@ -38,8 +38,8 @@ jobs:
     
     - name: Partition trees
       # The number of jobs here (-j) must correspond to the job_index values below
-      #***TODO remove ".test" when this all works, change 3 to 5
-      run: scripts/partition_jobs.py -i rank_refseqs/refseq_tree_metadata.test.tsv -j 3
+      #***TODO remove ".test" when this all works
+      run: scripts/partition_jobs.py -i rank_refseqs/refseq_tree_metadata.test.tsv -j 5
 
     - name: Upload job lists
       uses: actions/upload-artifact@v4
@@ -83,8 +83,7 @@ jobs:
     strategy:
       matrix:
         # The job indexes must match the range of the -j option in the partition_jobs.py command above
-        #***TODO: add 3, 4 when -j changes to 5 above
-        job_index: [0, 1, 2]
+        job_index: [0, 1, 2, 3, 4]
       # Don't stop this job if some other job has a problem, build as many trees as we can.
       fail-fast: false
     permissions:
