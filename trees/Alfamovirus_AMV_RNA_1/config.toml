@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_001495.1, taxonomy ID 12321
+
+viral_usher_version = '0.8.0'
+refseq_acc = 'NC_001495.1'
+refseq_assembly = 'GCF_000847525.1'
+taxonomy_id = '12321'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Alfamovirus_AMV_RNA_1'

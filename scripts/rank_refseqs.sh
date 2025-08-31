@@ -6,7 +6,10 @@ scriptDir=$(dirname "${BASH_SOURCE[0]}")
 
 email=$USER'@soe.ucsc.edu'
 
-mkdir -p rank_refseqs
+if [[ ! -d rank_refseqs ]]; then
+    echo "Run this in top level of viral_usher_trees repo"
+    exit 1
+fi
 
 # Get metadata for all viral RefSeq genomes from NCBI Virus
 ncbiVirusUrl='https://www.ncbi.nlm.nih.gov/genomes/VirusVariation/vvsearch2/?fq=%7B%21tag%3DSeqType_s%7DSeqType_s%3A%28%22Nucleotide%22%29&fq=SourceDB_s%3A%28%22RefSeq%22%29&q=%2A%3A%2A&cmd=download&dlfmt=csv&fl=accession%3AAccVer_s%2Corganism%3ATaxName_s%2Cassembly%3ASetAcc_s%2Cisolate%3AIsolate_s%2Cstrain%3AStrain_s%2Cserotype%3ASerotype_s%2Csegment%3ASegment_s%2Clength%3ASLen_i%2Chost%3AHost_s&sort=id+asc&email='$email
@@ -33,3 +36,8 @@ awk -v 'FS=\t' -v 'OFS=\t' '$2 != "" && $11 >= 1000' rank_refseqs/refseq_metadat
 $scriptDir/refseq_metadata_to_tree_name.py \
     -m rank_refseqs/refseq_metadata_ranked.tsv \
     -o rank_refseqs/refseq_to_tree_name.tsv
+
+# Combine tree name and metadata columns into file used to drive the tree updating process
+csvtk join -t rank_refseqs/refseq_to_tree_name.tsv rank_refseqs/refseq_metadata_plus.tsv \
+| grep -vFwf <(cut -f 1 rank_refseqs/exclude_accessions.tsv | tail -n+2) \
+    > rank_refseqs/refseq_tree_metadata.tsv

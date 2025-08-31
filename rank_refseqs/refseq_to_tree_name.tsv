@@ -1,3 +1,4 @@
+accession	tree_name
 NC_004718.3	SARS_coronavirus_Tor2
 NC_045512.2	Severe_acute_respiratory_syndrome_coronavirus_2
 NC_026438.1	Influenza_A_virus_A_California_07_2009_H1N1_1
@@ -85,7 +86,7 @@ NC_011504.2	Rotavirus_A_10
 NC_011503.2	Rotavirus_A_9
 NC_011506.2	Rotavirus_A_2
 NC_011501.2	Rotavirus_A_7
-NC_001959.2	Norovirus_GI_NC_001959.2
+NC_001959.2	Norovirus_GI_NC_001959_2
 NC_044853.1	Norovirus_GI_Hu_JP_1998_GI_6_PNA4_No20_Saitama_98_17
 NC_044854.1	Norovirus_GI_Hu_JP_2000_GI_6_PNA1_WUG1
 NC_044856.1	Norovirus_GI_Hu_BD_2011_GI_7_PNA2_Dhaka1882
@@ -108,7 +109,7 @@ NC_031324.1	Primate_norovirus
 NC_001549.1	Simian_immunodeficiency_virus
 NC_004455.1	Simian_immunodeficiency_virus_SIV_mnd_2
 NC_001781.1	Human_orthopneumovirus_B1
-NC_038235.1	Human_orthopneumovirus_NC_038235.1
+NC_038235.1	Human_orthopneumovirus_NC_038235_1
 NC_001803.1	Human_respiratory_syncytial_virus_A
 NC_001477.1	dengue_virus_type_1
 NC_001474.2	dengue_virus_type_2
@@ -158,11 +159,11 @@ NC_044958.1	African_swine_fever_virus_E75
 NC_044957.1	African_swine_fever_virus_OURT_88_3
 NC_002058.3	Enterovirus_C
 NC_002200.1	Mumps_orthorubulavirus
-NC_134822.1	Bacteriophage_sp_NC_134822.1
-NC_134823.1	Bacteriophage_sp_NC_134823.1
-NC_134744.1	Bacteriophage_sp_NC_134744.1
-NC_134824.1	Bacteriophage_sp_NC_134824.1
-NC_134821.1	Bacteriophage_sp_NC_134821.1
+NC_134822.1	Bacteriophage_sp_NC_134822_1
+NC_134823.1	Bacteriophage_sp_NC_134823_1
+NC_134744.1	Bacteriophage_sp_NC_134744_1
+NC_134824.1	Bacteriophage_sp_NC_134824_1
+NC_134821.1	Bacteriophage_sp_NC_134821_1
 NC_039199.1	Human_metapneumovirus
 NC_006023.1	Bluetongue_virus_1
 NC_006014.1	Bluetongue_virus_3
@@ -180,7 +181,7 @@ NC_005148.1	Porcine_circovirus_2_AUT1
 NC_006232.1	Porcine_circovirus_2_JX0301
 NC_001617.1	Rhinovirus_A
 NC_038311.1	rhinovirus_A1
-NC_074955.1	Paslahepevirus_balayani_NC_074955.1
+NC_074955.1	Paslahepevirus_balayani_NC_074955_1
 NC_076565.1	Paslahepevirus_balayani_AlgSwe2012
 NC_076592.1	Paslahepevirus_balayani_little_egret_kocsag02_2014_HUN
 NC_001489.1	Hepatovirus_A
@@ -284,9 +285,9 @@ NC_001463.1	Caprine_arthritis_encephalitis_virus
 NC_001710.1	GB_virus_C
 NC_038272.1	Bovine_respiratory_syncytial_virus_ATCC51908
 NC_001989.1	bovine_respiratory_syncytial_virus
-NC_001440.1	Cucumber_mosaic_virus_RNA 3
-NC_002035.1	Cucumber_mosaic_virus_RNA 2
-NC_002034.1	Cucumber_mosaic_virus_RNA 1
+NC_001440.1	Cucumber_mosaic_virus_RNA_3
+NC_002035.1	Cucumber_mosaic_virus_RNA_2
+NC_002034.1	Cucumber_mosaic_virus_RNA_1
 NC_005301.3	Orthonairovirus_haemorrhagiae_L
 NC_005302.1	Orthonairovirus_haemorrhagiae_S
 NC_005300.2	Orthonairovirus_haemorrhagiae_M
@@ -308,12 +309,12 @@ NC_036475.1	Piscine_orthoreovirus_S4
 NC_001538.1	Betapolyomavirus_hominis
 NC_002657.1	Classical_swine_fever_virus
 NC_038912.1	Classical_swine_fever_virus_Alfort_187
-NC_001653.2	Hepatitis_delta_virus_NC_001653.2
+NC_001653.2	Hepatitis_delta_virus_NC_001653_2
 NC_076103.1	Hepatitis_delta_virus_VnzD8349
 NC_076106.1	Hepatitis_delta_virus_dFr2072
 NC_076107.1	Hepatitis_delta_virus_dFr2005
 NC_076108.1	Hepatitis_delta_virus_dFr2158
-NC_076110.1	Hepatitis_delta_virus_NC_076110.1
+NC_076110.1	Hepatitis_delta_virus_NC_076110_1
 NC_059681.1	hepatitis_D_virus_1
 NC_001545.2	Rubella_virus_F_Therien
 NC_076948.1	Rubella_virus_RVi_Bismarck_ND_USA_23_08_2B
@@ -323,7 +324,7 @@ NC_076947.1	Equine_infectious_anemia_virus
 NC_001357.1	human_papillomavirus_18
 NC_001437.1	Japanese_encephalitis_virus
 NC_001482.1	Feline_immunodeficiency_virus
-NC_001796.2	Human_respirovirus_3_NC_001796.2
+NC_001796.2	Human_respirovirus_3_NC_001796_2
 NC_075446.1	Human_respirovirus_3_Guangzhou
 NC_038270.1	Simian_Agent_10
 NC_002549.1	Zaire_ebolavirus
@@ -331,9 +332,9 @@ NC_001921.1	canine_distemper_virus
 NC_005223.1	Orthohantavirus_puumalaense_Sotkamo_M
 NC_005225.1	Orthohantavirus_puumalaense_Sotkamo_L
 NC_005224.1	Orthohantavirus_puumalaense_Sotkamo_S
-NC_077666.1	Orthohantavirus_puumalaense_CG1820_NC_077666.1
-NC_077667.1	Orthohantavirus_puumalaense_CG1820_NC_077667.1
-NC_077668.1	Orthohantavirus_puumalaense_CG1820_NC_077668.1
+NC_077666.1	Orthohantavirus_puumalaense_CG1820_NC_077666_1
+NC_077667.1	Orthohantavirus_puumalaense_CG1820_NC_077667_1
+NC_077668.1	Orthohantavirus_puumalaense_CG1820_NC_077668_1
 NC_022518.1	Human_endogenous_retrovirus_K113
 NC_001454.1	Human_mastadenovirus_F
 NC_001672.1	Tick_borne_encephalitis_virus
@@ -349,18 +350,18 @@ NC_005996.1	Orbivirus_alphaequi_2
 NC_006017.1	Orbivirus_alphaequi_3
 NC_006021.1	Orbivirus_alphaequi_1
 NC_006020.1	Orbivirus_alphaequi_5
-NC_006019.1	Orbivirus_alphaequi_NC_006019.1
+NC_006019.1	Orbivirus_alphaequi_NC_006019_1
 NC_006018.1	Orbivirus_alphaequi_6
 NC_004005.1	Tomato_yellow_leaf_curl_virus
 NC_012959.1	Human_adenovirus_54
 NC_010956.1	Human_mastadenovirus_D_Human_adenovirus_9
 AC_000006.1	Human_mastadenovirus_D_Human_adenovirus_type_17
-NC_003475.1	Banana_bunchy_top_virus_DNA U3
-NC_003474.1	Banana_bunchy_top_virus_DNA M
-NC_003473.1	Banana_bunchy_top_virus_DNA S
-NC_003479.1	Banana_bunchy_top_virus_DNA R
-NC_003477.1	Banana_bunchy_top_virus_DNA C
-NC_003476.1	Banana_bunchy_top_virus_DNA N
+NC_003475.1	Banana_bunchy_top_virus_DNA_U3
+NC_003474.1	Banana_bunchy_top_virus_DNA_M
+NC_003473.1	Banana_bunchy_top_virus_DNA_S
+NC_003479.1	Banana_bunchy_top_virus_DNA_R
+NC_003477.1	Banana_bunchy_top_virus_DNA_C
+NC_003476.1	Banana_bunchy_top_virus_DNA_N
 NC_055057.1	Leviviridae_sp_AVE004
 NC_055058.1	Leviviridae_sp_AVE007
 NC_074553.1	Leviviridae_sp_AVE006
@@ -418,8 +419,8 @@ NC_077841.1	Mammalian_orthoreovirus_3_Dearing_M1
 NC_077843.1	Mammalian_orthoreovirus_3_Dearing_M2
 NC_077842.1	Mammalian_orthoreovirus_3_Dearing_L3
 NC_002509.2	Turnip_mosaic_virus
-NC_004611.1	Tomato_leaf_curl_New_Delhi_virus_DNA A
-NC_004612.1	Tomato_leaf_curl_New_Delhi_virus_DNA B
+NC_004611.1	Tomato_leaf_curl_New_Delhi_virus_DNA_A
+NC_004612.1	Tomato_leaf_curl_New_Delhi_virus_DNA_B
 NC_003027.1	Lumpy_skin_disease_virus_NI_2490
 NC_034440.1	Bat_coronavirus_PREDICT_PDF_2180
 NC_048212.1	Bat_coronavirus_CMR704_P12
@@ -437,9 +438,9 @@ NC_001490.1	rhinovirus_B14
 NC_038312.1	rhinovirus_B3
 NC_002031.1	Yellow_fever_virus
 NC_005336.1	Orf_virus
-NC_005218.1	Orthohantavirus_hantanense_NC_005218.1
+NC_005218.1	Orthohantavirus_hantanense_NC_005218_1
 NC_005222.1	Orthohantavirus_hantanense_L
-NC_005219.1	Orthohantavirus_hantanense_NC_005219.1
+NC_005219.1	Orthohantavirus_hantanense_NC_005219_1
 NC_001362.1	Friend_murine_leukemia_virus
 NC_001501.1	Moloney_murine_leukemia_virus
 NC_001702.1	Murine_type_C_retrovirus
@@ -468,13 +469,13 @@ NC_076852.1	Cressdnaviricota_sp_UJSL012
 NC_001785.1	Papaya_ringspot_virus
 NC_038332.1	Fowl_aviadenovirus_6
 NC_014969.1	Fowl_aviadenovirus_E
-NC_003517.1	Beet_necrotic_yellow_vein_virus_RNA 4
-NC_003515.1	Beet_necrotic_yellow_vein_virus_RNA 2
-NC_003513.1	Beet_necrotic_yellow_vein_virus_RNA 5
-NC_003514.1	Beet_necrotic_yellow_vein_virus_RNA 1
-NC_003516.1	Beet_necrotic_yellow_vein_virus_RNA 3
+NC_003517.1	Beet_necrotic_yellow_vein_virus_RNA_4
+NC_003515.1	Beet_necrotic_yellow_vein_virus_RNA_2
+NC_003513.1	Beet_necrotic_yellow_vein_virus_RNA_5
+NC_003514.1	Beet_necrotic_yellow_vein_virus_RNA_1
+NC_003516.1	Beet_necrotic_yellow_vein_virus_RNA_3
 NC_001481.2	Feline_calicivirus_Urbana
-NC_075569.1	Feline_calicivirus_NC_075569.1
+NC_075569.1	Feline_calicivirus_NC_075569_1
 NC_013396.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_1
 NC_013400.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_5
 NC_013405.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_10
@@ -505,7 +506,7 @@ NC_019843.3	Middle_East_respiratory_syndrome_related_coronavirus
 NC_015116.1	Avian_leukemia_virus
 NC_001408.1	Avian_leukosis_virus_RSA
 NC_001918.1	Aichi_virus_1_A846_88
-NC_074775.1	Aichi_virus_1_NC_074775.1
+NC_074775.1	Aichi_virus_1_NC_074775_1
 NC_001940.1	Feline_leukemia_virus
 NC_003398.1	Sugarcane_mosaic_virus
 NC_007455.1	Bocaparvovirus_primate1_st2
@@ -531,7 +532,7 @@ NC_001351.1	Hop_stunt_viroid
 NC_004067.1	Pepino_mosaic_virus
 NC_006551.1	Usutu_virus
 NC_000899.1	Fowl_aviadenovirus_D_Fowl_adenovirus_9
-AC_000013.1	Fowl_aviadenovirus_D_AC_000013.1
+AC_000013.1	Fowl_aviadenovirus_D_AC_000013_1
 NC_015782.2	Grapevine_Pinot_gris_virus
 NC_075974.1	Picornavirales_sp_RtRn_PicoV_YN2014
 NC_075975.1	Picornavirales_sp_RtCb_PicoV_HeB2014
@@ -597,15 +598,15 @@ NC_003225.3	White_spot_syndrome_virus
 NC_001575.2	Rice_yellow_mottle_virus
 NC_014070.1	Torque_teno_sus_virus_1a
 NC_027059.1	Torque_teno_sus_virus_1b
-NC_002024.2	Alfamovirus_AMV_RNA 2
-NC_002025.1	Alfamovirus_AMV_RNA 3
-NC_001495.1	Alfamovirus_AMV_RNA 1
+NC_002024.2	Alfamovirus_AMV_RNA_2
+NC_002025.1	Alfamovirus_AMV_RNA_3
+NC_001495.1	Alfamovirus_AMV_RNA_1
 NC_001492.1	Cryphonectria_hypovirus_1
 NC_001749.2	Capillovirus_mali
-NC_001468.1	Begomovirus_manihotis_DNA B
-NC_001467.1	Begomovirus_manihotis_DNA A
-NC_003615.1	Grapevine_fanleaf_virus_RNA 1
-NC_003623.1	Grapevine_fanleaf_virus_NC_003623.1
+NC_001468.1	Begomovirus_manihotis_DNA_B
+NC_001467.1	Begomovirus_manihotis_DNA_A
+NC_003615.1	Grapevine_fanleaf_virus_RNA_1
+NC_003623.1	Grapevine_fanleaf_virus_NC_003623_1
 NC_075369.1	Anelloviridae_sp_ctbg056
 NC_075370.1	Anelloviridae_sp_ctbc019
 NC_075371.1	Anelloviridae_sp_ctbf050
@@ -619,12 +620,12 @@ NC_075378.1	Anelloviridae_sp_ctea38
 NC_075379.1	Anelloviridae_sp_ctcd026
 NC_075380.1	Anelloviridae_sp_ctcf040
 NC_075381.1	Anelloviridae_sp_ctcf007
-NC_075382.1	Anelloviridae_sp_ctcf003_NC_075382.1
+NC_075382.1	Anelloviridae_sp_ctcf003_NC_075382_1
 NC_075383.1	Anelloviridae_sp_ctdc005
 NC_075384.1	Anelloviridae_sp_ctbb005
 NC_075385.1	Anelloviridae_sp_ctbb008
 NC_075386.1	Anelloviridae_sp_ctbd010
-NC_075388.1	Anelloviridae_sp_ctcf003_NC_075388.1
+NC_075388.1	Anelloviridae_sp_ctcf003_NC_075388_1
 NC_075389.1	Anelloviridae_sp_ctdb009
 NC_075390.1	Anelloviridae_sp_cthe000
 NC_075447.1	Anelloviridae_sp_vzttmv5
@@ -653,14 +654,14 @@ NC_001488.1	Human_T_lymphotropic_virus_2
 NC_001815.1	Simian_T_lymphotropic_virus_2
 NC_014037.1	Sugarcane_streak_mosaic_virus
 NC_038815.1	Cardamom_bushy_dwarf_virus_M
-NC_038813.1	Cardamom_bushy_dwarf_virus_DNA-U3
-NC_038809.1	Cardamom_bushy_dwarf_virus_NC_038809.1
-NC_038810.1	Cardamom_bushy_dwarf_virus_NC_038810.1
-NC_038811.1	Cardamom_bushy_dwarf_virus_DNA-U2
-NC_038812.1	Cardamom_bushy_dwarf_virus_DNA-U4
-NC_038814.1	Cardamom_bushy_dwarf_virus_DNA-U1
-NC_038816.1	Cardamom_bushy_dwarf_virus_NC_038816.1
-NC_038808.1	Cardamom_bushy_dwarf_virus_NC_038808.1
+NC_038813.1	Cardamom_bushy_dwarf_virus_DNA_U3
+NC_038809.1	Cardamom_bushy_dwarf_virus_NC_038809_1
+NC_038810.1	Cardamom_bushy_dwarf_virus_NC_038810_1
+NC_038811.1	Cardamom_bushy_dwarf_virus_DNA_U2
+NC_038812.1	Cardamom_bushy_dwarf_virus_DNA_U4
+NC_038814.1	Cardamom_bushy_dwarf_virus_DNA_U1
+NC_038816.1	Cardamom_bushy_dwarf_virus_NC_038816_1
+NC_038808.1	Cardamom_bushy_dwarf_virus_NC_038808_1
 NC_024113.1	Mogiana_tick_virus_SY84_1
 NC_024114.1	Mogiana_tick_virus_SY84_3
 NC_024111.1	Mogiana_tick_virus_SY84_4

@@ -39,7 +39,17 @@ fi
 
 # Config needs an absolute path; swap in 
 sed -e "s@^workdir = '\.@workdir = '"$(pwd)"@" trees/$subdir/config.toml > trees/$subdir/local.toml
-viral_usher build --config trees/$subdir/local.toml
 
+# If a previous build's final tree is present then do an update build, otherwise build from scratch
+if [[ -s trees/$subdir/optimized.pb.gz ]]; then
+    update="--update"
+else
+    update=""
+fi
+
+viral_usher build --config trees/$subdir/local.toml $update
+
+# Clean up the mess
 rm -f trees/$subdir/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml,changed_nodes,rename.tsv}
 rm -f trees/$subdir/{nextclade.clade.tsv,mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
+rm -f trees/$subdir/{ncbi_virus_metadata.csv,tree_samples.txt}

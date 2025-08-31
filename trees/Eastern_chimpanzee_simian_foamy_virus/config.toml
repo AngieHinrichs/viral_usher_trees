@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_039025.1, taxonomy ID 3432458
+
+viral_usher_version = '0.7.0'
+refseq_acc = 'NC_039025.1'
+refseq_assembly = 'GCF_003032765.1'
+taxonomy_id = '3432458'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/Eastern_chimpanzee_simian_foamy_virus'

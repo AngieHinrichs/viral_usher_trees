@@ -1,0 +1,14 @@
+# viral_usher config for RefSeq NC_003225.3, taxonomy ID 342409
+
+viral_usher_version = '0.8.0'
+refseq_acc = 'NC_003225.3'
+refseq_assembly = 'GCF_000848085.3'
+taxonomy_id = '342409'
+nextclade_dataset = ''
+nextclade_clade_columns = ''
+min_length_proportion = '0.8'
+max_N_proportion = '0.25'
+max_parsimony = '1000'
+max_branch_length = '10000'
+extra_fasta = ''
+workdir = './trees/White_spot_syndrome_virus'
