@@ -1,15 +1,10 @@
 name: viral_usher monthly tree update driven by rank_refseqs/refseq_tree_metadata.tsv
 
 on:
-#***TODO UNCOMMMENT
-#  schedule:
-#    # Runs first day of every month at 2:00 AM UTC
-#    - cron: '0 2 1 * *'
+  schedule:
+    # Runs first day of every month at 2:00 AM UTC
+    - cron: '0 2 1 * *'
   workflow_dispatch: # Allow manual triggering
-  #***TODO: get rid of this push trigger before merging into main
-  push:
-    branches:
-      - more_trees
 
 jobs:
 
@@ -39,8 +34,7 @@ jobs:
     
     - name: Partition trees
       # The number of jobs here (-j) must correspond to the job_index values below
-      #***TODO remove ".test" when this all works
-      run: scripts/partition_jobs.py -i rank_refseqs/refseq_tree_metadata.test.tsv -j 5
+      run: scripts/partition_jobs.py -i rank_refseqs/refseq_tree_metadata.tsv -j 10
 
     - name: Upload job lists
       uses: actions/upload-artifact@v4
@@ -73,8 +67,7 @@ jobs:
         else
           git commit -m "Config files for new trees added ${{ steps.timestamp.outputs.build_version }}"
         fi
-        #***TODO remove " origin more_trees" when ready to merge
-        git push origin more_trees
+        git push
 
           
   # Run concurrent jobs, each one driven by a config file from partition_trees
@@ -84,7 +77,9 @@ jobs:
     strategy:
       matrix:
         # The job indexes must match the range of the -j option in the partition_jobs.py command above
-        job_index: [0, 1, 2, 3, 4]
+        job_index: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+      # Don't let more than 5 jobs run simultaneously so we don't exceed NCBI's rate limit
+      max-parallel: 5
       # Don't stop this job if some other job has a problem, build as many trees as we can.
       fail-fast: false
     permissions:
@@ -175,8 +170,7 @@ jobs:
           max_attempts=5
           attempt=1
           while [ $attempt -le $max_attempts ]; do
-            #***TODO remove " origin more_trees" when ready to merge
-            if git pull && git commit -m "$commit_message" && git push origin more_trees; then
+            if git pull && git commit -m "$commit_message" && git push; then
               echo "Successfully pushed on attempt $attempt"
               break
             elif [ $attempt -eq $max_attempts ]; then
@@ -250,6 +244,5 @@ jobs:
         else
           git commit -m "Automated update: ${{ needs.partition_trees.outputs.build_version }} metadata (${{ steps.concat.outputs.built_count }} trees updated)
           $fail_message"
-          #***TODO remove " origin more_trees" when ready to merge
-          git push origin more_trees
+          git push
         fi
