@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viral_usher_trees search</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #24292f;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #24292f;
+            border-bottom: 1px solid #d1d9e0;
+            padding-bottom: 10px;
+            margin-bottom: 24px;
+        }
+
+        .controls {
+            background: #f6f8fa;
+            border: 1px solid #d1d9e0;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .search-container {
+            position: relative;
+            margin-bottom: 16px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px 12px;
+            font-size: 14px;
+            border: 1px solid #d1d9e0;
+            border-radius: 6px;
+            background-color: #ffffff;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: #0969da;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.1);
+        }
+
+        .autocomplete-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 1px solid #d1d9e0;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+        }
+
+        .autocomplete-item {
+            padding: 8px 12px;
+            cursor: pointer;
+            border-bottom: 1px solid #f6f8fa;
+        }
+
+        .autocomplete-item:hover {
+            background-color: #f6f8fa;
+        }
+
+        .autocomplete-item.highlighted {
+            background-color: #0969da;
+            color: white;
+        }
+
+        .info-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: #656d76;
+        }
+
+        .pagination {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .pagination button {
+            padding: 6px 12px;
+            border: 1px solid #d1d9e0;
+            background: #ffffff;
+            color: #24292f;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            background-color: #f6f8fa;
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination button.active {
+            background-color: #0969da;
+            color: white;
+            border-color: #0969da;
+        }
+
+        .table-container {
+            border: 1px solid #d1d9e0;
+            border-radius: 6px;
+            overflow: hidden;
+            background: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #f6f8fa;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 1px solid #d1d9e0;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.2s;
+        }
+
+        th:hover {
+            background-color: #eaeef2;
+        }
+
+        th.sortable::after {
+            content: ' ↕';
+            opacity: 0.5;
+            font-size: 12px;
+        }
+
+        th.sort-asc::after {
+            content: ' ↑';
+            opacity: 1;
+        }
+
+        th.sort-desc::after {
+            content: ' ↓';
+            opacity: 1;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #f6f8fa;
+        }
+
+        tr:hover {
+            background-color: #f6f8fa;
+        }
+
+        .link {
+            color: #0969da;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 16px;
+            color: #656d76;
+        }
+
+        .error {
+            background-color: #fff5f5;
+            border: 1px solid #fd8c8c;
+            color: #d73a49;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .table-container {
+                overflow-x: auto;
+            }
+            
+            table {
+                min-width: 800px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Search viral_usher_trees</h1>
+        
+        <div class="controls">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    placeholder="Search trees by RefSeq organism, strain, serotype, accession, segment..." 
+                    id="searchInput"
+                >
+                <div class="autocomplete-dropdown" id="autocompleteDropdown"></div>
+            </div>
+        </div>
+
+        <div class="info-bar">
+            <div id="resultsInfo">Loading trees...</div>
+            <div class="pagination" id="pagination"></div>
+        </div>
+
+        <div class="table-container">
+            <div class="loading" id="loading">Loading viral tree metadata...</div>
+            <table id="treesTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-column="tree_name">Tree Name</th>
+                        <th class="sortable" data-column="accession">RefSeq Accession</th>
+                        <th class="sortable" data-column="organism">Organism</th>
+                        <th class="sortable" data-column="isolate">RefSeq Isolate</th>
+                        <th class="sortable" data-column="strain">RefSeq Strain</th>
+                        <th class="sortable" data-column="serotype">RefSeq Serotype</th>
+                        <th class="sortable" data-column="segment">Segment</th>
+                        <th class="sortable" data-column="Taxonomy_ID">Taxonomy ID</th>
+                        <th class="sortable" data-column="tip_count">Number of sequences</th>
+                    </tr>
+                </thead>
+                <tbody id="treesTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        class ViralTreesBrowser {
+            constructor() {
+                this.data = [];
+                this.filteredData = [];
+                this.currentPage = 1;
+                this.itemsPerPage = 25;
+                this.sortColumn = null;
+                this.sortDirection = 'asc';
+                this.searchTerms = [];
+                this.autocompleteIndex = -1;
+                
+                this.init();
+            }
+
+            async init() {
+                try {
+                    await this.loadData();
+                    this.setupEventListeners();
+                    this.filteredData = [...this.data];
+                    this.render();
+                } catch (error) {
+                    this.showError('Failed to load tree data. Please make sure tree_metadata.tsv exists in your repository.');
+                }
+            }
+
+            async loadData() {
+                // Replace with your actual metadata file path
+                const response = await fetch('tree_metadata.tsv');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch metadata');
+                }
+                
+                const text = await response.text();
+                const lines = text.trim().split('\n');
+                const headers = lines[0].split('\t');
+                
+                this.data = lines.slice(1).map(line => {
+                    const values = line.split('\t');
+                    const row = {};
+                    headers.forEach((header, index) => {
+                        row[header] = values[index] || '';
+                    });
+                    return row;
+                });
+
+                // Build search index for autocomplete
+                this.buildSearchIndex();
+            }
+
+            buildSearchIndex() {
+                // Build a map from search terms to sets of row indices
+                this.searchIndex = new Map();
+                this.autocompleteTerms = new Set();
+                
+                this.data.forEach((row, rowIndex) => {
+                    Object.values(row).forEach(value => {
+                        if (value && value.length > 0) {
+                            const valueLower = value.toLowerCase();
+                            
+                            // Add complete values for autocomplete
+                            this.autocompleteTerms.add(value);
+                            
+                            // Index complete words and substrings for search
+                            const words = valueLower.split(/\s+/);
+                            words.forEach(word => {
+                                if (word.length > 0) {
+                                    // Add complete word
+                                    this.addToSearchIndex(word, rowIndex);
+                                    
+                                    // Add substrings for partial matching
+                                    for (let i = 0; i < word.length; i++) {
+                                        for (let j = i + 1; j <= word.length; j++) {
+                                            const substring = word.substring(i, j);
+                                            if (substring.length >= 2) {
+                                                this.addToSearchIndex(substring, rowIndex);
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    });
+                });
+            }
+
+            addToSearchIndex(term, rowIndex) {
+                if (!this.searchIndex.has(term)) {
+                    this.searchIndex.set(term, new Set());
+                }
+                this.searchIndex.get(term).add(rowIndex);
+            }
+
+            setupEventListeners() {
+                const searchInput = document.getElementById('searchInput');
+                const autocompleteDropdown = document.getElementById('autocompleteDropdown');
+                
+                searchInput.addEventListener('input', (e) => {
+                    this.handleSearch(e.target.value);
+                });
+
+                searchInput.addEventListener('keydown', (e) => {
+                    this.handleKeyDown(e);
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.search-container')) {
+                        autocompleteDropdown.style.display = 'none';
+                    }
+                });
+
+                // Sort functionality
+                document.querySelectorAll('th.sortable').forEach(th => {
+                    th.addEventListener('click', () => {
+                        this.handleSort(th.dataset.column);
+                    });
+                });
+            }
+
+            handleSearch(query) {
+                const autocompleteDropdown = document.getElementById('autocompleteDropdown');
+                
+                if (query.length < 2) {
+                    autocompleteDropdown.style.display = 'none';
+                    this.applyFilters('');
+                    return;
+                }
+
+                // Show autocomplete suggestions
+                const suggestions = this.getAutocompleteSuggestions(query);
+                this.showAutocompleteSuggestions(suggestions);
+
+                // Apply search filter
+                this.applyFilters(query);
+            }
+
+            getAutocompleteSuggestions(query) {
+                const queryLower = query.toLowerCase();
+                const suggestions = [];
+                
+                // Use the autocomplete terms we built during indexing
+                for (const term of this.autocompleteTerms) {
+                    if (term.toLowerCase().includes(queryLower) && suggestions.length < 10) {
+                        suggestions.push(term);
+                    }
+                }
+                
+                return suggestions.sort();
+            }
+
+            showAutocompleteSuggestions(suggestions) {
+                const dropdown = document.getElementById('autocompleteDropdown');
+                
+                if (suggestions.length === 0) {
+                    dropdown.style.display = 'none';
+                    return;
+                }
+
+                dropdown.innerHTML = suggestions.map((suggestion, index) => 
+                    `<div class="autocomplete-item" data-index="${index}">${suggestion}</div>`
+                ).join('');
+
+                dropdown.style.display = 'block';
+                this.autocompleteIndex = -1;
+
+                // Add click handlers
+                dropdown.querySelectorAll('.autocomplete-item').forEach(item => {
+                    item.addEventListener('click', () => {
+                        document.getElementById('searchInput').value = item.textContent;
+                        dropdown.style.display = 'none';
+                        this.applyFilters(item.textContent);
+                    });
+                });
+            }
+
+            handleKeyDown(e) {
+                const dropdown = document.getElementById('autocompleteDropdown');
+                const items = dropdown.querySelectorAll('.autocomplete-item');
+                
+                if (dropdown.style.display === 'none' || items.length === 0) return;
+
+                switch (e.key) {
+                    case 'ArrowDown':
+                        e.preventDefault();
+                        this.autocompleteIndex = Math.min(this.autocompleteIndex + 1, items.length - 1);
+                        this.highlightAutocompleteItem();
+                        break;
+                    case 'ArrowUp':
+                        e.preventDefault();
+                        this.autocompleteIndex = Math.max(this.autocompleteIndex - 1, -1);
+                        this.highlightAutocompleteItem();
+                        break;
+                    case 'Enter':
+                        if (this.autocompleteIndex >= 0) {
+                            e.preventDefault();
+                            const selectedItem = items[this.autocompleteIndex];
+                            document.getElementById('searchInput').value = selectedItem.textContent;
+                            dropdown.style.display = 'none';
+                            this.applyFilters(selectedItem.textContent);
+                        }
+                        break;
+                    case 'Escape':
+                        dropdown.style.display = 'none';
+                        break;
+                }
+            }
+
+            highlightAutocompleteItem() {
+                const items = document.querySelectorAll('.autocomplete-item');
+                items.forEach((item, index) => {
+                    item.classList.toggle('highlighted', index === this.autocompleteIndex);
+                });
+            }
+
+            applyFilters(searchQuery) {
+                this.currentPage = 1;
+                
+                if (!searchQuery) {
+                    this.filteredData = [...this.data];
+                } else {
+                    const queryLower = searchQuery.toLowerCase();
+                    const matchingRowIndices = new Set();
+                    
+                    // Use search index for faster lookups
+                    for (const [term, rowIndices] of this.searchIndex) {
+                        if (term.includes(queryLower)) {
+                            for (const rowIndex of rowIndices) {
+                                matchingRowIndices.add(rowIndex);
+                            }
+                        }
+                    }
+                    
+                    // Convert indices back to actual row data
+                    this.filteredData = Array.from(matchingRowIndices)
+                        .map(index => this.data[index])
+                        .filter(row => row); // Filter out any undefined rows
+                }
+                
+                this.render();
+            }
+
+            handleSort(column) {
+                if (this.sortColumn === column) {
+                    this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
+                } else {
+                    this.sortColumn = column;
+                    this.sortDirection = 'asc';
+                }
+
+                this.filteredData.sort((a, b) => {
+                    let aVal = a[column] || '';
+                    let bVal = b[column] || '';
+                    
+                    // Handle numeric sorting for Taxonomy_ID
+                    if (column === 'Taxonomy_ID') {
+                        aVal = parseInt(aVal) || 0;
+                        bVal = parseInt(bVal) || 0;
+                    } else {
+                        aVal = aVal.toString().toLowerCase();
+                        bVal = bVal.toString().toLowerCase();
+                    }
+
+                    if (aVal < bVal) return this.sortDirection === 'asc' ? -1 : 1;
+                    if (aVal > bVal) return this.sortDirection === 'asc' ? 1 : -1;
+                    return 0;
+                });
+
+                this.updateSortHeaders();
+                this.render();
+            }
+
+            updateSortHeaders() {
+                document.querySelectorAll('th.sortable').forEach(th => {
+                    th.classList.remove('sort-asc', 'sort-desc');
+                    if (th.dataset.column === this.sortColumn) {
+                        th.classList.add(`sort-${this.sortDirection}`);
+                    }
+                });
+            }
+
+            render() {
+                this.renderTable();
+                this.renderPagination();
+                this.renderInfo();
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('treesTable').style.display = 'table';
+            }
+
+            renderTable() {
+                const tbody = document.getElementById('treesTableBody');
+                const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+                const endIndex = startIndex + this.itemsPerPage;
+                const pageData = this.filteredData.slice(startIndex, endIndex);
+
+                tbody.innerHTML = pageData.map(row => `
+                    <tr>
+                        <td><a href="https://github.com/AngieHinrichs/viral_usher_trees/tree/main/trees/${row.tree_name}" class="link" target="_blank">${row.tree_name}</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/nuccore/${row.accession}" class="link" target="_blank">${row.accession}</a></td>
+                        <td>${row.organism}</td>
+                        <td>${row.isolate}</td>
+                        <td>${row.strain}</td>
+                        <td>${row.serotype}</td>
+                        <td>${row.segment}</td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=${row.Taxonomy_ID}" class="link" target="_blank">${row.Taxonomy_ID}</a></td>
+                        <td>${row.tip_count}</td>
+                    </tr>
+                `).join('');
+            }
+
+            renderPagination() {
+                const totalPages = Math.ceil(this.filteredData.length / this.itemsPerPage);
+                const pagination = document.getElementById('pagination');
+                
+                if (totalPages <= 1) {
+                    pagination.innerHTML = '';
+                    return;
+                }
+
+                const buttons = [];
+                
+                // Previous button
+                buttons.push(`
+                    <button ${this.currentPage === 1 ? 'disabled' : ''} onclick="browser.goToPage(${this.currentPage - 1})">
+                        Previous
+                    </button>
+                `);
+
+                // Page numbers
+                const maxVisiblePages = 5;
+                let startPage = Math.max(1, this.currentPage - Math.floor(maxVisiblePages / 2));
+                let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+                
+                if (endPage - startPage + 1 < maxVisiblePages) {
+                    startPage = Math.max(1, endPage - maxVisiblePages + 1);
+                }
+
+                if (startPage > 1) {
+                    buttons.push(`<button onclick="browser.goToPage(1)">1</button>`);
+                    if (startPage > 2) {
+                        buttons.push(`<span>...</span>`);
+                    }
+                }
+
+                for (let i = startPage; i <= endPage; i++) {
+                    buttons.push(`
+                        <button class="${i === this.currentPage ? 'active' : ''}" onclick="browser.goToPage(${i})">
+                            ${i}
+                        </button>
+                    `);
+                }
+
+                if (endPage < totalPages) {
+                    if (endPage < totalPages - 1) {
+                        buttons.push(`<span>...</span>`);
+                    }
+                    buttons.push(`<button onclick="browser.goToPage(${totalPages})">${totalPages}</button>`);
+                }
+
+                // Next button
+                buttons.push(`
+                    <button ${this.currentPage === totalPages ? 'disabled' : ''} onclick="browser.goToPage(${this.currentPage + 1})">
+                        Next
+                    </button>
+                `);
+
+                pagination.innerHTML = buttons.join('');
+            }
+
+            renderInfo() {
+                const start = (this.currentPage - 1) * this.itemsPerPage + 1;
+                const end = Math.min(this.currentPage * this.itemsPerPage, this.filteredData.length);
+                const total = this.filteredData.length;
+                const totalTrees = this.data.length;
+
+                let info = `Showing ${start}-${end} of ${total}`;
+                if (total !== totalTrees) {
+                    info += ` (filtered from ${totalTrees} total)`;
+                }
+                info += ` trees`;
+
+                document.getElementById('resultsInfo').textContent = info;
+            }
+
+            goToPage(page) {
+                this.currentPage = page;
+                this.render();
+            }
+
+            showError(message) {
+                document.getElementById('loading').innerHTML = `
+                    <div class="error">
+                        <strong>Error:</strong> ${message}
+                    </div>
+                `;
+            }
+        }
+
+        // Initialize the browser
+        let browser;
+        document.addEventListener('DOMContentLoaded', () => {
+            browser = new ViralTreesBrowser();
+        });
+    </script>
+</body>
+</html>
