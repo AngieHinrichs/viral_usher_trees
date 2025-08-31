@@ -246,3 +246,14 @@ jobs:
           $fail_message"
           git push
         fi
+
+    - name: Create Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gh release create v${{ needs.partition_trees.outputs.build_version }} \
+            --title "viral_usher_trees ${{ needs.partition_trees.outputs.build_version }}" \
+            --notes "## Automated update - ${{ needs.partition_trees.outputs.build_version }}
+        
+        In this release, ${{ steps.concat.outputs.built_count }} trees were automatically updated by viral_usher ${{ needs.partition_trees.outputs.viral_usher_version }}.
+        Trees are summarized in tree_metadata.tsv."
