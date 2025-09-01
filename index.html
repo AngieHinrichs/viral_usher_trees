@@ -59,6 +59,28 @@
             box-shadow: 0 0 0 3px rgba(9, 105, 218, 0.1);
         }
 
+        .clear-button {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: #656d76;
+            cursor: pointer;
+            padding: 4px 8px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .clear-button:hover {
+            color: #24292f;
+        }
+
+        .search-input:not(:placeholder-shown) ~ .clear-button {
+            display: block;
+        }
+
         .autocomplete-dropdown {
             position: absolute;
             top: 100%;
@@ -68,16 +90,23 @@
             border: 1px solid #d1d9e0;
             border-top: none;
             border-radius: 0 0 6px 6px;
-            max-height: 200px;
+            max-height: 300px;
             overflow-y: auto;
             z-index: 1000;
             display: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .autocomplete-item {
-            padding: 8px 12px;
+            padding: 10px 12px;
             cursor: pointer;
             border-bottom: 1px solid #f6f8fa;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .autocomplete-item:last-child {
+            border-bottom: none;
         }
 
         .autocomplete-item:hover {
@@ -89,6 +118,20 @@
             color: white;
         }
 
+        .autocomplete-item .match-text {
+            font-size: 14px;
+        }
+
+        .autocomplete-item .match-context {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-top: 2px;
+        }
+
+        .autocomplete-item.highlighted .match-context {
+            opacity: 0.9;
+        }
+
         .info-bar {
             display: flex;
             justify-content: space-between;
@@ -96,6 +139,8 @@
             margin-bottom: 16px;
             font-size: 14px;
             color: #656d76;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
         .pagination {
@@ -130,16 +175,22 @@
             border-color: #0969da;
         }
 
-        .table-container {
+        .table-wrapper {
             border: 1px solid #d1d9e0;
             border-radius: 6px;
             overflow: hidden;
             background: white;
         }
 
+        .table-container {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
+            min-width: 900px;
         }
 
         th {
@@ -151,6 +202,10 @@
             cursor: pointer;
             user-select: none;
             transition: background-color 0.2s;
+            white-space: nowrap;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
         th:hover {
@@ -175,11 +230,21 @@
 
         td {
             padding: 12px;
+            font-size: 14px;
             border-bottom: 1px solid #f6f8fa;
         }
 
         tr:hover {
             background-color: #f6f8fa;
+        }
+
+        tr.highlight-row {
+            animation: highlight 2s ease-out;
+        }
+
+        @keyframes highlight {
+            0% { background-color: #fff3cd; }
+            100% { background-color: transparent; }
         }
 
         .link {
@@ -207,17 +272,50 @@
             margin-bottom: 20px;
         }
 
+        .stats-bar {
+            background: #f6f8fa;
+            border: 1px solid #d1d9e0;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 14px;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stat-label {
+            color: #656d76;
+        }
+
+        .stat-value {
+            font-weight: 600;
+            color: #24292f;
+        }
+
         @media (max-width: 768px) {
             body {
                 padding: 10px;
             }
             
-            .table-container {
-                overflow-x: auto;
+            .info-bar {
+                flex-direction: column;
+                align-items: flex-start;
             }
-            
-            table {
-                min-width: 800px;
+
+            .pagination {
+                flex-wrap: wrap;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                gap: 8px;
             }
         }
     </style>
@@ -234,7 +332,23 @@
                     placeholder="Search trees by RefSeq organism, strain, serotype, accession, segment..." 
                     id="searchInput"
                 >
+                <button class="clear-button" id="clearButton" title="Clear search">✕</button>
                 <div class="autocomplete-dropdown" id="autocompleteDropdown"></div>
+            </div>
+        </div>
+
+        <div class="stats-bar" id="statsBar" style="display: none;">
+            <div class="stat-item">
+                <span class="stat-label">Total trees:</span>
+                <span class="stat-value" id="totalTrees">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Total sequences:</span>
+                <span class="stat-value" id="totalSequences">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Unique organisms:</span>
+                <span class="stat-value" id="uniqueOrganisms">0</span>
             </div>
         </div>
 
@@ -243,24 +357,26 @@
             <div class="pagination" id="pagination"></div>
         </div>
 
-        <div class="table-container">
+        <div class="table-wrapper">
             <div class="loading" id="loading">Loading viral tree metadata...</div>
-            <table id="treesTable" style="display: none;">
-                <thead>
-                    <tr>
-                        <th class="sortable" data-column="tree_name">Tree Name</th>
-                        <th class="sortable" data-column="accession">RefSeq Accession</th>
-                        <th class="sortable" data-column="organism">Organism</th>
-                        <th class="sortable" data-column="isolate">RefSeq Isolate</th>
-                        <th class="sortable" data-column="strain">RefSeq Strain</th>
-                        <th class="sortable" data-column="serotype">RefSeq Serotype</th>
-                        <th class="sortable" data-column="segment">Segment</th>
-                        <th class="sortable" data-column="Taxonomy_ID">Taxonomy ID</th>
-                        <th class="sortable" data-column="tip_count">Number of sequences</th>
-                    </tr>
-                </thead>
-                <tbody id="treesTableBody"></tbody>
-            </table>
+            <div class="table-container">
+                <table id="treesTable" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th class="sortable" data-column="tree_name">Tree Name</th>
+                            <th class="sortable" data-column="accession">RefSeq Accession</th>
+                            <th class="sortable" data-column="organism">Organism</th>
+                            <th class="sortable" data-column="isolate">RefSeq Isolate</th>
+                            <th class="sortable" data-column="strain">RefSeq Strain</th>
+                            <th class="sortable" data-column="serotype">RefSeq Serotype</th>
+                            <th class="sortable" data-column="segment">Segment</th>
+                            <th class="sortable" data-column="Taxonomy_ID">Taxonomy ID</th>
+                            <th class="sortable" data-column="tip_count">Number of sequences</th>
+                        </tr>
+                    </thead>
+                    <tbody id="treesTableBody"></tbody>
+                </table>
+            </div>
         </div>
     </div>
 
@@ -271,10 +387,11 @@
                 this.filteredData = [];
                 this.currentPage = 1;
                 this.itemsPerPage = 25;
-                this.sortColumn = null;
+                this.sortColumn = 'tree_name';
                 this.sortDirection = 'asc';
                 this.searchTerms = [];
                 this.autocompleteIndex = -1;
+                this.stats = {};
                 
                 this.init();
             }
@@ -284,14 +401,15 @@
                     await this.loadData();
                     this.setupEventListeners();
                     this.filteredData = [...this.data];
+                    this.calculateStats();
                     this.render();
                 } catch (error) {
+                    console.error('Error loading data:', error);
                     this.showError('Failed to load tree data. Please make sure tree_metadata.tsv exists in your repository.');
                 }
             }
 
             async loadData() {
-                // Replace with your actual metadata file path
                 const response = await fetch('tree_metadata.tsv');
                 if (!response.ok) {
                     throw new Error('Failed to fetch metadata');
@@ -307,6 +425,10 @@
                     headers.forEach((header, index) => {
                         row[header] = values[index] || '';
                     });
+                    // Parse tip_count as number for proper sorting
+                    if (row.tip_count) {
+                        row.tip_count_numeric = parseInt(row.tip_count) || 0;
+                    }
                     return row;
                 });
 
@@ -314,52 +436,75 @@
                 this.buildSearchIndex();
             }
 
+            calculateStats() {
+                this.stats = {
+                    totalTrees: this.data.length,
+                    totalSequences: this.data.reduce((sum, row) => sum + (parseInt(row.tip_count) || 0), 0),
+                    uniqueOrganisms: new Set(this.data.map(row => row.organism).filter(Boolean)).size
+                };
+
+                // Display stats
+                document.getElementById('totalTrees').textContent = this.stats.totalTrees.toLocaleString();
+                document.getElementById('totalSequences').textContent = this.stats.totalSequences.toLocaleString();
+                document.getElementById('uniqueOrganisms').textContent = this.stats.uniqueOrganisms.toLocaleString();
+                document.getElementById('statsBar').style.display = 'flex';
+            }
+
             buildSearchIndex() {
-                // Build a map from search terms to sets of row indices
+                // Build a map from search terms to row objects (not indices)
                 this.searchIndex = new Map();
-                this.autocompleteTerms = new Set();
+                this.autocompleteData = [];
                 
-                this.data.forEach((row, rowIndex) => {
-                    Object.values(row).forEach(value => {
+                this.data.forEach((row) => {
+                    // Store context for better autocomplete
+                    const searchableFields = ['organism', 'strain', 'serotype', 'accession', 'segment', 'tree_name'];
+                    
+                    searchableFields.forEach(field => {
+                        const value = row[field];
                         if (value && value.length > 0) {
                             const valueLower = value.toLowerCase();
                             
-                            // Add complete values for autocomplete
-                            this.autocompleteTerms.add(value);
+                            // Store autocomplete data with context
+                            this.autocompleteData.push({
+                                value: value,
+                                field: field,
+                                row: row,
+                                searchKey: valueLower
+                            });
                             
-                            // Index complete words and substrings for search
-                            const words = valueLower.split(/\s+/);
+                            // Index for search - store the actual row, not index
+                            const words = valueLower.split(/[\s\-_\.]+/);
                             words.forEach(word => {
                                 if (word.length > 0) {
                                     // Add complete word
-                                    this.addToSearchIndex(word, rowIndex);
+                                    this.addToSearchIndex(word, row);
                                     
-                                    // Add substrings for partial matching
-                                    for (let i = 0; i < word.length; i++) {
-                                        for (let j = i + 1; j <= word.length; j++) {
-                                            const substring = word.substring(i, j);
-                                            if (substring.length >= 2) {
-                                                this.addToSearchIndex(substring, rowIndex);
-                                            }
-                                        }
+                                    // Add prefixes for partial matching
+                                    for (let i = 2; i <= word.length && i <= 10; i++) {
+                                        const prefix = word.substring(0, i);
+                                        this.addToSearchIndex(prefix, row);
                                     }
                                 }
                             });
+                            
+                            // Also index the complete value as a single term
+                            this.addToSearchIndex(valueLower, row);
                         }
                     });
                 });
             }
 
-            addToSearchIndex(term, rowIndex) {
+            addToSearchIndex(term, row) {
                 if (!this.searchIndex.has(term)) {
                     this.searchIndex.set(term, new Set());
                 }
-                this.searchIndex.get(term).add(rowIndex);
+                this.searchIndex.get(term).add(row);
             }
 
             setupEventListeners() {
                 const searchInput = document.getElementById('searchInput');
                 const autocompleteDropdown = document.getElementById('autocompleteDropdown');
+                const clearButton = document.getElementById('clearButton');
                 
                 searchInput.addEventListener('input', (e) => {
                     this.handleSearch(e.target.value);
@@ -367,6 +512,12 @@
 
                 searchInput.addEventListener('keydown', (e) => {
                     this.handleKeyDown(e);
+                });
+
+                clearButton.addEventListener('click', () => {
+                    searchInput.value = '';
+                    this.handleSearch('');
+                    searchInput.focus();
                 });
 
                 document.addEventListener('click', (e) => {
@@ -380,6 +531,15 @@
                     th.addEventListener('click', () => {
                         this.handleSort(th.dataset.column);
                     });
+                });
+
+                // Add keyboard shortcut for search (Ctrl/Cmd + K)
+                document.addEventListener('keydown', (e) => {
+                    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                        e.preventDefault();
+                        searchInput.focus();
+                        searchInput.select();
+                    }
                 });
             }
 
@@ -403,15 +563,37 @@
             getAutocompleteSuggestions(query) {
                 const queryLower = query.toLowerCase();
                 const suggestions = [];
+                const seen = new Set();
                 
-                // Use the autocomplete terms we built during indexing
-                for (const term of this.autocompleteTerms) {
-                    if (term.toLowerCase().includes(queryLower) && suggestions.length < 10) {
-                        suggestions.push(term);
+                // Get unique suggestions with context
+                for (const item of this.autocompleteData) {
+                    if (item.searchKey.includes(queryLower) && !seen.has(item.value)) {
+                        seen.add(item.value);
+                        suggestions.push({
+                            value: item.value,
+                            field: item.field,
+                            context: `${item.field}: ${item.value}`,
+                            row: item.row
+                        });
+                        
+                        if (suggestions.length >= 15) break;
                     }
                 }
                 
-                return suggestions.sort();
+                // Sort by relevance (exact matches first, then by length)
+                return suggestions.sort((a, b) => {
+                    const aExact = a.value.toLowerCase() === queryLower;
+                    const bExact = b.value.toLowerCase() === queryLower;
+                    if (aExact && !bExact) return -1;
+                    if (!aExact && bExact) return 1;
+                    
+                    const aStarts = a.value.toLowerCase().startsWith(queryLower);
+                    const bStarts = b.value.toLowerCase().startsWith(queryLower);
+                    if (aStarts && !bStarts) return -1;
+                    if (!aStarts && bStarts) return 1;
+                    
+                    return a.value.length - b.value.length;
+                });
             }
 
             showAutocompleteSuggestions(suggestions) {
@@ -423,20 +605,54 @@
                 }
 
                 dropdown.innerHTML = suggestions.map((suggestion, index) => 
-                    `<div class="autocomplete-item" data-index="${index}">${suggestion}</div>`
+                    `<div class="autocomplete-item" data-index="${index}">
+                        <div class="match-text">${this.escapeHtml(suggestion.value)}</div>
+                        <div class="match-context">${this.escapeHtml(suggestion.context)}</div>
+                    </div>`
                 ).join('');
 
                 dropdown.style.display = 'block';
                 this.autocompleteIndex = -1;
+                this.currentSuggestions = suggestions;
 
                 // Add click handlers
-                dropdown.querySelectorAll('.autocomplete-item').forEach(item => {
+                dropdown.querySelectorAll('.autocomplete-item').forEach((item, index) => {
                     item.addEventListener('click', () => {
-                        document.getElementById('searchInput').value = item.textContent;
+                        const suggestion = suggestions[index];
+                        document.getElementById('searchInput').value = suggestion.value;
                         dropdown.style.display = 'none';
-                        this.applyFilters(item.textContent);
+                        this.applyFilters(suggestion.value);
+                        
+                        // Highlight the selected row
+                        this.highlightRow(suggestion.row);
                     });
                 });
+            }
+
+            escapeHtml(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            highlightRow(targetRow) {
+                // Find the row in filtered data and navigate to its page
+                const rowIndex = this.filteredData.findIndex(row => row === targetRow);
+                if (rowIndex !== -1) {
+                    const targetPage = Math.floor(rowIndex / this.itemsPerPage) + 1;
+                    this.currentPage = targetPage;
+                    this.render();
+                    
+                    // Add highlight animation to the row
+                    setTimeout(() => {
+                        const rows = document.querySelectorAll('#treesTableBody tr');
+                        const localIndex = rowIndex % this.itemsPerPage;
+                        if (rows[localIndex]) {
+                            rows[localIndex].classList.add('highlight-row');
+                            rows[localIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                    }, 100);
+                }
             }
 
             handleKeyDown(e) {
@@ -457,16 +673,18 @@
                         this.highlightAutocompleteItem();
                         break;
                     case 'Enter':
-                        if (this.autocompleteIndex >= 0) {
+                        if (this.autocompleteIndex >= 0 && this.currentSuggestions) {
                             e.preventDefault();
-                            const selectedItem = items[this.autocompleteIndex];
-                            document.getElementById('searchInput').value = selectedItem.textContent;
+                            const suggestion = this.currentSuggestions[this.autocompleteIndex];
+                            document.getElementById('searchInput').value = suggestion.value;
                             dropdown.style.display = 'none';
-                            this.applyFilters(selectedItem.textContent);
+                            this.applyFilters(suggestion.value);
+                            this.highlightRow(suggestion.row);
                         }
                         break;
                     case 'Escape':
                         dropdown.style.display = 'none';
+                        this.autocompleteIndex = -1;
                         break;
                 }
             }
@@ -476,6 +694,11 @@
                 items.forEach((item, index) => {
                     item.classList.toggle('highlighted', index === this.autocompleteIndex);
                 });
+                
+                // Scroll highlighted item into view
+                if (this.autocompleteIndex >= 0) {
+                    items[this.autocompleteIndex].scrollIntoView({ block: 'nearest' });
+                }
             }
 
             applyFilters(searchQuery) {
@@ -485,21 +708,35 @@
                     this.filteredData = [...this.data];
                 } else {
                     const queryLower = searchQuery.toLowerCase();
-                    const matchingRowIndices = new Set();
+                    const queryTerms = queryLower.split(/[\s\-_\.]+/).filter(t => t.length > 0);
+                    const matchingRows = new Set();
                     
-                    // Use search index for faster lookups
-                    for (const [term, rowIndices] of this.searchIndex) {
-                        if (term.includes(queryLower)) {
-                            for (const rowIndex of rowIndices) {
-                                matchingRowIndices.add(rowIndex);
+                    // Search for each term
+                    queryTerms.forEach(term => {
+                        // Get all rows that match this term
+                        for (const [indexTerm, rows] of this.searchIndex) {
+                            if (indexTerm.includes(term)) {
+                                for (const row of rows) {
+                                    matchingRows.add(row);
+                                }
                             }
                         }
-                    }
+                    });
                     
-                    // Convert indices back to actual row data
-                    this.filteredData = Array.from(matchingRowIndices)
-                        .map(index => this.data[index])
-                        .filter(row => row); // Filter out any undefined rows
+                    // For multi-term queries, filter to rows that match all terms
+                    if (queryTerms.length > 1) {
+                        this.filteredData = Array.from(matchingRows).filter(row => {
+                            const rowText = Object.values(row).join(' ').toLowerCase();
+                            return queryTerms.every(term => rowText.includes(term));
+                        });
+                    } else {
+                        this.filteredData = Array.from(matchingRows);
+                    }
+                }
+                
+                // Re-apply current sort
+                if (this.sortColumn) {
+                    this.sortFilteredData();
                 }
                 
                 this.render();
@@ -513,14 +750,23 @@
                     this.sortDirection = 'asc';
                 }
 
+                this.sortFilteredData();
+                this.updateSortHeaders();
+                this.render();
+            }
+
+            sortFilteredData() {
                 this.filteredData.sort((a, b) => {
-                    let aVal = a[column] || '';
-                    let bVal = b[column] || '';
+                    let aVal = a[this.sortColumn] || '';
+                    let bVal = b[this.sortColumn] || '';
                     
-                    // Handle numeric sorting for Taxonomy_ID
-                    if (column === 'Taxonomy_ID') {
+                    // Handle numeric sorting
+                    if (this.sortColumn === 'Taxonomy_ID') {
                         aVal = parseInt(aVal) || 0;
                         bVal = parseInt(bVal) || 0;
+                    } else if (this.sortColumn === 'tip_count') {
+                        aVal = a.tip_count_numeric || 0;
+                        bVal = b.tip_count_numeric || 0;
                     } else {
                         aVal = aVal.toString().toLowerCase();
                         bVal = bVal.toString().toLowerCase();
@@ -530,9 +776,6 @@
                     if (aVal > bVal) return this.sortDirection === 'asc' ? 1 : -1;
                     return 0;
                 });
-
-                this.updateSortHeaders();
-                this.render();
             }
 
             updateSortHeaders() {
@@ -561,15 +804,15 @@
 
                 tbody.innerHTML = pageData.map(row => `
                     <tr>
-                        <td><a href="https://github.com/AngieHinrichs/viral_usher_trees/tree/main/trees/${row.tree_name}" class="link" target="_blank">${row.tree_name}</a></td>
-                        <td><a href="https://www.ncbi.nlm.nih.gov/nuccore/${row.accession}" class="link" target="_blank">${row.accession}</a></td>
-                        <td>${row.organism}</td>
-                        <td>${row.isolate}</td>
-                        <td>${row.strain}</td>
-                        <td>${row.serotype}</td>
-                        <td>${row.segment}</td>
-                        <td><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=${row.Taxonomy_ID}" class="link" target="_blank">${row.Taxonomy_ID}</a></td>
-                        <td>${row.tip_count}</td>
+                        <td><a href="https://github.com/AngieHinrichs/viral_usher_trees/tree/main/trees/${row.tree_name}" class="link" target="_blank">${this.escapeHtml(row.tree_name)}</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/nuccore/${row.accession}" class="link" target="_blank">${this.escapeHtml(row.accession)}</a></td>
+                        <td>${this.escapeHtml(row.organism)}</td>
+                        <td>${this.escapeHtml(row.isolate)}</td>
+                        <td>${this.escapeHtml(row.strain)}</td>
+                        <td>${this.escapeHtml(row.serotype)}</td>
+                        <td>${this.escapeHtml(row.segment)}</td>
+                        <td>${row.Taxonomy_ID ? `<a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=${row.Taxonomy_ID}" class="link" target="_blank">${this.escapeHtml(row.Taxonomy_ID)}</a>` : ''}</td>
+                        <td>${this.escapeHtml(row.tip_count)}</td>
                     </tr>
                 `).join('');
             }
@@ -588,7 +831,7 @@
                 // Previous button
                 buttons.push(`
                     <button ${this.currentPage === 1 ? 'disabled' : ''} onclick="browser.goToPage(${this.currentPage - 1})">
-                        Previous
+                        ← Previous
                     </button>
                 `);
 
@@ -626,7 +869,7 @@
                 // Next button
                 buttons.push(`
                     <button ${this.currentPage === totalPages ? 'disabled' : ''} onclick="browser.goToPage(${this.currentPage + 1})">
-                        Next
+                        Next →
                     </button>
                 `);
 
@@ -651,6 +894,8 @@
             goToPage(page) {
                 this.currentPage = page;
                 this.render();
+                // Scroll to top of table
+                document.querySelector('.table-wrapper').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }
 
             showError(message) {
