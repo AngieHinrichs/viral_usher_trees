@@ -807,7 +807,7 @@
                 tbody.innerHTML = pageData.map(row => `
                     <tr>
                         <td>${this.escapeHtml(row.tree_name)}</td>
-                        <td><a href="https://raw.githubusercontent.com/AngieHinrichs/viral_usher_trees/refs/heads/main/trees/${row.tree_name}/tree.jsonl.gz"
+                        <td><a href="https://taxonium.org/?protoUrl=https%3A%2F%2Fraw.githubusercontent.com%2FAngieHinrichs%2Fviral_usher_trees%2Frefs%2Fheads%2Fmain%2Ftrees%2F${row.tree_name}%2Ftree.jsonl.gz&xType=x_dist&color=%7B%22field%22%3A%22meta_country%22%7D"
                                class="link" target="_blank">View in Taxonium</a></td>
                         <td><a href="https://github.com/AngieHinrichs/viral_usher_trees/tree/main/trees/${row.tree_name}"
                                class="link" target="_blank">download files</a></td>
