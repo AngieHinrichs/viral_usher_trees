@@ -18,6 +18,18 @@ def check_top_level_dir():
         sys.exit(1)
 
 
+def check_required_columns(fieldnames, required_columns, input_tsv):
+    """List all required_columns that are not included in fieldnames; if there are any, exit with an error message"""
+    missing = False
+    for required_col in required_columns:
+        if required_col not in fieldnames:
+            missing = True
+            print(f"Input file {input_tsv} must have a column named '{required_col}'.", file=sys.stderr)
+    if missing:
+        print("Sorry, can't proceed unless all required columns are present", file=sys.stderr)
+        sys.exit(1)
+
+
 def generate_config(subdir_path: str, tree_name: str, refseq_acc: str, refseq_assembly: str, taxid: str) -> bool:
     """Make subdir_path/config.toml using viral_usher init with command-line args
     to skip the interactive process."""
