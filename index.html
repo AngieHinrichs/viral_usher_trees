@@ -343,10 +343,6 @@
                 <span class="stat-value" id="totalTrees">0</span>
             </div>
             <div class="stat-item">
-                <span class="stat-label">Total sequences:</span>
-                <span class="stat-value" id="totalSequences">0</span>
-            </div>
-            <div class="stat-item">
                 <span class="stat-label">Unique organisms:</span>
                 <span class="stat-value" id="uniqueOrganisms">0</span>
             </div>
@@ -441,13 +437,11 @@
             calculateStats() {
                 this.stats = {
                     totalTrees: this.data.length,
-                    totalSequences: this.data.reduce((sum, row) => sum + (parseInt(row.tip_count) || 0), 0),
                     uniqueOrganisms: new Set(this.data.map(row => row.organism).filter(Boolean)).size
                 };
 
                 // Display stats
                 document.getElementById('totalTrees').textContent = this.stats.totalTrees.toLocaleString();
-                document.getElementById('totalSequences').textContent = this.stats.totalSequences.toLocaleString();
                 document.getElementById('uniqueOrganisms').textContent = this.stats.uniqueOrganisms.toLocaleString();
                 document.getElementById('statsBar').style.display = 'flex';
             }
