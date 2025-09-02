@@ -1,3 +1,4 @@
+![a forest of trees of viruses](https://github.com/AngieHinrichs/viral_usher_trees/blob/main/images/viral_phylo_forest_1_banner.jpg?raw=true)
 # viral_usher_trees
 
 This repository stores [UShER](https://github.com/yatisht/usher) phylogenetic trees
