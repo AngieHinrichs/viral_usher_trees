@@ -364,6 +364,7 @@
                     <thead>
                         <tr>
                             <th class="sortable" data-column="tree_name">Tree Name</th>
+                            <th class="sortable" data-column="tip_count">Seq Count</th>
                             <th class="sortable" data-column="tree_name">Taxonium</th>
                             <th class="sortable" data-column="tree_name">Download</th>
                             <th class="sortable" data-column="accession">RefSeq Accession</th>
@@ -373,7 +374,6 @@
                             <th class="sortable" data-column="serotype">RefSeq Serotype</th>
                             <th class="sortable" data-column="segment">Segment</th>
                             <th class="sortable" data-column="Taxonomy_ID">Taxonomy ID</th>
-                            <th class="sortable" data-column="tip_count">Number of sequences</th>
                         </tr>
                     </thead>
                     <tbody id="treesTableBody"></tbody>
@@ -807,6 +807,7 @@
                 tbody.innerHTML = pageData.map(row => `
                     <tr>
                         <td>${this.escapeHtml(row.tree_name)}</td>
+                        <td>${this.escapeHtml(row.tip_count)}</td>
                         <td><a href="https://taxonium.org/?protoUrl=https%3A%2F%2Fraw.githubusercontent.com%2FAngieHinrichs%2Fviral_usher_trees%2Frefs%2Fheads%2Fmain%2Ftrees%2F${row.tree_name}%2Ftree.jsonl.gz&xType=x_dist&color=%7B%22field%22%3A%22meta_country%22%7D"
                                class="link" target="_blank">View in Taxonium</a></td>
                         <td><a href="https://github.com/AngieHinrichs/viral_usher_trees/tree/main/trees/${row.tree_name}"
@@ -819,7 +820,6 @@
                         <td>${this.escapeHtml(row.segment)}</td>
                         <td>${row.Taxonomy_ID ? `<a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=${row.Taxonomy_ID}"
                                                     class="link" target="_blank">${this.escapeHtml(row.Taxonomy_ID)}</a>` : ''}</td>
-                        <td>${this.escapeHtml(row.tip_count)}</td>
                     </tr>
                 `).join('');
             }
