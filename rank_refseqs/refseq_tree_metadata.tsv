@@ -61,7 +61,6 @@ NC_004102.1	Hepatitis_C_virus_genotype_1	Hepatitis C virus genotype 1	GCF_000861
 NC_009823.1	Hepatitis_C_virus_genotype_2	Hepatitis C virus genotype 2	GCF_000871165.1		HC-J6CH			9711		3052230	276449
 NC_009824.1	Hepatitis_C_virus_genotype_3	Hepatitis C virus genotype 3	GCF_000874285.1	NZL1				9456	Homo sapiens	3052230	276449
 NC_009825.1	Hepatitis_C_virus_genotype_4	Hepatitis C virus genotype 4	GCF_000874265.1	ED43				9355	Homo sapiens	3052230	276449
-NC_009826.1	Hepatitis_C_virus_genotype_5	Hepatitis C virus genotype 5	GCF_000873605.1		EUH1480			9343	Homo sapiens	3052230	276449
 NC_009827.1	Hepatitis_C_virus_genotype_6	Hepatitis C virus genotype 6	GCF_000872025.1	Th580				9628		3052230	276449
 NC_002206.1	Influenza_B_virus_B_Lee_1940_3	Influenza B virus (B/Lee/1940)	GCF_000820495.2		B/Lee/1940		3	2204		2955465	180875
 NC_002205.1	Influenza_B_virus_B_Lee_1940_2	Influenza B virus (B/Lee/1940)	GCF_000820495.2		B/Lee/1940		2	2313		2955465	180875
@@ -74,7 +73,6 @@ NC_002209.1	Influenza_B_virus_B_Lee_1940_6	Influenza B virus (B/Lee/1940)	GCF_00
 NC_003977.2	Hepatitis_B_virus	Hepatitis B virus	GCF_000861825.2		ayw			3182		3431302	136187
 NC_011508.2	Rotavirus_A_3	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	3	2591		3432193	128784
 NC_011502.2	Rotavirus_A_8	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	8	1059		3432193	128784
-NC_011500.2	Rotavirus_A_5	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	5	1614		3432193	128784
 NC_011505.2	Rotavirus_A_11	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	11	667		3432193	128784
 NC_011509.2	Rotavirus_A_6	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	6	1356		3432193	128784
 NC_011510.2	Rotavirus_A_4	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	4	2362		3432193	128784
@@ -83,27 +81,18 @@ NC_011504.2	Rotavirus_A_10	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H9
 NC_011503.2	Rotavirus_A_9	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	9	1062		3432193	128784
 NC_011506.2	Rotavirus_A_2	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	2	2693		3432193	128784
 NC_011501.2	Rotavirus_A_7	Rotavirus A	GCF_000880735.1	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]	G3	7	1105		3432193	128784
-NC_001959.2	Norovirus_GI_NC_001959_2	Norovirus GI	GCF_000864005.1					7654		3431196	63009
 NC_044853.1	Norovirus_GI_Hu_JP_1998_GI_6_PNA4_No20_Saitama_98_17	Norovirus GI	GCF_008703965.1		Hu/JP/1998/GI.6[PNA4]/No20-Saitama-98-17			7677	Homo sapiens	3431196	63009
-NC_044854.1	Norovirus_GI_Hu_JP_2000_GI_6_PNA1_WUG1	Norovirus GI	GCF_008703985.1		Hu/JP/2000/GI.6[PNA1]/WUG1			7693	Homo sapiens	3431196	63009
 NC_044856.1	Norovirus_GI_Hu_BD_2011_GI_7_PNA2_Dhaka1882	Norovirus GI	GCF_008704025.1		Hu/BD/2011/GI.7[PNA2]/Dhaka1882			7734	Homo sapiens	3431196	63009
 NC_039897.1	Norovirus_GI_Hu_JP_2007_GI_P3_GI_3_Shimizu_KK2866	Norovirus GI/Hu/JP/2007/GI.P3_GI.3/Shimizu/KK2866	GCF_003813225.1	Shimizu/KK2866				7745	Homo sapiens	3431196	63009
 NC_039477.1	Norovirus_GII_NORO_226_06_01_2016	Norovirus GII	GCF_003638685.1	NORO_226_06_01_2016				7567	Homo sapiens	3431196	63009
 NC_040876.1	Norovirus_GII_NORO_176_1_17_12_2015	Norovirus GII	GCF_004193815.1	NORO_176-1_17_12_2015				7521	Homo sapiens	3431196	63009
-NC_044932.1	Norovirus_GII_Hu_GII_PNA4_GII_NA4_PNV06929_2008_PER	Norovirus GII	GCF_008711635.1	Hu/GII.PNA4-GII.NA4/PNV06929/2008/PER				7525	Homo sapiens	3431196	63009
 NC_039475.1	Norovirus_GII_17	Norovirus GII.17	GCF_003638645.1		Hu/GII.P17_GII.17/KR/2015/CAU-267			7556	Homo sapiens	3431196	63009
 NC_039476.1	Norovirus_GII_2	Norovirus GII.2	GCF_003638665.1	BJSMQ				7536		3431196	63009
 NC_044045.1	Norovirus_GII_Hu_JP_2007_GII_P15_GII_15_Sapporo_HK299	Norovirus GII/Hu/JP/2007/GII.P15_GII.15/Sapporo/HK299	GCF_007608995.1	Sapporo/HK299				7551	Homo sapiens	3431196	63009
 NC_044046.1	Norovirus_GII_Hu_JP_2011_GII_Yuzawa_Gira2HS	Norovirus GII/Hu/JP/2011/GII/Yuzawa/Gira2HS	GCF_007609035.1	Yuzawa/Gira2HS				7543	Homo sapiens	3431196	63009
-NC_029645.1	Norovirus_GIII	Norovirus GIII	GCF_001595675.1		Norovirus Bo/GIII.2/Adam/2006/No			7313	Bos taurus	3431196	63009
-NC_029647.1	Norovirus_GIV_Hu_GIV_1_LakeMacquarie_NSW268O_2010_AU	Norovirus GIV	GCF_001595715.1		Hu/GIV.1/LakeMacquarie/NSW268O/2010/AU			7527	Homo sapiens	3431196	63009
-NC_044855.1	Norovirus_GIV_Hu_US_2016_GIV_NA1_PNA1_WI7002	Norovirus GIV	GCF_008704005.1		Hu/US/2016/GIV.NA1[PNA1]/WI7002			7419	Homo sapiens	3431196	63009
-NC_045762.1	Norovirus_GIV_CU081210E_USA_2010	Norovirus GIV	GCF_010478905.1		CU081210E/USA/2010			7839	Felis catus	3431196	63009
 NC_008311.1	Norovirus_GV	Norovirus GV	GCF_000868425.1	Mu/NoV/GV/MNV1/2002/USA				7382		3431196	63009
-NC_044047.1	Norovirus_dog_GVI_1_HKU_Ca026F_2007_HKG	Norovirus dog/GVI.1/HKU_Ca026F/2007/HKG	GCF_007609015.1		dog/GVI.1/HKU_Ca026F/2007/HKG			7637	Canis lupus familiaris	3431196	63009
 NC_029646.1	Norwalk_like_virus	Norwalk-like virus	GCF_001595695.1		Hu/Norovirus/hiroshima/1999/JP(9912-02F)			7518		3431196	63009
 NC_031324.1	Primate_norovirus	Primate norovirus	GCF_001755385.1		SimianNoV-nj			7753		3431196	63009
-NC_004455.1	Simian_immunodeficiency_virus_SIV_mnd_2	Simian immunodeficiency virus SIV-mnd 2	GCF_000851745.1	SIVmnd-2				9518	Mandrillus sphinx	3418654	59941
 NC_001781.1	Human_orthopneumovirus_B1	Human orthopneumovirus	GCF_000855545.1		B1			15225		3049954	59101
 NC_038235.1	Human_orthopneumovirus_NC_038235_1	Human orthopneumovirus	GCF_002815475.1					15222		3049954	59101
 NC_001803.1	Human_respiratory_syncytial_virus_A	Human respiratory syncytial virus A	GCF_000856445.1		S2 ts1C			15191		3049954	59101
@@ -161,7 +150,6 @@ NC_006014.1	Bluetongue_virus_3	Bluetongue virus	GCF_000854445.3				3	2772		34312
 NC_006015.1	Bluetongue_virus_10	Bluetongue virus	GCF_000854445.3				10	822		3431240	12842
 NC_006010.1	Bluetongue_virus_6	Bluetongue virus	GCF_000854445.3			10	6	1638		3431240	12842
 NC_006007.1	Bluetongue_virus_8	Bluetongue virus	GCF_000854445.3			10	8	1125		3431240	12842
-NC_006013.2	Bluetongue_virus_2	Bluetongue virus	GCF_000854445.3				2	2921		3431240	12842
 NC_006025.1	Bluetongue_virus_5	Bluetongue virus	GCF_000854445.3			10	5	1769		3431240	12842
 NC_006022.1	Bluetongue_virus_7	Bluetongue virus	GCF_000854445.3	serotype 10	serotype 10		7	1156		3431240	12842
 NC_006008.2	Bluetongue_virus_9	Bluetongue virus	GCF_000854445.3			10	9	1049		3431240	12842
@@ -170,7 +158,6 @@ NC_007605.1	Human_gammaherpesvirus_4	Human gammaherpesvirus 4	GCF_002402265.1		B
 NC_009334.1	Human_herpesvirus_4_type_2	Human herpesvirus 4 type 2	GCF_000872045.1		AG876			172764	Homo sapiens	3050299	12689
 NC_005148.1	Porcine_circovirus_2_AUT1	Porcine circovirus 2	GCF_000862765.1	AUT1				1768		3048279	12431
 NC_006232.1	Porcine_circovirus_2_JX0301	Porcine circovirus 2	GCF_002819625.1		JX0301			1767	Sus scrofa	3048279	12431
-NC_001617.1	Rhinovirus_A	Rhinovirus A	GCF_000862245.1			89		7152		3428501	12241
 NC_038311.1	rhinovirus_A1	rhinovirus A1	GCF_002816835.1		ATCC VR-1559			7137		3428501	12241
 NC_074955.1	Paslahepevirus_balayani_NC_074955_1	Paslahepevirus balayani	GCF_002826225.1					7207		1678143	11595
 NC_076565.1	Paslahepevirus_balayani_AlgSwe2012	Paslahepevirus balayani	GCF_023120075.1	AlgSwe2012				7002	Alces alces	1678143	11595
@@ -178,11 +165,9 @@ NC_076592.1	Paslahepevirus_balayani_little_egret_kocsag02_2014_HUN	Paslahepeviru
 NC_001489.1	Hepatovirus_A	Hepatovirus A	GCF_000860505.1					7478		3407641	11470
 NC_006273.2	Human_betaherpesvirus_5	Human betaherpesvirus 5	GCF_000845245.1		Merlin			235646	Homo sapiens	3050295	11459
 NC_015783.1	Torque_teno_virus_TTV_HD14a_gbDhDi33_32	Torque teno virus	GCF_000893775.1	TTV-HD14a (gbDhDi33.32)				3725		68887	11246
-NC_076138.1	Torque_teno_virus_TTV_Hebei_1	Torque teno virus	GCF_018580245.1	TTV-Hebei-1				3649		68887	11246
 NC_076168.1	Torque_teno_virus_Human_Japan_KS025_2016	Torque teno virus	GCF_018580895.1		Human/Japan/KS025/2016			2810	Homo sapiens	68887	11246
 NC_003310.1	Monkeypox_virus_Ia	Monkeypox virus	GCF_000857045.1		Zaire-96-I-16	Ia		196858	Homo sapiens	3431483	10762
 NC_063383.1	Monkeypox_virus_IIb	Monkeypox virus	GCF_014621545.1	MPXV-M5312_HM12_Rivers		IIb		197209	Homo sapiens	3431483	10762
-NC_027779.1	Human_papillomavirus	Human papillomavirus	GCF_001274345.1	SE379				7320	Homo sapiens	10566	10727
 NC_001539.1	Canine_parvovirus	Canine parvovirus	GCF_000848925.1		CPV-N			5323		3052707	10670
 NC_001806.2	Human_alphaherpesvirus_1	Human alphaherpesvirus 1	GCF_000859985.1		17			152222		3050292	10640
 NC_001436.1	Human_T_cell_leukemia_virus_type_I	Human T-cell leukemia virus type I	GCF_000863585.1					8507		3428212	9893
@@ -197,14 +182,12 @@ NC_001798.2	Human_alphaherpesvirus_2	Human alphaherpesvirus 2	GCF_000858385.1		H
 NC_004162.2	Chikungunya_virus	Chikungunya virus	GCF_000854045.1		S27-African prototype			11826		3426298	8766
 NC_003436.1	Porcine_epidemic_diarrhea_virus	Porcine epidemic diarrhea virus	GCF_000848685.1	CV777	CV777			28033		3433789	8565
 NC_038878.1	Human_rhinovirus_NAT001	Human rhinovirus NAT001	GCF_002816885.1	NAT001				6944		3428504	8431
-NC_009996.1	Rhinovirus_C	Rhinovirus C	GCF_000872325.1	024	024			7099		3428504	8431
 NC_004179.1	Infectious_bursal_disease_virus_UK661_B	Infectious bursal disease virus	GCF_000855485.1	UK661	Very virulent strain		B	2715	Gallus gallus	3048151	8182
 NC_004178.1	Infectious_bursal_disease_virus_UK661_A	Infectious bursal disease virus	GCF_000855485.1	UK661	Very virulent strain		A	3183	Gallus gallus	3048151	8182
 NC_077770.1	Infectious_bursal_disease_virus_1977_from_Schobries_et_al_1977_B	Infectious bursal disease virus	GCF_003971645.1	1977 from Schobries et al (1977)	P2		B	2827		3048151	8182
 NC_077769.1	Infectious_bursal_disease_virus_1977_from_Schobries_et_al_1977_A	Infectious bursal disease virus	GCF_003971645.1	1977, from Schobries et al (1977)	P2		A	3261		3048151	8182
 NC_001661.1	Citrus_tristeza_virus	Citrus tristeza virus	GCF_000862265.1					19296		3428013	7645
 NC_001722.1	Human_immunodeficiency_virus_2	Human immunodeficiency virus 2	GCF_000856385.1	BEN				10359	Homo sapiens	3418651	7606
-NC_001430.1	Enterovirus_D	Enterovirus D	GCF_000861205.1	Enterovirus 70	Enterovirus 70			7390		3428506	7467
 NC_038308.1	enterovirus_D68	enterovirus D68	GCF_002816725.1		Fermon			7367		3428506	7467
 NC_003636.1	Peach_latent_mosaic_viroid	Peach latent mosaic viroid	GCF_000850605.1					337		3431559	7263
 NC_038319.1	Human_parechovirus_1	Human parechovirus 1	GCF_002817305.1					7339		3431395	7163
@@ -214,13 +197,6 @@ AC_000018.1	Human_adenovirus_7	Human adenovirus 7	GCF_000859485.1			7		35514		32
 NC_011202.1	Human_mastadenovirus_B_Human_adenovirus_11	Human mastadenovirus B	GCF_000857085.1	Slobitski	Slobitski	Human adenovirus 11		34794	Homo sapiens	3241406	6742
 NC_011203.1	Human_mastadenovirus_B_Human_adenovirus_3	Human mastadenovirus B	GCF_000880515.1	GB	GB	Human adenovirus 3		35343	Homo sapiens	3241406	6742
 AC_000010.1	Simian_adenovirus_21	Simian adenovirus 21	GCF_000847245.1			Simian adenovirus 21		35524		3241406	6742
-NC_020498.1	TTV_like_mini_virus_TTMV_LY1	TTV-like mini virus	GCF_000905335.1	TTMV_LY1				2912	Homo sapiens	93678	6725
-NC_076131.1	TTV_like_mini_virus_TTMV_LY3	TTV-like mini virus	GCF_018580125.1	TTMV_LY3				2915	Homo sapiens	93678	6725
-NC_076135.1	TTV_like_mini_virus_D11	TTV-like mini virus	GCF_018580215.1	D11				2853	Homo sapiens	93678	6725
-NC_076155.1	TTV_like_mini_virus_Emory1	TTV-like mini virus	GCF_018580655.1	Emory1				2830	Homo sapiens	93678	6725
-NC_076156.1	TTV_like_mini_virus_Emory2	TTV-like mini virus	GCF_018580665.1	Emory2				2938	Homo sapiens	93678	6725
-NC_076166.1	TTV_like_mini_virus_zhenjiang	TTV-like mini virus	GCF_018580875.1	zhenjiang				2943	Homo sapiens	93678	6725
-NC_076339.1	TTV_like_mini_virus_vzttmv4	TTV-like mini virus	GCF_018584815.1		vzttmv4			2907	Homo sapiens	93678	6725
 NC_002306.3	Feline_infectious_peritonitis_virus	Feline infectious peritonitis virus	GCF_000856025.1	79-1146		2		29355		3433814	6529
 NC_028806.1	Swine_enteric_coronavirus	Swine enteric coronavirus	GCF_001501415.1		Italy/213306/2009			28111	Sus scrofa	3433814	6529
 NC_038861.1	Transmissible_gastroenteritis_virus	Transmissible gastroenteritis virus	GCF_002985995.1	PUR46-MAD	Purdue			28586	Sus scrofa	3433814	6529
@@ -235,49 +211,31 @@ NC_015126.1	Avian_orthoreovirus_AVS_B_L1	Avian orthoreovirus	GCF_000891595.1	AVS
 NC_015135.1	Avian_orthoreovirus_AVS_B_S4	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		S4	1192		3431493	5869
 NC_015127.1	Avian_orthoreovirus_AVS_B_L2	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		L2	3829		3431493	5869
 NC_015128.1	Avian_orthoreovirus_AVS_B_L3	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		L3	3907		3431493	5869
-NC_015132.1	Avian_orthoreovirus_AVS_B_S1	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		S1	1645		3431493	5869
 NC_015133.1	Avian_orthoreovirus_AVS_B_S2	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		S2	1324		3431493	5869
 NC_015134.1	Avian_orthoreovirus_AVS_B_S3	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		S3	1202		3431493	5869
 NC_015129.1	Avian_orthoreovirus_AVS_B_M1	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		M1	2283		3431493	5869
 NC_015130.1	Avian_orthoreovirus_AVS_B_M2	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		M2	2158		3431493	5869
 NC_015131.1	Avian_orthoreovirus_AVS_B_M3	Avian orthoreovirus	GCF_000891595.1	AVS-B	AVS-B		M3	1996		3431493	5869
-NC_077757.1	Avian_orthoreovirus_Pycno_1_M1	Avian orthoreovirus	GCF_003092915.1		Pycno-1		M1	2287	Hypsipetes amaurotis	3431493	5869
-NC_077752.1	Avian_orthoreovirus_Pycno_1_S2	Avian orthoreovirus	GCF_003092915.1		Pycno-1		S2	1325	Hypsipetes amaurotis	3431493	5869
-NC_077753.1	Avian_orthoreovirus_Pycno_1_L1	Avian orthoreovirus	GCF_003092915.1		Pycno-1		L1	4011	Hypsipetes amaurotis	3431493	5869
-NC_077758.1	Avian_orthoreovirus_Pycno_1_M2	Avian orthoreovirus	GCF_003092915.1		Pycno-1		M2	2156	Hypsipetes amaurotis	3431493	5869
 NC_077759.1	Avian_orthoreovirus_Pycno_1_S1	Avian orthoreovirus	GCF_003092915.1		Pycno-1		S1	1637	Hypsipetes amaurotis	3431493	5869
 NC_077751.1	Avian_orthoreovirus_Pycno_1_M3	Avian orthoreovirus	GCF_003092915.1		Pycno-1		M3	2039	Hypsipetes amaurotis	3431493	5869
-NC_077755.1	Avian_orthoreovirus_Pycno_1_S4	Avian orthoreovirus	GCF_003092915.1		Pycno-1		S4	1201	Hypsipetes amaurotis	3431493	5869
-NC_077760.1	Avian_orthoreovirus_Pycno_1_S3	Avian orthoreovirus	GCF_003092915.1		Pycno-1		S3	1205	Hypsipetes amaurotis	3431493	5869
-NC_077754.1	Avian_orthoreovirus_Pycno_1_L2	Avian orthoreovirus	GCF_003092915.1		Pycno-1		L2	3829	Hypsipetes amaurotis	3431493	5869
 NC_077756.1	Avian_orthoreovirus_Pycno_1_L3	Avian orthoreovirus	GCF_003092915.1		Pycno-1		L3	3903	Hypsipetes amaurotis	3431493	5869
 NC_002051.1	Orthotospovirus_tomatomaculae_S	Orthotospovirus tomatomaculae	GCF_000854725.1	CPNH9			S	2916		3052585	5676
 NC_002050.1	Orthotospovirus_tomatomaculae_M	Orthotospovirus tomatomaculae	GCF_000854725.1				M	4821		3052585	5676
 NC_002052.1	Orthotospovirus_tomatomaculae_L	Orthotospovirus tomatomaculae	GCF_000854725.1		BR-01 (CNPH1)		L	8897		3052585	5676
-NC_000940.1	Cowden_I_virus	Cowden I virus	GCF_000849945.1		Cowden			7320		3432266	5658
 NC_006554.1	Sapovirus_C12	Sapovirus C12	GCF_000855765.1		C12			7476		3432266	5658
 NC_006269.1	Sapovirus_Hu_Dresden_pJG_Sap01_DE	Sapovirus Hu/Dresden/pJG-Sap01/DE	GCF_000854265.1		Hu/Dresden/pJG-Sap01/DE			7429		3432266	5658
 NC_075724.1	Sapovirus_Hu_GI_Sapporo_MT_2010_1982	Sapovirus Hu/GI/Sapporo/MT-2010/1982	GCF_008792745.1		Hu/GI/Sapporo/MT-2010/1982			7433	Homo sapiens	3432266	5658
-NC_027026.1	Sapovirus_Hu_Nagoya_NGY_1_2012_JPN	Sapovirus Hu/Nagoya/NGY-1/2012/JPN	GCF_001008475.1		Hu/SaV/Nagoya/NGY-1/2012/JPN	GV.2		7521		3432266	5658
 NC_010624.1	Sapovirus_Mc10	Sapovirus Mc10	GCF_000853825.1		Mc10			7458		3432266	5658
-NC_007573.1	Rotavirus_C_11	Rotavirus C	GCF_000864225.1	Bristol	Bristol		11	613		3432203	5622
-NC_007572.1	Rotavirus_C_3	Rotavirus C	GCF_000864225.1	Bristol	Bristol		3	2283		3432203	5622
 NC_007570.1	Rotavirus_C_5	Rotavirus C	GCF_000864225.1	4077-89	Bristol		5	1353		3432203	5622
 NC_007545.1	Rotavirus_C_9	Rotavirus C	GCF_000864225.1	Bristol	Bristol		9	1037		3432203	5622
 NC_007547.1	Rotavirus_C_1	Rotavirus C	GCF_000864225.1	Bristol	Bristol		1	3309		3432203	5622
-NC_007544.1	Rotavirus_C_7	Rotavirus C	GCF_000864225.1	Bristol	Bristol		7	1270		3432203	5622
 NC_007571.1	Rotavirus_C_8	Rotavirus C	GCF_000864225.1	Bristol			8	1063		3432203	5622
 NC_007543.1	Rotavirus_C_6	Rotavirus C	GCF_000864225.1	Bristol	Bristol		6	1350		3432203	5622
-NC_007569.1	Rotavirus_C_10	Rotavirus C	GCF_000864225.1	4077-89	Bristol		10	730		3432203	5622
 NC_007546.1	Rotavirus_C_2	Rotavirus C	GCF_000864225.1	Bristol	Bristol		2	2736		3432203	5622
 NC_007574.1	Rotavirus_C_4	Rotavirus C	GCF_000864225.1	Bristol	Bristol		4	2166		3432203	5622
-NC_001463.1	Caprine_arthritis_encephalitis_virus	Caprine arthritis encephalitis virus	GCF_000857525.1					9189		3418647	5575
 NC_001710.1	GB_virus_C	GB virus C	GCF_000862005.1					9392		3052608	5518
 NC_038272.1	Bovine_respiratory_syncytial_virus_ATCC51908	Bovine respiratory syncytial virus ATCC51908	GCF_002815455.1		ATCC 51908			15140		3050248	5236
 NC_001989.1	bovine_respiratory_syncytial_virus	bovine respiratory syncytial virus	GCF_000849305.1		ATue51908			15140		3050248	5236
-NC_001440.1	Cucumber_mosaic_virus_RNA_3	Cucumber mosaic virus	GCF_000864745.1	Fny	Fny		RNA 3	2216		3428131	5163
-NC_002035.1	Cucumber_mosaic_virus_RNA_2	Cucumber mosaic virus	GCF_000864745.1	Fny	Fny		RNA 2	3050		3428131	5163
-NC_002034.1	Cucumber_mosaic_virus_RNA_1	Cucumber mosaic virus	GCF_000864745.1	Fny	Fny		RNA 1	3357		3428131	5163
 NC_005301.3	Orthonairovirus_haemorrhagiae_L	Orthonairovirus haemorrhagiae	GCF_000854165.1		IbAr10200		L	12108		3052518	5079
 NC_005302.1	Orthonairovirus_haemorrhagiae_S	Orthonairovirus haemorrhagiae	GCF_000854165.1		10200		S	1672		3052518	5079
 NC_005300.2	Orthonairovirus_haemorrhagiae_M	Orthonairovirus haemorrhagiae	GCF_000854165.1		IbAr10200		M	5366	Hyalomma excavatum	3052518	5079
@@ -299,7 +257,6 @@ NC_001538.1	Betapolyomavirus_hominis	Betapolyomavirus hominis	GCF_000837865.1			
 NC_002657.1	Classical_swine_fever_virus	Classical swine fever virus	GCF_000864685.1		strain Eystrup			12301		3052625	4366
 NC_038912.1	Classical_swine_fever_virus_Alfort_187	Classical swine fever virus - Alfort/187	GCF_003034095.1		Alfort/187			12298		3052625	4366
 NC_001653.2	Hepatitis_delta_virus_NC_001653_2	Hepatitis delta virus	GCF_000856565.1					1682		2844074	4223
-NC_076103.1	Hepatitis_delta_virus_VnzD8349	Hepatitis delta virus	GCF_018547805.1	VnzD8349				1673		2844074	4223
 NC_076106.1	Hepatitis_delta_virus_dFr2072	Hepatitis delta virus	GCF_018547915.1	dFr2072	dFr2072			1681		2844074	4223
 NC_076107.1	Hepatitis_delta_virus_dFr2005	Hepatitis delta virus	GCF_018547925.1	dFr2005	dFr2005			1687		2844074	4223
 NC_076108.1	Hepatitis_delta_virus_dFr2158	Hepatitis delta virus	GCF_018547935.1	dFr2158	dFr2158			1674		2844074	4223
@@ -309,42 +266,25 @@ NC_001545.2	Rubella_virus_F_Therien	Rubella virus	GCF_000863025.1		F-Therien			9
 NC_076948.1	Rubella_virus_RVi_Bismarck_ND_USA_23_08_2B	Rubella virus	GCF_024749945.1		RVi/Bismarck.ND.USA/23.08/2B			9761	Homo sapiens	2846071	4189
 NC_001414.1	Bovine_leukemia_virus	Bovine leukemia virus	GCF_000853665.1					8419		3428211	4180
 NC_000883.2	Human_parvovirus_B19	Human parvovirus B19	GCF_000839645.1	J35				5596		3052189	4123
-NC_076947.1	Equine_infectious_anemia_virus	Equine infectious anemia virus	GCF_023156365.1					8359		3418648	4048
 NC_001357.1	human_papillomavirus_18	human papillomavirus 18	GCF_000865665.1					7857		337042	4009
 NC_001437.1	Japanese_encephalitis_virus	Japanese encephalitis virus	GCF_000862145.1					10976		3048158	3931
-NC_001482.1	Feline_immunodeficiency_virus	Feline immunodeficiency virus	GCF_000854865.1		Petaluma			9474	Feliformia	3418649	3908
 NC_001796.2	Human_respirovirus_3_NC_001796_2	Human respirovirus 3	GCF_000850205.1					15462		3049953	3890
 NC_075446.1	Human_respirovirus_3_Guangzhou	Human respirovirus 3	GCF_006298365.1	Guangzhou	ZHYMgz01			15462		3049953	3890
 NC_038270.1	Simian_Agent_10	Simian Agent 10	GCF_002815255.1					15462	Cercopithecus mitis	3049953	3890
 NC_002549.1	Zaire_ebolavirus	Zaire ebolavirus	GCF_000848505.1	Ebola virus/H.sapiens-tc/COD/1976/Yambuku-Mayinga				18959		3052462	3884
 NC_001921.1	canine_distemper_virus	canine distemper virus	GCF_000854065.1	Onderstpoort				15690		3052342	3865
-NC_077666.1	Orthohantavirus_puumalaense_CG1820_NC_077666_1	Orthohantavirus puumalaense	GCF_002829765.1		CG1820			3682		3052493	3759
-NC_077667.1	Orthohantavirus_puumalaense_CG1820_NC_077667_1	Orthohantavirus puumalaense	GCF_002829765.1		CG1820			6550		3052493	3759
-NC_077668.1	Orthohantavirus_puumalaense_CG1820_NC_077668_1	Orthohantavirus puumalaense	GCF_002829765.1		CG1820			1784		3052493	3759
-NC_022518.1	Human_endogenous_retrovirus_K113	Human endogenous retrovirus K113	GCF_000913595.1					9472	Homo sapiens	45617	3576
 NC_001454.1	Human_mastadenovirus_F	Human mastadenovirus F	GCF_000846685.1	Dugan	Dugan	Human adenovirus 40		34214	Homo sapiens	3241426	3509
 NC_001672.1	Tick_borne_encephalitis_virus	Tick-borne encephalitis virus	GCF_000863125.1					11141	Mus musculus	3052465	3500
-NC_039025.1	Eastern_chimpanzee_simian_foamy_virus	Eastern chimpanzee simian foamy virus	GCF_003032765.1					11954	Homo sapiens	3432458	3412
 NC_006016.1	Orbivirus_alphaequi_8	Orbivirus alphaequi	GCF_000856125.1		serotype 9		8	1166		40050	3236
 NC_006009.1	Orbivirus_alphaequi_10	Orbivirus alphaequi	GCF_000856125.1			3	10	758		40050	3236
 NC_006011.1	Orbivirus_alphaequi_7	Orbivirus alphaequi	GCF_000856125.1			4	7	1179		40050	3236
 NC_006012.1	Orbivirus_alphaequi_4	Orbivirus alphaequi	GCF_000856125.1			4	4	1978		40050	3236
-NC_005996.1	Orbivirus_alphaequi_2	Orbivirus alphaequi	GCF_000856125.1			6	2	3203		40050	3236
 NC_006017.1	Orbivirus_alphaequi_3	Orbivirus alphaequi	GCF_000856125.1				3	2792		40050	3236
 NC_006021.1	Orbivirus_alphaequi_1	Orbivirus alphaequi	GCF_000856125.1			9	1	3965		40050	3236
 NC_006020.1	Orbivirus_alphaequi_5	Orbivirus alphaequi	GCF_000856125.1			6	5	1748		40050	3236
-NC_006019.1	Orbivirus_alphaequi_NC_006019_1	Orbivirus alphaequi	GCF_000856125.1		serotype 6			1169		40050	3236
-NC_006018.1	Orbivirus_alphaequi_6	Orbivirus alphaequi	GCF_000856125.1				6	1566		40050	3236
 NC_004005.1	Tomato_yellow_leaf_curl_virus	Tomato yellow leaf curl virus	GCF_000858205.1	Almeria				2781	Capsicum annuum	3426741	3149
 NC_012959.1	Human_adenovirus_54	Human adenovirus 54	GCF_000885675.1	Kobe-H	Kobe-H			34920		3241420	3136
 AC_000006.1	Human_mastadenovirus_D_Human_adenovirus_type_17	Human mastadenovirus D	GCF_000858625.1			Human adenovirus type 17		35100		3241420	3136
-NC_003475.1	Banana_bunchy_top_virus_DNA_U3	Banana bunchy top virus	GCF_000847305.1				DNA U3	1060		3158386	3126
-NC_003474.1	Banana_bunchy_top_virus_DNA_M	Banana bunchy top virus	GCF_000847305.1				DNA M	1043		3158386	3126
-NC_003473.1	Banana_bunchy_top_virus_DNA_S	Banana bunchy top virus	GCF_000847305.1				DNA S	1075		3158386	3126
-NC_003479.1	Banana_bunchy_top_virus_DNA_R	Banana bunchy top virus	GCF_000847305.1				DNA R	1111		3158386	3126
-NC_003477.1	Banana_bunchy_top_virus_DNA_C	Banana bunchy top virus	GCF_000847305.1				DNA C	1018		3158386	3126
-NC_003476.1	Banana_bunchy_top_virus_DNA_N	Banana bunchy top virus	GCF_000847305.1				DNA N	1089		3158386	3126
-NC_055057.1	Leviviridae_sp_AVE004	Leviviridae sp.	GCF_014131355.1	AVE004				3776	Macaca mulatta	2027243	3093
 NC_055058.1	Leviviridae_sp_AVE007	Leviviridae sp.	GCF_014131365.1	AVE007				3580	Macaca mulatta	2027243	3093
 NC_074553.1	Leviviridae_sp_AVE006	Leviviridae sp.	GCF_018580575.1	AVE006				3609	Macaca mulatta	2027243	3093
 NC_005777.1	Oropouche_virus_S	Oropouche virus	GCF_000853785.1				S	754		3052429	2989
@@ -353,11 +293,9 @@ NC_005775.1	Oropouche_virus_M	Oropouche virus	GCF_000853785.1		BeAn19991		M	4385
 NC_002030.1	Potato_spindle_tuber_viroid	Potato spindle tuber viroid	GCF_000856265.1					359		3431858	2967
 NC_001445.1	Plum_pox_virus	Plum pox virus	GCF_000862085.1	PPV-NAT				9741		3240600	2878
 NC_031753.1	Porcine_circovirus_3	Porcine circovirus 3	GCF_001866935.1		29160			2000	Sus scrofa	3048280	2836
-NC_004296.1	Mammarenavirus_lassaense_S	Mammarenavirus lassaense	GCF_000851705.1		Josiah		S	3402		3052310	2811
 NC_004297.1	Mammarenavirus_lassaense_L	Mammarenavirus lassaense	GCF_000851705.1		Josiah		L	7279		3052310	2811
 NC_001355.1	Human_papillomavirus_type_6b	Human papillomavirus type 6b	GCF_000861945.1		type 6b (HPV6b)			7902		333754	2721
 NC_030922.1	Mamastrovirus_1	Mamastrovirus 1	GCF_001736695.1	V1347				6673		3430629	2708
-NC_002615.1	European_brown_hare_syndrome_virus	European brown hare syndrome virus	GCF_000857785.1	EBHSV-GD	EBHSV-GD			7442		3430318	2704
 NC_001543.1	Rabbit_hemorrhagic_disease_virus	Rabbit hemorrhagic disease virus	GCF_000861285.1	FRG	FRG			7437		3430318	2704
 NC_012532.1	Zika_virus_MR_766	Zika virus	GCF_000882815.1		MR 766			10794	Simiiformes	3048459	2680
 NC_035889.1	Zika_virus_Natal_RGN	Zika virus	GCF_002366285.1		Natal RGN			10808	Homo sapiens	3048459	2680
@@ -368,11 +306,7 @@ NC_006309.2	Influenza_C_virus_C_Ann_Arbor_1_50_3	Influenza C virus (C/Ann Arbor/
 NC_006311.1	Influenza_C_virus_C_Ann_Arbor_1_50_5	Influenza C virus (C/Ann Arbor/1/50)	GCF_000856665.2		C/Ann Arbor/1/50		5	1807		2955935	2643
 NC_006307.2	Influenza_C_virus_C_Ann_Arbor_1_50_1	Influenza C virus (C/Ann Arbor/1/50)	GCF_000856665.2		C/Ann Arbor/1/50		1	2365		2955935	2643
 NC_006310.2	Influenza_C_virus_C_Ann_Arbor_1_50_4	Influenza C virus (C/Ann Arbor/1/50)	GCF_000856665.2		C/Ann Arbor/1/50		4	2073		2955935	2643
-NC_006497.1	Infectious_salmon_anemia_virus_8	Infectious salmon anemia virus	GCF_000854145.1	CCBB			8	736		55987	2619
-NC_006505.1	Infectious_salmon_anemia_virus_1	Infectious salmon anemia virus	GCF_000854145.1	810/9/99			1	2169	Salmo salar	55987	2619
-NC_006498.1	Isavirus_salaris_7	Isavirus salaris	GCF_000854145.1	CCBB			7	966		55987	2619
 NC_006499.1	Isavirus_salaris_6	Isavirus salaris	GCF_000854145.1	CCBB			6	1323		55987	2619
-NC_006503.1	Isavirus_salaris_2	Isavirus salaris	GCF_000854145.1	CCBB			2	2185		55987	2619
 NC_006502.1	Isavirus_salaris_3	Isavirus salaris	GCF_000854145.1	CCBB			3	2046		55987	2619
 NC_006501.1	Isavirus_salaris_4	Isavirus salaris	GCF_000854145.1	CCBB			4	1787		55987	2619
 NC_006500.2	Isavirus_salaris_5	Isavirus salaris	GCF_000854145.1	CCBB			5	1474		55987	2619
@@ -400,10 +334,7 @@ NC_077843.1	Mammalian_orthoreovirus_3_Dearing_M2	Mammalian orthoreovirus 3 Deari
 NC_077842.1	Mammalian_orthoreovirus_3_Dearing_L3	Mammalian orthoreovirus 3 Dearing	GCF_006298385.1	Dearing	T3D	3	L3	3901	Homo sapiens	3422298	2502
 NC_002509.2	Turnip_mosaic_virus	Turnip mosaic virus	GCF_000863465.1					9835		3240607	2437
 NC_004611.1	Tomato_leaf_curl_New_Delhi_virus_DNA_A	Tomato leaf curl New Delhi virus	GCF_000842925.1	Severe	Severe		DNA A	2739	Solanum lycopersicum	3426993	2415
-NC_004612.1	Tomato_leaf_curl_New_Delhi_virus_DNA_B	Tomato leaf curl New Delhi virus	GCF_000842925.1	Severe	Severe		DNA B	2696	Solanum lycopersicum	3426993	2415
 NC_003027.1	Lumpy_skin_disease_virus_NI_2490	Lumpy skin disease virus NI-2490	GCF_000839805.1	Neethling 2490				150773		3427718	2412
-NC_034440.1	Bat_coronavirus_PREDICT_PDF_2180	Bat coronavirus	GCF_002118885.1	PREDICT/PDF-2180				29642	Pipistrellus	1508220	2381
-NC_048212.1	Bat_coronavirus_CMR704_P12	Bat coronavirus	GCF_012271725.1	CMR704-P12				28975	Eidolon helvum	1508220	2381
 NC_006383.2	Peste_des_petits_ruminants_virus	Peste des petits ruminants virus	GCF_000866445.1	Turkey 2000				15948	Ovis aries	3052343	2374
 NC_002077.1	Adeno_associated_virus_1	Adeno-associated virus - 1	GCF_000863065.1					4718		1511891	2354
 NC_001729.1	Adeno_associated_virus_3	Adeno-associated virus - 3	GCF_000841585.1		3H			4726		1511891	2354
@@ -417,15 +348,10 @@ NC_001348.1	Human_alphaherpesvirus_3	Human alphaherpesvirus 3	GCF_000858285.1		D
 NC_001490.1	rhinovirus_B14	rhinovirus B14	GCF_000861265.1					7212		3428503	2338
 NC_038312.1	rhinovirus_B3	rhinovirus B3	GCF_002816855.1			3		7208		3428503	2338
 NC_002031.1	Yellow_fever_virus	Yellow fever virus	GCF_000857725.1		17D vaccine strain			10862		3046277	2318
-NC_005336.1	Orf_virus	Orf virus	GCF_000844845.1	OV-SA00	OV-SA00			139962		3431389	2314
 NC_005218.1	Orthohantavirus_hantanense_NC_005218_1	Orthohantavirus hantanense	GCF_000856085.1					1696		3052480	2276
 NC_005222.1	Orthohantavirus_hantanense_L	Orthohantavirus hantanense	GCF_000856085.1		76-118		L	6533		3052480	2276
 NC_005219.1	Orthohantavirus_hantanense_NC_005219_1	Orthohantavirus hantanense	GCF_000856085.1					3616		3052480	2276
-NC_001362.1	Friend_murine_leukemia_virus	Friend murine leukemia virus	GCF_000859065.1	FB29	FB29			8323		3428959	2252
-NC_001501.1	Moloney_murine_leukemia_virus	Moloney murine leukemia virus	GCF_000854185.1					8332		3428959	2252
-NC_001702.1	Murine_type_C_retrovirus	Murine type C retrovirus	GCF_000859085.1					8135		3428959	2252
 NC_043487.1	Lelystad_virus	Lelystad virus	GCF_003971765.1					15111		3411021	2248
-NC_001943.1	Human_astrovirus	Human astrovirus	GCF_000861865.1					6813		1868658	2247
 NC_001427.1	Chicken_anemia_virus	Chicken anemia virus	GCF_000864805.1					2319		3047743	2236
 NC_005236.1	Orthohantavirus_seoulense_S	Orthohantavirus seoulense	GCF_000855645.1		80-39		S	1769	Rattus norvegicus	3052498	2205
 NC_005237.1	Orthohantavirus_seoulense_M	Orthohantavirus seoulense	GCF_000855645.1		80-39		M	3651		3052498	2205
@@ -433,46 +359,22 @@ NC_005238.1	Orthohantavirus_seoulense_L	Orthohantavirus seoulense	GCF_000855645.
 NC_001948.1	Grapevine_rupestris_stem_pitting_associated_virus	Grapevine rupestris stem pitting-associated virus	GCF_000860125.1					8744		3428812	2188
 NC_004667.1	Grapevine_leafroll_associated_virus_3	Grapevine leafroll-associated virus 3	GCF_000851885.1	NY1	NY1			17919		3426349	2174
 NC_002229.3	Gallid_alphaherpesvirus_2	Gallid alphaherpesvirus 2	GCF_000846265.1		Md5			177874	Gallus gallus	3050287	2165
-NC_021544.1	Human_rotavirus_B_6	Human rotavirus B	GCF_000907835.1		Bang373		6	1269		3432195	2121
-NC_021551.1	Human_rotavirus_B_3	Human rotavirus B	GCF_000907835.1		Bang373		3	2341		3432195	2121
-NC_021548.1	Human_rotavirus_B_8	Human rotavirus B	GCF_000907835.1		Bang373		8	1007		3432195	2121
-NC_021549.1	Human_rotavirus_B_11	Human rotavirus B	GCF_000907835.1		Bang373		11	631		3432195	2121
-NC_021550.1	Human_rotavirus_B_10	Human rotavirus B	GCF_000907835.1		Bang373		10	751		3432195	2121
-NC_021542.1	Human_rotavirus_B_9	Human rotavirus B	GCF_000907835.1		Bang373		9	814		3432195	2121
-NC_021541.1	Human_rotavirus_B_1	Human rotavirus B	GCF_000907835.1		Bang373		1	3511		3432195	2121
-NC_021547.1	Human_rotavirus_B_7	Human rotavirus B	GCF_000907835.1		Bang373		7	1179		3432195	2121
-NC_021545.1	Human_rotavirus_B_2	Human rotavirus B	GCF_000907835.1		Bang373		2	2847		3432195	2121
-NC_021546.1	Human_rotavirus_B_5	Human rotavirus B	GCF_000907835.1		Bang373		5	1276		3432195	2121
-NC_021543.1	Human_rotavirus_B_4	Human rotavirus B	GCF_000907835.1		Bang373		4	2306		3432195	2121
-NC_075387.1	Cressdnaviricota_sp_ctjj384	Cressdnaviricota sp.	GCF_004290775.1	ctjj384				2047		2748378	2104
 NC_076852.1	Cressdnaviricota_sp_UJSL012	Cressdnaviricota sp.	GCF_023141935.1	UJSL012				2191	Paguma larvata	2748378	2104
 NC_001785.1	Papaya_ringspot_virus	Papaya ringspot virus	GCF_000862045.1					10326		3240577	2083
-NC_038332.1	Fowl_aviadenovirus_6	Fowl aviadenovirus 6	GCF_002817995.1		CR119	fowl adenovirus 6		43810	Gallus gallus	3426530	2036
-NC_014969.1	Fowl_aviadenovirus_E	Fowl aviadenovirus E	GCF_000890555.1	HG				44055	Gallus gallus	3426530	2036
-NC_003517.1	Beet_necrotic_yellow_vein_virus_RNA_4	Beet necrotic yellow vein virus	GCF_000854885.1	S			RNA 4	1465	Tetragonia tetragonoides	3427127	2016
-NC_003515.1	Beet_necrotic_yellow_vein_virus_RNA_2	Beet necrotic yellow vein virus	GCF_000854885.1	S			RNA 2	4609	Tetragonia tetragonoides	3427127	2016
-NC_003513.1	Beet_necrotic_yellow_vein_virus_RNA_5	Beet necrotic yellow vein virus	GCF_000854885.1	S43			RNA 5	1320		3427127	2016
-NC_003514.1	Beet_necrotic_yellow_vein_virus_RNA_1	Beet necrotic yellow vein virus	GCF_000854885.1	S			RNA 1	6746	Tetragonia tetragonoides	3427127	2016
-NC_003516.1	Beet_necrotic_yellow_vein_virus_RNA_3	Beet necrotic yellow vein virus	GCF_000854885.1	S			RNA 3	1774	Tetragonia tetragonoides	3427127	2016
 NC_001481.2	Feline_calicivirus_Urbana	Feline calicivirus	GCF_000853345.1	Urbana	Urbana			7683		3433199	1999
 NC_075569.1	Feline_calicivirus_NC_075569_1	Feline calicivirus	GCF_008767155.1					7690		3433199	1999
 NC_013396.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_1	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	1	3942		3431252	1973
 NC_013400.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_5	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	5	1803		3431252	1973
-NC_013405.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_10	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	10	810		3431252	1973
 NC_013399.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_4	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	4	1983		3431252	1973
 NC_013404.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_9	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	9	1143		3431252	1973
 NC_013398.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_3	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	3	2768		3431252	1973
-NC_013403.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_8	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	8	1186		3431252	1973
 NC_013402.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_7	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	7	1162		3431252	1973
-NC_013401.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_6	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	6	1640		3431252	1973
-NC_013397.1	Epizootic_hemorrhagic_disease_virus_serotype_1_strain_New_Jersey_2	Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)	GCF_000885335.1	USA1955/01	New Jersey	1	2	2968		3431252	1973
 NC_001944.1	Beak_and_feather_disease_virus	Beak and feather disease virus	GCF_000843965.1					1993		3047561	1960
 NC_000855.1	Viral_hemorrhagic_septicemia_virus_Fil3	Viral hemorrhagic septicemia virus Fil3	GCF_000856505.1		Fil3			11158		1980916	1939
 NC_014397.1	Rift_Valley_fever_virus_L	Rift Valley fever virus	GCF_000847345.1		ZH-548		L	6404		3052676	1936
 NC_014396.1	Rift_Valley_fever_virus_M	Rift Valley fever virus	GCF_000847345.1		ZH-548		M	3885	Homo sapiens	3052676	1936
 NC_014395.1	Rift_Valley_fever_virus_S	Rift Valley fever virus	GCF_000847345.1		ZH-548		S	1690	Homo sapiens	3052676	1936
 NC_001662.1	Aleutian_mink_disease_virus	Aleutian mink disease virus	GCF_000838725.1		ADV-G			4801		3051624	1915
-NC_029801.1	Porcine_picobirnavirus_L	Porcine picobirnavirus	GCF_001611625.1	221/04-16/ITA/2004	221/04-16/ITA/2004		L	2666	Sus scrofa	442302	1821
 NC_036620.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_6	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		6	1219	Sus scrofa	2955744	1802
 NC_036617.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_5	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		5	1775	Sus scrofa	2955744	1802
 NC_036615.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_2	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		2	2330	Sus scrofa	2955744	1802
@@ -484,9 +386,6 @@ NC_038294.1	Betacoronavirus_England_1	Betacoronavirus England 1	GCF_002816195.1	
 NC_019843.3	Middle_East_respiratory_syndrome_related_coronavirus	Middle East respiratory syndrome-related coronavirus	GCF_000901155.1	HCoV-EMC/2012	HCoV-EMC			30119	Homo sapiens	3433633	1782
 NC_015116.1	Avian_leukemia_virus	Avian leukemia virus	GCF_000891575.1	SCDY1				7489	Gallus gallus	3426267	1781
 NC_001408.1	Avian_leukosis_virus_RSA	Avian leukosis virus - RSA	GCF_000849845.1					7286		3426267	1781
-NC_001918.1	Aichi_virus_1_A846_88	Aichi virus 1	GCF_000861885.1	A846/88				8251	Homo sapiens	72149	1776
-NC_074775.1	Aichi_virus_1_NC_074775_1	Aichi virus 1	GCF_002817065.1					8280		72149	1776
-NC_001940.1	Feline_leukemia_virus	Feline leukemia virus	GCF_000850105.1	FRA	FRA			8448		3428951	1737
 NC_003398.1	Sugarcane_mosaic_virus	Sugarcane mosaic virus	GCF_000854025.1					9596	Zea mays	3240610	1716
 NC_007455.1	Bocaparvovirus_primate1_st2	Bocaparvovirus primate1	GCF_000866725.1	st2				5299		3052040	1703
 NC_075120.1	Bocaparvovirus_primate1_Salvador1	Bocaparvovirus primate1	GCF_003033285.1	Salvador1				5543	Homo sapiens	3052040	1703
@@ -498,101 +397,41 @@ NC_075683.1	Gallid_alphaherpesvirus_1_SA2	Gallid alphaherpesvirus 1	GCF_00878714
 NC_003224.1	Zucchini_yellow_mosaic_virus	Zucchini yellow mosaic virus	GCF_000861645.1	TW-TN3				9591	Luffa aegyptiaca	3240514	1622
 NC_001915.1	Infectious_pancreatic_necrosis_virus_A	Infectious pancreatic necrosis virus	GCF_000856525.1		Jasper		A	3097		3048153	1615
 NC_001916.1	Infectious_pancreatic_necrosis_virus_B	Infectious pancreatic necrosis virus	GCF_000856525.1		Jasper serotype		B	2784		3048153	1615
-NC_023422.1	Caprine_kobuvirus	Caprine kobuvirus	GCF_000915315.1	12Q108				8305	Capra hircus	1298633	1583
 NC_027054.1	Porcine_kobuvirus	Porcine kobuvirus	GCF_001008455.1	JS-02a-CHN/2014/China				8121	Sus scrofa	1298633	1583
 NC_016769.1	Porcine_kobuvirus_SH_W_CHN_2010_China	Porcine kobuvirus SH-W-CHN/2010/China	GCF_000895935.1	SH-W-CHN/2010/China				8210	Sus scrofa	1298633	1583
 NC_011829.1	Porcine_kobuvirus_swine_S_1_HUN_2007_Hungary	Porcine kobuvirus swine/S-1-HUN/2007/Hungary	GCF_000881035.1		swine/S-1-HUN/2007/Hungary			8210	Sus scrofa	1298633	1583
-NC_005226.1	Orthohantavirus_tulaense_L	Orthohantavirus tulaense	GCF_000855225.1		Moravia/5302v/95		L	6541		3052503	1573
-NC_005227.2	Orthohantavirus_tulaense_S	Orthohantavirus tulaense	GCF_000855225.1		Tula/Moravia/5302Ma/94		S	1831		3052503	1573
-NC_005228.1	Orthohantavirus_tulaense_M	Orthohantavirus tulaense	GCF_000855225.1		Moravia/5302v/95		M	3694		3052503	1573
-NC_003784.1	Black_queen_cell_virus	Black queen cell virus	GCF_000851425.1		South African			8550	Apis mellifera	3047684	1548
 NC_006262.1	Watermelon_mosaic_virus	Watermelon mosaic virus	GCF_000856625.1		WMV-Fr			10035		3240504	1538
 NC_001351.1	Hop_stunt_viroid	Hop stunt viroid	GCF_000847785.1					302		3429801	1519
 NC_004067.1	Pepino_mosaic_virus	Pepino mosaic virus	GCF_000856965.1	Sp-13				6450	Solanum lycopersicum	3433856	1508
 NC_006551.1	Usutu_virus	Usutu virus	GCF_000854945.1		Vienna 2001			11066		3048443	1507
-NC_000899.1	Fowl_aviadenovirus_D_Fowl_adenovirus_9	Fowl aviadenovirus D	GCF_000844285.1	A-2A	A-2A	Fowl adenovirus 9		45063		3426525	1500
-AC_000013.1	Fowl_aviadenovirus_D_AC_000013_1	Fowl aviadenovirus D	GCF_000886795.1					45063		3426525	1500
 NC_015782.2	Grapevine_Pinot_gris_virus	Grapevine Pinot gris virus	GCF_000894735.1					7259	Vitis vinifera	3432991	1488
 NC_075974.1	Picornavirales_sp_RtRn_PicoV_YN2014	Picornavirales sp.	GCF_013086155.1	RtRn-PicoV/YN2014				8422	Rodentia	1955153	1466
 NC_075975.1	Picornavirales_sp_RtCb_PicoV_HeB2014	Picornavirales sp.	GCF_013086165.1	RtCb-PicoV/HeB2014				8315	Rodentia	1955153	1466
 NC_075978.1	Picornavirales_sp_RtNn_PicoV_HuB2015_1	Picornavirales sp.	GCF_013086195.1	RtNn-PicoV/HuB2015-1				8013	Rodentia	1955153	1466
 NC_001593.1	Human_papillomavirus_type_53	Human papillomavirus type 53	GCF_000865685.1					7856		337050	1449
-NC_039228.1	Koala_retrovirus	Koala retrovirus	GCF_002888855.1					8431		3428957	1449
 NC_038889.1	human_papillomavirus_30	human papillomavirus 30	GCF_002987345.1					7852		337050	1449
 NC_003899.1	Eastern_equine_encephalitis_virus	Eastern equine encephalitis virus	GCF_000862705.1	ssp. North American variant	ssp. North American variant			11675		3426299	1430
 NC_075280.1	Picornaviridae_sp	Picornaviridae sp.	GCF_003389975.1	yc-1				7443	Grus japonensis	1530251	1372
-NC_001846.1	Murine_hepatitis_virus_MHV_A59	Murine hepatitis virus	GCF_000862345.1		MHV-A59			31357		3433759	1355
-NC_048217.1	Murine_hepatitis_virus_A59	Murine hepatitis virus	GCF_003971785.1		A59			31335		3433759	1355
-NC_012936.1	Rat_coronavirus_Parker	Rat coronavirus Parker	GCF_000886515.1		Parker			31250	Rattus	3433759	1355
-NC_075305.1	Genomoviridae_sp_ctcg63	Genomoviridae sp.	GCF_003846465.1	ctcg63				2177		2202565	1352
-NC_075306.1	Genomoviridae_sp_cthd64	Genomoviridae sp.	GCF_003846485.1	cthd64				2174		2202565	1352
-NC_076297.1	Genomoviridae_sp_ctce776	Genomoviridae sp.	GCF_018584285.1	ctce776				2281		2202565	1352
-NC_076300.1	Genomoviridae_sp_ctbh29	Genomoviridae sp.	GCF_018584315.1	ctbh29				2265		2202565	1352
-NC_076304.1	Genomoviridae_sp_ctcg218	Genomoviridae sp.	GCF_018584425.1	ctcg218				2360		2202565	1352
-NC_076305.1	Genomoviridae_sp_ctbh806	Genomoviridae sp.	GCF_018584435.1	ctbh806				2214		2202565	1352
-NC_076307.1	Genomoviridae_sp_ctgb66	Genomoviridae sp.	GCF_018584455.1	ctgb66				2284		2202565	1352
-NC_076309.1	Genomoviridae_sp_ctbe80	Genomoviridae sp.	GCF_018584475.1	ctbe80				2208		2202565	1352
-NC_076311.1	Genomoviridae_sp_ctda73	Genomoviridae sp.	GCF_018584495.1	ctda73				2195		2202565	1352
-NC_076312.1	Genomoviridae_sp_ctdb7	Genomoviridae sp.	GCF_018584505.1	ctdb7				2206		2202565	1352
-NC_076313.1	Genomoviridae_sp_ctbi89	Genomoviridae sp.	GCF_018584515.1	ctbi89				2161		2202565	1352
-NC_076314.1	Genomoviridae_sp_cthh214	Genomoviridae sp.	GCF_018584525.1	cthh214				2148	Melanogrammus aeglefinus	2202565	1352
-NC_076315.1	Genomoviridae_sp_ctdb242	Genomoviridae sp.	GCF_018584535.1	ctdb242				2251		2202565	1352
-NC_076318.1	Genomoviridae_sp_ctcd252	Genomoviridae sp.	GCF_018584565.1	ctcd252				2223		2202565	1352
-NC_076324.1	Genomoviridae_sp_ctbi78	Genomoviridae sp.	GCF_018584625.1	ctbi78				2244	Oncorhynchus mykiss	2202565	1352
-NC_076325.1	Genomoviridae_sp_ctcj747	Genomoviridae sp.	GCF_018584635.1	ctcj747				2359		2202565	1352
-NC_076327.1	Genomoviridae_sp_ctce205	Genomoviridae sp.	GCF_018584655.1	ctce205				2194	Melanogrammus aeglefinus	2202565	1352
-NC_076329.1	Genomoviridae_sp_ctbf8	Genomoviridae sp.	GCF_018584675.1	ctbf8				2181		2202565	1352
-NC_076333.1	Genomoviridae_sp_ctba76	Genomoviridae sp.	GCF_018584725.1	ctba76				2176		2202565	1352
-NC_076335.1	Genomoviridae_sp_ctbi86	Genomoviridae sp.	GCF_018584745.1	ctbi86				2173		2202565	1352
-NC_076480.1	Genomoviridae_sp_bif24cir1	Genomoviridae sp.	GCF_018591135.1	bif24cir1				2178	Anser albifrons	2202565	1352
 NC_005831.2	Human_coronavirus_NL63	Human coronavirus NL63	GCF_000853865.1		Amsterdam I			27553		3433809	1324
 NC_003461.1	Human_respirovirus_1	Human respirovirus 1	GCF_000848705.1		Washington 1964			15600		3049952	1289
-NC_075105.1	Shrimp_white_spot_syndrome_virus	Shrimp white spot syndrome virus	GCF_003024735.1		WSSV-CN			305119		342409	1280
-NC_003225.3	White_spot_syndrome_virus	White spot syndrome virus	GCF_000848085.2		CN01			309286	Penaeus japonicus	342409	1280
 NC_001575.2	Rice_yellow_mottle_virus	Rice yellow mottle virus	GCF_000863085.1	CI4				4449		3432506	1275
-NC_014070.1	Torque_teno_sus_virus_1a	Torque teno sus virus 1a	GCF_000888195.1	Sd-TTV31				2878	Sus scrofa	3048408	1265
-NC_027059.1	Torque_teno_sus_virus_1b	Torque teno sus virus 1b	GCF_001008435.1	1p				2872	Sus scrofa	3048408	1265
-NC_002024.2	Alfamovirus_AMV_RNA_2	Alfamovirus AMV	GCF_000847525.1				RNA 2	2593		12321	1226
-NC_002025.1	Alfamovirus_AMV_RNA_3	Alfamovirus AMV	GCF_000847525.1		425 Madison		RNA 3	2037		12321	1226
-NC_001495.1	Alfamovirus_AMV_RNA_1	Alfamovirus AMV	GCF_000847525.1		425 Leiden		RNA 1	3644		12321	1226
-NC_001492.1	Cryphonectria_hypovirus_1	Cryphonectria hypovirus 1	GCF_000849145.1					12734	Cryphonectria parasitica	2955284	1225
 NC_001749.2	Capillovirus_mali	Capillovirus mali	GCF_000859505.1					6495		28347	1218
-NC_001468.1	Begomovirus_manihotis_DNA_B	Begomovirus manihotis	GCF_000857205.1	West Kenyan 844			DNA B	2724	Manihot esculenta	10817	1217
-NC_001467.1	Begomovirus_manihotis_DNA_A	Begomovirus manihotis	GCF_000857205.1	West Kenyan 844			DNA A	2779	Manihot esculenta	10817	1217
-NC_003615.1	Grapevine_fanleaf_virus_RNA_1	Grapevine fanleaf virus	GCF_000860305.1		F13		RNA 1	7342		3047852	1214
-NC_003623.1	Grapevine_fanleaf_virus_NC_003623_1	Grapevine fanleaf virus	GCF_000860305.1		F13			3774		3047852	1214
-NC_075373.1	Anelloviridae_sp_ctbb016	Anelloviridae sp.	GCF_004286455.1	ctbb016				2810	Homo sapiens	2055263	1180
-NC_075385.1	Anelloviridae_sp_ctbb008	Anelloviridae sp.	GCF_004290615.1	ctbb008				1833		2055263	1180
-NC_075447.1	Anelloviridae_sp_vzttmv5	Anelloviridae sp.	GCF_006370125.1		vzttmv5			2919	Homo sapiens	2055263	1180
 NC_002361.1	Columbid_circovirus	Columbid circovirus	GCF_000843885.1					2037	Columbidae	3050342	1166
-NC_003737.1	Rice_black_streaked_dwarf_virus_6	Rice black streaked dwarf virus	GCF_000852945.1				6	2645	Oryza sativa	3428768	1149
 NC_003729.1	Rice_black_streaked_dwarf_virus_1	Rice black streaked dwarf virus	GCF_000852945.1				1	4501	Oryza sativa	3428768	1149
-NC_003728.1	Rice_black_streaked_dwarf_virus_3	Rice black streaked dwarf virus	GCF_000852945.1				3	3572	Oryza sativa	3428768	1149
-NC_003730.1	Rice_black_streaked_dwarf_virus_7	Rice black streaked dwarf virus	GCF_000852945.1				7	2193	Oryza sativa	3428768	1149
-NC_003734.1	Rice_black_streaked_dwarf_virus_2	Rice black streaked dwarf virus	GCF_000852945.1				2	3812	Oryza sativa	3428768	1149
 NC_003736.1	Rice_black_streaked_dwarf_virus_5	Rice black streaked dwarf virus	GCF_000852945.1				5	3164	Oryza sativa	3428768	1149
 NC_003732.1	Rice_black_streaked_dwarf_virus_8	Rice black streaked dwarf virus	GCF_000852945.1				8	1936	Oryza sativa	3428768	1149
 NC_003733.1	Rice_black_streaked_dwarf_virus_10	Rice black streaked dwarf virus	GCF_000852945.1				10	1801	Oryza sativa	3428768	1149
-NC_003735.1	Rice_black_streaked_dwarf_virus_4	Rice black streaked dwarf virus	GCF_000852945.1				4	3617	Oryza sativa	3428768	1149
-NC_003731.1	Rice_black_streaked_dwarf_virus_9	Rice black streaked dwarf virus	GCF_000852945.1				9	1900	Oryza sativa	3428768	1149
 NC_001346.2	Maize_streak_virus_A_Ama	Maize streak virus - A[Ama]	GCF_000847105.2	MSV-Ama	MSV-A			2689		3430734	1142
 NC_075135.1	Maize_streak_virus_A_South_Africa	Maize streak virus - A[South Africa]	GCF_003048235.1		South African			2690		3430734	1142
 NC_001409.1	Trichovirus_mali	Trichovirus mali	GCF_000848285.1					7555		12175	1138
 NC_028752.1	Camel_alphacoronavirus	Camel alphacoronavirus	GCF_001500975.1	camel/Riyadh/Ry141/2015				27395	Camelus	3433756	1079
 NC_002645.1	Human_coronavirus_229E	Human coronavirus 229E	GCF_000853505.1					27317		3433756	1079
-NC_001652.1	Infectious_hematopoietic_necrosis_virus	Infectious hematopoietic necrosis virus	GCF_000850065.1		WRAC			11131	Oncorhynchus tshawytscha	1980917	1050
-NC_001574.1	Cacao_swollen_shoot_virus	Cacao swollen shoot virus	GCF_000844305.1					7161		3047713	1037
 NC_002532.2	Equine_arteritis_virus	Equine arteritis virus	GCF_000860865.1		Bucyrus			12704		2499620	1032
 NC_003462.2	Foveavirus_mali	Foveavirus mali	GCF_000850465.1	PA66	ASPV			9332		35350	1029
-NC_001488.1	Human_T_lymphotropic_virus_2	Human T-lymphotropic virus 2	GCF_000847505.1					8952		3428213	1022
-NC_001815.1	Simian_T_lymphotropic_virus_2	Simian T-lymphotropic virus 2	GCF_000860005.1	STLV-2PP1664	PP1664			8855	Pan paniscus	3428213	1022
-NC_014037.1	Sugarcane_streak_mosaic_virus	Sugarcane streak mosaic virus	GCF_000887195.1	PAK				9782	Saccharum sp.	3431714	1022
 NC_038815.1	Cardamom_bushy_dwarf_virus_M	Cardamom bushy dwarf virus	GCF_002867695.1				M	1083	Elettaria cardamomum	3426587	1012
 NC_038813.1	Cardamom_bushy_dwarf_virus_DNA_U3	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U3	1088	Elettaria cardamomum	3426587	1012
 NC_038809.1	Cardamom_bushy_dwarf_virus_NC_038809_1	Cardamom bushy dwarf virus	GCF_002867695.1					1028	Elettaria cardamomum	3426587	1012
 NC_038810.1	Cardamom_bushy_dwarf_virus_NC_038810_1	Cardamom bushy dwarf virus	GCF_002867695.1					1086	Elettaria cardamomum	3426587	1012
-NC_038811.1	Cardamom_bushy_dwarf_virus_DNA_U2	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U2	1079	Elettaria cardamomum	3426587	1012
-NC_038814.1	Cardamom_bushy_dwarf_virus_DNA_U1	Cardamom bushy dwarf virus	GCF_002867695.1				DNA-U1	1080	Elettaria cardamomum	3426587	1012
 NC_038816.1	Cardamom_bushy_dwarf_virus_NC_038816_1	Cardamom bushy dwarf virus	GCF_002867695.1					1102	Elettaria cardamomum	3426587	1012
 NC_038808.1	Cardamom_bushy_dwarf_virus_NC_038808_1	Cardamom bushy dwarf virus	GCF_002867695.1					1097	Elettaria cardamomum	3426587	1012
 NC_024113.1	Mogiana_tick_virus_SY84_1	Mogiana tick virus	GCF_000919875.1	SY84			1	3114	Rhipicephalus microplus	1172985	1012
