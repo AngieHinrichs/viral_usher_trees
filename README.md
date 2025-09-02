@@ -3,7 +3,7 @@
 This repository stores [UShER](https://github.com/yatisht/usher) phylogenetic trees
 for viral RefSeqs that have at least 1000 associated INSDC/GenBank sequences,
 limited to trees with at least 100 near-full-length alignable sequences.
-The trees are uilt by [viral_usher](https://github.com/AngieHinrichs/viral_usher) and
+The trees are built by [viral_usher](https://github.com/AngieHinrichs/viral_usher) and
 automatically updated on a monthly basis.
 
 All tree files are in the `trees` directory, with a subdirectory per pathogen.
