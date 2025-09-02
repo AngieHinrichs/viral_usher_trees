@@ -18,4 +18,4 @@ Each subdirectory contains the following files:
 Each pathogen subdirectory of `trees` also has a file `config.toml` that contains configuration parameters for the viral_usher build.
 
 ## Browse Trees Interactively
-**[Browse/search trees](https://AngieHinrichs.github.io/viral_usher_trees/trees.html)**
+**[Browse/search trees](https://AngieHinrichs.github.io/viral_usher_trees/)**
