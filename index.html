@@ -19,7 +19,7 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 2400px;
             margin: 0 auto;
         }
 
@@ -40,7 +40,6 @@
 
         .search-container {
             position: relative;
-            margin-bottom: 16px;
         }
 
         .search-input {
@@ -130,6 +129,19 @@
 
         .autocomplete-item.highlighted .match-context {
             opacity: 0.9;
+        }
+
+        .more-controls-container {
+            margin-top: 12px;
+            display: flex;
+            font-size: 14px;
+            gap: 20px;
+        }
+
+        .download-button {
+            margin-left: auto;
+            background-color: #f6f8fa;
+            border: 1px solid #d1d9e0;
         }
 
         .info-bar {
@@ -335,6 +347,15 @@
                 <button class="clear-button" id="clearButton" title="Clear search">✕</button>
                 <div class="autocomplete-dropdown" id="autocompleteDropdown"></div>
             </div>
+            <div class="more-controls-container">
+                <div class="one-per-species-container">
+                    <input type="checkbox" id="onePerSpeciesCheckbox">
+                    Show only one tree per species (Taxonomy ID field)
+                </div>
+                <div class="download-button-container">
+                    <button class="download-button" id="downloadButton">Download as TSV</button>
+                </div>
+            </div>
         </div>
 
         <div class="stats-bar" id="statsBar" style="display: none;">
@@ -345,6 +366,10 @@
             <div class="stat-item">
                 <span class="stat-label">Unique organisms:</span>
                 <span class="stat-value" id="uniqueOrganisms">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Unique species:</span>
+                <span class="stat-value" id="uniqueSpecies">0</span>
             </div>
         </div>
 
@@ -399,6 +424,7 @@
                     await this.loadData();
                     this.setupEventListeners();
                     this.filteredData = [...this.data];
+                    this.sortFilteredData();
                     this.calculateStats();
                     this.render();
                 } catch (error) {
@@ -437,12 +463,14 @@
             calculateStats() {
                 this.stats = {
                     totalTrees: this.data.length,
-                    uniqueOrganisms: new Set(this.data.map(row => row.organism).filter(Boolean)).size
+                    uniqueOrganisms: new Set(this.data.map(row => row.organism).filter(Boolean)).size,
+                    uniqueSpecies: new Set(this.data.map(row => row.Taxonomy_ID).filter(Boolean)).size
                 };
 
                 // Display stats
                 document.getElementById('totalTrees').textContent = this.stats.totalTrees.toLocaleString();
                 document.getElementById('uniqueOrganisms').textContent = this.stats.uniqueOrganisms.toLocaleString();
+                document.getElementById('uniqueSpecies').textContent = this.stats.uniqueSpecies.toLocaleString();
                 document.getElementById('statsBar').style.display = 'flex';
             }
 
@@ -453,7 +481,7 @@
                 
                 this.data.forEach((row) => {
                     // Store context for better autocomplete
-                    const searchableFields = ['organism', 'strain', 'serotype', 'accession', 'segment', 'tree_name'];
+                    const searchableFields = ['organism', 'strain', 'serotype', 'accession', 'segment', 'tree_name', 'Taxonomy_ID', 'isolate'];
                     
                     searchableFields.forEach(field => {
                         const value = row[field];
@@ -501,6 +529,8 @@
                 const searchInput = document.getElementById('searchInput');
                 const autocompleteDropdown = document.getElementById('autocompleteDropdown');
                 const clearButton = document.getElementById('clearButton');
+                const onePerSpeciesCheckbox = document.getElementById('onePerSpeciesCheckbox');
+                const downloadButton = document.getElementById('downloadButton');
                 
                 searchInput.addEventListener('input', (e) => {
                     this.handleSearch(e.target.value);
@@ -514,6 +544,14 @@
                     searchInput.value = '';
                     this.handleSearch('');
                     searchInput.focus();
+                });
+
+                onePerSpeciesCheckbox.addEventListener('change', (e) => {
+                    this.handleOnePerSpeciesChange(e);
+                });
+
+                downloadButton.addEventListener('click', () => {
+                    this.handleDownloadTSV();
                 });
 
                 document.addEventListener('click', (e) => {
@@ -697,6 +735,22 @@
                 }
             }
 
+            handleOnePerSpeciesChange(e) {
+                const onePerSpeciesCheckbox = document.getElementById('onePerSpeciesCheckbox');
+                if (e.target.checked) {
+                    this.applyOnePerSpeciesFilter();
+                    // Re-apply current sort
+                    if (this.sortColumn) {
+                        this.sortFilteredData();
+                    }
+                } else {
+                    // Reset to full filtered data based on current search
+                    this.applyFilters(searchInput.value);
+                }
+                this.currentPage = 1;
+                this.render();
+            }
+
             applyFilters(searchQuery) {
                 this.currentPage = 1;
                 
@@ -729,13 +783,37 @@
                         this.filteredData = Array.from(matchingRows);
                     }
                 }
-                
+
+                // If one-per-species is checked, re-apply that filter
+                const onePerSpeciesCheckbox = document.getElementById('onePerSpeciesCheckbox');
+                if (onePerSpeciesCheckbox.checked) {
+                    this.applyOnePerSpeciesFilter();
+                }
+
                 // Re-apply current sort
                 if (this.sortColumn) {
                     this.sortFilteredData();
                 }
                 
                 this.render();
+            }
+
+            applyOnePerSpeciesFilter() {
+                // Assumes filteredData is already set based on search
+                // Filter to one tree per species (Taxonomy_ID): the tree with the most tips
+                this.filteredData.sort((a, b) => {
+                    const aTips = a.tip_count_numeric || 0;
+                    const bTips = b.tip_count_numeric || 0;
+                    return bTips - aTips; // Descending
+                });
+                const seenTaxIds = new Set();
+                this.filteredData = this.filteredData.filter(row => {
+                    if (row.Taxonomy_ID && !seenTaxIds.has(row.Taxonomy_ID)) {
+                            seenTaxIds.add(row.Taxonomy_ID);
+                            return true;
+                        }
+                    return false;
+                });
             }
 
             handleSort(column) {
@@ -781,6 +859,34 @@
                         th.classList.add(`sort-${this.sortDirection}`);
                     }
                 });
+            }
+
+            handleDownloadTSV() {
+                if (this.filteredData.length === 0) {
+                    alert('No data to download.');
+                    return;
+                }
+
+                const headers = Object.keys(this.data[0]);
+                // Remove redundant tip_count_numeric field
+                const tipCountIndex = headers.indexOf('tip_count_numeric');
+                if (tipCountIndex !== -1) {
+                    headers.splice(tipCountIndex, 1);
+                }
+                const tsvContent = [
+                    headers.join('\t'),
+                    ...this.filteredData.map(row => headers.map(h => row[h] || '').join('\t'))
+                ].join('\n');
+
+                const blob = new Blob([tsvContent], { type: 'text/tab-separated-values' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'viral_usher_trees.tsv';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
             }
 
             render() {
