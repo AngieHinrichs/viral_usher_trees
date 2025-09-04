@@ -350,7 +350,7 @@
             <div class="more-controls-container">
                 <div class="one-per-species-container">
                     <input type="checkbox" id="onePerSpeciesCheckbox">
-                    Show only one tree per species (Taxonomy ID field)
+                    Show only one tree per species-level Taxonomy ID (and segment if applicable)
                 </div>
                 <div class="download-button-container">
                     <button class="download-button" id="downloadButton">Download as TSV</button>
@@ -800,7 +800,7 @@
 
             applyOnePerSpeciesFilter() {
                 // Assumes filteredData is already set based on search
-                // Filter to one tree per species (Taxonomy_ID): the tree with the most tips
+                // Filter to one tree per species (Taxonomy_ID) and segment: the tree with the most tips
                 this.filteredData.sort((a, b) => {
                     const aTips = a.tip_count_numeric || 0;
                     const bTips = b.tip_count_numeric || 0;
@@ -808,8 +808,9 @@
                 });
                 const seenTaxIds = new Set();
                 this.filteredData = this.filteredData.filter(row => {
-                    if (row.Taxonomy_ID && !seenTaxIds.has(row.Taxonomy_ID)) {
-                            seenTaxIds.add(row.Taxonomy_ID);
+                    let key = row.Taxonomy_ID + '|' + row.segment;
+                    if (!seenTaxIds.has(key)) {
+                            seenTaxIds.add(key);
                             return true;
                         }
                     return false;
