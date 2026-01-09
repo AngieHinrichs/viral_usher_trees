@@ -64,6 +64,16 @@ def write_gbff(records: List[SeqRecord], output_path: str):
         SeqIO.write(records, output_handle, "genbank")
 
 
+def alter_gbff_file(gbff_file: str, accession: str, fasta_file: str, output_file: str):
+    fasta_record = read_fasta_one_sequence(fasta_file)
+    gbff_record = read_gbff_accession(gbff_file, accession)
+    if len(gbff_record.seq) != len(fasta_record.seq):
+        print("Error: The length of the FASTA sequence must match the length of the GBFF sequence.", file=sys.stderr)
+        sys.exit(1)
+    altered_record = alter_gbff(gbff_record, fasta_record)
+    write_gbff([altered_record], output_file)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Given a GenBank flat file (GBFF) with viral genome sequences, "
@@ -77,17 +87,7 @@ def main():
     parser.add_argument("--fasta", required=True, help="FASTA file with one sequence to use for alteration")
     parser.add_argument("--output", required=True, help="Output GenBank flat file")
     args = parser.parse_args()
-    fasta_record = read_fasta_one_sequence(args.fasta)
-    gbff_record = read_gbff_accession(args.gbff, args.accession)
-    if len(gbff_record.seq) != len(fasta_record.seq):
-        print("Error: The length of the FASTA sequence must match the length of the GBFF sequence.", file=sys.stderr)
-        sys.exit(1)
-
-    # *** TODO: remove this line after testing:
-    write_gbff([gbff_record], args.gbff + ".rewrite.gbff")
-
-    altered_record = alter_gbff(gbff_record, fasta_record)
-    write_gbff([altered_record], args.output)
+    alter_gbff_file(args.gbff, args.accession, args.fasta, args.output)
 
 
 if __name__ == "__main__":
