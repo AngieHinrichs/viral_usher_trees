@@ -52,7 +52,7 @@ def get_dates(metadata_file: str, key_column: str = None):
         name_ix = columns.index(key_column)
         try:
             date_ix = columns.index('date')
-        except ValueError as e:
+        except ValueError:
             print(f"Error: metadata file {metadata_file} does not have a 'date' column", file=sys.stderr)
             sys.exit(1)
         for line in f:
@@ -70,67 +70,110 @@ def get_dates(metadata_file: str, key_column: str = None):
     return pd.DataFrame(dates)
 
 
-def plot_distance_vs_date(df_distance, df_date, title="Distance vs Date"):
-    """Plot distance vs date with regression line and r-squared."""
+def merge_dataframes(df_distance, df_date):
+    """Merge df_distance and df_date on name, drop items where distance or date is missing, sort by date."""
     # Merge the dataframes
     df = pd.merge(df_distance, df_date, on='name', how='inner')
-   
-    # Remove rows where either distance or date is missing
     df = df.dropna(subset=['distance', 'date'])
-
     df = df.sort_values('date')
-    
-    # Convert to numeric for regression
-    date_numeric = (df['date'] - df['date'].min()).dt.days
-    
-    # Calculate regression
-    print("Running stats.linregress on merged dataframe...")
-    slope, intercept, r_value, p_value, std_err = stats.linregress(date_numeric, df['distance'])
-    regression_line = slope * date_numeric + intercept
-    print(f"slope={slope:.6f}, R^2={r_value**2:.6f}, intercept={intercept:.3f}, std_err={std_err:.6f}")
-    
-    # Create plot
-    print("Plotting results...")
-    fig, ax = plt.subplots(figsize=(10, 6))
-    ax.scatter(df['date'], df['distance'], alpha=0.6, s=50, label='Distance')
-    ax.plot(df['date'], regression_line, 'r-', linewidth=2, 
-            label=f'Regression line (R² = {r_value**2:.3f})')
-    
-    ax.set_xlabel('Date')
-    ax.set_ylabel('Distance')
-    ax.set_title(title)
-    ax.legend()
-    ax.grid(True, alpha=0.3)
-    plt.xticks(rotation=45)
+    return df
+
+
+def plot_distance_vs_date(tree_data: list, overall_title: str):
+    """Make a stack of three plots: distance vs date with regression line and r-squared.
+    tree_data is [ {df:..., title:...}, ... ] but if df is None leave a blank space (no data for that tree)"""
+    fig, axes = plt.subplots(3, 1, figsize=(10, 12))
+    summary = []
+    for idx, tree_info in enumerate(tree_data):
+        df = tree_info['df']
+        title = tree_info['title']
+        ax = axes[idx]
+        if df is None:
+            ax.text(0.5, 0.5, 'No tree',
+                    ha='center', va='center', transform=ax.transAxes)
+            ax.set_title(title)
+            continue
+        if len(df) < 2:
+            ax.text(0.5, 0.5, 'Insufficient data for regression',
+                    ha='center', va='center', transform=ax.transAxes)
+            ax.set_title(title)
+            continue
+        # Convert to numeric for regression
+        date_numeric = (df['date'] - df['date'].min()).dt.days
+        # Calculate regression
+        slope, intercept, r_value, p_value, std_err = stats.linregress(date_numeric, df['distance'])
+        summary.append([title, f"{r_value**2:.6f}", f"{slope:.6f}", f"{intercept:.3f}", f"{std_err:.6f}"])
+        regression_line = slope * date_numeric + intercept
+        # Create plot
+        ax.scatter(df['date'], df['distance'], alpha=0.6, s=50, label='Sample')
+        ax.plot(df['date'], regression_line, 'r-', linewidth=2,
+                label=f'Regression line (R² = {r_value**2:.3f})')
+        ax.set_xlabel('Date')
+        ax.set_ylabel('Distance')
+        ax.set_title(title)
+        ax.legend()
+        ax.grid(True, alpha=0.3)
+        plt.xticks(rotation=45)
+    fig.suptitle(overall_title, fontsize=14, y=0.995)
     plt.tight_layout()
-    
-    return fig, ax
+    return fig, axes, summary
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Plot root-to-tip distances vs. date for an UShER tree with metadata")
-    parser.add_argument("-i", "--input_tree", required=True,
-                        help="Input UShER protobuf tree file")
+    parser = argparse.ArgumentParser(description="Plot root-to-tip distances vs. date for up to three UShER trees with metadata")
     parser.add_argument("-m", "--metadata", required=True,
-                        help="TSV metadata file for tree")
-    parser.add_argument("-k", "--key_column",
-                        help="Column of metadata that contains names found in tree")
+                        help="TSV metadata file for all three trees")
+    parser.add_argument("-a", "--input_tree_a", required=True,
+                        help="Input UShER protobuf tree file A (first of three)")
+    parser.add_argument("-A", "--key_column_a",
+                        help="Column of metadata that contains names found in tree A")
+    parser.add_argument("--title_a",
+                        help="Title for plot A (first of three)")
+    parser.add_argument("-b", "--input_tree_b",
+                        help="Input UShER protobuf tree file B (second of three)")
+    parser.add_argument("-B", "--key_column_b",
+                        help="Column of metadata that contains names found in tree B")
+    parser.add_argument("--title_b",
+                        help="Title for plot B (second of three)")
+    parser.add_argument("-c", "--input_tree_c",
+                        help="Input UShER protobuf tree file C (third of three)")
+    parser.add_argument("-C", "--key_column_c",
+                        help="Column of metadata that contains names found in tree C")
+    parser.add_argument("--title_c",
+                        help="Title for plot C (third of three)")
     parser.add_argument("-t", "--title",
-                        help="Title for the plot")
+                        help="Overall title for stacked plots")
     parser.add_argument("-o", "--output_base", required=True,
-                        help="Output file base name for .pdf and .png plots")
+                        help="Output file base name for .pdf and .png plots and .tsv regression stats")
     args = parser.parse_args()
-    print(f"Calculating root-to-tip distances from {args.input_tree}...")
-    rtt = get_rtt(args.input_tree)
-    print(f"Reading dates from {args.metadata}...")
-    dates = get_dates(args.metadata, args.key_column)
-    print("Plotting distance vs date...")
-    fig, ax = plot_distance_vs_date(rtt, dates, args.title)
-    
-    print("Saving output and displaying plot")
+    rtt_a = get_rtt(args.input_tree_a)
+    dates_a = get_dates(args.metadata, args.key_column_a)
+    df_a = merge_dataframes(rtt_a, dates_a)
+    if args.input_tree_b:
+        rtt_b = get_rtt(args.input_tree_b)
+        dates_b = get_dates(args.metadata, args.key_column_b)
+        df_b = merge_dataframes(rtt_b, dates_b)
+    else:
+        df_b = None
+    if args.input_tree_c:
+        rtt_c = get_rtt(args.input_tree_c)
+        dates_c = get_dates(args.metadata, args.key_column_c)
+        df_c = merge_dataframes(rtt_c, dates_c)
+    else:
+        df_c = None
+    tree_data = [{'df': df_a, 'title': args.title_a if args.title_a else "A"},
+                 {'df': df_b, 'title': args.title_b if args.title_b else "B"},
+                 {'df': df_c, 'title': args.title_c if args.title_c else "C"}]
+    fig, axes, summary = plot_distance_vs_date(tree_data, args.title)
+
     fig.savefig(f'{args.output_base}.pdf', dpi=300, bbox_inches='tight')
     fig.savefig(f'{args.output_base}.png', dpi=300, bbox_inches='tight')
-    
+
+    with open(f"{args.output_base}.tsv", 'w') as f:
+        f.write("\t".join(["method", "r_squared", "slope", "intercept", "std_err"]) + "\n")
+        for row in summary:
+            f.write("\t".join(row) + "\n")
+
 
 if __name__ == "__main__":
     main()
