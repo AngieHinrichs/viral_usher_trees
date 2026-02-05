@@ -94,8 +94,8 @@ def find_tree_midpoint(input_tree_file: str, include_leaves: bool):
     farthest_from_root = longest_path_root[-1]
     max_distance, longest_path = find_farthest_from_node(farthest_from_root, include_leaves)
     if max_distance < max_distance_root:
-        print(f"Error: max_distance {max_distance} is less than max distance from root {max_distance_root}", file=sys.stderr)
-        sys.exit(1)
+        print(f"Note: max_distance {max_distance} skipping root-child is less than max distance from root {max_distance_root}; using max from root")
+        longest_path = longest_path_root
     return find_path_midpoint(longest_path).id
 
 
