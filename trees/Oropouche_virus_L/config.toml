@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_005776.1, taxonomy ID 3052429
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_005776.1'
-refseq_assembly = 'GCF_000853785.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_005776.1'
+#refseq_assembly = 'GCF_000853785.1'
+ref_fasta = './trees/Oropouche_virus_L/treetime_rerooted_NC_005776.1.fa'
+ref_gbff = './trees/Oropouche_virus_L/treetime_rerooted_NC_005776.1.gbff'
 taxonomy_id = '3052429'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

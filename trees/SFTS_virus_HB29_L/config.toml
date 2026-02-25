@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_018136.1, taxonomy ID 2748958
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_018136.1'
-refseq_assembly = 'GCF_000897355.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_018136.1'
+#refseq_assembly = 'GCF_000897355.1'
+ref_fasta = './trees/SFTS_virus_HB29_L/treetime_rerooted_NC_018136.1.fa'
+ref_gbff = './trees/SFTS_virus_HB29_L/treetime_rerooted_NC_018136.1.gbff'
 taxonomy_id = '2748958'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

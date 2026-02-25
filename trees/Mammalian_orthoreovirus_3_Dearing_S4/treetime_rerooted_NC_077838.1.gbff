@@ -1,0 +1,85 @@
+LOCUS       rerooted_NC_077838.1      1196 bp    ds-RNA  linear   VRL 06-MAY-2023
+DEFINITION  rerooted_NC_077838.1.
+ACCESSION   rerooted_NC_077838.1
+VERSION     rerooted_NC_077838.1
+KEYWORDS    RefSeq.
+SOURCE      Mammalian orthoreovirus 3 Dearing
+  ORGANISM  Mammalian orthoreovirus 3 Dearing
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus mammalis.
+REFERENCE   1  (bases 1 to 1196)
+  AUTHORS   Hosseini,M., Brown,E.G. and Bell,J.C.
+  TITLE     Genetic Modulation and Characterization of the Oncolytic Properties
+            of Reoviruses
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1196)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1196)
+  AUTHORS   Hosseini,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Centre for Cancer Therapeutics, Ottawa
+            Health Research Institute, 501 Smyth Road, Ottawa, ON K1H 8L6,
+            Canada
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HM159622.
+            GenBank Accession Numbers HM159613-HM159622 represent the complete
+            genome of Mammalian orthoreovirus 3 Dearing strain T3D.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1196
+                     /organism="Mammalian orthoreovirus 3 Dearing"
+                     /mol_type="genomic RNA"
+                     /strain="T3D"
+                     /serotype="3"
+                     /isolate="Dearing"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10886"
+                     /segment="S4"
+                     /geo_loc_name="USA"
+                     /collection_date="Jan-2002"
+                     /collected_by="Bernard N. Fields"
+     gene            33..1130
+                     /gene="S4"
+                     /locus_tag="QK524_sS4gp1"
+                     /db_xref="GeneID:80549140"
+     CDS             33..1130
+                     /gene="S4"
+                     /locus_tag="QK524_sS4gp1"
+                     /note="outer capsid protein"
+                     /codon_start=1
+                     /product="sigma-3 protein"
+                     /protein_id="YP_010839450.1"
+                     /db_xref="GeneID:80549140"
+                     /translation="MEVCLPNGHQIVDLINNAFEGRVSIYRAQEGWDKTISAQPDMMVC
+                     GGAVVCMHCLGVVGSLQRKLKHLPHHRCNQQLRQQDYVDVQFADRVTAHWKRGMLSFVS
+                     QMHAMMNDVTPEELERVRTEGGSLVELNWLQVDPGSMFRSIHSSWTDPLQVVEDLDTQL
+                     DRYWTALNLMIDSSDLVPNFMMRDPSHAFNGVKLEGDARQTQFSRTFDSRSSLEWGVMV
+                     YDYSELESDPLKGRAYRKELVTPARDFGHFGLSHYSRATTPILGKMPAVFSGMLTGNCK
+                     MYPFIKGTAKLKTVQKLVDAVNHTWGVEKIRYAIGPGGMTGWYNRTMQQAPIVLTPAAL
+                     TMFPDTTKFGDLKYPVMIGDPMILG*"
+ORIGIN
+        1 gctatttttg cctcttccta gacgttgtcg caatggaggt gtgcttgcca aacggtcatc
+       61 agatcgtgga cttgatcaat aacgcatttg aaggtcgggt atcaatctac agagcacagg
+      121 aaggatggga caaaacaatc tcagcacagc cagacatgat ggtgtgtggt ggcgccgtcg
+      181 tctgcatgca ttgtctaggt gtagttggat ctctgcagcg caagctgaag catttgcctc
+      241 atcatagatg caatcaacag ttgcgacagc aggattatgt tgatgtgcag tttgctgatc
+      301 gtgttactgc tcactggaag cgtggtatgc tgtcatttgt ctctcaaatg catgctatga
+      361 tgaatgatgt gacaccagag gagctggagc gtgtgagaac tgaaggaggc tcactggttg
+      421 agttgaattg gcttcaggtc gatccaggct caatgtttag atcaatacac tccagttgga
+      481 ctgatcctct acaagtggtg gaagacctcg atacccaact agatcggtat tggacggcct
+      541 tgaatctgat gattgattca tccgacttgg taccgaactt tatgatgcga gatccatcac
+      601 atgcttttaa tggtgtgaag ttggagggtg acgctagaca gactcagttc tcgcggactt
+      661 tcgattcaag atcgagcttg gagtggggtg tgatggttta tgattattct gaactcgaga
+      721 gtgatccatt aaaaggccga gcttatagaa aggagctggt taccccagct cgagattttg
+      781 gacactttgg actgtcgcat tattctcgcg caactacgcc aattcttggc aagatgccag
+      841 ctgtgttttc tgggatgctg actggaaact gtaaaatgta tccattcata aagggaactg
+      901 cgaagttgaa aacagtgcag aagttagtgg atgctgtgaa ccatacttgg ggcgttgaga
+      961 agatcaggta tgcgattgga ccaggtggca tgacgggatg gtataacaga actatgcagc
+     1021 aggccccaat cgtgctgact cctgcggctc tgacgatgtt tccagacact accaaatttg
+     1081 gcgatttaaa gtatccagtg atgataggcg atccgatgat ccttggctaa acgcctccat
+     1141 cttcacagcg ccgggcctga ccaacctggt gtgacgtggg acaggcatca ttcatc
+//

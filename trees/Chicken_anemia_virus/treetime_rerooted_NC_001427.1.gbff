@@ -1,0 +1,149 @@
+LOCUS       rerooted_NC_001427.1      2319 bp    ss-DNA  circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001427.1.
+ACCESSION   rerooted_NC_001427.1
+VERSION     rerooted_NC_001427.1
+KEYWORDS    RefSeq.
+SOURCE      Chicken anemia virus
+  ORGANISM  Chicken anemia virus
+            Viruses; Monodnaviria; Shotokuvirae; Commensaviricota;
+            Cardeaviricetes; Sanitavirales; Anelloviridae; Gyrovirus; Gyrovirus
+            chickenanemia.
+REFERENCE   1  (bases 1 to 2319)
+  AUTHORS   Noteborn,M.H.M., de Boer,G.F., Roozelaar,D.J., Karreman,C.,
+            Kranenburg,O., Vos,J.G., Jeurissen,S.H.M., Hoeben,R.C., Zantema,A.,
+            Koch,G., van Ormondt,H. and van der Eb,A.J.
+  TITLE     Characterization of cloned chicken anemia virus DNA that contains
+            all elements for the infectious replication cycle
+  JOURNAL   J. Virol. 65 (6), 3131-3139 (1991)
+   PUBMED   1851873
+REFERENCE   2  (bases 1 to 2319)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from M55918.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2319
+                     /organism="Chicken anemia virus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:12618"
+     gene            57..332
+                     /locus_tag="CAVgp1"
+                     /db_xref="GeneID:1724885"
+     CDS             57..332
+                     /locus_tag="CAVgp1"
+                     /note="Predicted by GeneMark"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_595041.1"
+                     /db_xref="GeneID:1724885"
+                     /translation="MDESLDFARDSSKAGGRRPPGGPPPTSGACTGGYVIRTGGYVIRT
+                     GGYVTKRRSRTGGYVTRTGGYVTANQKLPRCESDVSKMGGASLSIY*"
+     gene            144..2292
+                     /gene="Cux-1"
+                     /locus_tag="CAVgp2"
+                     /db_xref="GeneID:1494446"
+     repeat_region   144..260
+                     /locus_tag="CAVgp1"
+                     /note="21-bp repeats with ATF sites"
+                     /rpt_unit_range=144..164
+                     /rpt_unit_range=165..185
+                     /rpt_unit_range=186..206
+                     /rpt_unit_range=219..239
+                     /rpt_unit_range=240..260
+     regulatory      261..266
+                     /regulatory_class="CAAT_signal"
+                     /locus_tag="CAVgp1"
+     regulatory      305..310
+                     /regulatory_class="promoter"
+                     /locus_tag="CAVgp1"
+                     /note="SP1 box"
+     regulatory      323..328
+                     /regulatory_class="TATA_box"
+                     /locus_tag="CAVgp1"
+     CDS             380..1030
+                     /gene="Cux-1"
+                     /locus_tag="CAVgp2"
+                     /note="ORF1"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_056773.1"
+                     /db_xref="GeneID:1494446"
+                     /translation="MHGNGGQPAAGGSESALSREGQPGPSGAAQGQVISNERSPRRYST
+                     RTINGVQATNKFTAVGNPSLQRDPDWYRWNYNHSIAVWLRECSRSHAKICNCGQFRKHW
+                     FQECAGLEDRSTQASLEEAILRPLRVQGKRAKRKLDYHYSQPTPNRKKVYKTVRWQDEL
+                     ADREADFTPSEEDGGTTSSDFDEDINFDIGGDSGIVDELLGRPFTTPAPVRIV*"
+     CDS             486..851
+                     /gene="Cux-1"
+                     /locus_tag="CAVgp2"
+                     /note="ORF2"
+                     /codon_start=1
+                     /product="APOPTIN"
+                     /protein_id="NP_056774.1"
+                     /db_xref="GeneID:1494446"
+                     /translation="MNALQEDTPPGPSTVFRPPTSSRPLETPHCREIRIGIAGITITLS
+                     LCGCANARAPTLRSATADNSESTGFKNVPDLRTDQPKPPSKKRSCDPSEYRVSELKESL
+                     ITTTPSRPRTARRCIRL*"
+     CDS             853..2202
+                     /gene="Cux-1"
+                     /locus_tag="CAVgp2"
+                     /note="ORF3"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="NP_056775.1"
+                     /db_xref="GeneID:1494446"
+                     /translation="MARRARRPRGRFYAFRRGRWHHLKRLRRRYKFRHRRRQRYRRRAF
+                     RKAFHNPRPGTYSVRLPNPQSTMTIRFQGVIFLTEGLILPKNSTAGGYADHMYGARVAK
+                     ISVNLKEFLLASMNLTYVSKIGGPIAGELIADGSQSQAAQNWPNCWLPLDNNVPSATPS
+                     AWWRWALMMMQPTDSCRFFNHPKQMTLQDMGRMFGGWHLFRHIETRFQLLATKNEGSFS
+                     PVASLLSQGEYLTRRDDVKYSSDHQNRWRKGEQPMTGGIAYATGKMRPDEQQYPAMPPD
+                     PPIITTTTAQGTQVRCMNSTQAWWSWDTYMSFATLTALGAQWSFPPGQRSVSRRSFNHH
+                     KARGAGDPKGQRWHTLVPLGTETITDSYMSAPASELDTNFFTLYVAQGTNKSQQYKFGT
+                     ATYALKEPVMKSDAWAVVRVQSVWQLGNRQRPYPWDVNWANSTMYWGTQP*"
+     regulatory      2287..2292
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="Cux-1"
+                     /locus_tag="CAVgp2"
+ORIGIN
+        1 gcattccgag tggttactat tccatcacca ttctagcctg tacacagaaa gtcaagatgg
+       61 acgaatcgct cgacttcgct cgcgattcgt cgaaggcggg gggccggagg ccccccggtg
+      121 gcccccctcc aacgagtgga gcatgtacag gggggtacgt catccgtaca ggggggtacg
+      181 tcatccgtac aggggggtac gtcacaaaga ggcgttcccg tacagggggg tacgtcacgc
+      241 gtacaggggg gtacgtcaca gccaatcaga agctgccacg ttgcgaaagt gacgtttcga
+      301 aaatgggcgg cgcaagcctc tctatatatt gagcgcacat accggtcggc agtaggtata
+      361 cgcaaggcgg tccgggtgga tgcacgggaa cggcggacaa ccggccgctg ggggcagtga
+      421 atcggcgctt agccgagagg ggcaacctgg gcccagcgga gccgcgcagg ggcaagtaat
+      481 ttcaaatgaa cgctctccaa gaagatactc cacccggacc atcaacggtg ttcaggccac
+      541 caacaagttc acggccgttg gaaacccctc actgcagaga gatccggatt ggtatcgctg
+      601 gaattacaat cactctatcg ctgtgtggct gcgcgaatgc tcgcgctccc acgctaagat
+      661 ctgcaactgc ggacaattca gaaagcactg gtttcaagaa tgtgccggac ttgaggaccg
+      721 atcaacccaa gcctccctcg aagaagcgat cctgcgaccc ctccgagtac agggtaagcg
+      781 agctaaaaga aagcttgatt accactactc ccagccgacc ccgaaccgca agaaggtgta
+      841 taagactgta agatggcaag acgagctcgc agaccgagag gccgatttta cgccttcaga
+      901 agaggacggt ggcaccacct caagcgactt cgacgaagat ataaatttcg acatcggagg
+      961 agacagcggt atcgtagacg agcttttagg aaggcctttc acaacccccg ccccggtacg
+     1021 tatagtgtga ggctgccgaa cccccaatct acgatgacta tccgcttcca aggagtcatc
+     1081 tttctcacgg aaggactcat tctgcctaaa aacagcacag cggggggcta tgcagaccac
+     1141 atgtacgggg cgagagtcgc caagatctct gtgaacctga aagagttcct gctagcgtca
+     1201 atgaacctga catacgtgag caaaatagga ggccccatcg ccggtgagtt gattgcggac
+     1261 gggtctcaat cacaagccgc gcagaattgg cctaattgct ggctgccgct agataataac
+     1321 gtgccctccg ctacaccatc ggcatggtgg agatgggcct taatgatgat gcagcccacg
+     1381 gactcttgcc ggttctttaa tcaccctaaa cagatgaccc tgcaagacat gggtcgcatg
+     1441 tttgggggct ggcacctgtt ccgacacatt gaaacccgct ttcagctcct tgccactaag
+     1501 aatgagggat ccttcagccc cgtggcgagt cttctctccc agggagagta cctcacgcgt
+     1561 cgggacgatg ttaagtacag cagcgatcac cagaaccggt ggcgaaaagg cgagcaaccg
+     1621 atgacggggg gtattgctta tgcgaccggg aaaatgagac ccgacgagca acagtaccct
+     1681 gctatgcccc cagacccccc gatcatcacc actactacag cgcaaggcac gcaagtccgc
+     1741 tgcatgaata gcacgcaagc ttggtggtca tgggacacat atatgagctt tgcaacactc
+     1801 acagcactcg gtgcacaatg gtctttccct ccagggcaac gttcagtttc tagacgctcg
+     1861 ttcaaccacc acaaagcgag aggagccggg gaccccaagg gacagagatg gcacaccctt
+     1921 gtgccgctcg gcacagagac catcaccgac agctacatga gtgcaccggc atcagagctg
+     1981 gacactaact tctttacgct ttacgtagcg caaggcacaa ataagtcgca gcagtacaag
+     2041 ttcggcacag ctacatacgc gttaaaggag ccggtaatga agagcgatgc atgggcggtg
+     2101 gtacgcgtcc agtcggtgtg gcaactgggt aacaggcaga ggccataccc atgggacgtc
+     2161 aactgggcca acagcaccat gtactggggg acgcagccct gaaaaggggg gggggctaaa
+     2221 gccccccccc cttgaacccc cccctggggg ggattccccc ccagaccccc cctttatata
+     2281 gcactcaata aacgcagcaa atggctttat cgcacaatc
+//

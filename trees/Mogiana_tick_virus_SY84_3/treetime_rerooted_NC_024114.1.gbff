@@ -1,0 +1,120 @@
+LOCUS       rerooted_NC_024114.1      2824 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_024114.1.
+ACCESSION   rerooted_NC_024114.1
+VERSION     rerooted_NC_024114.1
+KEYWORDS    RefSeq.
+SOURCE      Jingmen tick virus
+  ORGANISM  Jingmen tick virus
+            Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes;
+            Amarillovirales; Flaviviridae; Jingmenvirus group.
+REFERENCE   1  (bases 1 to 2824)
+  AUTHORS   Qin,X.C., Shi,M., Tian,J.H., Lin,X.D., Gao,D.Y., He,J.R., Wang,J.B.,
+            Li,C.X., Kang,Y.J., Yu,B., Zhou,D.J., Xu,J., Plyusnin,A.,
+            Holmes,E.C. and Zhang,Y.Z.
+  TITLE     A tick-borne segmented RNA virus contains genome segments derived
+            from unsegmented viral ancestors
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 111 (18), 6744-6749 (2014)
+   PUBMED   24753611
+REFERENCE   2  (bases 1 to 2824)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAY-2014) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2824)
+  AUTHORS   Qin,X.-C., Shi,M., Tian,J.-H., Lin,X.-D., Gao,D.-Y., He,J.-R.,
+            Wang,J.-B., Li,C.-X., Kang,Y.-J., Yu,B., Zhou,D.-J., Xu,J.,
+            Plyusnin,A., Holmes,E.C. and Zhang,Y.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-2013) State Key Laboratory for Infectious Disease
+            Prevention and Control, National Institute for Communicable Disease
+            Control and Prevention, Chinese Center for Disease Control and
+            Prevention, Changping Liuzi 5, Beijing 102206, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ001581.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2824
+                     /organism="Jingmen tick virus"
+                     /mol_type="genomic RNA"
+                     /isolate="SY84"
+                     /host="Rhipicephalus microplus"
+                     /db_xref="taxon:1172985"
+                     /segment="3"
+                     /geo_loc_name="China"
+                     /collection_date="01-Jul-2010"
+     gene            117..2543
+                     /locus_tag="FB04_s3gp1"
+                     /db_xref="GeneID:19371826"
+     CDS             117..2543
+                     /locus_tag="FB04_s3gp1"
+                     /codon_start=1
+                     /product="NS3-like protein"
+                     /protein_id="YP_009030000.1"
+                     /db_xref="GeneID:19371826"
+                     /translation="MATPVVAALSCVLAAVDKGLAPNVGAKGLLAMAVASALAPELVLA
+                     AAWLSILKGNSPGRETNYTQRHFMELLPTIGWLSLEYAAPLDIVLNEEDTPHQEDRRLY
+                     EKALNLSYIGRTRNYLLTAIVVLTLASVFYSPSAGVLGAVVILTVSFLPRGDLGGRTLD
+                     DSAPVGEAEGIYRVFEHIGPWAFMKGVATVTGGSIVSSLHVTGDRAVWIEDRRYEPSVV
+                     QPSGDFIAWGRPPVIKPLKEDDEVVALALHPITDTVLPLRSRTARVQGNAIYRISRTSP
+                     GVSGSPLFVVDLDENGDRTFALAGTIGRSIRAGPYHQYEIQSHLPLPTTPYDTILRAGI
+                     VLQLFSHPGAGKTRAIPEYVRQLMTWSNKVYVAGPTRVVAREMLEALEGTRWVCAMVKG
+                     LPKPHALARVVVTTHQTLLRYALTSGLLASRDVSYVLDETHVDSAQTKVLRALVHQAVG
+                     KDKSKAACIEMTATGRDSTSGEIRVATDSNYHIEEHVYTTPVAQAVKQYADTYGPRRIA
+                     VFVPGLTGKNGALQVAKQVRQLTDYATVVLSRKTYEKNIKLVFRDYPRGLCIVTTSISE
+                     CGANYDLDAVFDTCQQYHYLVTASGTKGMITPSTQAQTCQRRGRVGRRKEGQYYRPANY
+                     DLLQAPPLDHPDSVTLLEANMCLRALGLPEEPCGRVVEEAMLKMQPSKDQVYRWLTEGD
+                     TETLTETMAMYNVEGGRRSREQERTVRNRMKTYFHDVRWERMEDQEETPQPRPGEYIWD
+                     EEGPEMIQGALYARAPPPHRIRVNEATYLRGTVIETLREEADRELRETVAEQREE*"
+ORIGIN
+        1 gttaaaaagc gccagctgag gctgcaagtg cataggcttt agaccacgcg ctagactcac
+       61 tttacagact agaagtgtaa acaaaaaaag aaacaagtga ttgttgagaa cttgacatgg
+      121 ctaccccagt ggtggcggcc ttgagctgcg tattggccgc agtggacaag ggactggctc
+      181 ccaacgttgg ggccaagggc ctcttggcta tggcggtagc atctgcgctg gcaccagaat
+      241 tggtgctggc tgctgcgtgg ctttccatac tgaaaggaaa ctcaccaggt cgggaaacga
+      301 actacacaca aagacatttc atggagctgc tgcccactat cggatggctg tccctggaat
+      361 acgcggctcc actggatatt gttctaaatg aagaagacac accacaccag gaggacagaa
+      421 gactatatga gaaggcactg aacctctcct acatagggag aaccagaaac tatctgctga
+      481 cagcgatagt ggtgttgaca ctggcgagcg tgttttatag cccgtccgcg ggcgttctgg
+      541 gggccgttgt tattttgacg gtgtctttcc tgccacgagg agacctgggg ggaagaacgt
+      601 tggatgacag cgcgccagtc ggagaggcag aggggatcta ccgggttttt gagcacatcg
+      661 gaccgtgggc cttcatgaaa ggcgtcgcca ctgtgacggg ggggagcatt gtgtcttcac
+      721 tccatgtcac aggggataga gcagtatgga ttgaggaccg caggtatgag cctagtgtag
+      781 ttcagccaag tggcgacttc atagcttggg ggaggccacc ggttataaaa cccctgaagg
+      841 aggatgatga ggtggtggct ctggcactac acccaatcac ggacacagtg ctgccactga
+      901 gatcgagaac agccagagtg cagggaaatg ctatctaccg cattagcaga acctcaccag
+      961 gagtgagcgg gtcaccgctc tttgtggtcg accttgatga gaatggagat cgcaccttcg
+     1021 cactagcagg gacaatagga agaagcatac gcgcaggacc ctaccatcaa tatgagattc
+     1081 aatcacatct gccgttgccc accacaccat atgacaccat actcagagca ggcatagtcc
+     1141 tccagctatt cagtcacccg ggggcgggaa agacccgcgc aataccggag tacgttaggc
+     1201 agctcatgac ctggtccaac aaggtctatg ttgccggccc gacccgggtg gttgctagag
+     1261 agatgctgga ggcgctggag ggcacccggt gggtgtgtgc catggtaaag gggctcccaa
+     1321 aaccccacgc cttggccaga gtagtcgtca caacacacca aaccctactc cgctacgcgc
+     1381 tcacctccgg gcttttggcc tcgcgagatg tttcatacgt gctggacgag acgcatgtcg
+     1441 actcagcgca gactaaggtt ctgcgagcac tggtacatca ggctgtgggg aaggacaaaa
+     1501 gcaaggcagc ttgcatagag atgaccgcca ccgggagaga ctccactagt ggagagataa
+     1561 gagtggcgac ggacagcaac taccacatcg aggagcacgt ctacaccaca cctgtggccc
+     1621 aggcagtcaa acagtatgct gacacatacg gaccgaggcg aattgcggtc ttcgtgccag
+     1681 gcctgacggg gaagaacgga gccttacagg tagctaagca ggtcaggcag ctcaccgact
+     1741 acgccacagt ggtcttgagc aggaagacgt atgaaaagaa catcaagctg gtcttcaggg
+     1801 actaccctag agggctgtgc atagtaacca cctccatcag tgaatgcgga gccaattatg
+     1861 acctggacgc agtttttgac acatgccaac aataccacta ccttgtcacg gcttcaggaa
+     1921 ccaaggggat gataaccccc tccacccaag cccagacctg ccaaaggaga ggcagggttg
+     1981 gaaggagaaa ggagggccag tactaccggc cagcaaacta tgatctgttg caagcccctc
+     2041 ccctggacca ccctgattcg gtcacgctgc tggaggccaa catgtgcctt agggcactgg
+     2101 ggctcccaga ggagccgtgt ggaagagttg ttgaggaggc aatgctgaaa atgcagccct
+     2161 ccaaagatca ggtgtacagg tggctgaccg agggagacac ggagactcta acagagacca
+     2221 tggcaatgta caacgttgaa ggcggaagaa gaagccgtga gcaggagaga acagttcgaa
+     2281 acaggatgaa aacctatttc catgacgtta gatgggagag aatggaagat caagaagaga
+     2341 caccacaacc aagaccagga gaatacattt gggatgaaga gggccctgag atgatacaag
+     2401 gagcattgta tgctagggcc ccaccacctc acagaatacg agtaaacgag gccacctacc
+     2461 tcaggggcac agtcatagag actctgagag aggaggcgga cagagagctg agggagacgg
+     2521 tggctgagca gcgggaggaa taggccgcgc tcacgtagcc acatggacac gacccggact
+     2581 gtcacacgga acaagggaca aggatcacaa gtttaagaca aacactggcg ccctagcaat
+     2641 gactaggttg cggctagcgc caccgcaaac aaaaaaatag aaaaaatgga acacaaaagt
+     2701 ctgtagttga agcgaccagc aacaatgggc ggcaagtgcc aaagggccgc caagtggggg
+     2761 cctggcccag ccggtcgcta gtctacaaaa aacaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     2821 aaaa
+//

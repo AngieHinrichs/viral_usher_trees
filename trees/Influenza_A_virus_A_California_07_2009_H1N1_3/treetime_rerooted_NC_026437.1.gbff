@@ -1,0 +1,160 @@
+LOCUS       rerooted_NC_026437.1      2151 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_026437.1.
+ACCESSION   rerooted_NC_026437.1
+VERSION     rerooted_NC_026437.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/California/07/2009(H1N1))
+  ORGANISM  Influenza A virus (A/California/07/2009(H1N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 2151)
+  AUTHORS   Garten,R.J., Davis,C.T., Russell,C.A., Shu,B., Lindstrom,S.,
+            Balish,A., Sessions,W.M., Xu,X., Skepner,E., Deyde,V.,
+            Okomo-Adhiambo,M., Gubareva,L., Barnes,J., Smith,C.B., Emery,S.L.,
+            Hillman,M.J., Rivailler,P., Smagala,J., de Graaf,M., Burke,D.F.,
+            Fouchier,R.A., Pappas,C., Alpuche-Aranda,C.M., Lopez-Gatell,H.,
+            Olivera,H., Lopez,I., Myers,C.A., Faix,D., Blair,P.J., Yu,C.,
+            Keene,K.M., Dotson,P.D. Jr., Boxrud,D., Sambol,A.R., Abid,S.H., St
+            George,K., Bannerman,T., Moore,A.L., Stringer,D.J., Blevins,P.,
+            Demmler-Harrison,G.J., Ginsberg,M., Kriner,P., Waterman,S.,
+            Smole,S., Guevara,H.F., Belongia,E.A., Clark,P.A., Beatrice,S.T.,
+            Donis,R., Katz,J., Finelli,L., Bridges,C.B., Shaw,M., Jernigan,D.B.,
+            Uyeki,T.M., Smith,D.J., Klimov,A.I. and Cox,N.J.
+  TITLE     Antigenic and genetic characteristics of swine-origin 2009 A(H1N1)
+            influenza viruses circulating in humans
+  JOURNAL   Science 325 (5937), 197-201 (2009)
+   PUBMED   19465683
+REFERENCE   2  (bases 1 to 2151)
+  AUTHORS   Shu,B., Balish,A., Garten,R., Smith,C., Emery,S., Barnes,J.,
+            Deyde,V., Klimov,A. and Cox,N.
+  TITLE     Human infection with novel swine H1N1 influenza
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2151)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-FEB-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 2151)
+  AUTHORS   Shu,B., Balish,A., Garten,R., Smith,C., Emery,S., Barnes,J.,
+            Deyde,V., Klimov,A. and Cox,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-APR-2009) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, Atlanta, 1600 Clifton Road,
+            N.E., Atlanta, GA 30333, USA
+COMMENT     ##EpifluData-START##
+            Isolate                :: A/California/07/2009
+            Subtype                :: H1N1
+            Segment_name           :: PA
+            Host_gender            :: M
+            Host_age               :: 54
+            Passage_history        :: E2
+            Adamantane_resistance  :: resistant
+            Zanamivir_resistance   :: sensitive
+            Oseltamivir_resistance :: sensitive
+            Country                :: USA
+            State/Province         :: California state
+            Collection_day         :: 9
+            Collection_month       :: 4
+            Collection_year        :: 2009
+            EPI_accession          :: EPI176621
+            ##EpifluData-END##
+            REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to FJ969539.
+            Swine influenza A (H1N1) virus isolated during human swine flu
+            outbreak of 2009.  For more information, see http://www.cdc.gov/.
+            Some of the information does not have GenBank feature identifiers
+            and is being provided in the comment section.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2151
+                     /organism="Influenza A virus (A/California/07/2009(H1N1))"
+                     /mol_type="viral cRNA"
+                     /strain="A/California/07/2009"
+                     /serotype="H1N1"
+                     /host="Homo sapiens; gender M; age 54"
+                     /db_xref="taxon:641809"
+                     /segment="3"
+                     /geo_loc_name="USA: California state"
+                     /collection_date="09-Apr-2009"
+     gene            1..2151
+                     /gene="PA"
+                     /locus_tag="UJ99_s3gp1"
+                     /db_xref="GeneID:23308128"
+     CDS             1..2151
+                     /gene="PA"
+                     /locus_tag="UJ99_s3gp1"
+                     /codon_start=1
+                     /product="polymerase PA"
+                     /protein_id="YP_009118630.1"
+                     /db_xref="GeneID:23308128"
+                     /translation="MEDFVRQCFNPMIVELAXKAMKEYGEDLKIETNKFAAICTHLEVC
+                     FMYSDFHFINEQGESIIVELGDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGAEKPK
+                     FLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSEKTHIHIFSFTGEEMATKADYTL
+                     DEESRARIKTRLFTIRQEMASRGLWDSFRQSERGEETIEERFEITGTMRRLADQSLPPN
+                     FSSLENFRAYVDGFEPNGCIEGKLSQMSKEVNARIEPFLKTTPRPLKLPDGPPCSQRSK
+                     FLLMDALKLSIEDPSHEGEGIPLYDAIKCMKTFFGWKEPNVIKPHEKGINPNYLLAWKQ
+                     VLAELQDLENEEKIPKTKNMKKTSQLKWALGENMAPEKVDFEDCKDVGDLKQYDSDEPE
+                     PRSLASWIQSEFNKACELTDSSWIELDEIGEDVAPIEHIASMRRNYFTAEVSHCRATEY
+                     IMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGRSHLRNDTDV
+                     VNFVSMEFSLTDPRLEPHKWEKYCVLEIGDMLLRTAIGQVSRPMFLYVRTNGTSKIKMK
+                     WGMEMRRCLLQSLQQIESMIEAESSVKEKDMTKEFFENKSETWPIGESPRGVEEGSIGK
+                     VCRTLLAKSVFNSLYASPQLEGFSAESRKLLLIVQALRDNLEPGTFDLGGLYEAIEECL
+                     INDPWVLLNASWFNSFLTHALK*"
+     gene            1..700
+                     /gene="PA-X"
+                     /locus_tag="UJ99_s3gp2"
+                     /db_xref="GeneID:23561398"
+     CDS             join(1..570,572..700)
+                     /gene="PA-X"
+                     /locus_tag="UJ99_s3gp2"
+                     /ribosomal_slippage=""
+                     /codon_start=1
+                     /product="PA-X protein"
+                     /protein_id="YP_009121769.1"
+                     /db_xref="GeneID:23561398"
+                     /translation="MEDFVRQCFNPMIVELAXKAMKEYGEDPKIETNKFAAICTHLEVC
+                     FMYSDFHFIDERGESIIVESGDPNALLKHRFEIIEGRDRIMAWTVVNSICNTTGVEKPK
+                     FLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSEKTHIHIFSFTGEEMATKADYTL
+                     DEESRARIKTRLFTIRQEMASRSLWDSFVSPKEAKRQLKKNLRLQELCASLPTKVSHRT
+                     SPALKTLEPM"
+ORIGIN
+        1 atggaagact ttgtgcgaca atgcttcaat ccaatgatcg tcgagcttgc ggraaaagca
+       61 atgaaagagt atggggagga cctgaaaatc gaaacaaaca aattcgctgc aatatgcact
+      121 catttggaag tctgtttcat gtattcagat ttccatttca tcaatgaaca aggcgagtca
+      181 ataatcgtag aacttggtga tccaaatgca cttttgaagc acagatttga aataatcgag
+      241 ggaagagatc gcacaatggc ctggacagta gtaaacagta tttgcaacac tacaggggct
+      301 gagaaaccaa agtttctacc agatttgtat gattacaagg agaatagatt catcgaaatt
+      361 ggagtaacaa ggagagaagt tcacatatac tatctggaaa aggccaataa aattaaatct
+      421 gagaagacac acatccacat tttctcgttc actggggaag aaatggccac aaaggcagac
+      481 tacactctcg atgaagaaag cagggctagg atcaaaacca gactattcac cataagacaa
+      541 gaaatggcca gcagaggcct ctgggattcc tttcgtcagt ccgagagagg agaagagaca
+      601 attgaagaaa gatttgaaat cacaggaacc atgcgcaggc ttgccgacca aagtctccca
+      661 ccgaacttct ccagccttga aaactttaga gcctatgtgg atggattcga accgaacggc
+      721 tgcattgagg gcaagctttc tcaaatgtcc aaagaagtga acgccagaat tgaaccattt
+      781 ttgaagacaa caccacgccc tctcaaattg cctgatgggc ccccctgctc tcagcggtca
+      841 aaattcctgc tgatggatgc tttgaaatta agcattgaag acccaagtca tgagggagag
+      901 gggataccac tgtacgatgc aatcaaatgc atgaagacat ttttcggctg gaaagagccc
+      961 aatgtaatca aaccacatga aaagggcata aatcctaact atctcctggc ttggaagcaa
+     1021 gtgctagcag aactccagga ccttgaaaat gaggagaaaa tcccaaagac gaagaacatg
+     1081 aagaaaacaa gtcaattaaa gtgggcactt ggtgagaaca tggcaccgga aaaagtggac
+     1141 tttgaggact gcaaggatgt tggcgatcta aaacagtatg atagcgatga gccagagcct
+     1201 agatcgctag caagttggat ccagagtgaa ttcaacaagg catgtgaatt gactgactca
+     1261 agctggatag aactggatga aataggggaa gatgttgctc caattgaaca cattgcaagc
+     1321 atgaggagga attatttcac agcagaagtg tctcactgca gagccacaga atacataatg
+     1381 aaaggagtct acataaatac agctctgctc aatgcatctt gcgcggccat ggatgacttc
+     1441 cagctgattc caatgataag caaatgcagg accaaagaag gaagacggaa aacaaaccta
+     1501 tatgggttca tcataaaagg aaggtctcat ttgaggaatg ataccgatgt agtgaatttt
+     1561 gtaagtatgg agttttctct cactgaccca agacttgaac cacacaaatg ggagaagtac
+     1621 tgtgttcttg aaataggaga tatgctcctg aggactgcaa taggccaagt atcaagaccc
+     1681 atgttcctgt atgttaggac caacgggacc tccaaaatca agatgaaatg gggtatggag
+     1741 atgaggcgtt gccttcttca gtctcttcaa cagattgaga gcatgattga ggccgagtcc
+     1801 tctgtcaaag agaaagacat gactaaagaa ttctttgaga acaaatcaga aacgtggcca
+     1861 attggagaat cccccagagg ggtagaggaa ggatccattg ggaaggtatg cagaaccctg
+     1921 ctggcaaaat ctgtgttcaa cagtctatac gcatccccac aacttgaagg attttcagca
+     1981 gaatcgagga aactgcttct cattgttcag gcacttaggg acaacctgga acctggaacc
+     2041 ttcgatcttg gagggctata tgaagcaatt gaggagtgcc tgattaatga tccctgggtt
+     2101 ttgcttaatg catcttggtt caactccttc ctcacacatg cactgaaata g
+//

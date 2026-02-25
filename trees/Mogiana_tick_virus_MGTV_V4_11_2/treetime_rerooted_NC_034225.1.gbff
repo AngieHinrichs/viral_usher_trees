@@ -1,0 +1,116 @@
+LOCUS       rerooted_NC_034225.1      2629 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_034225.1.
+ACCESSION   rerooted_NC_034225.1
+VERSION     rerooted_NC_034225.1
+KEYWORDS    RefSeq.
+SOURCE      Jingmen tick virus
+  ORGANISM  Jingmen tick virus
+            Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes;
+            Amarillovirales; Flaviviridae; Jingmenvirus group.
+REFERENCE   1  (bases 1 to 2629)
+  AUTHORS   Villa,E.C., Maruyama,S.R., Miranda-Santos,I.K.F., Palacios,G. and
+            Ladner,J.T.
+  TITLE     Coding Complete Genome for the Mogiana Tick virus, a Jingmenvirus
+            isolated from ticks in Brazil
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2629)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2629)
+  AUTHORS   Villa,E.C., Maruyama,S.R., Miranda-Santos,I.K.F., Palacios,G. and
+            Ladner,J.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2017) Center for Genome Sciences, United States
+            Army Medical Research Institute of Infectious Diseases(USAMRIID),
+            1425 Porter St., Ft. Detrick, MD 21702, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.7.1; Bowtie2 v. 2.0.6
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KY523073.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2629
+                     /organism="Jingmen tick virus"
+                     /mol_type="genomic RNA"
+                     /isolate="MGTV/V4/11"
+                     /host="Rhipicephalus microplus"
+                     /db_xref="taxon:1172985"
+                     /segment="2"
+                     /geo_loc_name="Brazil"
+                     /collection_date="2011"
+                     /note="Segment names and product descriptions are according
+                     to Qin et al. 2014 PNAS"
+     gene            51..2312
+                     /locus_tag="B5Z34_s2gp1"
+                     /db_xref="GeneID:31355533"
+     CDS             51..2312
+                     /locus_tag="B5Z34_s2gp1"
+                     /note="VP1"
+                     /codon_start=1
+                     /product="putative glycoprotein"
+                     /protein_id="YP_009351920.1"
+                     /db_xref="GeneID:31355533"
+                     /translation="TTPLPTPSTMLRTRSRQWSRSFWAVHPLTLSICLCLLLPGSSQET
+                     STSPSSAPSPLWDRLLGRTRRSSHSSPQSSFADKTAFFRAQLSHSRQLATSGSCRRWQL
+                     SSSVGSASEPGPLWDQALEWRFWVVPEYGVPYGKVVTGIKDIGPWPDYSGPAGVRFCED
+                     AKYALHMNTTFHCSDEKAYGWDCDERGITLSTYEYSLNVDRTRAIWKYSIYTRPVGLQL
+                     GNCTVNDRVYVGTMWGSHKEMYPLVEFDEDPLPDGSNRYNVRVLPNGLCQLMPNQYSSL
+                     ALKASEVQEPKVKYRAPFHVYDQLTPHGPSIGWFDQVWPDPYACIREGQCKSYPMSREP
+                     CYGDNDIQIRQTLGITRGGVKHRLTIRVTGRKGPCDPIIIADSDYHEVTRHHEGNTLVV
+                     VCDLPLHQTVVTVRAGDTWREHRVAKDVYQTIHEQQDDFGHIPPQWVAWLKNWFGGLTS
+                     GLVRAFGLLRRLVDVMVNNLPTVLVAIVLATPLGSALSPALRVFVIVLTYTVTRAKADE
+                     GSPDEDVLTVPVELFLHVAIAMFQGRDVANPVSLALTALSNLVPIPMPLVIFTMTHLLM
+                     VNRDWTLALAGALAHRGGLPGVALYHMVNSGRLRRWGQVLAKKAETEAVEQLPESHPWF
+                     DPPIRGLWQDLVGLQYHSQGYVASTLQAFLSASRAKRERKYRRVAFVRKGDIRSFKNFY
+                     LYPGEYHRLMPHLLAMSPSQRKAFRNNIPTILTRREGEYGPLLHGLKIAGYVGDLATRS
+                     *"
+ORIGIN
+        1 gaaaaaaaaa aatagagaaa gaaactgtca agacaaaaca agaatggcaa acgacaccat
+       61 tgccaacacc atcaacaatg ctgcggacaa gatccaggca atggtccaga agcttttggg
+      121 cggttcatcc tttaacactg tctatttgct tgtgcttgct gctgcctggt tcttcacagg
+      181 agacatctac atcaccatct tcagcgccat caccgctgtg ggaccggctg ctagggcgga
+      241 cgcggcgctc atcccactca tcgccgcaat catcattcgc cgacaaaacc gcattctttc
+      301 gcgcgcagct ctcgcactcg cggcagcttg ctacgtcggg ctcatgccgt cgctggcagc
+      361 ttagctcttc tgtgggatcg gcaagcgagc ctggccccct ctgggaccag gctctggagt
+      421 ggaggttctg ggtggtccct gagtatgggg tcccttacgg aaaagtggta accgggataa
+      481 aggacattgg gccttggccg gactactctg gccctgcggg ggtgcgcttc tgtgaggatg
+      541 ccaagtatgc cctacacatg aacactacat tccactgctc cgacgagaag gcctacggat
+      601 gggactgtga cgaaagagga atcaccctct ccacctatga gtacagtcta aacgttgaca
+      661 ggactagggc tatctggaag tactccatct acaccagacc tgtgggcctt cagctgggaa
+      721 attgcaccgt caatgacaga gtgtacgtgg gcaccatgtg gggcagccac aaggagatgt
+      781 accctctcgt ggaatttgat gaggacccac tgccggatgg cagcaacagg tacaacgtca
+      841 gggtgctgcc caacgggctc tgtcaattaa tgccaaacca gtattcctca ctcgctctca
+      901 aggcctctga ggtccaggaa cccaaggtga agtaccgagc accattccac gtctacgatc
+      961 agctaacacc tcacgggccc tccattggct ggtttgacca ggtctggccg gacccatacg
+     1021 cctgcataag ggaagggcag tgcaagagct accccatgag tagggagccc tgctacggag
+     1081 acaacgacat ccagataagg cagaccctgg gcattaccag gggaggggtg aagcataggc
+     1141 tcaccatcag agtcaccgga aggaagggcc cctgcgaccc aatcataata gccgacagcg
+     1201 actaccacga ggtcacccgt caccacgagg ggaacaccct ggtggtggtg tgcgacctgc
+     1261 ctctccatca gactgtggtc acggtcaggg cgggagacac ctggagggaa catagagttg
+     1321 caaaggatgt gtaccagacc atccatgaac agcaggacga cttcggtcac atcccgccgc
+     1381 aatgggtggc gtggttgaag aactggttcg ggggcctcac ctcaggattg gtccgtgcct
+     1441 ttggcctcct caggcgtctg gtggatgtca tggtgaacaa cctgcccacg gtcttggtgg
+     1501 ccatcgtgct ggccaccccc ctgggttcgg ctctgtctcc ggctctccgc gtgtttgtca
+     1561 tcgtcctcac atacactgtg accagggcta aggcagatga gggctctccc gatgaggacg
+     1621 tgctcaccgt cccagtggaa ctcttcctcc acgtggccat tgccatgttc cagggacgag
+     1681 acgtggccaa ccctgtctca ctggctctga cggccctctc caacctcgtg cccataccca
+     1741 tgcctctcgt gatcttcacc atgacccacc tcctcatggt aaacagagat tggaccctcg
+     1801 ccctggcggg ggccctggcc caccgggggg ggctgcccgg agtggcactc taccacatgg
+     1861 tcaacagtgg ccgcctccgc aggtggggcc aggtcctggc aaaaaaggct gagactgagg
+     1921 ctgtggagca gctcccagag agtcacccat ggtttgaccc acccatccga ggcctttggc
+     1981 aggacttggt ggggctgcag taccactccc aaggctacgt ggcttccacc ctgcaggcgt
+     2041 tcctcagcgc tagccgggca aaaagggaga ggaagtaccg gagagtggcc ttcgtgagga
+     2101 agggagacat caggtccttc aaaaattttt atctctaccc aggagagtac cacaggctca
+     2161 tgccccacct actggccatg tccccctcgc agcgtaaggc attcaggaac aacataccca
+     2221 ccatcctgac tcgaagagaa ggtgagtacg gtccgcttct ccacggccta aaaatagctg
+     2281 gatacgtggg agacctggca acccgcagct aggctcctta cacacaggcg ggaaccggaa
+     2341 ccgacccagg aacggcctag gaaaccagca ctcggaacgc acccaccagg aacgcacctt
+     2401 cccctttcta ttttctagtt ttactctttc tttagtttaa tttcttttcc cctcttcccc
+     2461 atctactagc ttgggggtta gagggagctt catcttatgt tatgacgccc gggaaaccgg
+     2521 ttatggccgc aagcgtcacg gccaaataaa aactacaaaa aaaggaaaaa acctaagcat
+     2581 aaaaagctcc caaccgctcc tccatatggc tggcaagtgc taaagcccc
+//

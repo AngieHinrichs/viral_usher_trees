@@ -1,0 +1,68 @@
+LOCUS       rerooted_NC_038813.1      1088 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  rerooted_NC_038813.1.
+ACCESSION   rerooted_NC_038813.1
+VERSION     rerooted_NC_038813.1
+KEYWORDS    RefSeq.
+SOURCE      Cardamom bushy dwarf virus
+  ORGANISM  Cardamom bushy dwarf virus
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Arfiviricetes; Mulpavirales; Nanoviridae; Babuvirus; Babuvirus
+            cardamomi.
+REFERENCE   1  (bases 1 to 1088)
+  AUTHORS   Mandal,B., Shilpi,S., Barman,A.R., Mandal,S. and Varma,A.
+  TITLE     Nine novel DNA components associated with the foorkey disease of
+            large cardamom: Evidence of a distinct babuvirus species in
+            Nanoviridae
+  JOURNAL   Virus Res. 178 (2), 297-305 (2013)
+   PUBMED   24091364
+REFERENCE   2  (bases 1 to 1088)
+  AUTHORS   Shilpi,S. and Mandal,B.
+  TITLE     Molecular characterization of Cardamom bushy dwarf virus
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1088)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 1088)
+  AUTHORS   Shilpi,S. and Mandal,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2013) Advanced Centre for Plant Virology, Division
+            of Plant Pathology, Indian Agricultural Research Institute, Pusa
+            Campus, New Delhi, Delhi 110012, India
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KF435143.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1088
+                     /organism="Cardamom bushy dwarf virus"
+                     /mol_type="genomic DNA"
+                     /isolation_source="infected leaves"
+                     /host="large cardamom collected"
+                     /db_xref="taxon:262588"
+                     /segment="DNA-U3"
+                     /clone="Fr-kpn3"
+                     /geo_loc_name="India: Kalimpong"
+                     /collection_date="2008"
+                     /collected_by="Bikash Mandal"
+ORIGIN
+        1 agcatggggg actattatta ccccccatgc ttgggacgga acatgggctt ttgggccggt
+       61 aagcgttggt gggccgttaa taattgtgca gttcagtatc ttcgttttgg cccgttaggg
+      121 acaaaattaa gagaacgtgc gcaattaaga cgttgaccga aggtcatgcc aggctgttga
+      181 cggtgtattc ggcggacgcg aagcggggaa aacccaaatt aaaataattt gggacccgga
+      241 aatcccgcct tcataatcct ggaaggatta taaatacccc catcggcggt gaagacggtg
+      301 ctttctctct tctgtcagaa gggatgtgct gaggaggaag aaggacgtcg aagacggaga
+      361 agtgtttgta tccgaggatc cttcctattg tcagcatgta tggcggggta tttataggag
+      421 aggagcgacg aagctccgaa cccgacagga atactgtatg tatttgattt cataaataaa
+      481 taaatgttga aataaaaccc tttgtgtaat ctaatgtatg tttaaggaat acgaacagag
+      541 gtatcttccg taggaaggta ccgaaagatc gcacccccgc gaagcggggg tgccgccgtt
+      601 aggcggcgga agacgatgaa ttaagggttt cgatgtttaa taaataatat taggtttcga
+      661 aaataatatt ccggtattaa gaaaggatta agccgggtga taaggaaata atacaccatt
+      721 atcaacatat ttgccgctat aaaataattg ggtaaaacga aattaagacc tgtcgtcaca
+      781 gtctttatga agaatcaagg gccgaaggcc cgtcaagatg aacggacggt cggatggagg
+      841 ttgcttacga aggaagcaaa ggtacgcgtt atgaattatt ttaatcaata aataaataaa
+      901 tgtggggacc acgacatgca aggttgtcgg ctgaagaaat aatataataa tccaaaagac
+      961 cgaactaccc ctgtaaaggt acgcatgcaa gggtgtcccg aggtaatttc acatacccct
+     1021 gagagagaat ctcgaacgtg gattacgtcc atcggacggt taggaaacgt ccctccttgg
+     1081 atgacgta
+//

@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001781.1, taxonomy ID 3049954
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001781.1'
-refseq_assembly = 'GCF_000855545.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001781.1'
+#refseq_assembly = 'GCF_000855545.1'
+ref_fasta = './trees/Human_orthopneumovirus_B1/midpoint_rerooted_NC_001781.1.fa'
+ref_gbff = './trees/Human_orthopneumovirus_B1/midpoint_rerooted_NC_001781.1.gbff'
 taxonomy_id = '3049954'
 nextclade_dataset = 'nextstrain/rsv/b/EPI_ISL_1653999'
 nextclade_clade_columns = 'clade,phenotypeData'

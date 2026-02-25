@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_002549.1, taxonomy ID 3052462
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_002549.1'
-refseq_assembly = 'GCF_000848505.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_002549.1'
+#refseq_assembly = 'GCF_000848505.1'
+ref_fasta = './trees/Zaire_ebolavirus/treetime_rerooted_NC_002549.1.fa'
+ref_gbff = './trees/Zaire_ebolavirus/treetime_rerooted_NC_002549.1.gbff'
 taxonomy_id = '3052462'
 nextclade_dataset = 'nextstrain/orthoebolavirus/ebov'
 nextclade_clade_column = ''

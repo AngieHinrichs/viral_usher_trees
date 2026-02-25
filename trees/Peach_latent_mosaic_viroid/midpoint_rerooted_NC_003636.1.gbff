@@ -1,0 +1,72 @@
+LOCUS       rerooted_NC_003636.1       337 bp    ss-RNA  circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_003636.1.
+ACCESSION   rerooted_NC_003636.1
+VERSION     rerooted_NC_003636.1
+KEYWORDS    RefSeq.
+SOURCE      Peach latent mosaic viroid
+  ORGANISM  Peach latent mosaic viroid
+            Viruses; Viruses incertae sedis; Avsunviroidae; Pelamoviroid;
+            Pelamoviroid latenspruni.
+REFERENCE   1  (bases 1 to 337)
+  AUTHORS   Hernandez,C. and Flores,R.
+  TITLE     Plus and minus RNAs of peach latent mosaic viroid self-cleave in
+            vitro via hammerhead structures
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 89 (9), 3711-3715 (1992)
+   PUBMED   1373888
+REFERENCE   2  (bases 1 to 337)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-DEC-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from M83545.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..337
+                     /organism="Peach latent mosaic viroid"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:12894"
+     variation       1
+                     /replace="a"
+     misc_structure  complement(2..57)
+                     /function="region involved in self-cleavage through a
+                     hammerhead structure"
+     variation       5
+                     /replace="a"
+     variation       14
+                     /replace="c"
+     variation       27
+                     /replace="g"
+     variation       54
+                     /replace="t"
+     variation       66
+                     /replace="t"
+     variation       135
+                     /replace="a"
+     variation       170
+                     /replace="g"
+     variation       281
+                     /replace="a"
+     misc_structure  282..335
+                     /function="region involved in self-cleavage through a
+                     hammerhead structure"
+     variation       284
+                     /replace="t"
+     variation       307
+                     /replace="t"
+     variation       318
+                     /replace="a"
+     variation       333
+                     /replace="a"
+     variation       335
+                     /replace="a"
+     variation       337
+                     /replace="c"
+ORIGIN
+        1 cccataagtt tcgccgtatc ccagcgactc atcagtgggc taagcccaga cttatgagag
+       61 agtggttacc tctcagcccc tccaccttgg ggtgccctat tcggagcact gcagttcccg
+      121 atagaaaggc taagaacctc gcaatgaggt aaggtgggac ttttccttcg ggaaccaagc
+      181 ggttggttcc gaggggggtg tgatccaggt accgccgtag aaactggatt acgacgtcta
+      241 cccgggattc aaacccgtcc cctccagagg tgactctgag tgaaaggtct gtgcttagca
+      301 cactgacgag ttcctgaaat ggaacgaaac ccttcta
+//

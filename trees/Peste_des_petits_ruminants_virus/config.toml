@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_006383.2, taxonomy ID 3052343
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_006383.2'
-refseq_assembly = 'GCF_000866445.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_006383.2'
+#refseq_assembly = 'GCF_000866445.1'
+ref_fasta = './trees/Peste_des_petits_ruminants_virus/treetime_rerooted_NC_006383.2.fa'
+ref_gbff = './trees/Peste_des_petits_ruminants_virus/treetime_rerooted_NC_006383.2.gbff'
 taxonomy_id = '3052343'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

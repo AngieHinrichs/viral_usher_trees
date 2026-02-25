@@ -1,0 +1,88 @@
+LOCUS       rerooted_NC_002016.1      1027 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002016.1.
+ACCESSION   rerooted_NC_002016.1
+VERSION     rerooted_NC_002016.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+  ORGANISM  Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1027)
+  AUTHORS   Winter,G. and Fields,S.
+  TITLE     Cloning of influenza cDNA ino M13: the sequence of the RNA segment
+            encoding the A/PR/8/34 matrix protein
+  JOURNAL   Nucleic Acids Res. 8 (9), 1965-1974 (1980)
+   PUBMED   6927841
+REFERENCE   2  (bases 1 to 1027)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from V01099.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1027
+                     /organism="Influenza A virus (A/Puerto Rico/8/1934(H1N1))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Puerto Rico/8/1934"
+                     /serotype="H1N1"
+                     /db_xref="taxon:211044"
+                     /segment="7"
+                     /geo_loc_name="Puerto Rico"
+                     /collection_date="1934"
+     gene            26..1007
+                     /gene="M2"
+                     /locus_tag="FLUAVs7gp2"
+                     /db_xref="GeneID:956528"
+     CDS             join(26..51,740..1007)
+                     /gene="M2"
+                     /locus_tag="FLUAVs7gp2"
+                     /codon_start=1
+                     /product="matrix protein 2"
+                     /protein_id="NP_040979.2"
+                     /db_xref="GOA:P06821"
+                     /db_xref="UniProtKB/Swiss-Prot:P06821"
+                     /db_xref="GeneID:956528"
+                     /translation="MSLLTEVETPIRNEWGCRCNGSSDPLAIAANIIGILHLILWILDR
+                     LFFKCIYRRFKYGLKGGPSTEGVPKSMREEYRKEQQSAVDADDGHFVSIELE"
+     gene            26..784
+                     /gene="M1"
+                     /locus_tag="FLUAVs7gp1"
+                     /db_xref="GeneID:956527"
+     CDS             26..784
+                     /gene="M1"
+                     /locus_tag="FLUAVs7gp1"
+                     /codon_start=1
+                     /product="matrix protein 1"
+                     /protein_id="NP_040978.1"
+                     /db_xref="GOA:P03485"
+                     /db_xref="UniProtKB/Swiss-Prot:P03485"
+                     /db_xref="GeneID:956527"
+                     /translation="MSLLTEVETYVLSIVPSGPLKAEIAQRLEDVFAGKNTDLEALMEW
+                     LKTRPILSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDRAVKLYRKLK
+                     REITFHGAKEVALSYSTGALASCMGLIYNRMGTVTTEVAFGLVCATCEQIADSQHRSHR
+                     QMVTTTNPLIRHENRMVLASTTAKAMEQMAGSSEQAAEAMEVASQARQMVQAMRTIGTH
+                     PSSSAGLKDDLLENLQAYQKRMGVQMQRFK*"
+ORIGIN
+        1 agcaaaagca ggtagatatt gaaagatgag tcttctaacc gaggtcgaaa cgtacgttct
+       61 ctctatcgtc ccgtcaggcc ccctcaaagc cgagatcgcg cagagacttg aagatgtctt
+      121 tgcagggaag aacaccgatc ttgaggcact catggaatgg ctaaagacaa gaccaatcct
+      181 gtcacctctg actaagggga ttttaggatt tgtgttcacg ctcaccgtgc ccagtgagcg
+      241 aggactgcag cgtagacgct ttgtccaaaa tgcccttaat gggaatgggg atccaaacaa
+      301 catggacaga gcagtcaaac tgtacaggaa gctcaaaagg gaaataacat tccatggggc
+      361 aaaagaagtg gcactcagtt attcaactgg tgcacttgcc agttgcatgg gcctcatata
+      421 caacagaatg gggactgtga ccaccgaagt ggcatttggc ctggtgtgcg ccacatgtga
+      481 gcagattgct gattcccagc atcggtctca cagacaaatg gtgacaacaa ccaacccact
+      541 aatcagacat gagaacagaa tggtactagc cagtactacg gctaaagcca tggagcaaat
+      601 ggcagggtca agtgagcagg cagcagaggc tatggaggtt gctagtcagg ctaggcagat
+      661 ggtgcaggca atgaggacca ttgggactca tcctagctcc agtgctggtc taaaagatga
+      721 tcttcttgaa aatttgcagg cctaccagaa acggatggga gtgcaaatgc agcgattcaa
+      781 gtgatcctct cgttattgcc gcaagtatca ttgggatctt gcacttgata ttgtggattc
+      841 ttgatcgtct tttcttcaaa tgcatttatc gtcgccttaa atacggtttg aaaagagggc
+      901 cttctacgga aggagtgcct gagtctatga gggaagaata tcggcaggaa cagcagagtg
+      961 ctgtggatgt tgacgatggt cattttgtca acatagagct ggagtaaaaa actaccttgt
+     1021 ttctact
+//

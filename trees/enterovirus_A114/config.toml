@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_030454.1, taxonomy ID 3428500
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_030454.1'
-refseq_assembly = 'GCF_001684625.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_030454.1'
+#refseq_assembly = 'GCF_001684625.1'
+ref_fasta = './trees/enterovirus_A114/treetime_rerooted_NC_030454.1.fa'
+ref_gbff = './trees/enterovirus_A114/treetime_rerooted_NC_030454.1.gbff'
 taxonomy_id = '3428500'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

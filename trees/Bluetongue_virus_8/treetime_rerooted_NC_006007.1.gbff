@@ -1,0 +1,84 @@
+LOCUS       rerooted_NC_006007.1      1125 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006007.1.
+ACCESSION   rerooted_NC_006007.1
+VERSION     rerooted_NC_006007.1
+KEYWORDS    RefSeq.
+SOURCE      Bluetongue virus
+  ORGANISM  Bluetongue virus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus
+            caerulinguae.
+REFERENCE   1  (bases 1 to 1125)
+  AUTHORS   Fukusho,A., Yu,Y., Yamaguchi,S. and Roy,P.
+  TITLE     Completion of the sequence of bluetongue virus serotype 10 by the
+            characterization of a structural protein, VP6, and a non-structural
+            protein, NS2
+  JOURNAL   J. Gen. Virol. 70 (PT 7), 1677-1689 (1989)
+   PUBMED   2544660
+REFERENCE   2  (bases 1 to 1125)
+  AUTHORS   Blachere,C.
+  TITLE     Bluetongue virus gene for NS2 protein, complete cds
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1125)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from D00500.
+            These data kindly submitted in computer readable form by: Marshall,
+            J.J.A.
+            Institute of Virology
+            Mansfield Rd. Oxford
+            England.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1125
+                     /organism="Bluetongue virus"
+                     /mol_type="genomic RNA"
+                     /serotype="10"
+                     /db_xref="taxon:40051"
+                     /segment="8"
+                     /clone="A30"
+                     /note="segment S8"
+     gene            20..1084
+                     /locus_tag="BTVs8gp1"
+                     /db_xref="GeneID:2943149"
+     CDS             20..1084
+                     /locus_tag="BTVs8gp1"
+                     /codon_start=1
+                     /product="NS2 protein"
+                     /protein_id="YP_052952.1"
+                     /db_xref="GeneID:2943149"
+                     /translation="MEQKQRKFTKNIFVLDVNAKTLCGVIAKQSSQPYCQIKIGRVIAF
+                     KPVKNPEPKGYVLNVPGPGAYRIQDGQDIISMMLTSSGVEATTERWEEWKFEGVSVTPM
+                     ATRVQHNGVMVDAEIKYCKGMGIVQPYMKNDFDRNEMPDLPGVMRSNYDIRELRQKIKN
+                     EREMAPRPQIQSAAPREESRWMDEDEARVNEEIKENVPGTSRLEKLREARTNMFKEVEA
+                     GVSWNLDEKEEADGDERGDDDQVKTMSDEDEQGEDASDDEHPKTHITKEYIEKVAKQVK
+                     LKDERFMSLSSAMPQASGGFDRMIVTKKLKWQNVPLYCFDESTKRYELQCVGACERVAF
+                     VSKDMSLIILPVGV*"
+     misc_difference 1068
+                     /locus_tag="BTVs8gp1"
+                     /citation=[1]
+                     /replace=""
+ORIGIN
+        1 gttaaaaaat ccttgagtca tggagcaaaa gcaacgtaaa tttactaaaa acatctttgt
+       61 tttggatgtc aatgctaaaa cattatgcgg ggtgatcgcg aaacaaagtt cacagccgta
+      121 ttgtcaaatt aaaattggaa gagtaatagc ttttaagcca gttaaaaatc cagaacccaa
+      181 gggttatgtc ttgaatgttc caggaccagg tgcctacaga atacaggatg gacaagatat
+      241 cataagcatg atgttaacat caagcggggt agaggcgacg actgagagat gggaagagtg
+      301 gaaatttgaa ggtgtgagcg taacaccaat ggcgacgcgg gtgcaacata atggagtgat
+      361 ggtagatgca gagataaagt attgcaaggg gatgggaatt gttcaaccat atatgaaaaa
+      421 tgattttgac cgaaatgaga tgccggattt accaggcgta atgaggtcca attatgatat
+      481 acgtgaactt cgacaaaaga tcaagaatga acgtgagatg gcaccgcgcc cgcagattca
+      541 gagcgcggca ccaagggagg agtcgcgttg gatggatgaa gatgaagcga gggtcaatga
+      601 agagataaaa gagaacgttc cgggaacgag cagattggag aagctacgtg aggcgagaac
+      661 aaatatgttt aaagaagtag aagctggtgt tagctggaat ctggatgaga aagaggaggc
+      721 ggatggagat gaacggggag atgatgatca ggtgaagacc atgagtgatg aggatgaaca
+      781 gggtgaagac gctagtgatg acgaacatcc caagactcac atcacgaaag agtatattga
+      841 aaaggtcgcg aagcaggtta aacttaagga tgaacgattt atgagtttgt cgagcgctat
+      901 gccgcaagcg agtggaggct ttgatcgtat gatagttact aagaaactga agtggcagaa
+      961 tgtaccactt tattgttttg atgaatctac taaaaggtat gaattgcaat gtgtgggtgc
+     1021 gtgtgagcgt gttgcttttg tctctaagga catgagctta atcatattgc cggtcggcgt
+     1081 ttaggcgctt gtgatcgcgt ggttaggggg ggattttaca cttac
+//

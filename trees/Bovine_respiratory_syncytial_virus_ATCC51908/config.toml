@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_038272.1, taxonomy ID 3050248
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_038272.1'
-refseq_assembly = 'GCF_002815455.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_038272.1'
+#refseq_assembly = 'GCF_002815455.1'
+ref_fasta = './trees/Bovine_respiratory_syncytial_virus_ATCC51908/midpoint_rerooted_NC_038272.1.fa'
+ref_gbff = './trees/Bovine_respiratory_syncytial_virus_ATCC51908/midpoint_rerooted_NC_038272.1.gbff'
 taxonomy_id = '3050248'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

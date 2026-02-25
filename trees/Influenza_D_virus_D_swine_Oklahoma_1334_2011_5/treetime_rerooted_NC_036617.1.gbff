@@ -1,0 +1,100 @@
+LOCUS       rerooted_NC_036617.1      1775 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_036617.1.
+ACCESSION   rerooted_NC_036617.1
+VERSION     rerooted_NC_036617.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza D virus (D/swine/Oklahoma/1334/2011)
+  ORGANISM  Influenza D virus (D/swine/Oklahoma/1334/2011)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Deltainfluenzavirus; Deltainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1775)
+  AUTHORS   Hause,B.M., Ducatez,M., Collin,E.A., Ran,Z., Liu,R., Sheng,Z.,
+            Armien,A., Kaplan,B., Chakravarty,S., Hoppe,A.D., Webby,R.J.,
+            Simonson,R.R. and Li,F.
+  TITLE     Isolation of a novel Swine influenza virus from oklahoma in 2011
+            which is distantly related to human influenza C viruses
+  JOURNAL   PLoS Pathog. 9 (2), E1003176 (2013)
+   PUBMED   23408893
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1775)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JAN-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1775)
+  AUTHORS   Hause,B.M., Ducatez,M., Collin,E.A., Webby,R.J., Armien,A.,
+            Simonson,R.R. and Li,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-2012) Diagnostic Services, Newport Labs, 1524
+            Prairie Drive, Worthington, MN 56187, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JQ922309.
+            GenBank Accession Numbers JQ922305-JQ922311 represent sequences
+            from the 7 segments of Influenza D virus
+            (D/swine/Oklahoma/1334/2011).
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1775
+                     /organism="Influenza D virus (D/swine/Oklahoma/1334/2011)"
+                     /mol_type="genomic RNA"
+                     /strain="D/swine/Oklahoma/1334/2011"
+                     /host="swine"
+                     /db_xref="taxon:1173138"
+                     /segment="5"
+                     /geo_loc_name="USA"
+                     /collection_date="21-Mar-2011"
+     gene            28..1686
+                     /gene="NP"
+                     /locus_tag="C1935_sNPgp1"
+                     /db_xref="GeneID:35393476"
+     CDS             28..1686
+                     /gene="NP"
+                     /locus_tag="C1935_sNPgp1"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="YP_009449558.1"
+                     /db_xref="GeneID:35393476"
+                     /translation="MDSTKAQTPEEQRAKNAKTILENIQIYERMCDLFGVSEDDKLIIE
+                     NSISIERMIRVVTDKKYQDKKLKNAGSDLEKIANAGKVFCRLVESTAGKCSARLGMALK
+                     PNVEAVLTDVLGNELDRAAVLGKRMGFTAMFKSNLEEVLYQRGKNQLKKRNAAETFTLS
+                     QGASLEARFRPIMEKHLGVGTVVASIKNILASKKNGNYKNKMVRKPGGNRESWSPLERE
+                     ISFLNKKLFPGPMRQLCKKFEYLNDQEKQLALNLMLDASLILKPQVTHKMIMPWSMWLA
+                     VKKYAEMNKGSPSLEDLAAYSGVRAFMAFNTACYMSKFTIGKGIVGDAEIMENGNDKMQ
+                     TLAMACFGLAYEDTGIVAAMISQPMKKRYQLKVGNFNPPEEGTIKGTSAGYFHKWAEFG
+                     NRLPFNSFGTGESKQISNSGVFAVQRPSTTNIQRLAELMARNTGETSDNFTQLVQKIRE
+                     QVGTFADQKANLREFTGGYIYDITDVTKSNPKIPQLGGNSFFFEFTGSDVPRTGAKRRV
+                     GGADDVTPGTSQPKKRGRQGAGAESSMDIETVGED*"
+ORIGIN
+        1 ggcataagca ggagattatt aagcaatatg gactcaacaa aagcccaaac gcctgaagag
+       61 caaagagcaa agaatgccaa aaccatcctt gagaacatac agatatatga aaggatgtgt
+      121 gatctttttg gggtgtcaga agatgacaaa ctgataattg agaacagtat ttcaattgag
+      181 agaatgataa gagttgtaac agataagaaa tatcaagaca agaaactaaa gaatgctgga
+      241 agtgatcttg aaaagattgc aaatgcaggg aaagttttct gtcgattggt ggagtcaaca
+      301 gctgggaaat gtagtgcaag attgggaatg gcactgaaac ccaacgttga ggcagtcctg
+      361 accgatgtac tcgggaatga actggatagg gctgctgtgc ttgggaaaag gatggggttt
+      421 acagcaatgt tcaaatcaaa cctggaagag gttttgtacc aaagaggaaa gaatcagctt
+      481 aaaaagagga atgctgcaga aactttcact ctttcacaag gtgcttcgct agaggcaaga
+      541 tttaggccca taatggaaaa acacctaggt gttgggactg ttgtggcgtc aataaagaat
+      601 atcctggcaa gcaaaaagaa cgggaactac aagaacaaga tggtgaggaa acctggagga
+      661 aacagagaga gctggtcacc attggagaga gaaatatcct ttctgaacaa gaagttgttt
+      721 cctggaccaa tgaggcagct ctgcaagaaa ttcgaatact tgaacgacca agagaagcaa
+      781 ctggccttaa acctcatgct ggatgcaagt ctcatcctga agccacaagt gactcacaaa
+      841 atgataatgc cttggtcaat gtggctggct gtgaagaaat atgcagaaat gaacaaggga
+      901 tcacccagtc ttgaagacct cgcagcttat tctggagtaa gagcctttat ggctttcaat
+      961 acagcttgct acatgagtaa attcaccatt gggaagggaa ttgtgggaga tgcagagatc
+     1021 atggaaaatg gaaacgacaa gatgcaaact cttgcaatgg cttgttttgg actggcgtat
+     1081 gaagacaccg ggattgttgc tgcaatgatc tcccaaccca tgaagaaaag atatcagttg
+     1141 aaagtgggga acttcaatcc tccagaagaa ggaacaataa aaggaacaag cgccggctat
+     1201 ttccacaagt gggctgaatt tggaaatagg ctgcctttca acagttttgg aactggtgaa
+     1261 tccaaacaga taagcaactc aggagtgttt gcagtgcaga ggcccagcac tactaacatt
+     1321 caaagactgg cagagctaat ggctaggaat accggagaaa ccagtgacaa ctttactcag
+     1381 ttggttcaga aaataagaga acaagtgggg acctttgctg atcaaaaagc aaatcttcga
+     1441 gagttcactg gaggatatat ttatgatatt actgacgtaa cgaagagcaa ccccaagata
+     1501 cctcagttgg gtgggaactc tttcttcttt gagttcaccg gaagcgacgt tccaagaact
+     1561 ggagccaaaa gaagagtggg aggagctgat gatgtgaccc ctggaacttc ccagcccaag
+     1621 aaaagaggaa ggcaaggtgc cggagcagaa tcaagtatgg acattgaaac agttggtgaa
+     1681 gattaaatca tctttggatg gttctgttgc agtccccagt gggtgttaaa ggtgttggtt
+     1741 tgtctcattt aacaaaaaat ctccttgcta ctgct
+//

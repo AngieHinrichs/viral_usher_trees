@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_066642.1, taxonomy ID 10245
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_066642.1'
-refseq_assembly = 'GCF_006449675.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_066642.1'
+#refseq_assembly = 'GCF_006449675.1'
+ref_fasta = './trees/Horsepox_virus/midpoint_rerooted_NC_066642.1.fa'
+ref_gbff = './trees/Horsepox_virus/midpoint_rerooted_NC_066642.1.gbff'
 taxonomy_id = '10245'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

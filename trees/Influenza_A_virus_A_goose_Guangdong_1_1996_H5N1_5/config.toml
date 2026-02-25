@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_007360.1, taxonomy ID 2955291
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_007360.1'
-refseq_assembly = 'GCF_000864105.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_007360.1'
+#refseq_assembly = 'GCF_000864105.1'
+ref_fasta = './trees/Influenza_A_virus_A_goose_Guangdong_1_1996_H5N1_5/treetime_rerooted_NC_007360.1.fa'
+ref_gbff = './trees/Influenza_A_virus_A_goose_Guangdong_1_1996_H5N1_5/treetime_rerooted_NC_007360.1.gbff'
 taxonomy_id = '2955291'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

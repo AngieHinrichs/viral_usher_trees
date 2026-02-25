@@ -1,0 +1,106 @@
+LOCUS       rerooted_NC_006232.1      1767 bp    DNA     circular VRL 05-MAY-2023
+DEFINITION  rerooted_NC_006232.1.
+ACCESSION   rerooted_NC_006232.1
+VERSION     rerooted_NC_006232.1
+KEYWORDS    RefSeq.
+SOURCE      Porcine circovirus 2
+  ORGANISM  Porcine circovirus 2
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Arfiviricetes; Cirlivirales; Circoviridae; Circovirus; Circovirus
+            porcine2.
+REFERENCE   1  (bases 1 to 1767)
+  AUTHORS   Zhou,J.Y., Chen,Q.X., Ye,J.X., Chen,T.F., Shang,S.B., Li,Z.K. and
+            Shen,H.G.
+  TITLE     Complete genome of JX0301 strain of PCV-2 isolated from pigs with
+            wasting syndromes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1767)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1767)
+  AUTHORS   Zhou,J.Y., Chen,Q.X., Ye,J.X., Chen,T.F., Shang,S.B., Li,Z.K. and
+            Shen,H.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2004) Institute of Preventive Veterinary Medicine,
+            Zhejiang University, 268 Kaixuan Road, Hangzhou, Zhejiang 310029,
+            China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AY651850.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1767
+                     /organism="Porcine circovirus 2"
+                     /mol_type="genomic DNA"
+                     /strain="JX0301"
+                     /host="pig"
+                     /db_xref="taxon:85708"
+                     /geo_loc_name="China: Zhejiang"
+                     /genotype="PCV-2"
+     gene            51..995
+                     /gene="rep"
+                     /locus_tag="QJ550_gp1"
+                     /db_xref="GeneID:80510722"
+     CDS             51..995
+                     /gene="rep"
+                     /locus_tag="QJ550_gp1"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="YP_010774699.1"
+                     /db_xref="GeneID:80510722"
+                     /translation="MPSKKSGRSGPQPHKRWVFTLNNPSEDERKKIRELPISLFDYFIV
+                     GEEGNEEGRTPHLQGFANFVKKQTFNKVKWYFGARCHIEKAKGTDQQNKEYCSKEGNLL
+                     IECGAPRSQGQRSDLSTAVSTLLESGSLVTVAEQHPVTFVRNFRGLAELLKVSGKMQKR
+                     DWKTNVHVIVGPPGCGKSKWAANFADPETTYWKPPRNKWWDGYHGEEVVVIDDFYGWLP
+                     WDDLLRLCDRYPLTVETKGGTVPFLARSILITSNQTPLEWYSSTAVPAVEALYRRITSL
+                     VFWKNATEQSTEEGGQFVTLSPPCPEFPYEINY*"
+     gene            complement(1033..1734)
+                     /gene="cap"
+                     /locus_tag="QJ550_gp2"
+                     /db_xref="GeneID:80510721"
+     CDS             complement(1033..1734)
+                     /gene="cap"
+                     /locus_tag="QJ550_gp2"
+                     /note="ORF2"
+                     /codon_start=1
+                     /product="cap protein"
+                     /protein_id="YP_010774700.1"
+                     /db_xref="GeneID:80510721"
+                     /translation="MRCPWRRYRR*IYCARSHLGQILCRGPWLVHLRHCYCLRWKYGIF
+                     KTCFSRTFGYTILRIAVERPSWAVDMISFNINDFLPPGWGSKFRSVPFEYYRIRKVKVE
+                     LWPCSPIT*GDRGVGSSAVILDDNFVTKATALTFDPYVNYSWGNTITQPFSYHSRYFTA
+                     HHVLDSTVVFF*PDSIIYQVRERLQSAGVEDHFSFSTAVVNGVDDQEYNIGVTVCVRFR
+                     GFNLKGLLLLR*"
+ORIGIN
+        1 accagcgcac ttcggcagcg gcagcacctc ggcagcacct cagcagcaac atgcccagca
+       61 agaagagtgg aagaagcgga ccccaaccac ataaaaggtg ggtgttcacg ctgaataatc
+      121 cttccgaaga cgagcgcaag aaaatacggg agctcccaat ctccctattt gattatttta
+      181 ttgttggcga ggaaggtaat gaggagggcc gaacacccca cctacagggg ttcgctaatt
+      241 ttgtgaagaa gcaaactttt aataaagtga agtggtattt tggtgcccgc tgccacatcg
+      301 agaaagcgaa aggaacagat cagcagaata aagaatattg cagtaaagaa ggcaacttac
+      361 tgatagaatg tggagctcct agatctcaag gacaacggag tgacctctct actgctgtga
+      421 gtaccttgtt ggagagcggg agtctggtga ccgttgcaga gcagcaccct gtaacgtttg
+      481 tcagaaattt ccgcgggctg gctgaacttt tgaaagtgag cgggaaaatg cagaagcgtg
+      541 attggaagac gaatgtacac gtcattgtgg ggccacctgg gtgtggcaaa agcaaatggg
+      601 ctgctaattt tgcagacccg gaaaccacat actggaaacc acctagaaac aagtggtggg
+      661 atggttacca tggtgaagaa gtggttgtta ttgatgactt ttatggctgg ctgccgtggg
+      721 atgatctact gagactctgt gatcgatatc ctttgactgt tgagactaaa ggtggaactg
+      781 tacctttttt ggcccgcagt attctgatta ccagcaatca gaccccgttg gaatggtact
+      841 cctcaactgc tgtcccagct gtagaagctc tctatcggag gattacttcc ttggtatttt
+      901 ggaagaatgc tacagaacaa tccacggagg aagggggcca gttcgtcacc ctttcccccc
+      961 catgccctga atttccatat gaaataaatt actgagtctt ttttatgacg tatccaaggt
+     1021 ttttattatc cattaccgga gaagaaggag gcctttaaga ttaaatcctc tgaatcgtac
+     1081 acacacggtt acaccgatat tgtattcctg gtcgtccaca ccgttaacaa ccgcagtgga
+     1141 gaaggaaaaa tggtcttcaa cacccgcaga ttgtaatctc tcccgcacct gatatattat
+     1201 gctgtcgggt caaaagaaaa ccacagtgga atctaggaca tgatgggcgg taaagtagcg
+     1261 ggaatgatag gagaagggct gagttatggt attgccccac gaataattta cataggggtc
+     1321 aaaggtgagg gctgtggcct ttgttacaaa gttatcatct agaataacag cactggagcc
+     1381 cactcccctg tcaccctagg tgatcgggga gcagggccat aattcaacct taacctttct
+     1441 tatcctgtaa tactcaaagg gcacagagcg gaactttgaa ccccatcctg ggggaagaaa
+     1501 gtcattaata ttgaaactaa tcatgtccac cgcccaggaa ggcctttcta ctgcgattcg
+     1561 caagatagta tatccgaagg tgcgggagaa acaggtcttg aatataccat atttccatct
+     1621 caaacagtaa cagtggcgga gatggacaag ccaggggccg cggcagagaa tctggccaag
+     1681 atggctgcgg gcgcagtata ttcatctccg gtaacgcctc catggacacc tcatatctca
+     1741 aaacgaaaga agtgcgccct aagtaat
+//

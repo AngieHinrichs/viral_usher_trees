@@ -1,0 +1,83 @@
+LOCUS       rerooted_NC_007377.1      1027 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007377.1.
+ACCESSION   rerooted_NC_007377.1
+VERSION     rerooted_NC_007377.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Korea/426/1968(H2N2))
+  ORGANISM  Influenza A virus (A/Korea/426/1968(H2N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1027)
+  AUTHORS   Ito,T., Gorman,O.T., Kawaoka,Y., Bean,W.J. and Webster,R.G.
+  TITLE     Evolutionary analysis of the influenza A virus M gene with
+            comparison of the M1 and M2 proteins
+  JOURNAL   J. Virol. 65 (10), 5491-5498 (1991)
+   PUBMED   1895397
+REFERENCE   2  (bases 1 to 1027)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from M63531.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1027
+                     /organism="Influenza A virus (A/Korea/426/1968(H2N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Korea/426/1968"
+                     /serotype="H2N2"
+                     /db_xref="taxon:488241"
+                     /segment="7"
+                     /collection_date="1968"
+     gene            26..1007
+                     /gene="M2"
+                     /locus_tag="FLUAVH2N2_s7p1"
+                     /db_xref="GeneID:3655107"
+     CDS             join(26..51,740..1007)
+                     /gene="M2"
+                     /locus_tag="FLUAVH2N2_s7p1"
+                     /codon_start=1
+                     /product="membrane protein M2"
+                     /protein_id="YP_308853.1"
+                     /db_xref="GeneID:3655107"
+                     /translation="MSLLTEVETPIRNEWGCRCNDSSDPLVVAASIIGILHFILWILDR
+                     LFFKCIYRFFKHGLKRGPSTEGVPESMREEYRKEQQSAVDADDSHFVSIELE"
+     gene            26..784
+                     /gene="M1"
+                     /locus_tag="FLUAVH2N2_s7p2"
+                     /db_xref="GeneID:3655108"
+     CDS             26..784
+                     /gene="M1"
+                     /locus_tag="FLUAVH2N2_s7p2"
+                     /codon_start=1
+                     /product="membrane protein M1"
+                     /protein_id="YP_308854.1"
+                     /db_xref="GeneID:3655108"
+                     /translation="MSLLTEVETYVLSIVPSGPLKAEIAQRLEDVFAGKNTDLEALMEW
+                     LKTRPILSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDRAVKLYRKLK
+                     REITFHGAKEVALSYSTGALASCMGLIYNRMGTVTTEVAFGLVCATCEQIADSQHRSHR
+                     QMVTTTNPLIRHENRMVLASTTAKAMEQMAGSSEQAAEAMEVASQARQMVQAMRTIGTH
+                     PSSSAGLKDDLLENLQAYQKRMGVQMQRFK*"
+ORIGIN
+        1 agcaaaagca ggtagatatt gaaagatgag tcttctaacc gaggtcgaaa cgtacgttct
+       61 ctctatcgtc ccgtcaggcc ccctcaaagc cgagatcgcg cagagacttg aagatgtgtt
+      121 tgcagggaag aacaccgatc ttgaggcact catggaatgg ctaaagacaa gaccaatcct
+      181 gtcacctctg actaagggga ttttaggatt tgtgttcacg ctcaccgtgc ccagtgagcg
+      241 aggactgcag cgtagacgct ttgtccaaaa tgcccttaat gggaatgggg atccaaacaa
+      301 catggacaga gcggtcaaac tgtacaggaa gcttaaaagg gaaataacat tccatggggc
+      361 aaaagaagtg gcactcagtt attcaactgg tgcacttgcc agttgcatgg gcctcatata
+      421 caacaggatg gggactgtga ccactgaagt ggcatttggc ctggtgtgcg ccacatgtga
+      481 gcagattgct gattcccagc atcggtctca cagacaaatg gtgacaacaa ccaacccact
+      541 aatcaggcac gagaacagaa tggtactggc cagtactacg gctaaggcca tggagcaaat
+      601 ggcagggtca agtgagcagg cagcagaggc tatggaggtt gctagtcagg ctagacagat
+      661 ggtgcaggca atgaggacca ttgggactca tcctagctcc agtgctggtc taaaagatga
+      721 tcttcttgaa aatttgcagg cctaccagaa acggatggga gtgcagatgc agcgattcaa
+      781 gtgatcctct cgttattgcc gcaagtatca ttgggatctt gcacttgata ttgtggattc
+      841 ttgatcgtct tttcttcaaa tgcatttatc gtcgccttaa atacggtttg aaaagagggc
+      901 cttctacgga aggagtgcct gagtctatga gggaagaata tcggcaggaa cagcagagtg
+      961 ctgtggatgt tgacgatggt cattttgtca acatagagct ggagtaaaaa actaccttgt
+     1021 ttctact
+//

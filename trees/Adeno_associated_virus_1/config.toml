@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_002077.1, taxonomy ID 1511891
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_002077.1'
-refseq_assembly = 'GCF_000863065.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_002077.1'
+#refseq_assembly = 'GCF_000863065.1'
+ref_fasta = './trees/Adeno_associated_virus_1/midpoint_rerooted_NC_002077.1.fa'
+ref_gbff = './trees/Adeno_associated_virus_1/midpoint_rerooted_NC_002077.1.gbff'
 taxonomy_id = '1511891'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

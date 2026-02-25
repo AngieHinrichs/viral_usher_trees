@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001461.1, taxonomy ID 3052619
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001461.1'
-refseq_assembly = 'GCF_000861245.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001461.1'
+#refseq_assembly = 'GCF_000861245.1'
+ref_fasta = './trees/Bovine_viral_diarrhea_virus_1/midpoint_rerooted_NC_001461.1.fa'
+ref_gbff = './trees/Bovine_viral_diarrhea_virus_1/midpoint_rerooted_NC_001461.1.gbff'
 taxonomy_id = '3052619'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_003310.1, taxonomy ID 3431483
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_003310.1'
-refseq_assembly = 'GCF_000857045.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_003310.1'
+#refseq_assembly = 'GCF_000857045.1'
+ref_fasta = './trees/Monkeypox_virus_Ia/treetime_rerooted_NC_003310.1.fa'
+ref_gbff = './trees/Monkeypox_virus_Ia/treetime_rerooted_NC_003310.1.gbff'
 taxonomy_id = '3431483'
 nextclade_dataset = 'nextstrain/mpox/all-clades'
 nextclade_clade_columns = 'clade,lineage,outbreak'

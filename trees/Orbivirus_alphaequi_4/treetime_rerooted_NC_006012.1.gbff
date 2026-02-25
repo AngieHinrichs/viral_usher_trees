@@ -1,0 +1,98 @@
+LOCUS       rerooted_NC_006012.1      1978 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006012.1.
+ACCESSION   rerooted_NC_006012.1
+VERSION     rerooted_NC_006012.1
+KEYWORDS    RefSeq.
+SOURCE      Orbivirus alphaequi
+  ORGANISM  Orbivirus alphaequi
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus.
+REFERENCE   1  (bases 1 to 1978)
+  AUTHORS   Mizukoshi,N., Sakamoto,K., Iwata,A., Tsuchiya,T., Ueda,S.,
+            Apiwatnakorn,B., Kamada,M. and Fukusho,A.
+  TITLE     The complete nucleotide sequence of African horsesickness virus
+            serotype 4 (vaccine strain) segment 4, which encodes the minor core
+            protein VP4
+  JOURNAL   Virus Res. 28 (3), 299-306 (1993)
+   PUBMED   8346671
+REFERENCE   2  (bases 1 to 1978)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1978)
+  AUTHORS   Fukusho,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-FEB-1993) Akio Fukusho, National Institute of Animal
+            Health; 6-20-1 Josui-Honcho, Kodaira, Tokyo 187, Japan
+            (Tel:81-423-21-1441, Fax:81-423-25-5122)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from D14402.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1978
+                     /organism="Orbivirus alphaequi"
+                     /mol_type="genomic RNA"
+                     /serotype="4"
+                     /db_xref="taxon:40050"
+                     /segment="4"
+                     /clone="pAH4.4-NM"
+                     /note="vaccine"
+     gene            12..1940
+                     /gene="VP4"
+                     /locus_tag="AHSV_s4gp1"
+                     /db_xref="GeneID:2930874"
+     CDS             12..1940
+                     /gene="VP4"
+                     /locus_tag="AHSV_s4gp1"
+                     /codon_start=1
+                     /product="inner capsid protein"
+                     /protein_id="YP_052957.1"
+                     /db_xref="GeneID:2930874"
+                     /translation="MEPYAILYVTQEIEYLLKDSFLPKWELDGIKDLNTLWLERGRMAC
+                     DTYAVGKIEQWSVRQLRAHRFLFISTKRKIRLKDCTISPDIFILKKELKEYDMKRFETL
+                     IGRRRVTLRKSFGNMLRAYAFQHVTVLHGSEAETLSYADPKRHVVKGQPKAAPMYDHPD
+                     RWWRDVDDGPTDKKLVSMLDYIIYSADEVYYVGCGDLKTLEQFASRDRKRFDRIKWICI
+                     DPIAPETSYANVKVVKEKVVSARDLKHYLMRDEVERLLIWDVSADGLKGTIEWEKQRFK
+                     EDRNGENIAEALCTDFALALIKHRIPEESDEYICRSSWLLPQPGAPITMYELRNLMRLD
+                     GYSHVERKHIPRAYVRKIDAEVARRLVEEYHGEDVGRLLKRSLYEDIHIERADGLTDGD
+                     ERTRADLFYLTNMRNAAFMHDVYRVVEKSFISTLWVSNRQNFTYDDVPVNRNFITLRFS
+                     KKNRRVLDGNGAILFLMWQHPKDFPKTTNYDPSWAENYAVIFYHALTSPVPDLSLCRFI
+                     GLRLMSSTLRINSDRAHQVTDILKKLGLDVSGHLFICLMSNSYVADLDWWFRMILEWSV
+                     KDREGKLAALSEAKAELIEWKDEKADEPWHIKNDLLAALFEFMYFAKHFEINERYVESW
+                     IQYLRNA*"
+ORIGIN
+        1 gtttatttag gatggaacct tacgcaatat tgtatgtcac gcaggagatc gaatacctac
+       61 tcaaagatag ttttcttcca aagtgggaac ttgatggaat taaggatctt aatacattat
+      121 ggttggagag gggcagaatg gcatgtgaca catacgcggt tggaaaaatt gagcaatggt
+      181 cggtgcggca gctacgcgcg catagatttt tgtttataag tacgaaaagg aagatcaggc
+      241 tgaaggattg cacgatttcg cccgacatat tcattttgaa aaaagaatta aaggagtatg
+      301 atatgaagag attcgaaacg ttaattggca gaagaagggt aacgttaagg aagagtttcg
+      361 ggaatatgtt aagggcttat gctttccaac acgtgactgt tctacacgga agtgaggcgg
+      421 aaacgttgag ttatgcggat ccgaagagac acgtcgtgaa aggccagcct aaagctgctc
+      481 caatgtatga tcatccagac agatggtggc gggatgttga tgatggacca accgataaga
+      541 aattagttag tatgcttgat tacattatat atagtgcgga tgaagtgtat tatgtcggat
+      601 gtggtgattt aaaaacactc gaacaattcg cgtctagaga taggaagcgg tttgacagaa
+      661 tcaaatggat atgcatagat ccaattgccc cggaaacatc gtacgctaat gtaaaggttg
+      721 taaaagaaaa agttgtgtca gcgcgtgatt tgaaacatta tttgatgcgc gatgaggtcg
+      781 agcgattatt aatttgggat gtgagtgcag atgggctgaa ggggacaatt gagtgggaga
+      841 agcagagatt taaggaggat cgtaatggtg aaaacatcgc ggaagcgttg tgcacagatt
+      901 ttgctttagc tttgattaaa catcgaatac cagaagagag tgatgaatat atttgcagga
+      961 gctcttggct actaccacag cccggggctc caataacgat gtatgagctg cgaaatctca
+     1021 tgcgtttgga cggatattca catgtcgaaa ggaaacacat accaagagcg tacgtccgga
+     1081 aaatcgatgc ggaagttgcg agaagattag ttgaggagta tcatggagag gatgtagggc
+     1141 gattgttgaa acgatcttta tatgaagata tacatattga gcgcgctgat gggttaacgg
+     1201 atggtgatga gagaacgaga gcggatctct tttacttgac aaatatgcgg aacgctgcgt
+     1261 ttatgcatga tgtatatcga gtagttgaaa aaagttttat ttctaccctg tgggtttcga
+     1321 acaggcagaa tttcacatat gatgatgtcc cggttaatag gaattttatt acattacgct
+     1381 tttcgaagaa gaatcgacga gtgcttgacg ggaatggagc aattctgttt ctgatgtggc
+     1441 agcatccgaa ggattttcca aaaactacga actatgatcc cagttgggcg gagaactatg
+     1501 ctgtcatttt ctatcatgcg ttaacgagtc cggttccgga tctttcatta tgcagattta
+     1561 ttggattaag gttgatgtct tcaactttga ggataaattc agatcgtgca catcaagtga
+     1621 ctgatatctt gaagaaattg ggtttggacg tatcgggtca tctatttatt tgtttaatgt
+     1681 caaattcata tgttgctgat cttgattggt ggtttcgtat gatcctagag tggtcagtta
+     1741 aggatagaga agggaagctg gcggcgttaa gtgaggcgaa ggcagaactc attgagtgga
+     1801 aggatgagaa agcggacgag ccttggcaca taaagaatga tttgctggcg gcgttgtttg
+     1861 agtttatgta ctttgcgaaa cattttgaga taaacgagag gtatgtcgag tcctggatac
+     1921 aatatctgcg taacgcttaa aggtgacact tagcgagggg gaatcctaat aaccttac
+//

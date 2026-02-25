@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_006998.1, taxonomy ID 10245
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_006998.1'
-refseq_assembly = 'GCF_000860085.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_006998.1'
+#refseq_assembly = 'GCF_000860085.1'
+ref_fasta = './trees/Orthopoxvirus_vaccinia/midpoint_rerooted_NC_006998.1.fa'
+ref_gbff = './trees/Orthopoxvirus_vaccinia/midpoint_rerooted_NC_006998.1.gbff'
 taxonomy_id = '10245'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

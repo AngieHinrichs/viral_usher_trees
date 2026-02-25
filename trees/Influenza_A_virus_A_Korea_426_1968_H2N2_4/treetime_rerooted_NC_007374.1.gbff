@@ -1,0 +1,100 @@
+LOCUS       rerooted_NC_007374.1      1773 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007374.1.
+ACCESSION   rerooted_NC_007374.1
+VERSION     rerooted_NC_007374.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Korea/426/1968(H2N2))
+  ORGANISM  Influenza A virus (A/Korea/426/1968(H2N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1773)
+  AUTHORS   Schafer,J.R., Kawaoka,Y., Bean,W.J., Suss,J., Senne,D. and
+            Webster,R.G.
+  TITLE     Origin of the pandemic 1957 H2 influenza A virus and the persistence
+            of its possible progenitors in the avian reservoir
+  JOURNAL   Virology 194 (2), 781-788 (1993)
+   PUBMED   7684877
+REFERENCE   2  (bases 1 to 1773)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from L11133.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1773
+                     /organism="Influenza A virus (A/Korea/426/1968(H2N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Korea/426/1968"
+                     /serotype="H2N2"
+                     /db_xref="taxon:488241"
+                     /segment="4"
+     gene            44..1732
+                     /gene="HA"
+                     /locus_tag="FLUAVH2N2_s4p1"
+                     /db_xref="GeneID:3655103"
+     CDS             44..1732
+                     /gene="HA"
+                     /locus_tag="FLUAVH2N2_s4p1"
+                     /codon_start=1
+                     /product="hemagglutinin"
+                     /protein_id="YP_308850.1"
+                     /db_xref="GeneID:3655103"
+                     /translation="MAIIYLILLFTVVKGDQICIGYHANNSTEKVDTILERNVTVTHAK
+                     DILEKTHNGKFCKLNGIPPFELGDCSIAGWLLGNPECDRLLSVPEWSYIVEKENPMNGL
+                     CYPGSFNDYEELKHLLSSVTHFEKIKILPRDRWTQHTTTGGSRACAVSGKPSFFRNMVW
+                     LTKKGSNYPVAKGSYNNTSGEQMLIIWGIHHPNDETEQRTLYQNVGTYVSVGTSTLNKR
+                     SIPEIATRPKVNGQGGRMEFSWTLLDMWDAINFESTGNLIAPEYGFKISKRGSSGIMKT
+                     EGTLDNCDTKCQTPLGAINTTLPFHNVHPLTIGECPKYVKSDKLVLATGLRNVPQIESR
+                     GLFGAIAGFIEGGWQGMVDGWYGYHHSNDQGSGYAADKESTQKAIDGITNKVNSVIEKM
+                     NTQFEAVGKEFSNLERRLENLNKKMEDGFLDVWTYNAELLVLMENERTLDFHDSNVKNL
+                     YDKVRMQLRDNAKEIGNGCFEFYHKCDDECMNSVRNGTYDYPKYEEESKLNRNEIKGVK
+                     LSNMGVYQILAIYATVAGSLSLAIMIAGISFWMCSNGSLQCRICI*"
+     sig_peptide     44..88
+                     /gene="HA"
+                     /locus_tag="FLUAVH2N2_s4p1"
+     mat_peptide     89..1063
+                     /gene="HA"
+                     /locus_tag="FLUAVH2N2_s4p1"
+                     /product="HA1"
+                     /protein_id="YP_308873.1"
+     mat_peptide     1064..1729
+                     /gene="HA"
+                     /locus_tag="FLUAVH2N2_s4p1"
+                     /product="HA2"
+                     /protein_id="YP_308874.1"
+ORIGIN
+        1 agcaaaagca ggggttatac catagacaac caaaagcaaa acaatggcca tcatttatct
+       61 cattctcctg ttcacagtag tgaaagggga ccagatatgc attggatacc atgccaacaa
+      121 ttccacagaa aaggtcgaca caatcctgga gcggaacgtc actgtgactc atgccaagga
+      181 cattcttgag aaaacgcata acggaaaatt ctgcaaacta aatggaatcc ctccatttga
+      241 actaggggat tgtagcattg caggatggct ccttggaaat ccagaatgtg accgactcct
+      301 aagtgtaccg gaatggtcct acatagtgga gaaagaaaat ccaatgaatg gtctgtgcta
+      361 tccaggcagt ttcaatgatt atgaagaact gaaacatctc ctcagcagcg tgacacattt
+      421 tgagaaaatt aagattctgc ccagagatag atggacccag catacaacaa ctggaggttc
+      481 acgggcctgt gcagtgtctg gtaaaccatc attcttcagg aacatggtct ggctgacaaa
+      541 gaaaggatca aattatccgg ttgccaaagg atcgtacaac aatacaagtg gagaacaaat
+      601 gctgataatt tgggggatac accatcccaa tgatgaaaca gaacaaagaa cactgtacca
+      661 gaatgtggga acctatgttt ccgtaggcac atcaacattg aacaagaggt caatcccaga
+      721 aatagcaaca aggcccaaag tgaatggaca aggaggaaga atggaattct cttggacact
+      781 attggatatg tgggatgcca taaattttga gagtactggt aatctaattg caccagaata
+      841 tggattcaaa atatcaaaaa gaggaagttc aggaatcatg aaaacagaag gaacacttga
+      901 taactgtgac accaaatgtc aaactccctt gggagcaata aatacaacat tgccttttca
+      961 caatgtccac ccactgacaa taggtgagtg ccccaaatat gtgaagtcag ataaattggt
+     1021 cttggcaaca ggactaagga atgtccccca gattgaatca agaggattgt ttggagcaat
+     1081 agctgggttt atagaaggag gatggcaagg aatggttgat ggatggtatg gataccatca
+     1141 cagcaatgat cagggatcag gatatgcagc agacaaagaa tccactcaaa aggcaattga
+     1201 tgggatcacc aacaaagtaa attctgtgat tgaaaagatg aacactcaat ttgaagctgt
+     1261 tgggaaagaa ttcagtaacc tagagaggag actggaaaac ttgaacaaaa agatggaaga
+     1321 tggatttcta gatgtatgga catacaatgc tgaactccta gttctaatgg aaaatgagag
+     1381 aacacttgat tttcatgatt ctaatgtcaa gaatctgtat gataaggtca gaatgcagct
+     1441 gagagacaat gcaaaagaaa taggcaatgg atgttttgaa ttttatcaca aatgtgatga
+     1501 tgaatgcatg aatagtgtga gaaatggaac atatgactat cccaagtatg aagaagaatc
+     1561 aaaactaaac agaaacgaaa tcaaaggagt aaaattgagc aacatggggg tttatcaaat
+     1621 acttgcaatt tacgctacag tggcaggttc cctgtcactg gcaatcatga tagctgggat
+     1681 atctttctgg atgtgctcca atggttctct gcaatgcagg atctgcatat gattataagt
+     1741 caatttataa ttaaaaacac ccttgtttcc taa
+//

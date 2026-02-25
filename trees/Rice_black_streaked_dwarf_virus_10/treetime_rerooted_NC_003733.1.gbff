@@ -1,0 +1,94 @@
+LOCUS       rerooted_NC_003733.1      1801 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_003733.1.
+ACCESSION   rerooted_NC_003733.1
+VERSION     rerooted_NC_003733.1
+KEYWORDS    RefSeq; ORF1.
+SOURCE      Rice black streaked dwarf virus
+  ORGANISM  Rice black streaked dwarf virus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Fijivirus; Fijivirus
+            alporyzae.
+REFERENCE   1  (bases 1 to 1801)
+  AUTHORS   Zhang,H., Chen,J., Lei,J. and Adams,M.J.
+  TITLE     Sequence analysis shows that a dwarfing disease on rice, wheat and
+            maize in China is caused by Rice black-streaked dwarf virus (RBSDV)
+  JOURNAL   Eur. J. Plant Pathol. 107, 563-567 (2001)
+REFERENCE   2  (bases 1 to 1801)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1801)
+  AUTHORS   Adams,M.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2000) Adams M.J., Plant Pathology Department,
+            IACR-Rothamsted, Harpenden, Herts AL5 2JQ, UNITED KINGDOM
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AJ297433.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1801
+                     /organism="Rice black streaked dwarf virus"
+                     /mol_type="genomic RNA"
+                     /host="rice"
+                     /db_xref="taxon:10990"
+                     /segment="10"
+                     /geo_loc_name="China:Zhejiang"
+     5'UTR           1..21
+     gene            22..1698
+                     /locus_tag="RBSDVs10gp1"
+                     /db_xref="GeneID:956489"
+     CDS             22..1698
+                     /locus_tag="RBSDVs10gp1"
+                     /function="unknown"
+                     /note="ORF1"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_620459.1"
+                     /db_xref="UniProtKB/TrEMBL:Q91E10"
+                     /db_xref="GeneID:956489"
+                     /translation="MADIRLDIAPDLIHNGVPQRLSDTIILNNRPTITLLSHFNNLFHE
+                     LNIVKAPHVASSQTTVNLYIRKHLLTRLHDRLQTVETSTLPNITQLKDHIRSFFQNEHQ
+                     PIFQTLTNNDLSEEFVGVTTFGLSLFATSKLDAEQIERVQIETLTEGNITLKPFSADGL
+                     EVILDDSYIGIVGKIPGLEVHKLLDKCCREVPAQMGILTDEVKLLMRTGKLRIDGGYDF
+                     NCPASTTDVTHYGGYDQFSRQMFERLNLFYNISLSIIPVSALKTVHLFEKELSVLDADK
+                     SLLEQTWSAVASFVETWQVKSKVKADDPDEYELTSLSTLRTNYDGTSASSPFTDKKFID
+                     WYIKTFSKTEKGSSLRRNELEEKSATSTSTTVKKVKIHFSVQYFDEFKVNGHEKSVVVQ
+                     THKGEMTLDYYRKIGEVLSAIWKRGKSLAVPCFDYIKLGVEKAFHLAPVILKKYNLTID
+                     DIINFIDKGPSYLAKLDKIDDWSLISKLIITSVLPNIIQAVYKTDPSNNVMNSVIISRA
+                     NNLLKSDRDRLLKKALSANVSSSNTSSHEHTQKIVLNKVTR*"
+     3'UTR           1699..1801
+ORIGIN
+        1 aagttttttt cctcacccat aatggctgac ataagactcg acatagcgcc cgatcttatc
+       61 cataatggtg taccccagag actttccgat acaataattt taaacaaccg accaacaatc
+      121 actctgttat ctcatttcaa caatctattt catgaattaa acattgtcaa agcgccccac
+      181 gttgcatctt cccaaactac cgttaatttg tacattcgca aacatttgtt gacccgactt
+      241 catgatagac tgcaaaccgt agaaactagc actttaccca acatcacgca acttaaagac
+      301 catattcgta gtttctttca aaatgaacac caacctattt ttcagaccct aacgaacaac
+      361 gacctaagcg aagaatttgt aggtgtgact acttttggac taagcttatt tgctacctcc
+      421 aaacttgatg ctgaacaaat agaacgtgta caaattgaga ccctaactga aggaaacatt
+      481 acgttgaagc ccttttccgc tgatggttta gaagtcattc tcgatgatag ttatattggt
+      541 atagttggta aaattccagg tttagaagtt cataaattgt tagataaatg ttgtcgtgaa
+      601 gttcctgctc aaatgggaat acttactgat gaagttaaac ttttgatgcg tactggtaaa
+      661 ttaagaattg atggtggtta cgatttcaat tgtcctgcaa gcactacaga tgttacacac
+      721 tacggtggtt atgaccaatt ttcacgtcaa atgttcgaac gtttgaatct cttttataat
+      781 attagtctta gcataattcc cgtttcagct ttgaaaacag ttcatttatt tgaaaaagaa
+      841 ttaagtgttt tggatgcaga taaatcttta ctcgaacaaa cttggagcgc agtagcgtca
+      901 tttgttgaaa cttggcaagt taaatctaaa gttaaagctg atgatccaga tgaatatgaa
+      961 ttgaccagtt tgtccacgtt gcgtactaat tacgatggca cctctgcttc tagtcctttt
+     1021 acagataaga aattcattga ttggtacatt aagacttttt ctaaaactga gaaaggatcg
+     1081 tcgttgcgtc gaaacgaatt agaagagaaa agtgccacta gtacttcaac tacagtaaag
+     1141 aaggttaaaa ttcatttctc cgttcaatat tttgatgaat ttaaagttaa tggacatgaa
+     1201 aaaagcgttg tagttcaaac tcataaaggt gaaatgacat tagattatta tcgtaaaatt
+     1261 ggcgaagtat taagtgcgat ttggaaacgc ggtaaatctt tggctgtacc ttgttttgat
+     1321 tacattaagc ttggcgttga gaaagcattt catttagcac ccgtaattct gaagaagtat
+     1381 aacttgacga tcgacgatat tatcaacttc attgataaag gaccttctta tttagctaaa
+     1441 ttagacaaga ttgatgattg gtctttaatt tcaaagctta ttattaccag tgttttacct
+     1501 aacattattc aagctgttta taaaaccgat ccaagtaata atgttatgaa ctcagtaatt
+     1561 atcagtagag cgaacaactt gttgaaatct gatagggaca gactattaaa gaaggcactt
+     1621 tccgccaacg tttcttcctc caatacatct agtcatgagc atacacagaa gatagtacta
+     1681 aacaaagtga caagatgacc actggaagta catcattagt gcgactagtt cagtgctgtg
+     1741 cgatcttcag ttcattatcg atgccgagtg acgacggcta gggggaaatt cagctattgt
+     1801 c
+//

@@ -1,0 +1,89 @@
+LOCUS       rerooted_NC_007381.1      1497 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007381.1.
+ACCESSION   rerooted_NC_007381.1
+VERSION     rerooted_NC_007381.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Korea/426/1968(H2N2))
+  ORGANISM  Influenza A virus (A/Korea/426/1968(H2N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1497)
+  AUTHORS   Lindstrom,S.E., Cox,N.J. and Klimov,A.
+  TITLE     Genetic analysis of human H2N2 and early H3N2 influenza viruses,
+            1957-1972: evidence for genetic divergence and multiple reassortment
+            events
+  JOURNAL   Virology 328 (1), 101-119 (2004)
+   PUBMED   15380362
+REFERENCE   2  (bases 1 to 1497)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1497)
+  AUTHORS   Lindstrom,S.E., Cox,N.J. and Klimov,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JAN-2003) NCID/DVRD/Influenza Branch, Centers for
+            Disease Control and Prevention, 1600 Clifton Road, Atlanta, GA
+            30333, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AY210103.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1497
+                     /organism="Influenza A virus (A/Korea/426/1968(H2N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Korea/426/1968"
+                     /serotype="H2N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:488241"
+                     /segment="5"
+                     /collection_date="1968"
+     gene            1..1497
+                     /gene="NP"
+                     /locus_tag="FLUAVH2N2_s5p1"
+                     /db_xref="GeneID:3655111"
+     CDS             1..1497
+                     /gene="NP"
+                     /locus_tag="FLUAVH2N2_s5p1"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="YP_308871.1"
+                     /db_xref="GeneID:3655111"
+                     /translation="MASQGTKRSYEQMETGGERQNATEIRASVGRMVGGIGRFYIQMCT
+                     ELKLSDYEGRLIQNSITIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRRDGKW
+                     MRELILYDKEEIRRIWRQANNGEDATAGLTHMMIWHSNLNDATYQRTRALVRTGMDPRM
+                     CSLMQGSTLPRRSGAAGAAVKGVGTMVMELIRMIKRGINDRNFWRGENGRRTRIAYERM
+                     CNILKGKFQTAAQRAMMDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCLPACVY
+                     GLAVASGYDFEREGYSLVGIDPFRLLQNSQVFSLIRPNENPAHKSQLVWMACHSAAFED
+                     LRVSSFIRGTKVVPRGQLSTRGVQIASNENMETMDSSTLELRSRYWAIRTRSGGNTNQQ
+                     RASAGQISVQPTFSVQRNLPFERATIMAAFTGNTEGRTSDMRTEIIRMMESARPEDVSF
+                     QGRGVFELSDEKATNPIVPSFDMSNEGSYFFGDNAEEYDN*"
+ORIGIN
+        1 atggcgtctc aaggcaccaa acgatcttat gaacagatgg aaactggtgg ggaacgccag
+       61 aatgccactg aaatcagagc atctgttgga agaatggttg gtggaattgg acgattctac
+      121 attcaaatgt gcactgaact caaactcagt gactatgaag gacggctgat ccagaacagc
+      181 ataacaatag agagaatggt gctctctgca tttgatgaga ggagaaacaa atacctggaa
+      241 gagcatccca gtgctgggaa agaccctaag aaaactggag gacccatata cagaagaaga
+      301 gatggaaaat ggatgagaga actcatcctc tatgacaaag aagaaatcag gagaatctgg
+      361 cgccaagcca acaatggaga agatgcaact gctggtctta ctcatatgat gatctggcat
+      421 tccaatctga atgatgccac ttatcagaga acaagagctc ttgttcggac tgggatggat
+      481 cccagaatgt gctctctgat gcaaggatca actctcccaa ggagatctgg agctgcaggt
+      541 gctgcagtga aaggagttgg aacaatggtg atggagctga tcaggatgat caaacgtgga
+      601 atcaatgatc ggaacttctg gagaggtgaa aatggacgaa ggacaagaat tgcttatgaa
+      661 agaatgtgca acatcctcaa agggaaattc caaacagcag cacaaagagc aatgatggat
+      721 caagtgagag agagccgaaa tcctggaaat gctgagattg aagatctcat cttcctggca
+      781 cggtctgcac tcattctgag aggatcagtt gctcacaaat cctgcctgcc tgcctgtgtg
+      841 tatggacttg ctgtagccag tggatatgac tttgaaagag agggatactc tctggtcgga
+      901 atagatcctt tcagactgct ccaaaacagc caagtattca gtctgatcag accaaatgaa
+      961 aatccagcac acaagagtca actggtgtgg atggcatgcc attctgcagc atttgaagat
+     1021 ctgagagttt caagtttcat cagaggaaca aaagtggtcc caagagggca actgtccacc
+     1081 agaggagttc aaattgcttc aaatgaaaac atggaaacaa tggactccag cactcttgaa
+     1141 ctgagaagca gatactgggc aataaggacc agaagtggag gaaacaccaa tcaacagaga
+     1201 gcatctgcag gacaaatcag cgtgcaaccc actttctcag tgcagagaaa tcttcctttt
+     1261 gagagagcaa ccattatggc tgcattcact gggaacactg aagggagaac atctgacatg
+     1321 agaactgaaa tcataaggat gatggaaagt gccagaccag aagatgtgtc tttccagggg
+     1381 cggggagtct tcgagctctc ggacgaaaag gcaacgaacc cgatcgtgcc ttcctttgac
+     1441 atgagtaatg aaggatctta tttcttcgga gacaatgcag aggagtatga caattaa
+//

@@ -1,0 +1,98 @@
+LOCUS       rerooted_NC_007570.1      1353 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007570.1.
+ACCESSION   rerooted_NC_007570.1
+VERSION     rerooted_NC_007570.1
+KEYWORDS    RefSeq; major inner capsid protein; VP6 gene.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus; Rotavirus
+            tritogastroenteritidis.
+REFERENCE   1  (bases 1 to 1352)
+  AUTHORS   Cooke,S.J., Lambden,P.R., Caul,E.O. and Clarke,I.N.
+  TITLE     Molecular cloning, sequence analysis and coding assignment of the
+            major inner capsid protein gene of human group C rotavirus
+  JOURNAL   Virology 184 (2), 781-785 (1991)
+   PUBMED   1653500
+REFERENCE   2  (bases 1 to 1353)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1353)
+  AUTHORS   Cooke,S.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-DEC-2000) S.J. Cooke, University of Southampton, Dept
+            of Microbiology, Southampton General Hospital, Tremona Road,
+            Southampton S09 4XY, UK
+REFERENCE   4
+  AUTHORS   Cooke,S.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAY-1991) S.J. Cooke, University of Southampton, Dept
+            of Microbiology, Southampton General Hospital, Tremona Road,
+            Southampton S09 4XY, UK
+  REMARK    Revised by [3]
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X59843.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1353
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /isolate="4077-89"
+                     /db_xref="taxon:36427"
+                     /segment="5"
+     gene            <1..>1353
+                     /gene="VP6"
+                     /locus_tag="HRCV_s5gp1"
+                     /db_xref="GeneID:3773139"
+     mRNA            <1..>1353
+                     /gene="VP6"
+                     /locus_tag="HRCV_s5gp1"
+                     /product="major inner capsid protein"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /db_xref="GeneID:3773139"
+     CDS             23..1210
+                     /gene="VP6"
+                     /locus_tag="HRCV_s5gp1"
+                     /codon_start=1
+                     /product="major inner capsid protein"
+                     /protein_id="YP_392512.1"
+                     /db_xref="InterPro:IPR001385"
+                     /db_xref="InterPro:IPR008935"
+                     /db_xref="UniProtKB/Swiss-Prot:P69481"
+                     /db_xref="GeneID:3773139"
+                     /translation="MDVLFSIAKTVSDLKKKVVVGTIYTNVEDIIQQTNELIRTLNGNT
+                     FHTGGIGTQPQKEWNFQLPQLGTTLLNLDDNYVQATRSVIDYLASFIEAVCDDEIVREA
+                     SRNGMQPQSPTLIALSSSKFKTINFNNSSQSIKNWSAQSRRENPVYEYKNPMVFEYRNS
+                     YILQRANPQFGNVMGLRYYTASNTCQIAAFDSTLAENAPNNTQRFIYNGRLKRPISNVL
+                     MKIEAGAPNINNPTVLPDPTNQTTWLFNPVQIMNGTFTIEFYNNGQLVDMVRNMGVVTV
+                     RTFDSYRITIDMIRPAAMTQYVQRIFPQGGPYPHQAAYMLTLSILDATTESVLCDSHSV
+                     DYSIVANVRRDSAMPAGTVFQPGFPWEQTLSNYTVAQEDNLERLLLVASVKRMVM*"
+ORIGIN
+        1 ggcatttaaa atctcattca caatggatgt gcttttttcc attgcgaaga ctgtttcaga
+       61 tcttaaaaag aaagttgtag ttggtacaat ttatactaat gtagaagata ttattcaaca
+      121 aactaatgaa ttgattagaa ctttaaatgg taatactttt catactggtg gaattggaac
+      181 acagcctcaa aaagaatgga attttcaact tccacaatta ggtacaactt tattaaattt
+      241 agatgataat tatgttcaag ctactagaag tgtaattgat tatttagctt catttataga
+      301 agcagtatgt gatgatgaaa ttgttagaga agcatcaaga aatggaatgc aacctcaatc
+      361 tccaactctt atagcactat cttcatcaaa atttaaaact attaatttta ataatagttc
+      421 tcaatctatt aaaaattgga gtgctcaatc aagacgtgaa aatccagttt atgaatataa
+      481 aaatccaatg gtgtttgaat atagaaattc atacattctt caacgtgcta atccacaatt
+      541 tggaaatgtt atgggattaa gatattatac agctagtaat acttgtcaaa ttgcagcatt
+      601 tgattcaaca cttgctgaaa atgcaccaaa taatactcaa cgtttcattt ataatggaag
+      661 acttaaaaga ccaatttcta atgttttaat gaaaattgaa gctggtgctc caaatattaa
+      721 taatccaaca gttttacctg atccaacaaa tcaaacaaca tggctattta atccagtaca
+      781 aataatgaat ggaacattta ctattgaatt ttataataat ggtcaattag ttgatatggt
+      841 tagaaatatg ggagtagtta ctgttagaac atttgattct tatagaataa caattgatat
+      901 gattagacca gcagctatga ctcaatatgt tcagagaatt tttccacaag gtggacctta
+      961 tcctcatcaa gctgcatata tgttaacact aagtatatta gatgctacaa cagaatctgt
+     1021 tctatgtgat tcacattcag ttgactattc aattgttgca aatgttagaa gagattcagc
+     1081 aatgccagct ggaacagttt ttcaaccagg atttccatgg gaacaaacat tatccaacta
+     1141 cactgttgct caagaagata atttagaaag acttttatta gttgcatctg tgaagagaat
+     1201 ggtgatgtag ataagctaga gatctaaaca atctctatgt ggactacaca ccatgtagca
+     1261 tgattcacga atgggtttag tccatgcttg cgtaggggca aatgcgcatg atgtggatga
+     1321 tccccaggag gatgaaatgt gaactatgtg gct
+//

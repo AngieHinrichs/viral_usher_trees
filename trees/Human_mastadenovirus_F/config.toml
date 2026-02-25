@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001454.1, taxonomy ID 3241426
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001454.1'
-refseq_assembly = 'GCF_000846685.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001454.1'
+#refseq_assembly = 'GCF_000846685.1'
+ref_fasta = './trees/Human_mastadenovirus_F/midpoint_rerooted_NC_001454.1.fa'
+ref_gbff = './trees/Human_mastadenovirus_F/midpoint_rerooted_NC_001454.1.gbff'
 taxonomy_id = '3241426'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

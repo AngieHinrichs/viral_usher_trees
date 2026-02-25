@@ -1,0 +1,88 @@
+LOCUS       rerooted_NC_006020.1      1748 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006020.1.
+ACCESSION   rerooted_NC_006020.1
+VERSION     rerooted_NC_006020.1
+KEYWORDS    RefSeq.
+SOURCE      Orbivirus alphaequi
+  ORGANISM  Orbivirus alphaequi
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus.
+REFERENCE   1  (bases 1 to 1748)
+  AUTHORS   Maree,F.F. and Huismans,H.
+  TITLE     Characterization of tubular structures composed of nonstructural
+            protein NS1 of African horsesickness virus expressed in insect cells
+  JOURNAL   J. Gen. Virol. 78 (Pt 5), 1077-1082 (1997)
+   PUBMED   9152425
+REFERENCE   2  (bases 1 to 1748)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1748)
+  AUTHORS   Maree,F.F. and Huismans,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-OCT-1996) Department of Genetics, University of
+            Pretoria, Pretoria 0002, South Africa
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to U73658.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1748
+                     /organism="Orbivirus alphaequi"
+                     /mol_type="genomic RNA"
+                     /serotype="6"
+                     /db_xref="taxon:40050"
+                     /segment="5"
+     5'UTR           1..35
+     gene            36..1682
+                     /locus_tag="AHSVs5gp1"
+                     /db_xref="GeneID:2943146"
+     CDS             36..1682
+                     /locus_tag="AHSVs5gp1"
+                     /codon_start=1
+                     /product="nonstructural protein NS1"
+                     /protein_id="YP_052965.1"
+                     /db_xref="GeneID:2943146"
+                     /translation="MDRFLTYFQVRGERANAVRLFGEISEQIDCSHLKRDCFVNGICAR
+                     QHFKECCNIATDNGSRTNADKLVALALRALLDRQTIWTCVIKNADYVSQYADEQMEEEV
+                     NKLYDVYLQSGTREEFEGFRQRNRPSRVVMDDSCSMLSYFYIPMNQGNPAPVAKLSRWG
+                     QFGICYYDRTNVDGLIPYDEIGLAQAIDGLKDLIEGRLPVCPYTGANGRVNAVLHLPLE
+                     MEVIMAVQENATQLMRRAAQDFKFITHAGWKLYPRLLRQRFAIEDATEGVIHHVMLGHL
+                     RYYDEDTSIVKYRFLNDGSLDWRTWTVPLHLMRTARLGHLQPESILVFMHKKLHVRYVL
+                     WLTSLCLTQSQWLIQKLPELTGGTDVFYTRAYVHAENHKVPNVRDLMMNEVFRKIDDHW
+                     VIQKCHTTKEAITVTAIQIQRSIRGDGQWDTPMFHQSMALLTRLIVYWLTDVTERSAIF
+                     RLTCFAIFGCKPTARGRYIDWDDLGTFMKNVLDGRDLTVLEDETCFISMMRMAMLHVQR
+                     SKVVCATVLEAPLEIQQVGQIVEVPFDFMHN*"
+     3'UTR           1683..1748
+ORIGIN
+        1 gttaaagaac ctaggcggtt tggcaacaca caaacatgga taggttcttg acttatttcc
+       61 aggtacgagg agagagagca aacgctgttc ggctgtttgg agagatttcc gaacaaatag
+      121 attgctcaca tctcaaacga gattgctttg taaatggaat atgtgcaaga caacacttta
+      181 aagaatgctg taatattgct acagataatg gctcacgcac aaacgcagat aaattagtgg
+      241 ctttagcttt gcgagcactt ttagatagac aaactatttg gacttgtgtc atcaagaatg
+      301 cggattacgt tagtcaatat gctgatgagc agatggagga agaagttaat aaactgtatg
+      361 atgtctatct ccagagcggg acgagagagg aatttgaagg atttagacag aggaatagac
+      421 caagtagagt tgtgatggat gatagttgct caatgctctc atatttttac attccaatga
+      481 atcaagggaa tccagctcca gttgcaaagc ttagccgatg gggtcaattt ggaatttgtt
+      541 actatgacag aacaaatgtt gatggattga ttccgtatga tgagatcggt ttagctcaag
+      601 ctatagatgg tttaaaggat ctgattgaag ggcgattgcc tgtttgccct tatactggag
+      661 cgaatggcag ggttaatgct gttttacatc taccattaga gatggaagtg attatggcag
+      721 tgcaggaaaa tgcaacacaa ttaatgcgca gagcggcaca ggatttcaaa ttcatcacac
+      781 acgctggatg gaagctatac ccaagattgt tgcgacaacg ttttgcgatc gaggacgcta
+      841 cggaaggggt gattcatcat gtgatgctag gccatttaag atattatgat gaagatacaa
+      901 gtatcgtgaa gtatcgcttc cttaacgatg gatctttaga ttggaggact tggacagttc
+      961 ctttacatct gatgcggaca gcgaggttgg gacatctgca accggaatca attttggtct
+     1021 ttatgcataa aaagctacat gtcaggtatg ttttatggtt gacctcgctc tgcttgacac
+     1081 aatcccagtg gttgattcaa aaattgcctg aactaacagg aggcacagat gtattttata
+     1141 cacgtgcgta tgtacatgcg gagaatcaca aagtgccaaa tgtcagagat ttgatgatga
+     1201 atgaagtctt caggaagatc gatgatcatt gggtgattca gaagtgtcat acaacgaagg
+     1261 aagcgattac tgtaactgca attcagatcc agaggtcaat cagaggtgat gggcagtggg
+     1321 atactccgat gtttcaccaa tcaatggctc tgttaacacg attgattgtt tattggttaa
+     1381 cagatgtgac tgagagaagc gctatctttc ggctgacttg tttcgcaatc tttggatgta
+     1441 agccaacagc tcgaggtaga tatattgatt gggatgatct tggaacattc atgaaaaatg
+     1501 tgttggatgg aagagacttg actgttttgg aagatgagac atgttttatt tcgatgatga
+     1561 ggatggcgat gttgcatgtg cagagatcca aggtagtgtg cgcaactgtg ttggaggcgc
+     1621 cattggaaat acaacaggtt ggccagatcg ttgaagtacc ctttgatttc atgcataatt
+     1681 agatcaaatt taaaagtttg tacccgggaa gtaggttaag atcatatccc cctggttcac
+     1741 aaacttac
+//

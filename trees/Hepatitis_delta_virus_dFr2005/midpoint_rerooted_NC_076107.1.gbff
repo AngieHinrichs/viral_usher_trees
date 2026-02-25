@@ -1,0 +1,85 @@
+LOCUS       rerooted_NC_076107.1      1687 bp    RNA     circular VRL 04-MAY-2023
+DEFINITION  rerooted_NC_076107.1.
+ACCESSION   rerooted_NC_076107.1
+VERSION     rerooted_NC_076107.1
+KEYWORDS    RefSeq; large HD antigen; LHD gene.
+SOURCE      Hepatitis delta virus
+  ORGANISM  Hepatitis delta virus
+            Viruses; Ribozyviria; Ribozyviria incertae sedis; Kolmioviridae;
+            Deltavirus; Deltavirus italiense.
+REFERENCE   1
+  AUTHORS   Le Gal,F., Gault,E., Ripault,M.P., Serpaggi,J., Trinchet,J.C.,
+            Gordien,E. and Deny,P.
+  TITLE     Eighth major clade for hepatitis delta virus
+  JOURNAL   Emerging Infect. Dis. 12 (9), 1447-1450 (2006)
+   PUBMED   17073101
+REFERENCE   2  (bases 1 to 1687)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1687)
+  AUTHORS   Deny,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JAN-2006) Deny P., Bacteriologie-Virologie-Hygiene,
+            Hopital Avicenne, 125 route de Stalingrad, Bobigny 93009 cedex,
+            FRANCE
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AM183331.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1687
+                     /organism="Hepatitis delta virus"
+                     /mol_type="genomic RNA"
+                     /strain="dFr2005"
+                     /db_xref="taxon:12475"
+                     /geo_loc_name="Guinea-Bissau"
+     gene            complement(958..1602)
+                     /gene="LHD"
+                     /locus_tag="QKK76_gp1"
+                     /db_xref="GeneID:80534628"
+     CDS             complement(958..1602)
+                     /gene="LHD"
+                     /locus_tag="QKK76_gp1"
+                     /codon_start=1
+                     /product="large HD antigen"
+                     /protein_id="YP_010796945.1"
+                     /db_xref="GOA:A1IVQ1"
+                     /db_xref="InterPro:IPR002506"
+                     /db_xref="UniProtKB/TrEMBL:A1IVQ1"
+                     /db_xref="GeneID:80534628"
+                     /translation="MSQSDQKKSRRGGREEILEKWVQARKDAEDLERRLRKTKRTIKKL
+                     EDENPWLGNILGIIRKGKDGEGAPPAKRARTDQMEVDSGPRKRTRAGDFTDKERQDHRR
+                     RKALENKKKQLSAGGKSLSKEEEEELRRLTEEDEKRERRVAGPRVGDVNPPSGXPRGAP
+                     GGGFVPQMLGVPESPFSRTGEGLDIRGXQQFPWVSPGSPPPRLPLLECTPQ*"
+ORIGIN
+        1 atagccgaag tgccgaggaa gagccggagg aggagaggaa agagatcccg agggggatgc
+       61 aagctaaaga gtggaggatc ttcggggaag gtctcccaag aagaaccagg aacaccycaa
+      121 gaagaggaga cttccccaag gctaggtgga acgcccggga acaaggaaat aggagaagga
+      181 acggtagaaa agagcgagcc ctccgatccg atggggccct ggacccctca gctctggagt
+      241 cctccgacct gtgaggtcga ggattccccg cggagggaga cagccaccag gagaggacag
+      301 agaaatcacc tccagaggac cccttcagcg aacatgaagc gctctgagcc gccaggatga
+      361 gtccatagcg ataggagggg atgctaggag tcggcggcga ccgaagcgag gaggaaagta
+      421 aagaaagcaa cggggctagc gagtggatgt tccgcctccc cagggtcccg agtgaggctt
+      481 atcccgggga actcggccaa gtcccgagat rgccgcgtcc acggttcccc ttcaaaaggg
+      541 agaggggggg acttggagca caggggacca gtccagtccg tgggattacc ccggacctcc
+      601 cgttctccac actccttccc cccgcgggct cctccaataa aaaggaaaga cccacccact
+      661 ggggtccgac gtcccaccct ttcttacctt ttggccggca tggtcccagc ctcctcgctg
+      721 gcgccggctg ggcaacattc cgaggggacc gtccctcggt aatggcgaat gggacccaga
+      781 wctctctcta gattcccaga gagaatcgag agaaaactgg ctctccctta gccatccgag
+      841 tggacgtctg tcctccttcg gatgcccagg tcggaccgcg gggaggtgga gatgccatgc
+      901 cgacccgaag aggaaagaag gactcggacg cgaacccgtg aggtgaaact ttcacattta
+      961 ttggggagta cactcgagga gtggaaggcg gggaggcggg gatcccgggc ttacccacgg
+     1021 gaactgctgg kttcctctga tgtccagtcc ctcccccgtc ctggagaagg gagactcggg
+     1081 aacgcctagc atctgaggga craagccgcc cccgggcgct cccctcggag rtccactggg
+     1141 tgggttcaca tccccaaccc gcgggccggc tactcttctt tcccttttct cgtcttcctc
+     1201 ggtcaacctc cggagttcct cttcctcctc cttgctgagg gactttcctc ccgcgctcag
+     1261 ttgcttcttc ttgttctcga gggccttcct tcttcggtga tcctgtctct ccttgtcggt
+     1321 gaagtctccc gcgcgrgtcc tcttcctagg tccggagtcg acctccatct gatccgtccg
+     1381 ggccctcttc gccgggggag ctccctcccc gtccttccct tttcttatta ttccgaggat
+     1441 gttccccagc cagggatttt catcctcgag tttcttgatg gttctcttgg tcttccggag
+     1501 ccttctctcg agatcctccg catcctttct tgcttggacc cacttttcga ggatctcctc
+     1561 ccttcctccc ctccgggatt tcttctgatc ggactggctc atcttcggaa acgggggcgg
+     1621 cggcgtccgt tctctattct tttcttttga aagaggagac gggtctccgc ccgcccccag
+     1681 ccccgag
+//

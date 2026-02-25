@@ -1,0 +1,177 @@
+LOCUS       rerooted_NC_002361.1      2037 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002361.1.
+ACCESSION   rerooted_NC_002361.1
+VERSION     rerooted_NC_002361.1
+KEYWORDS    RefSeq.
+SOURCE      Columbid circovirus
+  ORGANISM  Columbid circovirus
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Arfiviricetes; Cirlivirales; Circoviridae; Circovirus; Circovirus
+            pigeon.
+REFERENCE   1  (bases 1 to 2037)
+  AUTHORS   Mankertz,A., Hattermann,K., Ehlers,B. and Soike,D.
+  TITLE     Cloning and sequencing of columbid circovirus (coCV), a new
+            circovirus from pigeons
+  JOURNAL   Arch. Virol. 145 (12), 2469-2479 (2000)
+   PUBMED   11205099
+REFERENCE   2  (bases 1 to 2037)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2037)
+  AUTHORS   Mankertz,A., Hattermann,K., Ehlers,B. and Soike,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2000) P24, Robert Koch Institut, Nordufer 20,
+            Berlin 13353, Germany
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF252610.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2037
+                     /organism="Columbid circovirus"
+                     /mol_type="genomic DNA"
+                     /host="pigeon"
+                     /db_xref="taxon:126070"
+     rep_origin      join(<2009..2037,1..>26)
+                     /note="putative stem loop structure required for
+                     replication"
+     misc_feature    join(2031..2037,1..2)
+                     /note="sequence conserved in circoviridae, geminiviridae
+                     and nanoviridae"
+     gene            complement(join(2036..2037,1..292))
+                     /locus_tag="CoCVgp1"
+                     /db_xref="GeneID:1732748"
+     CDS             complement(join(2036..2037,1..292))
+                     /locus_tag="CoCVgp1"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ORFC3; 10 kDa"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_059526.1"
+                     /db_xref="GeneID:1732748"
+                     /translation="MHKTLQMRGPLLPDLLPHNGIVEVTHQPRFQALNLFFSGVVQSEA
+                     PSLCCSLAGGSTGRFATGAAFGGGHAALGGVAAWFARSHIAARCGSVAPSRG"
+     repeat_region   17..32
+                     /note="potential binding site for replicase"
+                     /rpt_type=inverted
+     repeat_region   complement(36..51)
+                     /locus_tag="CoCVgp1"
+                     /note="potential binding site for replicase"
+                     /rpt_type=inverted
+     gene            41..994
+                     /gene="rep"
+                     /locus_tag="CoCVgp2"
+                     /db_xref="GeneID:1460801"
+     CDS             41..994
+                     /gene="rep"
+                     /locus_tag="CoCVgp2"
+                     /note="Rep; 36.3 kDa"
+                     /codon_start=1
+                     /product="replicase"
+                     /protein_id="NP_059527.1"
+                     /db_xref="GeneID:1460801"
+                     /translation="MAPCKPGSNPPKGRVSAAEGGARREATRRPPREAAAKRWCFTLNN
+                     PTEEEIKSLDTWLVSDFHYAIVGKEVGEQGTPHLQGFVHLKQKKRLTQLKQLFKRAHWE
+                     KARGSDEDNEKYCSKEGNVLLTLGIPAKGNRSDLSEAVAAVKAGRAMTEVARDFSEIYV
+                     KYGRGLRDLKLLIGQQPRDFKTEVIVITGPPGCGKSRWAADYPGSKFYKMKGEWWDGYD
+                     HQEVVIIDDFYGWLPFCELLRVTDRYPHKVPVKGAFVEFTSRVIIVTSNSPPDAWYSEE
+                     KCCVQALFRRINKWLVWNHDKFEDAPDCMKKYPINY*"
+     repeat_region   complement(43..48)
+                     /locus_tag="CoCVgp1"
+                     /note="potential binding site for replicase"
+                     /rpt_type=direct
+     gene            complement(410..790)
+                     /locus_tag="CoCVgp3"
+                     /db_xref="GeneID:1732749"
+     CDS             complement(410..790)
+                     /locus_tag="CoCVgp3"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ORFC2; similar to 13.7 kDa BFDV ORF3 protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_059528.1"
+                     /db_xref="GeneID:1732749"
+                     /translation="MRVPVGHTQQLTEGQPAVEVINDDYFLVVVAVPPLPLHLVEFTSG
+                     VVSCPTALPATGRARDDDDFRFEVTGLLTNQQLQVAQATPILDVYLTEVSRDLGHCSSG
+                     FHRGNSLAEIAPVSLRRNAQGK*"
+     gene            complement(736..984)
+                     /locus_tag="CoCVgp4"
+                     /db_xref="GeneID:1732747"
+     CDS             complement(736..984)
+                     /locus_tag="CoCVgp4"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ORFC4; 8.9 kDa; similar to large polymerase protein
+                     of newcastle disease virus CAB51327"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_059529.1"
+                     /db_xref="GeneID:1732747"
+                     /translation="MGYFFIQSGASSNLSWFQTSHLLIRRKSAWTQHFSSLYQASGGLL
+                     LVTIITRDVNSTKAPFTGTLCGYRSVTRSSSQKGSQP*"
+     gene            complement(1166..1987)
+                     /gene="cap"
+                     /locus_tag="CoCVgp5"
+                     /db_xref="GeneID:1460802"
+     CDS             complement(1166..1987)
+                     /gene="cap"
+                     /locus_tag="CoCVgp5"
+                     /note="Cap; 31.9 kDa; protein translation starts with an
+                     alternative start codon"
+                     /codon_start=1
+                     /transl_except=(pos:complement(1985..1987),aa:Met)
+                     /product="capsid protein"
+                     /protein_id="NP_059530.1"
+                     /db_xref="GeneID:1460802"
+                     /translation="MRRRRFRRRRAPIRRRRIRRRRTRLRRSLRGHRGASRIYYFRLRR
+                     KDKITLPKATNDFKFGSGIFTFKLADVLTVGLNAPTLKVPFEDYQIPLVKVDMRPIGVD
+                     ITAWKGFGHTVPIYDARLKTFQQQVDLGDDPLMDFDGARKWELRKGFKRLIRPRPQLTI
+                     TDLATANQVAATWFSGRNQWIPLQTSGSSWFPQKVNYYGLAFSYLQPQPDAMHYEVEVT
+                     LYIKFRQFAWTTLNVPPTPNIEGLELMHVCDGDCNQCFADELDADSAVLSE*"
+     repeat_region   complement(1562..1567)
+                     /gene="cap"
+                     /locus_tag="CoCVgp5"
+                     /note="potential binding site for replicase"
+                     /rpt_type=direct
+     repeat_region   complement(2014..2019)
+                     /note="potential binding site for replicase"
+                     /rpt_type=direct
+ORIGIN
+        1 acccgcgact tggagccacg gagccacatc gcgcagcgat atggctccgt gcaaaccagg
+       61 cagcaacccc cccaaaggcc gcgtgtccgc cgccgaaggc ggcgcccgtc gcgaagcgac
+      121 ccgacgaccc ccccgcgagg ctgcagcaaa gcgatggtgc ttcaccttga acaaccccac
+      181 cgaagaagag attaagagcc tggatacgtg gctggtgagt gacttccact atgccattgt
+      241 ggggaaggag gtcggggagc aggggacccc gcatctgcaa ggctttgtgc atctgaagca
+      301 gaaaaagcgg ctgacgcaac tgaagcagct ttttaagcgg gcgcattggg agaaagcgcg
+      361 cggcagtgat gaggacaatg agaagtactg ctctaaagag ggtaatgttc tacttaccct
+      421 gggcattcct gcgaagggaa accggagcga tctcagcgag gctgttgccg cggtgaaagc
+      481 cggaagagca atgaccgagg tcgcgcgaga cttcagtgag atatacgtca agtatgggcg
+      541 tggcttgcgc gacctgaagc tgctgattgg tcagcagccc cgtgacttca aaacggaagt
+      601 catcgtcatc acgggcccgc ccggttgcgg gaagagccgt tgggcagctg actaccccgg
+      661 aagtaaattc tacaagatga agggggagtg gtgggacggc tacgaccacc aggaagtagt
+      721 catcattgat gacttctacg gctggctgcc cttctgtgag ctgctgcgtg tgaccgaccg
+      781 gtacccgcat aaggtgcccg tgaaaggggc ctttgtggag ttcacgtctc gcgtgataat
+      841 agtgaccagc aacagtcccc ccgatgcctg gtacagcgag gaaaagtgct gtgtccaggc
+      901 gctcttccgg cggatcaaca agtggctggt ctggaaccac gacaagttcg aagatgctcc
+      961 ggattgtatg aaaaagtacc ccatcaacta ttagcccccc acccccatga cactagtaaa
+     1021 gggacccaag ccagccgagc cggccgcgcc cgcgagcgaa gcgagcggcc gcgcggcctg
+     1081 gcgagtctgg cgggtccgga gcggagcgac cgcgaatgcg ggagcgaagc gactacacag
+     1141 ggaaatggat ttgcaataaa acgctttatt cacttaacac agctgagtct gcgtccaatt
+     1201 catcagcaaa acactgatta caatcaccat cacatacatg catcaattca agaccctcaa
+     1261 tattgggggt cggggggaca ttgagggtcg tccaggcaaa ctgcctgaac ttgatgtaca
+     1321 aagtaacctc aacctcataa tgcatggcgt ctggttgagg ttgcaggtaa ctgaaggcca
+     1381 gcccatagta gttaaccttc tggggaaacc agctgctgcc tgatgtctgc agtggtatcc
+     1441 actggtttct acctgagaac caggttgctg ccacctggtt tgccgtggct agatccgtga
+     1501 ttgtgagttg aggcctaggc cttatgaggc gtttaaagcc ctttctcagc tcccattttc
+     1561 tggccccgtc aaagtccatg agggggtcat cgcccaagtc cacttgctgt tgaaaggttt
+     1621 tcagcctggc gtcataaatc gggactgtgt gcccgaatcc tttccatgct gtgatgtcga
+     1681 cccctattgg cctcatatcc accttgacta gcggtatctg atagtcctca aatgggactt
+     1741 tcagcgttgg cgcgttgagg cccactgtga gtacatccgc tagtttgaat gtaaatatgc
+     1801 cacttccgaa tttgaaatca ttggtcgctt tcggcaacgt gatcttgtcc ttgcgacgta
+     1861 gacggaagta gtagatgcgg ctagcccccc tgtggccacg tagactccga cggaggcgtg
+     1921 tccttcgtct cctgatccga cgtcggcgaa tgggcgccct cctgcggcgg aatctccgcc
+     1981 tcctcatctc ctcaatcgtg acgtcacttc cgtggctcca agtcgcggat tagtatt
+//

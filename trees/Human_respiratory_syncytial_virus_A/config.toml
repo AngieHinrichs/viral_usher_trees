@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001803.1, taxonomy ID 3049954
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001803.1'
-refseq_assembly = 'GCF_000856445.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001803.1'
+#refseq_assembly = 'GCF_000856445.1'
+ref_fasta = './trees/Human_respiratory_syncytial_virus_A/midpoint_rerooted_NC_001803.1.fa'
+ref_gbff = './trees/Human_respiratory_syncytial_virus_A/midpoint_rerooted_NC_001803.1.gbff'
 taxonomy_id = '3049954'
 nextclade_dataset = 'nextstrain/rsv/a/EPI_ISL_412866'
 nextclade_clade_columns = 'clade,phenotypeData'

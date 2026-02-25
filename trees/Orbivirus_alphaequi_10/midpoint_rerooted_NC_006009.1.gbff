@@ -1,0 +1,69 @@
+LOCUS       rerooted_NC_006009.1       758 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006009.1.
+ACCESSION   rerooted_NC_006009.1
+VERSION     rerooted_NC_006009.1
+KEYWORDS    RefSeq.
+SOURCE      Orbivirus alphaequi
+  ORGANISM  Orbivirus alphaequi
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus.
+REFERENCE   1  (bases 1 to 758)
+  AUTHORS   van Staden,V. and Huismans,H.
+  TITLE     A comparison of the genes which encode non-structural protein NS3 of
+            different orbiviruses
+  JOURNAL   J. Gen. Virol. 72 (Pt 5), 1073-1079 (1991)
+   PUBMED   2033391
+REFERENCE   2  (bases 1 to 758)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 758)
+  AUTHORS   Huismans,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1991) Hendrik Huismans, Department of Genetics,
+            University of Pretoria; 0002, Pretoria, South Africa
+            (Tel:+27-012-4303258, Fax:+27-012-3422713)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from D12479.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..758
+                     /organism="Orbivirus alphaequi"
+                     /mol_type="genomic RNA"
+                     /serotype="3"
+                     /db_xref="taxon:40050"
+                     /segment="10"
+                     /clone_lib="pBR322(BRL)"
+     gene            20..673
+                     /gene="NS3 gene"
+                     /locus_tag="AHSV_s10gp1"
+                     /db_xref="GeneID:2886232"
+     CDS             20..673
+                     /gene="NS3 gene"
+                     /locus_tag="AHSV_s10gp1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="NS3 protein"
+                     /protein_id="YP_052954.1"
+                     /db_xref="GeneID:2886232"
+                     /translation="MSLATIAENYMMHNGNQRAIVPYVPPPYTYANAPTLGGQAGEMES
+                     MSLGILNQAMSSTTGASGALKDEKAAFGAMAEALRDPEPIRQIKKHVGLRTLKHLKIEL
+                     ASMRRRYAILRVVIFMSGCVTMATSMVGGLTIIDKEIYEDLNGDGWLSKTIHGLNLLCT
+                     TMLLAAGKISDKIQEEISRTKRDIAKRESYVSAASMSWSGDTSVLLKEVKYGDS*"
+ORIGIN
+        1 gtttaaatta tcccttgtca tgagtctagc tacgatcgcc gaaaattata tgatgcataa
+       61 tggaaatcag agggcaattg taccgtatgt tccaccccct tatacgtatg caaatgctcc
+      121 gacgcttggt ggtcaagcgg gtgaaatgga gtccatgtcg cttgggatac ttaaccaagc
+      181 catgtcaagt acaactggtg cgagtggggc ccttaaggat gaaaaagcag cgtttggtgc
+      241 gatggcggaa gcattacgtg atccagaacc aatacgtcaa attaagaaac acgttggatt
+      301 aagaacgcta aagcatttaa agatagagtt ggcgtcaatg agacgtaggt atgcgatatt
+      361 acgagtagtg atttttatga gcgggtgcgt gacgatggct acctcgatgg tgggcgggtt
+      421 aacgattatt gataaagaaa tatatgaaga tcttaatgga gatggttggc tgtcgaagac
+      481 gattcacggt ctgaatctgc tgtgtaccac aatgttgtta gcggcgggaa aaatatcaga
+      541 taaaatacag gaggagatat cacggacaaa gcgggatata gcgaaaagag aatcatacgt
+      601 ttctgcggct agtatgtcat ggagtgggga tacgagcgtt ctattaaaag aagtgaaata
+      661 tggcgatagc tagaatgacc tccatttgtg ggagatccac agtgttgggt ggatcaaaca
+      721 cctagatcgt tttctaggga gccgggataa caacttac
+//

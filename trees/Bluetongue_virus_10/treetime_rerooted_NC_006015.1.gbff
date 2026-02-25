@@ -1,0 +1,62 @@
+LOCUS       rerooted_NC_006015.1       822 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006015.1.
+ACCESSION   rerooted_NC_006015.1
+VERSION     rerooted_NC_006015.1
+KEYWORDS    RefSeq.
+SOURCE      Bluetongue virus
+  ORGANISM  Bluetongue virus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus
+            caerulinguae.
+REFERENCE   1  (bases 1 to 822)
+  AUTHORS   Lee,J.W. and Roy,P.
+  TITLE     Nucleotide sequence of a cDNA clone of RNA segment 10 of bluetongue
+            virus (serotype 10)
+  JOURNAL   J. Gen. Virol. 67 (Pt 12), 2833-2837 (1986)
+   PUBMED   3025349
+REFERENCE   2  (bases 1 to 822)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from M28981.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..822
+                     /organism="Bluetongue virus"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:40051"
+                     /segment="10"
+                     /note="segment S10"
+     gene            20..709
+                     /locus_tag="BTVs10gp1"
+                     /db_xref="GeneID:2943154"
+     CDS             20..709
+                     /locus_tag="BTVs10gp1"
+                     /note="nonstructural protein P8"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_052960.1"
+                     /db_xref="GeneID:2943154"
+                     /translation="MLSGLIQRFEEEKMKHNQERVEELSLVRVDDTISQPPRYAPSAPM
+                     PSSMPTVALEILDKAMSNTTGATQTQKAEKAAFASYAEAFRDDVRLRQIKRHVNEQILP
+                     KLKSDLGGLKKKRAIIHMTLLVAAVVALLTSVCTLSSDMSVAFKLNGTSAEVPPWFKSL
+                     NPMLGVVNLGATFLMMVCAKSERGLNQQIDMIKKEVMKKQSYNDAVRMSFTEFSSVPLD
+                     GFEMPLT*"
+ORIGIN
+        1 gttaaaaagt gtcgctgcca tgctatccgg gctgatccaa aggttcgagg aagaaaagat
+       61 gaaacacaat caagagagag ttgaagaact gagtttggtt cgtgtggatg atactatttc
+      121 tcaaccacca agatatgctc cgagtgcgcc catgccatca tcaatgccaa ctgttgccct
+      181 tgaaatattg gacaaagcga tgtcaaacac aactggtgca acgcaaacac aaaaggcgga
+      241 gaaggctgca ttcgcatcgt acgcagaagc gtttcgtgat gatgtaagat tgagacagat
+      301 taaacgccat gtaaatgagc agattttacc aaagttgaaa agtgatctag gtggattgaa
+      361 gaagaagcga gcaatcatac acatgacgct gctagtcgcg gctgtggttg cgctgttgac
+      421 atcagtttgc acgttgtcaa gtgatatgag tgtggcattt aagctaaatg gtacatcagc
+      481 agaggtacct ccatggttta aaagtctgaa tccaatgctg ggggtggtga atttgggtgc
+      541 aaccttcctg atgatggttt gtgcgaagag tgaaagaggc ttgaatcagc agatagatat
+      601 gataaagaag gaagtgatga aaaaacaatc atataatgat gcggtgagga tgagttttac
+      661 agagttctcg tcagtcccgc ttgatggttt cgaaatgcca ttaacctgag gtcagtaggt
+      721 agagtggcgc cccaaggttt gcgtcgtgcg gagtggttga tcccacggcg caaattccca
+      781 ctgctgtata acgggggagg gtgtgcggca ctacacactt ac
+//

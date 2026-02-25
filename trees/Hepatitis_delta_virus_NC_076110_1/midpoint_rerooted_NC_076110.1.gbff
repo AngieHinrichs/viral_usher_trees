@@ -1,0 +1,58 @@
+LOCUS       rerooted_NC_076110.1      1687 bp    DNA     linear   VRL 04-MAY-2023
+DEFINITION  rerooted_NC_076110.1.
+ACCESSION   rerooted_NC_076110.1
+VERSION     rerooted_NC_076110.1
+KEYWORDS    RefSeq.
+SOURCE      Hepatitis delta virus
+  ORGANISM  Hepatitis delta virus
+            Viruses; Ribozyviria; Ribozyviria incertae sedis; Kolmioviridae;
+            Deltavirus; Deltavirus italiense.
+REFERENCE   1
+  AUTHORS   Deny,P., Radjef,N. and Huc-Anais,P.
+  TITLE     HDV nucleic acid molecules, fragments and applications thereof
+  JOURNAL   Patent: WO 03027291-A2 03-APR-2003; ASSISTANCE PUBLIQUE, HOPITAUX DE
+            PARIS (FR)
+REFERENCE   2  (bases 1 to 1687)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AX741164.
+FEATURES             Location/Qualifiers
+     source          1..1687
+                     /organism="Hepatitis delta virus"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:12475"
+                     /note="sequence genomique complete de dFr48"
+ORIGIN
+        1 aatgggccac aggccgacga agagtccgag gatatgggga ggagagggga cccgaggggg
+       61 gttcgaacta aagaagtgaa gatattcgag gaaatactcc caagaaggtc ccggagggat
+      121 ccaagagaag gaggactttc cccyataggt tgggaaaagt cccggaacaa ggaaatggga
+      181 aagggacggt agaaaagagc gagcctccca atttccgagt agccccggac ctatcaaatt
+      241 tggagtcctc cgaccgtatg gagaaaattt ccgagaaggg gagagccacc gagggtcagc
+      301 agagaaatca cctccagagg accccttcag cgaacagaag agcctggaag ccccagagga
+      361 agaccatagc gataggggga gatgctagga gtcgggggcg accgaagcga ggaggaaagt
+      421 aaagaaagca acggggctag cgagtggatg ttccgcctcc ccggggggcc gagtgaggct
+      481 tatcccgggg aaccgggcaa gtcccggaat gccggctcca cggctccctt ccaaaaggac
+      541 gggggtggct tggagcgccg gggcccagca gtccgtggga gtcaccctct tcccgcttct
+      601 ccacactcct tcccccctgc gggctccccc cataagatga agaggacccc actcagcggg
+      661 gtccgccgtc tcaccctttc ttacctgatg gccggcatgg tcccagcctc ctcgctggcg
+      721 ccggctgggc aacattccga ggggaccgtc cctcggyaat ggcgaatggg acccagaact
+      781 ctctcagaat ctagggagat ctcccagagt cgagagaaaa ctggctctcc cttagccatc
+      841 cgagtggacg tctgtcctcc ttcggatgcc caggtcggac cgcggggagg tggagatgcc
+      901 atgccgaccc gaagaggaaa gaaggactcg gacgcgaacc cgtgagtgga accctcgttc
+      961 tttattgggg agtacactcg aggagtggaa ggcggggagg gcggggcgga gtgtttcccy
+     1021 acgggaactg ctggtttccc ctgatgtcca gtccctcccc cgtcctggag aatggagact
+     1081 cgggaacacc tagcatccta gggacaaagc cgcccccggg cgctcccctc ggacctcctc
+     1141 cgggtgggtt cacatcccca acccgcgggc cggctactct tctttccctt ttctcgtctt
+     1201 cctcggtcaa cctccggagt tcctcttctt cctccttgct gaggctcttc cctccggcgc
+     1261 tcagttgctt cttcttgttc tcgagggcct tccttcttcg gtgatcccgc ctctcctcgt
+     1321 cggtgaatcc cgacttgtgc ggctttcccc taggtccgga atcgacctcc atctgatccg
+     1381 tccgggccct cttcgccggg ggagctccct ccccgtcctt cccctttctt attattccga
+     1441 ggatgttccc cagccaggga ttgtcatcct cgagtttctt gaggtccttc ttggtcttcc
+     1501 ggagcttcct ctcgagatcc tccagatctt ttcttgcttc gacccacttc tcgaggatct
+     1561 cctcccttcc tcctcgattt ctcttcggat cggactggct catctcgact agggggcggc
+     1621 gtcctcagta ctctcttact ttctcatgaa aagaggagac tgctggacgc ccgcccccgg
+     1681 gtccgag
+//

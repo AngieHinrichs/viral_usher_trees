@@ -1,0 +1,107 @@
+LOCUS       rerooted_NC_036618.1      2049 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_036618.1.
+ACCESSION   rerooted_NC_036618.1
+VERSION     rerooted_NC_036618.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza D virus (D/swine/Oklahoma/1334/2011)
+  ORGANISM  Influenza D virus (D/swine/Oklahoma/1334/2011)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Deltainfluenzavirus; Deltainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 2049)
+  AUTHORS   Hause,B.M., Ducatez,M., Collin,E.A., Ran,Z., Liu,R., Sheng,Z.,
+            Armien,A., Kaplan,B., Chakravarty,S., Hoppe,A.D., Webby,R.J.,
+            Simonson,R.R. and Li,F.
+  TITLE     Isolation of a novel Swine influenza virus from oklahoma in 2011
+            which is distantly related to human influenza C viruses
+  JOURNAL   PLoS Pathog. 9 (2), E1003176 (2013)
+   PUBMED   23408893
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2049)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JAN-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2049)
+  AUTHORS   Hause,B.M., Ducatez,M., Collin,E.A., Webby,R.J., Armien,A.,
+            Simonson,R.R. and Li,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-2012) Diagnostic Services, Newport Labs, 1524
+            Prairie Drive, Worthington, MN 56187, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JQ922308.
+            GenBank Accession Numbers JQ922305-JQ922311 represent sequences
+            from the 7 segments of Influenza D virus
+            (D/swine/Oklahoma/1334/2011).
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2049
+                     /organism="Influenza D virus (D/swine/Oklahoma/1334/2011)"
+                     /mol_type="genomic RNA"
+                     /strain="D/swine/Oklahoma/1334/2011"
+                     /host="swine"
+                     /db_xref="taxon:1173138"
+                     /segment="4"
+                     /geo_loc_name="USA"
+                     /collection_date="21-Mar-2011"
+     gene            25..2019
+                     /gene="HEF"
+                     /locus_tag="C1935_s4gp1"
+                     /db_xref="GeneID:35393478"
+     CDS             25..2019
+                     /gene="HEF"
+                     /locus_tag="C1935_s4gp1"
+                     /codon_start=1
+                     /product="hemagglutinin-esterase precursor"
+                     /protein_id="YP_009449559.1"
+                     /db_xref="GeneID:35393478"
+                     /translation="MFLLLATITAITACQAERELICIVQRVNESFSLHSGFGGNVYSMK
+                     TEPMTGFTNVTKGASVINQKDWIGFGDSRTDLTNDQFPASSDVPLAVAKKFRSLSGASL
+                     MLSAFGPPGKVDYLYQGCGKEKVFYEGVNWSPEAGIDCFGSNWTQTKKDFYSRIYEAAR
+                     GSTCMTLVNSLDTKISSTTATAGTTSSCSSSWMKSPLWYAESSVNPGASPQVCGTEQSA
+                     TFTLPTSFGIYKCNKHVVQLCYFVYENKTAFNTFGCGDYYQNYYDGNGNLIGGMDNRVA
+                     AYRGIAGAGVKIECPSKILNPGTYSIRSTPRFLLVPKRSYCFDTDGGYPIQVVQSEWSA
+                     SRRSDNATEEACLQTEGCIFIKKTTPYVGEADDNHGDIEMRQLLSGLGNNDTVCVSQSG
+                     YTKGETPFVKDYLSPPKYGRCQLKTDSGRIPTLPSGLIIPQAGTDSLMRTLTPATRIFG
+                     IDDLIFGLLFIGFVAGGVAGGYFWGRSSGGGGGASVSSTQAGFDKIGKDIQQLRNDTNA
+                     AIEGFNGRIAHDEQAIKNLAKEIEDARAEALVGELGIIRSLIVANISMNLKESLYELAN
+                     QITKRGGGIAQEAGPGCWYVDSENCDASCKEYIFNFNGSATVPTLRPVDTNVVITSDPY
+                     YLGSTIALCLLGLVAIAAFVGVIWICCKK*"
+ORIGIN
+        1 agcataagca ggagattttc aaagatgttt ttgcttctag caacaattac agcaataact
+       61 gcttgccaag cagaaagaga actgatatgt atagtgcaaa gagtgaatga aagcttctct
+      121 cttcactctg gatttggagg aaatgtttac agcatgaaga ctgagccaat gactggattc
+      181 acaaatgtga ccaaaggtgc tagtgtcatc aaccaaaaag actggattgg attcggagat
+      241 tcaagaacag acttgactaa tgatcagttt ccagcgtctt cagatgttcc attggcagtg
+      301 gcaaagaagt ttcggtcatt gtcaggggct tcgttgatgt tgtcagcttt tgggcctcct
+      361 ggcaaggttg actacctcta tcaaggatgc gggaaagaaa aagtatttta tgaaggggta
+      421 aactggtccc ctgaggcagg aattgattgc tttggatcaa actggactca gacaaagaag
+      481 gacttctatt cgaggatata tgaagctgct agaggcagca catgcatgac ccttgtaaat
+      541 tctcttgaca ccaagatatc atcaacaaca gccacggctg gaaccacatc ttcttgttct
+      601 tcaagctgga tgaaaagccc gttgtggtat gcagaatctt ctgttaatcc tggagctagc
+      661 cctcaagttt gtgggactga gcaatcggca acttttactt tgccgacaag cttcggaatt
+      721 tacaaatgca acaagcatgt agtgcagctt tgttactttg tgtacgaaaa caaaacagca
+      781 tttaacactt ttggctgtgg agattattac caaaattact atgatgggaa tggaaacctg
+      841 atagggggaa tggataacag agtggcagca tacagaggaa tagcaggcgc tggagttaaa
+      901 attgaatgtc cttccaaaat cttgaaccct gggacttaca gcattagatc aacaccaaga
+      961 ttccttctag taccaaaaag gtcatattgc ttcgacactg atggagggta ccctatacaa
+     1021 gtagttcaat ctgagtggtc agcttcacga agatcagata atgccactga agaagcatgc
+     1081 ctacaaacag aaggatgtat tttcatcaaa aagacaaccc cttatgtagg agaagcagat
+     1141 gacaaccatg gagacattga gatgaggcaa ctcttgagtg ggcttggcaa caacgacaca
+     1201 gtgtgcgttt cccaaagtgg atacacaaaa ggagagaccc cttttgtaaa ggattatttg
+     1261 agtcctccca agtatggcag atgtcagttg aaaactgaca gtggaagaat cccaactcta
+     1321 ccttctgggt tgataatacc gcaagcaggg actgattctt taatgagaac tttgacacca
+     1381 gcaacaagga tcttcggaat agatgactta atcttcgggc ttttattcat agggtttgtc
+     1441 gcaggaggag tcgcaggagg ttacttctgg ggaagatcaa gtggaggggg tggtggtgcc
+     1501 tcggtgagca gtacgcaggc tggatttgac aaaatcggaa aagatataca gcagcttcgg
+     1561 aatgacacaa atgcagcaat tgaaggcttc aacgggagaa ttgcccatga tgagcaagcc
+     1621 attaagaatt tggcaaaaga aatcgaagat gcaagggcag aagctttggt aggggaactt
+     1681 ggtataataa gatccctcat agttgccaac ataagcatga atctaaaaga atctttatat
+     1741 gaactcgcaa accaaataac aaagagagga ggaggaattg cacaagaagc aggcccaggg
+     1801 tgttggtatg ttgactccga aaactgtgat gcaagctgca aagagtacat tttcaacttc
+     1861 aatggcagtg ccactgtccc cacattgagg ccagttgaca ccaatgttgt aataacatcg
+     1921 gatccttatt acttgggttc gaccatagct ctctgtcttt tgggtctggt ggcgattgct
+     1981 gcttttgttg gtgtgatttg gatctgttgc aagaaataga atcttagaaa aaatctcctt
+     2041 gctactgct
+//

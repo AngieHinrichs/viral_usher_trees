@@ -1,0 +1,106 @@
+LOCUS       rerooted_NC_007357.1      2341 bp    RNA     linear   VRL 06-MAY-2025
+DEFINITION  rerooted_NC_007357.1.
+ACCESSION   rerooted_NC_007357.1
+VERSION     rerooted_NC_007357.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/goose/Guangdong/1/1996(H5N1))
+  ORGANISM  Influenza A virus (A/goose/Guangdong/1/1996(H5N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 2341)
+  AUTHORS   Xu,X., Subbarao, Cox,N.J. and Guo,Y.
+  TITLE     Genetic characterization of the pathogenic influenza
+            A/Goose/Guangdong/1/96 (H5N1) virus: similarity of its hemagglutinin
+            gene to those of H5N1 viruses from the 1997 outbreaks in Hong Kong
+  JOURNAL   Virology 261 (1), 15-19 (1999)
+   PUBMED   10484749
+REFERENCE   2  (bases 1 to 2341)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-AUG-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2341)
+  AUTHORS   Xu,X., Subbarao,K., Cox,N.J. and Guo,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-1999) Influenza Branch, Center for Diseases
+            Control and Prevention, 1600 Clifton Road, Atlanta, GA 30333, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF144300.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2341
+                     /organism="Influenza A virus
+                     (A/goose/Guangdong/1/1996(H5N1))"
+                     /mol_type="genomic RNA"
+                     /strain="A/Goose/Guangdong/1/96(H5N1)"
+                     /db_xref="taxon:93838"
+                     /segment="1"
+     gene            28..2307
+                     /gene="PB2"
+                     /locus_tag="FLUAVH5N1_s1gp1"
+                     /db_xref="GeneID:3654615"
+     CDS             28..2307
+                     /gene="PB2"
+                     /locus_tag="FLUAVH5N1_s1gp1"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="YP_308664.1"
+                     /db_xref="GeneID:3654615"
+                     /translation="MERIKELRDLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPAL
+                     RMKWMMAMKYPITADKRIMEMIPERNEQGQTLWSKTNDAGSDRVMVSPLAVTWWNRNGP
+                     TTSTVHYPKVYKTYFEKVERLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQDVI
+                     MEVVFPNEVGARILTSESQLTITKEKKEELQDCKIAPLMVAYMLERELVRKTRFLPVAG
+                     GTSSVYIEVLHLTQGTCWEQMYTPGGEVRNDDVDQSLIIAARNIVRRATVSADPLASLL
+                     EMCHSTQIGGIRMVDILRQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTSGSSVKR
+                     EEEVLTGNLQTLKIRVHEGYEEFTMVGRRATAILRKATRRLIQLIVSGRDEQSIAEAII
+                     VAMVFSQEDCMIKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWGIEPIDNVM
+                     GMIGILPDMTPSTEMSLRGVRVSKMGVDEYSSTERVVVSIDRFLRVRDQRGNVLLSPEE
+                     VSETQGTEKLTITYSSSMMWEINGPESVLVNTYQWIIRNWETVKIQWSQDPTMLYNKME
+                     FEPFQSLVPKAARGQYSGFVRTLFQQMRDVLGTFDTVQIIKLLPFAAAPPEQSRMQFSS
+                     LTVNVRGSGMRILVRGNSPVFNYNKATKRLTVLGKDAGALTEDPDEGTAGVESAVLRGF
+                     LILGKEDKRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRDSSILTDSQTATKR
+                     IRMAIN*"
+ORIGIN
+        1 agcaaaagca ggtcaaatat attcaatatg gagagaataa aagaactaag agatctaatg
+       61 tcacagtctc gcactcgcga gatactaaca aaaaccactg tggaccatat ggccataatc
+      121 aagaaataca catcaggaag acaagagaag aaccctgcac tcagaatgaa atggatgatg
+      181 gcaatgaaat atccaattac agcagacaag agaataatgg aaatgattcc tgagaggaat
+      241 gaacaaggac agaccctatg gagcaaaacc aatgatgctg gatcagacag agtaatggtg
+      301 tcacctctgg ctgtgacatg gtggaacaga aatggaccaa caacaagtac agtccattac
+      361 ccaaaggtct acaaaactta ctttgaaaaa gttgaaaggt tgaaacatgg aacctttggc
+      421 cctgttcatt tccgaaacca agtcaaaata cgccgaagag ttgacataaa ccctggtcat
+      481 gcagatctca gtgcaaaaga agcacaagat gttatcatgg aagttgtttt cccaaatgaa
+      541 gtgggagcca gaatactaac atcagaatca caactgacaa taaccaaaga gaaaaaagaa
+      601 gaactccagg attgcaaaat tgctccttta atggttgcat acatgttgga aagagaactg
+      661 gtccgaaaaa ccagattcct cccagtagct ggtggaacaa gcagtgtgta catcgaagtg
+      721 ctgcatttga ctcaaggaac atgctgggaa cagatgtaca ctccaggtgg agaagtgaga
+      781 aatgatgatg ttgaccagag tttaatcatt gcagccagaa acattgttag gagagcaaca
+      841 gtatcagcag atccactggc atcactattg gagatgtgtc acagcacaca aattggtgga
+      901 ataagaatgg tggacatcct taggcaaaat ccaacagaag aacaagctgt ggatatatgc
+      961 aaggcagcaa tgggcctgag aatcagctca tccttcagct ttggaggatt cactttcaaa
+     1021 agaacaagtg gatcatctgt caaaagggaa gaagaagtac ttactggcaa cctccaaaca
+     1081 ttgaaaataa gagtgcatga aggatatgaa gagttcacaa tggttgggag aagagcaaca
+     1141 gctatattaa gaaaagcaac cagaaggttg attcagctga tagtaagtgg aagagatgaa
+     1201 cagtcaattg ctgaagcgat aattgtagca atggtgtttt cacaagagga ttgcatgata
+     1261 aaagcagttc gaggtgatct gaatttcgta aacagagcaa accaacgatt gaaccccatg
+     1321 catcaactct tgagacattt ccaaaaagat gcaaaagtgc tatttcaaaa ttggggaatt
+     1381 gaacccattg acaatgtcat ggggatgatt ggaatattac ctgacatgac tccaagcaca
+     1441 gagatgtcac tgagaggagt gagagtcagc aaaatgggag tggatgaata ttccagcact
+     1501 gagagagtgg tagtgagtat tgaccgtttt ttaagggttc gagatcaacg ggggaatgta
+     1561 ctattgtctc ctgaagaagt aagtgaaaca cagggaacag agaaactgac aataacatat
+     1621 tcatcatcaa tgatgtggga gatcaatggt cctgagtcag tgttggttaa cacctatcaa
+     1681 tggatcatca gaaactggga aactgtgaaa attcaatggt cccaagaccc tacaatgcta
+     1741 tacaataaga tggaatttga accattccaa tccttggtac ctaaagccgc cagaggccaa
+     1801 tacagtggat tcgtgagaac actattccaa caaatgcgtg atgtgcttgg aacatttgac
+     1861 actgtccaaa taataaagct actcccattt gcagcagctc caccagagca gagcagaatg
+     1921 cagttctctt ctttaactgt gaatgtaaga ggatcaggaa tgagaatact cgtaaggggt
+     1981 aattcccctg tgttcaatta caacaaagcc accaaaaggc ttacagttct cgggaaggat
+     2041 gcaggtgcat taacagaaga cccagatgag ggaacagctg gagtggaatc tgctgttctg
+     2101 agaggatttc taattctagg caaagaagac aagagatatg gaccagcatt aagcatcaat
+     2161 gaactgagca atcttgcaaa aggggagaaa gctaatgtgt tgattgggca aggagacgtg
+     2221 gtgttggtaa tgaaacggaa acgggactct agcatactta ctgacagcca gacagcgacc
+     2281 aaaagaattc ggatggccat caattagtgt cgaattgttt aaaaacgacc ttgtttctac
+     2341 t
+//

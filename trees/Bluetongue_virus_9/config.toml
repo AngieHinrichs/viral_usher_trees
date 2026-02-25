@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_006008.2, taxonomy ID 3431240
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_006008.2'
-refseq_assembly = 'GCF_000854445.3'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_006008.2'
+#refseq_assembly = 'GCF_000854445.3'
+ref_fasta = './trees/Bluetongue_virus_9/treetime_rerooted_NC_006008.2.fa'
+ref_gbff = './trees/Bluetongue_virus_9/treetime_rerooted_NC_006008.2.gbff'
 taxonomy_id = '3431240'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

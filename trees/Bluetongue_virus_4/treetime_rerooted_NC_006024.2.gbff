@@ -1,0 +1,104 @@
+LOCUS       rerooted_NC_006024.2      1980 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006024.2.
+ACCESSION   rerooted_NC_006024.2
+VERSION     rerooted_NC_006024.2
+KEYWORDS    RefSeq; core protein VP4.
+SOURCE      Bluetongue virus
+  ORGANISM  Bluetongue virus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus
+            caerulinguae.
+REFERENCE   1
+  AUTHORS   Yu,Y.D., Fukusho,A. and Roy,P.
+  TITLE     Nucleotide sequence of the VP4 core protein gene (M4 RNA) of US
+            bluetongue virus serotype 10
+  JOURNAL   Nucleic Acids Res. 15 (17), 7206 (1987)
+   PUBMED   2821504
+REFERENCE   2  (bases 1 to 1980)
+  AUTHORS   Roy,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2006) Roy P., ITD, LSHTM, Keppel Street, London,
+            polly.roy@lshtm.ac.uk WC1E 7UH, UK
+REFERENCE   3  (bases 1 to 1980)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4
+  AUTHORS   Roy,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-1987) Roy P., University of Alabama at Birmingham,
+            Department of Environmental Health, University Station, Birmingham,
+            Alabama 35294, U.S.A
+  REMARK    revised by [3]
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from Y00421.
+            On Jan 28, 2006 this sequence version replaced NC_006024.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1980
+                     /organism="Bluetongue virus"
+                     /mol_type="genomic RNA"
+                     /serotype="10"
+                     /db_xref="taxon:40051"
+                     /segment="4"
+                     /note="segment M4"
+     gene            1..1980
+                     /locus_tag="BTVs4gp1"
+                     /db_xref="GeneID:2943157"
+     CDS             9..1943
+                     /locus_tag="BTVs4gp1"
+                     /note="core protein VP4"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_052969.2"
+                     /db_xref="GOA:P07132"
+                     /db_xref="UniProtKB/Swiss-Prot:P07132"
+                     /db_xref="GeneID:2943157"
+                     /translation="MPEPHAVLYVTNELSHLVKNGYLPIWRLTGDESLNDLWLENGKYA
+                     TDVYAYGDVSKWTIRQLRGHGFIFISTHKNVQLADIIKTVDVRISREVVKSQDMKMFEN
+                     EIGRRRIRMRKGFGDALRSYAFKVAIEFHGSEAETLNDANPRLHKVYGMPETPPLYMEY
+                     AEIGNKFDDEPTDEKLVSMLDYIIYSAEEVHYVGCGDLRTLMQFKKRSPGRFSRVLWHV
+                     YDPIAPQCSDTNVIVHNVMVDSKKDILKHMNFLKRVERLFIWDVSSDRNQMDDDEWEST
+                     RFAEDRLGEEIAYEMGGAFSSALIKHRIPTARDEYHCISTYLLPQPGADADMYELRNFM
+                     RLKGYSHVDRHMHPDAAVMKVVSRDVRKMVEMFHGRDRGRFLKKRIFEHLHIVRKNGLF
+                     HESDEPRADLFYLTNRCNMGLEPSIYEVMKKSTIATAWVGRAPLYDYDDYALPRSTVML
+                     NGSYRDIRILDGNGAILFLMWKYPDIIKKDLTYDPAWAMNFAVSLKEPIPDPPVPDISL
+                     CRFIGLRVESSVLRVRNPTLHETADELKRMGLDLSGHLYVTLMSGAYVTDLFWWFKMIL
+                     EWSSQGKEQKLRDLKRSAAEVIEWKEQMAERPWHVRNDLIAALREYKRKMGTREGASID
+                     SWLELLRHL*"
+ORIGIN
+        1 gttaaaacat gcctgagcca cacgcagtac tttatgtcac aaacgagctc tctcacctcg
+       61 ttaagaatgg ttatttgccg atatggcgtc taacaggaga tgaaagttta aatgatttat
+      121 ggttggagaa tggaaagtac gcgacagatg tttatgcata tggagatgtt tcgaagtgga
+      181 cgataagaca gttacgaggc catggattta tttttattag tacgcacaag aatgttcagc
+      241 ttgcagacat cattaaaacg gttgatgttc gtatatctcg ggaagtcgta aaaagccaag
+      301 atatgaaaat gtttgaaaat gaaataggcc gacgtcgaat tcggatgcgg aaaggttttg
+      361 gtgatgcgct gagaagttac gccttcaagg tggcaatcga gtttcatgga tcagaggcgg
+      421 aaacgttgaa cgatgcaaat ccacgattgc ataaagtgta tggaatgcca gaaacaccgc
+      481 cgttatatat ggagtatgct gaaattggga ataaatttga cgatgagcca actgatgaaa
+      541 agttagtgtc catgctggat tatataattt atagtgcgga ggaggtacat tatgttggat
+      601 gcggcgattt acgtaccctg atgcagttca agaaacgttc accggggcgg tttagtagag
+      661 tgttatggca cgtatatgat ccaatagcac cacaatgttc agataccaat gttatagtac
+      721 ataatgttat ggttgattca aagaaagaca ttttaaagca tatgaatttt ttaaaacgcg
+      781 ttgaaagatt attcatatgg gatgtatcgt cggatcgaaa tcaaatggat gatgatgaat
+      841 gggaatcgac gagattcgca gaggataggt tgggtgagga aatagcatat gaaatgggtg
+      901 gagctttctc tagcgcctta attaaacata ggataccaac tgcaagagat gaatatcact
+      961 gcatatcgac ttacttgctc ccgcaaccgg gggcggatgc ggatatgtat gaattaagga
+     1021 atttcatgag actaaagggt tattcacatg tagatcgtca catgcatcca gatgccgcgg
+     1081 tgatgaaagt tgtgtctcgt gatgtacgta aaatggtcga aatgtttcat ggtagagatc
+     1141 gtgggcgatt tctaaagaag agaatttttg aacatctaca cattgtacgg aagaatggat
+     1201 tgtttcacga gagtgatgag cctcgagcgg atctgtttta cttaaccaat aggtgcaaca
+     1261 tgggattgga gcctagcatt tatgaggtaa tgaagaagtc gacaatagct acagcttggg
+     1321 tgggtcgtgc gcctttatat gattatgatg attacgcttt accaagatct accgttatgc
+     1381 tgaacggatc gtatcgtgat atcagaattt tggatggcaa tggcgctata ttattcttaa
+     1441 tgtggaagta cccggatata ataaagaaag atttgacgta tgatcctgcg tgggcgatga
+     1501 attttgccgt ttcattgaag gagccaatac cagatcctcc agtgccagat atttcattgt
+     1561 gtagatttat cggactacgc gtcgaatcat ctgtgttaag ggttcgaaat ccaacactac
+     1621 atgagacagc ggatgaacta aaacgaatgg gattagatct ctcaggacat ttatatgtca
+     1681 cattgatgtc cggcgcttat gtcacagatt tgttttggtg gtttaagatg attttagagt
+     1741 ggtcttcgca agggaaggaa caaaaactac gtgatctaaa gaggtcagcg gcagaggtta
+     1801 ttgaatggaa ggagcagatg gccgagcgtc cgtggcatgt gagaaatgat ctaattgctg
+     1861 cgctaaggga gtataaacgt aaaatgggaa cgagagaggg agcctcgatt gattcgtggc
+     1921 ttgaattact gcgtcactta taatgcgtga ctgctaggtg aggggggcat gtaaaactta
+//

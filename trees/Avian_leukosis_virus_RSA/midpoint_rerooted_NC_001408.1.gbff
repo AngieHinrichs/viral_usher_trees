@@ -1,0 +1,370 @@
+LOCUS       rerooted_NC_001408.1      7286 bp    ss-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001408.1.
+ACCESSION   rerooted_NC_001408.1
+VERSION     rerooted_NC_001408.1
+KEYWORDS    RefSeq.
+SOURCE      Avian leukosis virus - RSA
+  ORGANISM  Avian leukosis virus - RSA
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Ortervirales; Retroviridae; Orthoretrovirinae; Alpharetrovirus;
+            Alpharetrovirus avileu.
+REFERENCE   1  (bases 1 to 7286)
+  AUTHORS   Bieth,E. and Darlix,J.L.
+  TITLE     Complete nucleotide sequence of a highly infectious avian leukosis
+            virus
+  JOURNAL   Nucleic Acids Res. 20 (2), 367 (1992)
+   PUBMED   1311072
+REFERENCE   2  (bases 1 to 7286)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 7286)
+  AUTHORS   Bieth,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-1990) CRBGC du CNRS, 118 route de Narbonne,
+            Toulouse 31062 Cedex, France
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to M37980.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..7286
+                     /organism="Avian leukosis virus - RSA"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:363745"
+     5'UTR           1..371
+     misc_feature    1..21
+                     /note="5' terminal redundancy"
+     misc_feature    1
+                     /note="CAP site"
+     regulatory      10..41
+                     /regulatory_class="ribosome_binding_site"
+     misc_feature    22..101
+                     /note="U5 region"
+     repeat_region   91..101
+                     /note="5'imperfect repeat"
+                     /rpt_type=terminal
+     misc_feature    102..371
+                     /note="leader sequence"
+     protein_bind    102..120
+                     /bound_moiety="primer"
+     misc_feature    210..270
+                     /note="dimer promoting sequence"
+     misc_feature    218..248
+                     /note="encapsidation element"
+     regulatory      331..371
+                     /regulatory_class="ribosome_binding_site"
+     gene            372..6872
+                     /gene="env"
+                     /locus_tag="ALVgp01"
+                     /db_xref="GeneID:1491907"
+     CDS             join(372..388,5069..6872)
+                     /gene="env"
+                     /locus_tag="ALVgp01"
+                     /codon_start=1
+                     /product="envelope protein"
+                     /protein_id="NP_040548.1"
+                     /db_xref="GeneID:1491907"
+                     /translation="MEAVIKAFLTGYPGKTSKKDSKEKPLATSKKDPEKTPLLPTRVNY
+                     ILIIGVLVLCEVTGVRADVHLLEQPGNLWITWANRTGQTDFCLSTQSATSPFQTCLIGI
+                     PSPISEGDFKGYVSDNCTTLGTDRLVSSADFTGGPDNSTTLTYRKVSCLLLKLNVSMWD
+                     EPHELQLLGSQSLPNITNIAQISGITGGCVGFRPQGVPWYLGWSRQEATRFLLRHPSFS
+                     KSTEPFTVVTADRHNLFMGSEYCGAYGYRFWNMYNCSQVGRQYRCGNARSPRPGLPEIQ
+                     CTRRGGKWVNQSQEINESEPFSFTVNCTASSLGNASGCCGKAGTILPGKWVDSTQGSFT
+                     KPKALPPAIFLICGDRAWQGIPSRPVGGPCYLGKLTMLAPKHTDILKVLVNSSRTGIRR
+                     KRSTSHLDDTCSDEVQLWGPTARIFASILAPGVARAQALREIERLACWSVKQANLTTSF
+                     LGDLLDDVTSIRHAVLQNRAAIDFLLLAHGHGCEDVAGMCCFNLSDHSESIQKKFQLMK
+                     EHVNKIGVDSDPIGSWLRGLFGGIGEWAVHLLKGLLLGLVVILLLVVCLPCLLQIVCGN
+                     IRKMINNSISYHTEYKKLQKACGQPESRIV"
+     gene            372..2474
+                     /gene="MAp19"
+                     /locus_tag="ALVgp02"
+                     /db_xref="GeneID:1491902"
+     misc_feature    372..2474
+                     /gene="MAp19"
+                     /locus_tag="ALVgp02"
+                     /note="3' imperfect repeat; matrix protein"
+     gene            372..1029
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /db_xref="GeneID:1491911"
+     CDS             join(372..387,674..1029)
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /codon_start=1
+                     /product="trans-acting factor"
+                     /protein_id="NP_040549.1"
+                     /db_xref="GeneID:1491911"
+                     /translation="MEAVIREGGSLPQVRSASRNQQRSGESTKGRKWEKQLRSEMRRWR
+                     RRKWPHLKPLAHPAISAEQLLAVIAPQPRPLLLLMWGVVCILPWRGWESSRARGVTHLG
+                     GRNSQGRSQGTRVWPLGRP"
+     protein_bind    423..440
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /bound_moiety="nucleocapsid"
+     protein_bind    502..511
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /bound_moiety="nucleocapsid"
+     misc_feature    512..540
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /note="dimer linkage structure"
+     misc_feature    536..556
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /note="dimer linkage structure"
+     misc_feature    701..792
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /note="negative splicing regulator"
+     protein_bind    805..818
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /bound_moiety="nucleocapsid"
+     misc_feature    817..876
+                     /gene="trans-acting factor"
+                     /locus_tag="ALVgp03"
+                     /note="enhancer domain"
+     gene            837..902
+                     /gene="p2"
+                     /locus_tag="ALVgp04"
+                     /db_xref="GeneID:1491909"
+     protein_bind    880..897
+                     /gene="p2"
+                     /locus_tag="ALVgp04"
+                     /bound_moiety="nucleocapsid"
+     gene            903..1088
+                     /gene="p10"
+                     /locus_tag="ALVgp05"
+                     /db_xref="GeneID:1491908"
+     gene            1836..2102
+                     /gene="NCp12"
+                     /locus_tag="ALVgp06"
+                     /db_xref="GeneID:1491903"
+     misc_feature    1836..2102
+                     /gene="NCp12"
+                     /locus_tag="ALVgp06"
+                     /note="nucleocapsid protein"
+     protein_bind    1941..1948
+                     /gene="NCp12"
+                     /locus_tag="ALVgp06"
+                     /bound_moiety="nucleocapsid"
+     gene            2103..2474
+                     /gene="PRp15"
+                     /locus_tag="ALVgp07"
+                     /db_xref="GeneID:1491904"
+     misc_feature    2103..2474
+                     /gene="PRp15"
+                     /locus_tag="ALVgp07"
+                     /note="neutral protease large subunit"
+     protein_bind    2388..2400
+                     /gene="PRp15"
+                     /locus_tag="ALVgp07"
+                     /bound_moiety="nucleocapsid"
+     gene            <2495..5182
+                     /gene="pol"
+                     /locus_tag="ALVgp08"
+                     /db_xref="GeneID:1491910"
+     CDS             <2495..5182
+                     /gene="pol"
+                     /locus_tag="ALVgp08"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="NP_040550.1"
+                     /db_xref="GeneID:1491910"
+                     /translation="TVALHLAIPLKWKPDHTPVWIDQWPLPEGKLVALTQLVEKELQLG
+                     HIEPSLSCWNTPVFVIRKASGSYRLLHDLRAVNAKLVPFGAVQQGAPVLSALPRGWPLM
+                     VLDLKDCFFSIPLAEQDREAFAFTLPSVNNQAPARRFQWKVLPQGMTCSPTICQLVVGQ
+                     VLEPLRLKHPSLRMLHYMDDLLLAASSHDGLEAAGEEVISTLERAGFTISPDKIQREPG
+                     VQYLGYKLGSTYVAPVGLVAEPRIATLWDVQKLVGSLQWLRPALGIPPRLMGPFYEQLR
+                     GSDPNEAREWNLDMKMAWREIVQLSTTAALERWDPALPLEGAVARCEQGAIGVLGQGLS
+                     THPRPCLWLFSTQPTKAFTAWLEVLTLLITKLRASAVRTFGKEVDILLLPACFREDLPL
+                     PEGILLALRGFAGKIRSSDTPSIFDIARPLHVSLKVRVTDHPVPGPTVFTDASSSTHKG
+                     VVVWREGPRWEIKEIADLGASVQQLEARAVAMALLLWPTTPTNVVTDSAFVAKMLLKMG
+                     QEGVPSTAAAFILEDALSQRSAMAAVLHVRSHSEVPGFFTEGNDVADSQATFQAYPLRE
+                     AKDLHTALHIGPRALSKACNISMQQAREVVQTCPHCNSAPALEAGVNPRGLGPLQIWQT
+                     DFTLEPRMAPRSWLAVTVDTASSAIVVTQHGRVTSVAAQHHWATAIAVLGRPKAIKTDN
+                     GSCFTSKSTREWLARWGIAHTTGIPGNSQGQAMVERANRLLKDKIRVLAEGDGFMKRIP
+                     TSKQGELLAKAMYALNHFERGENTKTPIQKHWRPTVLTEGPPVKIRIETGEWEKGWNVL
+                     VWGRGYAAVKNRDTDKVIWVPSRKVKPDITQKDEVTKKDEASPLFAGISDWIPWKDEQE
+                     GLQEEAASNKQERPGEDTLAANES*"
+     misc_feature    2495..5179
+                     /gene="pol"
+                     /locus_tag="ALVgp08"
+                     /note="reverse transcriptase beta-subunit"
+     misc_feature    2495..4210
+                     /gene="pol"
+                     /locus_tag="ALVgp08"
+                     /note="reverse transcriptase alpha-subunit"
+     protein_bind    2950..2964
+                     /gene="pol"
+                     /locus_tag="ALVgp08"
+                     /bound_moiety="nucleocapsid"
+     gene            4211..5179
+                     /gene="INp32"
+                     /locus_tag="ALVgp09"
+                     /db_xref="GeneID:1491901"
+     misc_feature    4211..5179
+                     /gene="INp32"
+                     /locus_tag="ALVgp09"
+                     /note="integrase"
+     protein_bind    4747..4758
+                     /gene="INp32"
+                     /locus_tag="ALVgp09"
+                     /bound_moiety="nucleocapsid"
+     gene            5244..6260
+                     /gene="SU"
+                     /locus_tag="ALVgp10"
+                     /db_xref="GeneID:1491905"
+     misc_feature    5244..6260
+                     /gene="SU"
+                     /locus_tag="ALVgp10"
+                     /note="surface protein"
+     protein_bind    5712..5727
+                     /gene="SU"
+                     /locus_tag="ALVgp10"
+                     /bound_moiety="nucleocapsid"
+     protein_bind    6187..6201
+                     /gene="SU"
+                     /locus_tag="ALVgp10"
+                     /bound_moiety="nucleocapsid"
+     gene            6261..6869
+                     /gene="TM"
+                     /locus_tag="ALVgp11"
+                     /db_xref="GeneID:1491906"
+     misc_feature    6261..6869
+                     /gene="TM"
+                     /locus_tag="ALVgp11"
+                     /note="transmembrane protein"
+     protein_bind    6414..6425
+                     /gene="TM"
+                     /locus_tag="ALVgp11"
+                     /bound_moiety="nucleocapsid"
+     repeat_region   7037..7047
+                     /note="3'imperfect repeat"
+                     /rpt_type=terminal
+ORIGIN
+        1 gccattttac ctcccaccac attggtgtgc acctgggttg atggccggac cgttgattcc
+       61 ctgacgacta cgagcacctg catgaagcgg aaggcttcat ttggtgaccc cgacgtgata
+      121 gttagggaat agtggtcggc cacagacggc gtggcgatcc tgtcctcatc cgtctcgctt
+      181 atcggggagc ggggacgatg accctagtag agggggctgc ggcttaggag ggcagaagct
+      241 gagtggcgtc ggagggagct ctactgcagg gagccaaaaa accctaccga gaactcagag
+      301 agtcgttgga agacgggaag gaagcccgac gaccacccca ggcgcggttc tggtcgcccg
+      361 gtggatcaag catggaagcc gtcataaagg tgatttcgtc cgcgtgtaaa acctattgcg
+      421 ggaaaacctc tccttctaag aaggaaatag gggccatgtt gtccctgtta caaaaggaag
+      481 ggttgcttat gtctccctca gacttatatt ccccggggtc ctgggatccc attaccgcgg
+      541 cgctctccca gcgggcaatg gtacttggga aatcgggaga gttaaaaacc tggggattgg
+      601 ttttgggggc attgaaggcg gctcgagagg aacaggttac atctgagcaa gcaaagtttt
+      661 ggttgggatt agggggaggg agggtctctc ccccaggtcc ggagtgcatc gagaaaccag
+      721 caacggagcg gcgaatcgac aagggggagg aagtgggaga aacaactgtg cagcgagatg
+      781 cgaagatggc gccggaggaa acggccacac ctaaaaccgt tggcacatcc tgctatcatt
+      841 gcggaacagc tattggctgt aattgcgcca cagcctcggc tcctcctcct ccttatgtgg
+      901 ggagtggttt gtatccttcc ctggcggggg tgggagagca gcagggccag gggggtgaca
+      961 cacctcgggg ggcggaacag ccaagggcgg agccagggca cgcgggtcag gcccctgggc
+     1021 cggccctgac tgactgggca aggatcaggg aggagcttgc gagtacaggt ccgcccgtgg
+     1081 tggccatgcc tgtagtgatt aagacagagg gacccgcctg gacccctctg gagccaaaat
+     1141 tgatcacaag actggctgat acggtcagga ccaagggctt acgatccccg atcactatgg
+     1201 cagaagtgga agcgcttatg tcctccccgc tgctgccgca tgacgtcacg aatctaatga
+     1261 gagttatttt aggacctgcc ccatatgcct tatggatgga cgcttgggga gtccaactac
+     1321 agacggttat agcggcagcc actcgcgacc cccgacaccc agcgaatggt caagggcggg
+     1381 gggaacggac taacttggat cgcttaaagg gtttagctga tgggatggtg ggcaacccac
+     1441 agggtcaggc cgcattatta agaccggggg aattggttgc tattacggcg tcggctctcc
+     1501 aggcgtttag agaggttgcc cggctggcgg aacctgcagg tccatgggcg gacatcacgc
+     1561 agggaccatc tgagtccttt gttgattttg ccaatcggct tataaaggcg gttgaagggt
+     1621 cagatctccc accttccgcg cgggctccgg tgatcattga ctgctttagg cagaagtcac
+     1681 agccagatat tcagcagctt atacgggcag caccctccac gctgaccacc ccaggagaga
+     1741 taatcaaata tgtgctagac aggcagaaga ctgcccctct tacggatcaa ggcatagccg
+     1801 cggccatgtc gtctgctatt cagcccttag ttatggcagt agtcaataga gagagggatg
+     1861 gacaaactgg gtcgggtggt cgtgcccgag ggctctgcta cacttgtgga tccccgggac
+     1921 attatcaggc gcagtgcccg aaaaaacgaa agtcaggaaa cagccgtgag cgatgtcagt
+     1981 tgtgtgacgg gatgggacac aacgctaaac agtgcagaag gcgggatggc aaccagggcc
+     2041 aacgcccagg aagaggtctc tcttcggggc cgtggcccgg ccctgagcag cctgccgtct
+     2101 cgttagcgat gacaatggaa cataaagatc gccccttggt tagggtcatt ctgactaaca
+     2161 ctgggagtca tccggtcaaa cagcgttcgg tgtatatcac cgcgctgttg gactctggag
+     2221 cggacatcac tattatttca gaggaggatt ggcctactga ttggccggtg gtggacaccg
+     2281 cgaacccgca gatccatggc ataggagggg gaattcccat gcgaaaatcc cgtgacatga
+     2341 tagagttggg ggttattaac cgagacgggt ctttggagcg acccctgctc ctcttccccg
+     2401 cagtagctat ggttagaggg agtatcctag gaagagattg tctgcagggc ctagggctcc
+     2461 gcttgacaaa tttataggga gggccactgt tcttactgtt gcgctacatc tggctattcc
+     2521 gctcaaatgg aagccagacc acacgcctgt gtggattgac cagtggcccc ttcctgaagg
+     2581 taaacttgta gcgctaacgc aattagtgga aaaagaatta cagttaggac atatagaacc
+     2641 ttcacttagt tgttggaaca cacctgtctt tgtgatccgg aaggcttccg ggtcttatcg
+     2701 cttattgcat gacttgcgcg ctgttaacgc caagcttgtt ccttttgggg ccgtccaaca
+     2761 gggggcgcca gttctctccg cgctcccgcg tggctggccc ctgatggtcc tagacctcaa
+     2821 ggattgcttc ttttctattc ctcttgcgga acaagatcgc gaagcttttg catttacgct
+     2881 cccctctgtg aataaccagg cccccgctcg aagattccaa tggaaggtct tgccccaagg
+     2941 gatgacctgt tctcccacta tctgtcagtt ggtagtgggt caggtacttg agcccttgcg
+     3001 actcaagcac ccatctctgc gcatgttgca ttatatggat gatcttttgc tagccgcctc
+     3061 aagtcatgat gggttggaag cggcagggga ggaggttatc agtacattgg aaagagccgg
+     3121 gttcaccatt tcgcctgata agatccagag ggagcccgga gtacaatatc ttgggtacaa
+     3181 gttaggcagt acgtatgtag cacccgtagg cctggtagca gaacccagga tagccacctt
+     3241 gtgggatgtt caaaagctgg tggggtcact tcagtggctt cgcccagcgt taggaatccc
+     3301 gccacgactg atgggcccct tttatgagca gttacgaggg tcagatccta acgaggcgag
+     3361 ggaatggaat ctagacatga aaatggcctg gagagagatc gtacagctta gcaccactgc
+     3421 tgccttggaa cgatgggacc ctgccctgcc tctggaagga gcggtcgcta gatgtgaaca
+     3481 gggggcaata ggggtcctgg gacagggact gtccacacac ccaaggccat gtttgtggtt
+     3541 attctccacc caacccacca aggcgtttac tgcttggtta gaagtgctca cccttttgat
+     3601 tactaagcta cgtgcttcgg cagtgcgaac ctttggcaag gaggttgata tcctcctgtt
+     3661 gcctgcatgc tttcgggagg accttccgct cccggagggg atcctgttag cccttagggg
+     3721 gtttgcagga aaaatcagga gtagtgacac gccatctatt tttgacattg cgcgtccact
+     3781 gcatgtttct ctgaaagtga gggttaccga ccaccctgta ccgggaccca ctgtctttac
+     3841 cgacgcctcc tcaagcaccc ataagggggt ggtagtctgg agggagggcc caaggtggga
+     3901 gataaaagaa atagctgatt tgggggcaag tgtacaacaa ctggaagcac gcgctgtggc
+     3961 catggcactt ctgctgtggc cgacaacgcc cactaatgta gtgactgact ccgcgtttgt
+     4021 tgcgaaaatg ttactcaaga tgggacagga gggagtcccg tctacagcgg cggcttttat
+     4081 tttagaggat gcgttaagcc aaaggtcagc catggccgcc gttctccacg tgcggagtca
+     4141 ttctgaagtg ccagggtttt tcacagaagg aaatgacgtg gcagatagcc aagccacctt
+     4201 tcaagcgtat cccttgagag aggctaaaga tcttcatact gctctccata ttggaccccg
+     4261 cgcgctatcc aaagcgtgta atatatctat gcagcaggct agggaggttg ttcagacctg
+     4321 cccgcattgt aattcagccc ctgcgttgga ggccggggta aaccctaggg gtttgggacc
+     4381 cctacagata tggcagacag actttacgct tgagcctaga atggcccccc gttcctggct
+     4441 cgctgttact gtggataccg cctcatcggc gatagtcgta actcagcatg gccgtgtcac
+     4501 atcggttgct gcacaacatc attgggccac ggctatcgcc gttttgggaa gaccaaaggc
+     4561 cataaaaaca gataacgggt cctgcttcac gtctaaatcc acgcgagagt ggctcgcgag
+     4621 atgggggata gcacacacca ccgggattcc gggtaattcc cagggtcaag ctatggtaga
+     4681 gcgggccaac cggctcctga aagataagat ccgtgtgctt gcggaggggg acggctttat
+     4741 gaaaagaatc cccaccagca aacaggggga actactagcc aaggcaatgt atgccctcaa
+     4801 tcactttgag cgtggtgaaa acacaaaaac accgatacaa aaacactgga gacctaccgt
+     4861 tcttacagaa ggacccccgg ttaaaatacg aatagagaca ggggagtggg aaaaaggatg
+     4921 gaacgtgctg gtctggggac gaggttatgc cgctgtgaaa aacagggaca ctgataaggt
+     4981 tatttgggta ccctctcgaa aagttaaacc ggacatcacc caaaaggatg aggtgactaa
+     5041 gaaagatgag gcgagccctc tttttgcagg catttctgac tggataccct ggaaagacga
+     5101 gcaagaagga ctccaagaag aagccgccag caacaagcaa gaaagacccg gagaagacac
+     5161 ccttgctgcc aacgagagtt aattatattc tcactattgg tgtcctggtc ttgtgtgagg
+     5221 ttacgggggt aagtgctgat gtccacttac tcgaacaacc agggaacctg tgggttacat
+     5281 gggcaaacag tacaggccaa acggattttt gcctatctat acagtcagcc acctccccat
+     5341 tccgaacatg tttgataggt atcccgtccc ctatttccga aggtgatttt aagggatatg
+     5401 tcactgatgt ttgcaccacc ttgggaactg atcggttagt ctcgccagcc gactttactg
+     5461 gcggacctga caacagtacc accctccctt atcggaaggt ctcatgcttg atgataaagc
+     5521 tgaatgtctc tatgtgggat gagccacctg aactacagct gttaggttcc cagtctctcc
+     5581 ctaacattac taatattgct cagatttccg gtataactgg gggatgcgta ggcttcagac
+     5641 cacaaggggt tccttggtat ctaggttggt ctagacagga ggccacgcgg tttctcctta
+     5701 gagaccccta tttctctaaa tccacggaac cgtttacggt ggtgacagcg gatagacaca
+     5761 atctttcaat ggggagtgag tactgcggtg catatggcta cagattttgg aacatgtata
+     5821 actgctcaca ggtggggcgg cagtaccgct gtggtaatgc gcgcagccac cgcccgggtc
+     5881 ttcctgaaat ccagtgtaca aggagaggag gcaaatgggt taatcaatca caggaaatta
+     5941 atgagtcgga gccgttcagc tttacggtga actgtacagc tagtagtttg ggtaatgcca
+     6001 ctgggtgttg cggaaaagca ggcacgattc tcccgggaaa gtgggtcgac agcacacaag
+     6061 gtagtttcac caaaccaaat gcgctaccac ccgcaatttt cctcatttgt ggggatcgcg
+     6121 catggcaagg aattcccagt cgtccggtag gaggcccctg ctatttaggc aagcttacca
+     6181 tgttagcacc taagcataca gatattgtca aggtgcttga caattcatcg cggacaggta
+     6241 taaggcgtaa ccgaagcacc tcacgcctgg atgatacatg ctcagatgaa gtgcagcttt
+     6301 ggggtcctac agcaagaata tttgcatcta tcttagctcc tggtgtagca gctgcgcaag
+     6361 ccttaaggga aattgagcga ttagcctgtt ggtccgttaa gcaggcgaat ttgacaacat
+     6421 cactcctcgg ggacttattg gatgatgtca cgagtattcg acacgcggtg ttgcagaacc
+     6481 gagcggccat tgacttcttg cttctggctc acggacatgg gtgtcaagac gttgccggaa
+     6541 tgtgttgttt caatctgagc gatcacagtg agtctataca gaagaagctc caggtaatga
+     6601 aggaacatgt caataagatc ggcgtggaca gcgacccaat cggaagttgg ctgcgaggat
+     6661 tattcggggg aataggggaa tgggccgttc atttgctgaa aggactgctt ttggggcttg
+     6721 tagttatttt gttgctagta gtgtgcctgc cttgcctttt gcaaattgta tccagtagca
+     6781 tccgaaagat gattaataat tccatcagct atcacacgga atataagaag ctgcaaaagg
+     6841 cctgtgggca gcctgaaagc agaatagtgt aaggcagtac atgggtggtg gtatagcgct
+     6901 tgcgaatcgg gctgtaacgg ggcaaggctt gactgagggg actatagcat gtataggcgc
+     6961 taagcggggc ttcggttgta cgcggatagg agtcccctca ggatatagta gttgcgcttt
+     7021 tgcataggga gggggaaatg tagtcttatg caatactctt atagtcttgc aacatggtaa
+     7081 cgatgaaaca gcaatatgcc ttataaggag agaaaaggca ccgtacacgt tgattggtgg
+     7141 aagtaaggtg gtatgatcgt gccttattag gaaggcaaca gacgggtctg acatggattg
+     7201 gacgaactcc ttagttccgc attgcagaga tattgtattt aagtgcctag cttgatacaa
+     7261 taaacgccat tttacctccc accaca
+//

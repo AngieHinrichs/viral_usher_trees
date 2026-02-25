@@ -1,0 +1,183 @@
+LOCUS       rerooted_NC_075135.1      2690 bp    DNA     circular VRL 05-MAY-2023
+DEFINITION  rerooted_NC_075135.1.
+ACCESSION   rerooted_NC_075135.1
+VERSION     rerooted_NC_075135.1
+KEYWORDS    RefSeq; capsid protein; circular; genome; unidentified reading
+            frame.
+SOURCE      Maize streak virus - A[South Africa]
+  ORGANISM  Maize streak virus - A[South Africa]
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Repensiviricetes; Geplafuvirales; Geminiviridae; Mastrevirus;
+            Mastrevirus storeyi.
+REFERENCE   1  (bases 1 to 2690)
+  AUTHORS   Lazarowitz,S.G.
+  TITLE     Infectivity and complete nucleotide sequence of the genome of a
+            South African isolate of maize streak virus
+  JOURNAL   Nucleic Acids Res. 16 (1), 229-249 (1988)
+   PUBMED   2829117
+REFERENCE   2  (bases 1 to 2690)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to Y00514.
+            Data kindly reviewed (04-Jul-1989) by Lazarowitz S.G.
+            ORFs for 10.9 kd and  26.8 kd proteins correspond to those reported
+            for MSV-N and MSV-K both by sequence and position homology;
+            overlapping arrangement of ORFs for 31.3 kd and 17.2 kd proteins is
+            identical to that reported for MSV-N; ORF for put. 9.7 kd protein
+            remains unsure.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2690
+                     /organism="Maize streak virus - A[South Africa]"
+                     /mol_type="genomic DNA"
+                     /strain="South African"
+                     /db_xref="taxon:268328"
+                     /clone_lib="pEMBL."
+     gene            join(2689..2690,1..304)
+                     /locus_tag="QJ967_gp5"
+                     /db_xref="GeneID:80519977"
+     CDS             join(2689..2690,1..304)
+                     /locus_tag="QJ967_gp5"
+                     /codon_start=1
+                     /product="10.9 kD protein"
+                     /protein_id="NP_039916.1"
+                     /db_xref="GOA:P14992"
+                     /db_xref="InterPro:IPR002621"
+                     /db_xref="UniProtKB/Swiss-Prot:P14992"
+                     /db_xref="GeneID:80519977"
+                     /translation="MDPQNALYYQPRVPTAAPTSGGVPWSRVGEVAILSFVALICFYLL
+                     YLWVLRDLILVLKARQGRSTEELIFGGQAVDRSNPIPNLPAPPSQGNPGPFVPGTG"
+     gene            1..1115
+                     /locus_tag="QJ967_gs1"
+                     /db_xref="GeneID:80519972"
+     precursor_RNA   <1..1115
+                     /locus_tag="QJ967_gs1"
+                     /note="longer '+'-strand transcript (circular genome !)"
+                     /db_xref="GeneID:80519972"
+     gene            complement(248..505)
+                     /locus_tag="QJ967_gp4"
+                     /db_xref="GeneID:80519971"
+     CDS             complement(248..505)
+                     /locus_tag="QJ967_gp4"
+                     /note="putative"
+                     /codon_start=1
+                     /product="9.7 kD protein"
+                     /protein_id="NP_039917.1"
+                     /db_xref="GeneID:80519971"
+                     /translation="MRSQTPPDGTVIMVDPECWRVWIWREGLSALPPAFFRPAEEGFFL
+                     VVRLFQFASSARFLLDVDMAECLSRTWNKRSGIPLSWWRL*"
+     gene            315..1049
+                     /locus_tag="QJ967_gp3"
+                     /db_xref="GeneID:80519973"
+     CDS             315..1049
+                     /locus_tag="QJ967_gp3"
+                     /codon_start=1
+                     /product="26.8 kD virion capsid protein"
+                     /protein_id="NP_039918.1"
+                     /db_xref="GOA:P14986"
+                     /db_xref="InterPro:IPR000143"
+                     /db_xref="InterPro:IPR000263"
+                     /db_xref="UniProtKB/Swiss-Prot:P14986"
+                     /db_xref="GeneID:80519973"
+                     /translation="MSTSKRKRADDANWNKRTTKKKPSSAGLKKAGGKADRPSLQIQTL
+                     QHSGSTMITVPSGGVCDLINTYARGSDEGNRHTSETLTYKIAVDYHFVADAAACKYSNT
+                     GTGVMWLVYDTTPGGQAPTTQQIFAYPDTLKAWPATWKVSRELCHRFVVKRRWLFNMET
+                     DGRIGSDIPPSNASWKPCKRNIYFHKFTSGLGVRTMWKNVTDGGVGAIQRGALYMVIAP
+                     GNGLTFTAHGQTRLYFKSVGNQ*"
+     gene            complement(1218..1664)
+                     /locus_tag="QJ967_gp2"
+                     /db_xref="GeneID:80519974"
+     CDS             complement(1218..1664)
+                     /locus_tag="QJ967_gp2"
+                     /codon_start=1
+                     /product="17.2 kD protein"
+                     /protein_id="NP_039919.1"
+                     /db_xref="GOA:P14989"
+                     /db_xref="InterPro:IPR001146"
+                     /db_xref="InterPro:IPR001191"
+                     /db_xref="InterPro:IPR022690"
+                     /db_xref="InterPro:IPR022692"
+                     /db_xref="UniProtKB/Swiss-Prot:P14989"
+                     /db_xref="GeneID:80519974"
+                     /translation="MDG*FIQPTDEGSRKQSLYIVGPTRTGKSTWARSLGVHNYWQNNV
+                     DWSSYNEDAIYNIVDDIPFKYCPCWKQLVGCQKEFVVNPKYGKKKKVQMKSKPTIILAN
+                     SDEDWMKEMTPGQLEYFEANCMIYIMSPGEKWYSPPVLPPTEEV*"
+     gene            complement(1559..2377)
+                     /locus_tag="QJ967_gp1"
+                     /db_xref="GeneID:80519975"
+     CDS             complement(1559..2377)
+                     /locus_tag="QJ967_gp1"
+                     /codon_start=1
+                     /product="31.3 kD protein"
+                     /protein_id="NP_039920.1"
+                     /db_xref="GOA:P14989"
+                     /db_xref="GOA:P14990"
+                     /db_xref="InterPro:IPR001146"
+                     /db_xref="InterPro:IPR001191"
+                     /db_xref="InterPro:IPR022690"
+                     /db_xref="InterPro:IPR022692"
+                     /db_xref="UniProtKB/Swiss-Prot:P14989"
+                     /db_xref="UniProtKB/Swiss-Prot:P14990"
+                     /db_xref="GeneID:80519975"
+                     /translation="MASSSSNRQFSHRNANTFLTYPHCPENPEIVCQMIWELVGRWNPK
+                     YIICAREAHRDGDMHLHALIQTEKPVRITDSRFFDINGFHPNIQSAKSVNKVRDYILKE
+                     PLALFERGTFIPRKSPFLGKSDSEGNSKKPSKDEIMREIISHSTSKQEYLSMIQKEFPY
+                     DWATKLQYFEYSANKLFPEIQEEFISPHPPSSPDLLCNESIKDWLQPNIYQVSPESYML
+                     LQPTCYTLEDAISDLQWMDNLSSQQMKDQESRASTSSVQQEQENLLGPEA*"
+     gene            2685..2690
+                     /locus_tag="QJ967_gs2"
+                     /db_xref="GeneID:80519976"
+     precursor_RNA   2685..>2690
+                     /locus_tag="QJ967_gs2"
+                     /note="longer '+'-strand transcript (circular genome !)"
+                     /db_xref="GeneID:80519976"
+ORIGIN
+        1 ggatccccag aatgccgtct attctcagcc gcgggtaccc acagcagctc cgacatccgg
+       61 aggagtgccg tggagtcacg tcggcgaggt agctattttg agctttgttg gtttgatttg
+      121 cttttacctg ctttaccttt gggtgctgag agatcttatc ttagttctga aggctcgaca
+      181 agggagatcc acggaggagc tgatatttgg atctgaagct gtggatagga gcaaccctat
+      241 ccctaatcta caacctccac caactcaggg gaatcccgga ccgtttgttc caggttcggg
+      301 ataagcattc agccatgtcc acgtccaaga ggaagcgtgc agatgatgcg aactggaata
+      361 agcggaccac taagaagaag ccttcttcag ctggtctgaa gaaggctgga ggtaaggctg
+      421 acaggccttc cctccagatc cagaccctcc agcattctgg gtccaccatg ataacagtac
+      481 catccggagg agtctgtgac ctcatcaaca cctatgcccg aggatccgat gagggcaacc
+      541 gccacaccag cgagactctg acgtacaaga ttgccgtcga ctaccacttc gttgctgacg
+      601 ctgcagcctg caagtactcc aacaccggaa ccggtgtgat gtggctggtg tacgacacta
+      661 ctcccggcgg acaagcgccg accacgcaac agatatttgc ctacccggac acgctgaaag
+      721 cttggccggc aacatggaaa gtgagccggg agctgtgtca ccgcttcgtg gtgaaacggc
+      781 gatggttgtt caacatggag accgacggtc gaattggttc ggacatccct ccttcgaatg
+      841 caagttggaa gccgtgcaag cggaacattt acttccacaa gttcacgagt gggttgggag
+      901 tgagaacgat gtggaagaat gtaacagacg gtggagttgg tgcgatacag agaggagctc
+      961 tgtacatggt cattgcccct ggcaatggcc ttacatttac tgcccatggg cagacccgtc
+     1021 tgtactttaa gagtgttggc aaccagtaat gaataaaaac tcccgtttta ttatatctga
+     1081 tgaatgctga aagcttacat taatatgtcg tgcgatggca cgaaaaaaca cacgctatca
+     1141 atacaggggg gtcggcggcg ggcggctaaa gggcgagccc ggcgggcaaa acatcaaaaa
+     1201 aacaagatct atatgaatta aacttcctcc gtaggaggaa gcacaggggg agaataccac
+     1261 ttctcccccg gcgacataat ataaatcatg cagtttgctt cgaaatactc cagctgccct
+     1321 ggagtcattt ccttcatcca gtcttcatcc gagttggcga ggataattgt aggcttagac
+     1381 ttcatctgca ccttcttctt cttcccatat ttaggattta caacgaattc tttttgacag
+     1441 ccaactaact gtttccaaca aggacagtat ttaaagggga tatcatctac gatgttgtag
+     1501 attgcgtctt cgttgtatga agaccaatca acattatttt gccagtaatt atgaacccct
+     1561 aggcttctgg cccaagtaga ttttcctgtt cttgttggac cgacgatgta gaggctctgc
+     1621 tttcttgatc cttcatctgt tggctggata aattatccat ccattgaagg tcagagatag
+     1681 catcctcgag ggtataacag gtaggttgaa gaagcatgta tgattcggga ctaacctgat
+     1741 agatgttagg ctggagccaa tctttgattg actcattaca aagaagatca ggtgatgagg
+     1801 gtggatgagg actgatgaac tcttcctgaa tttcaggaaa gagtttattt gcagagtatt
+     1861 caaagtactg caattttgtg gcccagtcat agggaaattc tttctggatc atggagaggt
+     1921 actcttgctt ggaagtggag tgtgaaataa tctctcgcat tatttcatct ttggaaggtt
+     1981 tctttgaatt tccctctgaa tcagattttc ctaggaaggg tgacttccta ggaatgaaag
+     2041 tacctctctc aaacaaggcc agaggttcct tgagaatgta atctctgacc ttgtttacag
+     2101 attttgcact ctgaatgttt gggtggaacc catttatgtc aaagaacctt gagtcagtga
+     2161 ttcttaccgg tttctctgtc tggattaatg catgtaaatg catatctcca tctctatgtg
+     2221 cctctcgggc acatatgatg tacttagggt tccaacgacc gacgagctcc cagatcatct
+     2281 gacagacgat ttctggattt tctggacagt gtggatatgt taggaacgtg ttagcgttcc
+     2341 tgtgtgagaa ctgacggttg gatgaggagg aggccatatc ggacgactga ggctgaggct
+     2401 gcgggatggc aggatgggag ctccaaactc tatactatac cggtgcgcct tcgaaatccg
+     2461 ccgctcccct ctcttatagt ggttgtttat gggccggacc gggccggccc agcaggaaaa
+     2521 gaaggcgcgc aataatatta ccgcgccttc ttttcctgcg agggcccggt agggaccgag
+     2581 cgatttgatt taaagtttgg atctgctttg tttgatttat ccaaagcagc ccaatctaaa
+     2641 gaaaccggtc ccctgcacta taaattgcct cacaagtgcg attcattcat
+//

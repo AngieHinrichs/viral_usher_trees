@@ -1,0 +1,689 @@
+LOCUS       rerooted_NC_038307.1      7399 bp    ss-RNA  linear   VRL 24-AUG-2018
+DEFINITION  rerooted_NC_038307.1.
+ACCESSION   rerooted_NC_038307.1
+VERSION     rerooted_NC_038307.1
+KEYWORDS    RefSeq.
+SOURCE      Coxsackievirus B3
+  ORGANISM  Coxsackievirus B3
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Picornavirales; Picornaviridae; Ensavirinae; Enterovirus;
+            Enterovirus betacoxsackie.
+REFERENCE   1  (bases 1 to 7399)
+  AUTHORS   Tracy,S., Chapman,N.M. and Tu,Z.
+  TITLE     Coxsackievirus B3 from an infectious cDNA copy of the genome is
+            cardiovirulent in mice
+  JOURNAL   Arch. Virol. 122 (3-4), 399-409 (1992)
+   PUBMED   1310000
+REFERENCE   2  (bases 1 to 7399)
+  AUTHORS   Klump,W.M., Bergmann,I., Muller,B.C., Ameis,D. and Kandolf,R.
+  TITLE     Complete nucleotide sequence of infectious Coxsackievirus B3 cDNA:
+            two initial 5' uridine residues are regained during plus-strand RNA
+            synthesis
+  JOURNAL   J. Virol. 64 (4), 1573-1583 (1990)
+   PUBMED   2157045
+REFERENCE   3  (bases 1 to 7399)
+  AUTHORS   Lindberg,A.M., Stalhandske,P.O. and Pettersson,U.
+  TITLE     Genome of coxsackievirus B3
+  JOURNAL   Virology 156 (1), 50-63 (1987)
+   PUBMED   3027968
+REFERENCE   4  (bases 1 to 7399)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to M88483.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..7399
+                     /organism="Coxsackievirus B3"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:12072"
+                     /lab_host="Homo sapiens"
+     5'UTR           1..742
+                     /note="putative"
+     misc_difference 35
+                     /note="'' in misc_difference; Nucleotide is not present in
+                     citations 2 and 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 274
+                     /note="'' in misc_difference; Nucleotide is not present in
+                     citation 2."
+                     /citation=[3]
+                     /replace=""
+     misc_difference 610
+                     /note="t in citation 1 and 2; c in citation 3.; 'c' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 647
+                     /note="'t' in misc_difference; c in citations 1 and 2; t in
+                     citation 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 667
+                     /note="t in citations 1 and 2; c in citation 3.; 'c' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     gene            743..7300
+                     /locus_tag="D1P32_gp1"
+                     /db_xref="GeneID:37616476"
+     CDS             743..7300
+                     /locus_tag="D1P32_gp1"
+                     /note="putative"
+                     /codon_start=1
+                     /product="polyprotein"
+                     /protein_id="YP_009505604.1"
+                     /db_xref="GeneID:37616476"
+                     /translation="MGAQVSTQKTGAHETGLNASGNSIIHYTNINYYKDAASNSANRQD
+                     FTQDPGKFTEPVKDIMIKSLPALNSPTAEECGYSDRVRSITLGNSTITTQECANVVVGY
+                     GVWPEYLKDNEATAEDQPTQPDVATCRFYTLESVQWQKNSAGWWWKFPDALKDMGLFGQ
+                     NMQYHYLGRAGYTIHVQCNASKFHQGCLLVVCVPEAEMGCATLDNTPSSAELLGGDSAK
+                     EFADKPVASGSNKLVQTAVCNAGMGVGVGNLTIFPHQWINLRTNNSATIVMPYINSVPM
+                     DNMFRHYNFTLMIIPFAPLDYCAGSSTYVPITVTVAPMCAEYNGLRLAGHQGLPVMNTP
+                     GSNQFLTSDDFQSPSAMPQFDVTPEMHIPGEVNNLMEIAEVDSVVPVNNVEEKVNSMEA
+                     YQIPVRSNEGSGTQVFGFQLQPGYSSVFKRTLLGEILNYYAHWSGSIKLTFMFCGSAMA
+                     TGKFLLAYSPPGAGAPTKRKDAMLGTHVIWDVGLQSSCVLCVPWISQTHYRFVAKDEYT
+                     AAGYITCWYQTNIVVPADAQSSCYILCFVSACNDFSVRMLRDTPFIEQQNFFQGPVEDA
+                     ITAAIGRVADTMGSGPTNSEAIPALTAVETGHTSQVVPSDTMQTRHVKNYHSRSESTIE
+                     NFLCRSACVYITKYKNSGAKRYAEWVLTPRQVAQLRRKFEMFTYMRFDMEVTFVITSTQ
+                     EPSTTQNQDAPVLTHQIMYVPPGGPVPNKVDGYAWQTSTNPSVFWTEGNAPPRMSIPFM
+                     SIGNAYSNFYDGWSHFSKNGVYGFNTLNNMGKLYVRHVNDGSPGPITSTVRIYFKPKHV
+                     KAWVPRPPRLCQYKKAKNVNFKPSGVTTTRQSITTMTNTGAFGQQSGAVYVGNYRVVNR
+                     HLATHTDWQNCVWEDYNRDLLVSTTTAHGCDTIARCQCTTGVYFCASRNKHYPVSFEGP
+                     GLVEVQESEYYPKRYQSHVLLAAGFSEPGDCGGILRCEHGVIGIVTMGGEGVVGFADVR
+                     DLLWLEDDAMEQGVKDYVEQLGNAFGSGFTNQICEQVNLLKESLVGQDSILEKSLKALV
+                     KIISALVIVVRNHDDLITVTATLALIGCTSSPWRWLKQKVSQYYGIPMAERQNNGWLKK
+                     FTEMTNACKGMEWIAIKIQKFIEWLKVKILPEVKEKHEFLNRLKQLPLLESQIATIEQS
+                     APSQSDQEQLFSNVQYFAHYCRKYAPLYAAEAKRVFSLEKKMSNYIQFKSKCRIEPVCL
+                     LLHGSPGAGKSVATNLIGRSLAEKLNSSVYSLPPDPDHFDGYKQQAVVIMDDLCQNPDG
+                     KDVSLFCQMVSSVDFVPPMAALEEKGILFTSPFVLASTNAGSINAPTVSDSRALARRFH
+                     FDMNIEVISMYSQNGKINMPMSVKTCDEECCPVNFKKCCPLVCGKAIQFIDRRTQVRYS
+                     LDMLVTEMFREYNHRHSVGATLEALFQGPPVYREIKISVAPETPPPPAIADLLKSVDSE
+                     AVREYCKEKGWLVPEINSTLQIEKHVSRAFICLQALTTFVSVAGIIYIIYKLFAGFQGA
+                     YTGMPNQKPKVPTLRQAKVQGPAFEFAVAMMKRNASTVKTEYGEFTMLGIYDRWAVLPR
+                     HAKPGPTILMNDQEVGVVDAKELVDKDGTNLELTLLKLNRNEKFRDIRGFLAREEVEVN
+                     EAVLAINTSKFPNMYIPVGQVTDYGFLNLGGTPTKRMLMYNFPTRAGQCGGVLMSTGKV
+                     LGIHVGGNGHQGFSAALLSHYFNDEQGEIEFIESSKDAGFPVINTPSKTKLEPSVFHHV
+                     FEGNKEPAVLRNGDPRLKANFEEAIFSKYIGNVNTHVDEYMLEAVDHYAGQLATLDIST
+                     EPMKLEDAVYGTEGLEALDLTTSAGYPYVALGIKKRDILSKKTKDLTKLKECMDKYGLN
+                     LPMVTYVKDELRSAEKVAKGKSRLIEASSLNDSVAMRQTFGNLYKTFHLNPGIVTGSAV
+                     GCDPDLFWSKIPVMLDGHLIAFDYSGYDASLSPVWFACLKLLLEKLGYSHKETNYIDYL
+                     CNSHHLYRDKHYFVRGGMPSGCSGTSIFNSMINNIIIRTLMLKVYKGIDLDQFRMIAYG
+                     DDVIASYPWPIDASLLAEAGKGYGLIMTPADKGECFNEVTWTNVTFLKRYFRADEQYPF
+                     LVHPVMPMKDIHESIRWTKDPKNTQDHVRSLCLLAWHNGEHEYEEFMPKIRSVPVGRCL
+                     TLPAFSTLRRKWLDSF*"
+     misc_difference 788
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 1 and 3; g in citation 2.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 913
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 1 and 2; g in citation 3.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 987
+                     /locus_tag="D1P32_gp1"
+                     /note="c in citations 2 and 3.; 'c' in misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 1272..1273
+                     /locus_tag="D1P32_gp1"
+                     /note="'at' in misc_difference; ta in citations 1 and 3; at
+                     in citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 1401..1402
+                     /locus_tag="D1P32_gp1"
+                     /note="cg in citations 1, 2, and 3; correct CVB3-20
+                     sequence is gc.; 'cg' in misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 1408
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 1 and 2; g in citation 3.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 1963
+                     /locus_tag="D1P32_gp1"
+                     /note="t in citations 1 and 2; c in citation 3.; 'c' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2148
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; c in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2182
+                     /locus_tag="D1P32_gp1"
+                     /note="c in citations 1 and 2; t in citation 3.; 't' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2201
+                     /locus_tag="D1P32_gp1"
+                     /note="g in citations 1 and 2; a in citation 3.; 'a' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2271
+                     /locus_tag="D1P32_gp1"
+                     /note="t in citations 1 and 3; a in citation 2.; 'a' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2289
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 1 and 3; g in citation 2.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2438
+                     /locus_tag="D1P32_gp1"
+                     /note="c in citations 1 and 3; g in citation 2.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2520
+                     /locus_tag="D1P32_gp1"
+                     /note="c in citations 1 and 3; a in citation 2.; 'a' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2560
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 1 and 2; g in citation 3.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2593
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; c in citations 1 and 2; t in
+                     citation 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2632
+                     /locus_tag="D1P32_gp1"
+                     /note="c in citations 2 and 3.; 'c' in misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2690
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; a in citations 1 and 3; g in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2851
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; c in citations 1 and 2; t in
+                     citation 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 2881
+                     /locus_tag="D1P32_gp1"
+                     /note="t in citations 2 and 3.; 't' in misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3243
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 2 and 3.; 'a' in misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3302
+                     /locus_tag="D1P32_gp1"
+                     /note="t in citations 1 and 3; at in citation 2.; 'at' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3336
+                     /locus_tag="D1P32_gp1"
+                     /note="Nucleotide not present in citation 2.; '' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3346
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 1 and 2; g in citation 3.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3358..3360
+                     /locus_tag="D1P32_gp1"
+                     /note="tct in citations 1 and 3; ctc in citation 2.; 'ctc'
+                     in misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3434
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; g in citations 2 and 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3782
+                     /locus_tag="D1P32_gp1"
+                     /note="t in citations 2 and 3.; 't' in misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 3913
+                     /locus_tag="D1P32_gp1"
+                     /note="g in citations 1 and 3; a in citation 2.; 'a' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 4031
+                     /locus_tag="D1P32_gp1"
+                     /note="g in citations 1 and 3; c in citation 2.; 'c' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 4078
+                     /locus_tag="D1P32_gp1"
+                     /note="g in citations 1 and 2; a in citation 3.; 'a' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 4165
+                     /locus_tag="D1P32_gp1"
+                     /note="g in citations 1 and 2; a in citation 3.; 'a' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 4177
+                     /locus_tag="D1P32_gp1"
+                     /note="a in citations 1 and 2; g in citation 3.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 4582
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; g in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 4585
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; t in citations 2 and 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 4948
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; t in citations 1 and 3; g in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5051
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; a in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5249
+                     /locus_tag="D1P32_gp1"
+                     /note="'a' in misc_difference; g in citations 1 and 3; a in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5383
+                     /locus_tag="D1P32_gp1"
+                     /note="'c' in misc_difference; c in citations 2 and 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5412
+                     /locus_tag="D1P32_gp1"
+                     /note="'c' in misc_difference; c in citations 2 and 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5560
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; c in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5588
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; a in citations 1 and 3; g in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5612
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; a in citations 1 and 3; g in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5621
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; a in citations 1 and 3; g in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5630
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; t in citations 1 and 3; g in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5735
+                     /locus_tag="D1P32_gp1"
+                     /note="'c' in misc_difference; c in citations 2 and 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5894
+                     /locus_tag="D1P32_gp1"
+                     /note="'a' in misc_difference; t in citations 1 and 3; a in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 5943
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; a in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6007
+                     /locus_tag="D1P32_gp1"
+                     /note="'a' in misc_difference; g in citations 1 and 3; a in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6015
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; a in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6055
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; a in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6142
+                     /locus_tag="D1P32_gp1"
+                     /note="'g' in misc_difference; a in citations 1 and 3; g in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6212..6213
+                     /locus_tag="D1P32_gp1"
+                     /note="'ag' in misc_difference; gt in citations 1 and 3; ag
+                     in citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6247
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; a in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6341
+                     /locus_tag="D1P32_gp1"
+                     /note="'c' in misc_difference; t in citations 1 and 3; c in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6380
+                     /locus_tag="D1P32_gp1"
+                     /note="'c' in misc_difference; t in citations 1 and 3; c in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 6743
+                     /locus_tag="D1P32_gp1"
+                     /note="'a' in misc_difference; g in citations 1 and 3; a in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7026
+                     /locus_tag="D1P32_gp1"
+                     /note="'c' in misc_difference; t in citations 1 and 2; c in
+                     citation 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7073
+                     /locus_tag="D1P32_gp1"
+                     /note="'t' in misc_difference; c in citations 1 and 3; t in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7086..7087
+                     /locus_tag="D1P32_gp1"
+                     /note="'cc' in misc_difference; tt in citations 1 and 3; cc
+                     in citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7265
+                     /locus_tag="D1P32_gp1"
+                     /note="t in citations 1 and 3; a in citation 2.; 'a' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7274
+                     /locus_tag="D1P32_gp1"
+                     /note="c in citations 1 and 3; g in citation 2.; 'g' in
+                     misc_difference"
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     3'UTR           7301..7399
+     misc_difference 7314
+                     /note="'' in misc_difference; t in citations 1 and 3;
+                     nucleotide not present in citation2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7319
+                     /note="'c' in misc_difference; t in citations 1 and 3; c in
+                     citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7333..7334
+                     /note="'ac' in misc_difference; tt in citations 1 and 3; ac
+                     in citation 2."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+     misc_difference 7399
+                     /note="'gg' in misc_difference; g in citations 1 and 2; gg
+                     in citation 3."
+                     /citation=[2]
+                     /citation=[3]
+                     /replace=""
+ORIGIN
+        1 ttaaaacagc ctgtgggttg ttcccaccca cagggcccac tgggcgctag cacactggta
+       61 tcacggtacc tttgtgcgcc tgttttatac cccctccccc aactgtaact tagaagtaac
+      121 acacaccggt caatagtcag cgcagcacac cagctgggtc ttgaccaagc acttctgtta
+      181 ccccggactg agtatcaata ggctgctcac gcggctgaag gagaaaacgt tcgttacccg
+      241 gccaattact tcgagaaacc tagtaccacc atgaaggttg cgcagcgttt cgctccgcac
+      301 aaccccagtg tagatcaggt cgatgagtca ccgcattccc cacgggcgac cgtggcggtg
+      361 gctgcgttgg cggcctgccc atggggcaac ccatgggacg cttcaatact gacatggtgc
+      421 gaagagtcta ttgagctaat tggtagtcct ccggcccctg aatgcggcta atcctaactg
+      481 cggagcagat acccacacgc cagtgggcag tctgtcgtaa cgggcaactc tgcagcggaa
+      541 ccgactactt tgggtgtccg tgtttccttt tattcttata ttggctgctt atggtgacaa
+      601 ttgagagatt gttaccatat agctattgga ttggccatcc ggtgacaaac agagcaatta
+      661 tttacctatt tgttggtttt gtaccactga acttcaaagt ttttaaaaca ctaaacttca
+      721 ttataaaact caacacagca aaatgggagc tcaagtgtca acacaaaaga ctggagcaca
+      781 tgagactggc ctgaatgcta gtggcaactc catcatccac tacaccaaca tcaattacta
+      841 caaggatgca gcatcaaact cagcaaacag acaagacttc acacaagacc caggcaagtt
+      901 cacagaacca gtgaaagata tcatgataaa atccctgcca gcactgaact caccaactgc
+      961 agaggagtgt gggtacagtg atagggtgag atccatcaca ctaggcaact ccaccataac
+     1021 cacacaagag tgtgccaatg tggttgtggg gtatggtgtg tggccagagt atctgaagga
+     1081 taatgaggca acagcagaag accaaccaac acaaccagac gtggccacat gcaggtttta
+     1141 cacacttgaa tcagtgcagt ggcagaaaaa ctcagcaggg tggtggtgga agttccctga
+     1201 tgcactgaaa gacatggggt tgtttggaca aaacatgcaa taccactacc tgggcagagc
+     1261 agggtacacc atacacgtgc agtgcaacgc atccaaattc caccaagggt gcctgctggt
+     1321 ggtgtgtgtg ccagaggcag aaatggggtg cgcaacgcta gacaacaccc catccagtgc
+     1381 agaattgctg gggggcgata gcgcaaaaga gtttgcggac aaaccggtcg catccgggtc
+     1441 caacaagttg gtacagacag cggtgtgcaa tgctggcatg ggggtgggtg ttggcaacct
+     1501 gaccatattc ccacaccagt ggatcaactt gcgcaccaac aacagtgcca ccatagtgat
+     1561 gccatacata aacagtgtgc caatggacaa catgttcaga cactacaact tcacactgat
+     1621 gatcatccca tttgccccgc tggattactg cgctgggtcc tccacatacg tgccaatcac
+     1681 agtcacagta gccccaatgt gtgctgagta caatgggctg cggctggcag gccaccaggg
+     1741 cttaccagtc atgaacacac caggtagcaa ccagttcctg acatcagatg acttccaatc
+     1801 accatcagcc atgccacagt ttgatgtgac cccagagatg cacataccag gtgaggtgaa
+     1861 caacctgatg gagattgcag aggtggactc agtggtgcca gtgaacaacg ttgaagagaa
+     1921 ggtcaactcc atggaagcat accagatacc agtgagatcc aatgaaggat ctggaacgca
+     1981 agtttttggc tttcaactgc aaccagggta ctcgagtgtg ttcaagcgca cactgctggg
+     2041 tgagatccta aattactacg cacactggtc agggagcata aagctcacat ttatgttttg
+     2101 tggttcagca atggccactg gcaaattcct gctggcatac tcaccaccag gtgctggagc
+     2161 cccaacaaaa aggaaagatg ccatgctggg cacccacgtg atatgggatg ttgggttgca
+     2221 atcaagctgt gtgttgtgtg taccatggat tagccaaaca cactacaggt ttgtggcaaa
+     2281 agatgagtac accgctgctg gttacatcac atgctggtac caaaccaaca tagtggtccc
+     2341 agctgatgcc caaagctcct gttacatctt gtgctttgtg tcagcatgca atgacttctc
+     2401 agtgcggatg ttgagagaca caccattcat tgaacagcaa aactttttcc agggcccagt
+     2461 ggaagacgcg ataacagccg ctatagggag agtggctgac accatgggca gtggaccaac
+     2521 caactcagaa gcgataccag cactgacagc agttgagact gggcacacat cacaagtggt
+     2581 gcccagtgac accatgcaaa caagacacgt gaagaactac cactccagat cagagtcaac
+     2641 aattgagaac ttcctgtgta ggtcagcatg tgtgtacatt acgaagtata aaaactcagg
+     2701 tgccaagcgg tatgctgaat gggtattaac accacgacaa gtggcacaac tgaggaggaa
+     2761 gtttgagatg ttcacataca tgaggtttga catggaggtc acatttgtga tcaccagcac
+     2821 acaagagcca tcaaccacac agaaccaaga cgcaccggtg ctaacacacc aaatcatgta
+     2881 tgtgccacca ggtggcccag taccaaataa agtggatggt tacgcgtggc aaacatccac
+     2941 caaccccagt gtcttctgga cagaggggaa tgcaccacca cgcatgtcca taccattcat
+     3001 gagcattggc aatgcataca gcaactttta tgatgggtgg tcacactttt ccaagaacgg
+     3061 ggtgtatggc ttcaacaccc taaacaacat gggcaagcta tatgtcaggc atgtgaacga
+     3121 tggaagcccg ggtccaataa caagcaccgt tagaatttac ttcaaaccaa agcacgtcaa
+     3181 ggcgtgggtg ccaagaccac cacggttgtg ccaatacaag aaggcaaaga atgtgaactt
+     3241 caaacccagc ggagtgacca ctactaggca aagcatcact acaatgacaa atacgggcgc
+     3301 atttggacaa caatcaggag cagtgtatgt gggcaactac agagtggtga acagacacct
+     3361 ggccacccac actgattggc aaaactgtgt gtgggaggat tacaacaggg acctcctagt
+     3421 gagcaccacc acagctcacg ggtgtgacac catagccaga tgccaatgca caacaggtgt
+     3481 gtacttctgt gcctcaagga acaagcacta cccagttagc tttgaaggcc caggcctagt
+     3541 ggaagtccaa gagagtgagt actaccccaa gagataccaa tcccatgtgc tgcttgcagc
+     3601 agggttctct gaaccaggtg attgtggtgg catcctgagg tgtgagcatg gtgtcatcgg
+     3661 gattgtgacc atgggtggtg agggtgttgt tggctttgcc gatgtgcgtg acctcctgtg
+     3721 gttggaggat gatgcaatgg aacagggtgt caaggactat gtggaacaac ttggaaatgc
+     3781 ctttggttca ggcttcacca accagatttg tgaacaggtc aacctcctca aagaatcact
+     3841 ggtaggtcaa gactccatcc tggagaaatc cctcaaagcc ctagtcaaga tcatatcagc
+     3901 actggtgatt gtggtgagaa accatgatga cctgatcaca gtgactgcca cactagccct
+     3961 cattggctgc acctcatcac catggcgatg gctcaaacaa aaggtgtccc aatattatgg
+     4021 aatacccatg gctgagagac aaaacaatgg gtggctcaag aagttcacag agatgaccaa
+     4081 cgcctgcaag ggcatggagt ggatagccat caaaatccaa aagtttatag agtggctcaa
+     4141 agtcaaaatc ctaccagaag tcaaggagaa acatgagttc ctcaacagac tgaaacaact
+     4201 acccctcctg gaaagccaga ttgccaccat tgaacagagt gcaccatcac agagtgatca
+     4261 agagcaactt ttctccaatg tccagtactt tgcccactac tgcaggaagt acgcgcccct
+     4321 gtatgctgct gaggcaaaga gagtgttctc cctagaaaag aaaatgagca attacataca
+     4381 gttcaagtcc aaatgccgta ttgaacctgt atgtttgctg ctccatggga gccctggagc
+     4441 tgggaaatca gtggccacca acctgattgg gcgctcactt gcagagaaac tcaacagctc
+     4501 agtgtactcc ctaccaccag acccagacca ctttgatggt tacaaacaac aagctgtcgt
+     4561 gatcatggat gacctgtgcc aaaacccaga tgggaaggat gtgtccctgt tctgccaaat
+     4621 ggtatccagt gtggactttg taccaccaat ggcagcactg gaggagaaag gcattctctt
+     4681 cacctcccca tttgtcctgg cgtccaccaa tgcagggtcc atcaatgcac ccactgtgtc
+     4741 agacagcaga gcccttgcca gaaggttcca ctttgacatg aacattgaag tcatctcaat
+     4801 gtacagccag aatggcaaga tcaacatgcc catgtcagtg aagacatgtg atgaggagtg
+     4861 ttgcccagtc aacttcaaga agtgttgccc actggtgtgt ggtaaagcca tccagttcat
+     4921 tgacaggaga acccaggtga ggtactcact ggacatgctt gtgactgaga tgttcaggga
+     4981 gtacaaccac agacacagtg tgggggcaac ccttgaggca ctgttccaag gcccaccagt
+     5041 gtacagagag atcaaaatca gtgttgcacc agaaaccccc ccaccaccag caattgcaga
+     5101 cctactgaaa tcagtggata gtgaggcagt cagagagtac tgcaaggaga agggatggtt
+     5161 ggtgcctgag atcaactcca ccctgcaaat tgaaaagcat gtgagcagag ccttcatctg
+     5221 cctgcaagca ctcaccacat ttgtctctgt ggcagggata atatacatca tttacaaatt
+     5281 gtttgcaggc ttccagggcg cttacactgg gatgcccaac caaaaaccca aagtgcccac
+     5341 cctaagacaa gctaaagtgc aaggcccagc atttgaattt gctgtggcca tgatgaagag
+     5401 aaacgccagc acagtgaaaa cagagtacgg tgagttcacc atgcttggca tctatgacag
+     5461 gtgggcagtg ttaccacgcc acgccaaacc tggaccaacc attctaatga atgaccagga
+     5521 agtgggtgtg gtggatgcca aagagctagt ggacaaagat ggcacaaacc tggagctgac
+     5581 actcctgaaa ctcaaccgaa atgagaagtt tagagacatc agaggcttcc tggcaagaga
+     5641 agaggttgag gtcaatgagg ctgtgcttgc aattaacacc agcaagttcc caaacatgta
+     5701 catcccagtt ggtcaagtca cagactatgg cttcctcaac ctgggtggga cccccaccaa
+     5761 gagaatgctc atgtacaact tcccaactag agcaggccag tgtggtggtg tcctaatgtc
+     5821 aacaggcaaa gtccttggaa tacatgttgg tggaaatgga caccaagggt tctcagcagc
+     5881 cctcctcagc cactacttca atgatgagca gggtgaaatt gagttcattg agagctccaa
+     5941 ggatgcaggc ttcccagtca tcaacacccc cagcaaaaca aagctggaac ccagtgtctt
+     6001 ccaccacgtg tttgagggga acaaagaacc agcagtgctg agaaatgggg acccacgact
+     6061 caaggccaac tttgaggagg ccatcttctc caagtacatt ggcaatgtca acacacatgt
+     6121 ggatgagtac atgctggaag ctgtggacca ctatgcaggg caactggcca ccctggacat
+     6181 cagcacagaa cccatgaaac tggaggatgc agtgtatggc actgaagggt tggaagcact
+     6241 agacttgacc accagtgcag ggtaccccta tgttgccctt ggcatcaaga agagagacat
+     6301 tctatccaag aagaccaagg acctaacaaa gctgaaggag tgcatggaca agtatgggct
+     6361 gaacctacca atggtcacct atgtgaagga tgagctgaga tcagcagaga aggtggccaa
+     6421 aggaaaatcc agactaattg aagcatccag tctcaatgac tcagtggcaa tgaggcagac
+     6481 atttgggaac ctgtacaaga cattccacct gaacccaggc atagtgacag gcagtgcagt
+     6541 tgggtgtgac ccagatctat tctggagcaa gatcccagtc atgcttgatg gccatctcat
+     6601 agcctttgac tactctggtt atgatgccag cctgagccca gtgtggtttg catgcctgaa
+     6661 actgctgtta gagaaactgg ggtactcaca caaggaaaca aactacatag actacctgtg
+     6721 caactcccac cacctgtaca gagacaaaca ctactttgtg agaggtggaa tgccatcagg
+     6781 gtgctcaggc accagcatct tcaactcaat gatcaacaac ataataatca gaacactaat
+     6841 gttgaaggtg tacaagggca ttgacctgga tcaattcagg atgattgcat atggtgatga
+     6901 tgtgattgca tcatacccat ggcccattga tgcctcactg ctggctgaag ctggcaaagg
+     6961 gtatggtctg atcatgacac cagcagacaa gggagagtgc ttcaatgaag tgacctggac
+     7021 caacgtcacc ttcctgaaaa gatacttcag agcagatgag caataccctt tccttgtcca
+     7081 cccagtcatg ccaatgaaag acatccatga atccatcagg tggaccaaag acccaaagaa
+     7141 cacccaagat catgtgcgat ccttgtgcct attggcctgg cacaatggag agcacgaata
+     7201 tgaggagttc atgcccaaga tcagaagcgt cccagttggg cgctgtttga ccctacctgc
+     7261 gttttcaacc ctacgcagga agtggctgga ctccttttaa attagagaca atttgaaata
+     7321 attcaaattg gcttaaccct accgcactaa ccgaactaga caacggtgcg gtaggggtaa
+     7381 attctccgca ttcggtgcg
+//

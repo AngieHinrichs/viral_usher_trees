@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq AC_000017.1, taxonomy ID 3241411
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'AC_000017.1'
-refseq_assembly = 'GCF_000858645.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'AC_000017.1'
+#refseq_assembly = 'GCF_000858645.1'
+ref_fasta = './trees/Human_adenovirus_1/midpoint_rerooted_AC_000017.1.fa'
+ref_gbff = './trees/Human_adenovirus_1/midpoint_rerooted_AC_000017.1.gbff'
 taxonomy_id = '3241411'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

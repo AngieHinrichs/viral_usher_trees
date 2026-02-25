@@ -1,0 +1,111 @@
+LOCUS       rerooted_NC_004907.1      1025 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_004907.1.
+ACCESSION   rerooted_NC_004907.1
+VERSION     rerooted_NC_004907.1
+KEYWORDS    RefSeq; M1 gene; M2 gene; matrix protein 1; matrix protein 2.
+SOURCE      Influenza A virus (A/Hong Kong/1073/99(H9N2))
+  ORGANISM  Influenza A virus (A/Hong Kong/1073/99(H9N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Lin,Y.P., Shaw,M., Gregory,V., Cameron,K., Lim,W., Klimov,A.,
+            Subbarao,K., Guan,Y., Krauss,S., Shortridge,K., Webster,R., Cox,N.
+            and Hay,A.
+  TITLE     Avian-to-human transmission of H9N2 subtype influenza A viruses:
+            relationship between H9N2 and H5N1 human isolates
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 97 (17), 9654-9658 (2000)
+   PUBMED   10920197
+REFERENCE   2  (bases 1 to 1025)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2003) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1025)
+  AUTHORS   Lin,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2000) Lin Y., Virology, National Institute for
+            Medical Research, The Ridgeway, Mill Hill, London, NW7 1AA, UNITED
+            KINGDOM
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AJ278646.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1025
+                     /organism="Influenza A virus (A/Hong Kong/1073/99(H9N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Hong Kong/1073/99 (H9N2)"
+                     /db_xref="taxon:130760"
+                     /segment="7"
+                     /geo_loc_name="Hong Kong:Kowloon"
+                     /collection_date="1999"
+     gene            33..1014
+                     /gene="M2"
+                     /locus_tag="FLUAVAHHH9N2s7gp1"
+                     /db_xref="GeneID:1461002"
+     CDS             join(33..59,748..1014)
+                     /gene="M2"
+                     /locus_tag="FLUAVAHHH9N2s7gp1"
+                     /codon_start=1
+                     /product="matrix protein 2"
+                     /protein_id="NP_859035.1"
+                     /db_xref="InterPro:IPR002089"
+                     /db_xref="GeneID:1461002"
+                     /translation="MSLLTEVETLTRNGWECKCRDSSDPLVVAASIIGILHLILWILDR
+                     LFFKCIYRRFKYGLKRGPSTEGVPESMREEYRQEQQNAVDVDDGHFVNIELE"
+     gene            33..791
+                     /gene="M1"
+                     /locus_tag="FLUAVAHHH9N2s7gp2"
+                     /db_xref="GeneID:1461001"
+     CDS             33..791
+                     /gene="M1"
+                     /locus_tag="FLUAVAHHH9N2s7gp2"
+                     /codon_start=1
+                     /product="matrix protein 1"
+                     /protein_id="NP_859036.1"
+                     /db_xref="GOA:Q77MF0"
+                     /db_xref="InterPro:IPR001561"
+                     /db_xref="UniProtKB/TrEMBL:Q77MF0"
+                     /db_xref="GeneID:1461001"
+                     /translation="MSLLTEVETYVLSIVPSGPLKAEIAQRLEDVFAGKNTDLEALMEW
+                     LKTRPILSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDRAVKLYRKLK
+                     REITFHGAKEVALSYSTGALASCMGLIYNRMGTVTTEVAFGLVCATCEQIADSQHRSHR
+                     QMVTTTNPLIRHENRMVLASTTAKAMEQMAGSSEQAAEAMEVASQARQMVQAMRTIGTH
+                     PSSSAGLKDDLLENLQAYQKRMGVQMQRFK*"
+     exon            33..791
+                     /gene="M1"
+                     /locus_tag="FLUAVAHHH9N2s7gp2"
+                     /number=1
+     exon            33..59
+                     /gene="M2"
+                     /locus_tag="FLUAVAHHH9N2s7gp1"
+                     /number=1
+     intron          60..747
+                     /gene="M2"
+                     /locus_tag="FLUAVAHHH9N2s7gp1"
+                     /number=1
+     exon            748..1014
+                     /gene="M2"
+                     /locus_tag="FLUAVAHHH9N2s7gp1"
+                     /number=2
+ORIGIN
+        1 ggggaatagc aaaagcaggt agatattgaa agatgagtct tctaaccgag gtcgaaacgt
+       61 acgttctctc tatcgtcccg tcaggccccc tcaaagccga gatcgcgcag agacttgaag
+      121 atgtctttgc agggaagaac accgatcttg aggcactcat ggaatggcta aagacaagac
+      181 caatcctgtc acctctgact aaggggattt taggatttgt gtttacgctc accgtgccca
+      241 gtgagcgagg actgcagcgt agacgctttg tccaaaatgc ccttaatggg aatggagatc
+      301 caaacaacat ggacagagca gtcaaactgt acaggaagct caaaagggaa ataacattcc
+      361 atggggccaa agaagtggca ctcagttatt caactggtgc acttgccagt tgcatgggcc
+      421 tcatatacaa cagaatgggg actgtgacca ccgaagtggc atttggcctg gtgtgcgcca
+      481 catgtgagca gattgctgat tcccagcatc ggtctcacag acagatggtg acaacaacca
+      541 acccactgat cagacatgag aacagaatgg tactagccag tactacggct aaagccatgg
+      601 agcagatggc agggtcgagt gagcaggcag cagaggctat ggaggttgct agtcaggcta
+      661 ggcagatggt gcaggcaatg aggaccattg ggactcatcc tagctccagt gctggtctaa
+      721 aagatgatct tcttgaaaat ttgcaggcct accagaaacg gatgggagtg caaatgcagc
+      781 gattcaagtg atcctctcgt tattgccgca agtatcattg ggatcttgca cttgatattg
+      841 tggattcttg atcgtctttt cttcaaatgc atttatcgtc gccttaaata cggtttgaaa
+      901 agagggcctt ctacggaagg agtgcctgag tctatgaggg aagaatatcg gcaggaacag
+      961 cagagtgctg tggatgttga cgatggtcat tttgtcaaca tagagctgga gtaaaaaatc
+     1021 tacct
+//

@@ -1,0 +1,83 @@
+LOCUS       rerooted_NC_036475.1      1040 bp    ss-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_036475.1.
+ACCESSION   rerooted_NC_036475.1
+VERSION     rerooted_NC_036475.1
+KEYWORDS    RefSeq.
+SOURCE      Piscine orthoreovirus
+  ORGANISM  Piscine orthoreovirus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus piscis.
+REFERENCE   1  (bases 1 to 1040)
+  AUTHORS   Kibenge,M.J., Iwamoto,T., Wang,Y., Morton,A., Godoy,M.G. and
+            Kibenge,F.S.
+  TITLE     Whole-genome analysis of piscine reovirus (PRV) shows PRV represents
+            a new genus in family Reoviridae and its genome segment S1 sequences
+            group it into two separate sub-genotypes
+  JOURNAL   Virol. J. 10, 230 (2013)
+   PUBMED   23844948
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1040)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-DEC-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1040)
+  AUTHORS   Kibenge,F.S.B., Kibenge,M.J.T., Godoy,M.G. and Iwamoto,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2013) Department of Pathology and Microbiology,
+            University of Prince Edward Island, 550 University Avenue,
+            Charlottetown, PEI C1A 4P3, Canada
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC795574.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1040
+                     /organism="Piscine orthoreovirus"
+                     /mol_type="genomic RNA"
+                     /isolate="CGA280-05"
+                     /host="Atlantic salmon"
+                     /db_xref="taxon:1157337"
+                     /segment="S4"
+                     /geo_loc_name="Chile"
+                     /collection_date="Nov-2011"
+     gene            39..986
+                     /locus_tag="CYL32_sS4gp1"
+                     /db_xref="GeneID:35199814"
+     CDS             39..986
+                     /locus_tag="CYL32_sS4gp1"
+                     /note="outer capsid protein (virus attachment); virus
+                     attachment protein, sigma1 protein"
+                     /codon_start=1
+                     /product="outer fiber protein"
+                     /protein_id="YP_009445961.1"
+                     /db_xref="GeneID:35199814"
+                     /translation="MHRFTQEDHVIINSRLDAIEEDNKRNFASLKQSIHNNYGLLRSLL
+                     GGQGRLNGKIGDLEKDVNLIHLRVVSLEHALDDLRADFDAFTPTVGPEIDDKLAPLQKQ
+                     LKVLNDQLTIMNSEVAVLGKGIFGDYQLTDLLGHTVGGVAAVTTNSLTSAFRLSDRLPA
+                     TTVGDFSLSTGVGYTFVGTAPRPILQVEDFMRGTCRMNLTDTALMYGGSHIPLLQQSLL
+                     QLETTVPPGPTDWKKLPQMVKGVLWMSLVDYEGANVVPVVVMRKVNATVTTVILPDMVG
+                     KQKLNFLVSLDDKINVHESWNGVIIHGGDFVIII*"
+ORIGIN
+        1 gataaagatc ttaaccgcag cgacatctca gcttaaccat gcatagattt acccaagaag
+       61 accatgttat tattaactca agacttgatg ccattgaaga ggacaacaag cggaacttcg
+      121 cttcattgaa acaatcaatc cacaacaact acggattgct tcgcagcctg cttggaggtc
+      181 aaggacgctt gaacgggaaa attggagatc tggagaagga cgtcaatctg atacatctga
+      241 gagtggtttc cctggaacat gcgcttgatg atcttcgcgc tgattttgac gcttttactc
+      301 caactgttgg tcctgagatt gacgacaaac tggctccgct ccagaaacag cttaaggtgc
+      361 tgaatgacca gctcacaatc atgaactctg aggttgctgt gttggggaaa gggatattcg
+      421 gagactatca actgactgac ctgcttggac acactgttgg tggagttgcg gctgtgacga
+      481 caaattcact cacaagcgcc ttccgcttga gcgaccgact gcctgcgact actgttggag
+      541 atttcagtct atccactgga gtaggataca cctttgttgg gacggcacca aggccaatcc
+      601 ttcaagttga agatttcatg cggggcacct gcaggatgaa tctcactgac actgcgctga
+      661 tgtatggtgg tagccacatt ccactcctgc aacagtcact gcttcaactg gagacaacag
+      721 ttcctcctgg cccgacagat tggaagaagc tgcctcaaat ggtgaaaggc gtgctctgga
+      781 tgagtctggt ggattatgaa ggcgccaatg tagttcctgt ggtggtgatg aggaaggtta
+      841 atgctacggt gacgactgtc attctcccag acatggttgg caagcaaaag ctgaatttcc
+      901 tcgtttccct ggacgacaag atcaacgttc atgagtcctg gaatggagtg atcattcatg
+      961 gtggagactt cgtgatcatc atctagcgtg gaagagccac gtgtcgcact ggagatattg
+     1021 cggtaagcct gtttttcatc
+//

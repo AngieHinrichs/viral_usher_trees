@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001616.1, taxonomy ID 3240642
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001616.1'
-refseq_assembly = 'GCF_000862905.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001616.1'
+#refseq_assembly = 'GCF_000862905.1'
+ref_fasta = './trees/Potato_virus_Y/treetime_rerooted_NC_001616.1.fa'
+ref_gbff = './trees/Potato_virus_Y/treetime_rerooted_NC_001616.1.gbff'
 taxonomy_id = '3240642'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

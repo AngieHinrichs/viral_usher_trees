@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_006273.2, taxonomy ID 3050295
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_006273.2'
-refseq_assembly = 'GCF_000845245.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_006273.2'
+#refseq_assembly = 'GCF_000845245.1'
+ref_fasta = './trees/Human_betaherpesvirus_5/midpoint_rerooted_NC_006273.2.fa'
+ref_gbff = './trees/Human_betaherpesvirus_5/midpoint_rerooted_NC_006273.2.gbff'
 taxonomy_id = '3050295'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

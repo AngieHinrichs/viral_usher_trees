@@ -1,0 +1,118 @@
+LOCUS       rerooted_NC_001653.2      1682 bp    ss-RNA  circular VRL 12-APR-2023
+DEFINITION  rerooted_NC_001653.2.
+ACCESSION   rerooted_NC_001653.2
+VERSION     rerooted_NC_001653.2
+KEYWORDS    RefSeq.
+SOURCE      Hepatitis delta virus
+  ORGANISM  Hepatitis delta virus
+            Viruses; Ribozyviria; Ribozyviria incertae sedis; Kolmioviridae;
+            Deltavirus; Deltavirus italiense.
+REFERENCE   1  (bases 1 to 1682)
+  AUTHORS   Saldanha,J.A., Thomas,H.C. and Monjardino,J.P.
+  TITLE     Cloning and sequencing of RNA of hepatitis delta virus isolated from
+            human serum
+  JOURNAL   J. Gen. Virol. 71 (PT 7), 1603-1606 (1990)
+   PUBMED   2374010
+REFERENCE   2  (bases 1 to 1682)
+  AUTHORS   Makino,S., Chang,M.F., Shieh,C.K., Kamahora,T., Vannier,D.M.,
+            Govindarajan,S. and Lai,M.M.
+  TITLE     Molecular cloning and sequencing of a human hepatitis delta (delta)
+            virus RNA
+  JOURNAL   Nature 329 (6137), 343-346 (1987)
+   PUBMED   3627276
+REFERENCE   3  (bases 1 to 1682)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-SEP-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from D01075.
+            On Mar 12, 2001 this sequence version replaced NC_001653.1.
+            Annotation based on that found in PMID: 3627276, PMID: 2374010 and
+            AF104264.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1682
+                     /organism="Hepatitis delta virus"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:12475"
+                     /clone="D380, D600, D75, D280, D54, D4, D20, D33, D69,
+                     462b, 702b, 572c, 772c, 462c"
+                     /note="HindIII site of chimpanzee-derived HDV RNA; isolated
+                     from human serum; synonym: Hepatitis D virus"
+     misc_feature    153..157
+                     /note="viroid consensus sequence"
+     misc_feature    685..686
+                     /note="self-splicing site"
+     misc_feature    735..755
+                     /note="palindromic sequence"
+     misc_feature    complement(784..785)
+                     /note="self-splicing site"
+     misc_feature    942..946
+                     /note="viroid consensus sequence"
+     gene            complement(956..1600)
+                     /gene="L-HDAg"
+                     /locus_tag="HDvgp1"
+                     /db_xref="GeneID:920836"
+     CDS             complement(956..1600)
+                     /gene="L-HDAg"
+                     /locus_tag="HDvgp1"
+                     /note="RNA editing"
+                     /codon_start=1
+                     /transl_except=(pos:complement(1013..1015),aa:Trp)
+                     /product="large delta antigen"
+                     /protein_id="NP_597693.2"
+                     /db_xref="GeneID:920836"
+                     /translation="MSRSESKKKRDGREEILEQWVNGRKKLEDLERDLRKVKKKIKKLE
+                     DENPWLGNIKGILGKKDKDGEGAPPAKRARTDQMEVDSGPRKRPLRGGFSDKERQDHRR
+                     RKALENKRKQLAAGGKHLSKEEEEELKRLTEEDERRERRVAGPPVGGVNPLEGGSRGAP
+                     GGGFVPSMQGVPESPFTRTGEGLDVRGNQGFP*DILFPADPPFSPQSCRPQ*"
+     gene            complement(1013..1600)
+                     /gene="S-HDAg"
+                     /locus_tag="HDvgp2"
+                     /db_xref="GeneID:920835"
+     CDS             complement(1013..1600)
+                     /gene="S-HDAg"
+                     /locus_tag="HDvgp2"
+                     /note="small delta antigen"
+                     /codon_start=1
+                     /product="delta antigen"
+                     /protein_id="NP_077804.1"
+                     /db_xref="GeneID:920835"
+                     /translation="MSRSESKKKRDGREEILEQWVNGRKKLEDLERDLRKVKKKIKKLE
+                     DENPWLGNIKGILGKKDKDGEGAPPAKRARTDQMEVDSGPRKRPLRGGFSDKERQDHRR
+                     RKALENKRKQLAAGGKHLSKEEEEELKRLTEEDERRERRVAGPPVGGVNPLEGGSRGAP
+                     GGGFVPSMQGVPESPFTRTGEGLDVRGNQGFP*"
+     misc_feature    1478..1483
+                     /note="viroid consensus sequence"
+ORIGIN
+        1 atgggccatc tcccgagcga ggaatcgcgc gcaggaagga tcagctcccg agaggggtaa
+       61 aacggtaaag agcattggat cgtcgaaggt aagactccca agaaggaaaa aagagaaagc
+      121 aagagacgga cgactttccc catgacgctg gagacatcct tggaagggga aagagggaag
+      181 gtggaaaaga agggggcggg cctcccgatc cgaggggccc aactaccaag tttggagagc
+      241 actccggccc gaagggtcga gagtacccca gaaggaggaa tcctcacgga gaaaagcaga
+      301 caaatcacct ccagaggacc ccttcagcga acagagagcc ctgcgcgcga gggagtagcc
+      361 catagcgata gggagagatg ctaggagtta gaggagaccg aagcgaggag gaaagcaaag
+      421 aaagcaacgg ggctagccgg tgggtgttcc gcctcccgag aggggacgag tgaggcttat
+      481 cccggggaac tcggcgaatc gtccccacat agcagactcc cggagcccct tccaaaatga
+      541 ccgagggggg tggctaggaa cgcgggggac cagtggagcc atgggatgct cttcccgatt
+      601 ccgtccatcc cccttccccc cgagtgtcgc ccaggaatgg cgggacccca ctcaactggg
+      661 tccgcgttcc atcctttctt acctgatggc cggcatggtc ccagcctcct cgctggcgcc
+      721 ggctgggcaa cattccgagg ggaccgtccc ctcggtaatg gcgaatggga cccagaaatc
+      781 tctctagatt cccagagaga atcgagagaa aactggctct cccttagcca tccgagtgga
+      841 cgttcgtcct ccttcggatg cccaggtcgg accgcgagga ggtggagatg ccatgccgac
+      901 ccgaagagga aagaaggacg cgagacacga acccgtgagt ggaaacccgc tttattcact
+      961 ggggtcgaca actctgggga gaaaagggag gatcggctgg gaagagtata tcctatggga
+     1021 atccctggtt tcccctcacg tccagcccct ccccggtcct ggtgaagggg gactccggga
+     1081 cgccttgcat gctggggacg aagccgcccc cgggcgctcc cctcgatcca ccttcgaggg
+     1141 ggttcacacc cccaaccggc gggccggcta ctcttctttc ccttctctcg tcttcctcgg
+     1201 tcaacctctt aagttcctct tcttcttcct tgctgaggtg cttccctccc gcggccagtt
+     1261 gctttctctt gttctcgagg gccttccttc gtcggtgatc ctgcctctcc ttgtcggaga
+     1321 accctcccct gagaggcctc ttcctaggcc cggagtctac ctccatctgg tccgttcggg
+     1381 ccctcttcgc cgggggagcc ccctctccat ccttatcctt ctttccgaga attcctttga
+     1441 tgtttcccag ccagggattt tcgtcctcaa gtttcttgat tttcttctta accttccgga
+     1501 ggtccctctc gagatcctct aacttctttc ttccgttcac ccactgctcg aggatctctt
+     1561 ctcttccatc gcgtttcttc ttcgactcgg aacggctcat cttcgacaag aggcggcggt
+     1621 cctcagtact cttactcttt tctgtaaaga ggagactgct ggactcgccg cccaagttcg
+     1681 ag
+//

@@ -1,0 +1,604 @@
+LOCUS       rerooted_NC_001802.1      9181 bp    ss-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001802.1.
+ACCESSION   rerooted_NC_001802.1
+VERSION     rerooted_NC_001802.1
+KEYWORDS    RefSeq.
+SOURCE      Human immunodeficiency virus 1 (HIV-1)
+  ORGANISM  Human immunodeficiency virus 1
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Ortervirales; Retroviridae; Orthoretrovirinae; Lentivirus;
+            Lentivirus humimdef1.
+REFERENCE   1  (bases 1 to 9181)
+  AUTHORS   Martoglio,B., Graf,R. and Dobberstein,B.
+  TITLE     Signal peptide fragments of preprolactin and HIV-1 p-gp160 interact
+            with calmodulin
+  JOURNAL   EMBO J. 16 (22), 6636-6645 (1997)
+   PUBMED   9362478
+REFERENCE   2  (bases 1 to 9181)
+  AUTHORS   Petropoulos,C.J.
+  TITLE     Appendix 2: Retroviral taxonomy, protein structure, sequences, and
+            genetic maps
+  JOURNAL   (in) Coffin,J.M. (Ed.); RETROVIRUSES: 757; Cold Spring Harbor
+            Laboratory Press, Cold Spring Harbor, New York, NY, USA (1997)
+REFERENCE   3  (bases 1 to 9181)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-AUG-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 9181)
+  AUTHORS   Chappey,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-1999) NIH, NLM, Rockville Pike, Bethesda, MD
+            20894, USA
+  REMARK    Sequence update by submitter
+REFERENCE   5  (bases 1 to 9181)
+  AUTHORS   Chappey,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-NOV-1997) NIH, NLM, Rockville Pike, Bethesda, MD
+            20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AF033819.
+            The annotation of this sequence was corrected and updated with the
+            kind help of Dr. Colombe Chappey (ViroLogic Inc., South San
+            Francisco, CA USA) and Roger Ptak (Southern Research Institute,
+            Frederick, MD USA).
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..9181
+                     /organism="Human immunodeficiency virus 1"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:11676"
+                     /note="strain for reference annotation"
+     misc_feature    1..96
+                     /note="repeat; positions of RNA transcription
+                     initialization and polyadenylation; Region: R"
+     regulatory      73..78
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="both 5' and 3' poly A signals are transcribed into
+                     RNA, but the 5' one is suppressed"
+     5'UTR           97..181
+     primer_bind     182..199
+     gene            336..4642
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /db_xref="GeneID:155348"
+     CDS             join(336..1637,1637..4642)
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /ribosomal_slippage=""
+                     /note="fusion protein consisting of the viral structural
+                     proteins and enzymes; cleaved by the viral protease into
+                     individual mature proteins; The processing products of the
+                     Gag and Gag-Pol polyproteins were annotated with the help
+                     of Pettit et al., 2003 and references therein; Pr160"
+                     /codon_start=1
+                     /product="Gag-Pol"
+                     /protein_id="NP_057849.4"
+                     /db_xref="GeneID:155348"
+                     /translation="MGARASVLSGGELDRWEKIRLRPGGKKKYKLKHIVWASRELERFA
+                     VNPGLLETSEGCRQILGQLQPSLQTGSEELRSLYNTVATLYCVHQRIEIKDTKEALDKI
+                     EEEQNKSKKKAQQAAADTGHSNQVSQNYPIVQNIQGQMVHQAISPRTLNAWVKVVEEKA
+                     FSPEVIPMFSALSEGATPQDLNTMLNTVGGHQAAMQMLKETINEEAAEWDRVHPVHAGP
+                     IAPGQMREPRGSDIAGTTSTLQEQIGWMTNNPPIPVGEIYKRWIILGLNKIVRMYSPTS
+                     ILDIRQGPKEPFRDYVDRFYKTLRAEQASQEVKNWMTETLLVQNANPDCKTILKALGPA
+                     ATLEEMMTACQGVGGPGHKARVLAEAMSQVTNSATIMMQRGNFRNQRKIVKCFNCGKEG
+                     HTARNCRAPRKKGCWKCGKEGHQMKDCTERQANFLREDLAFLQGKAREFSSEQTRANSP
+                     TRRELQVWGRDNNSPSEAGADRQGTVSFNFPQVTLWQRPLVTIKIGGQLKEALLDTGAD
+                     DTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTPVNIIGRN
+                     LLTQIGCTLNFPISPIETVPVKLKPGMDGPKVKQWPLTEEKIKALVEICTEMEKEGKIS
+                     KIGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKRTQDFWEVQLGIPHPAGLKKKKSVT
+                     VLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTK
+                     ILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEP
+                     PFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLVGKLNWASQIYPGIKVRQLCKLLR
+                     GTKALTEVIPLTEEAELELAENREILKEPVHGVYYDPSKDLIAEIQKQGQGQWTYQIYQ
+                     EPFKNLKTGKYARMRGAHTNDVKQLTEAVQKITTESIVIWGKTPKFKLPIQKETWETWW
+                     TEYWQATWIPEWEFVNTPPLVKLWYQLEKEPIVGAETFYVDGAANRETKLGKAGYVTNR
+                     GRQKVVTLTDTTNQKTELQAIYLALQDSGLEVNIVTDSQYALGIIQAQPDQSESELVNQ
+                     IIEQLIKKEKVYLAWVPAHKGIGGNEQVDKLVSAGIRKVLFLDGIDKAQDEHEKYHSNW
+                     RAMASDFNLPPVVAKEIVASCDKCQLKGEAMHGQVDCSPGIWQLDCTHLEGKVILVAVH
+                     VASGYIEAEVIPAETGQETAYFLLKLAGRWPVKTIHTDNGSNFTGATVRAACWWAGIKQ
+                     EFGIPYNPQSQGVVESMNKELKKIIGQVRDQAEHLKTAVQMAVFIHNFKRKGGIGGYSA
+                     GERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNS
+                     DIKVVPRRKAKIIRDYGKQMAGDDCVASRQDED"
+     mat_peptide     join(1632..1637,1637..1798)
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /product="Gag-Pol Transframe peptide"
+                     /experiment="DESCRIPTION:[PMID:15527852]"
+                     /note="the Glu-Asp-Leu tripeptide (positions 4-6) is a
+                     specific inhibitor of the HIV-1 protease. Involved in
+                     regulation of the protease-mediated polyprotein processing;
+                     alternative p6 protein; p6*"
+                     /protein_id="NP_787043.1"
+     mat_peptide     1655..4639
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /product="Pol"
+                     /note="unprocessed Pol polyprotein; includes part of the
+                     transframe peptide, protease, reverse transcriptase and
+                     integrase domains."
+                     /protein_id="NP_789740.1"
+     mat_peptide     1799..2095
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /product="aspartic peptidase"
+                     /experiment="DESCRIPTION:[PMID:2537531]"
+                     /experiment="DESCRIPTION:[PMID:2548279]"
+                     /experiment="DESCRIPTION:[PMID:3290901]"
+                     /note="The proteinase domain of Gag-Pol (in the form of
+                     homodimer) mediates all the cleavages in the polyprotein.
+                     Cleaves itself from the polyprotein late in particle
+                     assembly; protease"
+                     /protein_id="NP_705926.1"
+     mat_peptide     2096..3775
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /product="p66 subunit"
+                     /experiment="DESCRIPTION:[PMID:1374166]"
+                     /experiment="EXISTENCE:[PMID:4316300]"
+                     /note="transcribes single stranded viral RNA genome into
+                     double stranded proviral DNA; HIV-1 reverse transcriptase
+                     is composed of the p66 subunit (this protein) and the p51
+                     subunit that lacks the RNAse H domain of the larger
+                     subunit"
+                     /protein_id="NP_705927.1"
+     mat_peptide     2096..3415
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /product="reverse transcriptase p51 subunit"
+                     /note="HIV-1 reverse transcriptase is composed of the p66
+                     subunit and the p51 subunit (this protein) that lacks the
+                     RNAse H domain of the larger subunit"
+                     /protein_id="NP_789739.1"
+     mat_peptide     3776..4639
+                     /gene="gag-pol"
+                     /locus_tag="HIV1gp1"
+                     /product="integrase"
+                     /experiment="DESCRIPTION:[PMID:7983732]"
+                     /experiment="DESCRIPTION:[PMID:8035478]"
+                     /note="mediates integration of the viral DNA into the
+                     infected cell chromosome"
+                     /protein_id="NP_705928.1"
+     gene            336..1838
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /db_xref="GeneID:155030"
+     CDS             336..1838
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /note="The processing products of the Gag and Gag-Pol
+                     polyproteins were annotated with the help of Pettit et al.,
+                     2003 and references therein"
+                     /codon_start=1
+                     /product="Pr55(Gag)"
+                     /protein_id="NP_057850.1"
+                     /db_xref="GeneID:155030"
+                     /translation="MGARASVLRGEKLDTWERIKLKPGGKKKYMLKHLVWASRELERFA
+                     LDPGLLETSEGCKQIIRQLQPALQTGTKELISLYNTVATLYCVHERIEVQDTKEALDKI
+                     EEEQNKSQQKTQQAVADKGNSNQVSQNYPIVQNLQGQMVHQPISPRTLNAWVKVIEEKA
+                     FSPEVIPMFTALSEGATPQDLNTMLNTVGGHQAAMQMLKDTINEEAAEWDRLHPVHAGP
+                     VAPGQMREPRGSDIAGTTSTLQEQIAWMTSNPPVPVGEIYKRWIILGLNKIVRMYSPVS
+                     ILDIKQGPKEPFRDYVDRFFKTLRAEQATQDVKNWMTDTLLVQNANPDCKTILKALGPG
+                     ATLEEMMTACQGVGGPGHKARVLAEAMSQVNNTANIMMQRSNFKGQRKTIKCFNCGKEG
+                     HLARNCRAPRKKGCWKCGKEGHQMKDCTERQANFLGKIWPSHKGRPGNFLQSRPEPTAP
+                     PAESFRFEVETTTPPPKQEQKDKELYPLTSLKSLFGSDPLSQ*"
+     mat_peptide     336..731
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /product="matrix"
+                     /experiment="DESCRIPTION:[PMID:12032547]"
+                     /experiment="DESCRIPTION:[PMID:1710290]"
+                     /experiment="DESCRIPTION:[PMID:8610175]"
+                     /note="viral structural protein; forms the outer structural
+                     shell of HIV-1 virions; involved in the nuclear import of
+                     the HIV-1 preintegration complex; p17"
+                     /protein_id="NP_579876.2"
+     mat_peptide     732..1424
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /product="capsid"
+                     /experiment="DESCRIPTION:[PMID:15208690]"
+                     /experiment="DESCRIPTION:[PMID:16041386]"
+                     /experiment="DESCRIPTION:[PMID:21248851]"
+                     /note="viral structural protein; forms the core of HIV-1
+                     virions; p24"
+                     /protein_id="NP_579880.1"
+     mat_peptide     1425..1466
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /product="p2"
+                     /note="Processing of Gag-Pol by the protease domain dimer
+                     starts with cleavage between the p2 and nucleocapsid
+                     proteins."
+                     /protein_id="NP_579882.1"
+     mat_peptide     1467..1631
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /product="nucleocapsid"
+                     /experiment="DESCRIPTION:[PMID:1639074]"
+                     /experiment="DESCRIPTION:[PMID:7666546]"
+                     /note="viral structural protein; coats the genomic RNA
+                     inside the virion core; binds and delivers full-length
+                     viral RNAs into assembling HIV-1 virions; p7"
+                     /protein_id="NP_579881.1"
+     mat_peptide     1632..1679
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /product="p1"
+                     /note="important for virus infectivity, protein processing,
+                     and genomic RNA dimer stability"
+                     /protein_id="NP_787042.1"
+     mat_peptide     1680..1835
+                     /gene="gag"
+                     /locus_tag="HIV1gp2"
+                     /product="p6"
+                     /experiment="DESCRIPTION:[PMID:10085158]"
+                     /experiment="DESCRIPTION:[PMID:15527852]"
+                     /note="important for incorporation of Vpr into assembling
+                     HIV-1 virions; helps mediate efficient virus particle
+                     release from infected cells"
+                     /protein_id="NP_579883.1"
+     gene            4587..5165
+                     /gene="vif"
+                     /locus_tag="HIV1gp3"
+                     /db_xref="GeneID:155459"
+     CDS             4587..5165
+                     /gene="vif"
+                     /locus_tag="HIV1gp3"
+                     /note="p23; viral infectivity factor; viral accessory
+                     protein important for virus replication in vivo"
+                     /codon_start=1
+                     /product="Vif"
+                     /protein_id="NP_057851.1"
+                     /db_xref="GeneID:155459"
+                     /translation="MENRWQVMIVWQVDRMKIRTWNSLVKHHMYVSKRANGWYYRHHYE
+                     SRHPKISSEVHIPLGEARLVIITYWGLQTGERDWHLGHGVSIEWRLRRYSTQVDPGLAD
+                     QLIHMHYFDCFADSAIRKAILGHRVSPRCEYQAGHNKVGSLQYLALTALIKPKKIKPPL
+                     PSVRKLVEDRWNKPQKTKGHRGNHTMNGH*"
+     gene            5105..5396
+                     /gene="vpr"
+                     /locus_tag="HIV1gp4"
+                     /db_xref="GeneID:155807"
+     CDS             join(5105..5319,5321..5396)
+                     /gene="vpr"
+                     /locus_tag="HIV1gp4"
+                     /exception="artificial frameshift"
+                     /note="p15; viral protein R; viral accessory protein
+                     important for virus replication in vivo; involved in the
+                     nuclear import of the HIV-1 preintegration complex; induces
+                     G2 cell cycle arrest; influences mutation rates during
+                     viral DNA synthesis; An artificial frameshift eliminating
+                     the orf-disrupting nucleotide at position 5320 is
+                     introduced to obtain the typical HIV-1 Vpr protein
+                     sequence. For this particular HIV-1 strain, HXB2, only a
+                     short (78 amino acid long) variant of the Vpr sequence can
+                     be obtained by translation of nucleotides 5105 through 5341
+                     without the frameshift"
+                     /codon_start=1
+                     /product="Vpr"
+                     /protein_id="NP_057852.2"
+                     /db_xref="GeneID:155807"
+                     /translation="MEQAPEDQGPQREPHNEWTLELLEELKNEAVRHFPRIWLHGLGQH
+                     IYETYGDTWAGVEAIIRILQQLLFIHFRIGCRHSRIGVTRQRRARNGASRS"
+     gene            5377..7970
+                     /gene="tat"
+                     /locus_tag="HIV1gp5"
+                     /db_xref="GeneID:155871"
+     CDS             join(5377..5591,7925..7970)
+                     /gene="tat"
+                     /locus_tag="HIV1gp5"
+                     /note="p14; transcriptional activator; viral regulatory
+                     protein required for virus replication; transactivates the
+                     viral LTR promoter through interactions with cellular
+                     transcription factors; associated with pathogenic effects
+                     of the virus; the length of Tat varies depending on virus
+                     strain or clade"
+                     /codon_start=1
+                     /product="Tat"
+                     /protein_id="NP_057853.1"
+                     /db_xref="GeneID:155871"
+                     /translation="MEPVDPRLEPWKHPGSQPKTACTNCYCKKCCFHCQVCFITKALGI
+                     SYGRKKRRQRRRAHQNSQTHQASLSKQPTSQPRGDPTGPKE"
+     gene            5516..8199
+                     /gene="rev"
+                     /locus_tag="HIV1gp6"
+                     /db_xref="GeneID:155908"
+     CDS             join(5516..5591,7925..8199)
+                     /gene="rev"
+                     /locus_tag="HIV1gp6"
+                     /note="p19; regulator of expression of virion proteins;
+                     prevents splicing of viral RNA; shuttles unspliced viral
+                     RNA to the cytoplasm for expression of viral proteins and
+                     incorporation of full length viral genomic RNA into
+                     virions"
+                     /codon_start=1
+                     /product="Rev"
+                     /protein_id="NP_057854.1"
+                     /db_xref="GeneID:155908"
+                     /translation="MAGRSGDSDEELIRTVRLIKLLYQSNPPPNPEGTRQARRNRRRRW
+                     RERQRQIHSISERILGTYLGRSAEPVPLQLPPLERLTLDCNEDCGTSGTQGVGSPQILV
+                     ESPTVLESGTKE"
+     gene            5608..5856
+                     /gene="vpu"
+                     /locus_tag="HIV1gp7"
+                     /db_xref="GeneID:155945"
+     CDS             5608..5856
+                     /gene="vpu"
+                     /locus_tag="HIV1gp7"
+                     /note="p16; viral protein U; viral accessory protein
+                     important for virus replication in vivo; promotes
+                     degradation of CD4 and down-regulates cell surface
+                     expression of MHC class I proteins; helps mediate efficient
+                     virus particle release from infected cells; reported to
+                     induce apoptosis by suppressing the nuclear factor
+                     kappaB-dependent expression of antiapoptotic factors; may
+                     attenuate the level of Env precursor(gp160) biosynthesis;
+                     Vpu and gp160 are translated from different reading frames
+                     of the same bicistronic mRNA"
+                     /codon_start=1
+                     /product="Vpu"
+                     /protein_id="NP_057855.1"
+                     /db_xref="GeneID:155945"
+                     /translation="MQPLQILAIGALLVAPIIAIIVWTIVFIEYRKIVRQRKIDRLIDR
+                     IRERAEDSGNESEGEISALVEMGVEMGHHAPWDVDDL*"
+     gene            5771..8341
+                     /gene="env"
+                     /locus_tag="HIV1gp8"
+                     /db_xref="GeneID:155971"
+     CDS             5771..8341
+                     /gene="env"
+                     /locus_tag="HIV1gp8"
+                     /note="gp160; envelope glycoprotein; envelope polyprotein;
+                     cleaved by cellular proteases into mature proteins gp120
+                     and gp41"
+                     /codon_start=1
+                     /product="Envelope surface glycoprotein gp160, precursor"
+                     /protein_id="NP_057856.1"
+                     /db_xref="GeneID:155971"
+                     /translation="MRVKEKYQHLWRWGWRWGTMLLGMLMICSATEKLWVTVYYGVPVW
+                     KEATTTLFCASDAKAYDTEVHNVWATHACVPTDPNPQEVVLENVTENFNMWKNNMVEQM
+                     HEDIISLWDQSLKPCVKLTPLCVTLKCTDLKNDTNTNSSSGRMIMEKGEIKNCSFNITT
+                     SIRGKVQKEYALFYKLDVVPIDNDNTSYRLINCNTSVITQACPKVSFEPIPIHYCAPAG
+                     FAILKCNNKTFNGTGPCTNVSTVQCTHGIRPVVSTQLLLNGSLAEEEVVIRSENFTDNA
+                     KTIIVQLNESVEINCTRPNNNTRKSIPMQIGPGRAFYATGEIGDIRQAHCNISRTKWNN
+                     TLKQVARKLREQFGNNKTIIFNQSSGGDPEIVMHSFNCGGEFFYCNTSQLFNSTWYNST
+                     WNTEGSNNTEGNDTITLPCRIKQIINMWQEVGKAMYAPPIRGQIRCSSNITGLLLTRDG
+                     GNSNNETETFRPGGGDMRDNWRSELYKYKVVKIEPLGVAPTKAKRRVVQREKRAVGIGA
+                     VFLGFLGAAGSTMGAASITLTVQARQLLSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQL
+                     QARVLAVERYLKDQQLLGIWGCSGKLICTTAVPWNASWSNKSLDDIWDNMTWMQWDREI
+                     NNYTDLIYSLLEESQNQQEKNEQELLELDKWASLWNWFDITNWLWYIKIFIMIVGGLIG
+                     LRIVFAVLSIVNRVRQGYSPLSFQTLLPTPRGPDRPEGIEEEGGEQDRDRSIRLVNGFL
+                     ALVWDDLRSLCLFSYHRLRDLLLIAARIVELLGRRGWEVLKYLWNLLQYWSQELKNSAI
+                     SLLNTTAIAVAEGTDRIIEVVQRAWRAIRHIPRRIRQGFERALL*"
+     sig_peptide     5771..5854
+                     /gene="env"
+                     /locus_tag="HIV1gp8"
+                     /product="hypothetical protein"
+                     /protein_id="NP_579893.2"
+     mat_peptide     5855..7303
+                     /gene="env"
+                     /locus_tag="HIV1gp8"
+                     /product="Envelope surface glycoprotein gp120"
+                     /experiment="DESCRIPTION:[PMID:24179160]"
+                     /note="mediates binding of HIV-1 to CD4 and cellular
+                     co-receptors; cooperates with gp41 to mediate fusion of
+                     viral membrane with cellular membrane during virus entry
+                     into cells; Envelope surface unit; SU"
+                     /protein_id="NP_579894.2"
+     mat_peptide     7304..8338
+                     /gene="env"
+                     /locus_tag="HIV1gp8"
+                     /product="Envelope transmembrane domain"
+                     /note="cooperates with gp120 to mediate fusion of viral
+                     membrane with cellular membrane during virus entry into
+                     cells; Envelope transmembrane glycoprotein gp41; TM"
+                     /protein_id="NP_579895.1"
+     gene            complement(6919..7488)
+                     /gene="asp"
+                     /locus_tag="HIV1gp10"
+                     /db_xref="GeneID:19424028"
+     CDS             complement(6919..7488)
+                     /gene="asp"
+                     /locus_tag="HIV1gp10"
+                     /note="minus-strand-encoded antisense protein of unknown
+                     function; region is highly conserved and likely analogous
+                     to the HTLV-1 encoded, HBZ, a nuclear basic region leucine
+                     zipper (b-ZIP) protein"
+                     /codon_start=1
+                     /product="Asp"
+                     /protein_id="YP_009028572.1"
+                     /db_xref="GeneID:19424028"
+                     /translation="MPQTVSCNRCCCASIALSRLFCCCTIPDNNCLACTVSVIDAAPIV
+                     LPAAPKNPRNTAPIPTALFSLCTTLLFALVGATPNGSIFTTLYLYNSLLQLSLISPPPG
+                     LKVSVSLLLLPPSLVNSSPVIFDEHLICPLMGGAYIAFPTSCHMFIICFILHGSVIVSF
+                     PSVLFDPSVFQVLLYQVLLNSCDVLQ*"
+     gene            8343..8963
+                     /gene="nef"
+                     /locus_tag="HIV1gp9"
+                     /db_xref="GeneID:156110"
+     CDS             8343..8963
+                     /gene="nef"
+                     /locus_tag="HIV1gp9"
+                     /note="p27; negative factor; viral accessory protein;
+                     important for virus replication in vivo; determinant of
+                     HIV-1 pathogenesis; down-regulates cell surface CD4 and MHC
+                     class I molecules; enhances virus infectivity through;
+                     interactions with multiple cellular signaling proteins;
+                     This particular nucleotide sequence has a premature stop
+                     codon in place of a well-conserved tryptophan codon at
+                     position 8712-8714 that truncates the HIV1 Nef protein
+                     sequence to a 123 amino acids-long N-terminal portion (not
+                     shown)"
+                     /codon_start=1
+                     /transl_except=(pos:8712..8714,aa:Trp)
+                     /product="Nef"
+                     /protein_id="NP_057857.2"
+                     /db_xref="GeneID:156110"
+                     /translation="MGNKWSKSSIVGWPAIRERMRRAAPAAEGVGPASRDLDKHGALTS
+                     SNTAANNADCAWLEAQEEEEVGFPVRPQVPLRPMTYKAAFDLSFFLKEKGGLEGLIYSK
+                     KRQDILDLWVYNTQGYFPDWQNYTPGPGIRYPLTFGWCFKLVPVDPEKVEEANEGENNC
+                     LLHPMSQHGMEDAEREVLKWKFDSRLARRHIARELHPEYYKDC*"
+     3'UTR           8631..9085
+     misc_feature    9086..9181
+                     /note="repeat; positions of RNA transcription
+                     initialization and polyadenylation; Region: R"
+     regulatory      9158..9163
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="both 5' and 3' poly A signals are transcribed into
+                     RNA, but the 5' one is suppressed"
+ORIGIN
+        1 ggtctctcta ggtagaccag atctgagcct gggagctctc tggctagcta gggaacccac
+       61 tgcttaagcc tcaataaagc ttgccttgag tgcttcaagt agtgtgtgcc cgtctgttgt
+      121 gtgactctgg taactagaga tccctcagac acctttagtc agtgtggaaa atctctagca
+      181 gtggcgcccg aacagggact tgaaagcgaa agtaagacca gaggagatct ctcgacgcag
+      241 gactcggctt gctgaagtgc actcggcaag aggcgagagg cggcgactgg tgagtacgcc
+      301 attttttttg actagcggag gctagaagga gagagatggg tgcgagagcg tcagtattaa
+      361 gaggcgaaaa attagatact tgggaaagaa ttaagttaaa gccaggggga aagaaaaaat
+      421 atatgctaaa acacctagtc tgggcaagca gggagctgga aagatttgca cttgaccctg
+      481 gccttttaga aacatcagaa ggctgtaaac aaataataag acagctacaa ccagctcttc
+      541 agacaggaac aaaggaactt atatcattat ataatacagt tgcaactctc tattgtgtac
+      601 atgaaaggat agaggtacaa gacaccaagg aagccttaga caaaatagag gaagaacaaa
+      661 acaaaagtca gcaaaagaca cagcaggcag tagctgacaa aggaaacagc aatcaggtca
+      721 gtcaaaatta tcctatagtg cagaatctac aagggcaaat ggtacaccag cccatatcac
+      781 ctagaacttt aaatgcatgg gtaaaagtaa tagaggagaa ggctttcagc ccagaagtaa
+      841 tacccatgtt tacagcatta tcagaaggag ccaccccaca agatttaaac accatgttaa
+      901 atacagtggg gggacaccaa gcagccatgc aaatgttaaa agataccatc aatgaggagg
+      961 ctgcagaatg ggataggtta catccagtac atgcagggcc tgttgcacca ggccagatga
+     1021 gagaaccaag gggaagtgac atagcaggaa ctaccagtac ccttcaggaa caaatagcat
+     1081 ggatgacaag taacccacct gtcccagtgg gagaaatcta taaaagatgg ataattctgg
+     1141 ggttaaataa aatagtaaga atgtatagcc ctgtcagcat tttggacata aaacaagggc
+     1201 caaaggaacc ctttagagac tatgtagacc ggttctttaa aactttaaga gcagaacaag
+     1261 ctacccaaga tgtaaaaaat tggatgacag ataccttgtt ggtccaaaat gcgaacccag
+     1321 attgtaagac cattttaaaa gcattagggc caggggctac attagaagaa atgatgacag
+     1381 catgtcaggg agtgggagga cctggccaca aagcaagagt gttggctgag gcaatgagcc
+     1441 aagtaaacaa tacagctaac ataatgatgc agagaagcaa ttttaagggc caaagaaaaa
+     1501 ctattaaatg cttcaactgt ggcaaggaag ggcacttagc cagaaattgc agggccccta
+     1561 ggaaaaaggg ctgttggaaa tgtggaaagg aaggacacca aatgaaagac tgtactgaga
+     1621 gacaggctaa ttttttaggg aaaatctggc cttcccacaa ggggaggcca ggaaatttcc
+     1681 tccagagcag accagagcca acagccccac cagcagagag cttcaggttc gaggtcgaga
+     1741 caacaactcc ccctccgaag caggagcaga aagacaagga actgtatccc ttaacttccc
+     1801 tcaaatcact ctttggcagc gaccccttgt cacaataaaa gtagggggac aactaaaaga
+     1861 agctctctta gatacaggag cagatgatac agtattagaa gaaataaaat tgccaggaaa
+     1921 ttggaaacca aaaatgatag gaggaattgg gggttttatc aaagtaagac agtatgatca
+     1981 aatacttata gaaatttgtg gaaaaaaggc tataggtaca gtactagtag gacctacacc
+     2041 tgtcaacata attggaagaa acatgttgac tcagcttgga tgcacactaa attttccaat
+     2101 tagtcccatt gaaactgtac cagtaaaatt aaagccagga atggatggcc caaaggttaa
+     2161 acaatggcca ttgacagaag agaaaataaa agcattaaca gcaatttgtg atgaaatgga
+     2221 aaaggaagga aaaattacaa aaattgggcc tgaaaatcca tataacactc cagtatttgc
+     2281 cataaaaaag aaagacagta ctaaatggag aaaattagta gatttcaggg aactcaataa
+     2341 aagaactcaa gacttttggg aagttcaatt agggatacca cacccagcag ggttaaaaaa
+     2401 gaaaaaatca gtgacagtac tggatgtggg ggatgcatat ttttcagtac ctttagatga
+     2461 agactttagg aaatatactg cattcaccat acctagtata aacaatgaaa caccagggat
+     2521 tagatatcag tacaatgtgc ttccacaggg atggaaagga tcaccagcaa tattccaaag
+     2581 tagcatgaca aaaatcttag agccctttag aaaacaaaat ccagaaatag ttatctatca
+     2641 atatatggat gacttgtatg taggatctga cttagaaata gggcaacata gagcaaaaat
+     2701 agaggagctg agagaacatc tattgaagtg gggattcacc acaccagaca agaaacatca
+     2761 gaaagaaccc ccatttcttt ggatggggta tgaactccat cctgacaaat ggacagtaca
+     2821 gcctatacag ctgccagaaa aggatagctg gactgtcaat gatatacaga agttagtggg
+     2881 aaaattaaat tgggcaagtc agatttaccc agggattaaa gtaagacaac tgtgtaaact
+     2941 ccttagggga accaaagcac taacagacat agtaccactg actgaagaag cagaattaga
+     3001 attggcagag aacagggaaa ttctaaaaga accagtacat ggagtatatt atgacccatc
+     3061 gaaagactta atagctgaaa tacagaaaca agggcaaggc caatggacat atcaaattta
+     3121 ccaagaacca ttcaaaaatc tgaaaacagg aaaatatgca aaaatgagga ctgcccacac
+     3181 taatgatgta agacagttaa cagaggcagt gcaaaaaata gcccaagaaa gcatagtaat
+     3241 atggggaaag actcctaaat ttagattacc catccagaaa gaaacatggg aagcatggtg
+     3301 gacagactat tggcaagcca cctggattcc tgagtgggag tttgtcaata cccctcccct
+     3361 agtaaaatta tggtaccagc tagaaaaaga acccatagta ggagcagaaa ctttctatgt
+     3421 agatggagca gctaataggg aaactaaaat gggaaaagca gggtatgtta ctgacagagg
+     3481 aaggcagaaa gttgtttctc taactgaaac aacaaatcag aagactgagt tacaagcaat
+     3541 tcagctagct ttgcaggatt caggatcaga agtaaacata gtaacagact cacagtatgc
+     3601 attaggaatt attcaagcac aaccagataa gagtgaatca gagttagtca atcaaataat
+     3661 agaacagtta ataaaaaagg aaaaggtcta cctgtcatgg gtaccagcac ataaaggaat
+     3721 tgggggaaat gaacaagtag ataaattagt aagtaatgga atcaggaaag tactgttttt
+     3781 agatggaata gataaggctc aagaagagca tgaaaaatat cacagcaatt ggagagcaat
+     3841 ggctagtgag tttaatctgc cacccatagt agcaaaagaa atagtagcta gctgtgataa
+     3901 atgtcagcta aaaggggaag ccacgcatgg acaagtagac tgtagtccag gaatatggca
+     3961 attagattgt acacatttag aaggaaaaat catcctggta gcagtccatg tagccagtgg
+     4021 atacatagaa gcagaagtta tcccagcaga aacaggacaa gaaacagcat actttatact
+     4081 aaaattagca ggaagatggc cagtcaaagt aatacataca gacaatggca gtaatttcac
+     4141 cagtaataca gttaaagcag cctgttggtg ggcaggtatc caacaggaat ttggaattcc
+     4201 ctacaatccc caaagtcagg gagtagtaga atcaatgaat aaagaattaa agaaaatcat
+     4261 aggacaggta agagatcaag ctgaacacct taagacagca gtacaaatgg cagtattcat
+     4321 tcacaatttt aaaagaaaag gggggattgg ggggtacagt gcaggggaaa gaataataga
+     4381 cataatagca acagacatac aaactaaaga attacaaaaa caaattacaa aaattcaaaa
+     4441 ttttcgggtt tattacagag acagcagaga tccaatttgg aaaggaccag caaaactact
+     4501 ctggaaaggt gaaggggcag tagtaataca agataacagt gatataaaag tagtaccaag
+     4561 aagaaaagca aagatcatta gggattatgg aaaacagatg gcaggtgatg attgtatggc
+     4621 aagtagacag gatgaagatt agaacatgga atagtttagt aaagcaccac atgtatgttt
+     4681 caaagagagc taatggatgg tattatagac atcattatga aagcagacat ccaaaaataa
+     4741 gttcagaagt acacattcca ttaggggagg ctagattagt aataataaca tattggggtt
+     4801 tgcaaacagg agaaagagat tggcatttgg gtcatggagt ctccatagaa tggagactga
+     4861 gaagatatag cacacaagta gaccctggcc tggcagacca actaattcat atgcattatt
+     4921 ttgattgttt tgcagactct gccataagga aagccatatt aggacataga gttagcccta
+     4981 ggtgtgaata tcaagcagga cataataagg taggatctct acaatacctg gcactgacag
+     5041 cattgataaa accaaaaaag ataaagccac ctctgcctag tgttaggaaa ttagtagagg
+     5101 atagatggaa caagccccag aagaccaagg gccacagagg gaaccataca atgaatggac
+     5161 actagaactt ttagaggaac tcaagcagga agctgtcaga cactttccta gaccatggct
+     5221 tcatagctta ggacaatata tctatgaaac atatggagat acttggacag gagtggaagc
+     5281 tataataaga attctgcaac aactactgtt tatccatttt cagaattggg tgccagcata
+     5341 gccgaatagg cattataaga cagagaagag caagaaatgg agccagtaga tcctaaccta
+     5401 gagccctgga accatccagg aagtcagcct aaaactgctt gcaacaattg ttattgtaaa
+     5461 aaatgcagct atcattgtct agtttgtttc agaaaaaaag gcttaggcat ttcctatggc
+     5521 aggaagaagc ggagacagcg acgaagcgct cctccaagca gtgaggatca tcaaaatcct
+     5581 ataccaaagc agtaagtagt acatgtaatg caacctttac aaatattagc aataggagca
+     5641 ttattagtag caccaataat agcaataatt gtgtggacca tagtttttat agaatatagg
+     5701 aaaatagtaa gacaaagaaa aatagacagg ttaattgata gaataagaga aagagcagaa
+     5761 gacagtggca atgagagtga aggagaaata tcagcacttg tggagatggg ggtggagatg
+     5821 gggcaccatg ctccttggga tgttgatgat ctgtagtgct acagaaaaat tgtgggtcac
+     5881 agtctattat ggggtacctg tgtggaaaga agcaaccacc actctatttt gtgcatcaga
+     5941 tgctaaagca tatgatacag aggtacataa tgtctgggcc acacatgcct gtgtacccac
+     6001 agaccccaac ccacaagaag tagtattgga aaatgtgaca gaaaatttta acatgtggaa
+     6061 aaataacatg gtagaacaga tgcatgagga tataatcagt ttatgggatc aaagcctaaa
+     6121 gccatgtgta aaattaaccc cactctgtgt tactttaaag tgcactgatt tgaagaatga
+     6181 tactaatacc aatagtagta gcgggagaat gataatggag aaaggagaaa taaaaaactg
+     6241 ctctttcaat atcaccacaa gcataagagg taaggtgcag aaagaatatg cactttttta
+     6301 taaacttgat gtagtaccaa tagataatga taataccagc tataggttga taaattgtaa
+     6361 cacctcagtc attacacagg cctgtccaaa ggtatccttt gagccaattc ccatacatta
+     6421 ttgtgccccg gctggttttg cgattctaaa gtgtaataat aagacattca atggaacagg
+     6481 accatgtaca aatgtcagca cagtacaatg tacacatgga attaggccag tagtatcaac
+     6541 tcaactgctg ttaaatggca gtctagcaga agaagaggta gtaattagat ctgaaaattt
+     6601 cacggacaat gctaaaacca taatagtaca gctgaatgaa tctgtagaaa ttaattgtac
+     6661 aagacccaac aacaatacaa gaaaaagtat acctatgcag ataggaccag ggagagcatt
+     6721 ttatgcaaca ggagaaatag gagatataag acaagcacat tgtaacatta gtagaacaaa
+     6781 atggaataac actttaaaac aggtagctag aaaattaaga gaacaatttg ggaataataa
+     6841 aacaataatc tttaatcaat cctcaggagg ggacccagaa attgtaatgc acagttttaa
+     6901 ttgtggaggg gaatttttct actgtaatac atcacaactg tttaatagta cttggtataa
+     6961 tagtacttgg aatactgaag ggtcaaataa cactgaagga aatgacacta tcacactccc
+     7021 atgcagaata aaacaaatta taaacatgtg gcaggaagta ggaaaagcaa tgtatgcccc
+     7081 tcccatcaga ggacaaatta gatgttcatc aaatattaca gggctgctat taacaagaga
+     7141 tggtggtaat agcaacaatg agaccgagac cttcagacct ggaggaggag atatgaggga
+     7201 caattggaga agtgaattat ataaatataa agtagtaaaa attgaaccat taggagtagc
+     7261 acccaccaag gcaaagagaa gagtggtgca gagagaaaaa agagcagtgg gaataggagc
+     7321 tgtgttcctt gggttcttgg gagcagcagg aagcactatg ggcgcagcgt caataacgct
+     7381 gacggtacag gccagacaat tattgtctgg tatagtgcaa cagcagaaca atctgctgag
+     7441 ggctattgag gcgcaacagc atctgttgca actcacagtc tggggcatta agcagctcca
+     7501 ggcaagagtc ctggctgtgg aaagatacct aaaggatcaa cagctcctag ggatttgggg
+     7561 ttgctctgga aaactcattt gcaccactgc tgtgccttgg aatgctagtt ggagtaataa
+     7621 atctctggat gacatttggg ataacatgac ctggatgcag tgggatagag aaattaacaa
+     7681 ttacacagac ttaatataca gcttacttga agaatcgcaa aaccaacagg aaaagaatga
+     7741 acaagaatta ttggaattgg ataagtgggc aagtttgtgg aattggtttg acataacaaa
+     7801 ttggctgtgg tatataaaaa tattcataat gatagtagga ggcttgatag gtttaagaat
+     7861 agtttttgct gtactttcta tagtgaatag agttaggcag ggatactcac cattgtcgtt
+     7921 tcagaccctc ctcccaaccc cgaggggacc cgacaggccc gaaggaatcg aagaagaagg
+     7981 tggagagcaa gacagagaca gatccattcg attagtgaac ggattcttag cacttgtctg
+     8041 ggacgacctg cggagcctgt gcctcttcag ctaccaccgc ttgagagact tactattgat
+     8101 tgcagcgagg attgtggaac ttctgggacg cagggggtgg gaagtcctca aatatttgtg
+     8161 gaatctcctg cagtattgga gtcaggaact aaagaatagt gctattagct tgcttaatac
+     8221 cacagcaata gcagtagctg aggggacaga taggattata gaagtagtac aaagagcttg
+     8281 gagagctatt cgccacatac ctagaagaat aagacagggc tttgaaaggg ctttgctata
+     8341 aaatggggaa caagtggtca aaaagtagta tagtgggatg gcctgctata agagaaagaa
+     8401 tgagacgagc tgctccagca gcagagggag taggaccagc atctcgagac ttagataaac
+     8461 atggggcact gacaagcagc aacacagctg ccaataatgc tgattgtgcc tggctggaag
+     8521 cgcaagagga ggaggaggta ggctttccag tcagacctca ggtaccttta agaccaatga
+     8581 cttataaggc agcatttgat ctcagcttct ttttaaaaga aaagggggga ctggaagggc
+     8641 taatttactc aaagaaaagg caagacatcc ttgatttgtg ggtctataac acacaaggct
+     8701 acttccctga ttggcagaac tacacaccag ggccagggat cagatatcca ctgacctttg
+     8761 gatggtgctt caagctagta ccagttgacc cagagaaggt agaagaggcc aatgaaggag
+     8821 agaacaactg cttgttacac cctatgagcc agcatggaat ggaggacgcg gagagagaag
+     8881 tattaaagtg gaagtttgac agccgcctag cacgtagaca catagcccga gagctgcatc
+     8941 cggagtacta caaggactgc tgacacagaa cttgctacaa gggactttcc gctggggact
+     9001 ttccagggag gcgtggcctg ggcgggactg gggagtggcc aaccctcaga tgctgcatat
+     9061 aagcagctgc ttttcgcctg tactgggtct ctctaggtag accagatctg agcctgggag
+     9121 ctctctggct agctagggaa cccactgctt aagcctcaat aaagcttgcc ttgagtgctt
+     9181 c
+//

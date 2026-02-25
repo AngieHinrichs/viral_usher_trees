@@ -1,0 +1,158 @@
+LOCUS       rerooted_NC_036476.1      3911 bp    ss-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_036476.1.
+ACCESSION   rerooted_NC_036476.1
+VERSION     rerooted_NC_036476.1
+KEYWORDS    RefSeq.
+SOURCE      Piscine orthoreovirus
+  ORGANISM  Piscine orthoreovirus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus piscis.
+REFERENCE   1  (bases 1 to 3911)
+  AUTHORS   Kibenge,M.J., Iwamoto,T., Wang,Y., Morton,A., Godoy,M.G. and
+            Kibenge,F.S.
+  TITLE     Whole-genome analysis of piscine reovirus (PRV) shows PRV represents
+            a new genus in family Reoviridae and its genome segment S1 sequences
+            group it into two separate sub-genotypes
+  JOURNAL   Virol. J. 10, 230 (2013)
+   PUBMED   23844948
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3911)
+  AUTHORS   Kibenge,F.S.B., Kibenge,M.J.T. and Iwamoto,T.
+  TITLE     Detection of piscine reovirus (PRV) in fish from British Columbia,
+            Canada
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 3911)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-DEC-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 3911)
+  AUTHORS   Kibenge,F.S.B., Kibenge,M.J.T. and Iwamoto,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAR-2013) Department of Pathology and Microbiology,
+            University of Prince Edward Island, 550 University Avenue,
+            Charlottetown, PEI C1A 4P3, Canada
+REFERENCE   5  (bases 1 to 3911)
+  AUTHORS   Kibenge,F.S.B., Kibenge,M.J.T., Godoy,M.G. and Iwamoto,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2013) Department of Pathology and Microbiology,
+            University of Prince Edward Island, 550 University Avenue,
+            Charlottetown, PEI C1A 4P3, Canada
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC795565.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3911
+                     /organism="Piscine orthoreovirus"
+                     /mol_type="genomic RNA"
+                     /isolate="CGA280-05"
+                     /host="Atlantic salmon"
+                     /db_xref="taxon:1157337"
+                     /segment="L1"
+                     /geo_loc_name="Chile"
+                     /collection_date="Nov-2011"
+     gene            19..3867
+                     /locus_tag="CYL32_sL1gp1"
+                     /db_xref="GeneID:35199816"
+     CDS             19..3867
+                     /locus_tag="CYL32_sL1gp1"
+                     /note="major inner capsid protein; helicase; RNA
+                     triphosphatase; lambda1 protein"
+                     /codon_start=1
+                     /product="core shell protein"
+                     /protein_id="YP_009445962.1"
+                     /db_xref="GeneID:35199816"
+                     /translation="MERLKRKDKYKNTNTKENTQELTVDESAVSSNNPTGKTTDNGGVG
+                     KNRGSLPAISASDSDSSEEEAIVEVQRIKKSKAQKKSTKLATTTQNDSNESNIVTQPGM
+                     GMSANVSTINVLPPTVTMPLQTTQSSPGPAVDQSGETKLGRSSNVSGKEAAMQAPAVDR
+                     SEITDNPRYDPTTSTGTTSCPLCFMTLSSVPDLLLHISMRHAPIDSFSTTAPQIQDAER
+                     QFITIWSAHNAAALSSLSTGLTTSSSFLSKVPPRLFVFDDGICSSFRFMTAVEARYLPE
+                     VRGYAWYDEIYDIILPFPASAVVRIVLDTDWAMVSDETLPIKLTTLLPTLSNVGLLRQV
+                     LTVLSDNSKYNPVWARANVIVMGVKFILANLVINRSSSWAQDSTPSVSGRLLRTVPGKP
+                     EYWPLMYPRRTLNANVSKISRFVEQTQAERTGRVDRAMLYQGEKVIYTDVAETCDTLTV
+                     RLRDMWTGKIFKMHYTHSDIALALSECARVVSFSAVMALSPRTILPCRATTDERKLAQV
+                     LNIARLGDLRLRIEPIIQSAADTLRSVTMLEINPKILTAVLNRICENQTQSVTVTGTIL
+                     RLLSSATTDSSAFWTCIASWLYNGIVTTTLRQQDYPNPTASITDYTALWSALIVSLVSP
+                     LTNDPNAPVKIFMTMANLFNGYERIPMNNASMTQGTPPWAFNNPNKWPACFIQPRNINQ
+                     NIAPFMRAWADLIHRYWPQPGVVNYGSPHHLGATELLVEDGQIVTPLPVQPQQFEYAAL
+                     DRDNEMSTWINQVCNFFIRCINGTDLRTASNQATQQALISAISQLKTSPSLTYGYMSRY
+                     LPYELAMISPTLALPPFQIPFQRLNVNDIVYQIGVRRHVVRDQVEPALDTSSTLETIGQ
+                     LIEIDAQALLVSLLSGTMNAKVLPSVHYAEKITPLYMDDDFFAPHQRAVVVSEAYSLVR
+                     TIISQISDTRGPQLNPLAWIPAPNASSPVSAEVARLVNDMIKEAFDMPGELLEGLIGYG
+                     DPRYTQVEIVAQRCRAAPLRFEPLIPPSVLAQELQLVENVITAEPNLFGLATGDLYLER
+                     IDTSAGFSGLNVIGWEQWDANTPGVIVAGSSLLICSGFNGVDPMIMDADGVERPITGRW
+                     VVTLEAWRSSVVTVQKLLLPRIRAGKLAVRILVGIFPYTINYYEPAVGIDEWKLLSDWA
+                     SMCEPTGIPAIPFTAPVPSDVSVVTAACVRYLRCSTFNEGSLMATNAGSPRTVFGQSVE
+                     FDIGRWMQLCDLNTGVDEIQLPNMIEFYQIFRRYNITQTELTQVVTLTGTLTHPVLN*"
+ORIGIN
+        1 gataatgttt gttttgccat ggagcgactt aagaggaaag ataagtacaa aaatactaat
+       61 actaaagaaa atacacaaga actgactgtt gacgaatctg ctgtatcttc caataatcct
+      121 accggaaaaa ctacagacaa tggcggcgtc ggtaaaaatc ggggatcgtt accagctatt
+      181 tcggcatcgg atagtgacag tagtgaagaa gaagcaattg ttgaggtaca gagaatcaag
+      241 aagtcaaaag ctcagaagaa gagcactaaa ttggctacaa caactcaaaa tgactctaac
+      301 gagagtaata ttgtaactca acctggcatg ggaatgtctg caaatgtgag taccatcaat
+      361 gtgttgccac ctacagtgac tatgcctttg cagactactc aatcatctcc tggccctgca
+      421 gttgatcaat ctggtgagac gaagttggga agatcgtcta acgttagtgg aaaagaggct
+      481 gctatgcaag ctccggctgt cgaccgctct gagattactg ataaccctag gtacgatcct
+      541 accacgtcta caggcactac atcctgccca ctttgcttca tgaccttaag ttctgttcct
+      601 gatctgctac ttcacatttc tatgcgtcat gcacccattg acagcttttc cacgactgca
+      661 ccacagattc aggatgctga gagacagttc attacaattt ggagtgcaca taacgctgca
+      721 gctttgtcct cgctttccac tggtctgacg actagttcaa gtttcttgtc taaggtgcct
+      781 ccgcgtttat tcgtattcga tgatggaata tgctcatctt ttaggtttat gacggctgtt
+      841 gaagctcgct atctgcctga agtacgtggc tacgcctggt atgatgagat ctatgacatc
+      901 attctgcctt ttccagcttc agctgtggtt cgtatcgtac ttgacacgga ttgggctatg
+      961 gttagtgatg aaacgttacc tattaaacta accactcttt tacctactct ttcaaatgta
+     1021 ggcttgttgc gtcaagttct cactgttctt tctgacaaca gtaaatacaa tcctgtttgg
+     1081 gctcgcgcca acgtaatcgt gatgggtgtg aaatttatac ttgccaatct tgtcatcaac
+     1141 agatctagtt cttgggctca agactctact ccctcggttt ctggcagact actacgcaca
+     1201 gtccctggta aaccagaata ttggccattg atgtatccac gaaggacgct taacgctaat
+     1261 gtcagcaaga tttcacgttt cgttgagcaa acacaggctg aacgcactgg cagagttgat
+     1321 cgagcaatgc tttatcaagg agagaaagtc atctatactg acgttgctga gacctgcgat
+     1381 acgttgaccg tgcgtttgcg tgacatgtgg actgggaaga tcttcaaaat gcattacaca
+     1441 cattctgaca tcgctctggc tctatctgag tgcgctcgtg tggtctcctt ctcagctgtg
+     1501 atggcgttat ccccacgcac aatacttcct tgtcgtgcga cgactgatga aagaaagctg
+     1561 gcacaagttt tgaacatcgc tcgcctcggt gatctcagac tacgaattga gcctattatc
+     1621 caatccgctg ctgacacttt aagatcagtt accatgctgg agatcaaccc caagattttg
+     1681 actgctgtct tgaacagaat atgtgaaaat caaactcaat cagtgactgt gactgggaca
+     1741 attcttcgtc tgctgagctc tgctaccaca gattcttctg ccttctggac ctgcatcgca
+     1801 agttggttgt acaatgggat agttaccacc actcttcgtc aacaagatta ccctaacccc
+     1861 actgcctcca tcacggatta cactgcactc tggtctgccc tgattgttag tcttgtttct
+     1921 ccactcacca atgacccaaa tgctcctgtc aagatcttca tgactatggc gaatcttttc
+     1981 aacggatatg aacgaattcc gatgaacaat gccagcatga cacaaggaac acctccctgg
+     2041 gcattcaaca atcctaacaa atggccggcc tgcttcatcc aacctcgcaa catcaaccag
+     2101 aacattgcgc cattcatgag agcctgggct gacttgatcc accgctactg gccacaacct
+     2161 ggtgtcgtca actatggatc acctcaccac cttggtgcta ctgaactgct agttgaggat
+     2221 ggacagatcg tcaccccgtt accagttcaa cctcaacagt ttgagtacgc tgcacttgat
+     2281 cgtgacaatg agatgtctac ctggatcaac caagtttgca atttcttcat ccgctgcatc
+     2341 aacggaacgg atcttcgtac cgcttctaac caagctactc agcaagcttt gatttctgcc
+     2401 atctcacaat tgaagacctc cccatccctc acatatggat atatgtccag gtatttacca
+     2461 tatgagttgg cgatgatttc acccacactg gcgttacctc cattccaaat accattccag
+     2521 cgtttgaatg tgaacgacat cgtttaccaa attggagtcc gtcgtcatgt ggtgagggat
+     2581 caggttgaac ctgcacttga cacaagttcc acattggaga ccattggcca actgattgag
+     2641 atcgatgctc aggccctgct cgtttcgctc ctttctggta ccatgaatgc taaggtcctg
+     2701 ccatccgtcc actacgcaga gaaaatcact cctctttaca tggatgacga ctttttcgcc
+     2761 cctcatcaaa gagccgtcgt cgtcagtgaa gcatactccc tagtacgcac catcatctca
+     2821 cagatttcag acacgcgtgg accgcaactc aatcctctgg cttggatccc agctccaaac
+     2881 gcatcatctc ctgtctcagc cgaagtagcc agactcgtca atgacatgat caaggaagct
+     2941 tttgacatgc ctggtgaact gcttgaagga ttgatcggat atggtgaccc tagatacact
+     3001 caagtcgaga ttgttgcaca gaggtgtcgc gcggctccac ttcggttcga accactgatt
+     3061 cctccgtctg ttctggctca agagcttcaa cttgttgaga acgtgatcac tgctgaacct
+     3121 aatctgtttg gattggctac tggagactta tatctcgagc gcattgacac ttcagccggg
+     3181 ttctctggtc tcaacgttat cggctgggag caatgggatg ctaacactcc aggagtcatt
+     3241 gtcgccggta gctctctact catctgcagc ggattcaacg gagtagaccc aatgatcatg
+     3301 gacgctgatg gggtggaacg gccgattacc ggtagatggg ttgttacact ggaagcttgg
+     3361 cgtagcagcg tggtcaccgt ccagaagttg ctgttaccaa ggatcagagc aggaaagttg
+     3421 gctgtaagga tactggttgg tatttttcca tacaccatta actactatga acccgctgtt
+     3481 ggtattgacg agtggaagct gttgtccgac tgggcgtcca tgtgtgaacc tacaggaata
+     3541 ccggccatac ctttcactgc tccagttcca tctgatgtgt ccgttgtcac tgctgcgtgc
+     3601 gtgaggtatc tgaggtgctc caccttcaac gaaggctcat tgatggctac taacgcagga
+     3661 tcacctcgca ccgtgtttgg gcaatcagta gagtttgaca tcggcagatg gatgcagcta
+     3721 tgtgatttga acactggagt cgacgagata cagctaccca acatgattga attctatcaa
+     3781 atcttcagac gctacaacat cactcaaacg gaactgactc aagttgtgac attgactggg
+     3841 actttgactc atcctgtact caactaagtg gctcggcgga acaggaggtt cacaaacatg
+     3901 acaacttcat c
+//

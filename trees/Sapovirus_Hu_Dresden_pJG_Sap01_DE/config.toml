@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_006269.1, taxonomy ID 3432266
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_006269.1'
-refseq_assembly = 'GCF_000854265.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_006269.1'
+#refseq_assembly = 'GCF_000854265.1'
+ref_fasta = './trees/Sapovirus_Hu_Dresden_pJG_Sap01_DE/treetime_rerooted_NC_006269.1.fa'
+ref_gbff = './trees/Sapovirus_Hu_Dresden_pJG_Sap01_DE/treetime_rerooted_NC_006269.1.gbff'
 taxonomy_id = '3432266'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

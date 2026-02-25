@@ -1,0 +1,214 @@
+LOCUS       rerooted_NC_004611.1      2739 bp    ss-DNA  circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_004611.1.
+ACCESSION   rerooted_NC_004611.1
+VERSION     rerooted_NC_004611.1
+KEYWORDS    RefSeq.
+SOURCE      Tomato leaf curl New Delhi virus
+  ORGANISM  Tomato leaf curl New Delhi virus
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Repensiviricetes; Geplafuvirales; Geminiviridae; Begomovirus;
+            Begomovirus solanumdelhiense.
+REFERENCE   1  (bases 1 to 2739)
+  AUTHORS   Padidam,M., Beachy,R.N. and Fauquet,C.M.
+  TITLE     Tomato leaf curl geminivirus from India has a bipartite genome and
+            coat protein is not essential for infectivity
+  JOURNAL   J. Gen. Virol. 76 (Pt 1), 25-35 (1995)
+   PUBMED   7844539
+REFERENCE   2  (bases 1 to 2739)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2003) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2739)
+  AUTHORS   Padidam,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Division of Plant Biology, The Scripps
+            Research Institute, 10666 North Torrey Pines Road, La Jolla, CA
+            92037, USA
+  REMARK    Sequence update by submitter
+REFERENCE   4  (bases 1 to 2739)
+  AUTHORS   Padidam,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-1994) Division of Plant Biology, The Scripps
+            Research Institute, 10666 North Torrey Pines Road, La Jolla, CA
+            92037, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from U15015.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2739
+                     /organism="Tomato leaf curl New Delhi virus"
+                     /mol_type="genomic DNA"
+                     /strain="Severe"
+                     /host="Lycopersicon esculentum"
+                     /db_xref="taxon:223347"
+                     /segment="DNA A"
+                     /clone="pMPA1"
+                     /note="DNA component that causes severe symptoms"
+     gene            48..434
+                     /gene="av3"
+                     /locus_tag="ToLCNDVsAgp1"
+                     /db_xref="GeneID:988205"
+     CDS             48..434
+                     /gene="av3"
+                     /locus_tag="ToLCNDVsAgp1"
+                     /codon_start=1
+                     /product="AV3 protein"
+                     /protein_id="NP_803218.1"
+                     /db_xref="GeneID:988205"
+                     /translation="MKFTLHGLFSAWGPINRLAHQVWIHKHVGSIIARIS*KRSWSKVH
+                     ASCKISPRDRKELFPRHSRLRSCPRSHSCSPSKELWRSDQQISSFQRPHRRYADVSTST
+                     APMELVQLSPLPASQKQRPGPTGR*"
+     gene            127..465
+                     /gene="av2"
+                     /locus_tag="ToLCNDVsAgp2"
+                     /db_xref="GeneID:988206"
+     CDS             127..465
+                     /gene="av2"
+                     /locus_tag="ToLCNDVsAgp2"
+                     /codon_start=1
+                     /product="AV2 protein"
+                     /protein_id="NP_803219.1"
+                     /db_xref="GeneID:988206"
+                     /translation="MWDPLLHEFPESVHGLRCMLAVKYLQEIEKNYSPDTVGYDLVRDL
+                     ILVLRAKNYGEATSRYHHFNARIEGTPTSQLRQPLWSSCSCPHCPRHKSKGLDQQADEQ
+                     KTQNVQNV*"
+     gene            287..1057
+                     /gene="av1"
+                     /locus_tag="ToLCNDVsAgp3"
+                     /db_xref="GeneID:988207"
+     CDS             287..1057
+                     /gene="av1"
+                     /locus_tag="ToLCNDVsAgp3"
+                     /note="coat protein"
+                     /codon_start=1
+                     /product="AV1 protein"
+                     /protein_id="NP_803220.1"
+                     /db_xref="GeneID:988207"
+                     /translation="MAKRPADIIISTPASKVRRRLNFDSPYGARAVVPIARVTKAKAWT
+                     NRPMNRKPRMYRMYRSPDVPRGCEGPCKVQSFESRHDVSHIGKVMCVSDVTRGTGLTHR
+                     VGKRFCVKSVYVLGKIWMDENIKTKNHTNSVMFFLVRDRRPTGSPQDFGEVFNMFDNEP
+                     STATVKNMHRDRYQVLRKWHATVTGGTYASKEQALVRKFVRVNNYVVYNQQEAGKYENH
+                     TENALMLYMACTHASNPVYATLKIRIYFYDSVTN*"
+     gene            complement(317..802)
+                     /gene="ac5"
+                     /locus_tag="ToLCNDVsAgp4"
+                     /db_xref="GeneID:988208"
+     CDS             complement(317..802)
+                     /gene="ac5"
+                     /locus_tag="ToLCNDVsAgp4"
+                     /codon_start=1
+                     /product="AC5 protein"
+                     /protein_id="NP_803221.1"
+                     /db_xref="GeneID:988208"
+                     /translation="MHVLHRCCARFIVKHIKNFPKILGRSCRTTVTNQKKHDTVSMVFC
+                     LDVFIHPYLPQHIDRFHTESLPYAMCESSSSGNITNTHDFANMRDIVPRFKGLHLTRAF
+                     TAPWHVGTSIHSVHSGFSVHRPVGPGLCFCDAGNGDNCTSSIGAVEVETSAYLRCGR*"
+     gene            complement(1054..1464)
+                     /gene="ac3"
+                     /locus_tag="ToLCNDVsAgp5"
+                     /db_xref="GeneID:988209"
+     CDS             complement(1054..1464)
+                     /gene="ac3"
+                     /locus_tag="ToLCNDVsAgp5"
+                     /codon_start=1
+                     /product="AC3 protein"
+                     /protein_id="NP_803222.1"
+                     /db_xref="GeneID:988209"
+                     /translation="MITDSRTGEYITADRAESGVYTWEIRNPLYFKILKHDSRPFLTQH
+                     DIIKIQIQFNHNLRKALGLHKCFLTFKIWTGLRPPTGIFLRVFKTQVLKYLDMLGVIGI
+                     YNVIRAVYHVLDNVLEQTIDVWTSYDIKLDIY*"
+     gene            complement(1184..1603)
+                     /gene="ac2"
+                     /locus_tag="ToLCNDVsAgp6"
+                     /db_xref="GeneID:988210"
+     CDS             complement(1184..1603)
+                     /gene="ac2"
+                     /locus_tag="ToLCNDVsAgp6"
+                     /codon_start=1
+                     /product="AC2 protein"
+                     /protein_id="NP_803223.1"
+                     /db_xref="GeneID:988210"
+                     /translation="MQSSSHSKNHSIPVAKTSLPQKKKKSIRRRRVDLPCGCSYYISIN
+                     CHDHGFTHRGVHHCGSSREWRIYLGNSKSPVFQNFETRQQTLPNTARHNQDSNTVQPQP
+                     AESPGTSQVFSNFQNLDGLTPSDWDFLESLQNPGP*"
+     gene            complement(1506..2591)
+                     /gene="ac1"
+                     /locus_tag="ToLCNDVsAgp7"
+                     /db_xref="GeneID:988211"
+     CDS             complement(1506..2591)
+                     /gene="ac1"
+                     /locus_tag="ToLCNDVsAgp7"
+                     /note="replication-associated protein"
+                     /codon_start=1
+                     /product="AC1 protein"
+                     /protein_id="NP_803224.1"
+                     /db_xref="GeneID:988211"
+                     /translation="MAPPSRFRINAKNYFLTYPKCSLTKEEALSQLQTLETPTSKKFIK
+                     ICRELHEDGSPHIHVLIQFEGKFQCKNNRFFDLVSPSRSAHFHPNIQGAKSASDVKAYI
+                     DKDGDVLEWGVFQIDGRSARGGQQTANDAYAQAINTGNKDDALKVLKELAPKDYVLQFH
+                     NLNTNLDRIFQPPSEVYVSPFSISSFDRVPPELVDWVKSNVVCAAARPFRPISIVIEGD
+                     SRTGKTMWARCLGPHNYLCGHLDLSPKVYSNDAWYNVIDDVDPHYLKHFKEFMGAQRDW
+                     QSNTKYGKPVMIKGGIPTIFLCNKGPNSSYKEYLDEEKNAALKQWAIKNAVFITLEEPL
+                     YSGRENIAPPEEEEEHSQEAS*"
+     gene            complement(2258..2434)
+                     /gene="ac4"
+                     /locus_tag="ToLCNDVsAgp8"
+                     /db_xref="GeneID:988212"
+     CDS             complement(2258..2434)
+                     /gene="ac4"
+                     /locus_tag="ToLCNDVsAgp8"
+                     /codon_start=1
+                     /product="AC4 protein"
+                     /protein_id="NP_803225.1"
+                     /db_xref="GeneID:988212"
+                     /translation="MGLRISMFSSNSKGNSSAKITDSSTWFPQVGQHISIRTFRELNQR
+                     RTSKHTSTKTETF*"
+ORIGIN
+        1 taatattacc gaatggccgc gcaaattttt aggtgggccc tcaaccaatg aaattcacgc
+       61 tacatggctt atttagtgcg tggggaccaa taaatagact tgctcaccaa gtttggatcc
+      121 acaaacatgt gggatccatt attgcacgaa tttcctgaaa gcgttcatgg tctaaggtgc
+      181 atgctagctg taaaatatct ccaagagata gaaaagaact attccccaga cacagtcggc
+      241 tacgatcttg tccgagatct cattcttgtt ctccgagcaa agaactatgg cgaagcgacc
+      301 agcagatatc atcatttcaa cgcccgcatc gaaggtacgc cgacgtctca acttcgacag
+      361 cccctatgga gctcgtgcag ttgtccccat tgcccgcgtc acaaaagcaa aggcctggac
+      421 caacaggccg atgaacagaa aacccagaat gtacagaatg tatagaagtc ccgacgtgcc
+      481 aaggggctgt gaaggccctt gtaaggtgca gtcctttgaa tctaggcacg atgtctctca
+      541 tattggcaaa gtcatgtgtg ttagtgatgt tacccgagga actggactca cacatcgcgt
+      601 agggaagcga ttctgtgtga aatctgtcta tgtgctgggg aagatatgga tggatgaaaa
+      661 catcaagaca aaaaaccata ctaacagtgt catgtttttt ttggttcgtg accgtcgtcc
+      721 tacaggatct ccccaagatt ttggggaagt ttttaatatg tttgacaatg aaccgagcac
+      781 agcaacggtg aagaacatgc atcgtgatcg ttatcaagtc ttacggaagt ggcatgcgac
+      841 tgtgacggga ggaacatatg catctaagga gcaagcatta gttaggaagt ttgttagggt
+      901 taataattat gttgtttata atcaacaaga ggccggcaag tatgagaatc atactgaaaa
+      961 cgcattaatg ttgtatatgg cctgtactca cgcatcaaat cctgtatatg ctactttgaa
+     1021 aatccggatc tatttttatg attcggtcac aaattaataa atatcaagct ttatatcata
+     1081 tgaagtccat acatcaatcg tttgttccaa tacattatcc aatacatgat aaactgctct
+     1141 tattacatta taaattccta ttacacctaa catatccagg tacttaagga cctgggtttt
+     1201 gaagactctc aagaaaatcc cagtcggagg gcgtaagccc gtccagattt tgaaagttag
+     1261 aaaacacttg tgaagtccca gggctttccg caggttgtgg ttgaactgta tttgaatctt
+     1321 gattatgtcg tgctgtgtta ggaagggtct gctgtcgtgt ttcaaaattt tgaaatacag
+     1381 gggatttcga atttcccagg tatatacgcc actctctgct cgatccgcag tgatgtactc
+     1441 ccctgtgcgt gaatccgtga tcatggcagt tgatcgatat gtaatacgaa caaccacacg
+     1501 gcagatcaac tcgcctcctg cgaatgctct tcttcttctt ctgggggagc gatgttttcg
+     1561 cgaccggaat agagtggttc ttcgagtgtg atgaagactg cattcttgat tgcccactgc
+     1621 ttcagtgctg catttttttc ttcgtccaga tattccttat agctgctgtt tggaccttta
+     1681 ttgcacagga agatagtggg aattccacct ttaatcatga ccggctttcc gtacttcgtg
+     1741 ttgctttgcc agtcacgctg ggcccccatg aattctttaa agtgctttag atagtgggga
+     1801 tcaacgtcat caatgacgtt gtaccaggca tcattgctat acacctttgg gctcagatca
+     1861 agatgtccac acaagtaatt gtggggtcct aaacaacgag cccacattgt tttgcccgtt
+     1921 ctactatccc cctctatgac tatgcttatg ggtctaaaag gccgcgcagc ggcacacaca
+     1981 acattggact tgacccaatc gacgagttct ggaggaactc tgtcgaagga tgaaattgaa
+     2041 aatggagaaa cataaacctc agaaggaggt tgaaaaatgc gatctaaatt ggtatttaaa
+     2101 ttgtgaaact gcagaacata atcctttggg gctaattcct ttaatacttt caacgcatcg
+     2161 tctttatttc ccgtgttaat cgcctgagca tatgcatcgt tcgccgtttg ttgaccacca
+     2221 cgagcagatc gtccatcgat ctggaaaaca ccccattcta gaacgtctcc gtctttgtcg
+     2281 atgtatgctt tgacgtccga cgctgattta gctccctgaa tgttcggatg gaaatgtgct
+     2341 gaccgacttg gggaaaccaa gtcgaagaat ctgttatttt tgcactggaa tttcccttcg
+     2401 aattggatga gaacatggat atgcggagac ccatcctcgt gaagctctct acagatcttg
+     2461 atgaatttct tcgaagttgg ggtttctagg gtttgcaatt gggaaagtgc ctcttccttt
+     2521 gtaagagagc actttggata cgtgaggaaa tagttttttg catttattct aaaacgactt
+     2581 ggcggagcca taaaacttgt cgtttcgatc cggtgtctct caacttttct atgtaattgg
+     2641 tgtctggagt cctatatata ggtaagacac catatggcag aattgtaatt ttgaaaagaa
+     2701 aattacttta attcaaattc cctaaagcgg ccattcgta
+//

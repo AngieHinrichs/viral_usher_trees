@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001346.2, taxonomy ID 3430734
 
-viral_usher_version = '0.8.0'
-refseq_acc = 'NC_001346.2'
-refseq_assembly = 'GCF_000847105.2'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001346.2'
+#refseq_assembly = 'GCF_000847105.2'
+ref_fasta = './trees/Maize_streak_virus_A_Ama/treetime_rerooted_NC_001346.2.fa'
+ref_gbff = './trees/Maize_streak_virus_A_Ama/treetime_rerooted_NC_001346.2.gbff'
 taxonomy_id = '3430734'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

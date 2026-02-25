@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001491.2, taxonomy ID 3050276
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001491.2'
-refseq_assembly = 'GCF_000844025.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001491.2'
+#refseq_assembly = 'GCF_000844025.1'
+ref_fasta = './trees/Equid_alphaherpesvirus_1/midpoint_rerooted_NC_001491.2.fa'
+ref_gbff = './trees/Equid_alphaherpesvirus_1/midpoint_rerooted_NC_001491.2.gbff'
 taxonomy_id = '3050276'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

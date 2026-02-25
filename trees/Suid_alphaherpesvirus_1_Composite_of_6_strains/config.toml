@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_006151.1, taxonomy ID 3050355
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_006151.1'
-refseq_assembly = 'GCF_000843825.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_006151.1'
+#refseq_assembly = 'GCF_000843825.1'
+ref_fasta = './trees/Suid_alphaherpesvirus_1_Composite_of_6_strains/treetime_rerooted_NC_006151.1.fa'
+ref_gbff = './trees/Suid_alphaherpesvirus_1_Composite_of_6_strains/treetime_rerooted_NC_006151.1.gbff'
 taxonomy_id = '3050355'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

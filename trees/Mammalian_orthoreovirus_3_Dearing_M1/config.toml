@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_077841.1, taxonomy ID 3422298
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_077841.1'
-refseq_assembly = 'GCF_006298385.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_077841.1'
+#refseq_assembly = 'GCF_006298385.1'
+ref_fasta = './trees/Mammalian_orthoreovirus_3_Dearing_M1/midpoint_rerooted_NC_077841.1.fa'
+ref_gbff = './trees/Mammalian_orthoreovirus_3_Dearing_M1/midpoint_rerooted_NC_077841.1.gbff'
 taxonomy_id = '3422298'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

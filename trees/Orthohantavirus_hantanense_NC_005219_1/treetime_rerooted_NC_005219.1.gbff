@@ -1,0 +1,143 @@
+LOCUS       rerooted_NC_005219.1      3616 bp    ss-RNA  linear   VRL 30-OCT-2025
+DEFINITION  rerooted_NC_005219.1.
+ACCESSION   rerooted_NC_005219.1
+VERSION     rerooted_NC_005219.1
+KEYWORDS    RefSeq.
+SOURCE      Orthohantavirus hantanense
+  ORGANISM  Orthohantavirus hantanense
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Bunyaviricetes; Elliovirales; Hantaviridae;
+            Mammantavirinae; Orthohantavirus.
+REFERENCE   1  (bases 1 to 3616)
+  AUTHORS   Schmaljohn,C.S., Schmaljohn,A.L. and Dalrymple,J.M.
+  TITLE     Hantaan virus M RNA: coding strategy, nucleotide sequence, and gene
+            order
+  JOURNAL   Virology 157 (1), 31-39 (1987)
+   PUBMED   3103329
+REFERENCE   2  (bases 1 to 3616)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-2003) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to M14627.
+            Draft entry and computer-readable sequence of [1] kindly provided
+            by C.Schmaljohn, 02-MAR-1987.
+            There are two possible initiation codons at nucleotide positions
+            41-43 or 65-67, but 'the first codon has more favorable flanking
+            sequences for initiation of protein synthesis'.
+            It was not possible to precisely define the carboxy terminus of G1
+            and G2 mature glycoproteins, but it was established that the
+            carboxy terminus of G1 and G2 were between positions 1802-1882 and
+            3419-3445 respectively.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3616
+                     /organism="Orthohantavirus hantanense"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:3052480"
+                     /segment="M"
+     gene            41..3448
+                     /locus_tag="HTNVsMgp1"
+                     /db_xref="GeneID:2943079"
+     CDS             41..3448
+                     /locus_tag="HTNVsMgp1"
+                     /note="precursor structural polyprotein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_941978.1"
+                     /db_xref="GeneID:2943079"
+                     /translation="MGIWKWLVMASLVWPALTLRNVYDMKIECPHTVSFGENSVIGYVE
+                     LPPMPLADTTQMVPESSCSMDNHQSLNTITKYTQVSWRGKADQAQSSQNSFETVSTEVD
+                     LKGTCVLKHKMVEESYRSRKSITCYDLSCNSTYCKPTLYMIVPIHACNMMKSCLIALGP
+                     YRVQVVYERTYCMTGVLIEGKCFVPDQSVVSIIKHGIFDIASVHIVCFFVAVKGNTYKI
+                     FEQVKKSFESTCNDTENKVQGYYICIVGGNSAPIYVPTLDDFRSMEAFSGIFRSPHGED
+                     HDLAGEEIASYSIVGPANAKVPHSASSDTLSLIAYSGIPSYSSLSILTGSAEAKHVFSP
+                     GFFPQLNHTKCDKTAIPLTWTGMIDLPGYYEAIHPCTVFCVLSGPGASCEAFSEGGIFN
+                     ITSPMCLVSKQNRFRLTEQQVNFVCQRVDMDIVVYCNGQRKVILTKTLVIGQCIYTITS
+                     LFSLLPGVAHSIAVELCVPGFHGWATAALLVTFCFGWVLIPAITFIILTILKFIANIFH
+                     TSNQENRLKSVLRKIKEEFEKTKGSMVCDVCKYECETYKELKAHGVSCPQSQCPYCFTH
+                     CEPTEAAFQAHYKVCQVTHRFRDDLKKTVTPQNFTPGCYRTLNLFRYKSRCYIFTMWVF
+                     LLVLESILWAASASETPLNPVWNDNAHGVGSVPMHTDLELDFSLTSSSKYTYRRKLTNP
+                     LEETQSIDLHIEIEEQTIGVDVHALGHWFDGRLNLKTSFHCYGACTKYEYPWHTAKCHY
+                     ERDYQYETSWGCNPSDCPGVGTGCTACGLYLDQLKPVGSAYKIITIRYSRRVCVQFGEE
+                     NLCKIIDMNDCFVSRHVKVCIIGTVSKFSQGDTLLFFGPLEGGGLIFKHWCTSTCQFGD
+                     PGDIMSPRDKGFLCPEFPGSFRKKCNFATTPICEYDGNMVSGYKKVMATIDSFQSFNTS
+                     TMHFTDERIEWKDPDGMLRDHINILVTKDIDFDNLGENPCKIGLQTSSIEGAWGSGVGF
+                     TLTCLVSLTECPTFLTSIKACDKAICYGAESVTLTRGQNTVKVSGKGGHSGSTFKCCHG
+                     EECSQIGLHAAAPHLDKVNGISEIENSKVYDDGAPQCGIKCWFVKSGEWISGIFSGNWI
+                     VLIVLCVFLLFSLILLSILCPVRKHKKS*"
+     sig_peptide     41..94
+                     /locus_tag="HTNVsMgp1"
+                     /note="precursor structural polyprotein, signal peptide"
+     mat_peptide     95..1801
+                     /locus_tag="HTNVsMgp1"
+                     /product="envelope glycoprotein G1 (see comment)"
+                     /protein_id="NP_941987.1"
+     mat_peptide     1985..3418
+                     /locus_tag="HTNVsMgp1"
+                     /product="envelope glycoprotein G2 (see comment)"
+                     /protein_id="NP_941988.1"
+ORIGIN
+        1 tagtagtaga ctccgcaaaa gaaagcagtc aatcagcaac atggggatat ggaagtggct
+       61 agtaatggcc agtttagtat ggcctgcttt gacactgaga aatgtatatg acatgaaaat
+      121 tgagtgcccc catacagtaa gttttggaga aaacagtgtg atagggtatg tggagttacc
+      181 tcctatgcca ttagctgaca caacacaaat ggtgccagaa agttcttgca gcatggataa
+      241 ccaccagtca ttgaatacaa tcacaaaata tacccaagta agttggagag gaaaggctga
+      301 tcaggcacag tcaagccaga attcatttga aacagtgtct actgaagttg accttaaagg
+      361 aacttgtgtt ttaaaacaca aaatggtaga agaatcatac cgcagtcgaa aatcaataac
+      421 ttgttatgac ctctcttgca atagtacata ttgcaagcca accctgtaca tgattgtgcc
+      481 aatccatgca tgcaatatga tgaaaagctg tttgattgca ctagggccct acagagtaca
+      541 ggtagtttat gaaagaacct actgcatgac aggggttctg attgaaggaa aatgttttgt
+      601 cccagaccag agtgtagtaa gcattattaa gcatggtata tttgacattg caagtgttca
+      661 tattgtttgc ttctttgttg cagttaaagg aaacacatat aagatttttg agcaggttaa
+      721 gaagtcattt gagtcaacat gcaatgatac tgagaataag gtacaaggtt attatatctg
+      781 cattgtaggg ggaaactctg cacccatata tgttccaaca cttgatgact ttagatcaat
+      841 ggaagcattc tcagggatct ttagatcacc acatggggaa gaccatgatc tggctggaga
+      901 agaaattgca tcttactcta ttgttggacc tgccaatgca aaagtacctc atagtgctag
+      961 ctcagacaca ttgagcctga ttgcctattc aggtatacca tcttattcat cccttagtat
+     1021 cctaacaggt tcagcagaag ctaagcatgt atttagccct ggattctttc cacaactaaa
+     1081 tcatacaaag tgtgataaga ctgctatacc actgacatgg acaggaatga ttgatttacc
+     1141 tgggtactat gaagcaatac atccttgtac agttttctgt gttttatcag gccctggggc
+     1201 atcatgtgag gcattttcag aaggtggaat tttcaacata acatccccaa tgtgtttagt
+     1261 ctcaaaacaa aatcgattcc ggctaacaga acagcaagtc aactttgttt gtcagagagt
+     1321 tgatatggac attgttgtgt actgtaatgg tcagagaaaa gtgatattaa caaaaacctt
+     1381 agttattgga cagtgtatat atacaataac aagcttgttc tcactattac ctggggtagc
+     1441 acattctatt gctgttgaat tgtgtgtccc tgggttccat gggtgggcca cagctgctct
+     1501 gcttgttaca ttctgctttg gttgggttct aataccagca atcacattta tcatactaac
+     1561 aattctaaaa ttcattgcaa atattttcca cacaagtaac caagagaata ggctaaaatc
+     1621 agtacttaga aagataaagg aagagtttga aaagacaaaa ggctcaatgg tgtgtgatgt
+     1681 atgcaagtat gagtgtgaga cctataaaga attaaaggca catggggtat catgtcccca
+     1741 atctcaatgc ccatattgct ttacccattg tgaacctaca gaagcagcat ttcaagccca
+     1801 ttacaaagta tgccaagtta cccatagatt cagggatgat ttaaagaaga ctgtaactcc
+     1861 tcagaatttt acacctggtt gttatcgtac attaaatcta tttagatata aaagtaggtg
+     1921 ttacattttt acaatgtggg tgtttctact agtcctagaa tccatactat gggctgctag
+     1981 tgcatcagaa acaccattaa accctgtctg gaatgacaat gcccatgggg taggttctgt
+     2041 accgatgcac acagacttag aactagattt ttctttaaca tcaagttcca agtatacata
+     2101 ccgtaggaag ctaacaaacc cacttgaaga aacacaatca attgatctcc atattgaaat
+     2161 agaagaacaa acaattggtg ttgatgtgca tgctttaggc cattggtttg atggtcgtct
+     2221 aaatcttaaa acatcctttc actgctatgg tgcatgtaca aaatatgaat acccatggca
+     2281 tactgcaaag tgtcattatg aacgagatta tcagtatgag acaagttggg gatgtaatcc
+     2341 atctgactgc cctggggtag gcacaggctg tacagcatgt ggcttatacc tagaccaatt
+     2401 aaagcctgtt ggtagtgctt ataaaatcat tacaataaga tacagcagga gagtctgtgt
+     2461 tcaatttggg gaagaaaacc tatgtaagat catagacatg aatgactgtt ttgtatcaag
+     2521 gcatgtcaag gtctgtataa ttggtacagt ctctaaattt tctcaaggtg atacactatt
+     2581 attctttgga ccactagagg gtggtggctt aatatttaaa cactggtgta catctacatg
+     2641 tcaatttggg gaccctggag atatcatgag tccaagagac aaaggatttt tatgccctga
+     2701 attcccaggt agtttcagga agaaatgcaa ctttgctact acccctatat gtgagtatga
+     2761 tggaaatatg gtctcagggt acaagaaagt catggcaaca attgattcct ttcaatcctt
+     2821 taatactagc actatgcatt ttactgatga gagaatagag tggaaagacc ctgatgggat
+     2881 gttacgagac catataaata ttctagtaac aaaggatatt gactttgaca atcttggtga
+     2941 aaatccctgt aaaattggct tacaaacatc atccattgag ggggcatggg gctctggtgt
+     3001 tggctttaca ctaacatgtc tagtatcatt aacagagtgt cctacctttt tgacatcaat
+     3061 taaggcttgt gataaagcaa tctgttatgg tgcagagagt gtaacattaa caagaggaca
+     3121 gaatacagtc aaagtgtcag ggaaaggtgg ccatagtgga tcaacattta agtgctgtca
+     3181 tggggaagaa tgttcacaaa ttggactcca tgctgctgca cctcaccttg acaaggtcaa
+     3241 tgggatttct gagatagaaa atagtaaagt ttatgatgat ggagcacctc aatgtgggat
+     3301 aaaatgctgg tttgttaaat caggagaatg gatttcaggg attttcagtg gtaattggat
+     3361 tgtactcatt gtcctctgtg tatttttatt gttctcattg atattactta gcattctctg
+     3421 tcctgtaaga aagcacaaaa agtcatagct aaatactgat attatcatga tattatatat
+     3481 aactttaaca tatatattaa tttctatatt ccattatatt ctatctaaca cactaaaaaa
+     3541 aatagtagct gtctaaccac aaaacttaga tttttcttct gtatgatgtc ttaacatctt
+     3601 gcggagcata ctacta
+//

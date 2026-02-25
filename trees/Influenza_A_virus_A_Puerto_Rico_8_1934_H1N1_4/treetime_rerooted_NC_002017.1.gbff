@@ -1,0 +1,104 @@
+LOCUS       rerooted_NC_002017.1      1778 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002017.1.
+ACCESSION   rerooted_NC_002017.1
+VERSION     rerooted_NC_002017.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+  ORGANISM  Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1778)
+  AUTHORS   Winter,G., Fields,S. and Brownlee,G.G.
+  TITLE     Nucleotide sequence of the haemagglutinin gene of a human influenza
+            virus H1 subtype
+  JOURNAL   Nature 292 (5818), 72-75 (1981)
+   PUBMED   7278968
+REFERENCE   2  (bases 1 to 1778)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from V01088.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1778
+                     /organism="Influenza A virus (A/Puerto Rico/8/1934(H1N1))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Puerto Rico/8/1934"
+                     /serotype="H1N1"
+                     /db_xref="taxon:211044"
+                     /segment="4"
+                     /geo_loc_name="Puerto Rico"
+                     /collection_date="1934"
+     gene            33..1733
+                     /gene="HA"
+                     /locus_tag="FLUAVs4gp1"
+                     /db_xref="GeneID:956529"
+     CDS             33..1733
+                     /gene="HA"
+                     /locus_tag="FLUAVs4gp1"
+                     /function="receptor binding and fusion protein"
+                     /codon_start=1
+                     /product="haemagglutinin"
+                     /protein_id="NP_040980.1"
+                     /db_xref="GOA:P03452"
+                     /db_xref="UniProtKB/Swiss-Prot:P03452"
+                     /db_xref="GeneID:956529"
+                     /translation="MKARLLVLLCAFAATNADTLCIGYHANNSTDTVDTVLEKNVTVTH
+                     SVNLLEDSHNGKLCRLGGIAPLQLGKCNIAGWLLGNPECDLLLTVSSWSYIVETSNSDN
+                     GTCYPGDFIDYEELREQLSSVSSFEKFEIFPKTSSWPNHETTRGVTAACPYAGASSFYR
+                     NLLWLVKKGNSYPKLSKSYVNNKGKEVLVLWGVHHPPTSTDQQSLYQNADAYVSVGSSK
+                     YNRRFTPEIAARPKVRGQAGRMNYYWTLLEPGDTITFEATGNLVAPRYAFALNRGSGSG
+                     IITSDAPVHDCDTKCQTPHGAINSSLPFQNIHPVTIGECPKYVKSTKLRMATGLRNIPS
+                     IQSRGLFGAIAGFIEGGWTGMIDGWYGYHHQNGQGSGYAADQKSTQNAIDGITNKVNSV
+                     IEKMNTQFTAVGKEFNNLEKRIENLNKKVDDGFLDVWTYNAELLVLLENERTLDFHDSN
+                     VKNLYEKVRSQLRNNAKEIGNGCFEFYHKCDDACMESVRNGTYDYPKYSEESKLNREEI
+                     DGVKLESMRVYQILAIYSTVASSLVLLVSLGAISFWMCSNGSLQCRICI*"
+     sig_peptide     33..83
+                     /gene="HA"
+                     /locus_tag="FLUAVs4gp1"
+     mat_peptide     84..1064
+                     /gene="HA"
+                     /locus_tag="FLUAVs4gp1"
+                     /product="HA1"
+                     /protein_id="YP_163735.1"
+     mat_peptide     1065..1730
+                     /gene="HA"
+                     /locus_tag="FLUAVs4gp1"
+                     /product="HA2"
+                     /protein_id="YP_163736.1"
+ORIGIN
+        1 agcaaaagca ggggaaaata aaagcaaccg aaatgaaggc aagactatta gtcttgttat
+       61 gtgcatttgc agctacaaat gcagacacac tatgtatagg ttaccatgca aataactcaa
+      121 ccgacactgt tgacacagta ctcgagaaga atgtaaccgt gacacactct gttaacctgc
+      181 ttgaagacag ccacaacgga aaactatgta gactaggggg aatagcccca ttacaactgg
+      241 ggaaatgtaa tattgccgga tggctcttgg gaaacccaga atgcgatttg ctgctcacag
+      301 tgagctcatg gtcctatatt gtagaaacat caaactcaga taatgggaca tgttacccag
+      361 gagatttcat cgactatgaa gaactgagag agcaattgag ctcagtgtca tcattcgaaa
+      421 aattcgagat atttcccaag acaagctcgt ggcccaatca tgaaacaacc agaggtgtaa
+      481 cggcagcatg cccctatgct ggagcaagca gcttttacag aaatttacta tggctggtaa
+      541 agaagggaaa ttcataccca aagctcagca aatcctatgt taacaataaa gggaaagaag
+      601 tccttgtgct atggggtgtt catcatccgc ctaccagtac tgatcaacaa agtctctatc
+      661 aaaatgcaga tgcttatgtt tctgtagggt catcaaaata taacaggagg ttcaccccag
+      721 aaatagcagc gagacccaaa gtgagaggtc aagcagggag gatgaactat tactggacat
+      781 tactagaacc cggagacaca ataacatttg aggcaactgg aaatctagtg gcaccaagat
+      841 atgctttcgc actgaataga ggttctggat ccggtatcat cacttcagac gcaccagtgc
+      901 atgattgtga cacgaagtgt caaacacccc atggtgctat aaacagcagt ctccctttcc
+      961 agaatataca tccagtcaca ataggagagt gcccaaaata cgtcaagagt accaaattaa
+     1021 ggatggctac aggactaaga aacatcccat ctattcaatc tagaggtctg tttggagcca
+     1081 ttgccggttt tattgagggg ggatggactg gaatgataga tggatggtat ggttaccatc
+     1141 atcagaatgg acagggatca ggctatgcag cggaccaaaa gagcacacaa aatgccattg
+     1201 acgggattac aaacaaggtg aattctgtta tcgagaagat gaacacgcaa ttcacagcag
+     1261 tgggtaaaga attcaacaac ctagaaaaaa ggatagaaaa tttaaataaa aaagtcgatg
+     1321 atggatttct ggatgtttgg acatataatg cagaactgtt agttctattg gaaaatgaaa
+     1381 ggactctgga tttccatgac tcaaatgtaa agaatctgta tgagaaagta agaagccaac
+     1441 taaggaataa tgccaaagaa atcgggaatg gatgctttga attctaccac aaatgtgatg
+     1501 atgcatgcat ggaaagcgtc agaaatggga cttatgatta cccaaagtat tcagaagaat
+     1561 caaaattgaa cagagaagaa atagatggag tgaaattgga atcaatgagg gtctatcaga
+     1621 ttctggcgat ctattcaacc gtcgccagtt cactagtgct gttagtctcc ctgggggcaa
+     1681 tcagcttctg gatgtgttct aatgggtctt tgcagtgcag aatatgcatt taaaactaga
+     1741 atttcagaaa cataaggaaa aacacccttg tttctact
+//

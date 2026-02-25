@@ -1,0 +1,189 @@
+LOCUS       rerooted_NC_004005.1      2781 bp    ss-DNA  circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_004005.1.
+ACCESSION   rerooted_NC_004005.1
+VERSION     rerooted_NC_004005.1
+KEYWORDS    RefSeq; c2 gene; C2 protein; c3 gene; C3 protein; c4 gene; C4
+            protein; coat protein; cp gene; precoat protein; rep gene;
+            replication-associated protein; v2 gene.
+SOURCE      Tomato yellow leaf curl virus (TYLCV)
+  ORGANISM  Tomato yellow leaf curl virus
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Repensiviricetes; Geplafuvirales; Geminiviridae; Begomovirus;
+            Begomovirus coheni.
+REFERENCE   1  (bases 1 to 2781)
+  AUTHORS   Morilla,G., Janssen,D., Garcia-Andres,S., Moriones,E., Cuadrado,I.M.
+            and Bejarano,E.R.
+  TITLE     Pepper (Capsicum annuum) Is a Dead-End Host for Tomato yellow leaf
+            curl virus
+  JOURNAL   Phytopathology 95 (9), 1089-1097 (2005)
+   PUBMED   18943307
+REFERENCE   2  (bases 1 to 2781)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2781)
+  AUTHORS   Morilla,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUN-2002) Morilla G., Departamento de Genetica,
+            Universidad de Malaga, 29071, Malaga, SPAIN
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AJ489258.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2781
+                     /organism="Tomato yellow leaf curl virus"
+                     /mol_type="genomic DNA"
+                     /isolate="Almeria"
+                     /host="Capsicum anuum"
+                     /db_xref="taxon:10832"
+                     /geo_loc_name="Spain:Almeria"
+     gene            155..505
+                     /gene="v2"
+                     /locus_tag="TYLCVgp1"
+                     /db_xref="GeneID:949136"
+     CDS             155..505
+                     /gene="v2"
+                     /locus_tag="TYLCVgp1"
+                     /function="movement"
+                     /codon_start=1
+                     /product="precoat protein"
+                     /protein_id="NP_658991.1"
+                     /db_xref="GeneID:949136"
+                     /translation="MWDPLLNEFPESVHGFRCMLAIKYLQAVEETYEPNTLGHDLIRDL
+                     ISVVRARDYVEATRRYNHFHARLEGSPKAELRQPLQQPCCCPHCPRHKQAPIMDVQAHV
+                     PKAQNIQNVPKP*"
+     gene            315..1091
+                     /gene="cp"
+                     /locus_tag="TYLCVgp2"
+                     /db_xref="GeneID:949139"
+     CDS             315..1091
+                     /gene="cp"
+                     /locus_tag="TYLCVgp2"
+                     /function="coat protein"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="NP_658992.1"
+                     /db_xref="UniProtKB/TrEMBL:Q8JJU0"
+                     /db_xref="GeneID:949139"
+                     /translation="MSKRPGDIIISTPVSKVRRRLNFDSPYSSRAAAPIVQGINKRRSW
+                     TYRPMYRKPRIYRMYRSPDVPRGCEGPCKVQSYEQRDDIKHTGIVRCVSDVTRGAGITH
+                     RVGKRFCIKSIYFLGKVWMDENIKKQNHTNQVMFFLVRDRRPYGSSPMDFGQVFNMFDN
+                     EPSTATVKNDLRDRFQVMRKFHATVIGGPSGMKEQALVKRFFKINSHVTYNHQEAAKYE
+                     NHTENALLLYMACTHASNPVYATMKIRIYFYDSISN*"
+     gene            complement(1088..1492)
+                     /gene="c3"
+                     /locus_tag="TYLCVgp3"
+                     /db_xref="GeneID:949138"
+     CDS             complement(1088..1492)
+                     /gene="c3"
+                     /locus_tag="TYLCVgp3"
+                     /codon_start=1
+                     /product="C3 protein"
+                     /protein_id="NP_658993.1"
+                     /db_xref="UniProtKB/TrEMBL:Q8JJT9"
+                     /db_xref="GeneID:949138"
+                     /translation="MDSRTGELITAHQAQNGVFIWEIENPLYFKITNHDERPFLMNHDI
+                     ISMQIRFNHNIRKVLGIHKCYLNFRIWTTLRPQTGRFLRVFRYQVFKYLDNLGVISINN
+                     VIRAVDHVLYDVLENTINVTETHDIKYKFY*"
+     gene            complement(1233..1640)
+                     /gene="c2"
+                     /locus_tag="TYLCVgp4"
+                     /db_xref="GeneID:949137"
+     CDS             complement(1233..1640)
+                     /gene="c2"
+                     /locus_tag="TYLCVgp4"
+                     /codon_start=1
+                     /product="C2 protein"
+                     /protein_id="NP_658994.1"
+                     /db_xref="UniProtKB/TrEMBL:Q8JJT8"
+                     /db_xref="GeneID:949137"
+                     /translation="MQPSSPSTSHCSQVSIKVQHKIAKKKPIRRKRVDLDCGCSYYLHL
+                     NCINHGFTHRGTHHCSSSPEWRFYMGDRKSPLFQDHQPRREAISNEPRHHFNADKIQSQ
+                     HQEGTGDSQMLSQLPNLDDLTASDWSFLKSI*"
+     gene            complement(1549..2622)
+                     /gene="rep"
+                     /locus_tag="TYLCVgp5"
+                     /db_xref="GeneID:949141"
+     CDS             complement(1549..2622)
+                     /gene="rep"
+                     /locus_tag="TYLCVgp5"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="NP_658995.1"
+                     /db_xref="UniProtKB/TrEMBL:Q8JJT7"
+                     /db_xref="GeneID:949141"
+                     /translation="MPRLFKINAKNYFLTYPNCSLSKEEALSQLKNLETPTNKKYIKVC
+                     RELHENGEPHLHVLIQFEGKFKCKNQRFFDLVSPSRSAHFHPNIQGAKRSTDVKSYIDK
+                     DGDTVDWGEFQIDGRSARGGQQSANDAYAAALNSGSKSEALRVIKELAPKDYILQFHNL
+                     NSNLDRILSPPLAPYISPFLSSSFNQVPEELEVWVSENVMSAAARPWRPNSIVIEGDSR
+                     TGKTMWARSLGPHNYLCGHLDLSPKVYSNDAWYNVIDDVDPHYLKHFKEFMGAQRDWQS
+                     NTKYGKPIQIKGGIPTIFLCNPGPTSSYREYLDEEKNISLKNWALKNATFVTLYEPLFA
+                     SVNQGPTQDSQEETNKA*"
+     gene            complement(2178..2471)
+                     /gene="c4"
+                     /locus_tag="TYLCVgp6"
+                     /db_xref="GeneID:949140"
+     CDS             complement(2178..2471)
+                     /gene="c4"
+                     /locus_tag="TYLCVgp6"
+                     /codon_start=1
+                     /product="C4 protein"
+                     /protein_id="NP_658996.1"
+                     /db_xref="GOA:Q8JJT7"
+                     /db_xref="HSSP:1L5I"
+                     /db_xref="InterPro:IPR001301"
+                     /db_xref="UniProtKB/TrEMBL:Q8JJT6"
+                     /db_xref="GeneID:949140"
+                     /translation="MGNHISMCLSSSKANSSAKINDSSTWSPQVGQHISIRTFRELRDL
+                     PTSSPTSTKTETPSTGVSFRSTDDLHVGVSNQPMTLTPQHLTQAVSQRLLESL"
+ORIGIN
+        1 taatattacc ggatggccgc gacttttctt tttaggtgtg ccccacgtgg gtcccacaca
+       61 cgtcgctatc aaccaatcaa attgaagact gaaacgttag ataattgttt atttgtcctt
+      121 atatacttgg tccccaagtt tgttgtcttg caatatgtgg gatccacttc taaatgaatt
+      181 tcctgaatcc gttcacgggt ttcgttgtat gttagctatt aaatatttgc aggccgttga
+      241 ggaaacttat gagcccaaca ctttgggcca cgatttaatt agggatctta tatctgttgt
+      301 aagggcccgt gactatgtcg aagcgacccg gcgatataat catttccacg cccgtctcga
+      361 aggttcgccg aaggctgaac ttcgacagcc cctacagcag ccgtgctgct gcccccattg
+      421 tccaaggcat aaacaagcgc cgatcatgga cgtacaggcc catgtaccga aagcccagaa
+      481 tatacagaat gtaccgaagc cctgatgttc cccgtggatg tgaaggccca tgtaaagtcc
+      541 agtcttatga gcaacgggat gatattaagc atactggtat tgttcgttgt gttagtgatg
+      601 ttactcgtgg agccggaatt acccacagag tgggtaagag gttctgtatt aaatccatat
+      661 attttttagg taaagtttgg atggatgaaa atatcaaaaa gcagaatcac actaatcagg
+      721 tcatgttctt cttggtccgt gatagaaggc cctatggaag cagcccaatg gattttggac
+      781 aggtttttaa tatgttcgat aatgagccca gtaccgcaac cgtgaagaat gatctccgag
+      841 ataggtttca agtgatgagg aaatttcatg ctacagtcat tggtggacca tctggaatga
+      901 aggaacaggc tttagttaag agatttttta aaattaacag tcatgtaact tataatcatc
+      961 aggaagcagc caagtacgag aaccatactg aaaacgcctt gttattgtat atggcatgta
+     1021 cgcatgcctc taatccagtg tatgcaacta tgaaaatacg catctatttc tatgattcaa
+     1081 tatcaaatta ataaaattta tattttatat catgagtttc tgtcacattt attgtgtttt
+     1141 caagtacatc atacaataca tgatccactg ctctaattac attgttaatg gaaattacac
+     1201 ctaaattatc taaatactta aaaacttgat atctaaatac tcttaagaaa cgaccagtct
+     1261 gaggccgtaa ggtcgtccag attcggaagt tgagataaca tttgtgaatc cccagtacct
+     1321 tcctgatgtt gtgattgaat cttatctgca ttgaaatgat gtcgtggttc attagaaatg
+     1381 gcctctcgtc gtggttggtg atcttgaaat agaggggatt ttctatctcc catataaaaa
+     1441 cgccattctg ggcttgatga gcagtgatga gttccccggt gcgtgaatcc atgattaatg
+     1501 cagttgaggt ggaggtagta tgagcagcca cagtctaggt ctacacgctt acgccttatt
+     1561 ggtttcttct tggctatctt gtgttggacc ttgattgaca cttgcgaaca gtggctcgta
+     1621 gagggtgacg aaggttgcat tcttgagagc ccaatttttc aatgatatat ttttttcttc
+     1681 gtccagatat tccctatatg aggaggtagg tcctggattg cagaggaaga tagtgggaat
+     1741 tcctccttta atttgaatgg gcttcccgta ctttgtgttg ctttgccagt ccctctgggc
+     1801 ccccatgaat tctttaaagt gctttaaata atgcggatct acgtcatcaa tgacgttgta
+     1861 ccacgcatca ttactgtaca cctttgggct taggtctaga tgtccacaca aataattatg
+     1921 tgggcctaaa gacctggccc acattgtctt gccggtcctg ctatcaccct ctattacaat
+     1981 actgttgggt ctccatggcc gcgcagcggc agacatgacg ttctcggaca cccagacttc
+     2041 aagttcttca ggaacttgat taaaagaaga agataaaaaa ggagaaatat aaggagccaa
+     2101 aggagggctc aaaatcctat ctaaattact atttaaatta tgaaattgca aaatataatc
+     2161 tttcggtgct aattctttaa tgactctaag agcctctgac ttactgcctg agttaagtgc
+     2221 tgcggcgtaa gcgtcattgg ctgattgctg acccccacgt gcagatcgtc cgtcgatctg
+     2281 aaactcaccc cagtcgacgg tgtctccgtc tttgtcgatg taggacttga cgtcggtaga
+     2341 tctcttagct ccctgaatgt tcggatggaa atgtgctgac ctacttgggg agaccaggtc
+     2401 gaagaatcgt tgatttttgc acttgaattt gccttcgaac tggataagca catggagatg
+     2461 tggttcccca ttctcgtgga gttctctgca aactttgatg tattttttat ttgttggggt
+     2521 ttctaggttt tttaattggg aaagtgcttc ttctttagag agagaacaat taggataagt
+     2581 caggaaataa tttttggcat ttattttaaa tagacgaggc atggtgaaat gaatcggtgt
+     2641 ctctcaaagc tctatggcaa tcggtgtatc ggtgtcttac ttatacctgg acaccaaatg
+     2701 gcattttggt aatttcgtaa aagttcattg caattcaaaa ttcaaaattc aaaaatcaaa
+     2761 tcattaaagc ggccatccgt a
+//

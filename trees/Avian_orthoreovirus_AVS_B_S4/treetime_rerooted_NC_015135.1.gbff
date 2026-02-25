@@ -1,0 +1,78 @@
+LOCUS       rerooted_NC_015135.1      1192 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_015135.1.
+ACCESSION   rerooted_NC_015135.1
+VERSION     rerooted_NC_015135.1
+KEYWORDS    RefSeq.
+SOURCE      Avian orthoreovirus
+  ORGANISM  Avian orthoreovirus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus avis.
+REFERENCE   1
+  AUTHORS   Banyai,K., Dandar,E., Dorsey,K.M., Mato,T. and Palya,V.
+  TITLE     The genomic constellation of a novel avian orthoreovirus strain
+            associated with runting-stunting syndrome in broilers
+  JOURNAL   Virus Genes 42 (1), 82-89 (2011)
+   PUBMED   21116842
+REFERENCE   2  (bases 1 to 1192)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1192)
+  AUTHORS   Banyai,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-SEP-2010) Banyai K., Hungarian Academy of Sciences,
+            Veterinary Medical Research Institute, Hungaria krt. 21., Budapest,
+            H-1143, HUNGARY
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to FR694200.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1192
+                     /organism="Avian orthoreovirus"
+                     /mol_type="genomic RNA"
+                     /strain="AVS-B"
+                     /db_xref="taxon:38170"
+                     /segment="S4"
+                     /geo_loc_name="USA"
+     gene            24..1127
+                     /gene="sigma-NS"
+                     /locus_tag="AOrVsS4_gpp1"
+                     /db_xref="GeneID:10220435"
+     CDS             24..1127
+                     /gene="sigma-NS"
+                     /locus_tag="AOrVsS4_gpp1"
+                     /codon_start=1
+                     /product="sigma-NS protein"
+                     /protein_id="YP_004226530.1"
+                     /db_xref="GeneID:10220435"
+                     /translation="MDNTVRVGVSRNTSGAAGQTVFRNFYLLRCNISADGRNATKAVQS
+                     HFPFLSRAVRCLSPLAAHCADRTLRRDNVKQILTRDLPFPSDLINYAHHVNSSSLTTSQ
+                     GVEAARLVAQVYGEQVPFDHIYPTGSATYCPGAIANAISRIMAGFVPHEGDDFTPSGPI
+                     DYLAADLVAYKFVLPYMLDMVDGRPQIVLPSHTVEEMLTNTSLLNSIDASFGIESSSDQ
+                     RMTRDAAEMSSRSLNELEDHEQRGRMPWKIMLAMMAAQLKVELDALADERTESQANAHV
+                     TSFGSRLFNQMSAFVPIDRELMELALLIKEQGFAMNPGQVASKWSLIRRSGPTRPLSGA
+                     RLEIRNGNWMIREGDQTLLSVSPARMA*"
+ORIGIN
+        1 gctttttgag tccttgtgca gccatggaca acaccgtgcg tgttggagtt tcccgcaaca
+       61 catccggcgc agctggtcag actgttttca gaaacttcta cttactgcga tgcaacattt
+      121 cagctgacgg tcgtaatgca acaaaagcgg tgcaatctca ctttccattc ctttctcgtg
+      181 ctgttcgatg cctgtctcct cttgctgctc attgtgctga taggactctt cgtcgtgaca
+      241 acgtgaagca gattctgact cgtgatctgc catttccatc ggacctaatc aactacgctc
+      301 accatgtgaa ctcatcctct cttactactt ctcagggtgt cgaagcggct cgtctggtgg
+      361 ctcaagttta tggggagcaa gtaccttttg atcacatcta tcctactggc tcagcgacat
+      421 actgtcctgg tgcgatcgct aatgctattt ctcgcattat ggctggtttt gtgcctcatg
+      481 aaggtgatga cttcactccg agtggtccta ttgattatct cgctgctgac ctggtcgcgt
+      541 acaagtttgt gctcccttac atgcttgata tggtggatgg tcgtccgcag attgttcttc
+      601 cttctcacac cgttgaagag atgctgacca acacaagcct gctgaattcg attgatgctt
+      661 cattcggtat tgagtctagc agtgatcaac gcatgacgcg tgatgctgct gagatgagtt
+      721 ctcgttcact caatgagctt gaggatcatg agcagagagg tcgtatgcct tggaagatca
+      781 tgctggcgat gatggcggcg caattgaagg tggagctgga cgcactggct gacgagcgta
+      841 ctgagtctca ggctaatgct cacgttacat ccttcggatc acgtctattc aatcagatgt
+      901 cggcgtttgt gcctattgat cgtgagttga tggaactggc tcttctcatc aaggaacagg
+      961 gtttcgccat gaatccaggt caggttgcat ctaaatggtc gctgatacgt cgatccggtc
+     1021 ctactcgtcc actgtcaggt gcacgtcttg agatcaggaa tggtaattgg atgatccgtg
+     1081 aaggtgacca gacgctgctg tctgtctctc cagctaggat ggcgtagacg ggacccatgg
+     1141 tgcgggtgag gggccgccac accctctgcc gcgacttgga ctcttattca tc
+//

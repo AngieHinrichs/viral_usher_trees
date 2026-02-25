@@ -1,0 +1,80 @@
+LOCUS       rerooted_NC_038809.1      1028 bp    DNA     circular VRL 24-AUG-2018
+DEFINITION  rerooted_NC_038809.1.
+ACCESSION   rerooted_NC_038809.1
+VERSION     rerooted_NC_038809.1
+KEYWORDS    RefSeq.
+SOURCE      Cardamom bushy dwarf virus
+  ORGANISM  Cardamom bushy dwarf virus
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Arfiviricetes; Mulpavirales; Nanoviridae; Babuvirus; Babuvirus
+            cardamomi.
+REFERENCE   1  (bases 1 to 1028)
+  AUTHORS   Mandal,B., Shilpi,S., Barman,A.R., Mandal,S. and Varma,A.
+  TITLE     Nine novel DNA components associated with the foorkey disease of
+            large cardamom: Evidence of a distinct babuvirus species in
+            Nanoviridae
+  JOURNAL   Virus Res. 178 (2), 297-305 (2013)
+   PUBMED   24091364
+REFERENCE   2  (bases 1 to 1028)
+  AUTHORS   Shilpi,S. and Mandal,B.
+  TITLE     Molecular characterization of cardamom bushy dwarf virus
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1028)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 1028)
+  AUTHORS   Shilpi,S. and Mandal,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2012) Plant Virology Unit, Division of Plant
+            Pathology, Indian Agricultural Research Institute, Pusa Campus, New
+            Delhi, Delhi 110012, India
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to JX867548.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1028
+                     /organism="Cardamom bushy dwarf virus"
+                     /mol_type="genomic DNA"
+                     /isolation_source="infected leaves"
+                     /host="large cardamom"
+                     /db_xref="taxon:262588"
+                     /clone="Fr-CL-1"
+                     /geo_loc_name="India: Kalimpong"
+                     /collection_date="2010"
+                     /collected_by="Bikash Mandal"
+     gene            244..726
+                     /gene="CLINK"
+                     /locus_tag="D1S74_sCgp1"
+                     /db_xref="GeneID:37619261"
+     CDS             244..726
+                     /gene="CLINK"
+                     /locus_tag="D1S74_sCgp1"
+                     /codon_start=1
+                     /product="cell cycle link protein"
+                     /protein_id="YP_009508035.1"
+                     /db_xref="GeneID:37619261"
+                     /translation="MDRWEEDVYPDDVKRVIKEYYWRSRLNLLFCEKVKRQVRRILGFG
+                     DFDDAMLAVKEMKTSIVALAAKMKKDSVVICEVTNKSVANRLNTMSFFYHEYVEDQGDT
+                     YSVDVVLFCDEELPSSSENDEENVIYRNVIMASKDEKISYESCIWIVIGDDGVTVL*"
+ORIGIN
+        1 agcgctgggg actattatta cccccagcgc ttgggacggg acacccacgt gcttaaatta
+       61 aaagcacgtg ttgatggatg gcttcagaag taaggcaccg ttaacgtccg ttacgttaac
+      121 ggtatattcg ttgcttagaa acgaaggaaa cgttagtaga tatttgttcg tggtgcgcgt
+      181 aggataggct atttaaacct gtagggtttc gcctattcct gaatcactcg gaggtcgtgg
+      241 aagatggatc gatgggaaga ggatgtctat cctgacgatg tgaagagagt gattaaggaa
+      301 tactactgga gatcccggct taaccttctc ttctgtgaga aggtgaaacg tcaggtacga
+      361 aggattctag ggtttggtga ttttgatgat gctatgcttg cagttaagga gatgaagact
+      421 tcgatagttg cccttgcggc aaagatgaag aaggatagtg tggtaatatg cgaggtcaca
+      481 aataaatcgg tggctaacag gttgaacacg atgtccttct tttatcatga gtatgtggaa
+      541 gatcaaggag acacatattc cgttgatgtg gttctattct gtgatgagga attaccatca
+      601 tcgtctgaga acgatgaaga aaacgttata tacaggaatg ttatcatggc atcgaaagat
+      661 gagaagatct catatgagtc ttgtatatgg atagtcatcg gggacgatgg tgtaacagtc
+      721 ctgtaatatg tattccagta ttaatacaaa tataatatta aataatggaa tggtgattta
+      781 tgtatttaga ataatacgta aatggtatac ggtgtgcata aaaataaaaa acacacatca
+      841 atacacgcta tgccgaaaag ctgaaaacgc aattaagacc tgtcggattg accttattaa
+      901 cgaaataagg gccgaaggcc cgtttaaatg tagagtgggc ctaggcccac gaataccaat
+      961 gaacgaaaga acattggtaa agttacttat ttggtgggcc agatgtcccg atgacgtaag
+     1021 gatacgta
+//

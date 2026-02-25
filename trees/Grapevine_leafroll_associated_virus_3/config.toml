@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_004667.1, taxonomy ID 3426349
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_004667.1'
-refseq_assembly = 'GCF_000851885.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_004667.1'
+#refseq_assembly = 'GCF_000851885.1'
+ref_fasta = './trees/Grapevine_leafroll_associated_virus_3/midpoint_rerooted_NC_004667.1.fa'
+ref_gbff = './trees/Grapevine_leafroll_associated_virus_3/midpoint_rerooted_NC_004667.1.gbff'
 taxonomy_id = '3426349'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

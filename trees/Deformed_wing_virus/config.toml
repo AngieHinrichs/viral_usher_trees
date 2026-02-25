@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_004830.2, taxonomy ID 3047792
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_004830.2'
-refseq_assembly = 'GCF_000852585.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_004830.2'
+#refseq_assembly = 'GCF_000852585.1'
+ref_fasta = './trees/Deformed_wing_virus/treetime_rerooted_NC_004830.2.fa'
+ref_gbff = './trees/Deformed_wing_virus/treetime_rerooted_NC_004830.2.gbff'
 taxonomy_id = '3047792'
 nextclade_dataset = ''
 nextclade_clade_columns = ''
