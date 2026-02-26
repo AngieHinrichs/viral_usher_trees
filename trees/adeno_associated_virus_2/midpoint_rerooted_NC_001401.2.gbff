@@ -1,0 +1,385 @@
+LOCUS       rerooted_NC_001401.2      4679 bp    DNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001401.2.
+ACCESSION   rerooted_NC_001401.2
+VERSION     rerooted_NC_001401.2
+KEYWORDS    RefSeq.
+SOURCE      adeno-associated virus 2
+  ORGANISM  adeno-associated virus 2
+            Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Quintoviricetes;
+            Piccovirales; Parvoviridae; Parvovirinae; Dependoparvovirus;
+            Dependoparvovirus primate1.
+REFERENCE   1  (bases 3929 to 4393)
+  AUTHORS   Cao,M., You,H. and Hermonat,P.L.
+  TITLE     The X gene of adeno-associated virus 2 (AAV2) is involved in viral
+            DNA replication
+  JOURNAL   PLoS ONE 9 (8), E104596 (2014)
+   PUBMED   25127256
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 4679)
+  AUTHORS   Ruffing,M., Heid,H. and Kleinschmidt,J.A.
+  TITLE     Mutations in the carboxy terminus of adeno-associated virus 2 capsid
+            proteins affect viral infectivity: lack of an RGD integrin-binding
+            motif
+  JOURNAL   J. Gen. Virol. 75 (Pt 12), 3385-3392 (1994)
+   PUBMED   7996133
+REFERENCE   3  (bases 1 to 4679)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-2006) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 4679)
+  AUTHORS   Berns,K.I., Bohenzky,R.A., Cassinotti,P., Colvin,D., Donahue,B.A.,
+            Dull,T., Horer,M., Kleinschmidt,J.A., Ruffing,M., Snyder,R.O.,
+            Tratschin,J.-D. and Weitz,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JAN-1998) Cell Genesys Inc., 342 Lakeside Dr., Foster
+            City, CA 94404, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF043303.
+            On Jul 24, 2006 this sequence version replaced NC_001401.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4679
+                     /organism="adeno-associated virus 2"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:10804"
+                     /note="changes relative to the original sequence, GenBank
+                     Accession Number J01901, have been detected and verified by
+                     several different laboratories"
+     repeat_region   1..145
+                     /note="inverted terminal repeat"
+                     /rpt_type=inverted
+     misc_feature    42..83
+                     /note="flip oriented DNA"
+     gene            287..4451
+                     /locus_tag="AAV2gs01"
+                     /db_xref="GeneID:4192010"
+     precursor_RNA   287..4451
+                     /locus_tag="AAV2gs01"
+                     /db_xref="GeneID:4192010"
+     gene            321..2252
+                     /locus_tag="AAV2gp01"
+                     /db_xref="GeneID:4192013"
+     CDS             join(321..1906,2228..2252)
+                     /locus_tag="AAV2gp01"
+                     /codon_start=1
+                     /product="Rep 68 protein"
+                     /protein_id="YP_680422.1"
+                     /db_xref="GeneID:4192013"
+                     /translation="MPGFYEIVIKVPSDLDEHLPGISDSFVNWVAEKEWELPPDSDMDL
+                     NLIEQAPLTVAEKLQRDFLTEWRRVSKAPEALFFVQFEKGESYFHMHVLVETTGVKSMV
+                     LGRFLSQIREKLIQRIYRGIEPTLPNWFAVTKTRNGAGGGNKVVDECYIPNYLLPKTQP
+                     ELQWAWTNMEQYLSACLNLTERKRLVAQHLTHVSQTQEQNKENQNPNSDAPVIRSKTSA
+                     RYMELVGWLVDKGITSEKQWIQEDQASYISFNAASNSRSQIKAALDNAGKIMSLTKTAP
+                     DYLVGQQPVEDISSNRIYKILELNGYDPQYAASVFLGWATKKFGKRNTIWLFGPATTGK
+                     TNIAEAIAHTVPFYGCVNWTNENFPFNDCVDKMVIWWEEGKMTAKVVESAKAILGGSKV
+                     RVDQKCKSSAQIDPTPVIVTSNTNMCAVIDGNSTTFEHQQPLQDRMFKFELTRRLDHDF
+                     GKVTKQEVKDFFRWAKDHVVEVEHEFYVKKGGAKKRPAPSDADISEPKRVRESVAQPST
+                     SDAEASINYADRLARGHSL"
+     gene            321..2186
+                     /locus_tag="AAV2gp02"
+                     /db_xref="GeneID:1489608"
+     CDS             321..2186
+                     /locus_tag="AAV2gp02"
+                     /codon_start=1
+                     /product="Rep 78 protein"
+                     /protein_id="YP_680423.1"
+                     /db_xref="GeneID:1489608"
+                     /translation="MPGFYEIVMKVPSDLDEHLPGISDSFVNWVAEKEWELPPDSDMDL
+                     NLIEQAPLTVAEKLQRDFLVEWRRVSKAPEALFFVQFEKGETYFHLHVLVETTGVKSMV
+                     VGRFLSQIREKLVQSIYRGVEPTLPNWFAVTKTRNGAGGGNKVVDECYIPNYLLPKTQP
+                     ELQWAWTNMDQYLSACLNLAERKRLVAQHLTHVSQTQEQNKENQNPNSDAPVIRSKTSA
+                     RYMELVGWLVDRGITSEKQWIQEDQASYISFNAASNSRSQIKAALDNAGKIMSLTKTAP
+                     DYLVGQQPAEDITNNRIYQILELNGYDPQYAASVFLGWAQKKFGKRNTIWLFGPATTGK
+                     TNIAEAIAHAVPFYGCVNWTNENFPFNDCVDKMVIWWEEGKMTAKVVESAKAILGGSKV
+                     RVDQKCKSSAQIDPTPVIVTSNTNMCAVIDGNSTTFEHQQPLQDRMFKFELTRRLEHDF
+                     GKVTKQEVKDFFRWA*DHVTEVAHEFYVRKGGAKKSPAPNDADISEPKRACPSVAQPST
+                     SDAEAPVDYADRYQNKCSRHVGMNLMLFPCKTCERMNQNSNVCFTHGVRDCGECFPVSE
+                     SQPVSVVKKKYQKLCPIHHILGRAPEACSACDLANVDLDDCVSEQ*"
+     variation       370
+                     /locus_tag="AAV2gp02"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="g"
+     gene            878..4451
+                     /locus_tag="AAV2gs02"
+                     /db_xref="GeneID:4192011"
+     precursor_RNA   878..4451
+                     /locus_tag="AAV2gs02"
+                     /db_xref="GeneID:4192011"
+     gene            993..2252
+                     /locus_tag="AAV2gp03"
+                     /db_xref="GeneID:4192014"
+     CDS             join(993..1906,2228..2252)
+                     /locus_tag="AAV2gp03"
+                     /codon_start=1
+                     /product="Rep 40 protein"
+                     /protein_id="YP_680424.1"
+                     /db_xref="GeneID:4192014"
+                     /translation="MELVGWLVDKGITSEKQWIQEDQASYISFNAASNSRSQIKAALDN
+                     AGKIMSLTKTAPDYLVGQQPVEDISSNRIYKILELNGYDPQYAASVFLGWATKKFGKRN
+                     TIWLFGPATTGKTNIAEAIAHTVPFYGCVNWTNENFPFNDCVDKMVIWWEEGKMTAKVV
+                     ESAKAILGGSKVRVDQKCKSSAQIDPTPVIVTSNTNMCAVIDGNSTTFEHQQPLQDRMF
+                     KFELTRRLDHDFGKVTKQEVKDFFRWAKDHVVEVEHEFYVKKGGAKKRPAPSDADISEP
+                     KRVRESVAQPSTSDAEASINYADRLARGHSL"
+     gene            993..2186
+                     /locus_tag="AAV2gp04"
+                     /db_xref="GeneID:1489607"
+     CDS             993..2186
+                     /locus_tag="AAV2gp04"
+                     /codon_start=1
+                     /product="Rep 52 protein"
+                     /protein_id="YP_680425.1"
+                     /db_xref="GeneID:1489607"
+                     /translation="MELVGWLVDRGITSEKQWIQEDQASYISFNAASNSRSQIKAALDN
+                     AGKIMSLTKTAPDYLVGQQPAEDITNNRIYQILELNGYDPQYAASVFLGWAQKKFGKRN
+                     TIWLFGPATTGKTNIAEAIAHAVPFYGCVNWTNENFPFNDCVDKMVIWWEEGKMTAKVV
+                     ESAKAILGGSKVRVDQKCKSSAQIDPTPVIVTSNTNMCAVIDGNSTTFEHQQPLQDRMF
+                     KFELTRRLEHDFGKVTKQEVKDFFRWA*DHVTEVAHEFYVRKGGAKKSPAPNDADISEP
+                     KRACPSVAQPSTSDAEAPVDYADRYQNKCSRHVGMNLMLFPCKTCERMNQNSNVCFTHG
+                     VRDCGECFPVSESQPVSVVKKKYQKLCPIHHILGRAPEACSACDLANVDLDDCVSEQ*"
+     gene            1853..4451
+                     /locus_tag="AAV2gs03"
+                     /db_xref="GeneID:4192012"
+     precursor_RNA   1853..4451
+                     /locus_tag="AAV2gs03"
+                     /db_xref="GeneID:4192012"
+     intron          1907..2227
+                     /locus_tag="AAV2gp03"
+     gene            2203..4410
+                     /locus_tag="AAV2gp05"
+                     /db_xref="GeneID:4192017"
+     CDS             2203..4410
+                     /locus_tag="AAV2gp05"
+                     /codon_start=1
+                     /product="major coat protein VP1"
+                     /protein_id="YP_680426.1"
+                     /db_xref="GeneID:4192017"
+                     /translation="MAADGYLPDWLEDNLSEGIREWWALKPGAPPPKPTQQHQDNGRGL
+                     VLPGYKYLGPGNGLDKGEPVNAADAAALEHDKAYDQQLKAGDNPYLKYNHADAEFQERL
+                     QEDTSFGGNLGRAVFQAKKRVLEPLGLVEEAAKTAPGKKRPVEQSPQEPDSSSGIGKSG
+                     QQPARKRLNFGQTGDSESVPDPQPLGQPPAAPSGLGSTTMASGGGAPMADNNEGADGVG
+                     NSSGNWHCDSQWLGDRVITTSTRTWALPTYNNHLYKQISSQSGASNDNHYFGYSTPWGY
+                     FDFNRFHCHFSPRDWQRLINNNWGFRPKRLSFKLFNIQVKEVTQNDGTTTIANNLTSTV
+                     QVFTDSEYQLPYVLGSAHQGCLPPFPADVFMVPQYGYLTLNNGSQAVGRSSFYCLEYFP
+                     SQMLRTGNNFQFSYTFEDVPFHSSYAHSQSLDRLMNPLIDQYLYYLNRTNTPSGTTTQS
+                     RLLFSQAGANGIPVQAKNWLPGPCYRQQRLSKTANDNNNSNFPWTAATKYHLNGRDSLV
+                     NPGPAMASHKDDEEKFFPMHGNLIFGKEGTKATNADLENVMITDEEEIRTTNPVATEQY
+                     GTVANNFQSGKTQAATGTVNTQGALPGMVWQDRDVYLQGPIWAKIPHTDGHFHPSPLMG
+                     GFGLKHPPPQIMIKNTPVPANPPTTFSAAKFASFITQYSTGQVSVEIEWELQKENSKRW
+                     NPEIQYTSNYNKSVNVDFTVDTNGVYTEPRPIGTRYLTRNL*"
+     variation       2429
+                     /locus_tag="AAV2gp05"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="ta"
+     gene            2614..4410
+                     /locus_tag="AAV2gp06"
+                     /db_xref="GeneID:4192015"
+     CDS             2614..4410
+                     /locus_tag="AAV2gp06"
+                     /codon_start=1
+                     /transl_except=(pos:2614..2616,aa:Met)
+                     /product="major coat protein VP2"
+                     /protein_id="YP_680427.1"
+                     /db_xref="GeneID:4192015"
+                     /translation="TAPGKKRPVEQSPQEPDSSSGIGKSGQQPARKRLNFGQTGDSESV
+                     PDPQPLGQPPAAPSGLGSTTMASGGGAPMADNNEGADGVGNSSGNWHCDSQWLGDRVIT
+                     TSTRTWALPTYNNHLYKQISSQSGASNDNHYFGYSTPWGYFDFNRFHCHFSPRDWQRLI
+                     NNNWGFRPKRLSFKLFNIQVKEVTQNDGTTTIANNLTSTVQVFTDSEYQLPYVLGSAHQ
+                     GCLPPFPADVFMVPQYGYLTLNNGSQAVGRSSFYCLEYFPSQMLRTGNNFQFSYTFEDV
+                     PFHSSYAHSQSLDRLMNPLIDQYLYYLNRTNTPSGTTTQSRLLFSQAGANGIPVQAKNW
+                     LPGPCYRQQRLSKTANDNNNSNFPWTAATKYHLNGRDSLVNPGPAMASHKDDEEKFFPM
+                     HGNLIFGKEGTKATNADLENVMITDEEEIRTTNPVATEQYGTVANNFQSGKTQAATGTV
+                     NTQGALPGMVWQDRDVYLQGPIWAKIPHTDGHFHPSPLMGGFGLKHPPPQIMIKNTPVP
+                     ANPPTTFSAAKFASFITQYSTGQVSVEIEWELQKENSKRWNPEIQYTSNYNKSVNVDFT
+                     VDTNGVYTEPRPIGTRYLTRNL*"
+     CDS             2729..3343
+                     /locus_tag="AAV2gp06"
+                     /codon_start=1
+                     /product="assembly activating protein AAP"
+                     /protein_id="YP_004030758.1"
+                     /db_xref="GeneID:4192015"
+                     /translation="LETQSQSLTLNLSDNHQQPPLVWDLLQWLQAVAHQWQTITRVPME
+                     WVIPQEIGIAIPNGWATESSPPAPEPGPCPPTTTTSTSKSPANQEPQTTTTTLATAPPG
+                     GILTSTDSTATSHHVTGSDSSTTTGDSDPRDSASSSSTSKSKRSRRMTARRRLPITLPA
+                     RFRCLRTRSTSSRTSSARRTKAASRRSQRTSSWSLSMDTSP*"
+     gene            2809..4410
+                     /locus_tag="AAV2gp07"
+                     /db_xref="GeneID:4192016"
+     CDS             2809..4410
+                     /locus_tag="AAV2gp07"
+                     /codon_start=1
+                     /product="major coat protein VP3"
+                     /protein_id="YP_680428.1"
+                     /db_xref="GeneID:4192016"
+                     /translation="MASGGGAPMADNNEGADGVGNSSGNWHCDSQWLGDRVITTSTRTW
+                     ALPTYNNHLYKQISSQSGASNDNHYFGYSTPWGYFDFNRFHCHFSPRDWQRLINNNWGF
+                     RPKRLSFKLFNIQVKEVTQNDGTTTIANNLTSTVQVFTDSEYQLPYVLGSAHQGCLPPF
+                     PADVFMVPQYGYLTLNNGSQAVGRSSFYCLEYFPSQMLRTGNNFQFSYTFEDVPFHSSY
+                     AHSQSLDRLMNPLIDQYLYYLNRTNTPSGTTTQSRLLFSQAGANGIPVQAKNWLPGPCY
+                     RQQRLSKTANDNNNSNFPWTAATKYHLNGRDSLVNPGPAMASHKDDEEKFFPMHGNLIF
+                     GKEGTKATNADLENVMITDEEEIRTTNPVATEQYGTVANNFQSGKTQAATGTVNTQGAL
+                     PGMVWQDRDVYLQGPIWAKIPHTDGHFHPSPLMGGFGLKHPPPQIMIKNTPVPANPPTT
+                     FSAAKFASFITQYSTGQVSVEIEWELQKENSKRWNPEIQYTSNYNKSVNVDFTVDTNGV
+                     YTEPRPIGTRYLTRNL*"
+     variation       2877
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="c"
+     variation       3759..3765
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="g"
+     variation       3859
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="a"
+     variation       3898
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace=""
+     variation       3900..3902
+                     /locus_tag="AAV2gp07"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="gaac"
+     gene            3929..4396
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /db_xref="GeneID:22318903"
+     CDS             3929..4396
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="X has a significant effect on autonomous AAV DNA
+                     replication in differentiating normal human skin cells. X
+                     also has an effect on full length AAV2 genomes as well as
+                     recombinant (r) DNA replication and virion production."
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="YP_009110690.1"
+                     /db_xref="GeneID:22318903"
+                     /translation="MELWQITSRAAKHKQLPELSTPKERYLAWCGKIETCTCRDPFGPR
+                     FLTRMDTFILLL*WEALD*NTRLLRS*SKTLPFQPILRQPSVRPSLLLSSHSTPPDRSA
+                     WRLSGSCRRKTANAGIPRFSTLPTTTNLLMWTLLWTLMVCIQSLAPLAPDTS"
+     variation       4232..4233
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="acg"
+     variation       4329..4330
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="tcg"
+     variation       4336
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace=""
+     variation       4341
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="c"
+     variation       4347
+                     /gene="X gene"
+                     /locus_tag="AAV2gp08"
+                     /note="compared to sequence of GenBank Accession Number
+                     J01901"
+                     /replace="t"
+     repeat_region   4535..4679
+                     /note="inverted terminal repeat"
+                     /rpt_type=inverted
+     misc_feature    4597..4638
+                     /note="flop oriented DNA"
+ORIGIN
+        1 ttggccactc cctctatgcg cgctcgctcg ctcactgggg cctggcgacc aaaggtcgcc
+       61 agacggccgg gctttgcccg gccggcccca gtgagcgagc gagcgcgcag agagggagtg
+      121 gccaactcca tcactagggg ttcctggagg ggtggagtcg tgacgtgaag tacgtcatag
+      181 ggttagggag gtcctgtatt agcagtcacg tgagtgtttt gcgacatttt gcgacaccat
+      241 gtggtcacga ggggtatata agcccgagtg agcaagcagg agctccattt tgacgcgcga
+      301 agtttgaacg agcagcagcc atgccggggt tctacgagat tgtgatgaag gtcccgagcg
+      361 acctggacga gcacctgccg ggcatttctg actcgtttgt gaactgggtg gccgagaagg
+      421 aatgggagct gccgccggat tctgacatgg atctgaatct gattgagcag gcacccctga
+      481 ccgtggccga gaagctgcag cgcgacttcc tggtcgaatg gcgccgcgtg agtaaggccc
+      541 cggaggccct cttctttgtt cagttcgaga agggggagac ctacttccac ctgcacgtgc
+      601 tggtggagac caccggggtc aaatccatgg tggtgggccg cttcctgagt cagattagag
+      661 agaagctggt gcagagcatc taccgcgggg tcgagccgac gctgccgaac tggttcgcgg
+      721 tgaccaagac gcgaaatggc gccggaggcg ggaacaaggt ggtggacgag tgctacatcc
+      781 ccaactacct gctccccaag acccagcccg agctccagtg ggcgtggact aacatggacc
+      841 agtatttaag cgcctgtttg aatctcgcgg agcgtaaacg gctggtggcg cagcatctga
+      901 cgcacgtgtc gcagacgcag gagcagaaca aagagaatca gaaccccaat tctgacgcgc
+      961 cggtgatcag gtcaaaaacc tcagccaggt acatggagct ggtcgggtgg ctggtggacc
+     1021 gggggatcac ctccgagaag cagtggattc aggaggacca ggcctcgtac atctccttca
+     1081 acgccgcctc caactcgcgg tcccagatca aggccgcgct ggacaatgcc ggcaagatca
+     1141 tgagcctgac aaaaaccgct cccgactacc tggtgggcca gcagcccgcg gaggacatta
+     1201 ccaacaatcg gatctaccaa atcctggagc tgaacgggta cgatccccag tacgcggcct
+     1261 ccgtcttcct gggctgggcg cagaaaaagt tcgggaagag gaacaccatc tggctgtttg
+     1321 ggccggccac gaccggtaag accaacatcg cggaagccat cgcccacgcc gtgcccttct
+     1381 acggctgcgt aaactggacc aatgagaact ttcccttcaa cgattgcgtc gacaagatgg
+     1441 tgatctggtg ggaggagggc aagatgacgg ccaaggtcgt ggagtccgcc aaggccattc
+     1501 tgggcggaag caaggtgcgc gtggaccaaa agtgcaagtc ctcggcccag atcgacccca
+     1561 ctcccgtgat cgtcacctcc aacaccaaca tgtgcgccgt gattgacggg aacagcacca
+     1621 ccttcgagca ccagcagccg ctgcaggacc ggatgttcaa atttgaactc acccgccgtc
+     1681 tggagcatga ctttgggaag gtcaccaagc aggaagtcaa agactttttc cggtgggcgt
+     1741 aggatcacgt gactgaggtg gcgcatgagt tctacgtcag aaagggtgga gctaagaaaa
+     1801 gccccgcccc caatgacgcg gatataagcg agcccaaacg ggcgtgcccg tcagttgcgc
+     1861 agccatcgac gtcagacgcg gaagctccgg tggactacgc ggacaggtac caaaacaaat
+     1921 gttctcgtca cgtgggcatg aatctgatgc tgtttccctg caaaacatgc gagagaatga
+     1981 atcagaattc caatgtctgc ttcacgcacg gtgtcagaga ctgtggggag tgcttccccg
+     2041 tgtcagaatc tcaacccgtt tctgtcgtca aaaagaagta tcagaaactg tgtccaattc
+     2101 atcatatcct gggaagggca cccgaggctt gttcggcctg cgatctggcc aatgtggact
+     2161 tggatgactg tgtttctgag caataaatga cttaaaccag gtatggctgc cgatggttat
+     2221 cttccagatt ggctcgagga caacctctct gaaggcattc gtgagtggtg ggctctgaaa
+     2281 cctggagccc caccaccaaa gcccacacaa caacatcagg acaacggtcg gggtcttgtg
+     2341 cttccgggtt acaaatacct cggacccggc aacggactcg acaaggggga gccggtcaac
+     2401 gcggcggacg cggcggccct cgagcacgac aaggcctacg accagcagct caaggccggt
+     2461 gacaacccgt acctcaagta caaccacgcc gacgccgagt ttcaggagcg tcttcaagaa
+     2521 gatacgtctt ttgggggcaa cctcggacga gcagtcttcc aggccaaaaa gagggttctt
+     2581 gaacctctgg gtctggttga ggaagcagct aagacggctc ctggaaagaa gaggccggta
+     2641 gagcagtctc ctcaggagcc ggactcctcc tcgggcatcg gcaaatcggg ccagcagcct
+     2701 gccagaaaaa gactaaattt tggtcagact ggagactcag agtcagtccc tgaccctcaa
+     2761 cctctcggac aaccaccagc agccccctct ggtttgggat ctactacaat ggcttcaggc
+     2821 ggtggcgcac caatggcaga caataacgag ggtgccgatg gagtgggtaa ttcctcagga
+     2881 aattggcatt gcgattccca atggctgggc gacagagtca tcaccaccag cacccgaacc
+     2941 tgggccctgc ccacctacaa caaccacctc tacaagcaaa tctccagcca atcaggagcc
+     3001 tcaaacgaca accactactt tggctacagc accccctggg ggtattttga cttcaacaga
+     3061 ttccactgcc acttctcacc acgtgactgg cagcgactca tcaacaacaa ctggggattc
+     3121 cgacccaaga gactcagctt caagctcttc aacatccaag tcaaagaggt cacgcagaat
+     3181 gacggcacga cgacgattgc caataacctt accagcacgg ttcaggtgtt tacggactcg
+     3241 gagtaccagc tcccgtacgt cctcggctcg gcgcaccaag gctgcctccc gccgttccca
+     3301 gcggacgtct tcatggtccc tcagtatgga tacctcaccc tgaacaacgg gagtcaggcg
+     3361 gtaggacgct cttcctttta ctgcctggag tactttcctt ctcagatgct gagaactgga
+     3421 aacaactttc agttcagcta cacctttgag gacgtgcctt tccacagcag ctacgctcac
+     3481 agccagagtc tggatcggct gatgaatcct cttatcgacc agtacctgta ttacctgaac
+     3541 agaacaaaca ctcccagtgg aaccaccacg cagtcacggc tgctgtttag ccaagctgga
+     3601 gccaatggca ttcccgtcca ggctaaaaac tggctgcctg gaccttgcta caggcagcag
+     3661 cgactctcaa agacagctaa cgacaacaac aacagcaact ttccctggac tgcggccacc
+     3721 aaatatcatc tcaatggccg agactcgctg gtgaatccag gccctgctat ggccagtcac
+     3781 aaggacgatg aagaaaagtt tttccctatg cacggaaacc tgatatttgg aaaagaaggg
+     3841 acaaaggcaa caaatgcgga cttggaaaat gtaatgatta cagatgaaga agaaattcgc
+     3901 accaccaatc ccgtggcaac ggagcagtat ggaactgtgg caaataactt ccagagcggc
+     3961 aaaacacaag cagctaccgg aactgtcaac acccaaggag cgttacctgg catggtgtgg
+     4021 caagatcgag acgtgtacct gcagggaccc atttgggcca agattcctca cacggatgga
+     4081 cactttcatc cttctcctct gatgggaggc tttggactga aacacccgcc tcctcagatc
+     4141 atgatcaaaa acactcccgt tccagccaat cctccgacaa ccttcagtgc ggccaagttt
+     4201 gcttctttca tcacacagta ctccaccgga caggtcagcg tggagattga gtgggagctg
+     4261 cagaaggaaa acagcaaacg ctggaatccc gagattcagt acacttccaa ctacaacaaa
+     4321 tctgttaatg tggactttac tgtggacact aatggtgtgt atacagagcc tcgccccatt
+     4381 ggcacccgat acctcactcg taatctgtaa ttgcttgtta atcaataaac cgtttaattc
+     4441 gtttcagttg aactttggtc tctgcgtact tctttcttat cttgtttcca tggctacgta
+     4501 gataagcagc atggctggtt aatcattaac tccaaggaac ccctagtgat ggagttggcc
+     4561 actccctcta tgcgcgctcg ctcgctcact ggggccgggc gaccaaaggt cgcccgacgg
+     4621 ccgagctttg ctcggccggc cccagtgagc gagcgagcgc gcatagaggg agtggccaa
+//

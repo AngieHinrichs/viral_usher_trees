@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_039199.1, taxonomy ID 3048148
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_039199.1'
-refseq_assembly = 'GCF_002815375.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_039199.1'
+#refseq_assembly = 'GCF_002815375.1'
+ref_fasta = './trees/Human_metapneumovirus/treetime_rerooted_NC_039199.1.fa'
+ref_gbff = './trees/Human_metapneumovirus/treetime_rerooted_NC_039199.1.gbff'
 taxonomy_id = '3048148'
 nextclade_dataset = 'nextstrain/hmpv/all-clades/NC_039199'
 nextclade_clade_columns = 'clade,legacy_clade'

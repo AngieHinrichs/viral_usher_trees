@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001351.1, taxonomy ID 3429801
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001351.1'
-refseq_assembly = 'GCF_000847785.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001351.1'
+#refseq_assembly = 'GCF_000847785.1'
+ref_fasta = './trees/Hop_stunt_viroid/outgroup_rerooted_NC_001351.1.fa'
+ref_gbff = './trees/Hop_stunt_viroid/outgroup_rerooted_NC_001351.1.gbff'
 taxonomy_id = '3429801'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

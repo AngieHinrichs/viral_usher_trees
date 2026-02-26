@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_039223.1, taxonomy ID 3051375
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_039223.1'
-refseq_assembly = 'GCF_002834085.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_039223.1'
+#refseq_assembly = 'GCF_002834085.1'
+ref_fasta = './trees/Avian_orthoavulavirus_1_JSD0812/treetime_rerooted_NC_039223.1.fa'
+ref_gbff = './trees/Avian_orthoavulavirus_1_JSD0812/treetime_rerooted_NC_039223.1.gbff'
 taxonomy_id = '3051375'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

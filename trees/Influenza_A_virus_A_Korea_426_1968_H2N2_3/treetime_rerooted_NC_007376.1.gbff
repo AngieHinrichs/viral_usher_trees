@@ -1,0 +1,121 @@
+LOCUS       rerooted_NC_007376.1      2233 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007376.1.
+ACCESSION   rerooted_NC_007376.1
+VERSION     rerooted_NC_007376.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Korea/426/1968(H2N2))
+  ORGANISM  Influenza A virus (A/Korea/426/1968(H2N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Okazaki,K., Kawaoka,Y. and Webster,R.G.
+  TITLE     Evolutionary pathways of the PA genes of influenza A viruses
+  JOURNAL   Virology 172 (2), 601-608 (1989)
+   PUBMED   2800339
+REFERENCE   2  (bases 1 to 2233)
+  AUTHORS   Okazaki,K., Kawaoka,Y. and Webster,R.G.
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2233)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from M26079.
+            [2]  sites; for [1].
+            Draft entry and computer readable copy of sequence [1] kindly
+            submitted by K.Okazaki, 18-JUL-1989.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2233
+                     /organism="Influenza A virus (A/Korea/426/1968(H2N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Korea/426/1968"
+                     /serotype="H2N2"
+                     /db_xref="taxon:488241"
+                     /segment="3"
+                     /geo_loc_name="South Korea"
+                     /collection_date="1968"
+     gene            25..2175
+                     /gene="PA"
+                     /locus_tag="FLUAVH2N2_s3p1"
+                     /db_xref="GeneID:3655106"
+     CDS             25..2175
+                     /gene="PA"
+                     /locus_tag="FLUAVH2N2_s3p1"
+                     /codon_start=1
+                     /product="polymerase PA"
+                     /protein_id="YP_308852.1"
+                     /db_xref="GeneID:3655106"
+                     /translation="MEDFVRQCFNPMIVELAEKAMKEYGEDPKIETNKFAAICTHLEVC
+                     FMYSDFHFIDERGESIIVESGDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGVEKPK
+                     FLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSEKTHIHIFSFTGEEMATKADYTL
+                     DEESRARIKTRLFTIRQEMASRGLWDSFRQSERGEETIEERFEITGTMRRLADQSLPPN
+                     FSSLENFRAYVDGFEPNGCIEGKLSQMSKEVNARIEPFLKTTPRPLRLPDGPPCSQRSK
+                     FLLMDALKLSIEDPSHEGEGIPLYDAIKCMKTFFGWKEPNIVKPHEKGINPNYLLAWKQ
+                     VLAELQDIENEEKIPKTKNMKKTSQLKWALGENMAPEKVDFEDCKDVSDLKQYDSDEPE
+                     QRSLASWIQSEFNKACELTDSSWIELDEIGEDVAPIEHIASMRRNYFTAEVSHCRATEY
+                     IMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGRSHLRNDTDV
+                     VNFVSMEFSLTDPRLEPHKWEKYCVLEIGDMLLRTAIGQVSRPMFLYVRTNGTSKIKMK
+                     WGMEMRRCLLQSLQQIESMIEAESSVKEKDMTKEFFENKSETWPIGESPKGVEEGSIGK
+                     VCRTLLAKSVFNSLYASPQLEGFSAESRKLLLIVQALRDNLEPGTFDLGGLYEAIEECL
+                     INDPWVLLNASWFNSFLTHALK*"
+     gene            25..784
+                     /gene="PA-X"
+                     /locus_tag="FLUAVH2N2_s3p2"
+                     /db_xref="GeneID:13229461"
+     CDS             join(25..597,599..784)
+                     /gene="PA-X"
+                     /locus_tag="FLUAVH2N2_s3p2"
+                     /ribosomal_slippage=""
+                     /codon_start=1
+                     /product="PA-X protein"
+                     /protein_id="YP_006495803.1"
+                     /db_xref="GeneID:13229461"
+                     /translation="MEDFVRQCFNPMIVELAEKAMKEYGEDLKIETNKFAAICTHLEVC
+                     FMYSDFHFINEQGESIMVELDDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGAEKPK
+                     FLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSENTHIHIFSFTGEEMATKADYTL
+                     DEESRARIKTRLFTIRQEMANRGLWDSFVSPKEAKKQLKKDLKSQGQCAGLPTKVSRRT
+                     SPALRILEPMWMDSNRTATLRASFLKCPKK"
+ORIGIN
+        1 agcgaaagca ggtactgatc caaaatggaa gactttgtgc gacaatgctt caatccaatg
+       61 attgtcgagc ttgcggaaaa ggcaatgaaa gaatatggag aggacccgaa aatcgaaaca
+      121 aacaaatttg ctgcaatatg cactcacttg gaagtgtgct tcatgtattc agatttccac
+      181 ttcatcgatg agcgaggtga atcaataatc gtagaatctg gtgatccaaa tgcactcttg
+      241 aagcacagat ttgaaataat tgaaggaaga gatcgcacaa tggcatggac agtggtaaac
+      301 agcatttgca acactacagg agttgagaaa cccaagtttc tcccagatct gtatgattat
+      361 aaggagaaca gattcattga aattggagtg acaaggagag aagtccacat atactacctg
+      421 gaaaaggcca ataaaataaa atctgagaag acacacatcc acatcttctc attcacagga
+      481 gaagaaatgg ccacaaaagc tgactacact cttgatgaag aaagtagagc cagaatcaaa
+      541 accagactat tcaccataag acaagaaatg gccagtagag gcctctggga ttcctttcgt
+      601 cagtccgaga gaggcgaaga gacaattgaa gaaagatttg aaatcacagg aacaatgcgc
+      661 aggcttgccg accaaagtct cccaccgaac ttctccagcc ttgaaaactt tagagcctat
+      721 gtggatggat tcgaaccgaa cggctgcatt gagggcaagc tttctcaaat gtccaaagaa
+      781 gtaaatgcaa gaattgaacc atttttgaag acaacaccac gcccactcag gctaccagat
+      841 gggcctccct gttctcagcg gtccaaattc ctgctgatgg atgctctgaa attaagcatt
+      901 gaagacccaa gccatgaagg agagggaata ccgctatatg atgcaatcaa atgcatgaaa
+      961 acattctttg gctggaaaga gcccaatatt gttaaaccac atgaaaaggg cataaatcca
+     1021 aattatctct tggcttggaa gcaagtacta gcagaactac aggatattga gaatgaggag
+     1081 aaaattccaa agactaaaaa tatgaagaaa acaagccaat taaagtgggc acttggtgag
+     1141 aatatggcac cagaaaaagt ggattttgag gactgcaaag atgtcagcga tctgaagcaa
+     1201 tatgacagtg atgaaccaga acagagatcg cttgcaagtt ggattcaaag tgagttcaac
+     1261 aaggcatgtg aactgaccga ttcaagctgg atagagctcg atgaaattgg ggaagatgtt
+     1321 gccccaattg agcacattgc aagcatgagg agaaattatt tcacagcgga ggtgtctcat
+     1381 tgcagagcaa cagaatacat aatgaaggga gtatacatca acactgcctt gctcaatgca
+     1441 tcctgtgcag caatggatga tttccaattg attccaatga taagcaagtg cagaaccaaa
+     1501 gaaggaagac gaaagacaaa tttgtatgga ttcatcataa aaggaagatc ccacttaagg
+     1561 aatgacactg atgtggtaaa ttttgtgagc atggagtttt ctctcactga cccaagactt
+     1621 gaaccacaca aatgggagaa gtactgtgtt cttgaaatag gagacatgct tctaagaact
+     1681 gcaataggcc aagtatcaag acccatgttc ctgtatgtga gaacaaatgg aacctccaaa
+     1741 atcaaaatga aatggggaat ggaaatgaga cgctgtcttc ttcagtccct tcaacaaatt
+     1801 gagagcatga ttgaagctga gtcctctgtc aaagagaaag acatgaccaa agaattcttt
+     1861 gaaaacaaat cagagacatg gcccattgga gagtctccca aaggagtgga agaaggctcc
+     1921 attgggaaag tctgcaggac tttgttagca aagtctgtat tcaacagttt gtatgcatct
+     1981 ccacaacttg aaggattttc agctgaatca agaaaactgc ttcttattgt tcaggctctt
+     2041 agggacaacc tggaacctgg aacctttgat cttggggggc tatatgaagc aattgaggag
+     2101 tgcctgatta atgatccctg ggttttgctt aatgcatctt ggttcaactc cttcctcaca
+     2161 catgcactga aatagttgtg gcaatgctac tatttgctat ccatactgtc caaaaaagta
+     2221 ccttgtttct act
+//

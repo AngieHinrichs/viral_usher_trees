@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_000855.1, taxonomy ID 1980916
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_000855.1'
-refseq_assembly = 'GCF_000856505.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_000855.1'
+#refseq_assembly = 'GCF_000856505.1'
+ref_fasta = './trees/Viral_hemorrhagic_septicemia_virus_Fil3/treetime_rerooted_NC_000855.1.fa'
+ref_gbff = './trees/Viral_hemorrhagic_septicemia_virus_Fil3/treetime_rerooted_NC_000855.1.gbff'
 taxonomy_id = '1980916'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

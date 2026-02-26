@@ -1,0 +1,75 @@
+LOCUS       rerooted_NC_007571.1      1063 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007571.1.
+ACCESSION   rerooted_NC_007571.1
+VERSION     rerooted_NC_007571.1
+KEYWORDS    RefSeq; outer capsid protein VP7; VP7 gene.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus; Rotavirus
+            tritogastroenteritidis.
+REFERENCE   1
+  AUTHORS   Grice,A.S., Lambden,P.R., Caul,E.O. and Clarke,I.N.
+  TITLE     Sequence conservation of the major outer capsid glycoprotein of
+            human group C rotaviruses
+  JOURNAL   J. Med. Virol. 44 (2), 166-171 (1994)
+   PUBMED   7852957
+REFERENCE   2  (bases 1 to 1063)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1063)
+  AUTHORS   Clarke,I.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JAN-1994) I.N. Clarke, Molecular Microbiology,
+            University Medical School, Southampton General Hospital, Southampton
+            S09 4XY, UK
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X77257.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1063
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /isolate="Bristol"
+                     /db_xref="taxon:36427"
+                     /segment="8"
+     gene            49..1047
+                     /gene="VP7"
+                     /locus_tag="HRCV_s8gp1"
+                     /db_xref="GeneID:3773131"
+     CDS             49..1047
+                     /gene="VP7"
+                     /locus_tag="HRCV_s8gp1"
+                     /codon_start=1
+                     /product="outer capsid protein"
+                     /protein_id="YP_392513.1"
+                     /db_xref="UniProtKB/TrEMBL:Q89865"
+                     /db_xref="GeneID:3773131"
+                     /translation="MVCTTLYTVCAILCILFIYILLFRKMFHLITDTLIVILIISNCVE
+                     WSQGQMFIDDIYYNGNVETIVNATNPFNVESLCIYFPNAVVGSQGPGKTDGYLNDGNYA
+                     QTIATLFETKGFPKGSIILKTYTKTSDFINSVEMTCSYNIVIIPDSPNNSEAIEQIAEW
+                     ILNVWRCDDMNLDIYTYEQIGINNLWAAFGSDCDISVCPLDTTMNGIGCSPASTETYEV
+                     VSNDTQLALINVVDNVRHRIQMNTAQCKLKNCVKGEARLNTALIRISTSSSFDNSLSPL
+                     NNGQTTRSFKINAKKWWTIFYTIIDYINTIVQTMTPRHRAIYPEGWMLRYA*"
+ORIGIN
+        1 ggcatttaaa aaagaagaag ctgtctgaca aactggtctt ctttttaaat ggtttgtaca
+       61 acattgtaca ctgtttgcgc aattctctgc attcttttca tttatatatt attatttaga
+      121 aaaatgttcc acctaataac tgatacttta attgtgatac ttattatatc taattgtgtt
+      181 gaatggtcac aaggtcaaat gtttattgat gatatatatt ataatggaaa tgttgaaact
+      241 attgtaaatg ctactaatcc ttttaatgtt gaatctttat gtatttattt tccaaatgca
+      301 gttgtaggat cacaaggacc aggtaaaact gatggatatt taaatgatgg taattatgct
+      361 cagactattg caactttatt tgaaacaaaa ggatttccaa aaggttcaat aatacttaaa
+      421 acatatacaa agacttcaga ttttataaat tcagtagaaa tgacatgttc atataatata
+      481 gttataattc ctgatagtcc aaataattca gaagctattg aacaaatagc agaatggatt
+      541 ttaaatgttt ggagatgtga tgatatgaat ttggatattt atacttatga acaaattgga
+      601 ataaataatt tatgggctgc atttggtagt gattgtgata tatctgtttg tccattagat
+      661 actacaatga atggaattgg atgttcacca gctagtacag aaacatatga agtggtatca
+      721 aatgatactc aattggcatt aattaatgtt gtggataatg ttagacatag aattcagatg
+      781 aatactgctc aatgtaaatt aaaaaattgt gttaaaggtg aagctcgatt aaatactgca
+      841 ctaataagaa tttcaacatc atcaagtttt gataattcat tatcaccatt aaataatggt
+      901 caaactacac gatcatttaa aataaatgca aaaaaatggt ggactatatt ttatactata
+      961 attgattata ttaatacaat tgtacaaaca atgactccta gacatcgggc aatttatcca
+     1021 gaagggtgga tgctgagata tgcgtaaaca agatcatgtg gct
+//

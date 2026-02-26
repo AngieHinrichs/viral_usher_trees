@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001961.1, taxonomy ID 2499685
 
-viral_usher_version = '0.8.0'
-refseq_acc = 'NC_001961.1'
-refseq_assembly = 'GCF_000862745.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001961.1'
+#refseq_assembly = 'GCF_000862745.1'
+ref_fasta = './trees/Porcine_reproductive_and_respiratory_syndrome_virus/treetime_rerooted_NC_001961.1.fa'
+ref_gbff = './trees/Porcine_reproductive_and_respiratory_syndrome_virus/treetime_rerooted_NC_001961.1.gbff'
 taxonomy_id = '2499685'
 nextclade_dataset = 'community/isuvdl/mazeller/prrsv1/orf5/yimim2025'
 nextclade_clade_columns = 'clade'

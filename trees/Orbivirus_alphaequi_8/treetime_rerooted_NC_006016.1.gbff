@@ -1,0 +1,71 @@
+LOCUS       rerooted_NC_006016.1      1166 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006016.1.
+ACCESSION   rerooted_NC_006016.1
+VERSION     rerooted_NC_006016.1
+KEYWORDS    RefSeq.
+SOURCE      Orbivirus alphaequi
+  ORGANISM  Orbivirus alphaequi
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus.
+REFERENCE   1  (bases 1 to 1166)
+  AUTHORS   van Staden,V., Theron,J., Greyling,B.J., Huismans,H. and Nel,L.H.
+  TITLE     A comparison of the nucleotide sequences of cognate NS2 genes of
+            three different orbiviruses
+  JOURNAL   Virology 185 (1), 500-504 (1991)
+   PUBMED   1656603
+REFERENCE   2  (bases 1 to 1166)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from M69090.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1166
+                     /organism="Orbivirus alphaequi"
+                     /mol_type="genomic RNA"
+                     /strain="serotype 9"
+                     /db_xref="taxon:40050"
+                     /segment="8"
+     gene            23..1120
+                     /gene="NS2"
+                     /locus_tag="AHSV_s8gp1"
+                     /db_xref="GeneID:2930876"
+     CDS             23..1120
+                     /gene="NS2"
+                     /locus_tag="AHSV_s8gp1"
+                     /note="ssRNA-binding protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_052961.1"
+                     /db_xref="GeneID:2930876"
+                     /translation="MAEVRKQQQFTRSVCVLDLGQKTYCGKVVRAVNGVYYTIKIGRTV
+                     QCGVTPTPIPKSYVLEIRECGAYRIQDGTDVLSLMITESGIEVTQNRWEEWSFEALTPV
+                     PMAVAVNVGRGSFDTEIKYVRGSGAVPPYTKNGMDRRAMPSLPGITTLDVGVRDLRLKM
+                     KENREAEREKMERALSGGLDMGSCRMYGGGRNDVREITLDEAGPSRTPRKLSVQSNESR
+                     SDDVARRHAELVEMERLRMMKNEPVRTESMWCQSDSDDQSDEDHEVGSTEPENYITEEY
+                     TRRLNEVKTKYSKELSSLAMRVPKNEGNCGKPIFSKKCKWENVPIYNYDEASGNYRFVS
+                     VGSATHYHCCANDLSYMILPAGGSG*"
+ORIGIN
+        1 gtttaaaaat ccgttcgtca tcatggcaga ggtcagaaag caacaacaat tcacgcgatc
+       61 agtttgtgtt cttgatttag gacaaaagac ttattgcggt aaagtggtta gagcagtaaa
+      121 tggagtgtat tacaccatta aaattgggag aactgtacaa tgtggggtta cgccaacccc
+      181 gattccaaaa agttatgttt tggagattcg tgaatgcgga gcttaccgta ttcaagatgg
+      241 gacggatgtt ttaagcttaa tgattactga gagtggaatt gaggtaacgc aaaaccgatg
+      301 ggaggagtgg agttttgaag cgttaacacc agtaccgatg gctgtggcgg tgaatgtagg
+      361 gagaggctcg tttgacactg agattaaata tgtgagagga agcggtgcgg ttccacctta
+      421 tacgaagaat ggaatggatc gaagagcgat gccttcttta ccaggaataa caactttgga
+      481 tgttggagtt agagatttgc gtttaaagat gaaggagaac agggaggcag aaagggagaa
+      541 gatggaacga gccctaagtg gtgggctcga tatgggaagc tgtagaatgt atgggggagg
+      601 aagaaatgat gtgcgtgaga tcaccttgga tgaggccgga ccatcacgta caccaaggaa
+      661 actttctgtt cagagcaatg aaagtcgttc agatgatgtg gcacgaagac atgctgagtt
+      721 ggtggagatg gagcgattaa gaatgatgaa gaatgaacca gtacgtacag agagtatgtg
+      781 gtgtcaaagt gatagtgatg atcaatctga tgaggatcac gaggttggga gtacagagcc
+      841 agaaaattat attactgagg agtatacacg taggctgaac gaggtaaaga cgaaatattc
+      901 aaaggaatta tcttcattgg cgatgagagt tccaaagaat gagggcaatt gtggaaaacc
+      961 gattttttct aaaaagtgta aatgggagaa tgttccgatc tacaattacg atgaagctag
+     1021 cggaaactat cgttttgtgt cagtgggaag tgctacacat taccactgct gtgctaatga
+     1081 cttgagttac atgattctcc cagcaggggg gagcggttga tcctcctggg tgtagctggc
+     1141 gcatgtaacc gcggatttca acatac
+//

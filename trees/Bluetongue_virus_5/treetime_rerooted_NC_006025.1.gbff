@@ -1,0 +1,93 @@
+LOCUS       rerooted_NC_006025.1      1769 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006025.1.
+ACCESSION   rerooted_NC_006025.1
+VERSION     rerooted_NC_006025.1
+KEYWORDS    RefSeq; non-structural NS1.
+SOURCE      Bluetongue virus
+  ORGANISM  Bluetongue virus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus
+            caerulinguae.
+REFERENCE   1  (bases 1 to 1769)
+  AUTHORS   Lee,J. and Roy,P.
+  TITLE     Complete sequence of the NS1 gene (M6 RNA) of US bluetongue virus
+            serotype 10
+  JOURNAL   Nucleic Acids Res. 15 (17), 7207 (1987)
+   PUBMED   2821505
+REFERENCE   2  (bases 1 to 1769)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1769)
+  AUTHORS   Roy,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-1987) P. Roy, University of Alabama at Birmingham,
+            Department of Environmental Health, University Station, Birmingham,
+            Alabama 35294, U.S.A
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from Y00422.
+            Data kindly reviewed (05-OCT-1987) by Marshall J.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1769
+                     /organism="Bluetongue virus"
+                     /mol_type="genomic RNA"
+                     /serotype="10"
+                     /db_xref="taxon:40051"
+                     /segment="5"
+                     /note="segment M6"
+     gene            1..1769
+                     /locus_tag="BTVs5gp1"
+                     /db_xref="GeneID:2943158"
+     CDS             35..1693
+                     /locus_tag="BTVs5gp1"
+                     /note="non-structural NS1"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="YP_052970.1"
+                     /db_xref="InterPro:IPR002630"
+                     /db_xref="UniProtKB/Swiss-Prot:P07131"
+                     /db_xref="GeneID:2943158"
+                     /translation="MERFLRKYNISGDYANATRTFLAISPQWTCSHLKRNCLFNGMCAK
+                     QNFERAMIAATDAEEPPKAYKLVELAKEAMYDRETVWLQCFKSFSQPYEEDVEGKIKRC
+                     GAQLLEDYRKSGMMDEAVKQSALINSERVRLDDSLSAMPYIYVPIREGQIVNPTFISRY
+                     RQIAYYFYNPDAADDWIDPNLFGIRGQHNQIKREVERQINTCPYTGYRGRVFQVMFLPI
+                     QLINFLRMDDFAKHFNRYASMAIQQYLRVGYIEEIRYVQQLFGKVPTGEFPLHQMMLMR
+                     RDFPTRDRNIVEARVKRSGDENWQSWLLPMIIVREGLDHQEQWEWLLEYMDRKHTCQLC
+                     YLKHSKQIQTCRVIDVRASELTGCSPFRIVKIEEHVGNDSVFKTKLIRDEQIGRIGDHY
+                     YTTNCYTGAEALITTAIHIQRWIRGCGIWNDEGWQEGVFMLGRVLLRWELTKAQRSAML
+                     RLFCFVCYGYAPRADGTIPDWNNLGSFLDIILKGPELSEDEDERAYATMFEMVRCIITL
+                     CYAEKVHFAGFAAPACESGEVINLAARMSQMWMEY*"
+ORIGIN
+        1 gttaaaaaag ttctctagtt ggcaaccacc aaacatggag cgctttttga gaaaatacaa
+       61 catcagtgga gattatgcta atgccacgag aacttttttg gctatatcac cacaatggac
+      121 ttgcagtcac ttaaaaagga attgtttatt caatgggatg tgtgcaaaac aaaattttga
+      181 gagagcaatg attgcagcaa ctgatgcgga agaaccgccg aaagcataca aactggttga
+      241 attggctaaa gaggcaatgt atgatcgaga aactgtttgg ctacaatgtt ttaaaagctt
+      301 ttctcagcca tatgaggagg atgtcgaagg caagataaag cggtgcggag cacagctgct
+      361 tgaagattac cgcaaaagtg gaatgatgga tgaggccgtg aaacaatctg cattgattaa
+      421 ttcggagaga gttagattag atgattcgct ttcagcaatg ccatatatct atgtaccaat
+      481 cagagaaggt caaattgtga atccaacgtt tatttcaaga tatcgccaga ttgcgtatta
+      541 tttctataac cctgatgcag ctgacgattg gatagatcca aatttatttg ggattagagg
+      601 acagcataat cagattaaac gtgaagttga gagacaaatc aacacatgtc cttatactgg
+      661 atacagaggc agagtttttc aagtgatgtt tttaccaatt cagctgataa atttcttaag
+      721 aatggatgat tttgcaaagc attttaatag gtatgcttcg atggcgatac agcaatattt
+      781 aagagttgga tatatagaag agattagata tgtgcagcaa ctgttcggaa aggttccaac
+      841 tggtgaattt ccattacatc agatgatgct aatgagacgt gatttcccaa cgcgcgatcg
+      901 caacattgtg gaagcgcgtg tgaagagatc gggtgatgaa aattggcaaa gctggctatt
+      961 accaatgatt attgttcgtg aaggacttga tcatcaggag cagtgggaat ggcttctaga
+     1021 atatatggat agaaaacaca catgtcagct atgctacttg aaacattcaa agcagataca
+     1081 aacatgtaga gtaattgatg tacgggcatc agagttgact ggatgttcac ccttcaggat
+     1141 cgtaaagatc gaggagcatg tgggaaatga ttcagtcttt aaaacgaaat taattcgtga
+     1201 tgaacaaatc ggcagaattg gagatcatta ctatacaaca aattgttaca ctggagctga
+     1261 agcattgatt acgacagcga tacacatcca acgatggatt agagggtgtg gcatctggaa
+     1321 tgatgaagga tggcaggagg gagttttcat gctggggcgt gtgctattga gatgggagtt
+     1381 aacgaaggcg caacgcagcg ctatgcttag acttttctgc tttgtatgtt atggatatgc
+     1441 accacgtgca gatggaacga tacctgattg gaataatctt ggaagttttt tagatatcat
+     1501 tttgaaagga ccggagctga gcgaagatga ggatgaaaga gcttatgcta caatgtttga
+     1561 aatggttcga tgtattatca ctttgtgtta tgcagagaag gttcacttcg ctgggtttgc
+     1621 cgcgccagcg tgtgaaagtg gggaagtaat caatctggct gcacgtatgt cgcagatgtg
+     1681 gatggaatat tagttactga cttttagttt tttattcttc ttttcatttc tattttctct
+     1741 tagcactcta ctagaacttt tcaacttac
+//

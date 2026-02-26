@@ -1,0 +1,125 @@
+LOCUS       rerooted_NC_001944.1      1993 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001944.1.
+ACCESSION   rerooted_NC_001944.1
+VERSION     rerooted_NC_001944.1
+KEYWORDS    RefSeq.
+SOURCE      Beak and feather disease virus
+  ORGANISM  Beak and feather disease virus
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Arfiviricetes; Cirlivirales; Circoviridae; Circovirus; Circovirus
+            parrot.
+REFERENCE   1  (bases 1 to 1993)
+  AUTHORS   Niagro,F.D., Forsthoefel,A.N., Lawther,R.P., Kamalanathan,L.,
+            Ritchie,B.W., Latimer,K.S. and Lukert,P.D.
+  TITLE     Beak and feather disease virus and porcine circovirus genomes:
+            intermediates between the geminiviruses and plant circoviruses
+  JOURNAL   Arch. Virol. 143 (9), 1723-1744 (1998)
+   PUBMED   9787657
+REFERENCE   2  (bases 1 to 1993)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1993)
+  AUTHORS   Niagro,F.D., Forsthoefel,A.N., Lawther,R.P., Kamalanathan,L.,
+            Ritchie,B.W., Latimer,K.S. and Lukert,P.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-1998) Clinical Investigation, Dwight D. Eisenhower
+            Army Medical Center, Bldg. 332, Fort Gordon, GA 30905-5650, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF071878.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1993
+                     /organism="Beak and feather disease virus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:77856"
+     stem_loop       join(1975..1993,1..19)
+     gene            <108..1007
+                     /gene="V1"
+                     /locus_tag="BFDVgp1"
+                     /db_xref="GeneID:1449678"
+     CDS             <108..1007
+                     /gene="V1"
+                     /locus_tag="BFDVgp1"
+                     /note="rolling-circle replication protein homolog; Rep
+                     protein; TCT (serine) codon appears to be the translation
+                     initiation codon"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="NP_047275.1"
+                     /db_xref="GeneID:1449678"
+                     /translation="SPEDHTRPGTMPSKEGSGCRRWCFTLNNPTDGEIEYVRTLGPDEF
+                     HYAIVGREKGEQGTPHLQGYFHFKSKKRLSALKKMLPRAHFERAKGSDADNEKYCSKEG
+                     DVILTLGIVARDGHRAFDGAVAAVMSGRKMKEVAREFPDVYVRHGRGLHNLSLLVGSRP
+                     RDFKTEVDVIYGPPGCGKSRWANEQPGTKYYKMRGEWWDGYDGEDIVVLDDFYGWLPYC
+                     EMLRLCDRYPHKVPVKGAFVEFTSKRIIITSNKAPETWYKEDCDPKPLFRRFTRVWWYT
+                     NDQLEQVRADFLAHPINF*"
+     gene            550..1026
+                     /gene="V2"
+                     /locus_tag="BFDVgp2"
+                     /db_xref="GeneID:1449679"
+     CDS             550..1026
+                     /gene="V2"
+                     /locus_tag="BFDVgp2"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_047276.1"
+                     /db_xref="GeneID:1449679"
+                     /translation="MGGACIISRYWLVPAHVISRRRSTSSTGHRGVARVDGPMNSLGLN
+                     IIKCAVNGGMDMMGKISSSWTTFMGGYLIARCSASATVTHIKCQLRAPLWSLPARGSLS
+                     RAIRHPRPGTRRTVTRSHCSGDSLVFGGTPMTSWNKSGLISLPTPSIFDRPGDV*"
+     gene            complement(1240..>1974)
+                     /gene="C1"
+                     /locus_tag="BFDVgp3"
+                     /db_xref="GeneID:1449680"
+     CDS             complement(1240..>1974)
+                     /gene="C1"
+                     /locus_tag="BFDVgp3"
+                     /note="TCT (serine) codon appears to be the translation
+                     initiation codon"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="NP_047277.1"
+                     /db_xref="GeneID:1449680"
+                     /translation="SNCACAIFQIRRRYARPYYRRRHIRRYRRRRRHFRRRRFTTNRIY
+                     TLRLKRQFKFEIEKQTTSTGNIIWNSDYITFALSDFLTNTPNPQTLNFEDYRIKLAKME
+                     MRPTWGHYSIPSEGFGHTAVIQDSRITKFKTTADQTQDPLAPFDGAKKWYLSRGFKRLL
+                     RPKPQITINDLTTANQSAALWLNSARTGWIPLQGGPNAAGAKVKHYGLAFSFPQPEIPI
+                     PYVCMLTLYVQFRQFAPNNPST*"
+ORIGIN
+        1 ttagtattac ccgccgcctg gggcaccggg gcactgcagc cattggctgc agtgccccgg
+       61 tgcccgcccc tagggaggag taaatggcgc cgttaggcgc cggttaatct ccggaggatc
+      121 acactcgccc gggaaccatg ccgtccaagg agggctctgg ctgtcgccgt tggtgtttca
+      181 cccttaacaa ccctacagac ggcgagatcg aatacgtccg tactctcggg cctgacgaat
+      241 tccactatgc catcgttgga cgggaaaagg gcgagcaagg taccccccat ttgcaaggct
+      301 actttcattt taaaagtaag aagcgattga gcgcgcttaa gaaaatgctg ccgcgagctc
+      361 attttgagcg cgctaaaggg agcgatgcgg ataatgagaa gtattgcagt aaagaggggg
+      421 acgtgatact taccctgggc attgtggcga gagacggtca ccgcgctttc gatggagctg
+      481 ttgctgccgt gatgtccgga cgcaaaatga aggaagtcgc gcgagagttc ccagatgtct
+      541 acgtcaggca tgggcggggc ttgcataatc tctcgctatt ggttggttcc cgcccacgtg
+      601 atttcaagac ggaggtcgac gtcatctacg ggccaccggg gtgtggcaag agtagatggg
+      661 ccaatgaaca gcctgggact aaatattata aaatgcgcgg tgaatggtgg gatggatatg
+      721 atggggaaga tatcgtcgtc ttggacgact tttatgggtg gctaccttat tgcgagatgc
+      781 tccgcctctg cgaccgttac ccacataaag tgccagttaa gggcgccttt gtggagttta
+      841 ccagcaagag gatcattatc acgagcaata aggcacccga gacctggtac aaggaggact
+      901 gtgacccgaa gccactgttc cggagattca ctcgtgtttg gtggtacacc aatgaccagt
+      961 tggaacaagt ccgggctgat ttccttgccc accccatcaa tttttgatcg tcccggagat
+     1021 gtttaataaa ggtaggcgtc aggccgaagg cctgatgccg cagggcggga cgccctgccg
+     1081 gagggttcgc agggccgtca ggcccgagaa cccgaccagc ccggagggcc tcgtctgtgt
+     1141 cggggggggg gccccggggg gtccccccga cacgaccatc cgtgtagcgc cgaaggcgcc
+     1201 aataaaaatt cgaaaagcta tttgctgttt gagtctttat taagtgctgg gattgttagg
+     1261 ggcaaactga cggaattgaa catacaaagt gagcatgcat acataaggga tcggtatttc
+     1321 tggctgaggg aagctgaagg caaggccgta gtgcttgact ttcgctcctg ctgcgttggg
+     1381 tcctccttgt agtgggatcc atccggttct ggcgctgttt agccacaatg ctgcagactg
+     1441 gttcgctgtg gtcaggtcgt ttattgttat ttgtggtttc ggtctgagga ggcgtttgaa
+     1501 ccccctgcta agataccatt ttttggcacc gtcgaaaggt gccagtgggt cttgtgtttg
+     1561 gtctgcagta gttttaaatt tagttattct ggagtcttgg attacggccg tgtggccgaa
+     1621 tccttctgaa ggtatggagt agtggcccca tgtgggcctc atttccattt tagctaactt
+     1681 aatccggtag tcttcgaaat tcagtgtttg tgggtttggt gtgtttgtta ggaagtctga
+     1741 caatgcaaag gttatgtagt cagaattcca aattatgttg ccagtactgg tggtttgttt
+     1801 ttcaatttcg aatttgaatt ggcgtttgag tctgagagtg taaattctat tggttgtgaa
+     1861 acggcgtctg cggaagtgtc tacgtcgccg gcggtatcgc ctgatgtgac gtctgcggta
+     1921 gtatgggcgg gcatatcttc gtctaatctg aaatatagcg catgcgcagt tagaggtgcc
+     1981 ccacaggcgg cgg
+//

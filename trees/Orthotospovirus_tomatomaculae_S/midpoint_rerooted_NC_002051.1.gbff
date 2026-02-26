@@ -1,0 +1,162 @@
+LOCUS       rerooted_NC_002051.1      2916 bp    ss-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002051.1.
+ACCESSION   rerooted_NC_002051.1
+VERSION     rerooted_NC_002051.1
+KEYWORDS    RefSeq.
+SOURCE      Orthotospovirus tomatomaculae
+  ORGANISM  Orthotospovirus tomatomaculae
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Bunyaviricetes; Elliovirales; Tospoviridae;
+            Orthotospovirus.
+REFERENCE   1  (bases 1 to 2916)
+  AUTHORS   de Haan,P., Wagemakers,L., Peters,D. and Goldbach,R.
+  TITLE     The S RNA segment of tomato spotted wilt virus has an ambisense
+            character
+  JOURNAL   J. Gen. Virol. 71 (Pt 5), 1001-1007 (1990)
+   PUBMED   1693160
+REFERENCE   2
+  AUTHORS   De Haan,P., Wagemakers,L., Peters,D. and Goldbach,R.
+  TITLE     Molecular cloning and terminal sequence determination of the S and M
+            RNAs of tomato spotted wilt virus
+  JOURNAL   J. Gen. Virol. 70 (Pt 12), 3469-3473 (1989)
+   PUBMED   2607343
+REFERENCE   3  (bases 1 to 2916)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from D00645.
+            These data kindly submitted in computer readable form by:  Peter De
+            Haan
+            Department of Virology
+            Agricultural University Wageningen
+            Binnenhaven 11
+            6709 PD Wageningen
+            The Netherlands.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2916
+                     /organism="Orthotospovirus tomatomaculae"
+                     /mol_type="genomic RNA"
+                     /isolate="CPNH9"
+                     /db_xref="taxon:3052585"
+                     /segment="S"
+     repeat_region   1..70
+                     /note="inverted complementary sequence"
+                     /rpt_type=inverted
+     variation       16
+                     /citation=[2]
+                     /replace="c"
+     gene            89..1483
+                     /gene="non-structural protein"
+                     /locus_tag="ToSWVsSgp1"
+                     /db_xref="GeneID:956580"
+     CDS             89..1483
+                     /gene="non-structural protein"
+                     /locus_tag="ToSWVsSgp1"
+                     /codon_start=1
+                     /product="non-structural protein"
+                     /protein_id="NP_049360.1"
+                     /db_xref="GeneID:956580"
+                     /translation="MSSSVYESIIQTRASVWGSTASGKAVVDSYWIHELGTGSQLVQTQ
+                     LYSDSRSKVVLWLYCKVGIFPVKKKRFLSQHVYIPIFDDIDFSINIDDSVLALSVCSNT
+                     VNANGVKHQGHLKVLSPAQLHSIGSIMNRSDITDRFQLQEKDIIPNDRYIEAANKGSLS
+                     CVKEHTYKIEMCYNQALGKVNVLSPNRNVHEWLYSFKPNFNQVESNNRTVNSLAVKSLL
+                     MSAENNIMPNSQASTDSHFKLSLWLRVPKVLKQISIQKLFKVAGDETNKTFYLSIACIP
+                     NHNSVETALNITVICKHQLPIRKCKAPFELSMMFSDLKEPYNIVHDPSYPKGLVPMLWL
+                     ETHTSLHKFFATNLQEDVIIYTLNNHELTPGKLDLGERTLNYSEDAYKRKYFLSKTLEC
+                     LPSNTQTMSYLDSIQIPSWKIDFARGEIKISPQSISVAKSLLKLDLSGIKKKESKIKEA
+                     YASGSK*"
+     misc_feature    483..491
+                     /gene="non-structural protein"
+                     /locus_tag="ToSWVsSgp1"
+                     /note="pot. N-glycosylation site"
+     misc_feature    716..724
+                     /gene="non-structural protein"
+                     /locus_tag="ToSWVsSgp1"
+                     /note="pot. N-glycosylation site"
+     misc_feature    896..904
+                     /gene="non-structural protein"
+                     /locus_tag="ToSWVsSgp1"
+                     /note="pot. N-glycosylation site"
+     misc_feature    959..967
+                     /gene="non-structural protein"
+                     /locus_tag="ToSWVsSgp1"
+                     /note="pot. N-glycosylation site"
+     misc_feature    1229..1237
+                     /gene="non-structural protein"
+                     /locus_tag="ToSWVsSgp1"
+                     /note="pot. N-glycosylation site"
+     repeat_region   1583..1835
+                     /note="hairpin structure"
+     gene            complement(1987..2763)
+                     /gene="nucleocapsid protein"
+                     /locus_tag="ToSWVsSgp2"
+                     /db_xref="GeneID:956581"
+     CDS             complement(1987..2763)
+                     /gene="nucleocapsid protein"
+                     /locus_tag="ToSWVsSgp2"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="NP_049361.1"
+                     /db_xref="GeneID:956581"
+                     /translation="MSKVKLTKESIVALLTQGKDLEFEEDQNLVAFNFKTFCLENLDQI
+                     KKMSVISCLTFLKNRQSIMKVIKQSDFTFGKITIKKTSDRIGATDMTFRRLDSLIRVRL
+                     VEETGNSENLNTIKSKIASHPLIQAYGLPLDDAKSVRLAIMLGGSLPLIASVDSFEMIS
+                     VVLAIYQDAKYKDLGIDPKKYDTREALGKVCTVLKSKAFEMNEDQVKKGKEYAAILSSS
+                     NPNAKGSIAMEHYSETLNKFYEMFGVKKQAKLAELA*"
+     repeat_region   2850..2916
+                     /note="inverted complementary sequence"
+                     /rpt_type=inverted
+ORIGIN
+        1 agagcaattg tgtcataatt ttattcataa tcaaacctca cttagaaaat cacaatactg
+       61 taataagaac acagtaccaa taaccataat gtcttcaagt gtttatgagt cgatcattca
+      121 gacaagagct tcagtctggg gatcaactgc atctggtaaa gctgttgtag attcttactg
+      181 gattcatgaa cttggtactg gttctcaact agttcagacc cagctgtatt ctgattcaag
+      241 aagcaaagta gtcctttggc tatactgcaa agtagggatc ttccctgtga agaagaagag
+      301 atttctttct cagcatgtgt atatccctat ttttgatgat attgatttta gcatcaatat
+      361 tgatgactct gttctggcac tatctgtttg ctcaaataca gtcaatgcta acggagtgaa
+      421 acatcaaggt catttgaagg ttttgtctcc tgctcagctc cactctattg gatctatcat
+      481 gaacagatct gatattacag accgattcca gctccaagaa aaagacataa ttcccaatga
+      541 cagatacatt gaagctgcaa acaaaggctc tttgtcttgt gtcaaagagc atacctataa
+      601 gatcgagatg tgctataatc aagctttagg caaagtgaat gttctatctc ctaacagaaa
+      661 tgtccatgaa tggctgtaca gtttcaagcc aaatttcaat caagttgaaa gcaacaacag
+      721 aactgtaaat tctcttgcag tgaaatctct gctcatgtca gcagaaaaca acatcatgcc
+      781 taactctcaa gcttccactg attctcattt caagctgagc ctctggctaa gggttccaaa
+      841 ggttttgaag cagatttcca ttcagaaatt gttcaaggtt gcaggagatg aaacaaacaa
+      901 aacattttat ttatctattg cctgcattcc aaaccataac agtgttgaga cagctttaaa
+      961 cattactgtt atttgcaagc atcagctccc aattcgtaaa tgtaaagctc cttttgaatt
+     1021 atcaatgatg ttttctgatt taaaggagcc ttacaacatt gttcatgatc cttcataccc
+     1081 caaaggattg gttccaatgc tctggcttga aactcacaca tctttgcaca agttctttgc
+     1141 aactaacttg caagaagatg tgatcatcta cactttgaac aaccatgagc taactcctgg
+     1201 aaagttagat ttaggtgaaa gaaccttgaa ttacagtgaa gatgcctaca aaaggaaata
+     1261 tttcctttca aaaacacttg aatgtcttcc atctaacaca caaactatgt cttacttaga
+     1321 cagcatccaa atcccttcct ggaagataga ctttgccagg ggagaaatta aaatttctcc
+     1381 acaatctatt tcagttgcaa aatctttgtt aaagcttgat ttaagcggga tcaaaaagaa
+     1441 agaatctaag attaaggaag catatgcttc aggatcaaaa taatcttgct gtgtccagct
+     1501 ttttctaatt atgttatgtt tattttcttt ctttacttat aattatttct ctgtttgtca
+     1561 tttctttcaa attcctcctg tctagtagaa accataaaaa caaaaaataa aaataaaaat
+     1621 aaaattaaaa taaaataaaa tcaaaaaatg aaataaaaac aacaaaaaat taaaaaacaa
+     1681 aaaaccaaaa agacccgaaa gggacaattt tggccaaatt tgggttttgt ttttgttttt
+     1741 tgttttttgt tttttatttt ttattttatt tttattttat tttattttta ttttattttt
+     1801 attttattta ttttatgttt ttgttgtttt tgttattttg ttatttatta agcacaacac
+     1861 acagaaagca aactttaatt aaacacactt atttaaaatt taacacacta agcaagcaca
+     1921 agcaataaag ataaagaaag ctttatatat ttataggctt ttttataatt taacttacag
+     1981 ctgcttttaa gcaagttctg cgagttttgc ctgtttttta accccgaaca tttcatagaa
+     2041 cttgttaaga gtttcactgt aatgttccat agcaatactc cctttagcat taggattgct
+     2101 ggagctaagt atagcagcat actctttccc cttcttcacc tgatcttcat tcatttcaaa
+     2161 tgctttgctt ttcagcacag tgcaaacttt tcctaaggct tccctggtgt catacttctt
+     2221 tgggtcgatc ccgaggtcct tgtattttgc atcctgatat atagccaaga caacactgat
+     2281 catctcaaag ctatcaactg aagcaataag aggtaagcta cctcccagca ttatggcaag
+     2341 cctcacagac tttgcatcat caagaggtaa tccataggct tgaatcaaag ggtgggaagc
+     2401 aatcttagat ttgatagtat tgagattctc agaattccca gtttcctcaa caagcctgac
+     2461 cctgatcaag ctatcaagcc ttctgaaggt catgtcagtg gctccaatcc tgtctgaagt
+     2521 tttctttatg gtaattttac caaaagtaaa atcactttgc ttaataacct tcattatgct
+     2581 ctgacgattc ttcaggaatg tcagacatga aataacgctc atcttcttga tctggtcgag
+     2641 gttttccaga caaaaagtct tgaagttgaa tgctaccaga ttctgatctt cctcaaactc
+     2701 aaggtctttg ccttgtgtca acaaagcaac aatgctttcc ttagtgagct taaccttaga
+     2761 catgatgatc gtagaagttg ttatatgctt tgaccgtatg taactcaagg tgcgaaagtg
+     2821 caactctgta tcccgcagtc gtttcttagg gttttaatgt gatgatttgt aagactgagt
+     2881 gttaaggttt gaatacaaaa ttgacacaat tgctct
+//

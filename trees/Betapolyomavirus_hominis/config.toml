@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001538.1, taxonomy ID 1891762
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001538.1'
-refseq_assembly = 'GCF_000837865.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001538.1'
+#refseq_assembly = 'GCF_000837865.1'
+ref_fasta = './trees/Betapolyomavirus_hominis/midpoint_rerooted_NC_001538.1.fa'
+ref_gbff = './trees/Betapolyomavirus_hominis/midpoint_rerooted_NC_001538.1.gbff'
 taxonomy_id = '1891762'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

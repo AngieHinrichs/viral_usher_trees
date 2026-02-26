@@ -1,0 +1,107 @@
+LOCUS       rerooted_NC_006008.2      1049 bp    RNA     linear   VRL 23-DEC-2019
+DEFINITION  rerooted_NC_006008.2.
+ACCESSION   rerooted_NC_006008.2
+VERSION     rerooted_NC_006008.2
+KEYWORDS    RefSeq.
+SOURCE      Bluetongue virus
+  ORGANISM  Bluetongue virus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus
+            caerulinguae.
+REFERENCE   1
+  AUTHORS   Fukusho,A., Yu,Y., Yamaguchi,S. and Roy,P.
+  TITLE     Completion of the sequence of bluetongue virus serotype 10 by the
+            characterization of a structural protein, VP6, and a non-structural
+            protein, NS2
+  JOURNAL   J. Gen. Virol. 70 (PT 7), 1677-1689 (1989)
+   PUBMED   2544660
+REFERENCE   2
+  AUTHORS   Blachere,C.
+  TITLE     Bluetongue virus gene for VP6 protein, complete cds
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1049)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-2019) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to D00509.
+            On Dec 23, 2019 this sequence version replaced NC_006008.1.
+            These data kindly submitted in computer readable form by: Marshall,
+            J.J.A.
+            Institute of Virology
+            Mansfield Rd. Oxford
+            England.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1049
+                     /organism="Bluetongue virus"
+                     /mol_type="genomic RNA"
+                     /serotype="10"
+                     /db_xref="taxon:40051"
+                     /segment="9"
+                     /clone="A88"
+     gene            16..1005
+                     /locus_tag="BTVs9gp1"
+                     /db_xref="GeneID:2943150"
+     CDS             16..1005
+                     /locus_tag="BTVs9gp1"
+                     /note="minor inner capsid protein, structural protein"
+                     /codon_start=1
+                     /product="VP6 protein"
+                     /protein_id="YP_052953.2"
+                     /db_xref="GeneID:2943150"
+                     /translation="MSAAILLAPGDVIKRSSEELKQRQIQINLVDWMESEGGKEDKTEP
+                     KEESKAEGSKDGEGTQSKGGKKKEGGKEAKDANVDRRVHTTVGSGSGTKGSGERADENA
+                     DRGDGKIGGGGGDADEGDGVAGTNRGRWVVLTEEIARAIESKYGTKVDVYRDEVPAQII
+                     EVERSLQKELGISREGVAEQTERLRDLRRKEKNGTHAKAVERGGRKQRKKAHGDAQREG
+                     VEEEKTSEEPARIGITIEGVMSQKKLLSMIGGVERKVAPIGARESAVMLVSNNINDVER
+                     ATAYFTSPTGDPNWKEVAREASKKKNILAYTSTGGDVKTEFLHLIDHL*"
+     misc_difference 192
+                     /locus_tag="BTVs9gp1"
+                     /citation=[1]
+                     /replace=""
+     misc_difference 226
+                     /locus_tag="BTVs9gp1"
+                     /citation=[1]
+                     /replace="gg"
+     misc_difference 248
+                     /locus_tag="BTVs9gp1"
+                     /citation=[1]
+                     /replace="aa"
+     misc_difference 253
+                     /locus_tag="BTVs9gp1"
+                     /citation=[1]
+                     /replace=""
+     misc_difference 913
+                     /locus_tag="BTVs9gp1"
+                     /citation=[1]
+                     /replace=""
+     misc_difference 936
+                     /locus_tag="BTVs9gp1"
+                     /citation=[1]
+                     /replace=""
+     misc_difference 944
+                     /locus_tag="BTVs9gp1"
+                     /citation=[1]
+                     /replace=""
+ORIGIN
+        1 gttaaaaaat cgcatatgtc agctgcgata ctacttgcac ccggtgacgt gatcaagcgt
+       61 tcatccgagg agttaaaaca gaggcagatt cagattaatt tagttgattg gatggagagt
+      121 gagggcggaa aagaggataa aacagaacct aaagaggaga gcaaagcaga aggatcaaag
+      181 gatggtgagg ggacacaatc gaagggcggc aagaagaaag agggcggcaa agaagctaaa
+      241 gatgcaaatg tggatagacg cgtacatact acagtgggat ctggatcagg cacaaaagga
+      301 tctggagaac gcgcggacga gaatgctgac agaggagatg gaaagattgg aggaggaggt
+      361 ggagatgctg atgagggaga tggagttgct ggaacgaata gaggaagatg ggtagtgcta
+      421 actgaagaga tcgctcgcgc gattgaatct aaatacggta cgaaggttga tgtttacagg
+      481 gatgaggttc cagctcagat catcgaggtg gaacgcagtc tccagaaaga gttgggaatt
+      541 tcccgtgagg gagtggccga gcagacggag agattgagag atctgcggcg gaaagagaag
+      601 aatgggacgc atgctaaagc cgttgagaga ggaggacgca agcagaggaa gaaagcccat
+      661 ggtgacgcgc agagagaagg tgtcgaggaa gaaaagacgt ctgaggagcc ggcacgcatt
+      721 ggaattacta tagaaggagt catgagtcaa aagaaactgt taagtatgat tggtggtgtg
+      781 gagaggaagg tggcgccgat aggggcgcgg gagagcgcgg ttatgttagt ttcaaataat
+      841 ataaacgatg tggagcgagc aactgcatat ttcacatcgc caacgggaga tccaaattgg
+      901 aaagaggtgg cgcgcgaagc ttcgaagaag aagaacattt tggcttatac gagtacgggg
+      961 ggagatgtta aaacggagtt tctacattta atcgatcacc tctaaagggt ccagggtacc
+     1021 ttcttgacgt agtgcgattt tacacttac
+//

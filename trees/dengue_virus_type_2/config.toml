@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001474.2, taxonomy ID 3052464
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001474.2'
-refseq_assembly = 'GCF_000871845.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001474.2'
+#refseq_assembly = 'GCF_000871845.1'
+ref_fasta = './trees/dengue_virus_type_2/treetime_rerooted_NC_001474.2.fa'
+ref_gbff = './trees/dengue_virus_type_2/treetime_rerooted_NC_001474.2.gbff'
 taxonomy_id = '3052464'
 nextclade_dataset = 'community/v-gen-lab/dengue/denv2'
 nextclade_clade_columns = 'clade'

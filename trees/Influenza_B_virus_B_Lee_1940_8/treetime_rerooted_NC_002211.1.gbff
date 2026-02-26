@@ -1,0 +1,101 @@
+LOCUS       rerooted_NC_002211.1      1096 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002211.1.
+ACCESSION   rerooted_NC_002211.1
+VERSION     rerooted_NC_002211.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza B virus (B/Lee/1940)
+  ORGANISM  Influenza B virus (B/Lee/1940)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae.
+REFERENCE   1  (bases 1 to 1096)
+  AUTHORS   Briedis,D.J. and Lamb,R.A.
+  TITLE     Influenza B virus genome: sequences and structural organization of
+            RNA segment 8 and the mRNAs coding for the NS1 and NS2 proteins
+  JOURNAL   J. Virol. 42 (1), 186-193 (1982)
+   PUBMED   6283137
+REFERENCE   2  (bases 6 to 150)
+  AUTHORS   Air,G.M. and Hackett,J.A.
+  TITLE     Gene 8 of influenza virus: sequences of cDNA transcribed from the 3'
+            ends of viral RNA of influenza A and B strains
+  JOURNAL   Virology 103 (2), 291-298 (1980)
+   PUBMED   7385583
+REFERENCE   3  (bases 1 to 1096)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to J02096.
+            No antigenicity (sub-type) specified. viral RNA sequence determined
+            by analysis of fragments of cDNA (synthesized with polyadenylated
+            vRNA) cloned (pbn27) in pbr322. NS-2 mRNA sequence determined by
+            analysis of cDNA fragment (from above clone) primer. Coding regions
+            and introns assigned by consideration of open reading frames,
+            comparison of predicted MW with experimentally determined MW,
+            comparison to the coding regions of segment 8 in other influenza
+            strains and consideration of consensus splice sites. The influenza
+            genome is single-stranded RNA, and minus-stranded. The sequence
+            reported below is the + strand.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1096
+                     /organism="Influenza B virus (B/Lee/1940)"
+                     /mol_type="viral cRNA"
+                     /strain="B/Lee/1940"
+                     /db_xref="taxon:518987"
+                     /segment="8"
+     gene            43..1066
+                     /gene="NEP"
+                     /locus_tag="FLUBVsRNA-8gp2"
+                     /gene_synonym="NS2"
+                     /db_xref="GeneID:26824007"
+     CDS             join(43..75,731..1066)
+                     /gene="NEP"
+                     /locus_tag="FLUBVsRNA-8gp2"
+                     /gene_synonym="NS2"
+                     /codon_start=1
+                     /product="nonstructural protein NS-2"
+                     /protein_id="NP_056665.1"
+                     /db_xref="GeneID:26824007"
+                     /translation="MADNMTTTQIEWRMKKMAIGSSTHSSSVLMKDIQSQFEQLKLRWE
+                     SYPNLVKSTDYHQKRETIRLATEELYLLSKRIDDSILFHKTVIANSSIIADMIVSLSLL
+                     ETLYEMKDVVEVYSRQCL"
+     gene            43..888
+                     /gene="NS1"
+                     /locus_tag="FLUBVsRNA-8gp1"
+                     /db_xref="GeneID:26824008"
+     CDS             43..888
+                     /gene="NS1"
+                     /locus_tag="FLUBVsRNA-8gp1"
+                     /codon_start=1
+                     /product="nonstructural protein NS-1"
+                     /protein_id="NP_056666.1"
+                     /db_xref="GeneID:26824008"
+                     /translation="MADNMTTTQIEVGPGATNATINFEAGILECYERLSWQRALDYPGQ
+                     DRLNRLKRKLESRIKTHNKSEPESKRMSLEERKAIGVKMMKVLLFMNPSAGIEGFEPYC
+                     MKNSSTSNCPNCNWTDYPPTPGKCLDDIEEEPENVDDPTEIVLRDMNNKDARQKIKEEV
+                     NTQKEGKFRLTIKRDIRNVLSLRVLVNGTFLKHPNGYKSLSTLHRLNAYDQSGRLVAKL
+                     VATDDLTVEDEEDGHRILNSLFERFDEGHSKPIRAAETAVGVLSQFGQEHRLSPEEGDN
+                     *"
+ORIGIN
+        1 agcagaagca gaggatttgt ttagtcactg gcaaacggaa aaatggcgga caacatgacc
+       61 acaacacaaa ttgaggtggg tccgggagca accaatgcca ccataaactt tgaagcagga
+      121 attctggagt gctatgaaag gctttcatgg caaagagccc ttgactaccc tggtcaagac
+      181 cgcctaaaca gactaaagag aaaattagaa tcaagaataa agactcacaa caaaagtgag
+      241 cctgaaagta aaaggatgtc tcttgaagag agaaaagcaa ttggggtaaa aatgatgaaa
+      301 gtgctcctat ttatgaatcc ctctgctgga attgaagggt ttgagccata ctgtatgaaa
+      361 aattcctcaa ctagcaactg tccaaactgc aattggaccg attaccctcc aacaccagga
+      421 aagtgccttg atgacataga agaagaaccg gaaaatgttg atgacccaac tgaaatagta
+      481 ttgagggaca tgaacaacaa agatgcaagg caaaagataa aggaggaagt aaacactcag
+      541 aaagaaggga agttccgttt gacaataaaa agggatatac gtaatgtgtt gtccttgaga
+      601 gtgttggtaa acggaacctt cctcaagcac cctaatggat acaagtcctt atcaactctg
+      661 catagattga atgcatatga ccagagtgga aggcttgttg ctaaacttgt tgctactgat
+      721 gatcttacag tggaggatga agaagatggc catcggatcc tcaactcact cttcgagcgt
+      781 tttgatgaag gacattcaaa gccaattcga gcagctgaaa ctgcggtggg agtcttatcc
+      841 caatttggtc aagagcaccg attatcacca gaggagggag acaattagac tggttacgga
+      901 agaactttat cttttaagta aaagaattga tgataacata ttgttccaca aaacagtaat
+      961 agctaacagc tccataatag ctgacatgat tgtatcatta tcattattgg aaacattgta
+     1021 tgaaatgaag gatgtggttg aagtgtacag caggcagtgc ttgtgaattt aaaataaaaa
+     1081 tcctcttgtt actact
+//

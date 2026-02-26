@@ -1,0 +1,114 @@
+LOCUS       rerooted_NC_007546.1      2736 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007546.1.
+ACCESSION   rerooted_NC_007546.1
+VERSION     rerooted_NC_007546.1
+KEYWORDS    RefSeq; structural protein 2; VP2 gene.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus; Rotavirus
+            tritogastroenteritidis.
+REFERENCE   1
+  AUTHORS   Chen,Z., Lambden,P.R., Lau,J., Caul,E.O. and Clarke,I.N.
+  TITLE     Human group C rotavirus: completion of the genome sequence and gene
+            coding assignments of a non-cultivatable rotavirus
+  JOURNAL   Virus Res. 83 (1-2), 179-187 (2002)
+   PUBMED   11864750
+REFERENCE   2  (bases 1 to 2736)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2736)
+  AUTHORS   Clarke,I.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JAN-2001) Clarke I.N., Molecular Microbiology,
+            University of Southampton, Mailpoint 814, Level C, South Block,
+            Southampton General Hospital, Southampton, SO16 6YD, UNITED KINGDOM
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ303139.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2736
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /db_xref="taxon:36427"
+                     /segment="2"
+                     /geo_loc_name="United Kingdom: Bristol"
+     gene            37..2691
+                     /gene="VP2"
+                     /locus_tag="HRCV_s2gp1"
+                     /db_xref="GeneID:3773136"
+     CDS             37..2691
+                     /gene="VP2"
+                     /locus_tag="HRCV_s2gp1"
+                     /codon_start=1
+                     /product="structural protein 2"
+                     /protein_id="YP_392489.1"
+                     /db_xref="UniProtKB/TrEMBL:Q91E96"
+                     /db_xref="GeneID:3773136"
+                     /translation="MISRNRRRNNQQKDIEKEKQVETIINKEVKENKDSMKEEKQVVTE
+                     ESNGDVKNVKEQSNNVNLQKNDLVKEVMNIQNQTLNTIVAENKVEIEEVVKKYIPSYTT
+                     DQLIVKKLTEIQESSAKTYNKLFRLFTPVKSYLYDVNGEKKLSTRWYWKLFKDDLPAGD
+                     YSVRQFFLSLYLNVLEEMPDYVMLRDMAVDNPYSAEAGKIVDEKSKEILVEIYQDQMTE
+                     GYIRRYMSDLRHKISGETNTAKYPAILHPVDKELNQYFLEHQLIQPLTTRNIAELIPTQ
+                     LYHDPNYVFNIDAAFLTNSRFVPPYLTQDRIGLHDGFESIWDAKTHADYVSARRFIPDL
+                     TELVDAEKQIKEMAAHLQLEAITVQVESQFLAGISAAAANEAFKFIIGTVLSTRTIAVE
+                     FITSNYMSLASCMYLMTIMPSEIFLRESLVAMQLAIINTLIYPALGLAQMHYQAGEVRT
+                     PFELAEMQVANRPIRQWLHHCNTLQFGRQVTEGVIHLRFTNDIMTGRIVNLFSTMLVAL
+                     SSQPFATYPLDYKRSVQRALQFLSNRTAQIADLTRLIVYNYTTLSACIVMNMHLVGTLT
+                     VERIQATSLTSLMMLISNKTVIPEPSSFFSYFSSNINFLTNYNEQIDNVVAEIMAAYRL
+                     DLYQQKMLMLVTRFVSKLYIFDAPKIPPDQMYRLRNRLRNIPVERRRADVFRIIMNNRD
+                     LIEKTSERICQGVLLSYTPMPLTYVEDVGLTNVVNDTNGFQIINIEEIEKTGDYSAITN
+                     ALLRDTPIILKGAIPYVTNSSVIDVLSKLDTTVFASIVKDRDISKLKPIKFTINSDSSE
+                     YYLVHNNKWTPTTTTAVYKARSQQFHIQHSVSMLESNLFFVVYNDLFKYIKTTTVLPIN
+                     AVSYDGARIMQET*"
+ORIGIN
+        1 ggcttaaaaa gatcagttga ggacaaatcg tccaagatga taagcagaaa taggcgtaga
+       61 aataatcaac aaaaagatat agaaaaagag aaacaagtag agactataat taataaagaa
+      121 gttaaggaaa ataaagattc tatgaaagaa gaaaaacaag tagttacaga agaaagtaat
+      181 ggtgatgtca aaaatgttaa agaacaatcg aataatgtaa atttacaaaa gaatgattta
+      241 gttaaagaag taatgaatat acaaaatcaa acattaaata caatagttgc tgagaataaa
+      301 gttgaaattg aagaagtagt taaaaaatat attccatcat atactactga tcaattaatt
+      361 gttaaaaaat taactgaaat tcaggaatca agtgctaaaa catataataa attgtttaga
+      421 ttatttacgc cagttaaaag ttatttatat gatgtgaatg gtgaaaaaaa attatcgact
+      481 agatggtatt ggaaattgtt taaagatgat ttacctgctg gtgattattc tgttagacaa
+      541 ttttttctat cattatattt gaatgtttta gaggaaatgc ctgattatgt aatgcttcgt
+      601 gatatggcgg tagataatcc atattcagca gaagcaggaa aaatagtaga tgaaaaatca
+      661 aaagaaatat tagttgaaat atatcaagat caaatgacag aaggatatat tagaagatat
+      721 atgtctgatt taagacataa aatatctggt gaaacaaata ctgctaaata tccagctatt
+      781 ttacatcctg tagataaaga attaaatcaa tattttcttg aacatcagtt aattcaacca
+      841 ttgactacaa gaaatattgc agaattaatt ccaactcaat tatatcatga tccaaattat
+      901 gtttttaata ttgatgctgc ctttttaaca aattcaagat ttgttccacc atatttaaca
+      961 caagatagaa ttggattaca tgatggattt gaatcaatat gggatgcaaa aacgcatgct
+     1021 gattatgttt cagctagaag atttatacct gatttaactg aattagtgga tgctgaaaaa
+     1081 caaataaaag aaatggctgc acatttacaa ctagaagcta ttacagtaca ggttgaatca
+     1141 caatttttag caggaattag tgcagcagca gctaatgaag catttaaatt tataattggt
+     1201 acagttttat caacgagaac aatagctgta gaatttataa catcaaatta tatgtcatta
+     1261 gcatcatgta tgtatttaat gactattatg ccatcagaaa ttttcttaag agaatcatta
+     1321 gttgctatgc aattagcaat aataaatact ttaatttatc cagctttagg attagcgcaa
+     1381 atgcattatc aagcaggtga agtaaggact ccatttgaat tagcagaaat gcaagtagca
+     1441 aatagaccta ttagacaatg gttacatcat tgtaatacac ttcaatttgg tagacaagta
+     1501 actgaagggg taattcatct acgatttact aatgatatta tgacaggtag aatagtaaat
+     1561 ttattttcaa caatgctagt agctttatca tctcaacctt ttgctacata tccattagat
+     1621 tataaaagat ctgtacagag agcattacaa tttctttcaa atagaacggc tcaaatagca
+     1681 gatttaacta gattaatagt ttataattat acaacattat cagcatgtat agttatgaat
+     1741 atgcatttag taggaactct tactgttgaa cgtatacaag ctacatcttt aacttcatta
+     1801 atgatgttaa tatctaataa aacagttatt ccagaaccat catctttttt ctcatatttt
+     1861 tcaagtaata ttaatttttt aacaaattat aatgaacaaa ttgataatgt agtagcagaa
+     1921 ataatggcag catatagact ggatttatat caacagaaaa tgttgatgct agttactaga
+     1981 tttgtctcaa agttatatat atttgatgct cctaaaatac caccagatca aatgtataga
+     2041 ttaagaaata gattaagaaa tattccagtt gaaagaagaa gagctgatgt gttcagaata
+     2101 attatgaata atagagattt aatagaaaaa acatcagaac gtatatgtca aggtgtgttg
+     2161 ttatcttata caccaatgcc gttaacttat gttgaagatg taggtttaac aaatgtagtt
+     2221 aatgacacta atggatttca aataataaat attgaagaaa ttgagaaaac tggtgattat
+     2281 tcagctataa cgaatgcact attacgtgat actccaatta tattaaaagg tgcaattcca
+     2341 tatgttacta attcatcagt aattgatgtt ttatctaaat tagatacgac agtgtttgca
+     2401 agtattgtaa aagatagaga tatttcaaaa ttgaaaccaa taaaatttac aattaattca
+     2461 gattcatcag aatattatct agtacataat aataaatgga caccaacaac aactacagca
+     2521 gtatataaag ctagatctca gcaatttcat atacaacatt cagtatcaat gttagaatca
+     2581 aatttatttt ttgttgtata caatgattta tttaaataca ttaaaacaac cacagtattg
+     2641 ccaataaatg ctgtctctta tgatggtgca agaattatgc aggaaacata aatgattaaa
+     2701 tagtatcatc ttgtgacgac ctcaaacttt gtggct
+//

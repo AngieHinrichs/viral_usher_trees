@@ -1,0 +1,100 @@
+LOCUS       rerooted_NC_002206.1      2204 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002206.1.
+ACCESSION   rerooted_NC_002206.1
+VERSION     rerooted_NC_002206.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza B virus (B/Lee/1940)
+  ORGANISM  Influenza B virus (B/Lee/1940)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae.
+REFERENCE   1  (bases 1 to 2204)
+  AUTHORS   Hiromoto,Y., Saito,T., Lindstrom,S.E., Li,Y., Nerome,R., Sugita,S.,
+            Shinjoh,M. and Nerome,K.
+  TITLE     Phylogenetic analysis of the three polymerase genes (PB1, PB2 and
+            PA) of influenza B virus
+  JOURNAL   J. Gen. Virol. 81 (Pt 4), 929-937 (2000)
+   PUBMED   10725418
+REFERENCE   2  (bases 1 to 2204)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2204)
+  AUTHORS   Hiromoto,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-1998) Virology I, National Institute of Infectious
+            Diseases, 1-23-1 Toyama Shinjuku-ku, Tokyo 162-8640, Japan
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AF102017.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2204
+                     /organism="Influenza B virus (B/Lee/1940)"
+                     /mol_type="viral cRNA"
+                     /strain="B/Lee/1940"
+                     /db_xref="taxon:518987"
+                     /segment="3"
+     gene            1..2181
+                     /gene="PA"
+                     /locus_tag="FLUBVsRNA-3gp1"
+                     /db_xref="GeneID:956547"
+     CDS             1..2181
+                     /gene="PA"
+                     /locus_tag="FLUBVsRNA-3gp1"
+                     /codon_start=1
+                     /product="polymerase PA"
+                     /protein_id="NP_056659.1"
+                     /db_xref="GeneID:956547"
+                     /translation="MDTFITRNFQTTIIQKAKNTMAEFSEDPELQPAMLFNICVHLEVC
+                     YVISDMNFLDEEGKTYTALEGQGKEQNLRPQYEVIEGMPRNIAWMVQRSLAQEHGIETP
+                     RYLADLFDYKTKRFIEVGITKGLADDYFWKKKEKLGNSMELMIFSYNQDYSLSNESSLD
+                     EEGKGRVLSRLTELQAELSLKNLWQVLIGEEEIEKGIDFKLGQTISKLRDISVPAGFSN
+                     FEGMRSYIDNIDPKGAIERNLARMSPLVSVTPKKLKWEDLRPIGPHIYNHELPEVPYNA
+                     FLLMSDELGLANMTEGKSKKPKTLAKECLERYSTLRDQTDPILIMKSEKANENFLWKLW
+                     RDCVNTISNEETGNELQKTNYAKWATGDGLTYQKIMKEVAIDDETMYQEEPKIPNKCRV
+                     AAWVQAEMNLLSTLTSKRALDLPEIGPDVAPVEHVGSERRKYFVNEINYCKASTVMMKY
+                     VLFHTSLLNESNASMGKYKVIPITNRVVNEKGESFDMLYGLAVKGQSHLRGDTDVVTVV
+                     TFEFSSTDPRVDSGKWPKYTVFRIGSLFVSGREKPVYLYCRVNGTNKIQMKWGMEARRC
+                     LLQSMQQMEAIVDQESSIQGYDMTKACFKGDRVNNPKTFSIGTQEGKLVKGSFGKALRV
+                     IFTKCLMHYVFGNAQLEGFSAESRRLLLLIQALKDRKGPWVFDLEGMYSGIEECISNNP
+                     WVIQSAYWFNEWLGFEKEGSKVLESIDEIMDE*"
+ORIGIN
+        1 atggatactt ttattacaag aaactttcag actacaataa tacaaaaggc caaaaacaca
+       61 atggcagaat ttagtgaaga tcctgaatta caaccagcaa tgctattcaa catctgcgtc
+      121 catctggagg tctgctatgt aataagtgat atgaattttc ttgatgaaga aggaaaaaca
+      181 tatacagcat tagaaggaca aggaaaagaa caaaacttga gaccacaata tgaagtgatt
+      241 gagggaatgc caagaaacat agcatggatg gttcaaagat ccttagccca agagcatgga
+      301 atagagactc caaggtatct ggctgatttg ttcgattata aaaccaagag gtttatagaa
+      361 gttggaataa caaagggatt ggctgacgat tacttttgga aaaagaaaga aaagctgggg
+      421 aatagcatgg aactgatgat attcagctac aatcaagact actcgttaag taatgaatcc
+      481 tcattggatg aggaaggaaa agggagagtg ctaagcagac tcacagaact tcaggctgag
+      541 ttaagtctga aaaatctatg gcaagttctc ataggggaag aagaaattga aaaaggaatt
+      601 gacttcaaac ttggacaaac aatatctaaa ctaagggata tatctgttcc agctggtttc
+      661 tccaattttg aagggatgag gagctacata gacaatatag accctaaagg agcaatagag
+      721 agaaatctag caaggatgtc tcccttagta tcagttacac ccaaaaagtt gaaatgggag
+      781 gacctaagac caatagggcc tcacatttac aaccatgagc taccagaagt tccatataat
+      841 gcctttcttc tcatgtctga tgagttgggg ctggctaata tgactgaagg gaaatccaag
+      901 aaaccgaaga ccttagccaa agaatgtcta gaaaggtact caacactacg ggatcaaact
+      961 gacccaatat taataatgaa aagcgaaaaa gctaacgaaa acttcttatg gaagttgtgg
+     1021 agggactgtg taaatacaat aagtaatgag gaaacaggta acgaattaca gaaaaccaat
+     1081 tatgccaagt gggccacagg agatggatta acataccaga aaataatgaa agaagtagca
+     1141 atagatgacg aaacaatgta ccaagaagag cccaaaatac ctaataaatg tagagtggct
+     1201 gcttgggttc aagcagagat gaatctactg agtactctga caagtaaaag ggccctggat
+     1261 ctaccagaaa tagggccaga cgtagcgccc gtggagcatg tagggagtga aagaaggaaa
+     1321 tactttgtta atgaaatcaa ctactgtaag gcctctaccg ttatgatgaa gtatgtactt
+     1381 tttcacactt cattattaaa tgaaagcaat gccagtatgg gaaaatataa agtaatacca
+     1441 atcaccaaca gagtggtaaa tgaaaaaggg gaaagctttg acatgcttta tggtctggcg
+     1501 gttaaagggc aatctcatct gaggggagat actgatgttg taacagttgt gactttcgaa
+     1561 tttagtagta cagatcccag agtggactca ggaaagtggc caaaatatac tgtatttaga
+     1621 attggctccc tatttgtgag tggaagggaa aaacctgtgt acctatattg ccgagtgaat
+     1681 ggtacaaaca agatccaaat gaaatgggga atggaagcta gaagatgtct gcttcaatca
+     1741 atgcaacaaa tggaagcaat tgttgatcaa gaatcatcga tacaaggata tgacatgacc
+     1801 aaagcttgtt tcaagggaga cagagtgaat aatcccaaaa ctttcagtat tgggactcaa
+     1861 gaaggaaaac tagtaaaagg atcctttggg aaagcactaa gagtaatatt caccaaatgt
+     1921 ttgatgcatt atgtatttgg aaatgcccaa ttggaggggt ttagtgccga atctaggaga
+     1981 cttctactgt taattcaggc attaaaggac agaaagggcc cttgggtatt tgacttagag
+     2041 ggaatgtatt ctggaataga agaatgtatt agtaacaacc cttgggtaat acagagtgca
+     2101 tactggttta atgaatggtt gggctttgaa aaagagggaa gtaaagtatt agaatcaata
+     2161 gatgaaataa tggatgaatg aaagaagggc atagcgctca attt
+//

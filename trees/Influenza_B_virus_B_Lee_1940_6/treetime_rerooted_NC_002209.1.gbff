@@ -1,0 +1,103 @@
+LOCUS       rerooted_NC_002209.1      1557 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002209.1.
+ACCESSION   rerooted_NC_002209.1
+VERSION     rerooted_NC_002209.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza B virus (B/Lee/1940)
+  ORGANISM  Influenza B virus (B/Lee/1940)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae.
+REFERENCE   1  (bases 1 to 358)
+  AUTHORS   Shaw,M.W., Choppin,P.W. and Lamb,R.A.
+  TITLE     A previously unrecognized influenza B virus glycoprotein from a
+            bicistronic mRNA that also encodes the viral neuraminidase
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 80 (16), 4879-4883 (1983)
+   PUBMED   6308656
+REFERENCE   2  (bases 1 to 1557)
+  AUTHORS   Shaw,M.W., Lamb,R.A., Erickson,B.W., Briedis,D.J. and Choppin,P.W.
+  TITLE     Complete nucleotide sequence of the neuraminidase gene of influenza
+            B virus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 79 (22), 6817-6821 (1982)
+   PUBMED   6294654
+REFERENCE   3  (bases 1 to 1557)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to J02095.
+            Sequence flanked on 5' end by cellular 'cap transfer' DNA
+            (AGACACACGC). Neuraminidase cds determined by consideration of open
+            reading frames, and mw and composition of the protein product. The
+            second open reading frame codes for a protein (nb) found only in
+            type b influenzas Its functional significance is not yet known.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1557
+                     /organism="Influenza B virus (B/Lee/1940)"
+                     /mol_type="viral cRNA"
+                     /strain="B/Lee/1940"
+                     /db_xref="taxon:518987"
+                     /segment="6"
+     gene            47..349
+                     /gene="NB"
+                     /locus_tag="FLUBVsRNA-6gp1"
+                     /db_xref="GeneID:26824003"
+     CDS             47..349
+                     /gene="NB"
+                     /locus_tag="FLUBVsRNA-6gp1"
+                     /codon_start=1
+                     /product="NB protein"
+                     /protein_id="NP_056662.1"
+                     /db_xref="GeneID:26824003"
+                     /translation="MNNATFNYTNVNPISHIRGSVIITICVSFTVILTIFGYIAKIFTN
+                     RNNCTNNAIGLCKRIKCSGCEPFCNKRGDTSSPRTGVDIPSFILPGLNLSESTPN*"
+     gene            54..1454
+                     /gene="NA"
+                     /locus_tag="FLUBVsRNA-6gp2"
+                     /db_xref="GeneID:26824004"
+     CDS             54..1454
+                     /gene="NA"
+                     /locus_tag="FLUBVsRNA-6gp2"
+                     /codon_start=1
+                     /product="neuraminidase"
+                     /protein_id="NP_056663.1"
+                     /db_xref="GeneID:26824004"
+                     /translation="MLPSTIQTLTLFLTSGGVLLSLYVSASLSYLLYSDILLKFSPTEI
+                     TAPTMPLDCANASNVQAVNRSATKGVTLLLPEPEWTYPRLSCPGSTFQKALLISPHRFG
+                     ETKGNSAPLIIREPFIACGPKECKHFALTHYAAQPGGYYNGTREDRNKLRHLISVKLGK
+                     IPTVENSIFHMAAWSGSACHDGREWTYIGVDGPDSNALLKIKYGEAYTDTYHSYANNIL
+                     RTQESACNCIGGNCYLMITDGSASGISECRFLKIREGRIIKEIFPTGRVKHTEECTCGF
+                     ASNKTIECACRDNSYTAKRPFVKLNVETDTAEIRLMCTETYLDTPRPDDGSITGPCESN
+                     GDKGSGGIKGGFVHQRMASKIGRWYSRTMSKTKRMGMGLYVKYDGDPWTDSDALALSGV
+                     MVSMEEPGWYSFGFEIKDKKCDVPCIGIEMVHDGGKKTWHSAATAIYCLMGSGQLLWDT
+                     VTGVDMAL*"
+ORIGIN
+        1 agcagaagca gagcatcttc tcaaaactga ggcaaatagg ccaaaaatga acaatgctac
+       61 cttcaactat acaaacgtta accctatttc tcacatcagg gggagtgtta ttatcactat
+      121 atgtgtcagc ttcactgtca tacttactat attcggatat attgctaaaa ttttcaccaa
+      181 cagaaataac tgcaccaaca atgccattgg attgtgcaaa cgcatcaaat gttcaggctg
+      241 tgaaccgttc tgcaacaaaa ggggtgacac ttcttctccc agaaccggag tggacatacc
+      301 ctcgtttatc ttgcccgggc tcaacctttc agaaagcact cctaattagc cctcatagat
+      361 tcggagaaac caaaggaaac tcagctccct tgataataag ggaacctttt attgcttgtg
+      421 gaccaaagga atgcaaacac tttgctctaa cccattatgc agcccaacca gggggatact
+      481 acaatggaac aagagaagac agaaacaagc tgaggcatct aatttcagtc aaattgggca
+      541 aaatcccaac agtagaaaac tccattttcc acatggcagc ttggagcggg tccgcatgcc
+      601 atgatggtag agaatggaca tatatcggag ttgatggccc tgacagtaat gcattgctca
+      661 aaataaaata tggagaagca tatactgaca cataccattc ctatgcaaac aacatcctaa
+      721 gaacacaaga aagtgcctgc aattgcatcg ggggaaattg ttatcttatg ataactgatg
+      781 gctcagcttc agggattagt gaatgcagat ttcttaagat tcgagagggc cgaataataa
+      841 aagaaatatt tccaacagga agagtaaaac atactgaaga atgcacatgc ggatttgcca
+      901 gcaataaaac catagaatgt gcctgtagag ataacagtta cacagcaaaa agaccctttg
+      961 tcaaattaaa tgtggagact gatacagcag aaataagatt gatgtgcaca gagacttatt
+     1021 tggacacccc cagaccagat gatggaagca taacagggcc ttgtgaatct aatggggata
+     1081 aagggagtgg aggcatcaag ggaggatttg ttcatcaaag aatggcatcc aagattggaa
+     1141 ggtggtactc tcgaacgatg tctaaaacta aaaggatggg gatgggactg tatgtcaagt
+     1201 atgatggaga cccatggact gacagtgatg cccttgctct tagtggagta atggtttcaa
+     1261 tggaagaacc tggttggtat tcctttggct tcgaaataaa agataagaaa tgtgatgtcc
+     1321 cctgtattgg gatagagatg gtacatgatg gtggaaagaa gacttggcac tcagcagcaa
+     1381 cagccattta ctgtttaatg ggctcaggac aactgctatg ggacactgtc acaggtgttg
+     1441 atatggctct gtaatggagg aatggttgag tctgttctaa accctttgtt cctattttgt
+     1501 ttgaacaatt gtccttactg aacttaattg tttctgaaaa atgctcttgt tactact
+//

@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_059681.1, taxonomy ID 2844074
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_059681.1'
-refseq_assembly = 'GCF_018547865.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_059681.1'
+#refseq_assembly = 'GCF_018547865.1'
+ref_fasta = './trees/hepatitis_D_virus_1/midpoint_rerooted_NC_059681.1.fa'
+ref_gbff = './trees/hepatitis_D_virus_1/midpoint_rerooted_NC_059681.1.gbff'
 taxonomy_id = '2844074'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

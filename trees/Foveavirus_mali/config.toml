@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_003462.2, taxonomy ID 35350
 
-viral_usher_version = '0.8.0'
-refseq_acc = 'NC_003462.2'
-refseq_assembly = 'GCF_000850465.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_003462.2'
+#refseq_assembly = 'GCF_000850465.1'
+ref_fasta = './trees/Foveavirus_mali/treetime_rerooted_NC_003462.2.fa'
+ref_gbff = './trees/Foveavirus_mali/treetime_rerooted_NC_003462.2.gbff'
 taxonomy_id = '35350'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

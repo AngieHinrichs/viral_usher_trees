@@ -1,0 +1,120 @@
+LOCUS       rerooted_NC_002021.1      2341 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002021.1.
+ACCESSION   rerooted_NC_002021.1
+VERSION     rerooted_NC_002021.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+  ORGANISM  Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 2341)
+  AUTHORS   Winter,G. and Fields,S.
+  TITLE     Nucleotide sequence of human influenza A/PR/8/34 segment 2
+  JOURNAL   Nucleic Acids Res. 10 (6), 2135-2143 (1982)
+   PUBMED   6281731
+REFERENCE   2  (bases 1 to 2341)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from J02151.
+            [1] compared this sequence with that for p2 and p3 (see separate
+            entries), but found no significant homology between any two of the
+            three sequences. p1 cds determined by consideration of open reading
+            frames and the mw and net charge of the p1 protein. this sequence
+            completes the A/Puerto Rico/8/34 genome; see separate entries for
+            other segments.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2341
+                     /organism="Influenza A virus (A/Puerto Rico/8/1934(H1N1))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Puerto Rico/8/1934"
+                     /db_xref="taxon:211044"
+                     /segment="2"
+                     /geo_loc_name="Puerto Rico"
+                     /collection_date="1934"
+                     /serogroup="H1N1"
+     gene            25..2298
+                     /gene="PB1"
+                     /locus_tag="FLUAVs2gp1"
+                     /db_xref="GeneID:956534"
+     CDS             25..2298
+                     /gene="PB1"
+                     /locus_tag="FLUAVs2gp1"
+                     /codon_start=1
+                     /product="polymerase PB1"
+                     /protein_id="NP_040985.1"
+                     /db_xref="GeneID:956534"
+                     /translation="MDVNPTLLFLKVPAQNAISTTFPYTGDPPYSHGTGTGYTMDTVNR
+                     THQYSEKGRWTTNTETGAPQLNPIDGPLPEDNEPSGYAQTDCVLEAMAFLEESHPGIFE
+                     NSCLETMEVVQQTRVDKLTQGRQTYDWTLNRNQPAATALANTIEVFRSNGLTANESGRL
+                     IDFLKDVMESMDKEEIEITTHFQRKRRVRDNMTKKMVTQRTIGKKKQRVNKRSYLIRAL
+                     TLNTMTKDAERGKLKRRAIATPGMQIRGFVYFVETLARSICEKLEQSGLPVGGNEKKAK
+                     LANVVRKMMTNSQDTELSFTITGDNTKWNENQNPRMFLAMITYITRNQPEWFRNVLSMA
+                     PIMFSNKMARLGKGYMFESKSMKLRTQIPAEMLASIDLKYFNESTRKKIEKIRPLLIDG
+                     TASLSPGMMMGMFNMLSTVLGVSILNLGQKRYTKTTYWWDGLQSSDDFALIVNAPNHEG
+                     IQAGVDRFYRTCKLVGINMSKKKSYINKTGTFEFTSFFYRYGFVANFSMELPSFGVSGI
+                     NESADMSIGVTVIKNNMINNDLGPATAQMALQLFIKDYRYTYRCHRGDTQIQTRRSFEL
+                     KKLWEQTRSKAGLLVSDGGPNLYNIRNLHIPEVCLKWELMDEDYQGRLCNPLNPFVSHK
+                     EIESVNNAVVMPAHGPAKSMEYDAVATTHSWIPKRNRSILNTSQRGILEDEQMYQKCCN
+                     LFEKFFPSSSYRRPVGISSMVEAMVSRARIDARIDFESGRIKKEEFAEIMKICSTIEEL
+                     RRQK*"
+     gene            119..382
+                     /gene="PB1-F2"
+                     /locus_tag="FLUAVs2gp2"
+                     /db_xref="GeneID:3802042"
+     CDS             119..382
+                     /gene="PB1-F2"
+                     /locus_tag="FLUAVs2gp2"
+                     /codon_start=1
+                     /product="PB1-F2 protein"
+                     /protein_id="YP_418248.1"
+                     /db_xref="GeneID:3802042"
+                     /translation="MEQEQDTPWTQSTEHINIQKREDGRQTQRLGHPSSTRLMDHYLRI
+                     MNQVDMHKQTVFWRPWLSLKNPTQEYLRIHALKQWKLFNKQGW"
+ORIGIN
+        1 agcgaaagca ggcaaaccat ttgaatggat gtcaatccga ctctactttt cctaaaggtt
+       61 ccagcgcaaa atgccataag caccacattc ccttatactg gagatcctcc atacagccat
+      121 ggaacaggaa caggatacac catggacaca gtcaacagaa cacatcaata ttcagaaaag
+      181 ggaagatgga cgacaaacac agagactggg gcaccccagc tcaacccgat tgatggacca
+      241 ctacctgagg ataatgaacc aagtggatat gcacaaacag actgtgttct ggaggccatg
+      301 gctttccttg aagaatccca cccaggaata tttgagaatt catgccttga aacaatggaa
+      361 gttgttcaac aaacaagggt ggataaacta actcaaggtc gccagaccta tgattggaca
+      421 ttaaacagaa atcaaccggc tgcaactgca ttggccaaca ccatagaagt atttagatcg
+      481 aatggtctaa cagctaatga gtcaggaagg ctaatagatt tcctaaagga tgtaatggaa
+      541 tcaatggata aagaggaaat agagataaca acacactttc aaagaaaaag gagagtaaga
+      601 gacaacatga ccaagaagat ggtcacacaa agaacaatag ggaagaaaaa acaaagagtg
+      661 aataagagaa gctatctaat aagagcactg acattgaata cgatgaccaa agatgcagaa
+      721 agaggcaaat taaaaagaag agctatcgca acacctggga tgcaaattag aggattcgtg
+      781 tactttgttg aaactttagc taggagcatt tgcgaaaagc ttgaacagtc tggactccca
+      841 gtagggggca atgaaaagaa ggccaaattg gcaaatgttg tgagaaagat gatgactaat
+      901 tcacaagaca cagagctttc tttcacaatc actggggaca acaccaaatg gaatgagaat
+      961 caaaatcctc ggatgttcct ggcaatgata acatatatca caagaaatca acctgaatgg
+     1021 ttcagaaacg tcctgagcat ggcacccata atgttctcaa acaaaatggc aagactaggg
+     1081 aaagggtaca tgttcgagag taaaagcatg aagctccgaa cacaaatacc agcagaaatg
+     1141 ctagcaagca ttgacctgaa gtatttcaat gaatcaacaa ggaagaaaat tgagaaaata
+     1201 aggcctcttc taatagatgg cacagcatca ttgagccctg gaatgatgat gggcatgttc
+     1261 aacatgctaa gtacagtttt gggagtctcg atactgaatc ttggacaaaa gagatacacc
+     1321 aagacaacat actggtggga tgggctccaa tcctccgacg attttgctct catagtgaat
+     1381 gcaccaaatc atgagggaat acaagcagga gtggatagat tctacaggac ctgcaagtta
+     1441 gtgggaatca acatgagcaa aaagaagtcc tatataaata agacagggac atttgaattc
+     1501 acaagctttt tttatcgcta tggatttgta gccaatttta gtatggagct gcccagcttt
+     1561 ggagtgtctg ggattaatga atcggctgac atgagcattg gagtaacagt gataaagaac
+     1621 aacatgataa acaatgacct tggaccagca acagctcaaa tggctcttca actattcatc
+     1681 aaggactaca gatacacata tcggtgccac aggggagaca cacaaattca aacgaggaga
+     1741 tcattcgagc taaagaagct gtgggagcaa acccgttcaa aggcaggact gttggtttca
+     1801 gatggaggac caaacctata caatatccgg aatctccaca ttccagaagt ctgcttgaag
+     1861 tgggaactaa tggatgaaga ttatcaggga aggctttgta atcccctgaa cccgtttgtc
+     1921 agtcataagg aaattgagtc tgtaaacaat gctgtggtaa tgccagccca tggtccagcc
+     1981 aagagcatgg aatatgatgc tgttgcaact acacactcct ggatccctaa gaggaaccgt
+     2041 tccattctca acaccagcca aaggggaatt cttgaggatg aacagatgta ccagaagtgc
+     2101 tgcaacctat tcgagaaatt tttccctagc agttcataca ggagaccagt tggaatttct
+     2161 agcatggtgg aggccatggt gtctagggcc cggattgatg cccgaattga cttcgagtct
+     2221 ggaaggatta agaaagaaga gtttgctgag atcatgaaga tctgttccac cattgaagag
+     2281 ctcagacggc aaaaatagtg aatttagctt gtccttcatg aaaaaatgcc ttgtttctac
+     2341 t
+//

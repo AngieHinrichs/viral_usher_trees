@@ -1,0 +1,85 @@
+LOCUS       rerooted_NC_013233.1      1198 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_013233.1.
+ACCESSION   rerooted_NC_013233.1
+VERSION     rerooted_NC_013233.1
+KEYWORDS    RefSeq.
+SOURCE      Mammalian orthoreovirus 3
+  ORGANISM  Mammalian orthoreovirus 3
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus mammalis.
+REFERENCE   1  (bases 1 to 1198)
+  AUTHORS   Liu,S., Shao,Y., Han,Z., Li,H. and Kong,X.
+  TITLE     Whole genome sequencing and analysis of Reovirus MPC/04 strain from
+            masked civet cats
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1198)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-2009) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1198)
+  AUTHORS   Liu,S., Shao,Y., Han,Z., Li,H. and Kong,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2009) National Key Laboratory of Veterinary
+            Biotechnology, Harbin Veterinary Research Institute, Chinese Academy
+            of Agricultural Sciences, 427 Maduan Street, Nangang District,
+            Harbin, Heilongjiang 150001, P.R. China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GQ468274.
+            On Nov 12, 2015 this sequence version replaced NC_004283.1.
+            GenBank Accession Numbers GQ468266-GQ468275 represent sequences
+            from the 10 segments of Mammalian orthoreovirus 3 (MPC/04).
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1198
+                     /organism="Mammalian orthoreovirus 3"
+                     /mol_type="genomic RNA"
+                     /serotype="3"
+                     /isolate="MPC/04"
+                     /host="masked palm civet"
+                     /db_xref="taxon:538123"
+                     /segment="S3"
+                     /geo_loc_name="China"
+                     /collection_date="2004"
+     gene            28..1128
+                     /gene="S3"
+                     /locus_tag="MoV-3mpc04sS3_gp1"
+                     /db_xref="GeneID:8437029"
+     CDS             28..1128
+                     /gene="S3"
+                     /locus_tag="MoV-3mpc04sS3_gp1"
+                     /note="nonstructural RNA-binding protein"
+                     /codon_start=1
+                     /product="sigma-NS protein"
+                     /protein_id="YP_003199426.1"
+                     /db_xref="GeneID:8437029"
+                     /translation="MASSLRAAISKIKRDDAGQQVCPNYVMLRSSVTTKVVRNVVEYQI
+                     RTGGFFSCLAMLRPLQYAKRERLLGQRNLERISTRDILQTRDLHSLCMPTPDAPMSNHQ
+                     ASTMRELICSYFKVDHADGLKYIPMDERYSPSSLARLFTMGMAGLHITTEPSYKRVPIM
+                     HLAADLDCMTLALPYMITLDGDTVVPVAPTLSAEQLLDDGLKGLACMDISYGCEVDANN
+                     RSAGDQSMDSSRCINELYCEETAEAICVLKTCLVLNCMQFKLEMDDLAHNAAELDKIQM
+                     MIPFSERVFRMASSFATIDAQCFRFCVMMKDKNLKIDMRETMRLWTRSASDDSVATSSL
+                     SISLDRGRWVAADANDARLLVFPIRV*"
+ORIGIN
+        1 gctaaagtca cgcctgttgt cgtcactatg gcttcctcac tcagagctgc gatctccaag
+       61 atcaagagag atgatgctgg tcagcaagtt tgtcccaatt atgtcatgct taggtcttct
+      121 gtcacaacga aggtggtacg aaatgtggtt gagtatcaaa ttcgtacggg tggattcttt
+      181 tcgtgcttag ctatgttgag accactccag tatgctaagc gtgagcgtct gcttggacaa
+      241 aggaatctgg aacgcatatc gactagggac attcttcaga ctcgcgattt gcactcacta
+      301 tgcatgccaa ctcctgacgc gccaatgtcc aatcatcagg catccaccat gagagagctg
+      361 atttgcagct acttcaaggt cgatcacgct gatgggttga aatatatacc catggatgag
+      421 agatactctc catcatcact tgccagattg tttaccatgg gtatggctgg gctgcacatc
+      481 accactgagc catcttataa gcgtgtgccg attatgcact tggccgcgga tttggactgc
+      541 atgacactag ctctacccta tatgattaca cttgatggtg acacggtggt acctgtcgct
+      601 ccgacactgt cagcagaaca gcttttggat gacggactta aggggttagc atgcatggat
+      661 atctcatatg gatgtgaggt ggacgctaac aaccggtcag ctggtgatca gagcatggat
+      721 tcttcacgct gcatcaacga gttatattgc gaggaaacag cagaagctat ctgtgtactc
+      781 aaaacatgtc ttgtgctaaa ttgcatgcaa tttaaacttg agatggatga cttagcacat
+      841 aacgctgctg agctggacaa gatacagatg atgatacctt ttagtgaacg cgttttcaga
+      901 atggcctcat catttgctac tattgatgcc cagtgtttca ggttttgtgt gatgatgaag
+      961 gataaaaatc tgaagataga catgcgtgaa acgatgagac tttggactcg ttcagcatca
+     1021 gatgattctg tggctacgtc atctttgagt atttccctgg atcgaggtcg atgggtggcg
+     1081 gctgatgcca atgatgctag attgttggtg tttccaattc gcgtgtaatg ggtgagtgag
+     1141 ctgatgtggt cgccaagaca tgtgccggtg tcttggtggt gggtgacgcc taatcatc
+//

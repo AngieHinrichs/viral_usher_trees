@@ -1,0 +1,144 @@
+LOCUS       rerooted_NC_013225.1      3804 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_013225.1.
+ACCESSION   rerooted_NC_013225.1
+VERSION     rerooted_NC_013225.1
+KEYWORDS    RefSeq.
+SOURCE      Mammalian orthoreovirus 3
+  ORGANISM  Mammalian orthoreovirus 3
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus mammalis.
+REFERENCE   1  (bases 1 to 3804)
+  AUTHORS   Liu,S., Shao,Y., Han,Z., Li,H. and Kong,X.
+  TITLE     Whole genome sequencing and analysis of Reovirus MPC/04 strain from
+            masked civet cats
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3804)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-2009) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 3804)
+  AUTHORS   Liu,S., Shao,Y., Han,Z., Li,H. and Kong,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2009) National Key Laboratory of Veterinary
+            Biotechnology, Harbin Veterinary Research Institute, Chinese Academy
+            of Agricultural Sciences, 427 Maduan Street, Nangang District,
+            Harbin, Heilongjiang 150001, P.R. China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GQ468266.
+            On Nov 12, 2015 this sequence version replaced NC_004282.4.
+            GenBank Accession Numbers GQ468266-GQ468275 represent sequences
+            from the 10 segments of Mammalian orthoreovirus 3 (MPC/04).
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3804
+                     /organism="Mammalian orthoreovirus 3"
+                     /mol_type="genomic RNA"
+                     /serotype="3"
+                     /isolate="MPC/04"
+                     /host="masked palm civet"
+                     /db_xref="taxon:538123"
+                     /segment="L1"
+                     /geo_loc_name="China"
+                     /collection_date="2004"
+     gene            1..3804
+                     /gene="L1"
+                     /locus_tag="MoV-3mpc04sL1_gp1"
+                     /db_xref="GeneID:8437013"
+     CDS             1..3804
+                     /gene="L1"
+                     /locus_tag="MoV-3mpc04sL1_gp1"
+                     /note="minor core protein"
+                     /codon_start=1
+                     /product="lambda-3 protein"
+                     /protein_id="YP_003199418.1"
+                     /db_xref="GeneID:8437013"
+                     /translation="MSSMILTQFGPFIESISGITDQSNDVFEDAAKAFSMFTRSDVYKA
+                     LDEIPFADDAMLPIPPTIYTKPSHDSYYYIDALNRVRRKTYQGPDDVYVPNCSIVELLE
+                     PHETLTSYGRLSEAIENRAKDGDSQARIATTYGRIAESQARQIKAPLEKFVLALLVAEA
+                     GGSLYDPVLQKYDEIPDLSHNCPLWCFREICRHISGPFPDRAPYLYLSAGVFWLMSPRM
+                     TSAIPPLLSDLVNLAILQQTAGLDPSLVKLGVQICLHAAASSSYAWFILKTKSIFPQNT
+                     LHSMYESLEGGYCPNLEWLEPRSDYKFMYMGVMPLSTKYARSAPSNDKKARELGEKYGL
+                     SSVVSELRRRTKTYVKHDFASVRYIRDAMACTSGIFLVRTPTETVLQEYTQSPEIKVPI
+                     PQKDWTGPIGEIRVLKDTTSSIARYLYRTWYLAAARMAAQPRTWDPLFQAIMRSQYVTA
+                     RGGSGAALRESLYAINVSLPDFKGLPVKAATKIFQAAQLANLPFSHTSVAILADTSMGL
+                     RNQVQRRPRSIMPLNVPQQQVSAPHTLTADYINYHMNLSTTSGSAVIEKVIPLGVYASS
+                     PPNQSINIDISACDASITWDFFLSVIMAAIHEGVASSSIGKPFMGVPASIVNDESVVGV
+                     RAARPISGMQNMIQHLSKLYKRGFSYRVNDSFSPGNDFTHMTTTFPSGSTATSTEHTAN
+                     NSTMMETFLTVWGPEHTDDPDVLRLMKSLTIQRNYVCQGDDGLMIIDGNTAGKVNSETI
+                     QKMLELISKYGEEFGWKYDIAYDGTAEYLKLYFIFGCRIPNLSRHPIVGKERANSSAEE
+                     PWPAILDQIMGIFFNGVHDGLQWQRWIRYSWALCCAFSRQRTMIGESVGYLQYPMWSFV
+                     YWGLPLVKVFGSDPWIFSWYMPTGDLGMYSWISLIRPLMTRWMVANGYVTDRCSPVFGN
+                     ADYRRCFNELKIYQGYYMAQLPRNPKKSGRAAPREVREQFTQALSDYLMQNPELKSRVL
+                     RGRSEWEKYGAGIIHNPPSLFDVPHKWYQGAQEAATATREELAEMDETLMRARRHSYSS
+                     FSKLLEAYLLVKWRMCEAREPSVDLRLPLCAGIDPLNSDPFLKMVSVGPMLQSTRKYFA
+                     QTLFMAKTVSGLDVNAIDSALLRLRTLGADKKALTAQLLMVGLQESEADALAGKIMLQD
+                     VNTVQLARVVNLAVPDTWMSLDFDTMFKHHVKLLPKDGRHLNTDIPPRMGWLRAILRFL
+                     GAGMVMTATGVAVDIYLEDIHGGGRSLGQRFMTWMRQEGRSA*"
+ORIGIN
+        1 atgtcatcca tgatactgac tcagtttgga ccgttcattg aaagcatttc aggtatcact
+       61 gaccaatcga atgatgtatt tgaagatgcg gcaaaagcat tctctatgtt tactcgcagt
+      121 gatgtttaca aggcgttaga tgaaataccc ttcgctgatg atgcgatgct tcccattcct
+      181 ccaactatat ataccaaacc atctcatgat tcatattatt acatcgacgc tctgaaccgt
+      241 gtgcgtcgca aaacatatca agggcctgat gacgtatatg tacctaattg ttctattgtt
+      301 gaattgctgg agccacatga gactttgaca tcttatgggc gtttatctga ggccatcgag
+      361 aatcgtgcta aggatggaga tagtcaagcc agaatagcaa cgacatatgg tagaattgct
+      421 gaatctcaag ctcggcagat taaggctcca ttggagaagt ttgttttggc actattagtg
+      481 gccgaagcag ggggatcttt atatgatcca gttctgcaga aatatgatga aattccagat
+      541 ctatcgcata attgtccttt atggtgtttt agagaaatct gtcgtcatat atctggacca
+      601 ttcccagatc gagcaccata tctttactta tctgcggggg ttttctggtt aatgtcgcca
+      661 cgaatgacgt ctgctatccc tccactatta tctgatcttg ttaatttagc cattttgcag
+      721 cagactgcag gtctagatcc ctcactagtg aaattgggag tacagatatg ccttcatgca
+      781 gcagctagct caagttacgc gtggtttatc ttgaagacta agtccatctt tcctcaaaat
+      841 acgttgcata gtatgtatga atctctagaa ggaggatatt gtcctaatct tgaatggtta
+      901 gagcccagat cagattataa attcatgtac atgggagtca tgccattgtc cactaagtat
+      961 gctaggtcag caccgtccaa tgataagaaa gcgcgtgaac ttggtgagaa atatgggctg
+     1021 agctcggtcg tcagtgagct tcgtagacgg acaaagactt atgttaagca tgactttgct
+     1081 tcagtgaggt acattcgtga tgctatggca tgtactagcg gtattttctt ggtaagaaca
+     1141 cctactgaga cagtgttaca agaatatacg cagagtccgg agattaaggt tcctatccct
+     1201 caaaaagatt ggacgggacc aataggcgag atcagagttt taaaagatac aacgagctct
+     1261 attgcgcgct acttgtatag aacatggtac ttggcagcgg caagaatggc ggctcaacca
+     1321 cgtacatggg acccattgtt tcaggcgatt atgagatctc aatacgtgac ggctaggggt
+     1381 ggatcgggcg cagcactacg cgagtctctg tatgcaatta atgtgtcatt acctgatttt
+     1441 aagggcttac cagtgaaggc tgcgactaag atatttcagg cggcacaatt agcaaattta
+     1501 ccgttctctc acacgtcagt ggctatatta gctgatacct cgatgggatt gcgaaatcag
+     1561 gtgcagaggc ggccacgatc cattatgcca ttaaatgtgc cccaacagca ggtttcagcg
+     1621 cctcacacat tgacagcgga ttacattaat tatcacatga atttatcaac tacatctggt
+     1681 agtgcagtaa ttgagaaggt gattccttta ggtgtatacg cttcgagtcc tcctaaccag
+     1741 tcgatcaaca ttgatatatc tgcatgtgac gctagtatca cttgggactt ctttttatcc
+     1801 gtgattatgg cggctataca tgaaggtgtt gctagtagct ccatcggaaa accatttatg
+     1861 ggagttcctg catccatcgt aaatgatgag tctgtcgtcg gagtgagagc cgctaggccg
+     1921 atatcaggaa tgcagaacat gattcagcat ctttcaaaat tatataaacg tggattttca
+     1981 tatagagtaa acgactcttt ctctccaggt aacgatttta ctcatatgac tacaactttc
+     2041 ccatctggat caacagccac ttctactgag catactgcta ataatagcac gatgatggag
+     2101 actttcttga cagtatgggg accagaacac actgacgatc ctgacgtctt gcgtctaatg
+     2161 aagtctttga ccattcagag aaattacgtg tgtcaaggtg acgacgggtt gatgattatc
+     2221 gacgggaata ctgctggtaa ggtgaacagt gagactattc agaagatgtt agagctgatc
+     2281 tcgaaatatg gtgaggaatt tgggtggaaa tatgacatag cgtacgatgg gactgccgaa
+     2341 tacctaaagc tgtatttcat atttggctgt cggattccaa atctcagtcg tcatccaatc
+     2401 gtggggaaag agcgggcgaa ttcttcagca gaggagccat ggccggcaat tctagaccag
+     2461 atcatgggta ttttctttaa tggtgttcat gatgggttac agtggcagcg atggatacgt
+     2521 tattcatggg ctttatgctg tgctttctca cgtcaaagaa cgatgattgg tgagagtgtg
+     2581 ggttatcttc aatatcctat gtggtctttt gtctactggg gattaccatt ggtaaaggtg
+     2641 ttcgggtcag acccatggat attctcctgg tacatgccta ctggggatct gggaatgtat
+     2701 agttggatta gtctaatacg ccctctaatg acaagatgga tggtggctaa tggttacgta
+     2761 actgatagat gctcacccgt atttgggaac gcggattatc gtaggtgttt caatgagctt
+     2821 aaaatatatc aagggtatta tatggcacaa ttaccaagga atccaaagaa atctggacga
+     2881 gcggcacctc gtgaggtgag agaacaattc actcaggcat tatctgacta tctgatgcag
+     2941 aatccagagt tgaagtcgcg tgtgctgcgt ggtcgtagtg agtgggagaa gtatggagcg
+     3001 gggataattc ataacccccc gtcactattt gatgtgcccc ataaatggta tcagggtgcg
+     3061 caggaggcag caaccgctac gagagaggaa ctggcagaga tggatgaaac attaatgcgt
+     3121 gctcgaaggc acagttattc gagcttctcg aagctgttag aggcgtatct gcttgtgaaa
+     3181 tggcgaatgt gtgaggcccg cgagccatcg gttgatctgc gattaccgtt atgtgcaggc
+     3241 attgacccat taaactcaga tccttttctc aagatggtca gcgttggacc aatgctccag
+     3301 agtactagga agtattttgc tcagacacta tttatggcaa agacggtatc aggtctcgac
+     3361 gttaacgcga ttgacagcgc gttattacga ttacggacat tgggtgctga taagaaagca
+     3421 ttaacagcgc agttgttaat ggtgggactt caggagtcgg aagcggatgc attggccggg
+     3481 aagataatgc tacaagacgt gaatactgtg caactagcta gagtagtaaa cttagctgtg
+     3541 cctgacactt ggatgtcatt ggactttgac accatgttca agcatcatgt caagctgctt
+     3601 cctaaagatg gacgtcattt aaatactgat attcctcctc gaatgggatg gttacgggcc
+     3661 attttacgat tcttaggtgc tggaatggta atgactgcga ctggggttgc tgtcgacata
+     3721 tatctggagg atatacacgg tggtggtcga tcactggggc agagattcat gacttggatg
+     3781 cgacaagaag gacggtcagc gtga
+//

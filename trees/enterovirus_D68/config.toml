@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_038308.1, taxonomy ID 3428506
 
-viral_usher_version = '0.8.0'
-refseq_acc = 'NC_038308.1'
-refseq_assembly = 'GCF_002816725.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_038308.1'
+#refseq_assembly = 'GCF_002816725.1'
+ref_fasta = './trees/enterovirus_D68/treetime_rerooted_NC_038308.1.fa'
+ref_gbff = './trees/enterovirus_D68/treetime_rerooted_NC_038308.1.gbff'
 taxonomy_id = '3428506'
 nextclade_dataset = 'enpen/enterovirus/ev-d68'
 nextclade_clade_columns = ''

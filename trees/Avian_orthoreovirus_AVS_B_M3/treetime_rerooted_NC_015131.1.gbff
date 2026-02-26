@@ -1,0 +1,97 @@
+LOCUS       rerooted_NC_015131.1      1996 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_015131.1.
+ACCESSION   rerooted_NC_015131.1
+VERSION     rerooted_NC_015131.1
+KEYWORDS    RefSeq.
+SOURCE      Avian orthoreovirus
+  ORGANISM  Avian orthoreovirus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus avis.
+REFERENCE   1
+  AUTHORS   Banyai,K., Dandar,E., Dorsey,K.M., Mato,T. and Palya,V.
+  TITLE     The genomic constellation of a novel avian orthoreovirus strain
+            associated with runting-stunting syndrome in broilers
+  JOURNAL   Virus Genes 42 (1), 82-89 (2011)
+   PUBMED   21116842
+REFERENCE   2  (bases 1 to 1996)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1996)
+  AUTHORS   Banyai,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-SEP-2010) Banyai K., Hungarian Academy of Sciences,
+            Veterinary Medical Research Institute, Hungaria krt. 21., Budapest,
+            H-1143, HUNGARY
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to FR694196.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1996
+                     /organism="Avian orthoreovirus"
+                     /mol_type="genomic RNA"
+                     /strain="AVS-B"
+                     /db_xref="taxon:38170"
+                     /segment="M3"
+                     /geo_loc_name="USA"
+     gene            25..1932
+                     /gene="mu-NS"
+                     /locus_tag="AOrVsM3_gpp1"
+                     /db_xref="GeneID:10220427"
+     CDS             25..1932
+                     /gene="mu-NS"
+                     /locus_tag="AOrVsM3_gpp1"
+                     /codon_start=1
+                     /product="mu-NS protein"
+                     /protein_id="YP_004226526.1"
+                     /db_xref="GeneID:10220427"
+                     /translation="MASTKWGDKPMSLSMSHDGSSIRSAASQFLSVPLSHSTPIPPQRK
+                     TVLLKFMIGDDLVTVQGALAPFDEYWYDNQPLLSQAVELLASEDRLRQFEHYEKFLLKK
+                     GHQITEIMNRLRLFFTDVLKVKMEADALPSLAQYLMAGTLDAVSTAHAPDACVPVTSKI
+                     VAKQQTISKSPGRLDEEEYNVIRSRFLTHEVFDLTSDLPGVQPFMDMYYATVPRADSTG
+                     WCVYRRKGLLIHAPDEQFSDLTIFSTRLTASRELQLVAGDVVVACFDLMDVSDIAPSHH
+                     ASVQEERTLGTSRYSNVTANDHPLVFFSPNALRWAIDHACTDSLISTRNIRVCVGIDPL
+                     VTRWTRDGVQEAAILMDDKLPSAGRARMALRTLLLARRSPMPSFLLGALKQSGGQLMEH
+                     YRCDAANRYGSPTVPVSHPPPCSKCPELKEQIAKLSSSPTPKVDSSAGPAVLLSKIADL
+                     QRANRELSLKLVDVQPAREDHLLAYLNEHVCVNAKDHEKGLLARCNVSSDSISSILGQR
+                     VKNRERFETRLRQEASAEWEPRVEALNQELAKARVEQQDMMTQSLQYLNERDELLHEVD
+                     ELKRELATLRSANVRLNADNHRMSRATRVGDAFVSDVEPLPSGIPGESKPSMEELVDDL
+                     *"
+ORIGIN
+        1 gctttttgag tcctagcgtg gatcatggcg tcaaccaagt ggggagacaa gccgatgtcg
+       61 ctctcaatgt ctcacgatgg atcatctatc cgcagtgctg cctcacaatt tttgtcggtt
+      121 cccctgtctc actcaacgcc tatcccacct caacggaaga ctgtgctgct gaagtttatg
+      181 attggtgatg acctggttac cgttcagggt gctctcgctc cgtttgacga gtattggtat
+      241 gataatcagc ccctgctgtc tcaggctgtt gagctgcttg cctctgagga tcgtttgcgt
+      301 caatttgagc attatgagaa atttctactt aagaaaggtc atcaaataac tgagatcatg
+      361 aacaggctac gtctcttctt cactgacgtt ctcaaagtga agatggaagc tgacgcttta
+      421 ccttctctag ctcaatatct gatggctgga accttggatg ccgtctctac cgctcatgca
+      481 cctgatgctt gcgtcccagt cacctcaaag atcgtagcta agcagcagac tatttctaaa
+      541 tctcctggac gtctcgatga ggaggagtat aatgttattc gatcacgttt cctcacgcat
+      601 gaagtctttg acttaacgtc cgatttaccc ggagtgcaac cgttcatgga catgtactat
+      661 gccaccgttc cccgtgctga ttctacagga tggtgcgtgt atcgtcgaaa gggtttgctt
+      721 attcacgctc ctgatgagca attctcggat ctgactatct tctccacacg tcttacggca
+      781 tcacgtgagt tacagcttgt ggctggagat gtcgtcgtag cttgctttga tcttatggac
+      841 gtctctgaca ttgctccatc tcatcatgca tcagtgcaag aggaacgtac tctcgggacc
+      901 agtaggtatt cgaatgtaac ggctaatgat catcctttgg tattcttctc acccaatgcg
+      961 ctccgttggg caattgatca tgcctgtact gattccttga tttctactcg gaatattcgt
+     1021 gtttgtgttg gcatcgaccc cttggtaact cgatggaccc gcgatggcgt gcaagaggct
+     1081 gctattctca tggatgacaa gctaccctca gcaggtcgtg ctcgtatggc tctgcgaaca
+     1141 ttgcttctcg ctcgtcgttc accaatgcca tccttcttac tcggtgcgct aaagcagtca
+     1201 ggtggtcagc taatggagca ctaccgatgt gacgcggcta acagatacgg atcgcccacc
+     1261 gttccggtct ctcaccctcc accatgctca aagtgtcctg agctaaagga acaaatcgcc
+     1321 aagctctcgt catcgcctac acccaaagtc gactcgtctg ctggtccagc cgtactgctg
+     1381 tctaaaattg ctgacctcca gcgtgctaat agagaactgt cactgaaact agtggatgtt
+     1441 caacctgctc gggaagatca cctgttggct tatctcaatg agcacgtgtg cgtgaacgct
+     1501 aaagatcatg agaaaggtct gctcgctcgt tgtaacgtat ctagtgattc aatctcctct
+     1561 atccttggcc agcgtgtgaa gaatcgtgaa aggtttgaaa ctcgactgcg tcaggaggct
+     1621 agtgctgagt gggaaccccg tgtggaagcg ttaaaccaag agttggctaa agcgcgtgtt
+     1681 gagcagcagg acatgatgac tcaatcccta cagtacctaa acgagcgtga tgaactgctc
+     1741 cacgaagtgg atgagcttaa gcgtgaactg gctaccctgc gttccgctaa tgtgagattg
+     1801 aatgctgata accatcggat gagtcgtgcg actcgtgttg gagatgcttt cgtcagtgac
+     1861 gtcgagcctc taccctctgg catacctggt gaatcgaaac catctatgga agaattggtg
+     1921 gatgatctgt gagctttgac ctgtgactcg acttctctct gattccatgt acccacggcg
+     1981 gactcggtta ttcatc
+//

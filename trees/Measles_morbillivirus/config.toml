@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001498.1, taxonomy ID 3052345
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001498.1'
-refseq_assembly = 'GCF_000854845.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001498.1'
+#refseq_assembly = 'GCF_000854845.1'
+ref_fasta = './trees/Measles_morbillivirus/treetime_rerooted_NC_001498.1.fa'
+ref_gbff = './trees/Measles_morbillivirus/treetime_rerooted_NC_001498.1.gbff'
 taxonomy_id = '3052345'
 nextclade_dataset = 'nextstrain/measles/genome/WHO-2012'
 nextclade_clade_columns = 'clade'

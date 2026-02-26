@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_074955.1, taxonomy ID 1678143
 
-viral_usher_version = '0.8.0'
-refseq_acc = 'NC_074955.1'
-refseq_assembly = 'GCF_002826225.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_074955.1'
+#refseq_assembly = 'GCF_002826225.1'
+ref_fasta = './trees/Paslahepevirus_balayani_NC_074955_1/treetime_rerooted_NC_074955.1.fa'
+ref_gbff = './trees/Paslahepevirus_balayani_NC_074955_1/treetime_rerooted_NC_074955.1.gbff'
 taxonomy_id = '1678143'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

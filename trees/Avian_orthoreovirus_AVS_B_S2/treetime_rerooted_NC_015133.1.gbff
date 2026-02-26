@@ -1,0 +1,82 @@
+LOCUS       rerooted_NC_015133.1      1324 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_015133.1.
+ACCESSION   rerooted_NC_015133.1
+VERSION     rerooted_NC_015133.1
+KEYWORDS    RefSeq.
+SOURCE      Avian orthoreovirus
+  ORGANISM  Avian orthoreovirus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus avis.
+REFERENCE   1
+  AUTHORS   Banyai,K., Dandar,E., Dorsey,K.M., Mato,T. and Palya,V.
+  TITLE     The genomic constellation of a novel avian orthoreovirus strain
+            associated with runting-stunting syndrome in broilers
+  JOURNAL   Virus Genes 42 (1), 82-89 (2011)
+   PUBMED   21116842
+REFERENCE   2  (bases 1 to 1324)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2011) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1324)
+  AUTHORS   Banyai,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-SEP-2010) Banyai K., Hungarian Academy of Sciences,
+            Veterinary Medical Research Institute, Hungaria krt. 21., Budapest,
+            H-1143, HUNGARY
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to FR694198.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1324
+                     /organism="Avian orthoreovirus"
+                     /mol_type="genomic RNA"
+                     /strain="AVS-B"
+                     /db_xref="taxon:38170"
+                     /segment="S2"
+                     /geo_loc_name="USA"
+     gene            16..1266
+                     /gene="sigma-A"
+                     /locus_tag="AOrvsS2_gpp1"
+                     /db_xref="GeneID:10220431"
+     CDS             16..1266
+                     /gene="sigma-A"
+                     /locus_tag="AOrvsS2_gpp1"
+                     /codon_start=1
+                     /product="sigma-A protein"
+                     /protein_id="YP_004226528.1"
+                     /db_xref="GeneID:10220431"
+                     /translation="MARAVYDFFSTPFGNRGLATNRTQLSSLLSSSNSPWQRFLSSMTP
+                     LTAPGIVSTPEAPYPGSLLYQESMLHSATVPGVLGNRDAWRTFNVFGFSWTDEGLSGLV
+                     AAQDPPPAAPYQPVSAQWSDLLNYPRWANRRRELQSKYPLLLRSTLLSAMRAGPVLYVE
+                     TWPNMISGRLADWFMSQYGNNFVDMCARLTQSCTNMPVEPDGNYDQQMRALISLWLLSY
+                     IGVVNQTNTISGFYFSSKTRGQALDSWTLFYATNTNRVQITQRHFAYVCARSPDWNVDK
+                     SWIAAANLTAIVMACRQPPMFANQGVINQAQNRPGFSMNGGTPVHELNLLTTAQDCIRQ
+                     WVVAGLVSAAKGQALTQEANDFSNLIQADLGQIKAQDDALYNQQPGYARSIKPFVNGDW
+                     TPGMTAQALAVLATFTV*"
+ORIGIN
+        1 gctttttctc ccacgatggc gcgtgccgta tacgacttct tttctacgcc tttcgggaat
+       61 cgtggtctag cgacaaatcg tactcaactg tcatcactac tatcaagctc gaattcccca
+      121 tggcaacgat ttctatcatc aatgactcca ttgactgcgc caggcattgt ttcaacacct
+      181 gaagcaccct atccgggctc gttgttgtat caagagtcca tgcttcacag tgctactgtc
+      241 cctggagtac taggtaatcg tgatgcttgg cgaactttca acgtcttcgg attttcatgg
+      301 actgatgaag gtctgtcagg actggtagct gctcaagatc ctcctcccgc tgctccatat
+      361 caaccagttt ctgcccagtg gtctgatctc ctcaactacc ctcgatgggc gaacagacgt
+      421 cgtgagttac agtctaaata cccgcttctg ctccgatcta cgctgctttc tgccatgcga
+      481 gctggtcctg ttctgtacgt tgagacatgg cccaacatga tttcaggtcg actggctgac
+      541 tggttcatgt cccaatatgg caacaatttc gttgacatgt gtgcacggtt gacgcagtct
+      601 tgtacgaata tgcctgttga gcctgatgga aattatgatc agcagatgcg tgctttaatt
+      661 agtctgtggc ttctctcata cattggggta gtgaatcaga ctaacactat cagcggcttc
+      721 tacttctctt cgaagactcg gggtcaggct ctggacagtt ggaccctgtt ctatgctaca
+      781 aacaccaatc gtgttcagat tacacagaga cacttcgctt acgtgtgtgc acggtctcct
+      841 gattggaacg ttgataagtc ttggatcgcc gcggccaatt tgactgctat tgtcatggct
+      901 tgccgtcaac cgccaatgtt tgccaaccaa ggcgtaatca accaagcgca gaaccgacct
+      961 ggattttcca tgaatggggg aacgcctgtc catgagctca atctgctgac taccgcgcaa
+     1021 gattgcatcc ggcagtgggt ggtggctggt ttggtctcag cagcgaaggg acaagcacta
+     1081 acgcaggagg ctaatgactt ctcgaacctc atccaagcgg atctggggca gatcaaggcg
+     1141 caggatgacg ctttgtacaa tcaacagcca ggttacgcaa gaagcatcaa accgttcgtt
+     1201 aacggtgact ggacaccagg tatgaccgcg caagctttgg ctgttctagc cacttttacc
+     1261 gtctaggcgt agggtcgtac gctgcccgag tccagccctc cggcagcacg tgggtgtatt
+     1321 catc
+//

@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_038810.1, taxonomy ID 3426587
 
-viral_usher_version = '0.8.0'
-refseq_acc = 'NC_038810.1'
-refseq_assembly = 'GCF_002867695.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_038810.1'
+#refseq_assembly = 'GCF_002867695.1'
+ref_fasta = './trees/Cardamom_bushy_dwarf_virus_NC_038810_1/treetime_rerooted_NC_038810.1.fa'
+ref_gbff = './trees/Cardamom_bushy_dwarf_virus_NC_038810_1/treetime_rerooted_NC_038810.1.gbff'
 taxonomy_id = '3426587'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

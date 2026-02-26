@@ -1,0 +1,81 @@
+LOCUS       rerooted_NC_006022.1      1156 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_006022.1.
+ACCESSION   rerooted_NC_006022.1
+VERSION     rerooted_NC_006022.1
+KEYWORDS    RefSeq; VP7 gene.
+SOURCE      Bluetongue virus
+  ORGANISM  Bluetongue virus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus
+            caerulinguae.
+REFERENCE   1  (bases 1 to 1156)
+  AUTHORS   Yu,Y., Fukusho,A., Ritter,D.G. and Roy,P.
+  TITLE     Complete nucleotide sequence of the group-reactive antigen VP7 gene
+            of bluetongue virus
+  JOURNAL   Nucleic Acids Res. 16 (4), 1620 (1988)
+   PUBMED   2831505
+REFERENCE   2  (bases 1 to 1156)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1156)
+  AUTHORS   Yado,Y., Fukusho,A., Ritter,D.G. and Roy,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JAN-1988) Marshall J.J.A., Institute of Virology,
+            Mansfield Rd., Oxford, Oxon England OX1 3SR
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from X06463.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1156
+                     /organism="Bluetongue virus"
+                     /mol_type="genomic RNA"
+                     /strain="serotype 10"
+                     /db_xref="taxon:40051"
+                     /segment="7"
+                     /note="segment S7"
+     gene            18..1067
+                     /locus_tag="BTVs7gp1"
+                     /db_xref="GeneID:2943155"
+     CDS             18..1067
+                     /locus_tag="BTVs7gp1"
+                     /codon_start=1
+                     /product="VP7"
+                     /protein_id="YP_052967.1"
+                     /db_xref="GOA:P69361"
+                     /db_xref="InterPro:IPR000276"
+                     /db_xref="InterPro:IPR001803"
+                     /db_xref="InterPro:IPR008935"
+                     /db_xref="PDB:1BVP"
+                     /db_xref="UniProtKB/Swiss-Prot:P69361"
+                     /db_xref="GeneID:2943155"
+                     /translation="MDTIAARALTVMRACATLQEARIVLEANVMEILGIAINRYNGLTL
+                     RGVTMRPTSLAQRNEMFFMCLDMMLSAAGINVGPISPDYTQHMATIGVLATPEIPFTTE
+                     AANEIARVTGETSTWGPARQPYGFFLETEETYQPGRWFMRAAQAVTAVVCGPDMIQVSL
+                     NAGARGDVQQIFQGRNDPMMIYLVWRRIENFAMAQGNSQQTQAGVTVSVGGVDMRAGRI
+                     IAWDGQAALHVHNPTQQNAMVQIQVVFYISMDKTLNQYPALTAEIFNVYSFRDHTWHGL
+                     RTAILNRTTLPNMLPPIFPPNDRDSILTLLLLSTLADVYTVLRPEFAIHGVNPMPGPLT
+                     RAIARAAYV*"
+ORIGIN
+        1 gttaaaaatc tctagagatg gacactatcg cagcaagagc gctcactgta atgcgggcat
+       61 gtgccacgtt acaagaagca agaattgttt tagaggcaaa tgtgatggaa atattaggaa
+      121 tagcaatcaa tagatataat ggattaactt tacgtggagt tacgatgaga ccaacttcat
+      181 tagctcaaag aaatgaaatg ttttttatgt gtttagatat gatgctatca gcagctggaa
+      241 tcaatgttgg cccaatttca cctgactata cccaacatat ggctacaata ggtgtgctag
+      301 cgacgcctga gatacctttc acaactgagg cagcgaatga gattgctcgt gttactggag
+      361 agacttcaac gtggggacca gcgcgtcagc cctatggttt tttccttgaa actgaagaga
+      421 cttaccaacc tggaagatgg tttatgcgag ctgctcaagc tgttactgca gtggtttgtg
+      481 gaccggatat gattcaagtg tcactgaatg caggcgcgag aggtgatgtg cagcagatat
+      541 ttcaaggtcg caatgatccc atgatgattt atttagtttg gagacggatc gagaatttcg
+      601 ctatggcgca aggtaactca cagcaaactc aagcaggtgt gactgttagc gttggtggag
+      661 tggacatgag ggcgggacgt attatagcgt gggatggaca ggccgctcta catgtgcata
+      721 atcctacaca acagaatgcg atggttcaga tacaagttgt gttttacatt tcaatggata
+      781 agactttaaa ccaatacccc gctttgactg ctgaaatctt taatgtttat agcttcagag
+      841 atcacacatg gcatggattg aggacggcta tactaaacag aactacactg ccaaatatgc
+      901 tgccacctat ctttccacca aatgatcggg atagtatcct aactctttta cttttgtcta
+      961 cgcttgctga tgtttatact gttttgagac ctgagtttgc aatccatggc gtaaatccaa
+     1021 tgcctgggcc gctcacacgt gctattgcac gcgccgccta tgtgtagtcc actttgcacg
+     1081 ggtgtgggtt acatatgcgg tgtgtcggtt gtgggaaata tgtgacccat tcaaacgtct
+     1141 cttagattac acttac
+//

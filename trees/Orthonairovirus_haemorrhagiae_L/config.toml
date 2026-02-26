@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_005301.3, taxonomy ID 3052518
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_005301.3'
-refseq_assembly = 'GCF_000854165.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_005301.3'
+#refseq_assembly = 'GCF_000854165.1'
+ref_fasta = './trees/Orthonairovirus_haemorrhagiae_L/treetime_rerooted_NC_005301.3.fa'
+ref_gbff = './trees/Orthonairovirus_haemorrhagiae_L/treetime_rerooted_NC_005301.3.gbff'
 taxonomy_id = '3052518'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

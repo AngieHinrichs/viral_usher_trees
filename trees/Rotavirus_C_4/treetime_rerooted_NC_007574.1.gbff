@@ -1,0 +1,102 @@
+LOCUS       rerooted_NC_007574.1      2166 bp    ds-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_007574.1.
+ACCESSION   rerooted_NC_007574.1
+VERSION     rerooted_NC_007574.1
+KEYWORDS    RefSeq; guanylyltransferase; VP3 gene.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus; Rotavirus
+            tritogastroenteritidis.
+REFERENCE   1
+  AUTHORS   Samarbaf-Zadeh,A.R., Lambden,P.R., Green,S.M., Deng,Y., Caul,E.O.
+            and Clarke,I.N.
+  TITLE     The VP3 gene of human group C rotavirus
+  JOURNAL   Virus Genes 13 (2), 169-173 (1996)
+   PUBMED   8972570
+REFERENCE   2  (bases 1 to 2166)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2166)
+  AUTHORS   Clarke,I.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAR-1996) I.N. Clarke, Dept of Molecular Microbiology,
+            University Medical School, Southampton Gerneral Hospital,
+            Southampton, SO16 6YD, UK
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from X96697.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2166
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /db_xref="taxon:36427"
+                     /segment="4"
+     gene            1..2166
+                     /gene="VP3"
+                     /locus_tag="HRCV_s4gp1"
+                     /db_xref="GeneID:3773133"
+     CDS             55..2136
+                     /gene="VP3"
+                     /locus_tag="HRCV_s4gp1"
+                     /codon_start=1
+                     /product="guanylyltransferase"
+                     /protein_id="YP_392516.1"
+                     /db_xref="GOA:Q82041"
+                     /db_xref="UniProtKB/TrEMBL:Q82041"
+                     /db_xref="GeneID:3773133"
+                     /translation="MRVLGLFERGNNLNFADTYVYTWNKQYSYHENAFLISNQVATTII
+                     IYLDDTNINQVNEAFELLNSNGIPALVIKPDHIGIFTSSNFTYDWQNKIVYFHEYTYYK
+                     NNEFIVSDEFWLHTNIQELLPYKILFFERGMRKLYDGEEYILYNTATDDDILYKYIYEK
+                     DMIMSGNDYSKLYDNKSFKNFVHFMRLLRMRFAVPFDQLSNRITRSRVFAKSKIHIGLR
+                     NESIPQALDNINSHWINYSANGIRISELKGSGSYSEKKISEFDIGQFKNYMNFLTLMFY
+                     IKNMKKKPSCTIIGAAPGYWIPSMKKYFTIVTYDDKKVDSTEHHNRYFTDDDIASVRTN
+                     GVYIDVRSDFKKNDWKKRRQLVEEETIRWLNITYKLLENKHVEAVLLKMTAMDIEIPDG
+                     YFVHFPTTYRKSEYYILIDKQIVKKPKVKVTKSLAYNAINTIYSDNVFISGKYSLRGKT
+                     EGVLALYCLSNTINPKEKVIQYANSFSGTCMTVRLNNTYDLNKIIDFKTNADYTFLPSD
+                     FKCPVKTILTSYRGYAGVFGYAITKDLKSDGNNHIYIIPNARDEENFDTFASHLGLSRY
+                     SHSKRFSESATTMSGYLFRDMVSGKENMEDTDTENFASGHVFNAIAHYRFDYTYDIVGW
+                     LRLHKMGQFKVKSNIYDKHTDDEIRNAIEAAYVYYLLDGDKVGKEYAKRIMEIWDVQM*
+                     "
+ORIGIN
+        1 ggcaaaaaaa gcccaacacg caatgcgttc attgcaatcc agttcactga tgcaatgagg
+       61 gtattggggc tttttgaacg cgggaataat ctgaactttg cagatacata tgtatataca
+      121 tggaataaac aatactcata tcatgaaaat gcattcttaa tttcaaatca agtagctacc
+      181 acaattataa tatatctaga tgatacaaac ataaaccaag tcaatgaagc atttgaactt
+      241 ttgaattcaa atggtatacc agcgcttgta attaaacctg atcatattgg aatatttaca
+      301 tcatcaaatt ttacatatga ttggcaaaat aaaattgtat attttcatga gtatacatat
+      361 tataaaaata atgaatttat tgtaagtgat gaattctggt tacatactaa tatacaagaa
+      421 ttattgccat ataaaatttt attttttgaa cgtggaatga gaaaattata tgatggtgaa
+      481 gaatatatat tatataatac tgcaactgat gatgacattt tatataaata tatttatgaa
+      541 aaagatatga taatgtctgg taatgattat tctaaattat atgataataa aagttttaaa
+      601 aatttcgtac attttatgag attactacga atgcggtttg cagtaccatt tgatcaatta
+      661 tcaaatagaa tcacacgatc gcgagttttc gctaaaagta aaatacacat tggattgaga
+      721 aatgagtcaa ttccacaagc attagataat ataaactcac attggataaa ttattcagca
+      781 aatggaataa gaatttcaga actgaaagga tcaggaagtt actctgaaaa aaagattagt
+      841 gaatttgata ttggacaatt taaaaattac atgaattttc ttactttaat gttttatatt
+      901 aaaaatatga aaaagaaacc atcatgtaca ataattggag cagctccagg ttattggata
+      961 ccatcaatga aaaaatattt tactatagta acttatgatg ataaaaaagt tgatagtaca
+     1021 gaacatcata atcgatattt cacagatgat gatattgcaa gtgtaagaac gaatggagtt
+     1081 tatatagatg ttagatcaga ttttaaaaaa aatgattgga aaaagagaag acaactagta
+     1141 gaagaagaaa cgatacgatg gctgaatata acatataaat tattggaaaa taaacatgta
+     1201 gaagcagttt tattgaaaat gacggcaatg gatatagaga taccagatgg atattttgtg
+     1261 catttcccaa ctacatatag aaaaagtgag tattatatat taattgataa acaaattgta
+     1321 aaaaaaccaa aagttaaagt cactaaatca ttagcttata atgcaataaa tacaatatac
+     1381 tctgataatg ttttcatttc agggaaatat tcattaagag gaaaaactga aggagtatta
+     1441 gcattatatt gtttatcaaa tacaataaat ccaaaagaga aagtaataca atacgcaaat
+     1501 tcattttcag gaacatgtat gacagtaaga ttaaacaata catatgatct aaataaaatt
+     1561 attgatttta aaacaaatgc tgattataca tttttaccat cagatttcaa atgtccagtc
+     1621 aaaacaatat tgacatcata tagaggatac gctggtgtat ttggctatgc aataacaaaa
+     1681 gatttgaaat cggatggaaa caatcatatt tatatcattc caaatgcaag agatgaagaa
+     1741 aattttgata ctttcgcatc acatttagga ttatcaagat attcacattc aaaaaggttt
+     1801 tcagagtcag caacaactat gtcaggatat ttatttagag atatggttag tggaaaagag
+     1861 aatatggaag atactgatac agaaaatttt gcttctggac atgtttttaa tgcaatagca
+     1921 cattatagat ttgattatac atatgatata gtaggatggc ttagactaca taagatggga
+     1981 caatttaaag ttaaatcaaa tatatatgat aaacatactg atgatgaaat acggaatgct
+     2041 attgaagctg cttatgtata ttatttatta gatggtgata aagttggtaa ggagtatgca
+     2101 aagagaataa tggagatctg ggatgttcag atgtgaggct aaacacctct accgtatgat
+     2161 gtggct
+//

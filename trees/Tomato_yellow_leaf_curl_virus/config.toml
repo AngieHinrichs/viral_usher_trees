@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_004005.1, taxonomy ID 3426741
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_004005.1'
-refseq_assembly = 'GCF_000858205.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_004005.1'
+#refseq_assembly = 'GCF_000858205.1'
+ref_fasta = './trees/Tomato_yellow_leaf_curl_virus/treetime_rerooted_NC_004005.1.fa'
+ref_gbff = './trees/Tomato_yellow_leaf_curl_virus/treetime_rerooted_NC_004005.1.gbff'
 taxonomy_id = '3426741'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

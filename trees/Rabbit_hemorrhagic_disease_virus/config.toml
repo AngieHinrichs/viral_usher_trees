@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001543.1, taxonomy ID 3430318
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001543.1'
-refseq_assembly = 'GCF_000861285.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001543.1'
+#refseq_assembly = 'GCF_000861285.1'
+ref_fasta = './trees/Rabbit_hemorrhagic_disease_virus/treetime_rerooted_NC_001543.1.fa'
+ref_gbff = './trees/Rabbit_hemorrhagic_disease_virus/treetime_rerooted_NC_001543.1.gbff'
 taxonomy_id = '3430318'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

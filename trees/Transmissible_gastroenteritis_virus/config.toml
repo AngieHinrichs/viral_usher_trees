@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_038861.1, taxonomy ID 3433814
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_038861.1'
-refseq_assembly = 'GCF_002985995.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_038861.1'
+#refseq_assembly = 'GCF_002985995.1'
+ref_fasta = './trees/Transmissible_gastroenteritis_virus/treetime_rerooted_NC_038861.1.fa'
+ref_gbff = './trees/Transmissible_gastroenteritis_virus/treetime_rerooted_NC_038861.1.gbff'
 taxonomy_id = '3433814'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

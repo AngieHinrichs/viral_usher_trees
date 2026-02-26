@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_012532.1, taxonomy ID 3048459
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_012532.1'
-refseq_assembly = 'GCF_000882815.3'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_012532.1'
+#refseq_assembly = 'GCF_000882815.3'
+ref_fasta = './trees/Zika_virus_MR_766/midpoint_rerooted_NC_012532.1.fa'
+ref_gbff = './trees/Zika_virus_MR_766/midpoint_rerooted_NC_012532.1.gbff'
 taxonomy_id = '3048459'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

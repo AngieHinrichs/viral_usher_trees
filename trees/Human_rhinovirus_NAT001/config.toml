@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_038878.1, taxonomy ID 3428504
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_038878.1'
-refseq_assembly = 'GCF_002816885.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_038878.1'
+#refseq_assembly = 'GCF_002816885.1'
+ref_fasta = './trees/Human_rhinovirus_NAT001/treetime_rerooted_NC_038878.1.fa'
+ref_gbff = './trees/Human_rhinovirus_NAT001/treetime_rerooted_NC_038878.1.gbff'
 taxonomy_id = '3428504'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

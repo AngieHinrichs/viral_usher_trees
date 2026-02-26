@@ -1,0 +1,91 @@
+LOCUS       rerooted_NC_006501.1      1787 bp    cRNA    linear   VRL 08-MAR-2022
+DEFINITION  rerooted_NC_006501.1.
+ACCESSION   rerooted_NC_006501.1
+VERSION     rerooted_NC_006501.1
+KEYWORDS    RefSeq.
+SOURCE      Isavirus salaris
+  ORGANISM  Isavirus salaris
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Isavirus.
+REFERENCE   1  (bases 1 to 1787)
+  AUTHORS   Clouthier,S.C., Rector,T., Brown,N.E. and Anderson,E.D.
+  TITLE     Genomic organization of infectious salmon anaemia virus
+  JOURNAL   J. Gen. Virol. 83 (Pt 2), 421-428 (2002)
+   PUBMED   11807235
+REFERENCE   2  (bases 1 to 1787)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1787)
+  AUTHORS   Clouthier,S.C., Rector,T., Brown,N.E. and Anderson,E.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2001) Biochemistry, Microbiology and Molecular
+            Biology, University of Maine, 5735 Hitchner Hall, Orono, ME 04469,
+            USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF404344.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1787
+                     /organism="Isavirus salaris"
+                     /mol_type="viral cRNA"
+                     /isolate="CCBB"
+                     /db_xref="taxon:55987"
+                     /segment="4"
+                     /geo_loc_name="Canada"
+     gene            5..1741
+                     /gene="P2"
+                     /locus_tag="ISAVs4gp1"
+                     /db_xref="GeneID:71004594"
+     CDS             5..1741
+                     /gene="P2"
+                     /locus_tag="ISAVs4gp1"
+                     /codon_start=1
+                     /product="putative PA protein"
+                     /protein_id="YP_145802.1"
+                     /db_xref="GeneID:71004594"
+                     /translation="MDNLRECINRKRRLLALPDVPETSDAFLSDLRHLYMCVAFCDQHK
+                     TTGDESRFTNLELLDQDEALGAQRAFEAKHGIKGGSLGDVLDHELKKVIEFTFTSGSLY
+                     IAEQRKRKTQADSIIVCVSEGLNDFSVSHGVLDMGLVETGVNAVRDFCTQNGIPMKINQ
+                     VGSTRTPTPISTCNISEQITRQINSTITERKMETVLAAIAIKPELKXTQKGCXXCKELE
+                     DENVLWMDPQFCEIDESFPYRGGPYGNFLQELLLTTNDVETNGKDREEVVKXILDNKAF
+                     TVESGECIITLPDKMTCFGEQEKKRPATIDEVRAAGERFEQSVKPKTQRYGRLSDKWME
+                     LEKFIFTASKTEVDTFLSVGTERLESIGVCVGALHRATTTRIIRPMIQGGKCWGMMFKT
+                     KSKMGDTRKEGYCHAIIFGKGEDKSGQNKMTMMGKTVHWHLRVVKSKGDWMAQQLCANK
+                     SRIWQHDPELVTEGVTVLMTPFSQKIATISRWRAMRLDSMFHVSSAWHHSPACEAASAM
+                     LRKFVEIVHAINQKRDWGVVGSMEDMVKEVEEIGEHLQTACDFRVYNXCKALIQKIAVS
+                     TQ*"
+ORIGIN
+        1 caagatggat aacctccgtg aatgcataaa ccgcaaaaga agactacttg cattaccaga
+       61 tgttcctgaa acttcggatg cctttctaag tgatttgaga catctataca tgtgtgttgc
+      121 tttttgtgat caacacaaaa ccactggaga cgaatcaaga ttcaccaacc tggaattact
+      181 tgaccaagat gaagcactag gtgcccaaag agcttttgaa gccaaacatg gaataaaagg
+      241 aggttcttta ggagacgttc ttgaccatga actgaaaaag gtcattgaat ttacttttac
+      301 ttctggaagt ttgtatattg ccgaacaaag aaaaagaaag actcaagcag actcaataat
+      361 tgtgtgcgtt tcagaaggac ttaacgactt cagcgtatca catggagtgc tagacatggg
+      421 actagtggaa acaggggtga atgcagtaag agatttctgc acacaaaacg gaataccaat
+      481 gaagataaat caggtaggat ccacgagaac accaacaccg atcagcacat gcaatatctc
+      541 tgaacaaata acacgacara taaacagcac aattactgaa aggaaaatgg aaacagtact
+      601 ggcagcaatc gcaattaaac cagaactcaa ayyaactcag aaaggatgca gmmcttgtaa
+      661 agaactagaa gatgaaaatg ttctgtggat ggaccctcaa ttctgtgaaa ttgatgaaag
+      721 ttttccttac agaggagggc catacgggaa cttcctgcaa gaattgctgc ttacaaccaa
+      781 cgacgtagag accaacggga aagacagaga agaagtagta aagaasatac tggataacaa
+      841 ggcgttcacc gttgaaagtg gcgaatgcat aataacactt ccagacaaaa tgacttgttt
+      901 cggagaacar gagaagaaga gaccagcaac aatagacgag gtgagagccg caggagagag
+      961 gtttgaacag agtgttaaac cgaaaactca aagatatgga aggttatcag acaaatggat
+     1021 ggagcttgaa aagtttatct ttactgcaag caaaacagaa gtggatactt tcctttctgt
+     1081 agggaccgaa agacttgagt cgattggagt gtgtgtcgga gctttacaca gagcgaccac
+     1141 aaccaggata attagaccta tgatacaagg agggaaatgt tggggaatga tgttcaaaac
+     1201 aaagtccaaa atgggagaca cgaggaagga aggatactgc catgcaatca ttttcggaaa
+     1261 aggggaagat aaatcaggac aaaacaagat gacaatgatg gggaaaacag tacattggca
+     1321 tctaagagta gttaagtcta aaggagactg gatggcacaa caactctgtg caaacaaaag
+     1381 cagaatatgg caacatgacc ctgagctagt aacagaagga gtgacagttc taatgacacc
+     1441 tttttcacag aaaattgcaa ccattagtag atggagggca atgaggttag acagcatgtt
+     1501 tcatgtttct agtgcttggc atcattcacc tgcgtgtgaa gctgcatcag caatgctgag
+     1561 aaagtttgtg gagatagtac atgccatcaa ccagaaaaga gattggggtg ttgtggggag
+     1621 tatggaggac atggtgaagg aagtggaaga aataggggag cacttgcaga cggcatgtga
+     1681 ytttagagtt tacaacatkt gcaaagcctt gattcagaaa attgcagtca gtacccaatg
+     1741 agtggttgtt tacttgtaaa ttgttgtgtg tttgacgata tgtattt
+//

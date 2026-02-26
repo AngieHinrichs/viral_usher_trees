@@ -1,0 +1,75 @@
+LOCUS       rerooted_NC_011503.2      1062 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_011503.2.
+ACCESSION   rerooted_NC_011503.2
+VERSION     rerooted_NC_011503.2
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus; Rotavirus
+            alphagastroenteritidis.
+REFERENCE   1  (bases 1 to 1062)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 1062)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 1062)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838620.
+            On Oct 17, 2011 this sequence version replaced NC_011503.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1062
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="9"
+     gene            49..1029
+                     /gene="VP7"
+                     /db_xref="GeneID:7011359"
+     CDS             49..1029
+                     /gene="VP7"
+                     /note="capsid glycoprotein"
+                     /codon_start=1
+                     /product="VP7"
+                     /protein_id="YP_002302222.1"
+                     /db_xref="GeneID:7011359"
+                     /translation="MYGIEYTTILTFLISLVLLNYILKSITRIMDFIIYRFLFIIVILS
+                     PFIKAQNYGINLPITGSMDTAYANSTQEETFLTSTLCLYYPTEAATEITDNSWKDTLSQ
+                     LFLTKGWPTGSVYFKEYTDIASFSVDPQLYCDYNIVLMKYDATLQLDMSELADLILNEW
+                     LCNPMDITLYYYQQTDEANKWISMGSSCTIKVCPLNTQTLGIGCLTTDTTTFEEVATAE
+                     KLAITDVVDGVNHKLDVTTTTCTIRNCKKLGPRENVAVIQVGGSNILDITADPTTAPQT
+                     ERMMRINWKKWWQVFYTVVDYVNQIVQVMSKRSRSLNSAAFYYRV*"
+ORIGIN
+        1 ggctttaaaa gagagaattt ccgtttggct agcggttagc tccttttaat gtatggtatt
+       61 gaatatacca caattctaac ttttttgata tcgcttgttt tattgaatta tatattaaaa
+      121 tcaataacta gaataatgga ctttataatt tatagatttc tatttattat tgttatattg
+      181 tcaccattta ttaaagcaca aaattatgga attaatttac caataactgg atctatggat
+      241 actgcatatg cgaattcaac gcaagaagaa acatttctaa cttcaacatt atgtttatat
+      301 tatccaactg aagctgcaac tgaaattact gataattcat ggaaagatac actatcacaa
+      361 ttgtttctaa ctaaaggatg gccaactgga tcagtttatt ttaaagagta tacagatatt
+      421 gcatcttttt cagtagatcc acaattatat tgtgattata atatagtatt aatgaaatat
+      481 gatgcaactt tacaattaga tatgtcagaa ttagctgatt taatattaaa tgaatggtta
+      541 tgtaatccaa tggacataac attgtattat tatcaacaaa cagatgaagc taataaatgg
+      601 atatcaatgg gatcatcatg tacaattaaa gtatgtccat taaatacaca aactttagga
+      661 attggatgtt taactacaga tactacaaca tttgaagaag ttgcaacagc tgaaaaatta
+      721 gcaataactg atgttgttga tggagtaaat cataaactag atgttacaac aacaacatgt
+      781 actattagaa attgtaaaaa attaggacca agagaaaatg tagcagtaat acaagttggt
+      841 ggttctaata tacttgatat aacagctgat ccaactactg caccacaaac tgaaagaatg
+      901 atgcgaataa attggaaaaa atggtggcaa gtattttata ctgtagttga ttatgtaaat
+      961 caaatagtac aagtaatgtc caaaagatca agatcattaa attcagctgc tttttattat
+     1021 agagtttaga tatatcttag gttagaattg tatgatgtga cc
+//

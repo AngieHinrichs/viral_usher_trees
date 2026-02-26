@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001437.1, taxonomy ID 3048158
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001437.1'
-refseq_assembly = 'GCF_000862145.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001437.1'
+#refseq_assembly = 'GCF_000862145.1'
+ref_fasta = './trees/Japanese_encephalitis_virus/midpoint_rerooted_NC_001437.1.fa'
+ref_gbff = './trees/Japanese_encephalitis_virus/midpoint_rerooted_NC_001437.1.gbff'
 taxonomy_id = '3048158'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

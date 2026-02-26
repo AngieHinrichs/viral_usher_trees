@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_007455.1, taxonomy ID 3052040
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_007455.1'
-refseq_assembly = 'GCF_000866725.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_007455.1'
+#refseq_assembly = 'GCF_000866725.1'
+ref_fasta = './trees/Bocaparvovirus_primate1_st2/treetime_rerooted_NC_007455.1.fa'
+ref_gbff = './trees/Bocaparvovirus_primate1_st2/treetime_rerooted_NC_007455.1.gbff'
 taxonomy_id = '3052040'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

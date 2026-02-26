@@ -1,0 +1,286 @@
+LOCUS       rerooted_NC_003977.2      3182 bp    DNA     circular VRL 25-MAR-2021
+DEFINITION  rerooted_NC_003977.2.
+ACCESSION   rerooted_NC_003977.2
+VERSION     rerooted_NC_003977.2
+KEYWORDS    RefSeq; antigen; core antigen; genome; signal peptide.
+SOURCE      Hepatitis B virus
+  ORGANISM  Hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            hominoidei.
+REFERENCE   1  (bases 1 to 3182)
+  AUTHORS   Abraham,T.M. and Loeb,D.D.
+  TITLE     The topology of hepatitis B virus pregenomic RNA promotes its
+            replication
+  JOURNAL   J. Virol. 81 (21), 11577-11584 (2007)
+   PUBMED   17699570
+REFERENCE   2  (bases 1 to 3182)
+  AUTHORS   Chen,A., Kao,Y.F. and Brown,C.M.
+  TITLE     Translation of the first upstream ORF in the hepatitis B virus
+            pregenomic RNA modulates translation at the core and polymerase
+            initiation codons
+  JOURNAL   Nucleic Acids Res. 33 (4), 1169-1181 (2005)
+   PUBMED   15731337
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1773 to 2478)
+  AUTHORS   Borisova,G.P., Pumpen,P.P., Bychko,V.V., Pushko,P.M., Kalis,Y.V.,
+            Dishler,A.V., Gren,E.Y., Tsibinogin,V.V. and Kukain,R.A.
+  TITLE     Structure and expression of the gene of the core antigen of human
+            hepatitis B virus (HBV) in Escherichia coli cells
+  JOURNAL   Dokl. Biochem. 279, 386-390 (1985)
+REFERENCE   4  (bases 1 to 3182)
+  AUTHORS   Galibert,F., Mandart,E., Fitoussi,F., Tiollais,P. and Charnay,P.
+  TITLE     Nucleotide sequence of the hepatitis B virus genome (subtype ayw)
+            cloned in E. coli
+  JOURNAL   Nature 281 (5733), 646-650 (1979)
+   PUBMED   399327
+REFERENCE   5  (bases 1 to 3182)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-OCT-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence is identical to V01460.
+            On Oct 23, 2015 this sequence version replaced NC_003977.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3182
+                     /organism="Hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /strain="ayw"
+                     /db_xref="taxon:10407"
+     gene            join(2309..3182,1..1625)
+                     /gene="P"
+                     /locus_tag="HBVgp1"
+                     /db_xref="GeneID:944565"
+     CDS             join(2309..3182,1..1625)
+                     /gene="P"
+                     /locus_tag="HBVgp1"
+                     /note="reverse transcriptase; DNA polymerase; P protein; P;
+                     HP; protein P; polymerase with reverse; transcriptase and
+                     RNAses H activit"
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="YP_009173866.1"
+                     /db_xref="GeneID:944565"
+                     /translation="MPLSYQHFRRLLLLDDEAGPLEEELPRLADEGLNRRVAEDLNLGN
+                     LNVSIPWTHKVGNFTGLYSSTVPVFNPHWKTPSFPNIHLHQDIIKKCEQFVGPLTVNEK
+                     RRLQLIMPARFYPKVTKYLPLDKGIKPYYPEHLVNHYFQTRHYLHTLWKAGILYKRETT
+                     HSASFCGSPYSWEQDLQHGAESFHQQSSGILSRPPVGSSLQSKHRKSRLGLQSQQGHLA
+                     RRQQGRSWSIRAGFHPTARRPFGVEPSGSGHTTNFASKSASCLHQSPVRKAAYPAVSTF
+                     EKHSSSGHAVEFHNLPPNSARSQSERPVFPCWWLQFRNSKPCSDYCLSLIVNLLEDWGP
+                     CAEHGEHHIRIPRTPSRVTGGVFLVDKNPHNTAESRLVVDFSQFSRGNYRVSWPKFAVP
+                     NLQSLTNLLSSNLSWLSLDVSAAFYHLPLHPAAMPHLLVGSSGLSRYVARLSSNSRILN
+                     NQHGTMPDLHDYCSRNLYVSLLLLYQTFGRKLHLYSHPIILGFRKIPMGVGLSPFLLAQ
+                     FTSAICSVVRRAFPHCLAFSYMDDVVLGAKSVQHLESLFTAVTNFLLSLGIHLNPNKTK
+                     RWGYSLNFMGYVIGCYGSLPQEHIIQKIKECFRKLPINRPIDWKVCQRIVGLLGFAAPF
+                     TQCGYPALMPLYACIQSKQAFTFSPTYKAFLCKQYLNLYPVARQRPGLCQVFADATPTG
+                     WGLVMGHQRMRGTFSAPLPIHTAELLAACFARSRSGANIIGTDNSVVLSRKYTSFPWLL
+                     GCAANWILRGTSFVYVPSALNPADDPSRGRLGLSRPLLRLPFRPTTGRTSLYADSPSVP
+                     SHLPDRVHFASPLHVAWRPP"
+     gene            join(2850..3182,1..837)
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /db_xref="GeneID:944569"
+     CDS             join(2850..3182,1..837)
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /note="long surface protein; PreS1; L protein; LHBs; large
+                     S protein; pre-S1/pre-S2/S regions; L glycoprotein;
+                     L-HBsAG; LHBs"
+                     /codon_start=1
+                     /product="large envelope protein"
+                     /protein_id="YP_009173869.1"
+                     /db_xref="GeneID:944569"
+                     /translation="MGQNLSTSNPLGFFPDHQLDPAFRANTANPDWDFNPNKDTWPDAN
+                     KVGAGAFGLGFTPPHGGLLGWSPQAQGILQTLPANPPPASTNRQSGRQPTPLSPPLRNT
+                     HPQAMQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSIFSRIGDPALN
+                     MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCLGQNSQSPTSN
+                     HSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCPLIPGSSTTST
+                     GPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWASARFSWLSLLV
+                     PFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI"
+     CDS             join(3174..3182,1..837)
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /note="middle surface protein; PreS2; M protein; MHBs;
+                     middle S protein; pre-S2/S"
+                     /codon_start=1
+                     /product="middle envelope protein"
+                     /protein_id="YP_009173870.1"
+                     /db_xref="GeneID:944569"
+                     /translation="MQWNSTTFHQTLQDPRVRGLYFPAGGSSSGTVNPVLTTASPLSSI
+                     FSRIGDPALNMENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGTTVCL
+                     GQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGMLPVCP
+                     LIPGSSTTSTGPCRTCMTTAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFGKFLWEWAS
+                     ARFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYSILSPFLPLLPIFFCLWVYI
+                     "
+     CDS             157..837
+                     /gene="S"
+                     /locus_tag="HBVgp2"
+                     /note="small surface protein; S; HBs antigen; SHBs; S
+                     protein; S glycoprotein; S-HBsAg, SHB, small S protein; S
+                     gene product, putative"
+                     /codon_start=1
+                     /product="small envelope protein"
+                     /protein_id="YP_009173871.1"
+                     /db_xref="GeneID:944569"
+                     /translation="MENITSGFLGPLLVLQAGFFLLTRILTIPQSLDSWWTSLNFLGGA
+                     PVCLGQNSQSPTSNHSPTSCPPTCPGYRWMCLRRFIIFLFILLLCLIFLLVLLDYQGML
+                     PVCPLIPGSSTTSTGPCKTCTTPAQGTSMYPSCCCTKPSDGNCTCIPIPSSWAFAKFLW
+                     EWASVRFSWLSLLVPFVQWFVGLSPTVWLSVIWMMWYWGPSLYNILSPFLPLLPIFFCL
+                     WVYI*"
+     gene            1376..1840
+                     /gene="X"
+                     /locus_tag="HBVgp3"
+                     /db_xref="GeneID:944566"
+     CDS             1376..1840
+                     /gene="X"
+                     /locus_tag="HBVgp3"
+                     /note="X protein; HBx; X; HBx; peptide X; pX"
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="YP_009173867.1"
+                     /db_xref="GeneID:944566"
+                     /translation="MAARLCCQLDPARDVLCLRPVGAESRGRPVSGPLGALSSPSPSAV
+                     PADHGAHLSLRGLPVCAFSSAGPCALRFTSARRMETTVNAHQVLPKVLHKRTLGLSAMS
+                     TTDLEAYFKDCVFKDWEELGEEIRLKVFVLGGCRHKLVCSPAPCNFFTSA*"
+     misc_difference complement(1775)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     gene            1816..2454
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /db_xref="GeneID:944568"
+     CDS             1816..2454
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /note="precore; HBe antigen; PreC; HBeAg; precore protein;
+                     external core antigen; HBeAg; p25; precursor"
+                     /codon_start=1
+                     /product="pre-capsid protein"
+                     /protein_id="YP_009173857.1"
+                     /db_xref="GOA:P03146"
+                     /db_xref="InterPro:IPR002006"
+                     /db_xref="UniProtKB/Swiss-Prot:P03146"
+                     /db_xref="GeneID:944568"
+                     /translation="MQLFHLCLIISCSCPTVQASKLCLGWLWGMDIDPYKEFGATVELL
+                     SFLPSDFFPSVRDLLDTASALYREALESPEHCSPHHTALRQAILCWGELMTLATWVGSN
+                     LEDPASRELVVSYVNVNMGLKIRQLLWFHISCLTFGRETVLEYLVSFGVWIRTPPAYRP
+                     PNAPILSTLPETTVVRRRGRSPRRRTPSPRRRRSQSPRRRRSQSPASQC*"
+     sig_peptide     1816..1902
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /note="signal peptide (aa -29 to -1)"
+     mRNA            join(1820..3182,1..1932)
+                     /product="pgRNA"
+                     /note="pre-genomic RNA; encodes core and polymerase;
+                     template for reverse transcription"
+                     /citation=[1]
+     CDS             1903..2454
+                     /gene="C"
+                     /locus_tag="HBVgp4"
+                     /note="core; capsid; HBc antigen; C; core protein; core
+                     antigen; HBcAg; p21.5; C protein"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009173868.3"
+                     /db_xref="GeneID:944568"
+                     /translation="MDIDPYKEFGATVELLSFLPSDFFPSVRDLLDTASALYREALESP
+                     EHCSPHHTALRQAILCWGELMTLATWVGSNLEDPASRELVVSYVNVNMGLKIRQLLWFH
+                     ISCLTFGRETVLEYLVSFGVWIRTPPAYRPPNAPILSTLPETTVVRRRGRSPRRRTPSP
+                     RRRRSQSPRRRRSQSPASQC*"
+     misc_difference complement(1910)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(1913)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(1998..2000)
+                     /note="GGT(Thr) is GTT(Asn) in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2078)
+                     /note="A is T in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2081)
+                     /note="A is C in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2123)
+                     /note="AAC(Val) is ACC(Gly) in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2139..2141)
+                     /note="CGC(Ala) is TAT(Ile) in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2144)
+                     /note="A is G in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2147)
+                     /note="T is C in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2188)
+                     /note="C is T in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2201)
+                     /note="G is T in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2267)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+     misc_difference complement(2319)
+                     /note="G is A in ref[2]; conflict"
+                     /citation=[3]
+ORIGIN
+        1 aactccacaa cattccacca agctctgcaa gatcccagag tgaggggcct gtattttcct
+       61 gctggtggct ccagttcagg aacagtaaac cctgttccga ctactgcctc tcacatctcg
+      121 tcaatcttct cgaggattgg ggaccctgca ccgaacatgg agaacatcac atcaggattc
+      181 ctaggacccc tgctcgtgtt acaggcgggg tttttcttgt tgacaagaat cctcacaata
+      241 ccgcagagtc tagactcgtg gtggacttct ctcaattttc tagggggagc acccgtgtgt
+      301 cttggccaaa attcgcagtc cccaacctcc aatcactcac caacctcctg tcctccaact
+      361 tgtcctggtt atcgctggat gtgtctgcgg cgttttatca tcttcctctt catcctgctg
+      421 ctatgcctca tcttcttgtt ggttcttctg gactatcaag gtatgttgcc cgtttgtcct
+      481 ctaattccag gatcatcaac caccagcacg ggaccatgca aaacctgcac gactcctgct
+      541 caaggaacct ctatgtatcc ctcatgttgc tgtacaaaac cttcggacgg aaattgcacc
+      601 tgtattccca tcccatcatc ttgggctttc gcaaaattcc tatgggagtg ggcctcagtc
+      661 cgtttctcct ggctcagttt actagtgcca tttgttcagt ggttcgtagg gctttccccc
+      721 actgtttggc tttcagttat atggatgatg tggtattggg ggccaagtct gtacaacatc
+      781 ttgagtccct ttttaccgct gttaccaatt ttcttttgtc tttgggtata catttaaacc
+      841 ctaacaaaac aaaaagatgg ggttattccc taaatttcat gggatatgta attggaagtt
+      901 ggggtacatt accacaagaa catattatac agaaaatcaa acaatgtttt agaaaacttc
+      961 ctgttaacag gcctattgat tggaaagtat gtcaaagaat tgtgggtctt ttgggctttg
+     1021 ctgccccttt tacacaatgt ggttatcctg ccttaatgcc tttgtatgca tgtatacaag
+     1081 ctaagcaggc tttcactttc tcgccaactt acaaggcctt tctgtgtaaa caatatctga
+     1141 acctttaccc cgttgctcgg caacggccag gtctgtgcca agtgtttgct gacgcaaccc
+     1201 ccactggctg gggcttggcc ataggccatc agcgcatgcg tggaaccttt gtggctcctc
+     1261 tgccgatcca tactgcggaa ctcctagcag cttgttttgc tcgcagccgg tctggagcaa
+     1321 aacttatcgg gactgacaac tctgttgtcc tctctcggaa atatacatca tttccatggc
+     1381 tgctaggctg tgctgccaac tggatcctgc gcgggacgtc ctttgtttac gtcccgtcgg
+     1441 cgctgaatcc cgcggacgac ccgtctcggg gccgcttggg gctctatcgt ccccttctcc
+     1501 gtctgccgtt cctgccgacc acggggcgca cctctcttta cgcggtctcc ccgtctgtgc
+     1561 cttctcatct gccggaccgt gtgcacttcg cttcacctct gcacgtcgca tggagaccac
+     1621 cgtgaacgcc caccaggtct tgcccaaggt cttacataag aggactcttg gactctcagc
+     1681 aatgtcaacg accgaccttg aggcatactt caaagactgt gtgtttaaag actgggagga
+     1741 gttgggggag gagattaggt taaaggtctt tgtactagga ggctgtaggc ataaattggt
+     1801 ctgttcacca gcaccatgca actttttcac ctctgcctaa tcatctcttg ttcatgtcct
+     1861 actgttcaag cctccaagct gtgccttggg tggctttggg gcatggacat tgacccttat
+     1921 aaagaatttg gagctactgt ggagttactc tcttttttgc cttctgactt ctttccgtct
+     1981 gttcgagatc ttctcgacac cgcctcagct ctgtatcggg aggccttaga gtctccggaa
+     2041 cattgttcac ctcaccatac agcactcagg caagctattc tgtgttgggg tgagttgatg
+     2101 actctggcca cctgggtggg aagtaatttg gaagatccag catccaggga attagtagtc
+     2161 agctatgtca atgttaatat gggcctaaaa atcagacaac tattgtggtt tcacatttcc
+     2221 tgtcttactt ttggaagaga aactgttctt gagtatttgg tgtcttttgg agtgtggatt
+     2281 cgcactcctc ccgcttacag accaccaaat gcccctatct tatcaacact tccggaaact
+     2341 actgttgtta gacgacgagg caggtcccct agaagaagaa ctccctcgcc tcgcagacga
+     2401 aggtctcaat cgccgcgtcg cagaagatct caatctccag cttcccaatg ttagtattcc
+     2461 ttggactcac aaggtgggaa actttacggg gctttattct tctactgtac ctgtctttaa
+     2521 tcctgattgg caaactcctt cttttcctaa tattcattta catcaggaca ttattaataa
+     2581 atgtgaacaa tttgtgggcc ctctcacagt aaatgaaaaa agaagattaa aattagttat
+     2641 gcctgctaga ttttatccta actttaccaa atatttgccc ttagacaaag gtattaaacc
+     2701 ttattatcca gaaaatgtag ttaatcatta cttccaaacc agacattatt tacatactct
+     2761 ttggaaggca ggcattctat ataagagaga aacaacacgt agcgcctcat tttgtgggtc
+     2821 accatattct tgggaacaag agctacagca tggggcagaa tctttccacc agcaatcctc
+     2881 tgggattctt tcccgatcac cagttggacc cagcattcag agcaaacacc aacaatccag
+     2941 attgggactt caatcccaac aaggaccact ggccagaggc caacaaggta ggagttggag
+     3001 cattcgggcc agggttcacc ccaccgcacg gaggcctttt ggggtggagc cctcaggctc
+     3061 agggcatact aacaaccttg ccagcagatc cgcctcctgc ctccaccaat cggcagtcag
+     3121 gaaggcagcc tactcccatc tctccacctc tgagagacag tcatcctcag gccatgcagt
+     3181 gg
+//

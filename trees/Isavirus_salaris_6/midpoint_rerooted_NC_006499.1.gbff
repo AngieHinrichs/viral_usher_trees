@@ -1,0 +1,80 @@
+LOCUS       rerooted_NC_006499.1      1323 bp    cRNA    linear   VRL 08-MAR-2022
+DEFINITION  rerooted_NC_006499.1.
+ACCESSION   rerooted_NC_006499.1
+VERSION     rerooted_NC_006499.1
+KEYWORDS    RefSeq.
+SOURCE      Isavirus salaris
+  ORGANISM  Isavirus salaris
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Isavirus.
+REFERENCE   1  (bases 1 to 1323)
+  AUTHORS   Clouthier,S.C., Rector,T., Brown,N.E. and Anderson,E.D.
+  TITLE     Genomic organization of infectious salmon anaemia virus
+  JOURNAL   J. Gen. Virol. 83 (Pt 2), 421-428 (2002)
+   PUBMED   11807235
+REFERENCE   2  (bases 1 to 1323)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1323)
+  AUTHORS   Clouthier,S.C., Rector,T., Brown,N.E. and Anderson,E.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2001) Biochemistry, Microbiology and Molecular
+            Biology, University of Maine, 5735 Hitchner Hall, Orono, ME 04469,
+            USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF404342.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1323
+                     /organism="Isavirus salaris"
+                     /mol_type="viral cRNA"
+                     /isolate="CCBB"
+                     /db_xref="taxon:55987"
+                     /segment="6"
+                     /geo_loc_name="Canada"
+     gene            8..1192
+                     /gene="HA"
+                     /locus_tag="ISAVs6gp1"
+                     /db_xref="GeneID:71004592"
+     CDS             8..1192
+                     /gene="HA"
+                     /locus_tag="ISAVs6gp1"
+                     /codon_start=1
+                     /product="putative HA protein"
+                     /protein_id="YP_145800.1"
+                     /db_xref="GeneID:71004592"
+                     /translation="MARFIILFLLLAPVYSRLCLRNHPDTTWIGDSRSDQSRVNQQSLD
+                     LVTDFKGILQAKNGNGLMKQMSGRFPSDWYQPTTKYRILYIGTNDCTEGPNDVIIPTSM
+                     TLDNVARDLYLGACRGDVRVTPTFVGAAELGLIGRTDALTGFSVKVLTFNNPTIVVVGL
+                     NGMSGIYKVCIAASSGNVGGVNLVNGCGYFSAPLRFDNFKGQIYVSDTFEVRGTKNKCV
+                     ILRSSSNAPLCTHIKRNIELDEYVDTPNTGGVYPSDGFDSLHGSASIRTFLTEALTCPD
+                     VDWDRVDAASCEYDSCPKLVKEFDQTGLGNTDTQIMRELEAQKEMIGKLRRNITDVNNR
+                     VDAIPPQLSNIFISMGVAGFGIALFLAGWKACVWIAAFMYKSRGRNPPANLSVA*"
+ORIGIN
+        1 agcaaagatg gcacgattca taattttatt cctactgttg gcgcctgttt acagtcgtct
+       61 atgtcttaga aaccatcctg acaccacctg gataggtgac tcccgaagcg atcaatcaag
+      121 ggtgaaccaa cagtctcttg atctggttac agacttcaag gggattctac aagccaagaa
+      181 cgggaatggt ctcatgaagc agatgagcgg aaggttccca agtgattggt accaacctac
+      241 tacaaagtat aggattctat acattggtac aaacgactgc actgagggcc ctaatgacgt
+      301 gatcataccg acgtcaatga cactagacaa tgtggcaagg gacctgtacc tgggagcatg
+      361 tcggggagac gtaagagtga caccaacctt cgtgggagca gctgagcttg gactgattgg
+      421 gagaacagac gccttaacag gattttctgt gaaggtgctg actttcaaca accctactat
+      481 tgtagtagtt ggactaaatg gaatgtcagg aatctacaag gtctgcattg ctgcatcttc
+      541 tgggaacgtc ggaggagtca acttggtgaa cggatgcgga tacttcagcg ctcctctgag
+      601 attcgacaac ttcaaaggac aaatctacgt gtcagacacc tttgaagtca gaggaacaaa
+      661 gaacaaatgt gtcatactta gatcttctag taatgctcct ttgtgtacac atatcaaaag
+      721 aaacattgag ttagatgagt acgttgacac accaaacact gggggcgtat atccttctga
+      781 tgggtttgat tctcttcatg gctctgcttc cattagaact tttctaacag aggcactgac
+      841 atgtccagat gtagattggg acagagttga tgcagcttca tgcgaatatg acagttgtcc
+      901 taaacttgtg aaagaatttg accaaacagg gctaggaaac acagatactc aaataatgag
+      961 agagctagaa gcacaaaagg agatgattgg taaacttcgc aggaacatta cagacgtaaa
+     1021 caacagagta gatgccattc caccacagct tagcaacatc ttcatctcta tgggagtggc
+     1081 aggttttggg atagcactgt tcctagcagg gtggaaggct tgtgtttgga tagcagcttt
+     1141 catgtataag tctagaggta gaaacccacc tgcaaatctg tctgttgctt gatactaaga
+     1201 caaacaatgt tttcaaataa tcaaatgttt tctaatgtaa tgtaaaattc aaattgtatg
+     1261 tgatattatt attttgaaga cgttcttgat gttgtacgtt tacagaaaag tgcatttttt
+     1321 act
+//

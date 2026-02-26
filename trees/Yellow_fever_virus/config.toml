@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_002031.1, taxonomy ID 3046277
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_002031.1'
-refseq_assembly = 'GCF_000857725.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_002031.1'
+#refseq_assembly = 'GCF_000857725.1'
+ref_fasta = './trees/Yellow_fever_virus/treetime_rerooted_NC_002031.1.fa'
+ref_gbff = './trees/Yellow_fever_virus/treetime_rerooted_NC_002031.1.gbff'
 taxonomy_id = '3046277'
 nextclade_dataset = 'nextstrain/yellow-fever/prM-E'
 nextclade_clade_columns = 'clade'

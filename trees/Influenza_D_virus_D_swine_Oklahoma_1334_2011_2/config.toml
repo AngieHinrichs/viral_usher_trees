@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_036615.1, taxonomy ID 2955744
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_036615.1'
-refseq_assembly = 'GCF_002867775.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_036615.1'
+#refseq_assembly = 'GCF_002867775.1'
+ref_fasta = './trees/Influenza_D_virus_D_swine_Oklahoma_1334_2011_2/treetime_rerooted_NC_036615.1.fa'
+ref_gbff = './trees/Influenza_D_virus_D_swine_Oklahoma_1334_2011_2/treetime_rerooted_NC_036615.1.gbff'
 taxonomy_id = '2955744'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

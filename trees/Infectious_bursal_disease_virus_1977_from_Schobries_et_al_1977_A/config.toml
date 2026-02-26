@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_077769.1, taxonomy ID 3048151
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_077769.1'
-refseq_assembly = 'GCF_003971645.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_077769.1'
+#refseq_assembly = 'GCF_003971645.1'
+ref_fasta = './trees/Infectious_bursal_disease_virus_1977_from_Schobries_et_al_1977_A/midpoint_rerooted_NC_077769.1.fa'
+ref_gbff = './trees/Infectious_bursal_disease_virus_1977_from_Schobries_et_al_1977_A/midpoint_rerooted_NC_077769.1.gbff'
 taxonomy_id = '3048151'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

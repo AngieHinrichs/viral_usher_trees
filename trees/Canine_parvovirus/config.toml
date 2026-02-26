@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001539.1, taxonomy ID 3052707
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001539.1'
-refseq_assembly = 'GCF_000848925.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001539.1'
+#refseq_assembly = 'GCF_000848925.1'
+ref_fasta = './trees/Canine_parvovirus/treetime_rerooted_NC_001539.1.fa'
+ref_gbff = './trees/Canine_parvovirus/treetime_rerooted_NC_001539.1.gbff'
 taxonomy_id = '3052707'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

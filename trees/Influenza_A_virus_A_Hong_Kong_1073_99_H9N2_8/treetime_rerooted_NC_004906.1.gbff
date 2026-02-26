@@ -1,0 +1,115 @@
+LOCUS       rerooted_NC_004906.1       890 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_004906.1.
+ACCESSION   rerooted_NC_004906.1
+VERSION     rerooted_NC_004906.1
+KEYWORDS    RefSeq; nonstructural protein 1; nonstructural protein 2; NS1 gene;
+            NS2 gene.
+SOURCE      Influenza A virus (A/Hong Kong/1073/99(H9N2))
+  ORGANISM  Influenza A virus (A/Hong Kong/1073/99(H9N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Lin,Y.P., Shaw,M., Gregory,V., Cameron,K., Lim,W., Klimov,A.,
+            Subbarao,K., Guan,Y., Krauss,S., Shortridge,K., Webster,R., Cox,N.
+            and Hay,A.
+  TITLE     Avian-to-human transmission of H9N2 subtype influenza A viruses:
+            relationship between H9N2 and H5N1 human isolates
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 97 (17), 9654-9658 (2000)
+   PUBMED   10920197
+REFERENCE   2  (bases 1 to 890)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUN-2003) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 890)
+  AUTHORS   Lin,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2000) Lin Y., Virology, National Institute for
+            Medical Research, The Ridgeway, Mill Hill, London, NW7 1AA, UNITED
+            KINGDOM
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AJ278649.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..890
+                     /organism="Influenza A virus (A/Hong Kong/1073/99(H9N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Hong Kong/1073/99"
+                     /serotype="H9N2"
+                     /db_xref="taxon:130760"
+                     /segment="8"
+                     /geo_loc_name="Hong Kong:Kowloon"
+     gene            27..864
+                     /gene="NEP"
+                     /locus_tag="FLUAVAHHH9N2s8gp1"
+                     /gene_synonym="NS2"
+                     /db_xref="GeneID:4036374"
+     CDS             join(27..56,529..864)
+                     /gene="NEP"
+                     /locus_tag="FLUAVAHHH9N2s8gp1"
+                     /gene_synonym="NS2"
+                     /note="nonstructural protein 2"
+                     /codon_start=1
+                     /product="nuclear export protein"
+                     /protein_id="YP_581750.1"
+                     /db_xref="GOA:Q9DHF8"
+                     /db_xref="InterPro:IPR000256"
+                     /db_xref="InterPro:IPR000968"
+                     /db_xref="UniProtKB/TrEMBL:Q9DHF8"
+                     /db_xref="GeneID:4036374"
+                     /translation="MDSNTVSSFQDILTRMSKMQLGSSSEDLNGMITQFESLKLYRDSL
+                     GEAVMRMGDLHSLQNRNGKWREQLSQKFEEIRWLIEEMRHRLRITENSFEQITFMQALQ
+                     LLLEVEQEIRTFSFQLI"
+     gene            27..719
+                     /gene="NS1"
+                     /locus_tag="FLUAVAHHH9N2s8gp2"
+                     /db_xref="GeneID:1460995"
+     CDS             27..719
+                     /gene="NS1"
+                     /locus_tag="FLUAVAHHH9N2s8gp2"
+                     /codon_start=1
+                     /product="nonstructural protein 1"
+                     /protein_id="NP_859034.1"
+                     /db_xref="GOA:Q9DHF7"
+                     /db_xref="InterPro:IPR000256"
+                     /db_xref="UniProtKB/TrEMBL:Q9DHF7"
+                     /db_xref="GeneID:1460995"
+                     /translation="MDSNTVSSFQVDCFLWHIRKRFADNELGDAPFLDRLRRDQKSLRG
+                     RGSTLGLNIETATLAGKQIVERILKEESDEALKMTIASVPSSRYLADMTLEEMSRDWFM
+                     LMPKQKVAGSLYIRMDQAIMEKNIILKANFSVIFDRLETLILLRAFTEEGAIVGEISPL
+                     PSLPGHTDEDVKNAVEVLIGGLEWNGNTVRVSENLQRFAWRSRNENGRPSLPPEQKWKV
+                     ARTIGSEI*"
+     exon            27..56
+                     /gene="NEP"
+                     /locus_tag="FLUAVAHHH9N2s8gp1"
+                     /gene_synonym="NS2"
+                     /number=1
+     intron          57..528
+                     /gene="NEP"
+                     /locus_tag="FLUAVAHHH9N2s8gp1"
+                     /gene_synonym="NS2"
+                     /number=1
+     exon            529..864
+                     /gene="NEP"
+                     /locus_tag="FLUAVAHHH9N2s8gp1"
+                     /gene_synonym="NS2"
+                     /number=2
+ORIGIN
+        1 agcaaaagca gggtgacaaa gacataatgg attccaacac tgtgtcaagc tttcaggtag
+       61 actgctttct ttggcatatc cgcaaacggt ttgcagacaa tgaattgggt gatgccccat
+      121 tccttgatcg gctccgccga gatcagaagt ccctaagagg aagaggcagc acccttggtc
+      181 ttaacatcga gacagccacc cttgctggaa agcaaatagt ggagcggatt ctgaaagaag
+      241 aatccgacga ggcacttaag atgaccattg catctgtacc ttcttcgcgt tacctagctg
+      301 acatgactct tgaggagatg tcaagggatt ggttcatgct catgcccaag caaaaggtgg
+      361 caggctctct ttatataaga atggaccagg cgatcatgga aaagaacatc atactgaaag
+      421 cgaacttcag tgtgattttt gaccggttgg agactttaat actactaagg gctttcaccg
+      481 aagagggagc aattgttgga gaaatttcac cattaccttc tcttccagga catactgatg
+      541 aggatgtcaa aaatgcagtt gaggtcctca tcggagggct tgaatggaat ggtaacacag
+      601 ttcgagtctc tgaaaatcta cagagattcg cttggagaag ccgtaatgag aatgggagac
+      661 cttcactacc tccagaacag aaatggaaag tggcgagaac aattgggtca gaaatttgaa
+      721 gaaataaggt ggttgattga agaagtgcgg cacagactga agataacaga gaatagtttc
+      781 gagcaaataa catttatgca agccttacaa ctattgcttg aagtagaaca agagatgaga
+      841 actttctcgt ttcagcttat ttaataataa aaaacaccct tgtttctact
+//

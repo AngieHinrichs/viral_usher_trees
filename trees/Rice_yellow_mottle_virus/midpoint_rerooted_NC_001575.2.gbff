@@ -1,0 +1,276 @@
+LOCUS       rerooted_NC_001575.2      4449 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001575.2.
+ACCESSION   rerooted_NC_001575.2
+VERSION     rerooted_NC_001575.2
+KEYWORDS    RefSeq; coat protein; complete genome; ORF1; ORF2a; ORF2b; ORF4; P1;
+            protease; RNA-dependent RNA polymerase; VPg.
+SOURCE      Rice yellow mottle virus
+  ORGANISM  Rice yellow mottle virus
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Sobelivirales; Solemoviridae; Sobemovirus; Sobemovirus RYMV.
+REFERENCE   1  (bases 566 to 820)
+  AUTHORS   Ling,R., Pate,A.E., Carr,J.P. and Firth,A.E.
+  TITLE     An essential fifth coding ORF in the sobemoviruses
+  JOURNAL   Virology 446 (1-2), 397-408 (2013)
+   PUBMED   23830075
+REFERENCE   2  (bases 1587 to 1823)
+  AUTHORS   Olspert,A., Peil,L., Hebrard,E., Fargette,D. and Truve,E.
+  TITLE     Protein-RNA linkage and post-translational modifications of two
+            sobemovirus VPgs
+  JOURNAL   J. Gen. Virol. 92 (PT 2), 445-452 (2011)
+   PUBMED   21068217
+REFERENCE   3  (bases 609 to 3607)
+  AUTHORS   Tamm,T., Suurvali,J., Lucchesi,J., Olspert,A. and Truve,E.
+  TITLE     Stem-loop structure of Cocksfoot mottle virus RNA is indispensable
+            for programmed -1 ribosomal frameshifting
+  JOURNAL   Virus Res. 146 (1-2), 73-80 (2009)
+   PUBMED   19748532
+REFERENCE   4  (bases 609 to 3607)
+  AUTHORS   Makelainen,K. and Makinen,K.
+  TITLE     Factors affecting translation at the programmed -1 ribosomal
+            frameshifting site of Cocksfoot mottle virus RNA in vivo
+  JOURNAL   Nucleic Acids Res. 33 (7), 2239-2247 (2005)
+   PUBMED   15843686
+REFERENCE   5
+  AUTHORS   Fargette,D., Pinel,A., Abubakar,Z., Traore,O., Brugidou,C.,
+            Fatogoma,S., Hebrard,E., Choisy,M., Sere,Y., Fauquet,C. and
+            Konate,G.
+  TITLE     Inferring the evolutionary history of rice yellow mottle virus from
+            genomic, phylogenetic, and phylogeographic studies
+  JOURNAL   J. Virol. 78 (7), 3252-3261 (2004)
+   PUBMED   15016846
+REFERENCE   6  (bases 609 to 3607)
+  AUTHORS   Lucchesi,J., Makelainen,K., Merits,A., Tamm,T. and Makinen,K.
+  TITLE     Regulation of -1 ribosomal frameshifting directed by cocksfoot
+            mottle sobemovirus genome
+  JOURNAL   Eur. J. Biochem. 267 (12), 3523-3529 (2000)
+   PUBMED   10848968
+REFERENCE   7  (bases 609 to 3607)
+  AUTHORS   Makinen,K., Naess,V., Tamm,T., Truve,E., Aaspollu,A. and Saarma,M.
+  TITLE     The putative replicase of the cocksfoot mottle sobemovirus is
+            translated as a part of the polyprotein by -1 ribosomal frameshift
+  JOURNAL   Virology 207 (2), 566-571 (1995)
+   PUBMED   7886961
+REFERENCE   8  (bases 1 to 4449)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-FEB-2013) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   9  (bases 1 to 4449)
+  AUTHORS   Fargette,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-2003) Fargette D., Dgpc, Ird, BP 64501, 34394
+            Montpellier cedex 5, FRANCE
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to AJ608206.
+            On Feb 11, 2013 this sequence version replaced NC_001575.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4449
+                     /organism="Rice yellow mottle virus"
+                     /mol_type="genomic RNA"
+                     /isolate="CI4"
+                     /db_xref="taxon:31744"
+                     /geo_loc_name="Cote d'Ivoire"
+     gene            81..554
+                     /locus_tag="RYMVgp1"
+                     /db_xref="GeneID:1496989"
+     CDS             81..554
+                     /locus_tag="RYMVgp1"
+                     /function="possible roles in suppression of
+                     post-transcriptional gene silencing and viral movement"
+                     /note="ORF1"
+                     /codon_start=1
+                     /product="P1"
+                     /protein_id="YP_007438860.1"
+                     /db_xref="InterPro:IPR021971"
+                     /db_xref="UniProtKB/TrEMBL:Q709L6"
+                     /db_xref="GeneID:1496989"
+                     /translation="MTRLEVLIRPTQQTVAKAIAAGYTHALTWVWHSQTWDVDAVNDPV
+                     LSADFNPERVGWVSVSFACTQCTAHYYTCEQVKYFVNIPPVHYDVVCADCERSVQQDDE
+                     IDREHHERNAEISACNARALSEGRPASLVYLSRDACDIPEHSGTCRFDKYLNF*"
+     gene            566..820
+                     /gene="ORFx"
+                     /locus_tag="RYMVgp6"
+                     /db_xref="GeneID:17778958"
+     CDS             566..820
+                     /gene="ORFx"
+                     /locus_tag="RYMVgp6"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="non-AUG initiation; exact initiation site not
+                     experimentally determined; inferred from homology to Px
+                     protein in Turnip rosette virus"
+                     /codon_start=1
+                     /transl_except=(pos:566..568,aa:Met)
+                     /product="Px"
+                     /protein_id="YP_008873118.2"
+                     /db_xref="GeneID:17778958"
+                     /translation="LPTSKERSWFRLTRDGLFCCWSLSHSHQGNDEGGLQPPHRLGWVD
+                     SGRDSLRAPTRDGVIVGNPLSYHSKLDRAVSSRELQPVR*"
+     gene            609..3607
+                     /locus_tag="RYMVgp5"
+                     /db_xref="GeneID:14669062"
+     CDS             join(609..1985,1985..3607)
+                     /locus_tag="RYMVgp5"
+                     /note="encodes membrane anchor, protease, VPg, RdRp;
+                     Predicted from homology with Cocksfoot mottle sobemovirus"
+                     /codon_start=1
+                     /product="polyprotein P2ab"
+                     /protein_id="YP_007500964.1"
+                     /db_xref="GeneID:14669062"
+                     /translation="MGSSVVGRFLTRTKETTRVDSHLLIVLAGLIAAAIVSERLPVTAS
+                     LWAIPSAIIANWIVLSAHESFSRFVEGVEIEPMSTLRYGKVQSAPRFDPSRGYVVDVSY
+                     NGHVIPVILDFTTTTALSVPQRVNPGVSMEASRGGLPPTSVKLEDVPPSVVVLYHDSVR
+                     LGLGTRVRTPTGRDLLMTNHHIAALEPNGIAYKGHLKKVALDAPVIACDHPHIDCAFYE
+                     VPPKIWSLLGVKSASLKPLVKQTAVSLFGGSSSTDFSSCVGIAQIGDNPFLIRHQSTTC
+                     SGWSGSPLYHKGCVVGLHIGAADGYNVASNVAWYFHTFKKEVIVESPFEIYGKFREANS
+                     EEYDESLRHGVQYAEYDFSGDTIRASSNTWVRERERYHAEERRKSGQPSWADRFGDDSG
+                     EDVDIETSHPVAPSIPRTRRKRSKRVEQFVDAVSECSFSFESAREGIVPETSAYDHVPL
+                     NLPGGGLEPSGESALGRLIQLGEYRWDSLGDSLPSDGMPFSYVGKSGVIFGEHAGKSVC
+                     AAVKDAISVFPDLEGFGWPERGSKAELDSLILQAGRFNRTVCPSGLAQAVQSLQERYPK
+                     VPPRRCLRDEWRFDDIFDEVERILCETGEVNSASSPGVPLAGLANSNGEVRGLARDLVC
+                     LAVVERLNALASVDPRQHNWTPRELVEKGLCDPVRLFVKNEPHPRRKLLERRFRLISSV
+                     SLVDQLVERMLFGPQNNTEISTWWQWPSKPGMGLLTPEQIRLVWDDVFQKHQAHPAAEA
+                     DISGFDWSVQDWELWSDLAIRINRGNFQGNLRRAAISRYYCFMNSVFQLSDGTLIQQEL
+                     PGLMKSGSYCTSSTNSRIRCLMAELIGSPWCIAMGDDSVEGWIEGAQSKYAALGHTCKE
+                     YYPCKTRGRELLEFNFCSHLIRRGHAELTSWPKACFRFLSSKHEDFEDLWVELHTCGVR
+                     SRIERYLRGIGRVSHKDGQEGQENQLQPGAARKEEGPTPTWTVGGAPASTGSSGSGLPD
+                     IWDGSWSTIF"
+     mat_peptide     1584..1823
+                     /locus_tag="RYMVgp5"
+                     /product="VPg protein"
+                     /experiment="EXISTENCE: mass spectrometry[ 21068217]"
+                     /note="Viral genome-linked protein (VPg) attached to the 5'
+                     end of viral RNA. Viral RNA linked to serine at position
+                     1.VPg acts as a primer for replication by interacting with
+                     viral RdRp and also regulates translation by interacting
+                     with initiation factor."
+                     /protein_id="YP_007518453.1"
+     gene            609..2426
+                     /locus_tag="RYMVgp2"
+                     /db_xref="GeneID:1496992"
+     CDS             609..2426
+                     /locus_tag="RYMVgp2"
+                     /note="encodes membrane anchor, protease, VPg, P10, P8"
+                     /codon_start=1
+                     /product="polyprotein P2a"
+                     /protein_id="YP_007438861.1"
+                     /db_xref="GOA:Q709L5"
+                     /db_xref="InterPro:IPR009003"
+                     /db_xref="UniProtKB/TrEMBL:Q709L5"
+                     /db_xref="GeneID:1496992"
+                     /translation="MGSSVVGRFLTRTKETTRVDSNLLIVLAGLIAAAIVSERLPVTAS
+                     LWAIPSAIIANWIVLSAHESFSRFVEGVEIEPMSTLRYGKVQSAPRFDPSRGYVVDVSY
+                     NGHVIPVILDFTTTTALSVPQRVNPGVSMEASRGGLPPTSVKLEDVPPSVVVLYHDSVR
+                     LGLGTRVRTPTGRDLLMTNHHIAALEPNGIAYKGHLKKVALDAPVIACDHPHIDCAFYE
+                     VPPKIWSLLGVKSASLKPLVKQTAVSLFGGSSSTDFSSCVGIAQIGDNPFLIRHQSTTC
+                     SGWSGSPLYHKGCVVGLHIGAADGYNVASNVAWYFHTFKKEVVVESPFEIYGKFREANS
+                     EEYDESLRHGVEYAEYDFSGDTIRASSNTWVREREKYHAEERRKSGQLSWADRFGDDSG
+                     EDVDIETSHPVAPSISKTRRKRSKRVEQFVDAVSECSFSFESAHEGIVPETSAYDHVPL
+                     NCQGAGSSLRASPPLDGLSNSENTAGTPSVTPSLPTECPSATLENRVSSLENMLGKVSA
+                     QLSKTQSQYSQILKDLAGLRGEVKQSLTPSSSKPAGSTERYVPPGSRKQSNHSKKGTQK
+                     SPPGDASGTSGGSTTSSTKSKESSAKPAK*"
+     mat_peptide     1584..1835
+                     /locus_tag="RYMVgp2"
+                     /product="VPg protein"
+                     /note="Viral genome-linked protein (VPg) attached to the 5'
+                     end of viral RNA. Viral RNA linked to serine at position 1.
+                     VPg acts as a primer for replication by interacting with
+                     viral RdRp and also regulates translation by interacting
+                     with initiation factor."
+                     /protein_id="YP_007518452.1"
+     gene            3447..4166
+                     /locus_tag="RYMVgp4"
+                     /db_xref="GeneID:1496991"
+     CDS             3447..4166
+                     /locus_tag="RYMVgp4"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_007438863.1"
+                     /db_xref="GOA:Q9DH71"
+                     /db_xref="InterPro:IPR000937"
+                     /db_xref="UniProtKB/TrEMBL:Q9DH71"
+                     /db_xref="GeneID:1496991"
+                     /translation="MARKGKKTNSNQGQQGKKKSRRPRGRSAEPQLQRAPVAQASRISG
+                     MVPGPLSSNTWPLHSVEFLADFKRSSTSADATTYDCVPFNLPRVWSLARCYSMWKPTRW
+                     DVVYLPEVSATVAGSIEMCFLYDYADTIPSDTGKMSRTAGFVTSSVWYGAEGCHLLSGG
+                     SARNAVVASMDCSRVGWKRVTSSIPSSVDPNVVNTILPARLAVRSSIKPTVDDTPGKLY
+                     AIVSMVLRDPVDPTLNT*"
+ORIGIN
+        1 acaattgaag ctaggaaagg agcatattgc gaaagcgatc cctccttccg acgaacaatt
+       61 gtagccacgc tgcatcgtgt atgacacggt tggaagttct tatacgaccg actcagcaga
+      121 ctgtggcaaa agccatcgcc gcgggctata cgcacgcact cacctgggtt tggcattctc
+      181 agacctggga cgttgacgct gtgaacgatc cagttctcag cgccgacttc aaccctgaga
+      241 gggttggttg ggtgtcagtg tcgtttgcct gtactcagtg tacagcccac tactacacgt
+      301 gtgagcaggt gaagtatttc gtcaatattc cgcctgttca ttacgacgtg gtgtgtgctg
+      361 attgcgagcg cagtgttcag caggacgacg agatcgaccg tgagcaccac gagcgtaacg
+      421 cagagatttc tgcctgcaac gctcgggctc tgagtgaggg tagaccagca agtctggttt
+      481 acctttctcg ggacgcttgc gatatccctg agcactccgg aacgtgccgg tttgacaagt
+      541 acctcaactt ttgagggaat cagtcctgcc gacatccaag gagcggtctt ggttcagact
+      601 aacacgggat gggctcttct gttgttggtc gctttctcac tcgcaccaag gaaacgacga
+      661 gggtggactc caacctcctc atcgtcttgg ctgggttgat agcggccgcg atagtctcag
+      721 agcgcctacc cgtgacggcg tcattgtggg caatcccctc agctatcata gcaaactgga
+      781 tcgtgctgtc agctcacgag agcttcagcc ggttcgttga gggggttgag attgagccca
+      841 tgtccacact tcggtatggc aaggttcagt ctgcccctag gttcgatccc tcccggggtt
+      901 atgtggttga tgtgtcttac aacggccacg tgattccggt gatattggac ttcaccacga
+      961 cgacagctct gtcggttccc caaagagtaa atcctggggt ctcgatggag gcaagtcgtg
+     1021 gggggctccc gccgacgtcc gtcaaactcg aagatgtgcc gccgagcgtt gtggttttgt
+     1081 accacgactc cgtcaggcta ggcctaggaa ctagggtgcg aactcccaca ggtcgtgatc
+     1141 tcctcatgac caatcaccat atcgctgctt tagaacctaa tggtatcgcg tacaagggtc
+     1201 accttaagaa agtggctctg gacgcgccag tcatcgcatg tgaccatcca cacatagact
+     1261 gcgcgtttta cgaggtgcct cccaagatct ggtctctctt gggggtcaag tctgccagtt
+     1321 tgaaacctct ggttaaacaa actgcggtgt cactcttcgg aggctcgtca tctactgact
+     1381 tctcaagttg tgttgggata gcccagattg gggacaatcc gttcctgata aggcatcaaa
+     1441 gcacgacttg cagtgggtgg tcgggctccc cgctctacca caaaggttgc gtggttggct
+     1501 tgcatatagg tgctgcggat ggttataatg tggcatctaa tgtggcctgg tacttccata
+     1561 ccttcaagaa ggaagtggtc gttgagtctc ctttcgagat ttacggcaaa ttccgggaag
+     1621 caaactccga ggagtatgac gaaagtctac gacacggggt tgagtatgcg gagtacgact
+     1681 tctctggtga taccatccgg gcgtcttcca acacctgggt gcgtgagaga gagaagtacc
+     1741 acgctgagga acgtcgtaag tccggccagc ttagctgggc agatcgtttt ggtgacgaca
+     1801 gtggcgagga tgttgatatc gagacatcgc atcccgtagc accgtcaata tctaagacgc
+     1861 ggcggaaacg gtcaaagcgc gttgagcagt tcgtcgacgc ggtttctgag tgctccttct
+     1921 cgttcgagtc agctcacgag gggattgtcc cagagacctc agcttatgac cacgttcctt
+     1981 taaactgcca gggggcgggc tcgagccttc gggcgagtcc gcccttggac ggcttatcca
+     2041 actcggagaa taccgctggg actccctcgg tgactccctc ccttccgacg gaatgccctt
+     2101 cagctacgtt ggaaaatcgg gtgtcatctt tggagaacat gctgggaaaa gtgtctgcgc
+     2161 agctgtcaaa gacgcaatct cagtattccc agatcttgaa ggatttggct ggcctgagag
+     2221 gggaagtaaa gcagagcttg actccctcat cctccaagcc ggccggttca acagaacggt
+     2281 atgtccctcc gggctcgcgc aagcagtcca atcactccaa gaaaggtacc caaaagtccc
+     2341 ccccaggcga tgcctcaggg acgagtggag gttcgacgac atcttcgacg aagtcgaaag
+     2401 aatcctctgc gaaaccggcg aagtgaattc cgcttcctcg ccgggggtgc cgctcgcggg
+     2461 ccttgccaat tccaacggtg aggtccgggg gctagcgaga gatttggtat gtttagctgt
+     2521 ggtggagcga ttgaatgcct tagcctcggt tgacccccgc cagcataact ggacacccag
+     2581 ggagctggta gagaaaggtc tttgtgaccc tgtgcgcttg ttcgtcaaga acgagccaca
+     2641 cccacggaag aaattgcttg aacgtcgatt caggctgatt tcttccgttt ctctagttga
+     2701 ccagctggtg gagcggatgc ttttcgggcc tcagaacaac accgagattt caacttggtg
+     2761 gcagtggccc tcgaagccgg gcatgggtct tttgacccct gaacaaatcc gtttggtgtg
+     2821 ggacgatgtg ttccagaagc accaggccca ccctgcggct gaggcagaca tatcggggtt
+     2881 tgactggtcc gttcaggact gggagttgtg gtcagacctc gcgatccgaa taaacagggg
+     2941 gaattttcag ggaaacctca ggagggcggc tatcagccgc tactactgtt ttatgaactc
+     3001 tgttttccaa ctctcagatg gaaccctcat ccagcaggag ttgcccggat tgatgaaatc
+     3061 cggctcttac tgcacctcat ccacaaactc gcgcatacgc tgtctcatgg ctgagctcat
+     3121 cggctcgccg tggtgtatag ctatgggtga tgattcagtg gaggggtgga ttgagggggc
+     3181 ccaatccaag tacgccgcgc tgggtcacac ctgcaaggag tactacccat gtaagaccag
+     3241 ggggcgtgag ctcctggaat tcaacttctg ttcacacttg atcaggaggg gtcatgctga
+     3301 gctcacttca tggccgaagg cgttgtttcg ctttctgtct agcaagcatg aggattttga
+     3361 agatctgtgg gttgagcttc acacgtgcgg ggtgtggagc cggatcgaac gatatctgcg
+     3421 tgggataggg cgtgtctccc acaaagatgg ccaggaaggg caagaaaacc aactccaacc
+     3481 aggggcagca aggaaagaag aagagccgac gcccacgtgg gcgttcggcg gagccccagc
+     3541 ttcaacgggc tccagtggct caggcctccc ggatatctgg gatggttcct ggtccactat
+     3601 cttctaacac ctggccgctc cactccgttg agttccttgc ggactttaag cggagttcca
+     3661 catcggcgga cgcgacgaca tacgattgtg tgccgttcaa tctgcctcgg gtgtggagtc
+     3721 ttgcacgttg ttactccatg tggaagccaa cacggtggga tgtcgtctac ctccctgagg
+     3781 ttagcgcgac agttgctgga agtatcgaga tgtgttttct ctacgactat gctgacacaa
+     3841 tcccaagtga cacgggcaag atgagcagga cggcgggctt cgtcacctct agcgtttggt
+     3901 acggcgcgga gggctgccac ttattaagtg gtggctcagc acgaaatgcc gtggtcgcct
+     3961 cgatggactg ttcccgagtc ggctggaaac gcgttactag ttctattcct agtagcgtgg
+     4021 atcccaacgt cgtaaacacc atactgccag ctaggctagc tgtgcgatcg tcgatcaaac
+     4081 cgacggttga tgatacgccg gggaaactct acgctatcgt cagtatggtc ctgcgggatc
+     4141 cggttgatcc aacactcaat acgtgaaccg gatctagtgg agataggtat tggcaccagt
+     4201 gatgatccac ggattagctc agagatcgac taccctgaaa aggatgttga gcgtttgcga
+     4261 acgcgggctc aatcctacga gatgatactg gtgtctatcc cacgtgagga gttgcactca
+     4321 cgcttcaacc caaagcaacc catgcactgg atagtgctta cccagatggt tttcggagct
+     4381 actgggcgga cttttcacaa accgaattcc ccatttcttc cgagagaatt ctcgggatgg
+     4441 gtgggggag
+//

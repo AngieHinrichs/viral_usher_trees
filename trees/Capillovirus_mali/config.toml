@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001749.2, taxonomy ID 28347
 
-viral_usher_version = '0.8.0'
-refseq_acc = 'NC_001749.2'
-refseq_assembly = 'GCF_000859505.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001749.2'
+#refseq_assembly = 'GCF_000859505.1'
+ref_fasta = './trees/Capillovirus_mali/midpoint_rerooted_NC_001749.2.fa'
+ref_gbff = './trees/Capillovirus_mali/midpoint_rerooted_NC_001749.2.gbff'
 taxonomy_id = '28347'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

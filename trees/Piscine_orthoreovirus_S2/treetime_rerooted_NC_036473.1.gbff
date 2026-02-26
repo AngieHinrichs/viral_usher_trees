@@ -1,0 +1,89 @@
+LOCUS       rerooted_NC_036473.1      1329 bp    ss-RNA  linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_036473.1.
+ACCESSION   rerooted_NC_036473.1
+VERSION     rerooted_NC_036473.1
+KEYWORDS    RefSeq.
+SOURCE      Piscine orthoreovirus
+  ORGANISM  Piscine orthoreovirus
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus piscis.
+REFERENCE   1  (bases 1 to 1329)
+  AUTHORS   Kibenge,M.J., Iwamoto,T., Wang,Y., Morton,A., Godoy,M.G. and
+            Kibenge,F.S.
+  TITLE     Whole-genome analysis of piscine reovirus (PRV) shows PRV represents
+            a new genus in family Reoviridae and its genome segment S1 sequences
+            group it into two separate sub-genotypes
+  JOURNAL   Virol. J. 10, 230 (2013)
+   PUBMED   23844948
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1329)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-DEC-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1329)
+  AUTHORS   Kibenge,F.S.B., Kibenge,M.J.T., Godoy,M.G. and Iwamoto,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2013) Department of Pathology and Microbiology,
+            University of Prince Edward Island, 550 University Avenue,
+            Charlottetown, PEI C1A 4P3, Canada
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KC795572.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1329
+                     /organism="Piscine orthoreovirus"
+                     /mol_type="genomic RNA"
+                     /isolate="CGA280-05"
+                     /host="Atlantic salmon"
+                     /db_xref="taxon:1157337"
+                     /segment="S2"
+                     /geo_loc_name="Chile"
+                     /collection_date="Nov-2011"
+     gene            22..1284
+                     /locus_tag="CYL32_sS2gp1"
+                     /db_xref="GeneID:35199810"
+     CDS             22..1284
+                     /locus_tag="CYL32_sS2gp1"
+                     /note="major inner capsid protein; sigma2 protein"
+                     /codon_start=1
+                     /product="core clamp protein"
+                     /protein_id="YP_009445959.1"
+                     /db_xref="GeneID:35199810"
+                     /translation="MARAIFSGISAFFANAPYVQDGDTIKHAFLSGDSLFFQGTNTLYP
+                     TLSTSYQGDTDLPTPFTVMYQTAMVRSALFQVPLFGGLWNARSYRDLVFTSQAMLNVKT
+                     NTSVTCPPPVIPRPAYVYNVMNNQRFAQSATARNKVYVDFSITTLFQMDINGFALPLLF
+                     NPDDNGIDVTLALTSLVGQSWSTIVGARYESAGNAAMDIDNPIHRTNRALMLLYLGSAC
+                     GYFNPTMTWNGFYFRQAGKPGSWGADLDPILVRGDSALINRATFVRLNRWVVFKDFLWQ
+                     MSRGTLHALVLGGMICAVEQPLRGLSVISVLANTVCAPWTGVNGRAGDEVTTIGLKYVA
+                     IENLIRSGSYTVAEGVVADAQIAAWGVRNTDHMDRVRAADDANVLAGVNIRRVKPWDNG
+                     GGFQRLAAVRALVNLMAANTR*"
+ORIGIN
+        1 gataaatttg ttggtgacga tatggctaga gcaattttct cgggtatttc tgcctttttc
+       61 gcgaacgcac cttacgttca agatggcgac acaattaagc atgcattcct ttctggcgac
+      121 tcactctttt tccaagggac caacacactg taccccacac tttccacaag ttatcaagga
+      181 gatactgacc tcccaacccc atttactgtt atgtatcaga ctgctatggt ccggtctgcg
+      241 ttatttcagg taccactctt cggcgggctt tggaacgcaa gaagctatcg ggatttagtg
+      301 ttcacttctc aggctatgct aaatgtcaag actaacacct ctgtcacctg ccctcctcct
+      361 gtcataccgc gacctgcgta tgtctacaac gtgatgaata atcaaagatt cgcgcagagt
+      421 gctacagcta ggaacaaagt ctatgtcgat ttttcaatca ccacattgtt ccaaatggat
+      481 atcaatggct tcgctcttcc tctcttgttc aatcctgatg acaatggtat agatgtgacc
+      541 cttgcattga ctagtcttgt gggacaatct tggagtacta tcgtcggtgc acgatatgaa
+      601 agcgctggaa atgcggcaat ggatatagac aacccaatac atcgcacgaa cagagcactc
+      661 atgctcctat acctgggtag cgcatgcgga tacttcaatc caacgatgac atggaatggc
+      721 ttctattttc gtcaagctgg gaaaccagga tcctggggcg ctgatttgga cccaatttta
+      781 gttcgcggtg actctgctct catcaatcga gccacattcg ttcgtttgaa tcgttgggtt
+      841 gtcttcaaag actttctctg gcagatgtct cgtggaacat tgcatgctct ggtcctcgga
+      901 ggaatgatct gcgctgttga gcaacctttg agaggtctga gcgtgatttc agttttggca
+      961 aatactgttt gcgcaccttg gactggtgtt aatggacgcg cgggggatga ggtaactacc
+     1021 attggcctga agtacgttgc gatcgagaat ctgattcggt ctggtagtta caccgttgct
+     1081 gaaggtgtgg tcgctgatgc ccaaattgcc gcttggggag tccgcaacac agaccatatg
+     1141 gatagagttc gtgctgctga tgacgctaac gtattagccg gagtcaacat cagacgcgtc
+     1201 aagccctggg ataatggtgg tggattccaa agattggctg ctgtgagagc gttagtgaac
+     1261 ctaatggcgg caaatacacg gtaactctag ccgggactga ccaccctgta gtcagcacgc
+     1321 ctcttcatc
+//

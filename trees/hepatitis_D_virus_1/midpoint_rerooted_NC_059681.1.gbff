@@ -1,0 +1,96 @@
+LOCUS       rerooted_NC_059681.1      1676 bp    RNA     circular VRL 06-MAY-2023
+DEFINITION  rerooted_NC_059681.1.
+ACCESSION   rerooted_NC_059681.1
+VERSION     rerooted_NC_059681.1
+KEYWORDS    RefSeq.
+SOURCE      hepatitis D virus 1
+  ORGANISM  hepatitis D virus 1
+            Viruses; Ribozyviria; Ribozyviria incertae sedis; Kolmioviridae;
+            Deltavirus; Deltavirus italiense.
+REFERENCE   1  (bases 1 to 1676)
+  AUTHORS   Wu,J.C., Chiang,T.Y., Shiue,W.K., Wang,S.Y., Sheen,I.J., Huang,Y.H.
+            and Syu,W.J.
+  TITLE     Recombination of hepatitis D virus RNA sequences and its
+            implications
+  JOURNAL   Mol. Biol. Evol. 16 (11), 1622-1632 (1999)
+   PUBMED   10555293
+REFERENCE   2  (bases 1 to 1676)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1676)
+  AUTHORS   Wu,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-NOV-1998) Division of Gastroenterology, Department of
+            Medicine, Veterans General Hospital-Taipei, 201, Sec. 2, Shih-Pai
+            Road, Taipei 112, Taiwan
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF104263.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1676
+                     /organism="hepatitis D virus 1"
+                     /mol_type="genomic RNA"
+                     /strain="TW2667"
+                     /db_xref="taxon:2847173"
+                     /geo_loc_name="Taiwan"
+                     /note="from serum of a HDV-infected patient in Taiwan"
+     gene            complement(951..1595)
+                     /locus_tag="QKK72_gp1"
+                     /db_xref="GeneID:80510879"
+     CDS             complement(951..1595)
+                     /locus_tag="QKK72_gp1"
+                     /exception="RNA editing"
+                     /codon_start=1
+                     /transl_except=(pos:complement(1008..1010),aa:Trp)
+                     /product="large delta antigen"
+                     /protein_id="YP_010229228.1"
+                     /db_xref="GeneID:80510879"
+                     /translation="MSRSESKKNRGGREEILEQWVNGRKKLEELERDLRKIKKKIKKLE
+                     DENPWLGNIKGILGKKDKDGEGAPPAKRARTDQMEVDSGPRKRPLRGGFSDKERQDHRR
+                     RKALENKKKQLAAGGKNLSKEEEEELKRLTEEDERRERRVAGPPVGGVNPLEGGSRGAP
+                     GGGFVPSMQGVPESPFTRTGEGLDMRGNQGFP*DILFPADPPFSPQSCRPQ*"
+     gene            complement(1008..1595)
+                     /locus_tag="QKK72_gp2"
+                     /db_xref="GeneID:80510878"
+     CDS             complement(1008..1595)
+                     /locus_tag="QKK72_gp2"
+                     /codon_start=1
+                     /product="small delta antigen"
+                     /protein_id="YP_010229229.1"
+                     /db_xref="GeneID:80510878"
+                     /translation="MSRSESKKNRGGREEILEQWVNGRKKLEELERDLRKIKKKIKKLE
+                     DENPWLGNIKGILGKKDKDGEGAPPAKRARTDQMEVDSGPRKRPLRGGFSDKERQDHRR
+                     RKALENKKKQLAAGGKNLSKEEEEELKRLTEEDERRERRVAGPPVGGVNPLEGGSRGAP
+                     GGGFVPSMQGVPESPFTRTGEGLDMRGNQGFP*"
+ORIGIN
+        1 catgggccat ctccgagcga agggagcgcg ggggaaggat cagctcccga gaggggtaaa
+       61 atggtaaaga gcattggaac tcggagggta aaactcccaa gaaggaaaaa agagaaagca
+      121 agaatcggac gatttcccca tgacgctgga gacatcctgg aaggggaaag agggaaggtg
+      181 gaaaagaagg ggccgggcct cccgatccga ggggcccaac taccaagttt ggagagcact
+      241 ccggccgaag ggtcgaggta cccagaagga ggaatctcac ggagaaaagc agacaaatca
+      301 cctccagagg accccttcag cgaacagaga gctctgacgc gcgaggagta agaccatagc
+      361 gatagggaga gatgctagga gttagaggag accgaagcga ggaggaaagc aaagaaagca
+      421 acggggctag ccggtgggtg ttccgcctcc cgagagggga cgagtgaggc ttatcccggg
+      481 gaactcggcg aatcgtcccc acatagcaga tcccggagcc ccttccaaaa tgaccgaggg
+      541 gggtggctag gaacgcgggg gaccagtgga gccatgggat gcccttcccg atgtccgatc
+      601 atctccctcc cccccgaggg tcgcccagga atggcgggac cccactcaac tggggtccgc
+      661 gttccatcct ttcttacctg atggccggca tggtcccagc ctcctcgctg gcgccggctg
+      721 ggcaacattc cgaaggggac cgtccctcgg taatggcgaa tgggacccag aaatctctct
+      781 agattcccag agagaatcga gagaaaactg gctctccctt agccatccga gtggacgttc
+      841 gtcctccttc ggatgcccag gtcggaccgc gaggaggtgg agatgccatg ccgacccgaa
+      901 gaggaaagaa ggacgcgaga cacgaacccg tgagtggaaa cccgctttat tcactggggt
+      961 cgacaactct ggggagaaaa gggaggatcg gctgggaaga gtatatccta tgggaatccc
+     1021 tggtttcccc tcatgtccag cccctccccg gtcctggtga agggggactc cgggactcct
+     1081 tgcatgctgg ggacgaagcc gcccccgggc gctcccctcg atccaccttc gagggggttc
+     1141 acacccccaa ccggcgggcc ggctactctt ctttcccttc tctcgtcttc ctcggtcaac
+     1201 ctcttaagtt cctcttcttc ttccttgctg aggttcttcc ctcccgcggc cagttgcttt
+     1261 ttcttgttct cgagggcctt ccttcgtcgg tgatcctgcc tctccttgtc ggagaaccct
+     1321 cccctgagag gcctcttcct aggcccggag tctacctcca tctggtccgt tcgggccctc
+     1381 ttcgccgggg gagccccctc tccatcctta tccttctttc cgagaattcc tttgatgttt
+     1441 cccagccagg gattttcgtc ctcaagtttc ttgattttct tcttaatctt ccggaggtcc
+     1501 ctctcgagtt cctctaactt ctttcttcca ttcacccact gctcgaggat ctcttctctt
+     1561 cctccgcggt tcttcttcga ctcggaacgg ctcatctcga caagaggcgg cggtcctcag
+     1621 tactcttact cttttctgta aagaggagac tgctggactc gccgcccaag ttcgag
+//

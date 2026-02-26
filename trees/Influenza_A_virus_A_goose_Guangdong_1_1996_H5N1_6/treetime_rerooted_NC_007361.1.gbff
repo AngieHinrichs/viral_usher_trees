@@ -1,0 +1,92 @@
+LOCUS       rerooted_NC_007361.1      1458 bp    cRNA    linear   VRL 06-MAY-2025
+DEFINITION  rerooted_NC_007361.1.
+ACCESSION   rerooted_NC_007361.1
+VERSION     rerooted_NC_007361.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/goose/Guangdong/1/1996(H5N1))
+  ORGANISM  Influenza A virus (A/goose/Guangdong/1/1996(H5N1))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1458)
+  CONSRTM   World Health Organization Global Influenza Program Surveillance
+            Network
+  TITLE     Evolution of H5N1 avian influenza viruses in Asia
+  JOURNAL   Emerging Infect. Dis. 11 (10), 1515-1521 (2005)
+   PUBMED   16318689
+REFERENCE   2  (bases 1 to 1458)
+  AUTHORS   Xu,X., Subbarao, Cox,N.J. and Guo,Y.
+  TITLE     Genetic characterization of the pathogenic influenza
+            A/Goose/Guangdong/1/96 (H5N1) virus: similarity of its hemagglutinin
+            gene to those of H5N1 viruses from the 1997 outbreaks in Hong Kong
+  JOURNAL   Virology 261 (1), 15-19 (1999)
+   PUBMED   10484749
+REFERENCE   3  (bases 1 to 1458)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 1458)
+  AUTHORS   Xu,X., Subbarao,K., Cox,N.J. and Guo,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-1999) Influenza Branch, Center for Diseases
+            Control and Prevention, 1600 Clifton Road, Atlanta, GA 30333, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF144304.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1458
+                     /organism="Influenza A virus
+                     (A/goose/Guangdong/1/1996(H5N1))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Goose/Guangdong/1/96(H5N1)"
+                     /db_xref="taxon:93838"
+                     /segment="6"
+     gene            21..1430
+                     /gene="NA"
+                     /locus_tag="FLUAVH5N1_s6gp1"
+                     /db_xref="GeneID:3654619"
+     CDS             21..1430
+                     /gene="NA"
+                     /locus_tag="FLUAVH5N1_s6gp1"
+                     /codon_start=1
+                     /product="neuraminidase"
+                     /protein_id="YP_308668.1"
+                     /db_xref="GeneID:3654619"
+                     /translation="MNPNQKIITIGSICMVVGIISLILQIGNIISIWVSHSIQTGNQNH
+                     PETCNQSIITYENNTWVNQTYVNISNTNVVAGQDATSVILAGNSSLCPISGWAIYSKDN
+                     GIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPYRTLMSCPV
+                     GEAPSPYNSRFESVAWSASACHDGMGWLTIGISGPDNGAVAVLKYNGIITDTIKSWRNN
+                     ILRTQESECACINGSCFTIMTDGPSNGQASYKIFKIEKGKVIKSIELNAPNYHYEECSC
+                     YPDTGKVMCVCRDNWHGSNRPWVSFDQNLDYQIGYICSGVFGDNPRPNDGTGSCGPVSS
+                     NGANGVKGFSFRYGNGVWIGRTKSTSSRSGFEMIWDPNGWTETDSSFSVKQDIVAITDW
+                     SGYSGSFVQHPELTGLDCMRPCFWVELIRGRPKENTIWTSGSSISFCGVNSDTVGWSWP
+                     DGAELPFTIDK*"
+ORIGIN
+        1 agcaaaagca ggagtttaaa atgaatccaa atcagaaaat aataaccatt gggtcaatct
+       61 gtatggtagt tggaataatt agcctaatat tacaaatagg gaatataatc tcaatatggg
+      121 ttagccattc aattcaaact ggaaatcaaa accatcctga aacatgcaac caaagcatca
+      181 ttacctatga aaacaacacc tgggtgaatc aaacatatgt taacattagc aataccaacg
+      241 ttgttgctgg acaggatgca acttcagtga tattagccgg caattcctct ctttgcccca
+      301 tcagtgggtg ggctatatac agcaaagaca atggcataag aattggttcc aaaggagacg
+      361 tttttgtcat aagagagcca tttatttcat gctctcactt ggaatgcaga accttttttc
+      421 tgactcaagg cgccttgctg aatgacaagc attcaaatgg aaccgttaag gacagaagcc
+      481 cttatagaac cttaatgagc tgccctgttg gtgaagctcc ttctccgtac aattcaaggt
+      541 tcgaatcggt tgcttggtca gcaagtgcat gccatgatgg catgggctgg ctaacaatcg
+      601 gaatttctgg tccagataat ggagcagtgg ctgtattaaa atacaatggt ataataacag
+      661 acaccatcaa aagttggaga aacaacatat tgagaacaca agagtctgaa tgtgcctgta
+      721 taaatggttc atgttttact ataatgaccg atggcccaag taatgggcag gcctcgtaca
+      781 aaattttcaa gatagagaag gggaaggtta ttaaatcaat tgagttgaat gcacctaatt
+      841 accactacga ggaatgttcc tgttatcctg atacaggcaa agtaatgtgt gtgtgcagag
+      901 acaattggca tggttcgaat cgaccatggg tgtctttcga tcaaaacctg gattatcaaa
+      961 tagggtacat ctgcagtggg gttttcggtg acaatccgcg tcccaatgat ggaacaggca
+     1021 gctgtggtcc agtgtcttct aatggagcaa atggagtaaa agggttttca tttaggtatg
+     1081 gtaatggtgt ttggatagga agaactaaaa gtaccagttc cagaagcggg tttgagatga
+     1141 tttgggatcc taatggatgg acagagactg atagtagttt ctctgtgaag caagatattg
+     1201 tagcaataac tgattggtca ggatacagcg ggagtttcgt ccaacatcct gaattaacag
+     1261 ggctggactg catgaggcct tgcttctggg ttgaattaat caggggacga cctaaggaga
+     1321 acacaatctg gactagtggg agcagcattt ccttctgtgg cgtgaatagt gatactgtag
+     1381 gttggtcttg gccagacggt gctgagttgc cattcaccat tgacaagtag tttgttcaaa
+     1441 aaactccttg tttctact
+//

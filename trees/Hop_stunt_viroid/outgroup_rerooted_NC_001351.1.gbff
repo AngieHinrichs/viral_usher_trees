@@ -1,0 +1,51 @@
+LOCUS       rerooted_NC_001351.1       302 bp    ss-RNA  circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001351.1.
+ACCESSION   rerooted_NC_001351.1
+VERSION     rerooted_NC_001351.1
+KEYWORDS    RefSeq; genome.
+SOURCE      Hop stunt viroid
+  ORGANISM  Hop stunt viroid
+            Viruses; Viruses incertae sedis; Pospiviroidae; Hostuviroid;
+            Hostuviroid impedihumuli.
+REFERENCE   1  (bases 1 to 302)
+  AUTHORS   Sano,T., Hataya,T. and Shikata,E.
+  TITLE     Complete nucleotide sequence of a viroid isolated from Etrog citron,
+            a new member of hop stunt viroid group
+  JOURNAL   Nucleic Acids Res. 16 (1), 347 (1988)
+   PUBMED   3340529
+REFERENCE   2  (bases 1 to 302)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-DEC-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from X06719.
+            On Mar 24, 2009 this sequence version replaced NC_003881.1.
+            Data kindly reviewed (10-Nov-1988) by Sano T.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..302
+                     /organism="Hop stunt viroid"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:12893"
+     misc_structure  join(298..302,1..8)
+                     /note="TCH"
+     misc_feature    1..302
+                     /note="complete genome of Hop stunt viroid citrus isolate
+                     (var. 2)"
+     repeat_region   1..148
+                     /note="inverted repeat A"
+     misc_feature    73..90
+                     /note="upper strand CCR"
+     repeat_region   154..302
+                     /note="inverted repeat A'"
+     misc_feature    213..233
+                     /note="lower strand CCR"
+ORIGIN
+        1 ctggggaatt ctcgagttgc cgcatgggca agcaaagaaa aaacaaggca gggaggagac
+       61 ttacctgaga aaggagcccc ggggcaactc ttctcagaat ccagcgagag gcgtaggaga
+      121 gagggccgcg gtgctctgga gtagaggctt cttgcttcga aacaccatcg atcgtccctt
+      181 cttcttttac cttctcctgg ctcttccggc gagtcgccac cggtggcatc acctctcggt
+      241 tcgtcttcca acctgctttt tgtctatcta agcctctgcc gcggatcctc tcttgagccc
+      301 ct
+//

@@ -1,0 +1,86 @@
+LOCUS       rerooted_NC_013404.1      1143 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_013404.1.
+ACCESSION   rerooted_NC_013404.1
+VERSION     rerooted_NC_013404.1
+KEYWORDS    RefSeq; complete genome segment.
+SOURCE      Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)
+  ORGANISM  Epizootic hemorrhagic disease virus (serotype 1 / strain New Jersey)
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Orbivirus; Orbivirus
+            ruminantium.
+REFERENCE   1
+  AUTHORS   Anthony,S.J., Maan,N., Maan,S., Sutton,G., Attoui,H. and
+            Mertens,P.P.
+  TITLE     Genetic and phylogenetic analysis of the core proteins VP1, VP3,
+            VP4, VP6 and VP7 of epizootic haemorrhagic disease virus (EHDV)
+  JOURNAL   Virus Res. 145 (2), 187-199 (2009)
+   PUBMED   19632280
+REFERENCE   2  (bases 1 to 1143)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2009) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1143)
+  AUTHORS   Anthony,S.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAY-2007) Anthony S.J., Department of Arbovirology,
+            Institute for Animal Health, Ash Road, Pirbright, Surrey GU24 0NF,
+            UK
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AM744985.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Epizootic hemorrhagic disease virus (serotype 1
+                     / strain New Jersey)"
+                     /mol_type="genomic RNA"
+                     /strain="New Jersey"
+                     /serotype="1"
+                     /isolate="USA1955/01"
+                     /db_xref="taxon:449133"
+                     /segment="9"
+                     /geo_loc_name="USA:New Jersey"
+                     /collection_date="1955"
+     gene            15..1097
+                     /gene="VP6"
+                     /locus_tag="EHDV-s9_gp1"
+                     /db_xref="GeneID:8494598"
+     CDS             15..1097
+                     /gene="VP6"
+                     /locus_tag="EHDV-s9_gp1"
+                     /codon_start=1
+                     /product="VP6 protein"
+                     /protein_id="YP_003240116.1"
+                     /db_xref="GOA:C8TE66"
+                     /db_xref="InterPro:IPR001399"
+                     /db_xref="UniProtKB/TrEMBL:C8TE66"
+                     /db_xref="GeneID:8494598"
+                     /translation="MSAAVLLAPGDVIQRSTEELKQRQIQIHLVDWDKGDKGRKEQTKN
+                     KSKSSGQTEKEKEKEEETQQKGRKKEETDEKDANEDDVRRLDATVGHRPSDNRSGERQK
+                     GPSDGGGSEVKGGDRDDASRTGSNGADRGRWVVGSEEIAQCLQNRYGVSIPVYKTGATG
+                     TFINIEKSLQKELGFTREMMAEQTEALRAVKTEMKKSKMAKPHAVKKDVSQKSDKKWGK
+                     GERNDGVKKEEGIETDKQEDKDDDDDEGGKMIAESSVSSSKQT*DLAVEDVMSQKKLLS
+                     MIGGGERREETTRARETSVMLVSNSKDDVERATAYFTAPTGDTNWKEVARLAAKRSNIM
+                     AYTSEEDDVKKSFLHLIDHL*"
+ORIGIN
+        1 gttaaaaatt gcgcatgtca gctgcggttt tgctcgcacc cggtgacgtg atccaacgtt
+       61 cgaccgagga actaaaacaa agacagatcc agattcattt agttgattgg gataaaggag
+      121 ataaggggag aaaggaacag accaaaaaca aaagcaaaag cagcggacaa acagaaaaag
+      181 aaaaagaaaa agaggaggag acgcaacaga aagggcgcaa aaaggaagag acagatgaga
+      241 aagatgcaaa tgaagatgat gttcgacgct tggatgctac agtgggacat cgaccaagcg
+      301 ataatcgatc tggagaacgc cagaagggac ctagcgacgg aggaggaagt gaggttaagg
+      361 gaggagatag agatgatgcg tcaagaactg gaagcaatgg ggccgataga gggagatggg
+      421 tagtggggag cgaagaaatc gctcaatgtc tccagaatcg gtacggagtg agtatccctg
+      481 tatacaaaac aggagcaact ggtacgttta taaacattga gaagtcgctg cagaaggagc
+      541 tgggattcac acgtgagatg atggcggaac aaacggaagc gctgcgagct gtgaagactg
+      601 agatgaagaa gagtaagatg gcgaaacccc acgcagtgaa gaaagatgta tcacaaaaga
+      661 gtgataagaa atggggaaaa ggagagagaa atgatggggt taagaaagaa gaagggatag
+      721 aaacagataa gcaagaggac aaagatgacg atgatgacga gggggggaag atgatagcag
+      781 aatcatcggt ctcatcctca aaacagactt aagatttagc tgttgaagat gttatgagcc
+      841 agaagaaatt actatctatg atagggggag gtgaaagacg tgaggaaacc acacgtgcac
+      901 gggagacttc agtaatgtta gtttctaact cgaaagatga tgttgaacgc gctacagcat
+      961 acttcaccgc tccaacgggg gacacaaact ggaaggaggt cgctcggctt gccgctaaaa
+     1021 gatcaaatat catggcttac acttcggagg aagatgacgt taagaagagt ttcttacact
+     1081 taattgatca tctctaaagg gtcagggctg ctgcttcatg gcacacgcgc aatttaaact
+     1141 tac
+//

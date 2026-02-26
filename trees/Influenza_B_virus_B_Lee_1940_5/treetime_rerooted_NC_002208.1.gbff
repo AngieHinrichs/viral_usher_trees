@@ -1,0 +1,90 @@
+LOCUS       rerooted_NC_002208.1      1841 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_002208.1.
+ACCESSION   rerooted_NC_002208.1
+VERSION     rerooted_NC_002208.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza B virus (B/Lee/1940)
+  ORGANISM  Influenza B virus (B/Lee/1940)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae.
+REFERENCE   1  (bases 1 to 1841)
+  AUTHORS   Briedis,D.J. and Tobin,M.
+  TITLE     Influenza B virus genome: complete nucleotide sequence of the
+            influenza B/lee/40 virus genome RNA segment 5 encoding the
+            nucleoprotein and comparison with the B/Singapore/222/79
+            nucleoprotein
+  JOURNAL   Virology 133 (2), 448-455 (1984)
+   PUBMED   6324462
+REFERENCE   2  (bases 1 to 1841)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to K01395.
+            Sequence below, when reported in [1], was flanked on 5' end by
+            non-viral (vector) sequence 'aagcggctggtc'.
+            Mia 18-MAY-1987 review.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1841
+                     /organism="Influenza B virus (B/Lee/1940)"
+                     /mol_type="viral cRNA"
+                     /strain="B/Lee/1940"
+                     /db_xref="taxon:518987"
+                     /segment="5"
+     gene            58..1740
+                     /gene="NP"
+                     /locus_tag="FLUBVsRNA-5gp1"
+                     /db_xref="GeneID:26824002"
+     CDS             58..1740
+                     /gene="NP"
+                     /locus_tag="FLUBVsRNA-5gp1"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="NP_056661.1"
+                     /db_xref="GeneID:26824002"
+                     /translation="MSNMDIDGINTGTIDKTPEEITSGTSGATRPIIRPATLAPPSNKR
+                     TRNPSPERATTSSEADVGRRTQKKQTPTEIKKSVYNMVVKLGEFYNQMMVKAGLNDDME
+                     RNLIQNAHAVERILLAATDDKKTEFQKKKNARDVKEGKEEIDHNKTGGTFYKMVRDDKT
+                     IYFSPIRITFLKEEVKTMYKTTMGSDGFSGLNHIMIGHSQMNDVCFQRSKALKRVGLDP
+                     SLISTFAGSTLPRRSGATGVAIKGGGTLVAEAIRFIGRAMADRGLLRDIKAKTAYEKIL
+                     LNLKNKCSAPQQKALVDQVIGSRNPGIADIEDLTLLARSMVVVRPSVASKVVLPISIYA
+                     KIPQLGFNVEEYSMVGYEAMALYNMATPVSILRMGDDAKDKSQLFFMSCFGAAYEDLRV
+                     LSALTGTEFKPRSALKCKGFHVPAKEQVEGMGAALMSIKLQFWAPMTRSGGNEVGGDGG
+                     SGQISCSPVFAVERPIALSKQAVRRMLSMNIEGRDADVKGNLLKMMNDSMAKKTNGNAF
+                     IGKKMFQISDKNKTNPVEIPIKQTIPNFFFGRDTAEDYDDLDY*"
+ORIGIN
+        1 agcagaagca cagcattttc ttgtgaactt caagtaccaa caaaactgaa aatcaaaatg
+       61 tccaacatgg atattgacgg catcaacact ggaacaattg acaaaacacc agaagaaata
+      121 acttctggaa ccagtggggc aaccagacca atcatcagac cagcaaccct tgccccacca
+      181 agcaacaaac gaacccggaa cccatccccg gaaagggcaa ccacaagcag tgaagctgat
+      241 gtcggaagga gaacccaaaa gaaacaaacc ccgacagaga taaagaagag cgtctacaat
+      301 atggtagtga aactgggtga attctacaac cagatgatgg tcaaagctgg actcaacgat
+      361 gacatggaga gaaacctaat ccaaaatgca catgctgtgg aaagaattct attggctgct
+      421 actgatgaca agaaaactga attccagaag aaaaagaatg ccagagatgt caaagaaggg
+      481 aaagaagaaa tagaccacaa caaaacagga ggcacctttt acaagatggt aagagatgat
+      541 aaaaccatct acttcagccc tataagaatt acctttttaa aagaagaggt gaaaacaatg
+      601 tacaaaacca ccatggggag tgatggtttc agtggactaa atcacatcat gattgggcat
+      661 tcacagatga acgatgtctg tttccaaaga tcaaaggcac taaaaagagt tggacttgac
+      721 ccttcattaa tcagtacttt tgcaggaagc acactcccca gaagatcagg tgcaactggt
+      781 gttgcgatca aaggaggtgg aactttagtg gcagaagcca ttcgatttat aggaagagca
+      841 atggcagaca gagggctatt gagagacatc aaagccaaga cggcctatga aaagattctt
+      901 ctgaatctga aaaacaagtg ctctgcgccc caacaaaagg ctctagttga tcaagtgatc
+      961 ggaagtagaa atccagggat tgcagacata gaagacctaa ccctgcttgc tcgaagtatg
+     1021 gtcgttgtta ggccctctgt ggcgagcaaa gtggtgcttc ccataagcat ttatgctaaa
+     1081 atacctcaac tagggttcaa tgttgaagaa tactctatgg ttgggtatga agccatggct
+     1141 ctttataata tggcaacacc tgtttccata ttaagaatgg gagacgatgc aaaagataaa
+     1201 tcacaattat tcttcatgtc ttgcttcgga gctgcctatg aagacctaag agttttgtct
+     1261 gcactaacag gcacagaatt caagcctagg tcagcattaa agtgcaaggg tttccacgtt
+     1321 ccagcaaagg agcaagtgga aggaatgggg gcagctctga tgtccatcaa gctccagttt
+     1381 tgggctccaa tgaccagatc tggggggaat gaagtaggtg gagacggagg gtctggccaa
+     1441 ataagttgca gcccagtgtt tgcagtagaa agacctattg ctctaagcaa gcaagctgta
+     1501 agaagaatgc tgtcaatgaa tattgaggga cgtgatgcag atgtcaaagg aaatctactc
+     1561 aagatgatga atgattcaat ggctaagaaa accaatggaa atgctttcat tgggaagaaa
+     1621 atgtttcaaa tatcagacaa aaacaaaacc aatcccgttg agattccaat taagcagacc
+     1681 atccccaatt tcttctttgg gagggacaca gcagaggatt atgatgacct cgattattaa
+     1741 agcaacaaaa tagacactat ggctgtgatt gtttcagtac gtttggaatg tgggtgttta
+     1801 ctcttattga aataaatgta aaaaatgctg ttgtttctac t
+//

@@ -1,0 +1,127 @@
+LOCUS       rerooted_NC_024113.1      3114 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_024113.1.
+ACCESSION   rerooted_NC_024113.1
+VERSION     rerooted_NC_024113.1
+KEYWORDS    RefSeq.
+SOURCE      Jingmen tick virus
+  ORGANISM  Jingmen tick virus
+            Viruses; Riboviria; Orthornavirae; Kitrinoviricota; Flasuviricetes;
+            Amarillovirales; Flaviviridae; Jingmenvirus group.
+REFERENCE   1  (bases 1 to 3114)
+  AUTHORS   Qin,X.C., Shi,M., Tian,J.H., Lin,X.D., Gao,D.Y., He,J.R., Wang,J.B.,
+            Li,C.X., Kang,Y.J., Yu,B., Zhou,D.J., Xu,J., Plyusnin,A.,
+            Holmes,E.C. and Zhang,Y.Z.
+  TITLE     A tick-borne segmented RNA virus contains genome segments derived
+            from unsegmented viral ancestors
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 111 (18), 6744-6749 (2014)
+   PUBMED   24753611
+REFERENCE   2  (bases 1 to 3114)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAY-2014) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 3114)
+  AUTHORS   Qin,X.-C., Shi,M., Tian,J.-H., Lin,X.-D., Gao,D.-Y., He,J.-R.,
+            Wang,J.-B., Li,C.-X., Kang,Y.-J., Yu,B., Zhou,D.-J., Xu,J.,
+            Plyusnin,A., Holmes,E.C. and Zhang,Y.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-2013) State Key Laboratory for Infectious Disease
+            Prevention and Control, National Institute for Communicable Disease
+            Control and Prevention, Chinese Center for Disease Control and
+            Prevention, Changping Liuzi 5, Beijing 102206, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KJ001579.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3114
+                     /organism="Jingmen tick virus"
+                     /mol_type="genomic RNA"
+                     /isolate="SY84"
+                     /host="Rhipicephalus microplus"
+                     /db_xref="taxon:1172985"
+                     /segment="1"
+                     /geo_loc_name="China"
+                     /collection_date="01-Jul-2010"
+     gene            105..2849
+                     /locus_tag="FB04_s1gp1"
+                     /db_xref="GeneID:19371824"
+     CDS             105..2849
+                     /locus_tag="FB04_s1gp1"
+                     /note="putative RNA dependent RNA polymerase"
+                     /codon_start=1
+                     /product="NS5-like protein"
+                     /protein_id="YP_009029999.1"
+                     /db_xref="GeneID:19371824"
+                     /translation="MDADTVIAGLAMVMLILLAMILQMASHYREHATFIYTPGGKLEEY
+                     KGDGLKVWRLEPTLGDPTELGRQAKKEMNAMTYEEFDRMKFRGVVAEVYAGDKPSKGYD
+                     KLRTLLDIMDRPKLGTTVDLCAGRGGWSQLVRELEGPGDITAVSLWERGREEWMADPAI
+                     RRINANVKNVKPWRVDTLLFDGGETFKRDQNIMKEESYNDALLDAVDAWMMQATPPTNF
+                     VVKIQVPYTQKAMRLIEKWQVKTKKGRLVRLAGDRLSNTVMYFISDRLETQIRGRITSF
+                     LRELRERRVDRSLTSDPALQYERITPEWTAEAVIEGCAPLTPLNMTRSIAEMHMEHPPL
+                     GITRFFKELGYKIAKKKGSEGTRRNRFVGQLIEPLRRVLERHHLFGAWQLTSTTPRAVF
+                     NIFRSKVDRAPVELHSHYPGLKKMYDILADLWLERYGSMKRLTEDEMASAINRRGAMGY
+                     QMDNRNYGDLGTYWDSGDWRQDVNTFKRALLSGTPTHAVYNTTAKKEKTKNLTRQVNKG
+                     SRIIQYLPADARLYELKVLGGLHKYLEKCGWSVAGQGLYKYGDRVKKSMDATGAAISED
+                     VAGWDTKISKGLLTLESHMFTRLAEDEEMAREIHHLYRLYADPHMVVQREIEGEVHDVL
+                     LRGRGQVSSGRQPTYAANTITNFITTTYGMAVTLGIPEADWPRLIRDLTDERGNRRLLV
+                     SGDDKVLFLRGDEARVYASSAYRISNDMGLVRKDMALEQESEIIVDVKEISFCSHRYWP
+                     VKYGNETHYMPVRDVGEIFAKATMALGVYKDDMTQEAWARVQGLNMLVNYHHIPECRML
+                     ALAILSVTRIGLNLKGITKGWMMSTEWLRDDLAPDTIHALITEGRTSGWDQLGYVDFKD
+                     RKGILLRPDTSYKNWRRDLPEKVRQLREDGQYKDWLQKMAVFG*"
+ORIGIN
+        1 gttaaaagag gccgcccttt actgcaagtg caaaggttaa ggaatccgcc tcagactcaa
+       61 acgcagacag aacaacaaca agacagacaa ttgtggaaaa cacaatggac gcagacaccg
+      121 tgatcgctgg attggccatg gtgatgctaa ttctgctggc aatgatcctg cagatggcat
+      181 cacactacag agaacatgcc accttcatct acactccagg aggaaaactg gaggagtaca
+      241 agggagacgg actcaaggta tggaggttgg agcccacatt gggggatccg accgaattgg
+      301 gtaggcaggc taagaaagag atgaacgcta tgacctatga agaattcgat agaatgaagt
+      361 tcaggggagt ggtggccgaa gtgtacgcag gagacaaacc atcaaaaggc tatgataaac
+      421 tcaggacact gctagacata atggacagac ccaagctggg aacaacggtt gatctttgcg
+      481 cgggccgagg gggctggagc cagctagtca gagagctaga gggaccaggt gacatcaccg
+      541 ctgtctccct atgggagaga ggcagagagg aatggatggc cgaccccgcc ataaggagga
+      601 tcaatgccaa tgtaaagaac gtcaagccct ggcgtgtaga cacgctgcta ttcgatgggg
+      661 gggagacctt caaaagggac caaaacatca tgaaggaaga gagctacaac gacgccctac
+      721 tggacgctgt ggatgcatgg atgatgcagg ctacacctcc cacaaacttc gtggtaaaaa
+      781 tacaggttcc ctatacacaa aaagcgatga gactcataga aaagtggcaa gtgaagacca
+      841 agaagggaag actggttagg ctggcgggag acaggctgtc caacaccgtg atgtacttca
+      901 tatcagatag gctggaaacg cagattcggg gaaggataac cagtttcctc agagagctcc
+      961 gggagcgaag agtggacaga tccctgacgt ctgacccggc cctgcaatac gaacgcataa
+     1021 caccagagtg gacagcagag gctgtgattg aggggtgcgc cccactcaca ccgctgaaca
+     1081 tgaccagatc tatagcagag atgcatatgg aacacccacc cttggggata accagattct
+     1141 tcaaagagct cggttacaag atcgcaaaaa agaagggctc agagggcacg cgaagaaaca
+     1201 ggttcgtggg ccagctcata gagcccctaa gacgggtgct agaacgacac cacctcttcg
+     1261 gagcatggca actcacctca acaacacctc gagccgtgtt caatatcttc agaagcaaag
+     1321 tggacagggc ccctgtggag ctccactcgc actatccagg actaaaaaag atgtacgaca
+     1381 ttctcgccga cctctggttg gagaggtacg gaagcatgaa gcgactaacc gaggatgaga
+     1441 tggcctcggc gataaatagg agaggtgcca tgggttacca gatggacaac aggaactacg
+     1501 gagacctcgg gacctactgg gactcagggg actggagaca agacgtcaac acgttcaaga
+     1561 gggctctgct cagtggaaca ccgactcacg ctgtttacaa caccaccgca aagaaggaaa
+     1621 aaacaaagaa cttaaccagg caggtgaaca aaggaagccg cataatccag tacttacctg
+     1681 cggacgcccg gctctatgag ctgaaagtgc tgggcgggtt gcacaagtac ctggagaagt
+     1741 gcggatggag tgtggcagga cagggtttgt acaagtacgg agatcgagtg aagaagtcaa
+     1801 tggacgctac cggcgccgct atatcggaag acgtggcggg ttgggacaca aagatctcca
+     1861 aaggactact caccctggag tcccacatgt tcaccaggct agcggaggat gaagaaatgg
+     1921 cgcgggagat ccaccacctc taccgactct acgcagatcc acacatggtg gtccagaggg
+     1981 agattgaagg tgaagtccac gacgtactcc ttagggggag ggggcaggtc tcctccggga
+     2041 ggcagcccac ctatgcggcc aacaccatca ccaacttcat aacgacaaca tacggaatgg
+     2101 ctgttaccct tggtatacct gaggccgatt ggccccgatt gataagggac ctcacagatg
+     2161 agaggggcaa caggcgtctc ctcgtctcgg gggacgacaa ggttcttttc ttaagaggag
+     2221 atgaggctag ggtctacgcc tcatcggcct accggataag taacgacatg ggactggtga
+     2281 gaaaggacat ggctttggaa caggaatctg agatcatagt ggacgtaaaa gaaatatcct
+     2341 tctgctccca caggtactgg ccggtgaagt acggcaatga gactcactac atgccagtca
+     2401 gggacgtggg agagatcttc gccaaggcca ccatggcctt gggcgtctac aaggatgaca
+     2461 tgacccagga ggcgtgggct agagtgcaag gcctgaatat gctggtgaac taccatcaca
+     2521 tcccagaatg cagaatgctg gctctggcca tcctctcggt aacacggatc ggcctaaacc
+     2581 tgaaagggat caccaagggc tggatgatga gcaccgagtg gcttagagac gacttagcac
+     2641 cagataccat ccacgctctc atcaccgaag ggagaacctc gggatgggat caattaggct
+     2701 acgtggattt taaggatagg aaaggcatcc tactacgacc cgatactagc tacaagaatt
+     2761 ggaggagaga cctccctgaa aaagtgcggc aactcaggga ggatggacag tacaaggatt
+     2821 ggttgcagaa gatggcagtg tttggttaga ggctgatcac acccacacga aacacacaca
+     2881 aacacattag agtagagcgc cctggaaaaa ccaggttgcg gtgttagcgc caccgtacat
+     2941 gaacacaaca aaactgaatt gggggaaaaa gtaaaatctg cggtatctgc aggcagcgac
+     3001 taaggggcgg caagtgccaa agaggcgtca agtgatgcct tggccccgct gatctgcaag
+     3061 ttactaaaga gcaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaa
+//

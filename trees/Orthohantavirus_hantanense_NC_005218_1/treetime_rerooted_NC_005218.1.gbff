@@ -1,0 +1,80 @@
+LOCUS       rerooted_NC_005218.1      1696 bp    ss-RNA  linear   VRL 30-OCT-2025
+DEFINITION  rerooted_NC_005218.1.
+ACCESSION   rerooted_NC_005218.1
+VERSION     rerooted_NC_005218.1
+KEYWORDS    RefSeq.
+SOURCE      Orthohantavirus hantanense
+  ORGANISM  Orthohantavirus hantanense
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Bunyaviricetes; Elliovirales; Hantaviridae;
+            Mammantavirinae; Orthohantavirus.
+REFERENCE   1  (bases 1 to 1696)
+  AUTHORS   Schmaljohn,C.S., Jennings,G.B., Hay,J. and Dalrymple,J.M.
+  TITLE     Coding strategy of the S genome segment of Hantaan virus
+  JOURNAL   Virology 155 (2), 633-643 (1986)
+   PUBMED   3024404
+REFERENCE   2  (bases 1 to 1696)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-2003) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to M14626.
+            Draft entry and computer-readable sequence for [1] kindly provided
+            by C.Schmaljohn, 02-MAR-1987.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1696
+                     /organism="Orthohantavirus hantanense"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:3052480"
+                     /segment="S"
+     gene            37..1326
+                     /locus_tag="HTNVsSgp1"
+                     /db_xref="GeneID:2943078"
+     CDS             37..1326
+                     /locus_tag="HTNVsSgp1"
+                     /note="nucleocapsid protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_941977.1"
+                     /db_xref="GeneID:2943078"
+                     /translation="MATMEELQREINAHEGQLVIARQKVRDAEKQYEKDPDELNKRALT
+                     DREGVAVSIQAKIDELKRQLADRIATGKNLGKEQDPTGVEPGDHLKERSMLSYGNVLDL
+                     NHLDIDEPTGQTADWLSIVVYLTSFVVPILLKALYMLTTRGRQTTKDNKGTRIRFKDDS
+                     SFEDVNGIRKPKHLYVSLPNAQSSMKAEEITPGRYRTAICGLYPAQIKARQMISPVMSV
+                     IGFLALAKDWSDRIEQWLSEPCKLLPDTAAVSLLGGPATNRDYLRQRQVALGNMETKES
+                     KAIRQHAEAAGCSMIEDIESPSSIWVFAGAPDRCPPTCLFIAGIAELGAFFSILQDMRN
+                     TIMASKTVGTSEEKLRKKSSFYQSYLRRTQSMGIQLDQRIIVLFMVAWGKEAVDNFHLG
+                     DDMDPELRTLAQSLIDVKVKEISNQEPLKL*"
+ORIGIN
+        1 tagtagtaga ctccctaaag agctactaga acaacgatgg caactatgga ggaattgcag
+       61 agggaaatca atgcccatga gggtcaattg gtgatagcca ggcagaaggt gagggatgca
+      121 gaaaaacagt atgaaaagga tccagatgag ttgaacaaga gagcattgac agaccgagag
+      181 ggtgttgcag tatccatcca ggcaaagatt gatgagttaa agaggcaact ggcagatagg
+      241 attgcaactg ggaaaaacct tggaaaggaa caagacccaa caggggtaga gcctggagac
+      301 catctgaaag agagatcaat gctcagttat ggaaatgtgc tggatttaaa ccatctggat
+      361 attgatgagc caacaggaca gacagcagac tggctgagca ttgttgtcta tcttacatcc
+      421 tttgttgtcc cgatacttct gaaagccctg tatatgttaa caacaagggg gaggcagacc
+      481 accaaggaca ataaagggac tcggattcga ttcaaggatg atagctcatt cgaggatgtt
+      541 aatggtatcc ggaaaccaaa acatctatat gtgtccttgc caaatgcaca gtcaagcatg
+      601 aaggcagaag agattacacc tggtagatat agaacagcaa tctgtgggct ctaccctgca
+      661 cagattaagg caaggcagat gatcagtcca gtcatgagtg taattggatt tctagcattg
+      721 gcaaaggact ggagtgaccg tattgagcag tggttaagtg aaccttgcaa gcttcttcca
+      781 gatacagcag cagttagcct ccttggtggt cctgcaacaa acagggacta cttacggcag
+      841 cggcaagtgg cattaggcaa tatggagaca aaagagtcaa aggctatacg ccaacatgca
+      901 gaagcagcag gctgtagcat gattgaagac attgagtcac catcatcaat atgggtcttt
+      961 gctggagcac cagaccgttg tccaccaaca tgtctgttta ttgcaggtat tgctgagctt
+     1021 ggggcatttt tttccatcct gcaggacatg cggaatacaa tcatggcatc taagacagtt
+     1081 ggaacatctg aggaaaagct acggaagaaa tcatcattct atcagtctta tctcaggaga
+     1141 acacaatcaa tgggaataca actggaccag agaattattg tgctcttcat ggttgcctgg
+     1201 gggaaagaag cagtggataa cttccaccta ggggatgata tggatcctga gctaagaaca
+     1261 ctagcacaga gcctgattga tgttaaagtg aaggaaatct ccaaccaaga gcctttaaaa
+     1321 ctataatcag tgaatgtatt aaccctttta tgtgattatt atatactact gaatcattat
+     1381 caatcatatt tgcactatta ttatcagggg aatcagtata tcagggtatg ggaacattta
+     1441 tgggtgggaa tcattactca ggggtgggtc agttaatccg ttgtgggtgg gtttagttcc
+     1501 aggctgcctt aagtagcctt tttttgtata tatggatgta gatttcattt gatccttaac
+     1561 taatcttgct ttctttcctt ttctttctgc tttctctgct tactaacaac aacattctac
+     1621 ctcaacacaa aactacctca acttaactac ctcatttgat tgctccttga ttgtcttttt
+     1681 agggagcata ctacta
+//

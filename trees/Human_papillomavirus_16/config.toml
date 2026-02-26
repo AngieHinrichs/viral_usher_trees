@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001526.4, taxonomy ID 337041
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001526.4'
-refseq_assembly = 'GCF_000863945.3'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001526.4'
+#refseq_assembly = 'GCF_000863945.3'
+ref_fasta = './trees/Human_papillomavirus_16/midpoint_rerooted_NC_001526.4.fa'
+ref_gbff = './trees/Human_papillomavirus_16/midpoint_rerooted_NC_001526.4.gbff'
 taxonomy_id = '337041'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

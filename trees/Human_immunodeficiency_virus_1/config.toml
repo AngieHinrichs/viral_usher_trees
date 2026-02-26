@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001802.1, taxonomy ID 3418650
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001802.1'
-refseq_assembly = 'GCF_000864765.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001802.1'
+#refseq_assembly = 'GCF_000864765.1'
+ref_fasta = './trees/Human_immunodeficiency_virus_1/treetime_rerooted_NC_001802.1.fa'
+ref_gbff = './trees/Human_immunodeficiency_virus_1/treetime_rerooted_NC_001802.1.gbff'
 taxonomy_id = '3418650'
 nextclade_dataset = 'community/neherlab/hiv-1/hxb2'
 nextclade_clade_columns = 'clade'

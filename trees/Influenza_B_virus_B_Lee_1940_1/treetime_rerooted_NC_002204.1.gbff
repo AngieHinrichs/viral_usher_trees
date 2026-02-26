@@ -1,0 +1,102 @@
+LOCUS       rerooted_NC_002204.1      2368 bp    cRNA    linear   VRL 07-MAY-2025
+DEFINITION  rerooted_NC_002204.1.
+ACCESSION   rerooted_NC_002204.1
+VERSION     rerooted_NC_002204.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza B virus (B/Lee/1940)
+  ORGANISM  Influenza B virus (B/Lee/1940)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Betainfluenzavirus; Betainfluenzavirus influenzae.
+REFERENCE   1  (bases 1 to 2368)
+  AUTHORS   Kemdirim,S., Palefsky,J. and Briedis,D.J.
+  TITLE     Influenza B virus PB1 protein; nucleotide sequence of the genome RNA
+            segment predicts a high degree of structural homology with the
+            corresponding influenza A virus polymerase protein
+  JOURNAL   Virology 152 (1), 126-135 (1986)
+   PUBMED   3754992
+REFERENCE   2  (bases 1 to 2368)
+  AUTHORS   Breidis,D.J.
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2368)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from M14880.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2368
+                     /organism="Influenza B virus (B/Lee/1940)"
+                     /mol_type="viral cRNA"
+                     /strain="B/Lee/1940"
+                     /db_xref="taxon:518987"
+                     /segment="1"
+     gene            21..2279
+                     /gene="PB1"
+                     /locus_tag="FLUBVsRNA-1gp1"
+                     /db_xref="GeneID:956545"
+     CDS             21..2279
+                     /gene="PB1"
+                     /locus_tag="FLUBVsRNA-1gp1"
+                     /codon_start=1
+                     /product="polymerase PB1"
+                     /protein_id="NP_056657.1"
+                     /db_xref="GeneID:956545"
+                     /translation="MNINPYFLFIDVPIQAAISTTFPYTGVPPYSHGTGTGYTIDTVIR
+                     THEYSNKGKQYISDVTGCTMVDPTNGPLPEDNEPSAYAQLDCVLEALDRMDEEHPGLFQ
+                     AASQNAMEALMVTTVDKLTQGRQTFDWTVCRNQPAATALNTTITSFRLNDLNGADKGGL
+                     VPFCQDIIDSLDKPEMTFFSVKNIKKKLPAKNRKGFLIKRIPMKVKDRITRVEYIKRAL
+                     SLNTMTKDAERGKLKRRAIATAGIQIRGFVLVVENLAKNICENLEQSGLPVGGNEKKAK
+                     LSNAVAKMLSNCPPGGISMTVTGDNTKWNECLNPRIFLAMTERITRDSPIWFRDFCSIA
+                     PVLFSNKIARLGKGFMITSKTKRLKAQIPCPDLFSIPLERYNEETRAKLKKLKPFFNEE
+                     GTASLSPGMMMGMFNMLSTVLGVAALGIKNIGNKEYLWDGLQSSDDFALFVNAKDEETC
+                     MEGINDFYRTCKLLGINMSKKKSYCNETGMFEFTSMFYRDGFVSNFAMELPSFGVAGVN
+                     ESADMAIGMTIIKNNMINNGMGPATAQTAIQLFIADYRYTYKCHRGDSKVEGKRMKIIK
+                     ELWENTKGRDGLLVADGGPNIYNLRNLHIPEIVLKYNLMDPEYKGRLLHPQNPFVGHLS
+                     IEGIKEADITPAHGPVKKMDYDAVSGTHSWRTKRNRSILNTDQRNMILEEQCYAKCCNL
+                     FEACFNSASYRKPVGQHSMLEAMAHRLRMDARLDYESGRMSKDDFEKAMAHLGEIGYI*
+                     "
+ORIGIN
+        1 agcagaagcg gagctttaag atgaatataa atccttattt tctcttcata gatgtaccca
+       61 tacaggcagc aatttcaaca acattcccat acaccggtgt tcccccttat tcccatggaa
+      121 cgggaacagg ctacacaata gacaccgtga tcagaacaca tgagtactca aacaagggaa
+      181 aacagtacat ttctgatgtt acaggatgta caatggtaga tccaacaaat gggccattac
+      241 ccgaagacaa tgagccgagt gcctatgcac aattagattg cgttctggag gctttggata
+      301 gaatggatga agaacatcca ggtctgtttc aagcagcctc acagaatgcc atggaggcac
+      361 taatggtcac aactgtagac aaattaaccc aggggagaca gacttttgat tggacagtat
+      421 gcagaaacca acctgctgca acggcactga acacaacaat aacctctttt aggttgaatg
+      481 atttgaatgg agccgacaag ggtggattag tacccttttg ccaagatatc attgattcat
+      541 tggacaaacc tgaaatgact ttcttctcag taaagaatat aaagaaaaaa ttgcctgcta
+      601 aaaacagaaa gggtttcctc ataaagagaa taccaatgaa ggtaaaagac agaataacca
+      661 gagtggaata catcaaaaga gcattatcat taaacacaat gacaaaagat gctgaaagag
+      721 gcaaactaaa aagaagagcg attgccaccg ctggaataca aatcagaggg tttgtattag
+      781 tagttgaaaa cttggctaaa aatatctgtg aaaatctaga acaaagtggt ttgccagtag
+      841 gtggaaacga gaagaaggcc aaactgtcaa atgcagtggc caaaatgctc agtaactgcc
+      901 caccaggagg gatcagcatg acagtaacag gagacaatac taaatggaat gaatgcttaa
+      961 atccaagaat ctttttggct atgactgaaa gaataaccag agacagccca atttggttcc
+     1021 gggatttttg tagtatagca ccggtcttgt tctccaataa aatagccaga ttgggaaaag
+     1081 ggtttatgat aacaagcaaa acaaaaagac tgaaggctca aataccttgt cctgatctgt
+     1141 ttagtatacc attagaaaga tataatgaag aaacaagggc aaaattgaaa aagctgaaac
+     1201 cattcttcaa tgaagaagga acggcatctt tgtcgcctgg gatgatgatg ggaatgttta
+     1261 atatgctatc taccgtgttg ggagtagccg cactaggtat caaaaacatt ggaaacaaag
+     1321 aatacttatg ggatggactg caatcttctg atgattttgc tctgtttgtt aatgcaaaag
+     1381 atgaagagac atgtatggaa ggaataaacg acttttaccg aacatgtaaa ttattgggaa
+     1441 taaacatgag caaaaagaaa agttactgta atgaaactgg aatgtttgaa tttacaagca
+     1501 tgttctacag agatggattt gtatctaatt ttgcaatgga acttccttca tttggagttg
+     1561 ctggagtaaa tgaatcagca gatatggcaa taggaatgac aataataaag aacaatatga
+     1621 tcaacaatgg gatgggtcca gcaacagcac aaacagccat acaattattc atagctgatt
+     1681 atagatacac ctacaaatgc cacaggggag attccaaagt ggaaggaaag agaatgaaaa
+     1741 ttataaagga gctatgggaa aacactaaag gaagagatgg tctgttagta gcagatggtg
+     1801 ggcctaacat ttacaatttg agaaacttgc atatcccaga aatagtatta aagtacaacc
+     1861 taatggaccc tgaatacaaa gggcggttac ttcatcctca aaatcccttt gtaggacatt
+     1921 tgtctattga gggcatcaaa gaggcagata taaccccagc acatggtcca gtaaagaaaa
+     1981 tggactatga tgcggtgtct ggaactcata gttggagaac caaaaggaac agatctatac
+     2041 taaacactga tcagaggaac atgattcttg aggaacaatg ctacgctaag tgttgcaacc
+     2101 tttttgaggc ctgttttaac agtgcatcat acaggaaacc agtaggtcag cacagcatgc
+     2161 ttgaggctat ggcccacaga ttaagaatgg atgcacgact agattatgaa tcaggaagaa
+     2221 tgtcaaagga tgattttgag aaagcaatgg ctcaccttgg tgagattggg tacatataag
+     2281 cttcgaagat gtctatgggg ttattggtca tcattgaata catgcggtac acaaatgatt
+     2341 aaaatgaaaa aaggctcgtg tttctact
+//

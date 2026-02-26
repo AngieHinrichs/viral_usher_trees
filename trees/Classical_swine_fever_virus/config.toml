@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_002657.1, taxonomy ID 3052625
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_002657.1'
-refseq_assembly = 'GCF_000864685.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_002657.1'
+#refseq_assembly = 'GCF_000864685.1'
+ref_fasta = './trees/Classical_swine_fever_virus/treetime_rerooted_NC_002657.1.fa'
+ref_gbff = './trees/Classical_swine_fever_virus/treetime_rerooted_NC_002657.1.gbff'
 taxonomy_id = '3052625'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

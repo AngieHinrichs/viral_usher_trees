@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_015782.2, taxonomy ID 3432991
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_015782.2'
-refseq_assembly = 'GCF_000894735.2'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_015782.2'
+#refseq_assembly = 'GCF_000894735.2'
+ref_fasta = './trees/Grapevine_Pinot_gris_virus/treetime_rerooted_NC_015782.2.fa'
+ref_gbff = './trees/Grapevine_Pinot_gris_virus/treetime_rerooted_NC_015782.2.gbff'
 taxonomy_id = '3432991'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

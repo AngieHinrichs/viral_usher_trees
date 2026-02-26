@@ -1,0 +1,108 @@
+LOCUS       rerooted_NC_077843.1      2207 bp    ds-RNA  linear   VRL 06-MAY-2023
+DEFINITION  rerooted_NC_077843.1.
+ACCESSION   rerooted_NC_077843.1
+VERSION     rerooted_NC_077843.1
+KEYWORDS    RefSeq.
+SOURCE      Mammalian orthoreovirus 3 Dearing
+  ORGANISM  Mammalian orthoreovirus 3 Dearing
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus mammalis.
+REFERENCE   1  (bases 1 to 2207)
+  AUTHORS   Hosseini,M., Brown,E.G. and Bell,J.C.
+  TITLE     Genetic Modulation and Characterization of the Oncolytic Properties
+            of Reoviruses
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2207)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2207)
+  AUTHORS   Hosseini,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2010) Centre for Cancer Therapeutics, Ottawa
+            Health Research Institute, 501 Smyth Road, Ottawa, ON K1H 8L6,
+            Canada
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to HM159617.
+            GenBank Accession Numbers HM159613-HM159622 represent the complete
+            genome of Mammalian orthoreovirus 3 Dearing strain T3D.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2207
+                     /organism="Mammalian orthoreovirus 3 Dearing"
+                     /mol_type="genomic RNA"
+                     /strain="T3D"
+                     /serotype="3"
+                     /isolate="Dearing"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:10886"
+                     /segment="M2"
+                     /geo_loc_name="USA"
+                     /collection_date="Jan-2002"
+                     /collected_by="Bernard N. Fields"
+     gene            31..2160
+                     /gene="M2"
+                     /locus_tag="QK524_sM2gp1"
+                     /db_xref="GeneID:80549150"
+     CDS             31..2160
+                     /gene="M2"
+                     /locus_tag="QK524_sM2gp1"
+                     /note="outer capsid protein"
+                     /codon_start=1
+                     /product="mu-1 protein"
+                     /protein_id="YP_010839455.1"
+                     /db_xref="GeneID:80549150"
+                     /translation="MGNASSIVQTINVTGDGNVFKPSAETSSTAVPSLSLSPGMLNPGG
+                     VPWIAIGDETSVTSPGALRRMTSKDIPETAIINTDNSSGAVPSESALVPYNDEPLVVVT
+                     EHAITNFTKAEMALEFNREFLDKLRVLSVSPKYSDLLTYVDCYVGVSARQALNNFQKQV
+                     PVITPTRQTMYVDSIQAALKALEKWEIDLRVAQTLLPTNVPIGEVSCPMQSVVKLLDDQ
+                     LPDDSLIRRYPKEAAVALAKRNGGIQWMDVSEGTVMNEAVNAVAASALAPSASAPPLEE
+                     KSKLTEQAMDLVTAAEPEIIASLVPVPAPVFAIPPKPADYNVRTLKIDEATWLRMIPKT
+                     MNTPFQIQVADNTGTNWHLNLRGGTRVVNLDQIAPMRFVLDLGGKSYKETSWDPNGKRV
+                     GFIVFQSKIPFELWTAASQIGQATVVNYVQLYAEDSSFTRVMSIIATTSLAYNYEPEQL
+                     NKTDPEMNYYLLATFIDSAAITPTNMTQPDVWDALLTMSPLSAGEVTVKGAVVSEVVPA
+                     DLIGSYTPESLNASLPNDAARCMIDRASKIAEAIKIDDDAGPDEYSPNSVPIQGQLAIS
+                     QLETGYGVRIFNPKGILSKIASRAMQAFIGDPSTIITQAAPVLSDKNNWIALAQGVKTS
+                     LRTKSLSAGVKTAVSKLSSSESIQNWTQGFLDKVSTHFPAPKPDCPTSGDSGEASTRRV
+                     KRDSYAGVVKRGYTR*"
+ORIGIN
+        1 ggctaatctg ctgaccgtta ctctgcaaag atggggaacg cttcctctat cgttcagacg
+       61 atcaacgtca ctggagatgg caatgtattc aaaccatcag ctgaaacttc atcaaccgcc
+      121 gtaccatcat tgagtctatc acctggaatg ctgaatcctg gaggagtgcc atggattgcg
+      181 attggagatg aaacatctgt gacatcacca ggcgcgttac gacgaatgac atcaaaggat
+      241 attccagaaa cagcaataat caatacagat aattcatctg gcgctgtgcc aagtgaatca
+      301 gcgttagtgc catacaatga tgagccgctg gtggtggtca cagagcatgc tattaccaac
+      361 tttactaaag ctgagatggc acttgaattc aatcgtgagt ttcttgataa actgcgtgtg
+      421 ctatcagtgt caccaaaata ttcagatctt ctgacatatg ttgattgcta cgttggtgtg
+      481 tcagctcgtc aggctctaaa taattttcag aagcaagtcc ctgtgattac acctactagg
+      541 cagacgatgt acgtcgactc catacaagcg gccttgaaag ctctagagaa atgggaaatt
+      601 gatttgagag tggctcagac gttgctgcct acgaatgttc cgattgggga ggtctcttgc
+      661 ccaatgcaat cagtagtgaa attgttagat gatcagttgc cagatgatag tctgatacga
+      721 aggtatccca aggaggcggc cgtggctttg gctaaacgga atggaggaat acaatggatg
+      781 gatgtatcag aaggtactgt gatgaatgaa gctgtgaatg ctgttgccgc tagtgcattg
+      841 gctccttccg catcagcccc acccttggaa gagaagtcaa aattaactga acaagcgatg
+      901 gatctggtga cagccgctga gcctgagata attgcatcgc tagtgccagt tccagctcct
+      961 gtttttgcca taccacctaa accagctgac tataatgtgc ggactctgaa gattgatgaa
+     1021 gccacgtggt tgcgaatgat cccgaagacg atgaatactc cttttcaaat tcaggtcgct
+     1081 gataacactg ggacaaattg gcatctgaac ttgaggggtg gaacacgtgt cgtgaacctg
+     1141 gatcagattg ctccaatgcg atttgtttta gatctgggag gaaagagtta taaggagacg
+     1201 agctgggatc caaatggtaa gagagttgga tttatcgtat ttcaatccaa gatacctttt
+     1261 gagctatgga cggccgcatc tcagattggt caagcgacag tggtgaacta tgttcagctg
+     1321 tacgctgaag atagctcatt tactcgcgtc atgtctatta ttgccactac atcgctggcg
+     1381 tataattatg agcctgagca gttgaataag actgaccctg agatgaatta ctaccttttg
+     1441 gccacgttca tagattcagc agccatcact ccaactaata tgacacagcc tgatgtatgg
+     1501 gatgctttgc tgacaatgtc tccactatct gctggtgagg tgacagtgaa aggtgctgtg
+     1561 gtgagtgagg tggtaccagc tgatttgatt ggtagttata ctccagagtc cttaaatgcc
+     1621 tcacttccga atgacgccgc tagatgcatg attgataggg cttcaaagat agcggaggcg
+     1681 ataaagattg atgatgatgc tggtccagat gaatattctc caaattctgt gccaattcaa
+     1741 ggtcagttgg ctatctcgca gcttgaaact gggtatggtg tgcgaatatt caatccgaaa
+     1801 ggaattctat ctaagattgc atctagggcc atgcaagcgt ttattggtga tccgagcacg
+     1861 atcattacgc aggcggcacc agtattatca gataagaata attggattgc attggcacaa
+     1921 ggagtgaaga ccagtctgcg cacgaagagt ctgtcagcgg gagtgaagac tgctgtgagt
+     1981 aaactgagtt catcagagtc aattcagaat tggacgcaag gcttcctgga taaagtgtca
+     2041 acacatttcc cggcacctaa gcctgattgt ccgactagtg gggatagtgg tgaagcgtct
+     2101 actcgacgag tgaagcgcga ctcatacgca ggagtggtta aacgtgggta tacacgttaa
+     2161 accgctcgcc ctggtgacgc ggggttaagg gatgcaggca aatcatc
+//

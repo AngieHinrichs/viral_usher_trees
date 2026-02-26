@@ -1,0 +1,185 @@
+LOCUS       rerooted_NC_001346.2      2689 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001346.2.
+ACCESSION   rerooted_NC_001346.2
+VERSION     rerooted_NC_001346.2
+KEYWORDS    RefSeq.
+SOURCE      Maize streak virus - A[Ama]
+  ORGANISM  Maize streak virus - A[Ama]
+            Viruses; Monodnaviria; Shotokuvirae; Cressdnaviricota;
+            Repensiviricetes; Geplafuvirales; Geminiviridae; Mastrevirus;
+            Mastrevirus storeyi.
+REFERENCE   1  (bases 1 to 2689)
+  AUTHORS   Martin,D.P., Willment,J.A., Billharz,R., Velders,R., Odhiambo,B.,
+            Njuguna,J., James,D. and Rybicki,E.P.
+  TITLE     Sequence diversity and virulence in Zea mays of Maize streak virus
+            isolates
+  JOURNAL   Virology 288 (2), 247-255 (2001)
+   PUBMED   11601896
+REFERENCE   2  (bases 1 to 2689)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUL-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2689)
+  AUTHORS   Martin,D.P., James,D. and Rybicki,E.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-DEC-2000) Microbiology, University of Cape Town,
+            Private Bag, Cape Town, WC 7000, South Africa
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence is identical to
+            AF329878.
+            On Jul 10, 2015 this sequence version replaced NC_001346.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2689
+                     /organism="Maize streak virus - A[Ama]"
+                     /mol_type="genomic DNA"
+                     /strain="MSV-A"
+                     /isolate="MSV-Ama"
+                     /db_xref="taxon:268316"
+                     /geo_loc_name="Kenya"
+                     /subtype="MSV-A1"
+                     /note="isolated in 1998 from severely infected maize"
+     misc_feature    join(2528..2689,1..149)
+                     /note="The initiation site of rolling-circle DNA
+                     replication is at the position of 1st nucleotide of the
+                     genome sequence."
+                     /function="large intergenic region (LIR)"
+     misc_feature    join(2682..2689,1..2)
+                     /note="conserved nonanucleotide at origin of (+) strand
+                     replication"
+     stem_loop       20..2662
+     gene            150..455
+                     /gene="V2"
+                     /locus_tag="MSVp1"
+                     /db_xref="GeneID:1489622"
+     CDS             150..455
+                     /gene="V2"
+                     /locus_tag="MSVp1"
+                     /note="MP; facilitates intercellular movement of viral DNA"
+                     /codon_start=1
+                     /product="movement protein"
+                     /protein_id="YP_009154761.1"
+                     /db_xref="GeneID:1489622"
+                     /translation="MDPQNAVYSQPRVPTAAPTSGGVPWSHVGEVAILSFVGLICFYLL
+                     YLWVLRDLILVLKARQGRSTEELIFGSEAVDRSNPIPNLQPPPTQGNPGPFVPGSG*"
+     gene            466..1207
+                     /gene="V1"
+                     /locus_tag="MSVp2"
+                     /db_xref="GeneID:1489623"
+     CDS             466..1200
+                     /gene="V1"
+                     /locus_tag="MSVp2"
+                     /note="coat protein; CP; nuclear localized ss/ds DNA
+                     binding protein"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="YP_009154762.1"
+                     /db_xref="GeneID:1489623"
+                     /translation="MSTSKRKRADDANWNKRTTKKKPSSAGLKKAGGKADRPSLQIQTL
+                     QHSGSTMITVPSGGVCDLINTYARGSDEGNRHTSETLTYKIAVDYHFVADAAACKYSNT
+                     GTGVMWLVYDTTPGGQAPTTQQIFAYPDTLKAWPATWKVSRELCHRFVVKRRWLFNMET
+                     DGRIGSDIPPSNASWKPCKRNIYFHKFTSGLGVRTMWKNVTDGGVGAIQRGALYMVIAP
+                     GNGLTFTAHGQTRLYFKSVGNQ*"
+     misc_feature    1201..1352
+                     /function="small integric region (SIR)"
+     regulatory      1203..1207
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="V1"
+                     /locus_tag="MSVp2"
+     gene            complement(1213..2527)
+                     /gene="C1/C2"
+                     /locus_tag="MSVp3"
+                     /db_xref="GeneID:1489621"
+     regulatory      complement(1213..1219)
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="C1/C2"
+                     /locus_tag="MSVp3"
+     primer_bind     1277..1352
+                     /note="origin of (-) strand replication"
+     CDS             complement(join(1353..1793,1886..2527))
+                     /gene="C1/C2"
+                     /locus_tag="MSVp3"
+                     /note="Rep; replication initiator/associated protein;
+                     required for initiation and termination of viral DNA
+                     replication"
+                     /codon_start=1
+                     /product="replication-associated protein"
+                     /protein_id="YP_009154763.1"
+                     /db_xref="GeneID:1489621"
+                     /translation="MASSSSNRQFSHRNANTFLTYPKCPENPEIACQMIWELVVRWIPK
+                     YILCAREAHKDGSLHLHALLQTEKPVRISDSRFFDINGFHPNIQSAKSVNRVRDYILKE
+                     PLAVFERGTFIPRKSPFLGKSDSEVKEKKPSKDEIMRDIISHATSKEEYLSMIQKELPF
+                     DWSTKLQYFEYSANKLFPEIQEEFTNPHPPSSPDLLCNESINDWLQPNIFQSSDERSRK
+                     QSLYIVGPTRTGKSTWARSLGVHNYWQNNVDWSSYNEDAIYNIVDDIPFKFCPCWKQLV
+                     GCQRDFIVNPKYGKKKKVQKKSKPTIILANSDEDWMKEMTPGQLEYFEANCVIYIMSPG
+                     EKWYSPPELPPTEAVHSDRS"
+     gene            complement(1709..2527)
+                     /gene="C1"
+                     /locus_tag="MSVp4"
+                     /db_xref="GeneID:1489620"
+     CDS             complement(1709..2527)
+                     /gene="C1"
+                     /locus_tag="MSVp4"
+                     /note="RepA; replication initiator/associated protein ORFA;
+                     possibly involved in cell cycle regulation"
+                     /codon_start=1
+                     /product="replication-associated protein A"
+                     /protein_id="YP_009154764.1"
+                     /db_xref="GeneID:1489620"
+                     /translation="MASSSSNRQFSHRNANTFLTYPHCPENPEIVCQMIWELVGRWNPK
+                     YIICAREAHRDGDMHLHALIQTEKPVRITDSRFFDINGFHPNIQSAKSVNKVRDYILKE
+                     PLALFERGTFIPRKSPFLGKSDSEGNSKKPSKDEIMREIISHSTSKQEYLSMIHKEFPY
+                     DWATKLQYFEYSANKLFPEIQEEFISPHPPSSPDLLCNESIKDWLQPNIYQVSPESYML
+                     LQPTCYTLEDAISDLQWMDNLSSQQMKDQESRASTSSVQQEQENLLGPEA*"
+     repeat_region   2595..2602
+                     /note="iteron"
+     regulatory      2641..2660
+                     /regulatory_class="GC_signal"
+ORIGIN
+        1 accgcgcctt ctttttctgc gagggcccgg tagggaccga gcgttttgat ttaaagtttg
+       61 gatctgcttt gtttgattta tctaaagcag cccaatctaa agaaaccggt cccctgcact
+      121 ataaattgtc tcacaagtgc gattcattca tggatcccca gaatgccgtc tattctcagc
+      181 cgcgggtacc cacagcagct ccgacatccg gaggagtgcc gtggagtcac gtcggcgagg
+      241 tagctatttt gagctttgtt ggtttgattt gcttttacct gctttacctt tgggtgctga
+      301 gagatcttat cttagttctg aaggctcgac aagggagatc cacggaggag ctgatatttg
+      361 gatctgaagc tgtggatagg agcaacccta tccctaatct acaacctcca ccaactcagg
+      421 ggaatcccgg accgtttgtt ccaggttcgg gataagcatt cagccatgtc cacgtccaag
+      481 aggaagcgtg cagatgatgc gaactggaat aagcggacca ctaagaagaa gccttcttca
+      541 gctggtctga agaaggctgg aggtaaggct gacaggcctt ccctccagat ccagaccctc
+      601 cagcattctg ggtccaccat gataacagta ccatccggag gagtctgtga cctcatcaac
+      661 acctatgccc gaggatccga tgagggcaac cgccacacca gcgagactct gacgtacaag
+      721 attgccgtcg actaccactt cgttgctgac gctgcagcct gcaagtactc caacaccgga
+      781 accggtgtga tgtggctggt gtacgacact actcccggcg gacaagcgcc gaccacgcaa
+      841 cagatatttg cctacccgga cacgctgaaa gcttggccgg caacatggaa agtgagccgg
+      901 gagctgtgtc accgcttcgt ggtgaaacgg cgatggttgt tcaacatgga gaccgacggt
+      961 cgaattggtt cggacatccc tccttcgaat gcaagttgga agccgtgcaa gcggaacatt
+     1021 tacttccaca agttcacgag tgggttggga gtgagaacga tgtggaagaa tgtaacagac
+     1081 ggtggagttg gtgcgataca gagaggagct ctgtacatgg tcattgcccc tggcaatggc
+     1141 cttacattta ctgcccatgg gcagacccgt ctgtacttta agagtgttgg caaccagtaa
+     1201 tgaataaaaa ctcccgtttt attatatctg atgaatgctg aaagcttaca ttaatatgtc
+     1261 gtgcgatggc acgaaaaaac acacgctatc aatacagggg ggtcgtgggc gggcggctaa
+     1321 agggcgagcc cggcgggcaa aacatcaaaa aaacaagata tatatgaatt aacttcctcc
+     1381 gtaggaggaa gcacaggggg agaataccac ttctcccccg gcgacataat ataaatcatg
+     1441 cagtttgctt cgaaatactc cagctgccct ggagtcattt ccttcatcca gtcttcatcc
+     1501 gagttggcga ggataattgt aggtttagac ttcatctgaa ccttcttctt cttcccatat
+     1561 ttaggattta caacgaattc tttttgacag ccaactaact gtttccaaca aggacagtat
+     1621 ttaaagggga tatcatctac gatgttgtag attgcgtctt cgttgtatga agaccaatca
+     1681 acattatttt gccagtaatt atgaacccct aggcttctgg cccaagtaga ttttcctgtt
+     1741 cttgttggac cgacgatgta gaggctctgc tttcttgatc cttcatctgt tggctggata
+     1801 aattatccat ccattgaagg tcagagatag catcctcgag ggtataacag gtaggttgaa
+     1861 gaagcatgta tgattcggga ctaacctgat agatgttagg ctggagccaa tctttgattg
+     1921 actcattaca aagaagatca ggtgatgagg gtggatgagg actgatgaac tcttcctgaa
+     1981 tttcaggaaa gagtttattt gcagagtatt caaagtactg caattttgtg gcccagtcat
+     2041 agggaaattc tttatgaatc atggagaggt actcttgctt ggaagtggag tgtgaaataa
+     2101 tctctcgcat tatttcatct ttggaaggtt tctttgaatt tccctctgaa tcagattttc
+     2161 ctaggaaggg tgacttccta ggaatgaaag tacctctctc aaacaaggcc agaggttcct
+     2221 tgagaatgta atctctgacc ttgtttacag attttgcact ctgaatgttt gggtggaacc
+     2281 catttatgtc aaagaacctt gagtcagtga ttcttaccgg tttctctgtc tggattaatg
+     2341 catgtaaatg catatctcca tctctatgtg cctctcgggc acatatgatg tacttagggt
+     2401 tccaacgacc aacgagctcc cagatcatct gacagacgat ttctggattt tctggacagt
+     2461 gtggatatgt taggaacgtg ttagcgttcc tgtgtgagaa ctgacggttg gatgaggagg
+     2521 aggccatatc ggacgactga ggatgagctt gcgggatggc aggatgggag ctccaaactc
+     2581 tatagtacac cggtgcgcct tcgaaatccg ccgctcccct ctcttatagt ggttgtttat
+     2641 gggccggacc gggccggccc agcaggaaaa gaaggcgcgc aataatatt
+//

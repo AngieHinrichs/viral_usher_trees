@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_001948.1, taxonomy ID 3428812
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_001948.1'
-refseq_assembly = 'GCF_000860125.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_001948.1'
+#refseq_assembly = 'GCF_000860125.1'
+ref_fasta = './trees/Grapevine_rupestris_stem_pitting_associated_virus/treetime_rerooted_NC_001948.1.fa'
+ref_gbff = './trees/Grapevine_rupestris_stem_pitting_associated_virus/treetime_rerooted_NC_001948.1.gbff'
 taxonomy_id = '3428812'
 nextclade_dataset = ''
 nextclade_clade_columns = ''

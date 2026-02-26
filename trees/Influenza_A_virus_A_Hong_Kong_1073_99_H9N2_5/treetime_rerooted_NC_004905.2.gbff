@@ -1,0 +1,101 @@
+LOCUS       rerooted_NC_004905.2      1557 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_004905.2.
+ACCESSION   rerooted_NC_004905.2
+VERSION     rerooted_NC_004905.2
+KEYWORDS    RefSeq; NP gene; nucleoprotein.
+SOURCE      Influenza A virus (A/Hong Kong/1073/99(H9N2))
+  ORGANISM  Influenza A virus (A/Hong Kong/1073/99(H9N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Lin,Y.P., Shaw,M., Gregory,V., Cameron,K., Lim,W., Klimov,A.,
+            Subbarao,K., Guan,Y., Krauss,S., Shortridge,K., Webster,R., Cox,N.
+            and Hay,A.
+  TITLE     Avian-to-human transmission of H9N2 subtype influenza A viruses:
+            relationship between H9N2 and H5N1 human isolates
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 97 (17), 9654-9658 (2000)
+   PUBMED   10920197
+REFERENCE   2  (bases 1 to 1557)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUN-2003) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1557)
+  AUTHORS   Lin,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2000) Lin Y., Virology, National Institute for
+            Medical Research, The Ridgeway, Mill Hill, London, NW7 1AA, UNITED
+            KINGDOM
+REFERENCE   4  (bases 1 to 1557)
+  AUTHORS   Lin,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUN-2000) Lin Y., Virology, National Institute for
+            Medical Research, The Ridgeway, Mill Hill, London, NW7 1AA, UNITED
+            KINGDOM
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AJ289871.
+            On Apr 21, 2006 this sequence version replaced NC_004905.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1557
+                     /organism="Influenza A virus (A/Hong Kong/1073/99(H9N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Hong Kong/1073/99"
+                     /serotype="H9N2"
+                     /db_xref="taxon:130760"
+                     /segment="5"
+                     /geo_loc_name="Hong Kong:Kowloon"
+                     /collection_date="1999"
+     gene            40..1536
+                     /gene="np"
+                     /locus_tag="FLUAVAHHH9N2s5gp1"
+                     /db_xref="GeneID:4036076"
+     CDS             40..1536
+                     /gene="np"
+                     /locus_tag="FLUAVAHHH9N2s5gp1"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="YP_581749.1"
+                     /db_xref="GOA:Q9ICY7"
+                     /db_xref="InterPro:IPR002141"
+                     /db_xref="UniProtKB/TrEMBL:Q9ICY7"
+                     /db_xref="GeneID:4036076"
+                     /translation="MASQGTKRSYEQMETGGERQNATEIRASVGKMIDGIGRFYIQMCT
+                     ELKLSDHEGRLIQNSITIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRVDGKW
+                     MRELVLYDKEEIRRIWRQANNGEDATAGLTHIMIWHSNLNDATYQRTRALVRTGMDPRM
+                     CSLMQGSTLPRRSGAAGAAVKGIGTMVMELIRMVKRGINDRNFWRGENGRKTRSAYERM
+                     CNILKGKFQTAAQRAMMDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCLPACAY
+                     GPAVSSGYDFEKEGYSLVGIDPFKLLQNSQIYSLIRPNENPAHKSQLVWMACHSAAFED
+                     LRVLSFIRGTKVIPRGKLSTRGVQIASNENMETMESSTLELRSRYWAIRTRSGGNTNQQ
+                     RASAGQISVQPTFSVQRNLPFERATIMAAFTGNTEGRTSDMRTEIIRMMESAKPEDVSF
+                     QGRGVFELSDEKATNPIVPSFDMSNEGSYFFGDNAEEYDN*"
+ORIGIN
+        1 agcagggtaa ataatcactc actgagtgac atcaaaatca tggcgtctca aggcaccaaa
+       61 cgatcttatg aacagatgga aactggtgga gaacgccaga atgcaactga gattagggca
+      121 tccgtcggga agatgattga tggaattggg agattctaca tccaaatgtg cactgaactc
+      181 aaactcagtg accatgaagg gaggttgatc cagaacagca taacaataga gagaatggta
+      241 ctctctgcat ttgatgaaag aaggaacaaa tacctggaag aacaccccag tgcggggaaa
+      301 gaccctaaga aaactggggg gcccatatac aggagagtag atggaaaatg gatgagggaa
+      361 ctcgtccttt atgacaaaga agaaataagg agaatttggc gccaagccaa caatggagag
+      421 gatgcgacag ctggtctaac tcacataatg atctggcatt ccaatttgaa tgatgcaaca
+      481 taccagagga caagagctct tgttcgaact ggaatggatc ccagaatgtg ctctctgatg
+      541 cagggctcga ctctccctag aaggtccgga gctgcaggtg ctgcagtcaa aggaatcggg
+      601 acaatggtga tggaactgat cagaatggtc aaacggggga tcaacgatcg aaatttctgg
+      661 agaggtgaga atgggcggaa aacaagaagt gcatatgaga gaatgtgcaa catcctcaaa
+      721 ggaaaatttc aaacagctgc acaaagagca atgatggatc aagtgcgaga aagtcggaac
+      781 ccaggaaatg ctgagatcga agatctcata tttttggcaa gatctgcatt gatattgaga
+      841 ggatcagttg ctcacaaatc ttgcctacct gcctgtgcgt atggacctgc agtatccagt
+      901 gggtacgact tcgaaaaaga gggatattcc ttggtgggaa tagacccttt caaactactt
+      961 caaaatagcc aaatatacag cctaatcaga cctaacgaga atccagcaca caagagtcaa
+     1021 ttggtgtgga tggcatgcca ttctgctgca tttgaagacc tcagagtgtt aagcttcatc
+     1081 agagggacaa aagtaatccc aagggggaaa ctgtcaacta gaggagttca aattgcttca
+     1141 aatgagaaca tggaaacaat ggaatccagc actcttgaac tgagaagcag atactgggcc
+     1201 ataagaacca ggagtggagg aaacaccaat caacagagag catctgcagg acaaatcagt
+     1261 gtgcaaccta ctttctcagt acaaagaaac ctcccatttg aaagagcaac cattatggca
+     1321 gcattcactg gaaatactga aggcagaaca tccgacatga ggactgaaat cataagaatg
+     1381 atggaaagtg ccaaaccaga agatgtgtcc ttccaggggc ggggagtctt cgagctctcg
+     1441 gacgaaaagg caacgaaccc gatcgtgcct tcctttgaca tgagtaatga aggatcttat
+     1501 ttcttcggag acaatgcaga ggagtatgac aattaaagaa aaataccctt gtttcta
+//

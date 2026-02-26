@@ -1,0 +1,113 @@
+LOCUS       rerooted_NC_013231.1      1368 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_013231.1.
+ACCESSION   rerooted_NC_013231.1
+VERSION     rerooted_NC_013231.1
+KEYWORDS    RefSeq.
+SOURCE      Mammalian orthoreovirus 3
+  ORGANISM  Mammalian orthoreovirus 3
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Spinareoviridae; Orthoreovirus;
+            Orthoreovirus mammalis.
+REFERENCE   1  (bases 59 to 422)
+  AUTHORS   Ernst,H. and Shatkin,A.J.
+  TITLE     Reovirus hemagglutinin mRNA codes for two polypeptides in
+            overlapping reading frames
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 82 (1), 48-52 (1985)
+   PUBMED   3855548
+REFERENCE   2  (bases 59 to 422)
+  AUTHORS   Cashdollar,L.W., Chmelo,R.A., Wiener,J.R. and Joklik,W.K.
+  TITLE     Sequences of the S1 genes of the three serotypes of reovirus
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 82 (1), 24-28 (1985)
+   PUBMED   3855545
+REFERENCE   3  (bases 1 to 1368)
+  AUTHORS   Liu,S., Shao,Y., Han,Z., Li,H. and Kong,X.
+  TITLE     Whole genome sequencing and analysis of Reovirus MPC/04 strain from
+            masked civet cats
+  JOURNAL   Unpublished
+REFERENCE   4  (bases 1 to 1368)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-2009) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   5  (bases 1 to 1368)
+  AUTHORS   Liu,S., Shao,Y., Han,Z., Li,H. and Kong,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2009) National Key Laboratory of Veterinary
+            Biotechnology, Harbin Veterinary Research Institute, Chinese Academy
+            of Agricultural Sciences, 427 Maduan Street, Nangang District,
+            Harbin, Heilongjiang 150001, P.R. China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to GQ468272.
+            On Nov 12, 2015 this sequence version replaced NC_004277.1.
+            GenBank Accession Numbers GQ468266-GQ468275 represent sequences
+            from the 10 segments of Mammalian orthoreovirus 3 (MPC/04).
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1368
+                     /organism="Mammalian orthoreovirus 3"
+                     /mol_type="genomic RNA"
+                     /serotype="3"
+                     /isolate="MPC/04"
+                     /host="masked palm civet"
+                     /db_xref="taxon:538123"
+                     /segment="S1"
+                     /geo_loc_name="China"
+                     /collection_date="2004"
+     gene            1..1368
+                     /gene="S1"
+                     /locus_tag="MoV-3mpc04sS1_gp1"
+                     /db_xref="GeneID:8437025"
+     CDS             1..1368
+                     /gene="S1"
+                     /locus_tag="MoV-3mpc04sS1_gp1"
+                     /codon_start=1
+                     /product="sigma-1 protein"
+                     /protein_id="YP_003199424.1"
+                     /db_xref="GeneID:8437025"
+                     /translation="MDPRLREEVVRLIIALTSDNGASLSKGLESRVAALEKTSQIHSDT
+                     ILRITQGLDDANKRIIALEQSRDDLVASVSDAQLAISRLENSVGALQTTVNGLDSSVTQ
+                     LGGRVGQLETGLAGLRVDHDNLVTRVDTAERNIGSLTTELSTLTLRVTSIQSDFESRIA
+                     TLERTAVTSAAAPLSISNNRMTMGLNDGLTLSGNNLAIRLPGNTGLNIQNGGLQFRFNT
+                     DQFQIVNNNLTLKTTVFDPINSRVSTIEQSYVASAVTPLRLNSSTKVLDMLIDSSTLEI
+                     NSSGQLAVKSTSPNLRYPIADISGSIGMSPNYRFRQSMWIGIVSYSGSGLNWRIQVNSD
+                     IFIVDDYIHICLPAFDGFTIADGGDLSLNFVTGLLPPLLTGDTEPAFHNDVVTYGARTI
+                     AIGLSSGGTPQYISKNLWVEQWQDGVLRLRVEGGGLITHSNSKWPAMTISYPRSFT*"
+     gene            59..421
+                     /locus_tag="MoV-3mpc04sS1_gp2"
+                     /db_xref="GeneID:30914751"
+     CDS             59..421
+                     /locus_tag="MoV-3mpc04sS1_gp2"
+                     /note="Sigma1s; Minor capsid cell attachment protein
+                     sigma-1a has been added by NCBI Staff"
+                     /codon_start=1
+                     /product="minor capsid cell attachment protein sigma1s"
+                     /protein_id="YP_009344826.1"
+                     /db_xref="GeneID:30914751"
+                     /translation="MEHHCQKGLSQGSQRSRRRPKYTLILSSGSPKDSMMQINESSLLS
+                     KVGTIWLHQSVMRNLQSPDWKTLSEPSKQLSMDLIRVLPSWVVEWDNLRQDLQDYALTT
+                     TISLREWILRNVTLDH*"
+ORIGIN
+        1 atggatcctc gcctacgtga agaagtagta cgattgataa ttgcattgac gagcgataat
+       61 ggagcatcat tgtcaaaagg gcttgagtca agggtcgcag cgctcgagaa gacgtcccaa
+      121 atacactctg atactatcct caggatcacc caaggactcg atgatgcaaa taaacgaatc
+      181 atcgctcttg agcaaagtag ggacgatctg gttgcatcag tcagtgatgc gcaacttgca
+      241 atctccagat tggaaaactc tgtcggagcc ctccaaacaa ctgtcaatgg acttgattcg
+      301 agtgttaccc agttgggtgg tcgagtggga caacttgaga caggacttgc aggattacgc
+      361 gttgaccacg acaatctcgt tacgagagtg gatactgcgg aacgtaacat tggatcattg
+      421 accactgagc tatctacact tacgttacgt gtgacatcca tacaatcgga tttcgaatct
+      481 agaatagcga cattagagcg tactgcggtt actagcgcag cagctcctct ctcaattagt
+      541 aataatcgta tgactatggg cttaaatgac ggattgacat tatcgggaaa taatcttgcc
+      601 attcgattgc cagggaatac gggtctgaat attcaaaatg gtgggcttca atttcgattt
+      661 aatactgatc agttccagat agttaataat aacttgactc tcaagacaac tgtttttgat
+      721 ccaatcaact cgagagtaag cacgattgaa caaagttacg tggcgtctgc agtgactcct
+      781 ttgagattaa atagcagtac gaaggtgttg gatatgctga tagatagctc aacacttgaa
+      841 attaactcta gtggacagct agctgtgaaa tcgacatcgc cgaatttaag atatccaatt
+      901 gctgatatta gtggtagtat tggaatgagc cctaactata gatttaggca gagcatgtgg
+      961 ataggaattg tctcatattc tggtagtggg ttgaattgga ggatacaggt gaattctgac
+     1021 atcttcattg tcgatgatta catacatata tgtcttccag cttttgatgg tttcaccata
+     1081 gctgatggtg gagatctatc gttaaacttt gttactggat tgttgccacc gttactcact
+     1141 ggagatactg agcctgcttt tcataatgat gtggttacgt atggggcacg gactatagct
+     1201 atagggttgt cgtcaggtgg tacgcctcag tatataagta agaatttgtg ggtggagcag
+     1261 tggcaggatg gagtactccg attacgtgtt gagggaggtg gcttgatcac gcattcgaat
+     1321 agtaaatggc ctgccatgac catttcatat ccacgcagtt tcacgtga
+//

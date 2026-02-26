@@ -1,0 +1,321 @@
+LOCUS       rerooted_NC_001699.1      5130 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_001699.1.
+ACCESSION   rerooted_NC_001699.1
+VERSION     rerooted_NC_001699.1
+KEYWORDS    RefSeq.
+SOURCE      JC polyomavirus (JCPyV)
+  ORGANISM  JC polyomavirus
+            Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Papovaviricetes;
+            Sepolyvirales; Polyomaviridae; Betapolyomavirus; Betapolyomavirus
+            secuhominis.
+REFERENCE   1
+  AUTHORS   Miyamura,T., Furuno,A. and Yoshiike,K.
+  TITLE     DNA rearrangement in the control region for early transcription in a
+            human polyomavirus JC host range mutant capable of growing in human
+            embryonic kidney cells
+  JOURNAL   J. Virol. 54 (3), 750-756 (1985)
+   PUBMED   2987529
+REFERENCE   2
+  AUTHORS   Martin,J.D., King,D.M., Slauch,J.M. and Frisque,R.J.
+  TITLE     Differences in regulatory sequences of naturally occurring JC virus
+            variants
+  JOURNAL   J. Virol. 53 (1), 306-311 (1985)
+   PUBMED   2981353
+REFERENCE   3
+  AUTHORS   Kenney,S., Natarajan,V., Strike,D., Khoury,G. and Salzman,N.P.
+  TITLE     JC virus enhancer-promoter active in human brain cells
+  JOURNAL   Science 226 (4680), 1337-1339 (1984)
+   PUBMED   6095453
+REFERENCE   4  (bases 1 to 5130)
+  AUTHORS   Frisque,R.J., Bream,G.L. and Cannella,M.T.
+  TITLE     Human polyomavirus JC virus genome
+  JOURNAL   J. Virol. 51 (2), 458-469 (1984)
+   PUBMED   6086957
+REFERENCE   5
+  AUTHORS   Frisque,R.J.
+  TITLE     Nucleotide sequence of the region encompassing the JC virus origin
+            of DNA replication
+  JOURNAL   J. Virol. 46 (1), 170-176 (1983)
+   PUBMED   6298454
+REFERENCE   6
+  AUTHORS   Miyamura,T., Jikuya,H., Soeda,E. and Yoshiike,K.
+  TITLE     Genomic structure of human polyoma virus JC: nucleotide sequence of
+            the region containing replication origin and small-T-antigen gene
+  JOURNAL   J. Virol. 45 (1), 73-79 (1983)
+   PUBMED   6296460
+REFERENCE   7  (bases 1 to 5130)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to J02226.
+            [5]  sites; sequence analysis of regulatory variants. [6]  sites;
+            mutational rearrangement in early control region;. [4]  sites;
+            enhancer-promoter sequence.
+            Draft entry and computer-readable sequence for [2] kindly provided
+            by R.J.Frisque, 22-JAN-1987.
+            JCV is a polyomavirus more closely related to SV40 and BKV than to
+            polyoma (PY).  It can apparently cause the human disease
+            progressive multifocal leukoencephalopathy and it can be highly
+            oncogenic in primates.  It grows well only in human fetal glial
+            cells.
+            The E strand, having the polarity of the late mRNAs, is shown as it
+            is reported in its entirety by [3].  That reference is also the
+            primary source for the annotation herein, most of which is inferred
+            by analogy with SV40 and BKV.  The map units are calculated by
+            JC + 3408
+            mu =    -------------  x 100,
+            5130
+            where, as with other polyoma viruses, the single EcoRI site (at
+            base 1722 ) is taken as 0.00%.
+            The mRNA start and end points are no more than putative: a possible
+            promoter element ('TATA') for early mRNA initiation is found at
+            base 22 on the comp strand, and similar elements for late mRNA
+            initiation are found at bases 15 and 117.
+            As with BKV and SV40 (but not PY) the JC virus does not appear to
+            encode a middle t-antigen; rather it appears to induce a host-cell
+            specific middle t-antigen in transformed cells [3]. The Mad-1
+            strain of JCV is severely restricted in its growth in vitro.
+            References [5], [6] and [4] show that mutations in the noncoding,
+            regulatory region of the genome can affect host cell range.  On the
+            basis of seven independent isolates, [5] proposes that an enhancer
+            segment (bases 12 to 207 below) is hypervariable. [6] has sequenced
+            a fragment of an isolate (see separate entry) which has adapted to
+            growth on originally nonpermissive human embryonic kidney cells;
+            this form has an insertion of around 800 bp in the noncoding region
+            near the origin of replication, yet can replicate DNA and direct
+            large t-antigen synthesis in HEK cells. [4] specifically studies
+            the enhancer region from bases 57 to 109 below, which is embedded
+            in the first 98 bp tandem repeat; this sequence is shown to be
+            homologous to an 82 bp rat brain-specific transcription factor.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5130
+                     /organism="JC polyomavirus"
+                     /mol_type="genomic DNA"
+                     /strain="Mad1"
+                     /db_xref="taxon:10632"
+     rep_origin      join(5118..5130,1..12)
+                     /note="origin of replication (both ends putative); 66.67%
+                     [3]; putative"
+     rep_origin      1..12
+                     /note="putative"
+     repeat_region   11..109
+                     /note="first 98 bp tandem repeat 5' 66.65%"
+     repeat_region   110..207
+                     /note="second 98 bp tandem repeat 5' 68.58%"
+     prim_transcript 163..2594
+                     /note="late mRNA [3]"
+     gene            277..492
+                     /locus_tag="Jvgp1"
+                     /db_xref="GeneID:1489519"
+     CDS             277..492
+                     /locus_tag="Jvgp1"
+                     /note="agnoprotein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043508.1"
+                     /db_xref="GeneID:1489519"
+                     /translation="MVLRQLSRKASVKVSKTWSGTKKRAQRILIFLLEFLLDFCTGEDS
+                     VDGKKRQRHSGLTEQTYSALPEPKAT*"
+     intron          493..1426
+                     /note="late mRNA intron (mVP1 transcript)"
+     intron          493..521
+                     /note="late mRNA intron (mVP1/mVP2 transcripts) [3]"
+     gene            526..1560
+                     /locus_tag="Jvgp2"
+                     /db_xref="GeneID:1489522"
+     CDS             526..1560
+                     /locus_tag="Jvgp2"
+                     /note="VP2 capsid protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043509.1"
+                     /db_xref="GeneID:1489522"
+                     /translation="MGAALALLGDLVATVSEAAAATGFSVAEIAAGEAAATIEVEIASL
+                     ATVEGITSTSEAIAAIGLTPETYAVITGAPGAVAGFAALVQTVTGGSAIAQLGYRFFAD
+                     WDHKVSTVGLFQQPAMALQLFNPEDYYDILFPGVNAFVNNIHYLDPRHWGPSLFSTISQ
+                     AFWNLVRDDLPALTSQEIQRRTQKLFVESLARFLEETTWAIVNSPANLYNYISDYYSRL
+                     SPVRPSMVRQVAQREGTYISFGHSYTQSIDDADSIQEVTQRLDLKTPNVQSGEFIERSI
+                     APGGANQRSAPQWMLPLLLGLYGTVTPALEAYEDGPNKKKRRKEGPRASSKTSYKRRSR
+                     SSRS*"
+     gene            883..1560
+                     /locus_tag="Jvgp3"
+                     /db_xref="GeneID:1489520"
+     CDS             883..1560
+                     /locus_tag="Jvgp3"
+                     /note="VP3 capsid protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043510.1"
+                     /db_xref="GeneID:1489520"
+                     /translation="MALQLFNPEDYYDILFPGVNAFVNNIHYLDPRHWGPSLFSTISQA
+                     FWNLVRDDLPALTSQEIQRRTQKLFVESLARFLEETTWAIVNSPANLYNYISDYYSRLS
+                     PVRPSMVRQVAQREGTYISFGHSYTQSIDDADSIQEVTQRLDLKTPNVQSGEFIERSIA
+                     PGGANQRSAPQWMLPLLLGLYGTVTPALEAYEDGPNKKKRRKEGPRASSKTSYKRRSRS
+                     SRS*"
+     gene            1469..2533
+                     /locus_tag="Jvgp4"
+                     /db_xref="GeneID:1489518"
+     CDS             1469..2533
+                     /locus_tag="Jvgp4"
+                     /note="VP1 capsid protein"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043511.1"
+                     /db_xref="GeneID:1489518"
+                     /translation="MAPTKRKGERKDPVQVPKLLIRGGVEVLEVKTGVDSITEVECFLT
+                     PEMGDPDEHLRGFSKSISISDTFESDSPNRDMLPCYSVARIPLPNLNEDLTCGNILMWE
+                     AVTLKTEVIGVTSLMNVHSNGQATHDNGAGKPVQGTSFHFFSVGGEALELQGVLFNYRT
+                     KYPDGTIFPKNATVQSQVMNTEHKAYLDKNKAYPVECWVPDPTRNENTRYFGTLTGGEN
+                     VPPVLHITNTATTVLLDEFGVGPLCKGDNLYLSAVDVCGMFTNRSGSQQWRGLSRYFKV
+                     QLRKRRVKNPYPISFLLTDLINRRTPRVDGQPMYGMDAQVEEVRVFEGTEELPGDPDMM
+                     RYVDKYGQLQTKML*"
+     prim_transcript complement(2527..5115)
+                     /note="early mRNA (3' end +/- 8bp) [3]"
+     regulatory      complement(2548..2553)
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="early mRNA polyadenyation signal on comp strand;
+                     16.10% [3]"
+     regulatory      2568..2573
+                     /regulatory_class="polyA_signal_sequence"
+                     /note="late mRNA polyadenyation signal; 16.49% [3]"
+     gene            complement(2603..5013)
+                     /locus_tag="Jvgp5"
+                     /db_xref="GeneID:1489517"
+     CDS             complement(join(2603..4426,4771..5013))
+                     /locus_tag="Jvgp5"
+                     /note="large t-antigen"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043512.1"
+                     /db_xref="GeneID:1489517"
+                     /translation="MDKVLNREESMELMDLLGLDRSAWGNIPVMRKAYLKKCKELHPDK
+                     GGDEDKMKRMNFLYKKMEQGVKVAHQPDFGTWNSSEVPTYGTDEWESWWNTFNEKWDED
+                     LFCHEEMFASDDENTGSQHSTPPKKKKKVEDPKDFPVDLHAFLSQAVFSNRTVASFAVY
+                     TTKEKAQILYKKLMEKYSVTFISRHGFGGHNILFFLTPHRHRVSAINNYCQKLCTFSFL
+                     ICKGVNKEYLFYSALCRQPYAVVEESIQGGLKEHDFNPEEPEETKQVSWKLVTQYALET
+                     KCEDVFLLMGMYLDFQENPQQCKKCEKKDQPNHFNHHEKHYYNAQIFADSKNQKSICQQ
+                     AVDTVAAKQRVDSIHMTREEMLVERFNFLLDKMDLIFGAHGNAVLEQYMAGVAWIHCLL
+                     PQMDTVIYDFLKCIVLNIPKKRYWLFKGPIDSGKTTLAAALLDLCGGKSLNVNMPLERL
+                     NFELGVGIDQFMVVFEDVKGTGAESRDLPSGHGISNLDCLRDYLDGSVKVNLERKHQNK
+                     RTQVFPPGIVTMNEYSVPRTLQARFVRQIDFRPKAYLRKSLSCSEYLLEKRILQSGMTL
+                     LLLLIWFRPVADFAAAIHERIVQWKERLDLEISMYTFSTMKANVGMGRPILDFPREEDS
+                     EAEDSGHGSSTESQSQCFSQVSEASGADTQENCTFHICKGFQCFKKPKTPPPK"
+     exon            complement(<2603..4426)
+                     /locus_tag="Jvgp5"
+                     /note="large t-antigen"
+                     /number=2
+     intron          complement(4427..4770)
+                     /locus_tag="Jvgp5"
+                     /note="large t-antigen intron [3]"
+     intron          complement(4427..4493)
+                     /locus_tag="Jvgp5"
+                     /note="small t-antigen intron [3] [3]"
+     gene            complement(4495..5013)
+                     /locus_tag="Jvgp6"
+                     /db_xref="GeneID:1489521"
+     CDS             complement(4495..5013)
+                     /locus_tag="Jvgp6"
+                     /note="small t-antigen"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_043513.1"
+                     /db_xref="GeneID:1489521"
+                     /translation="MDKVLNREESMELMDLLGLDRSAWGNIPVMRKAYLKKCKELHPDK
+                     GGDEDKMKRMNFLYKKMEQGVKVAHQPDFGTWNSSEVGCDFPPNSDTLYCKEWPNCATN
+                     PSVHCPCLMCMLKLRHRNRKFLRSSPLVWIDCYCFDCFRQWFGCDLTQEALHCWEKVLG
+                     DTPYRDLKL*"
+     repeat_region   5074..5090
+                     /note="17 bp palindrome; 65.34%"
+     rep_origin      5118..5130
+                     /note="putative"
+ORIGIN
+        1 gcctcggcct cctgtatata taaaaaaaag ggaagggatg gctgccagcc aagcatgagc
+       61 tcatacctag ggagccaacc agctaacagc cagtaaacaa agcacaaggc tgtatatata
+      121 aaaaaaaggg aagggatggc tgccagccaa gcatgagctc atacctaggg agccaaccag
+      181 ctaacagcca gtaaacaaag cacaagggga agtggaaagc agccaaggga acatgttttg
+      241 cgagccagag ctgttttggc ttgtcaccag ctggccatgg ttcttcgcca gctgtcacgt
+      301 aaggcttctg tgaaagttag taaaacctgg agtggaacta aaaaaagagc tcaaaggatt
+      361 ttaatttttt tgttagaatt tttgctggac ttttgcacag gtgaagacag tgtagacggg
+      421 aaaaaaagac agagacacag tggtttgact gagcagacat acagtgcttt gcctgaacca
+      481 aaagctacat aggtaagtaa tgtttttttt tgtgttttca ggttcatggg tgccgcactt
+      541 gcacttttgg gggacctagt tgctactgtt tctgaggctg ctgctgccac aggattttca
+      601 gtagctgaaa ttgctgctgg agaggctgct gctactatag aagttgaaat tgcatccctt
+      661 gctactgtag aggggattac aagtacctct gaggctatag ctgctatagg ccttactcct
+      721 gaaacatatg ctgtaataac tggagctccg ggggctgtag ctgggtttgc tgcattggtt
+      781 caaactgtaa ctggtggtag tgctattgct cagttgggat atagattttt tgctgactgg
+      841 gatcataaag tttcaacagt tgggcttttt cagcagccag ctatggcttt acaattattt
+      901 aatccagaag actactatga tattttattt cctggagtga atgcctttgt taacaatatt
+      961 cactatttag atcctagaca ttggggcccg tccttgttct ccacaatctc ccaggctttt
+     1021 tggaatcttg ttagagatga tttgccagcc ttaacctctc aggaaattca gagaagaacc
+     1081 caaaaactat ttgttgaaag tttagcaagg tttttggaag aaactacttg ggcaatagtt
+     1141 aattcaccag ctaacttata taattatatt tcagactatt attctagatt gtctccagtt
+     1201 aggccctcta tggtaaggca agttgcccaa agggagggaa cctatatttc ttttggccac
+     1261 tcatacaccc aaagtataga tgatgcagac agcattcaag aagttaccca aaggctagat
+     1321 ttaaaaaccc caaatgtgca atctggtgaa tttatagaaa gaagtattgc accaggaggt
+     1381 gcaaatcaaa gatctgctcc tcaatggatg ttgcctttac ttttagggtt gtacgggact
+     1441 gtaacacctg ctcttgaagc atatgaagat ggccccaaca aaaagaaaag gagaaaggaa
+     1501 ggaccccgtg caagttccaa aacttcttat aagaggagga gtagaagttc tagaagttaa
+     1561 aactggggtt gactcaatta cagaggtaga atgcttttta actccagaaa tgggtgaccc
+     1621 agatgagcat cttaggggtt ttagtaagtc aatatctata tcagatacat ttgaaagtga
+     1681 ctccccaaat agggacatgc ttccttgtta cagtgtggcc agaattccac tacccaatct
+     1741 aaatgaggat ctaacctgtg gaaatatact catgtgggag gctgtgacct taaaaactga
+     1801 ggttataggg gtgacaagtt tgatgaatgt gcactctaat gggcaagcaa ctcatgacaa
+     1861 tggtgcaggg aagccagtgc agggcaccag ctttcatttt ttttctgttg ggggggaggc
+     1921 tttagaatta cagggggtgc tttttaatta cagaacaaag tacccagatg gaacaatttt
+     1981 tccaaagaat gccacagtgc aatctcaagt catgaacaca gagcacaagg cgtacctaga
+     2041 taagaacaaa gcatatcctg ttgaatgttg ggttcctgat cccaccagaa atgaaaacac
+     2101 aagatatttt gggacactaa caggaggaga aaatgttcct ccagttcttc atataacaaa
+     2161 cactgccaca acagtgttgc ttgatgaatt tggtgttggg ccactttgca aaggtgacaa
+     2221 cttatacttg tcagctgttg atgtctgtgg catgtttaca aacaggtctg gttcccagca
+     2281 gtggagagga ctctccagat attttaaggt gcagctaagg aaaaggaggg ttaaaaaccc
+     2341 ctacccaatt tctttccttc ttactgattt aattaacaga aggactccta gagttgatgg
+     2401 gcagcctatg tatggcatgg atgctcaagt agaggaggtt agagtttttg agggaacaga
+     2461 ggagcttcca ggggacccag acatgatgag atacgttgac aaatatggac agttgcagac
+     2521 aaaaatgctg taatcaaaag cctttattgt aatatgcagt acattttaat aaagtataac
+     2581 cagctttact taacagttgc agttattttg ggggaggggt ctttggtttt ttgaaacatt
+     2641 gaaagccttt acagatgtga aaagtgcagt tttcctgtgt gtctgcacca gaggcttctg
+     2701 agacctggga aaagcattgt gattgtgatt cagtgcttga tccatgtcca gagtcttctg
+     2761 cttcagaatc ttcctctcta ggaaagtcaa gaatgggtct ccccatacca acattagctt
+     2821 tcatagtaga aaatgtatac atgcttattt ctaaatccag cctttctttc cactgcacaa
+     2881 tcctctcatg aatggcagct gcaaagtcag caactggcct aaaccagatt aaaagcaaaa
+     2941 gcaaagtcat accactttgc aaaatccttt tttctagcaa atactcagag cagcttagtg
+     3001 attttctcag gtaggccttt ggtctaaaat ctatctgcct tacaaatctg gcctgtaaag
+     3061 ttctaggcac tgaatattca ttcatggtta caattccagg tggaaacacc tgtgttcttt
+     3121 tgttttggtg ttttctctct aaattaactt ttacacttcc atctaagtaa tctcttaagc
+     3181 aatcaaggtt gcttatgcca tgccctgaag gtaaatccct tgactctgca ccagtgcctt
+     3241 ttacatcctc aaatacaacc ataaactgat ctatacccac tcctaattca aagtttaatc
+     3301 tttctaatgg catattaaca tttaatgact ttcccccaca gagatcaagt aaagctgcag
+     3361 ctaaagtagt tttgccactg tctattggcc ccttgaatag ccagtacctt ttttttggaa
+     3421 tgtttaatac aatgcatttt agaaagtcat aaataacagt gtccatttga ggcagcaagc
+     3481 aatgaatcca ggccacccca gccatatatt gctctaaaac agcattgcca tgtgccccaa
+     3541 aaattaagtc cattttatca agcaagaaat taaacctttc aactaacatt tcttctctgg
+     3601 tcatgtggat gctgtcaacc ctttgtttgg ctgctacagt atcaacagcc tgctggcaaa
+     3661 tgcttttttg atttttgcta tctgcaaaaa tttgggcatt ataatagtgt ttttcatgat
+     3721 ggttaaagtg atttggctga tccttttttt cacatttttt gcattgctgt gggttttcct
+     3781 gaaagtctaa gtacatgccc ataagcaaaa aaacatcctc acacttggtt tccaaggcat
+     3841 actgtgtaac taatttccat gaaacctgct tagtttcttc tggttcttct gggttaaagt
+     3901 catgctcctt aaggcccccc tgaatacttt cttccactac tgcatatggc tgtctacaca
+     3961 gggcactata aaacaagtat tccttattca cacctttaca aattaaaaaa ctaaaggtac
+     4021 atagtttttg acagtagtta ttaattgctg acactctatg tctatgtggt gttaagaaaa
+     4081 acaaaatatt atgaccccca aaaccatgtc tacttataaa agttacagaa tatttttcca
+     4141 taagtttctt atataaaatt tgagcttttt ctttagtggt atacacagca aaagaagcaa
+     4201 cagttctatt actaaacaca gcttgactga ggaatgcatg cagatctaca ggaaagtctt
+     4261 tagggtcttc tacctttttt ttctttttag gtggggtaga gtgttgggat cctgtgtttt
+     4321 catcatcact ggcaaacatt tcttcatggc aaaacaggtc ttcatcccac ttctcattaa
+     4381 atgtattcca ccaggattcc cattcatctg ttccataggt tggcacctaa aaaaaaacaa
+     4441 ttaagtttat tgtaaaaaac aaaatgccct gcaaaagaaa aatagtggtt taccttaaag
+     4501 ctttagatcc ctgtaggggg tgtctccaag aactttctcc cagcaatgaa gagcttcttg
+     4561 ggttaagtca cacccaaacc attgtctgaa gcaatcaaag caatagcaat ctatccacac
+     4621 aagtgggctg cttcttaaaa attttctgtt tctatgcctt aattttagca tgcacattaa
+     4681 acaggggcaa tgcactgaag gattagtggc acagttaggc cattccttgc aataaagggt
+     4741 atcagaatta ggaggaaaat cacaaccaac ctctgaacta ttccatgtac caaaatcagg
+     4801 ctgatgagca acttttacac cttgttccat ttttttatat aaaaaattca ttctcttcat
+     4861 cttgtcttcg tccccacctt tatcagggtg gagttctttg cattttttca gataagcttt
+     4921 tctcatgaca ggaatgttcc cccatgcaga cctatcaagg cctaataaat ccataagctc
+     4981 catggattcc tccctattca gcactttgtc cattttagct ttttgcagca aaaaattact
+     5041 gcaaaaaagg gaaaaacaag ggaatttccc tggcctccta aaaagcctcc acgcccttac
+     5101 tacttctgag taagcttgga ggcggaggcg
+//

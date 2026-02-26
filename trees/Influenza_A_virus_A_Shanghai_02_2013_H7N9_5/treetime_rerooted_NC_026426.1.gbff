@@ -1,0 +1,108 @@
+LOCUS       rerooted_NC_026426.1      1506 bp    cRNA    linear   VRL 13-AUG-2018
+DEFINITION  rerooted_NC_026426.1.
+ACCESSION   rerooted_NC_026426.1
+VERSION     rerooted_NC_026426.1
+KEYWORDS    RefSeq.
+SOURCE      Influenza A virus (A/Shanghai/02/2013(H7N9))
+  ORGANISM  Influenza A virus (A/Shanghai/02/2013(H7N9))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 1506)
+  AUTHORS   Zhu,H., Wang,D., Kelvin,D.J., Li,L., Zheng,Z., Yoon,S.W., Wong,S.S.,
+            Farooqui,A., Wang,J., Banner,D., Chen,R., Zheng,R., Zhou,J.,
+            Zhang,Y., Hong,W., Dong,W., Cai,Q., Roehrl,M.H., Huang,S.S.,
+            Kelvin,A.A., Yao,T., Zhou,B., Chen,X., Leung,G.M., Poon,L.L.,
+            Webster,R.G., Webby,R.J., Peiris,J.S., Guan,Y. and Shu,Y.
+  TITLE     Infectivity, transmission, and pathology of human-isolated H7N9
+            influenza virus in ferrets and pigs
+  JOURNAL   Science 341 (6142), 183-186 (2013)
+   PUBMED   23704376
+  REMARK    Erratum:[Science. 2013 Aug 30;341(6149):959]
+REFERENCE   2  (bases 1 to 1506)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-FEB-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1506)
+  AUTHORS   Zhu,H., Wang,D., Kelvin,D.J., Li,L., Zheng,Z., Yoon,S.W., Wong,S.S.,
+            Farooqui,A., Wang,J., Banner,D., Chen,R., Zheng,R., Zhou,J.,
+            Zhang,Y., Hong,W., Dong,W., Cai,Q., Roehrl,M.A., Huang,S.H.,
+            Calvin,A.A., Yao,T., Zhou,B., Chen,X., Leung,G.M., Poon,L.L.,
+            Webster,R.G., Webby,R.J., Peiris,J.S., Guan,Y. and Shu,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAY-2013) Centre of Influenza Research, School of
+            Public Health, The University of Hong Kong, 5/F, Laboratory Block,
+            LKS Faculty of Medicine Building, 21 Sasson Road, Pokfulm, Hong Kong
+            SAR, China
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Lasergene v. 8.0
+            Sequencing Technology :: 454
+            ##Assembly-Data-END##
+            REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to KF021598.
+            GenBank Accession Numbers KF021594-KF021601 represent sequences
+            from the 8 segments of Influenza A virus
+            (A/Shanghai/02/2013(H7N9)).
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1506
+                     /organism="Influenza A virus (A/Shanghai/02/2013(H7N9))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Shanghai/02/2013"
+                     /serotype="H7N9"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1332244"
+                     /segment="5"
+                     /geo_loc_name="China"
+                     /collection_date="05-Mar-2013"
+                     /note="passage details: E1"
+     gene            1..1497
+                     /gene="NP"
+                     /locus_tag="TS66_s5gp1"
+                     /db_xref="GeneID:23104229"
+     CDS             1..1497
+                     /gene="NP"
+                     /locus_tag="TS66_s5gp1"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="YP_009118476.1"
+                     /db_xref="GeneID:23104229"
+                     /translation="MASQGTKRSYEQMETGGERQNATEIRASVGRMIGGIGRFYIQMCT
+                     ELKLSDYEGRLIQNSITIERMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRIDGKW
+                     MRELILYDKEEIRRIWRQANNGEDATAGLTHMMIWHSNLNDATYQRTRALVRTGMDPRM
+                     CSLMQGSTLPRRSGAAGAAVKGVGTMVMELIRMIKRGINDRNFWRGENGRRTRIAYERM
+                     CNILKGKFQTAAQRAMMDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCLPACVY
+                     GLAVASGYDFEREGYSLVGIDPFRLLQNSQVFSLIRPNENPAHKSQLVWMACHSAAFED
+                     LRVSSFIRGTRVVPRGQLSTRGVQIASNENMETMDSSTLELRSRYWAIRTRSGGNTNQQ
+                     RASAGQISVQPTFSVQRNLPFERATIMAAFTGNTEGRTSDMRTEIIRMMESARPEDVSF
+                     QGRGVFELSDEKATSPIVPSFDMSNEGSYFFGDNAEEYDN*"
+ORIGIN
+        1 atggcgtctc aaggcaccaa acgatcttac gaacagatgg aaactggtgg agaacgccag
+       61 aatgccactg aaatcagagc atctgtcgga agaatgattg gtggaattgg aagattctac
+      121 atccaaatgt gcaccgaact caaactcagt gattatgagg gacggctgat ccaaaacagc
+      181 ataacaatag agagaatggt gctctctgct tttgacgaga ggaggaacaa atacctggaa
+      241 gaacatccca gcgctgggaa agaccctaag aaaactggag gacccatata caggagaata
+      301 gatggaaagt ggatgagaga actcatcctt tatgacaaag aagaaataag gagaatctgg
+      361 cgccaagcca acaatggtga agatgcaaca gctggtctga ctcacatgat gatctggcat
+      421 tccaatttga atgatgccac ttatcagagg acaagagctc ttgttcgcac cggaatggat
+      481 cccaggatgt gctctctgat gcagggttca actctcccaa ggaggtctgg agccgcaggt
+      541 gctgcagtca aaggagttgg aacaatggtg atggaattga tcagaatgat caaacgtgga
+      601 atcaatgacc ggaacttctg gaggggtgaa aatggacgaa gaacaagaat tgcctatgaa
+      661 agaatgtgca acatcctcaa agggaaattt caaacagctg cacaaagagc aatgatggat
+      721 caagtgagag aaagccggaa tccaggaaat gctgaaattg aagatctcat ctttctggca
+      781 cggtctgcac tcatattgag aggatcagtt gctcacaagt cctgcctgcc tgcctgtgtg
+      841 tatggacttg ctgtagccag tggatatgac tttgaaagag agggatactc tctggtcgga
+      901 atagaccctt tcagactgct tcaaaacagc caagtattca gtctaatcag accaaatgaa
+      961 aatccagcac acaagagtca actggtgtgg atggcatgcc attctgctgc atttgaagat
+     1021 ctgagagtat caagcttcat cagagggaca agagtggtcc caagagggca gctttccacc
+     1081 agaggagttc aaattgcttc caatgagaac atggagacta tggactccag tactcttgaa
+     1141 ttgagaagca gatactgggc cataaggacc agaagtggag gaaacaccaa tcaacagaga
+     1201 gcatctgcgg gccaaatcag cgtacaacct acattctcag tgcagagaaa tctccctttt
+     1261 gagagagcaa ccattatggc agcattcact gggaacacag agggaagaac atcagacatg
+     1321 agaaccgaaa tcataaggat gatggaaagt gcaagaccag aagatgtgtc tttccagggg
+     1381 cggggagtct tcgagctctc ggacgaaaag gcaacgagcc cgatcgtgcc ttcctttgac
+     1441 atgagtaatg aaggatctta tttcttcgga gacaatgcag aggagtatga caattaaaga
+     1501 aaaata
+//

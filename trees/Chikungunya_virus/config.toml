@@ -1,8 +1,10 @@
 # viral_usher config for RefSeq NC_004162.2, taxonomy ID 3426298
 
-viral_usher_version = '0.7.0'
-refseq_acc = 'NC_004162.2'
-refseq_assembly = 'GCF_000854045.1'
+viral_usher_version = '0.10.0'
+#refseq_acc = 'NC_004162.2'
+#refseq_assembly = 'GCF_000854045.1'
+ref_fasta = './trees/Chikungunya_virus/treetime_rerooted_NC_004162.2.fa'
+ref_gbff = './trees/Chikungunya_virus/treetime_rerooted_NC_004162.2.gbff'
 taxonomy_id = '3426298'
 nextclade_dataset = 'community/v-gen-lab/chikV/genotypes'
 nextclade_clade_columns = ''
