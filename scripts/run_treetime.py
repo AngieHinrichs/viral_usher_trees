@@ -226,7 +226,7 @@ def make_taxonium(tree, rerooted_tree_path, rerooted_gbff_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Use tree metadata TSV and trees/*/output_stats.tsv to make summary TSV")
+    parser = argparse.ArgumentParser(description="Run treetime on the given tree")
     parser.add_argument('-t', '--tree', required=True,
                         help="Tree name (must match a name from the tree_name column of tree_metadata.tsv)")
     parser.add_argument('-m', '--min_real_dates',
