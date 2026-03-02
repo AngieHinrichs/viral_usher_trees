@@ -55,7 +55,7 @@ while read tree_name; do
             # In the context of a long run on a GitHub runner with little disk space,
             # remove all of the files generated for failed runs too, because they won't
             # be available after this job exits anyway.
-            rm -f trees/$tree_name/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local.toml,changed_nodes,rename.tsv}
+            rm -f trees/$tree_name/{*.gzintermediate*,*.zip,*.fasta*,*.gbff,*.nh,empty*,*.log*,*.vcf.gz,data_report*,local*.toml,changed_nodes,rename.tsv}
             rm -f trees/$tree_name/{nextclade.clade.tsv,mutation-paths.txt,placement_stats.tsv,usher_sampled.pb.gz,optimized.unfiltered.pb.gz}
             rm -f trees/$tree_name/{ncbi_virus_metadata.csv,tree_samples.txt}
             # Discard any changes to files under revision control
@@ -70,7 +70,9 @@ while read tree_name; do
             if [[ "$stray_files" != "" ]]; then
                 echo "Removing new files:"
                 echo "$stray_files"
-                git restore --staged $stray_files
+                if ! git restore --staged $stray_files ; then
+                    echo "*** INVESTIGATE At least one file matched our stray files pattern but was not actually in git. ***"
+                fi
                 rm -f $stray_files
             fi
             # Add some delay in case the failure was a rejected connection or network failure
