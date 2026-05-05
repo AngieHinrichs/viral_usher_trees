@@ -229,7 +229,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run treetime on the given tree")
     parser.add_argument('-t', '--tree', required=True,
                         help="Tree name (must match a name from the tree_name column of tree_metadata.tsv)")
-    parser.add_argument('-m', '--min_real_dates',
+    parser.add_argument('-m', '--min_real_dates', type=float,
                         help=f"Minimum proportion of dates in metadata.tsv.gz that have real values (default: {default_min_real_dates})")
     args = parser.parse_args()
     viral_usher_trees.check_top_level_dir()
