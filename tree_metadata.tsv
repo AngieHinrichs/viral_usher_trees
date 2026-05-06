@@ -93,8 +93,8 @@ NC_044046.1	Norovirus_GII_Hu_JP_2011_GII_Yuzawa_Gira2HS	Norovirus GII/Hu/JP/2011
 NC_008311.1	Norovirus_GV	Norovirus GV	Mu/NoV/GV/MNV1/2002/USA				3431196	146
 NC_029646.1	Norwalk_like_virus	Norwalk-like virus		Hu/Norovirus/hiroshima/1999/JP(9912-02F)			3431196	3731
 NC_031324.1	Primate_norovirus	Primate norovirus		SimianNoV-nj			3431196	132
-NC_001781.1	Human_orthopneumovirus_B1	Human orthopneumovirus		B1			3049954	24658
-NC_001803.1	Human_respiratory_syncytial_virus_A	Human respiratory syncytial virus A		S2 ts1C			3049954	24657
+NC_001781.1	Human_orthopneumovirus_B1	Human orthopneumovirus		B1			3049954	11357
+NC_001803.1	Human_respiratory_syncytial_virus_A	Human respiratory syncytial virus A		S2 ts1C			3049954	13241
 NC_001477.1	dengue_virus_type_1	dengue virus type 1					3052464	8781
 NC_001474.2	dengue_virus_type_2	dengue virus type 2		16681			3052464	7643
 NC_001475.2	dengue_virus_type_3	dengue virus type 3	D3/H/IMTSSA-SRI/2000/1266				3052464	3634
@@ -202,7 +202,7 @@ AC_000017.1	Human_adenovirus_1	Human adenovirus 1			1		3241411	712
 AC_000007.1	Human_adenovirus_2	Human adenovirus 2			Human adenovirus type 2		3241411	712
 AC_000008.1	Human_adenovirus_5	Human adenovirus 5			Human adenovirus type 5		3241411	712
 NC_001405.1	Human_mastadenovirus_C	Human mastadenovirus C			Human adenovirus 2		3241411	712
-NC_001699.1	JC_polyomavirus	JC polyomavirus		Mad1			1891763	755
+NC_001699.1	JC_polyomavirus	JC polyomavirus		Mad1			1891763	750
 NC_015126.1	Avian_orthoreovirus_AVS_B_L1	Avian orthoreovirus	AVS-B	AVS-B		L1	3431493	341
 NC_015135.1	Avian_orthoreovirus_AVS_B_S4	Avian orthoreovirus	AVS-B	AVS-B		S4	3431493	431
 NC_015127.1	Avian_orthoreovirus_AVS_B_L2	Avian orthoreovirus	AVS-B	AVS-B		L2	3431493	308
@@ -371,7 +371,7 @@ NC_036619.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_3	Influenza D virus (D/
 NC_036616.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_1	Influenza D virus (D/swine/Oklahoma/1334/2011)		D/swine/Oklahoma/1334/2011		1	2955744	319
 NC_036618.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_4	Influenza D virus (D/swine/Oklahoma/1334/2011)		D/swine/Oklahoma/1334/2011		4	2955744	336
 NC_036621.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_7	Influenza D virus (D/swine/Oklahoma/1334/2011)		D/swine/Oklahoma/1334/2011		7	2955744	329
-NC_019843.3	Middle_East_respiratory_syndrome_related_coronavirus	Middle East respiratory syndrome-related coronavirus	HCoV-EMC/2012	HCoV-EMC			3433633	808
+NC_019843.3	Middle_East_respiratory_syndrome_related_coronavirus	Middle East respiratory syndrome-related coronavirus	HCoV-EMC/2012	HCoV-EMC			3433633	798
 NC_015116.1	Avian_leukemia_virus	Avian leukemia virus	SCDY1				3426267	333
 NC_001408.1	Avian_leukosis_virus_RSA	Avian leukosis virus - RSA					3426267	334
 NC_003398.1	Sugarcane_mosaic_virus	Sugarcane mosaic virus					3240610	224
@@ -395,7 +395,7 @@ NC_006551.1	Usutu_virus	Usutu virus		Vienna 2001			3048443	1105
 NC_015782.2	Grapevine_Pinot_gris_virus	Grapevine Pinot gris virus					3432991	311
 NC_001593.1	Human_papillomavirus_type_53	Human papillomavirus type 53					337050	169
 NC_038889.1	human_papillomavirus_30	human papillomavirus 30					337050	169
-NC_003899.1	Eastern_equine_encephalitis_virus	Eastern equine encephalitis virus	ssp. North American variant	ssp. North American variant			3426299	566
+NC_003899.1	Eastern_equine_encephalitis_virus	Eastern equine encephalitis virus	ssp. North American variant	ssp. North American variant			3426299	565
 NC_005831.2	Human_coronavirus_NL63	Human coronavirus NL63		Amsterdam I			3433809	415
 NC_003461.1	Human_respirovirus_1	Human respirovirus 1		Washington 1964			3049952	499
 NC_001575.2	Rice_yellow_mottle_virus	Rice yellow mottle virus	CI4				3432506	149
