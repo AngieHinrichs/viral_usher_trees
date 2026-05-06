@@ -1,0 +1,252 @@
+LOCUS       rerooted_NC_009539.1             5229 bp    DNA     circular VRL 13-AUG-2018
+DEFINITION  rerooted_NC_009539.1.
+ACCESSION   rerooted_NC_009539.1
+VERSION     rerooted_NC_009539.1
+KEYWORDS    RefSeq.
+SOURCE      WU Polyomavirus
+  ORGANISM  WU Polyomavirus
+            Viruses; Monodnaviria; Shotokuvirae; Cossaviricota; Papovaviricetes;
+            Sepolyvirales; Polyomaviridae; Betapolyomavirus; Betapolyomavirus
+            quartihominis.
+REFERENCE   1  (bases 1 to 5229)
+  AUTHORS   Gaynor,A.M., Nissen,M.D., Whiley,D.M., Mackay,I.M., Lambert,S.B.,
+            Wu,G., Brennan,D.C., Storch,G.A., Sloots,T.P. and Wang,D.
+  TITLE     Identification of a novel polyomavirus from patients with acute
+            respiratory tract infections
+  JOURNAL   PLoS Pathog. 3 (5), E64 (2007)
+   PUBMED   17480120
+REFERENCE   2  (bases 1 to 5229)
+  AUTHORS   Gaynor,A.M., Nissen,M.D., Whiley,D.M., Mackay,I.M., Lambert,S.B.,
+            Wu,G., Brennan,D.C., Storch,G.A., Sloots,T.D. and Wang,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-2007) Molecular Microbiology and Pathology &
+            Immunology, Washington University School of Medicine, 660 S. Euclid
+            Ave, St. Louis, MO 63110, USA
+REFERENCE   3  (bases 1 to 5229)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EF444549.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5229
+                     /organism="WU Polyomavirus"
+                     /mol_type="genomic DNA"
+                     /strain="B0"
+                     /db_xref="taxon:440266"
+                     /geo_loc_name="Australia"
+     gene            574..1821
+                     /locus_tag="WUPyV_gp2"
+                     /db_xref="GeneID:5309725"
+     CDS             574..1821
+                     /locus_tag="WUPyV_gp2"
+                     /note="NULL"
+                     /codon_start=1
+                     /product="VP2/VP3"
+                     /protein_id="YP_001285485.1"
+                     /db_xref="GeneID:5309725"
+                     /translation="MGILLAVPEIIAASVAGGAEALSIAGSGAAIATGEGLAALGGLTE
+                     SAALLGETVEISEAAATVLTKVPELVTVTQGVTAAVQGGAGLVGGIYTALAADRPGDLP
+                     ASTPTGSPSGLHPPAGYNPQGGGLNIQSIHKPLHAPYPGMALAPIPEYNLETGIPGVPD
+                     WVFNFIASHLPELPSLQDVFNRIAYGIWTSYYNTGRTVVNRAVSEELQRLLGDLEYGFR
+                     TALATIGESDPVNAIVEQVRSFVSGGRERELLQIAAGQPVDISEGVSRGTATISNAVEA
+                     VRDATQRLSQATYNFVYDASTLPRDGFNALSDGVHRLGQWISMPGATGGTPHYAAPDWI
+                     LYVLEELNSDISKIPTQGIKRKLQQNGLHSKASLHSKTRKVTKKSTHKSAKPSKTSQKR
+                     RGRRAGRRTTVRRNRV*"
+     gene            1003..1821
+                     /locus_tag="WUPyV_gp3"
+                     /db_xref="GeneID:5309724"
+     CDS             1003..1821
+                     /locus_tag="WUPyV_gp3"
+                     /codon_start=1
+                     /product="VP3"
+                     /protein_id="YP_001285486.1"
+                     /db_xref="GeneID:5309724"
+                     /translation="MALAPIPEYNLETGIPGVPDWVFNFIASHLPELPSLQDVFNRIAY
+                     GIWTSYYNTGRTVVNRAVSEELQRLLGDLEYGFRTALATIGESDPVNAIVEQVRSFVSG
+                     GRERELLQIAAGQPVDISEGVSRGTATISNAVEAVRDATQRLSQATYNFVYDASTLPRD
+                     GFNALSDGVHRLGQWISMPGATGGTPHYAAPDWILYVLEELNSDISKIPTQGIKRKLQQ
+                     NGLHSKASLHSKTRKVTKKSTHKSAKPSKTSQKRRGRRAGRRTTVRRNRV*"
+     gene            1670..2779
+                     /locus_tag="WUPyV_gp1"
+                     /db_xref="GeneID:5309723"
+     CDS             1670..2779
+                     /locus_tag="WUPyV_gp1"
+                     /note="VP1; major capsid protein of polyomavirus; 72
+                     pentamers of VP1 comprise the outer capsid and form a T = 7
+                     icosahedral lattice; VP1 contains an amino-terminal
+                     bipartite nuclear targeting signal that overlaps its
+                     DNA-binding-domain; The polyomaviruses are non-enveloped
+                     dsDNA viruses with a major capsid protein, VP1, that
+                     facilitates binding of genomic DNA and entry into target
+                     cells; the viral genome is organized into two divergent
+                     transcriptional units known as early and late regions;
+                     mRNAs from the early region encode the viral small and
+                     large t-antigens; mRNAs from the late region encode the
+                     structural proteins, VP1, VP2 and VP3"
+                     /codon_start=1
+                     /product="Major capsid protein VP1"
+                     /protein_id="YP_001285487.1"
+                     /db_xref="GeneID:5309723"
+                     /translation="MACTAKPACTAKPGRSPRSQPTRVQSLPKQVRKGGVDVLAAVPLS
+                     EETEFKVELFVKPVIGNAEGTTPHYWSISSPLKTAEAANVTPDADTTVCYSLSQVAPPD
+                     IPNQVSECDMLIWELYRMETEVLVLPVLNAGILTTGGVGGIAGPQLYFWAVGGQPLDVL
+                     GLAPTEKYKGPAQYTVNPKTNGTVPHVYSSSETPRARVTNEKYSIESWVADPSRNDNCR
+                     YFGRMVGGAATPPVVSFSNNSTIPLLDENGIGILCLQGRLYITCADLLGVNKNRVHTGL
+                     SRFFRLHFRQRRVRNPYTINLLYKQVFNKPADDISGQLQVTEVTMTEETGPLPPTVEGN
+                     VGVPTTSNLSHLPATVTLQATGPILNTQG*"
+     gene            complement(2812..5157)
+                     /locus_tag="WUPyV_gp4"
+                     /db_xref="GeneID:5309721"
+     CDS             complement(join(2812..4506,4906..5157))
+                     /locus_tag="WUPyV_gp4"
+                     /note="large T antigen; binds to the viral origin of
+                     replication; regulates the transcription of early region
+                     mRNA; helicase activity facilitates movement of the virion
+                     DNA replication fork; the small T antigen shares a region
+                     in common with the large T antigen known as the J-domain;
+                     the J-domain is required for multiple processes including
+                     assembly, viral genomic DNA replication and transcription;
+                     The polyomaviruses are non-enveloped dsDNA viruses; the
+                     viral genome is organized into two divergent
+                     transcriptional units known as early and late regions;
+                     mRNAs from the early region encode the viral small and
+                     large t-antigens; the small T antigen and large T antigen
+                     are expressed upon entry into the host nucleus early in the
+                     viral lifecycle"
+                     /codon_start=1
+                     /product="large T antigen"
+                     /protein_id="YP_001285488.1"
+                     /db_xref="GeneID:5309721"
+                     /translation="MDKTLSRNEAKELMQLLGLDMTCWGNLPLMRTKYLSKCKEFHPDK
+                     GGNEEKMKKLNSLYLKLQECVSTVHQLNEEEDEVWSSSQIPTYGTPDWDYWWSQFNSYW
+                     EEELRCNEEMPKSPGETPTKRTREDDEEPQCSQATPPKKKKDNATDASLSFPKELEEFV
+                     SQAVFSNRTLTAFVIHTTKEKAETLYKKLLSKFKCNFASRHSYYNTALVFILTPFRHRV
+                     SAVNNFCKGYCTISFLFCKGVNNAYGLYSRMTRDPFTLCEENIPGGLKENDFKAEDLYG
+                     EFKDQLNWKALSEFALELGIDDVYLLLGLYLQLSIKVEECEKCNSNEDATHNRLHMEHQ
+                     KNALLFSDSKSQKNVCQQAIDVVIAKRRVDSLNMSREDLLARRFEKILDKMDKTIKGEQ
+                     DVLLYMAGVAWYLGLNGKIDELVYRYLKVIVENVPKKRYWVFKGPINSGKTTVAAALLD
+                     LCGGKALNINIPADRLNFELGVAIDQFTVVFEDVKGQVGDNKLLPSGNGMSNLDNLRDY
+                     LDGSVKVNLEKKHLNKRSQIFPPGIVTMNEYLVPATLAPRFHKTVLFTPKRHLKESLDK
+                     TPELMVKRVLQSGMCILIMLIWCRPVSDFHPCIQAKVVYWKELLDKYIGLTEFADMQMN
+                     VTNGCNILEKHNA"
+     gene            complement(4573..5157)
+                     /locus_tag="WUPyV_gp5"
+                     /db_xref="GeneID:5309722"
+     CDS             complement(4573..5157)
+                     /locus_tag="WUPyV_gp5"
+                     /note="small T-antigen; promotes the efficient replication
+                     of genomic DNA; binds to and negativley regulates the
+                     function of protein phosphotase (PP2A) thereby accelerating
+                     the progression to S-phase; the small T-antigen shares a
+                     region in common with the large T-antigen known as the
+                     J-domain; the J-domain is required for multiple processes
+                     including assembly, viral genomic DNA replication and
+                     transcription; The polyomaviruses are non-enveloped dsDNA
+                     viruses; the viral genome is organized into two divergent
+                     transcriptional units known as early and late regions;
+                     mRNAs from the early region encode the viral small and
+                     large t-antigens; the small T antigen and large T antigen
+                     are expressed upon entry into the host nucleus early in the
+                     viral lifecycle; the small T antigen is not essential for
+                     replication in all cell lines"
+                     /codon_start=1
+                     /product="Small T antigen"
+                     /protein_id="YP_001285489.1"
+                     /db_xref="GeneID:5309722"
+                     /translation="MDKTLSRNEAKELMQLLGLDMTCWGNLPLMRTKYLSKCKEFHPDK
+                     GGNEEKMKKLNSLYLKLQECVSTVHQLNEEEDEVWSSSQVECTELCCNFPPRKYRLVGE
+                     VYGDVFEEYILKDWDICLKGFYYLCNCFYCFLDKRHKQKYKIFRKPPMWIECYCYRCYR
+                     EWFGFEISAETFFYWKKIIFLTTMQGVGLTR*"
+ORIGIN
+        1 gcctcaggcc tccttattat aataaaaaaa agctaagcat gattgacagt gtgggctaaa
+       61 ccaaaagcac aagaacaaag cttttagcca attagcagcc acaaggtgga gcaaaagtat
+      121 taagtttcac tgttatgtgc aggaatgtgc agctgtgacc ttttaaagtt tccgggcacg
+      181 gcgccaactt cctgggcctg gtgccatacc aacacagctg ctgagcttcc ggaatacaat
+      241 actggtgccc tttgtaagtg ttttacaggt aagtaaggcc tacaacaggg cttatttgta
+      301 ctataagtta atgggggccc tttgtagtcc agcggaaagt gaagggtggc ttaacagaga
+      361 cgtccttggg ttcaaaccta agggtgccat aagcaacatt acattaatgt tgtgacatct
+      421 ccagtcgggg gtattggcct ataggaaacc ctagggctct ataagcagca tacatatgtt
+      481 gtgacatctc cgttgagtct gggggtattg gtgctaccgt ctcgaaccta gccgacagcc
+      541 gttggatata aagggtcacc atttttattt cagatgggca tattgcttgc tgtgcctgaa
+      601 ataattgctg catctgtagc tggaggagca gaggcactat caattgctgg atctggagct
+      661 gcaatagcaa ctggtgaagg tttagctgct cttggtgggc ttacagagtc agcagcacta
+      721 ttaggggaaa ctgttgaaat atctgaagca gctgctactg tactaacaaa agtacctgag
+      781 cttgtaactg taacacaagg tgtaacagca gctgtacaag ggggtgcagg tcttgtaggt
+      841 ggtatatata cagctttagc agcagatcgc cctggggacc tgcctgcgag taccccaaca
+      901 ggaagtccaa gtggactaca tccccccgca ggatacaatc cccaaggagg tggacttaat
+      961 atccagtcca tccacaagcc cctccacgcc ccctacccag gaatggcact ggcacctatc
+     1021 cctgaataca acttggaaac tggaattcca ggggtcccgg actgggtatt caacttcatt
+     1081 gcatcccacc tgcccgagtt gcctagcctg caggacgtgt tcaatagaat tgcctatgga
+     1141 atctggacat catattacaa tacggggaga acagtagtta atagagcagt tagtgaagaa
+     1201 ttacaaagac tactaggaga tttagaatat ggatttagaa ctgcacttgc caccattggg
+     1261 gaatctgacc cagtaaatgc tatagttgaa caagtaagaa gctttgttag tggaggaaga
+     1321 gaaagagaac tgttacaaat agctgcaggt caacctgtag acatttctga aggtgtatca
+     1381 agaggcacag ctactatttc aaatgctgta gaagctgtaa gagatgcaac tcaaagacta
+     1441 tcacaagcaa cctacaactt tgtttatgat gcttctaccc ttccaaggga tggctttaat
+     1501 gcacttagtg atggagttca cagactaggc cagtggattt caatgcctgg ggctacaggg
+     1561 ggtactcccc attatgcagc ccctgactgg attttatatg tacttgaaga gctaaacagt
+     1621 gacatttcta aaattcctac acagggaatt aaaagaaaac tacaacaaaa tggcctgcac
+     1681 agcaaagcca gcctgcacag caaaaccagg aaggtcacca agaagtcaac ccacaagagt
+     1741 gcaaagcctt ccaaaacaag tcagaaaagg aggggtagac gtgctggccg ccgtaccact
+     1801 gtcagaagaa acagagttta aagttgaatt gtttgttaaa cctgttattg gaaatgcaga
+     1861 ggggactacc ccacattatt ggtctattag tagcccactt aaaactgctg aagctgctaa
+     1921 tgttactcct gatgctgata ctactgtgtg ctacagcttg tcacaggttg ctccccctga
+     1981 tattcctaat caggttagtg aatgtgacat gcttatatgg gagctgtata gaatggaaac
+     2041 agaagttttg gtgcttcctg tgcttaatgc tggcatactt actacagggg gtgtaggagg
+     2101 tattgctggt ccccaacttt atttttgggc agttggagga cagcccttgg atgtgctagg
+     2161 acttgctccc actgaaaaat acaaggggcc tgctcagtat actgtaaatc ctaaaaccaa
+     2221 tggtactgtg cctcatgttt attccagttc tgaaacaccc agggcaaggg tcactaatga
+     2281 aaagtacagc attgaatcat gggtggcaga ccctagccgc aatgataact gcagatactt
+     2341 tggcagaatg gttggagggg ctgcaactcc accagtggtg tcatttagta ataatagcac
+     2401 aattccactg ttggatgaaa atggcattgg cattctttgc ttgcaaggta gattgtacat
+     2461 aacttgtgct gaccttttgg gagttaacaa aaatagagta catacagggc tttccagatt
+     2521 ttttaggcta cactttagac aaagaagggt tagaaaccca tatactataa atttgcttta
+     2581 taagcaggtg tttaataagc cagctgatga cattagtggg caactgcagg ttacagaggt
+     2641 tactatgact gaagaaacag ggcccttgcc tcccacagta gagggaaatg ttggtgtacc
+     2701 cacaaccagt aatttgtctc atttgcctgc aactgtaact ttacaagcca caggcccaat
+     2761 actaaacaca caaggataat gtaataaatg cagtttatta ataaagcaat tttaagcatt
+     2821 gtgtttttca agtatgttgc atccatttgt tacattcatt tgcatgtcag caaattcagt
+     2881 aaggcctata tatttgtcta acagttcttt ccaatacaca actttagctt gtatacatgg
+     2941 gtgaaaatca ctaacaggcc tgcaccatat taacataatt aaaatacaca ttccactttg
+     3001 taaaactctt tttaccatta gttctggagt tttatccaga ctttctttta agtgtctttt
+     3061 gggtgtaaaa agtacagttt tatgaaatct aggagccaaa gtagcaggga ctaaatattc
+     3121 attcattgtt acaatacctg gaggaaaaat ttgtgacctt ttatttaaat gttttttttc
+     3181 taaattaact ttaacacttc catctaaata gtctcttaaa ttatctaagt tactcattcc
+     3241 atttccagat ggtaacagtt tattatctcc tacttgacct tttacatctt caaatactac
+     3301 tgtaaattga tctattgcaa ctcctaactc aaagtttaat ctatcagctg gaatattaat
+     3361 atttaaggcc tttcctccac aaaggtcaag taaagcagca gcaacagttg ttttaccact
+     3421 gtttataggc cccttaaaaa cccaatacct ttttttaggt acattttcaa ctataacttt
+     3481 taggtacctg tatacaagct catctatttt accatttagg cctaaatacc aggctacacc
+     3541 agccatatat aataaaacat cttgctcacc tttaatagtt ttatccattt tgtccagtat
+     3601 tttttcaaat cttctagcta ataaatcttc tctggacata tttaaactat ctacccttct
+     3661 ttttgcaata accacatcaa tagcctgttg acacacattt ttttgacttt tactgtctga
+     3721 aaatagtaaa gcattttttt gatgttccat atgaagtcta ttatgagttg catcttcatt
+     3781 actattgcat ttttcacact cttctacctt aatagatagt tgtaaatata atccaagtaa
+     3841 taagtacaca tcatcaattc ctaattctaa agcaaattct gacaaagcct tccaatttaa
+     3901 ttgatcttta aactccccat ataaatcctc agctttaaaa tcattttctt ttaagccacc
+     3961 aggaatattt tcttcacata aagtaaatgg atctctagtc attctactat ataaaccata
+     4021 tgcattatta acacctttac aaaataaaaa gctaatagta cagtatccct tacaaaagtt
+     4081 attaacagca ctaactctat gtctaaaagg tgttaaaata aacacaagtg cagtattata
+     4141 ataagaatgt ctacttgcaa aattacattt aaacttactt aaaagttttt tatatagggt
+     4201 ttctgccttt tctttggtgg tatgtattac aaatgcagtt aaagttctat tactaaatac
+     4261 agcttgagac acaaattctt ccaattcttt aggaaatgat aaagatgcat ctgtagcatt
+     4321 gtcctttttt tttttaggtg gtgttgcctg tgaacattgt ggttcctcat catcttctct
+     4381 agtacgcttt gtaggggttt ctccaggaga tttaggcatt tcctcattac atcttagttc
+     4441 ttcttcccag taggaattaa actgagacca ccagtaatcc cagtctgggg taccatatgt
+     4501 gggtatctat aataaaaaaa aattattaat ttacttataa aacataaaag tacccctata
+     4561 ataaaaacat gcttacctgg ttaagccaac cccttgcatg gttgtaagaa atataatctt
+     4621 tttccagtaa aaaaatgttt ctgcactaat ttcaaagcca aaccactctc tatagcacct
+     4681 gtagcagtaa cactctatcc acattggagg ttttctaaat attttatatt tttgcttgtg
+     4741 gcgcttgtct aaaaagcagt aaaaacaatt acacaaataa taaaacccct ttaagcatat
+     4801 gtcccagtct tttaaaatat actcttcaaa aacatcacca taaacttctc caacaagcct
+     4861 gtactttcta gggggaaagt tacagcacaa ttctgtgcat tctacctgtg aagagctcca
+     4921 cacttcatct tcttcttcat ttagttggtg cactgtacta acacactctt gcagttttaa
+     4981 atataaagaa ttaagctttt tcattttttc ctcatttccc cctttgtcag gatgaaattc
+     5041 tttgcatttg ctaaggtatt ttgttctcat tagtggtaaa tttccccagc aggtcatatc
+     5101 aagacccagc agctgcataa gttcttttgc ttcatttctg gacaaagttt tatccatttt
+     5161 gccttcttta gcctcaaggc gcctcagcaa ggccctctgc ttttagttca gaaagttgag
+     5221 gctttttag
+//
