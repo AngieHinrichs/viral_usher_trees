@@ -94,7 +94,6 @@ NC_008311.1	Norovirus_GV	Norovirus GV	GCF_000868425.1	Mu/NoV/GV/MNV1/2002/USA			
 NC_029646.1	Norwalk_like_virus	Norwalk-like virus	GCF_001595695.1		Hu/Norovirus/hiroshima/1999/JP(9912-02F)			7518		3431196	63009
 NC_031324.1	Primate_norovirus	Primate norovirus	GCF_001755385.1		SimianNoV-nj			7753		3431196	63009
 NC_001781.1	Human_orthopneumovirus_B1	Human orthopneumovirus	GCF_000855545.1		B1			15225		3049954	59101
-NC_038235.1	Human_orthopneumovirus_NC_038235_1	Human orthopneumovirus	GCF_002815475.1					15222		3049954	59101
 NC_001803.1	Human_respiratory_syncytial_virus_A	Human respiratory syncytial virus A	GCF_000856445.1		S2 ts1C			15191		3049954	59101
 NC_001477.1	dengue_virus_type_1	dengue virus type 1	GCF_000862125.1					10735		3052464	53911
 NC_001474.2	dengue_virus_type_2	dengue virus type 2	GCF_000871845.1		16681			10723		3052464	53911
@@ -372,7 +371,6 @@ NC_036619.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_3	Influenza D virus (D/
 NC_036616.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_1	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		1	2364	Sus scrofa	2955744	1802
 NC_036618.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_4	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		4	2049	Sus scrofa	2955744	1802
 NC_036621.1	Influenza_D_virus_D_swine_Oklahoma_1334_2011_7	Influenza D virus (D/swine/Oklahoma/1334/2011)	GCF_002867775.1		D/swine/Oklahoma/1334/2011		7	868	Sus scrofa	2955744	1802
-NC_038294.1	Betacoronavirus_England_1	Betacoronavirus England 1	GCF_002816195.1	H123990006	England 1			30111	Homo sapiens	3433633	1782
 NC_019843.3	Middle_East_respiratory_syndrome_related_coronavirus	Middle East respiratory syndrome-related coronavirus	GCF_000901155.1	HCoV-EMC/2012	HCoV-EMC			30119	Homo sapiens	3433633	1782
 NC_015116.1	Avian_leukemia_virus	Avian leukemia virus	GCF_000891575.1	SCDY1				7489	Gallus gallus	3426267	1781
 NC_001408.1	Avian_leukosis_virus_RSA	Avian leukosis virus - RSA	GCF_000849845.1					7286		3426267	1781
